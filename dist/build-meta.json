@@ -2,11 +2,11 @@
   "schemaVersion": "1.0.0",
   "canonicalBase": "https://shar-production-open-tools.pages.dev",
   "registryVersion": "1.0.0",
-  "registryUpdatedAt": "2026-09-05T21:41:58Z",
+  "registryUpdatedAt": "2026-09-05T21:53:32Z",
   "toolFactoryVersion": "1.0.0",
-  "assetCount": 64,
+  "assetCount": 76,
   "sourceDigests": {
-    "registry": "207be6a1bc6d3f88d6a6edac70e74d5ccbc2db5cb93cbe02a4db64fb944919f6",
+    "registry": "df348278d4634142bc42dbb8b31a5b451f22a7e853f736726c08e71358f77f8a",
     "toolFactory": "cc2fbee1530e1e188ff4e95441a7a884d648dc056b0fe33916bcd69a32a7b20c"
   }
 }
