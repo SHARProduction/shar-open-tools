@@ -4,7 +4,7 @@
     "registry": {
       "id": "SHAR_PUBLIC_ASSET_REGISTRY",
       "version": "1.0.0",
-      "updatedAt": "2026-09-05T21:56:56Z"
+      "updatedAt": "2026-09-05T22:09:26Z"
     },
     "toolFactory": {
       "name": "@shar-production/tool-factory",
@@ -1469,6 +1469,248 @@
       ]
     },
     {
+      "assetId": "shar-public.asset.github.wave06-orchestrator",
+      "type": "github_repository",
+      "title": {
+        "en": "SHAR Production Public Engine Wave 06 Orchestrator",
+        "ru": "Оркестратор шестой волны SHAR Production Public Engine"
+      },
+      "category": "open-source",
+      "url": "https://github.com/SHARProduction/shar-public-engine-wave-06",
+      "status": "PUBLISHED_VERIFIED",
+      "license": "MIT",
+      "version": {
+        "kind": "release_tag",
+        "value": "v1.0.0"
+      },
+      "verifiedAt": "2026-09-05T22:09:26Z",
+      "evidence": [
+        "Public v1.0.0 release is non-draft and non-prerelease.",
+        "Fresh recursive clone resolved all 10 pinned submodules at their v1.0.0 commits.",
+        "Fresh-clone test suite passed 5/5 and covered 20 distinct evaluators and 60 localized pages."
+      ]
+    },
+    {
+      "assetId": "shar-public.asset.github.wave06.casting-audition-tools",
+      "type": "github_repository",
+      "title": {
+        "en": "SHAR Production casting tools",
+        "ru": "Инструменты SHAR Production: casting"
+      },
+      "category": "open-source",
+      "url": "https://github.com/SHARProduction/casting-audition-tools",
+      "status": "PUBLISHED_VERIFIED",
+      "license": "MIT",
+      "version": {
+        "kind": "git_commit",
+        "value": "62f6f4b67bfe268b735fd0ca445ee50a76500af5"
+      },
+      "verifiedAt": "2026-09-05T22:09:26Z",
+      "evidence": [
+        "Public SHARProduction/casting-audition-tools repository verified at exact main commit 62f6f4b67bfe268b735fd0ca445ee50a76500af5.",
+        "Public v1.0.0 release is non-draft and non-prerelease; LICENSE contains the complete MIT license issued by SHAR Production.",
+        "README and repository metadata identify SHAR Production and https://sharprod.com/. Pair contains 2 working bilingual tools."
+      ]
+    },
+    {
+      "assetId": "shar-public.asset.github.wave06.catering-dietary-tools",
+      "type": "github_repository",
+      "title": {
+        "en": "SHAR Production catering tools",
+        "ru": "Инструменты SHAR Production: catering"
+      },
+      "category": "open-source",
+      "url": "https://github.com/SHARProduction/catering-dietary-tools",
+      "status": "PUBLISHED_VERIFIED",
+      "license": "MIT",
+      "version": {
+        "kind": "git_commit",
+        "value": "98c72657348bb6785686eeff0e47ea0326052256"
+      },
+      "verifiedAt": "2026-09-05T22:09:26Z",
+      "evidence": [
+        "Public SHARProduction/catering-dietary-tools repository verified at exact main commit 98c72657348bb6785686eeff0e47ea0326052256.",
+        "Public v1.0.0 release is non-draft and non-prerelease; LICENSE contains the complete MIT license issued by SHAR Production.",
+        "README and repository metadata identify SHAR Production and https://sharprod.com/. Pair contains 2 working bilingual tools."
+      ]
+    },
+    {
+      "assetId": "shar-public.asset.github.wave06.crew-time-tools",
+      "type": "github_repository",
+      "title": {
+        "en": "SHAR Production crew time tools",
+        "ru": "Инструменты SHAR Production: crew time"
+      },
+      "category": "open-source",
+      "url": "https://github.com/SHARProduction/crew-time-tools",
+      "status": "PUBLISHED_VERIFIED",
+      "license": "MIT",
+      "version": {
+        "kind": "git_commit",
+        "value": "5a82b0c743f219e82f8ce1eeb4ada28a1cab3e1b"
+      },
+      "verifiedAt": "2026-09-05T22:09:26Z",
+      "evidence": [
+        "Public SHARProduction/crew-time-tools repository verified at exact main commit 5a82b0c743f219e82f8ce1eeb4ada28a1cab3e1b.",
+        "Public v1.0.0 release is non-draft and non-prerelease; LICENSE contains the complete MIT license issued by SHAR Production.",
+        "README and repository metadata identify SHAR Production and https://sharprod.com/. Pair contains 2 working bilingual tools."
+      ]
+    },
+    {
+      "assetId": "shar-public.asset.github.wave06.equipment-media-tools",
+      "type": "github_repository",
+      "title": {
+        "en": "SHAR Production equipment media tools",
+        "ru": "Инструменты SHAR Production: equipment media"
+      },
+      "category": "open-source",
+      "url": "https://github.com/SHARProduction/equipment-media-tools",
+      "status": "PUBLISHED_VERIFIED",
+      "license": "MIT",
+      "version": {
+        "kind": "git_commit",
+        "value": "07101f4703d680f15508f2d78db23941ad11b0f2"
+      },
+      "verifiedAt": "2026-09-05T22:09:26Z",
+      "evidence": [
+        "Public SHARProduction/equipment-media-tools repository verified at exact main commit 07101f4703d680f15508f2d78db23941ad11b0f2.",
+        "Public v1.0.0 release is non-draft and non-prerelease; LICENSE contains the complete MIT license issued by SHAR Production.",
+        "README and repository metadata identify SHAR Production and https://sharprod.com/. Pair contains 2 working bilingual tools."
+      ]
+    },
+    {
+      "assetId": "shar-public.asset.github.wave06.lighting-generator-tools",
+      "type": "github_repository",
+      "title": {
+        "en": "SHAR Production power tools",
+        "ru": "Инструменты SHAR Production: power"
+      },
+      "category": "open-source",
+      "url": "https://github.com/SHARProduction/lighting-generator-tools",
+      "status": "PUBLISHED_VERIFIED",
+      "license": "MIT",
+      "version": {
+        "kind": "git_commit",
+        "value": "3288aeb29735559590c43dfd7e2359174d5ca0bb"
+      },
+      "verifiedAt": "2026-09-05T22:09:26Z",
+      "evidence": [
+        "Public SHARProduction/lighting-generator-tools repository verified at exact main commit 3288aeb29735559590c43dfd7e2359174d5ca0bb.",
+        "Public v1.0.0 release is non-draft and non-prerelease; LICENSE contains the complete MIT license issued by SHAR Production.",
+        "README and repository metadata identify SHAR Production and https://sharprod.com/. Pair contains 2 working bilingual tools."
+      ]
+    },
+    {
+      "assetId": "shar-public.asset.github.wave06.location-move-tools",
+      "type": "github_repository",
+      "title": {
+        "en": "SHAR Production location logistics tools",
+        "ru": "Инструменты SHAR Production: location logistics"
+      },
+      "category": "open-source",
+      "url": "https://github.com/SHARProduction/location-move-tools",
+      "status": "PUBLISHED_VERIFIED",
+      "license": "MIT",
+      "version": {
+        "kind": "git_commit",
+        "value": "e4f26d930d3b60b77d52f97040e882217f22688e"
+      },
+      "verifiedAt": "2026-09-05T22:09:26Z",
+      "evidence": [
+        "Public SHARProduction/location-move-tools repository verified at exact main commit e4f26d930d3b60b77d52f97040e882217f22688e.",
+        "Public v1.0.0 release is non-draft and non-prerelease; LICENSE contains the complete MIT license issued by SHAR Production.",
+        "README and repository metadata identify SHAR Production and https://sharprod.com/. Pair contains 2 working bilingual tools."
+      ]
+    },
+    {
+      "assetId": "shar-public.asset.github.wave06.risk-incident-tools",
+      "type": "github_repository",
+      "title": {
+        "en": "SHAR Production safety tools",
+        "ru": "Инструменты SHAR Production: safety"
+      },
+      "category": "open-source",
+      "url": "https://github.com/SHARProduction/risk-incident-tools",
+      "status": "PUBLISHED_VERIFIED",
+      "license": "MIT",
+      "version": {
+        "kind": "git_commit",
+        "value": "b4ff48f97407d68cae519f8a2b68eb4a9c7792e1"
+      },
+      "verifiedAt": "2026-09-05T22:09:26Z",
+      "evidence": [
+        "Public SHARProduction/risk-incident-tools repository verified at exact main commit b4ff48f97407d68cae519f8a2b68eb4a9c7792e1.",
+        "Public v1.0.0 release is non-draft and non-prerelease; LICENSE contains the complete MIT license issued by SHAR Production.",
+        "README and repository metadata identify SHAR Production and https://sharprod.com/. Pair contains 2 working bilingual tools."
+      ]
+    },
+    {
+      "assetId": "shar-public.asset.github.wave06.script-timing-density-tools",
+      "type": "github_repository",
+      "title": {
+        "en": "SHAR Production script story tools",
+        "ru": "Инструменты SHAR Production: script story"
+      },
+      "category": "open-source",
+      "url": "https://github.com/SHARProduction/script-timing-density-tools",
+      "status": "PUBLISHED_VERIFIED",
+      "license": "MIT",
+      "version": {
+        "kind": "git_commit",
+        "value": "7c1e782411201039a8404ab9aee9ce31bdbc29eb"
+      },
+      "verifiedAt": "2026-09-05T22:09:26Z",
+      "evidence": [
+        "Public SHARProduction/script-timing-density-tools repository verified at exact main commit 7c1e782411201039a8404ab9aee9ce31bdbc29eb.",
+        "Public v1.0.0 release is non-draft and non-prerelease; LICENSE contains the complete MIT license issued by SHAR Production.",
+        "README and repository metadata identify SHAR Production and https://sharprod.com/. Pair contains 2 working bilingual tools."
+      ]
+    },
+    {
+      "assetId": "shar-public.asset.github.wave06.storyboard-animatic-tools",
+      "type": "github_repository",
+      "title": {
+        "en": "SHAR Production script story tools",
+        "ru": "Инструменты SHAR Production: script story"
+      },
+      "category": "open-source",
+      "url": "https://github.com/SHARProduction/storyboard-animatic-tools",
+      "status": "PUBLISHED_VERIFIED",
+      "license": "MIT",
+      "version": {
+        "kind": "git_commit",
+        "value": "bddced2476ef483d5d4d13a4f7aa27ebe5983ab5"
+      },
+      "verifiedAt": "2026-09-05T22:09:26Z",
+      "evidence": [
+        "Public SHARProduction/storyboard-animatic-tools repository verified at exact main commit bddced2476ef483d5d4d13a4f7aa27ebe5983ab5.",
+        "Public v1.0.0 release is non-draft and non-prerelease; LICENSE contains the complete MIT license issued by SHAR Production.",
+        "README and repository metadata identify SHAR Production and https://sharprod.com/. Pair contains 2 working bilingual tools."
+      ]
+    },
+    {
+      "assetId": "shar-public.asset.github.wave06.weather-readiness-tools",
+      "type": "github_repository",
+      "title": {
+        "en": "SHAR Production readiness tools",
+        "ru": "Инструменты SHAR Production: readiness"
+      },
+      "category": "open-source",
+      "url": "https://github.com/SHARProduction/weather-readiness-tools",
+      "status": "PUBLISHED_VERIFIED",
+      "license": "MIT",
+      "version": {
+        "kind": "git_commit",
+        "value": "bf02428eba4f0d2974876afa06d02a12cd109da1"
+      },
+      "verifiedAt": "2026-09-05T22:09:26Z",
+      "evidence": [
+        "Public SHARProduction/weather-readiness-tools repository verified at exact main commit bf02428eba4f0d2974876afa06d02a12cd109da1.",
+        "Public v1.0.0 release is non-draft and non-prerelease; LICENSE contains the complete MIT license issued by SHAR Production.",
+        "README and repository metadata identify SHAR Production and https://sharprod.com/. Pair contains 2 working bilingual tools."
+      ]
+    },
+    {
       "assetId": "shar-public.asset.hf.production-brief-taxonomy",
       "type": "huggingface_dataset",
       "title": {
@@ -1686,6 +1928,28 @@
         "All 62 EN/RU pages returned HTTP 200 with unique exact canonicals, indexable robots metadata and valid JSON-LD.",
         "Root and sitemap expose 20 tools in 10 families; robots.txt and sitemap.xml returned HTTP 200.",
         "Playwright at an exact 390px viewport measured innerWidth, document scrollWidth and body scrollWidth as 390; the live bitrate estimator returned valid=true, 20.32 Mbps, 152.4 MB and 0.152 GB."
+      ]
+    },
+    {
+      "assetId": "shar-public.asset.web.wave06",
+      "type": "website",
+      "title": {
+        "en": "SHAR Production Public Engine Wave 06",
+        "ru": "Шестая волна SHAR Production Public Engine"
+      },
+      "category": "brand",
+      "url": "https://shar-production-wave-06.pages.dev/",
+      "status": "PUBLISHED_VERIFIED",
+      "license": "MIT",
+      "version": {
+        "kind": "content_sha256",
+        "value": "3eb7fbb8ac3fdabe2c240bfc9a9e11b7ae7dd6a4e52623d06f5c943110951b7a"
+      },
+      "verifiedAt": "2026-09-05T22:09:26Z",
+      "evidence": [
+        "All 62 EN/RU pages returned HTTP 200 with unique exact canonicals, indexable robots metadata and valid JSON-LD.",
+        "Root and sitemap expose 20 tools in 10 families; robots.txt and sitemap.xml returned HTTP 200.",
+        "Playwright at an exact 390px viewport measured innerWidth, document scrollWidth and body scrollWidth as 390; the live camera-media planner returned valid=true, 85.3 minutes per card, 144 required minutes and 2 cards."
       ]
     }
   ]
