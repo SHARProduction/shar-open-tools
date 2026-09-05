@@ -6,3 +6,4 @@ node_modules/
 .qa-*.mjs
 mobile-*.png
 *-dist-*.zip
+.wrangler/
