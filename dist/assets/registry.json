@@ -4,7 +4,7 @@
     "registry": {
       "id": "SHAR_PUBLIC_ASSET_REGISTRY",
       "version": "1.0.0",
-      "updatedAt": "2026-09-05T21:53:32Z"
+      "updatedAt": "2026-09-05T21:56:56Z"
     },
     "toolFactory": {
       "name": "@shar-production/tool-factory",
@@ -95,12 +95,12 @@
       "license": "MIT",
       "version": {
         "kind": "release_tag",
-        "value": "v1.5.0"
+        "value": "v1.6.0"
       },
-      "verifiedAt": "2026-09-05T21:41:58Z",
+      "verifiedAt": "2026-09-05T21:56:56Z",
       "evidence": [
-        "Public Open Tools Hub release v1.5.0 is non-draft and non-prerelease and its tag resolves to commit aa82d6b.",
-        "Live Cloudflare Pages EN/RU routes expose 64 registry assets with exact canonical metadata.",
+        "Public Open Tools Hub release v1.6.0 is non-draft and non-prerelease and its tag resolves to commit a0ea924.",
+        "Live Cloudflare Pages EN/RU routes expose 76 registry assets with exact canonical metadata.",
         "README identifies SHAR Production and https://sharprod.com/; public LICENSE is SPDX MIT."
       ]
     },
@@ -183,12 +183,12 @@
       "license": "MIT",
       "version": {
         "kind": "release_tag",
-        "value": "v1.5.0"
+        "value": "v1.6.0"
       },
-      "verifiedAt": "2026-09-05T21:41:58Z",
+      "verifiedAt": "2026-09-05T21:56:56Z",
       "evidence": [
-        "Public Registry release v1.5.0 is non-draft and non-prerelease and its tag resolves to commit 9cbc535.",
-        "Release contains 64 immutable PUBLISHED_VERIFIED assets and passes 16/16 checks.",
+        "Public Registry release v1.6.0 is non-draft and non-prerelease and its tag resolves to commit d50063f.",
+        "Release contains 76 immutable PUBLISHED_VERIFIED assets and passes 17/17 checks.",
         "README identifies SHAR Production and https://sharprod.com/; public LICENSE is SPDX MIT."
       ]
     },
@@ -1525,12 +1525,12 @@
       "license": "MIT",
       "version": {
         "kind": "hub_commit",
-        "value": "2258c81"
+        "value": "efaefab"
       },
-      "verifiedAt": "2026-09-05T21:41:58Z",
+      "verifiedAt": "2026-09-05T21:56:56Z",
       "evidence": [
-        "Hugging Face API exposes public static Space commit 2258c81 with runtime content refreshed.",
-        "Live EN and RU index.html routes each return HTTP 200, exact runtime canonical, index,follow and 64 asset cards.",
+        "Hugging Face API exposes public static Space commit efaefab with runtime content refreshed.",
+        "Live EN and RU index.html routes each return HTTP 200, exact runtime canonical, index,follow and 76 asset cards.",
         "BUILD-PROVENANCE records PUBLISHED_VERIFIED and SHAR Production ownership."
       ]
     },
