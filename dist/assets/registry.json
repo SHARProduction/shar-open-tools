@@ -4,7 +4,7 @@
     "registry": {
       "id": "SHAR_PUBLIC_ASSET_REGISTRY",
       "version": "1.0.0",
-      "updatedAt": "2026-09-05T22:55:02Z"
+      "updatedAt": "2026-09-05T23:06:08Z"
     },
     "toolFactory": {
       "name": "@shar-production/tool-factory",
@@ -2195,6 +2195,248 @@
       ]
     },
     {
+      "assetId": "shar-public.asset.github.wave09-orchestrator",
+      "type": "github_repository",
+      "title": {
+        "en": "SHAR Production Public Engine Wave 09 Orchestrator",
+        "ru": "Оркестратор девятой волны SHAR Production Public Engine"
+      },
+      "category": "open-source",
+      "url": "https://github.com/SHARProduction/shar-public-engine-wave-09",
+      "status": "PUBLISHED_VERIFIED",
+      "license": "MIT",
+      "version": {
+        "kind": "release_tag",
+        "value": "v1.0.0"
+      },
+      "verifiedAt": "2026-09-05T23:06:08Z",
+      "evidence": [
+        "Public v1.0.0 release is non-draft and non-prerelease.",
+        "Fresh recursive clone resolved all 10 pinned submodules at their v1.0.0 commits.",
+        "Fresh-clone test suite passed 5/5 and covered 20 distinct evaluators and 60 localized pages."
+      ]
+    },
+    {
+      "assetId": "shar-public.asset.github.wave09.approval-master-handoff-tools",
+      "type": "github_repository",
+      "title": {
+        "en": "SHAR Production approval handoff tools",
+        "ru": "Инструменты SHAR Production: approval handoff"
+      },
+      "category": "open-source",
+      "url": "https://github.com/SHARProduction/approval-master-handoff-tools",
+      "status": "PUBLISHED_VERIFIED",
+      "license": "MIT",
+      "version": {
+        "kind": "git_commit",
+        "value": "8f4e8a0badc2a43b1b3f5b2d71ff5e47f0c1356f"
+      },
+      "verifiedAt": "2026-09-05T23:06:08Z",
+      "evidence": [
+        "Public SHARProduction/approval-master-handoff-tools repository verified at exact main commit 8f4e8a0badc2a43b1b3f5b2d71ff5e47f0c1356f.",
+        "Public v1.0.0 release is non-draft and non-prerelease; LICENSE contains the complete MIT license issued by SHAR Production.",
+        "README and repository metadata identify SHAR Production and https://sharprod.com/. Pair contains 2 working bilingual tools."
+      ]
+    },
+    {
+      "assetId": "shar-public.asset.github.wave09.audio-delivery-compliance-tools",
+      "type": "github_repository",
+      "title": {
+        "en": "SHAR Production audio delivery tools",
+        "ru": "Инструменты SHAR Production: audio delivery"
+      },
+      "category": "open-source",
+      "url": "https://github.com/SHARProduction/audio-delivery-compliance-tools",
+      "status": "PUBLISHED_VERIFIED",
+      "license": "MIT",
+      "version": {
+        "kind": "git_commit",
+        "value": "4a609c0dec5174fb01bd3ebac38e8caf5becd5fa"
+      },
+      "verifiedAt": "2026-09-05T23:06:08Z",
+      "evidence": [
+        "Public SHARProduction/audio-delivery-compliance-tools repository verified at exact main commit 4a609c0dec5174fb01bd3ebac38e8caf5becd5fa.",
+        "Public v1.0.0 release is non-draft and non-prerelease; LICENSE contains the complete MIT license issued by SHAR Production.",
+        "README and repository metadata identify SHAR Production and https://sharprod.com/. Pair contains 2 working bilingual tools."
+      ]
+    },
+    {
+      "assetId": "shar-public.asset.github.wave09.color-hdr-metadata-tools",
+      "type": "github_repository",
+      "title": {
+        "en": "SHAR Production color hdr tools",
+        "ru": "Инструменты SHAR Production: color hdr"
+      },
+      "category": "open-source",
+      "url": "https://github.com/SHARProduction/color-hdr-metadata-tools",
+      "status": "PUBLISHED_VERIFIED",
+      "license": "MIT",
+      "version": {
+        "kind": "git_commit",
+        "value": "1e1fbbb07d3f23cb2a67c67d30f1b0109e8fccf6"
+      },
+      "verifiedAt": "2026-09-05T23:06:08Z",
+      "evidence": [
+        "Public SHARProduction/color-hdr-metadata-tools repository verified at exact main commit 1e1fbbb07d3f23cb2a67c67d30f1b0109e8fccf6.",
+        "Public v1.0.0 release is non-draft and non-prerelease; LICENSE contains the complete MIT license issued by SHAR Production.",
+        "README and repository metadata identify SHAR Production and https://sharprod.com/. Pair contains 2 working bilingual tools."
+      ]
+    },
+    {
+      "assetId": "shar-public.asset.github.wave09.crew-equipment-certification-tools",
+      "type": "github_repository",
+      "title": {
+        "en": "SHAR Production crew certification tools",
+        "ru": "Инструменты SHAR Production: crew certification"
+      },
+      "category": "open-source",
+      "url": "https://github.com/SHARProduction/crew-equipment-certification-tools",
+      "status": "PUBLISHED_VERIFIED",
+      "license": "MIT",
+      "version": {
+        "kind": "git_commit",
+        "value": "b97fed0cd922509fa1260f8468b752efe5c4f9fa"
+      },
+      "verifiedAt": "2026-09-05T23:06:08Z",
+      "evidence": [
+        "Public SHARProduction/crew-equipment-certification-tools repository verified at exact main commit b97fed0cd922509fa1260f8468b752efe5c4f9fa.",
+        "Public v1.0.0 release is non-draft and non-prerelease; LICENSE contains the complete MIT license issued by SHAR Production.",
+        "README and repository metadata identify SHAR Production and https://sharprod.com/. Pair contains 2 working bilingual tools."
+      ]
+    },
+    {
+      "assetId": "shar-public.asset.github.wave09.crew-privacy-tools",
+      "type": "github_repository",
+      "title": {
+        "en": "SHAR Production crew privacy tools",
+        "ru": "Инструменты SHAR Production: crew privacy"
+      },
+      "category": "open-source",
+      "url": "https://github.com/SHARProduction/crew-privacy-tools",
+      "status": "PUBLISHED_VERIFIED",
+      "license": "MIT",
+      "version": {
+        "kind": "git_commit",
+        "value": "b727a857367a7620b7f4b004bf48ff904bf1f320"
+      },
+      "verifiedAt": "2026-09-05T23:06:08Z",
+      "evidence": [
+        "Public SHARProduction/crew-privacy-tools repository verified at exact main commit b727a857367a7620b7f4b004bf48ff904bf1f320.",
+        "Public v1.0.0 release is non-draft and non-prerelease; LICENSE contains the complete MIT license issued by SHAR Production.",
+        "README and repository metadata identify SHAR Production and https://sharprod.com/. Pair contains 2 working bilingual tools."
+      ]
+    },
+    {
+      "assetId": "shar-public.asset.github.wave09.localization-dubbing-tools",
+      "type": "github_repository",
+      "title": {
+        "en": "SHAR Production localization dubbing tools",
+        "ru": "Инструменты SHAR Production: localization dubbing"
+      },
+      "category": "open-source",
+      "url": "https://github.com/SHARProduction/localization-dubbing-tools",
+      "status": "PUBLISHED_VERIFIED",
+      "license": "MIT",
+      "version": {
+        "kind": "git_commit",
+        "value": "05ff1eff3b253a80936454786b77e498bbf8b86f"
+      },
+      "verifiedAt": "2026-09-05T23:06:08Z",
+      "evidence": [
+        "Public SHARProduction/localization-dubbing-tools repository verified at exact main commit 05ff1eff3b253a80936454786b77e498bbf8b86f.",
+        "Public v1.0.0 release is non-draft and non-prerelease; LICENSE contains the complete MIT license issued by SHAR Production.",
+        "README and repository metadata identify SHAR Production and https://sharprod.com/. Pair contains 2 working bilingual tools."
+      ]
+    },
+    {
+      "assetId": "shar-public.asset.github.wave09.makeup-scene-continuity-tools",
+      "type": "github_repository",
+      "title": {
+        "en": "SHAR Production makeup scene tools",
+        "ru": "Инструменты SHAR Production: makeup scene"
+      },
+      "category": "open-source",
+      "url": "https://github.com/SHARProduction/makeup-scene-continuity-tools",
+      "status": "PUBLISHED_VERIFIED",
+      "license": "MIT",
+      "version": {
+        "kind": "git_commit",
+        "value": "9fc8a84c8ff51d62b08f74df17791c7b05dd679a"
+      },
+      "verifiedAt": "2026-09-05T23:06:08Z",
+      "evidence": [
+        "Public SHARProduction/makeup-scene-continuity-tools repository verified at exact main commit 9fc8a84c8ff51d62b08f74df17791c7b05dd679a.",
+        "Public v1.0.0 release is non-draft and non-prerelease; LICENSE contains the complete MIT license issued by SHAR Production.",
+        "README and repository metadata identify SHAR Production and https://sharprod.com/. Pair contains 2 working bilingual tools."
+      ]
+    },
+    {
+      "assetId": "shar-public.asset.github.wave09.performer-welfare-tools",
+      "type": "github_repository",
+      "title": {
+        "en": "SHAR Production welfare hours tools",
+        "ru": "Инструменты SHAR Production: welfare hours"
+      },
+      "category": "open-source",
+      "url": "https://github.com/SHARProduction/performer-welfare-tools",
+      "status": "PUBLISHED_VERIFIED",
+      "license": "MIT",
+      "version": {
+        "kind": "git_commit",
+        "value": "ba67ab914fd98b259a332344255b13f8aff75d05"
+      },
+      "verifiedAt": "2026-09-05T23:06:08Z",
+      "evidence": [
+        "Public SHARProduction/performer-welfare-tools repository verified at exact main commit ba67ab914fd98b259a332344255b13f8aff75d05.",
+        "Public v1.0.0 release is non-draft and non-prerelease; LICENSE contains the complete MIT license issued by SHAR Production.",
+        "README and repository metadata identify SHAR Production and https://sharprod.com/. Pair contains 2 working bilingual tools."
+      ]
+    },
+    {
+      "assetId": "shar-public.asset.github.wave09.styling-continuity-tools",
+      "type": "github_repository",
+      "title": {
+        "en": "SHAR Production styling continuity tools",
+        "ru": "Инструменты SHAR Production: styling continuity"
+      },
+      "category": "open-source",
+      "url": "https://github.com/SHARProduction/styling-continuity-tools",
+      "status": "PUBLISHED_VERIFIED",
+      "license": "MIT",
+      "version": {
+        "kind": "git_commit",
+        "value": "da1af715886e79f580ae5afe26ee238e4823d25c"
+      },
+      "verifiedAt": "2026-09-05T23:06:08Z",
+      "evidence": [
+        "Public SHARProduction/styling-continuity-tools repository verified at exact main commit da1af715886e79f580ae5afe26ee238e4823d25c.",
+        "Public v1.0.0 release is non-draft and non-prerelease; LICENSE contains the complete MIT license issued by SHAR Production.",
+        "README and repository metadata identify SHAR Production and https://sharprod.com/. Pair contains 2 working bilingual tools."
+      ]
+    },
+    {
+      "assetId": "shar-public.asset.github.wave09.vfx-pipeline-tools",
+      "type": "github_repository",
+      "title": {
+        "en": "SHAR Production vfx pipeline tools",
+        "ru": "Инструменты SHAR Production: vfx pipeline"
+      },
+      "category": "open-source",
+      "url": "https://github.com/SHARProduction/vfx-pipeline-tools",
+      "status": "PUBLISHED_VERIFIED",
+      "license": "MIT",
+      "version": {
+        "kind": "git_commit",
+        "value": "7b7f9e6b3c1c99345e3ccd42197ef0ea00ac7e21"
+      },
+      "verifiedAt": "2026-09-05T23:06:08Z",
+      "evidence": [
+        "Public SHARProduction/vfx-pipeline-tools repository verified at exact main commit 7b7f9e6b3c1c99345e3ccd42197ef0ea00ac7e21.",
+        "Public v1.0.0 release is non-draft and non-prerelease; LICENSE contains the complete MIT license issued by SHAR Production.",
+        "README and repository metadata identify SHAR Production and https://sharprod.com/. Pair contains 2 working bilingual tools."
+      ]
+    },
+    {
       "assetId": "shar-public.asset.hf.production-brief-taxonomy",
       "type": "huggingface_dataset",
       "title": {
@@ -2478,6 +2720,28 @@
         "All 62 EN/RU pages returned HTTP 200 with unique exact canonicals, indexable robots metadata and valid JSON-LD.",
         "Root and sitemap expose 20 tools in 10 families; robots.txt and sitemap.xml returned HTTP 200.",
         "Playwright at an exact 390px viewport measured innerWidth, document scrollWidth and body scrollWidth as 390; the live 3-2-1 backup validator returned valid=true with 3 copies, 3 media types and 1 offsite copy."
+      ]
+    },
+    {
+      "assetId": "shar-public.asset.web.wave09",
+      "type": "website",
+      "title": {
+        "en": "SHAR Production Public Engine Wave 09",
+        "ru": "Девятая волна SHAR Production Public Engine"
+      },
+      "category": "brand",
+      "url": "https://shar-production-wave-09.pages.dev/",
+      "status": "PUBLISHED_VERIFIED",
+      "license": "MIT",
+      "version": {
+        "kind": "content_sha256",
+        "value": "54c1beeab94bd8e35b56951b932bc429f7c7fe89fbf6b3d10394257ec019a389"
+      },
+      "verifiedAt": "2026-09-05T23:06:08Z",
+      "evidence": [
+        "All 62 EN/RU pages returned HTTP 200 with unique exact canonicals, indexable robots metadata and valid JSON-LD.",
+        "Root and sitemap expose 20 tools in 10 families; robots.txt and sitemap.xml returned HTTP 200.",
+        "Playwright at an exact 390px viewport measured innerWidth, document scrollWidth and body scrollWidth as 390; the live audio loudness checker returned valid=true for -23.2 LUFS, -1.5 dBTP and LRA 8."
       ]
     }
   ]
