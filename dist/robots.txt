@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://sharprod.com/open-tools/sitemap.xml

@@ -1,0 +1,307 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedFrom": {
+    "registry": {
+      "id": "SHAR_PUBLIC_ASSET_REGISTRY",
+      "version": "1.0.0",
+      "updatedAt": "2026-09-05T19:16:00Z"
+    },
+    "toolFactory": {
+      "name": "@shar-production/tool-factory",
+      "version": "1.0.0"
+    }
+  },
+  "publisher": {
+    "name": "SHAR Production",
+    "website": "https://sharprod.com/"
+  },
+  "assets": [
+    {
+      "assetId": "shar-public.asset.cloudflare.production-brief-browser",
+      "type": "browser_tool",
+      "title": {
+        "en": "Production brief browser",
+        "ru": "Проверка production-брифа"
+      },
+      "category": "tool",
+      "url": "https://production-brief-browser.bullolaya.workers.dev/",
+      "status": "PUBLISHED_VERIFIED",
+      "license": "MIT",
+      "version": {
+        "kind": "content_sha256",
+        "value": "4c7054add0da7e21379ebbce192fba3760f859e5864eb46a58f7339658acb3aa"
+      },
+      "verifiedAt": "2026-09-05T19:16:00Z",
+      "evidence": [
+        "HTTP 200; working application HTML retrieved.",
+        "Canonical equals public URL and robots declares index,follow.",
+        "Version is the SHA-256 of the exact retrieved response body."
+      ]
+    },
+    {
+      "assetId": "shar-public.asset.github.ai-cgi-routing",
+      "type": "github_repository",
+      "title": {
+        "en": "AI/CGI Routing",
+        "ru": "Маршрутизация съёмка / CGI / AI"
+      },
+      "category": "open-source",
+      "url": "https://github.com/Ares3333333/ai-cgi-routing",
+      "status": "PUBLISHED_VERIFIED",
+      "license": "MIT",
+      "version": {
+        "kind": "git_commit",
+        "value": "169ed32da348d1fa82d62dbab4200da844e4ee56"
+      },
+      "verifiedAt": "2026-09-05T19:16:00Z",
+      "evidence": [
+        "GitHub provider API returned a public repository, default branch commit and README.",
+        "Repository homepage points to https://sharprod.com/.",
+        "Version is the checked default-branch commit."
+      ]
+    },
+    {
+      "assetId": "shar-public.asset.github.commercial-production-standard",
+      "type": "github_repository",
+      "title": {
+        "en": "Commercial Production Standard",
+        "ru": "Стандарт коммерческого продакшна"
+      },
+      "category": "open-source",
+      "url": "https://github.com/Ares3333333/commercial-production-standard",
+      "status": "PUBLISHED_VERIFIED",
+      "license": "MIT",
+      "version": {
+        "kind": "git_commit",
+        "value": "7551d9df2bd09c293b03bc92bef889bae23107c5"
+      },
+      "verifiedAt": "2026-09-05T19:16:00Z",
+      "evidence": [
+        "GitHub provider API returned a public repository, default branch commit and README.",
+        "Repository homepage points to https://sharprod.com/.",
+        "Version is the checked default-branch commit."
+      ]
+    },
+    {
+      "assetId": "shar-public.asset.github.production-brief-schema",
+      "type": "github_repository",
+      "title": {
+        "en": "Production Brief Schema",
+        "ru": "Схема production-брифа"
+      },
+      "category": "open-source",
+      "url": "https://github.com/Ares3333333/production-brief-schema",
+      "status": "PUBLISHED_VERIFIED",
+      "license": "MIT",
+      "version": {
+        "kind": "git_commit",
+        "value": "053c137026259e9e06b1babb5df7c6024e8dba8e"
+      },
+      "verifiedAt": "2026-09-05T19:16:00Z",
+      "evidence": [
+        "GitHub provider API returned a public repository, default branch commit and README.",
+        "Repository homepage points to https://sharprod.com/.",
+        "Version is the checked default-branch commit."
+      ]
+    },
+    {
+      "assetId": "shar-public.asset.github.production-deliverables-taxonomy",
+      "type": "github_repository",
+      "title": {
+        "en": "Production Deliverables Taxonomy",
+        "ru": "Таксономия производственных материалов"
+      },
+      "category": "open-source",
+      "url": "https://github.com/Ares3333333/production-deliverables-taxonomy",
+      "status": "PUBLISHED_VERIFIED",
+      "license": "MIT",
+      "version": {
+        "kind": "git_commit",
+        "value": "7f74183d829d4c93f2208fdf8c00d1182399fe67"
+      },
+      "verifiedAt": "2026-09-05T19:16:00Z",
+      "evidence": [
+        "GitHub provider API returned a public repository, default branch commit and README.",
+        "Repository homepage points to https://sharprod.com/.",
+        "Version is the checked default-branch commit."
+      ]
+    },
+    {
+      "assetId": "shar-public.asset.github.profile",
+      "type": "github_profile",
+      "title": {
+        "en": "SHAR Production GitHub profile",
+        "ru": "Профиль SHAR Production на GitHub"
+      },
+      "category": "profile",
+      "url": "https://github.com/Ares3333333/Ares3333333",
+      "status": "PUBLISHED_VERIFIED",
+      "license": "MIT",
+      "version": {
+        "kind": "git_commit",
+        "value": "5adf64fd4f8b13ee2804e2d21fbf80497fdae619"
+      },
+      "verifiedAt": "2026-09-05T19:16:00Z",
+      "evidence": [
+        "GitHub provider API returned a public repository, default branch commit and README.",
+        "Repository homepage points to https://sharprod.com/.",
+        "Version is the checked default-branch commit."
+      ]
+    },
+    {
+      "assetId": "shar-public.asset.github.public-monitor",
+      "type": "github_repository",
+      "title": {
+        "en": "SHAR Public Monitor",
+        "ru": "Публичный монитор SHAR"
+      },
+      "category": "open-source",
+      "url": "https://github.com/Ares3333333/shar-public-monitor",
+      "status": "SUBMITTED",
+      "license": "UNSUPPORTED",
+      "version": {
+        "kind": "git_commit",
+        "value": "f6fc1e9dd1e8ba255b0deef11d21e0be3ddb8e5e"
+      },
+      "verifiedAt": "2026-09-05T19:16:00Z",
+      "evidence": [
+        "GitHub provider API returned a public repository, default branch commit and README.",
+        "Repository homepage points to https://sharprod.com/.",
+        "Version is the checked default-branch commit.",
+        "GitHub API did not expose an SPDX license and raw LICENSE returned 404; license acceptance is unsupported, so status is lowered."
+      ]
+    },
+    {
+      "assetId": "shar-public.asset.github.public-roadmap",
+      "type": "github_repository",
+      "title": {
+        "en": "SHAR Production Public Roadmap",
+        "ru": "Публичная дорожная карта SHAR Production"
+      },
+      "category": "open-source",
+      "url": "https://github.com/Ares3333333/shar-production-public-roadmap",
+      "status": "PUBLISHED_VERIFIED",
+      "license": "MIT",
+      "version": {
+        "kind": "git_commit",
+        "value": "3d94c0fed46ca358fc16dec66dd0c87edee62bdf"
+      },
+      "verifiedAt": "2026-09-05T19:16:00Z",
+      "evidence": [
+        "GitHub provider API returned a public repository, default branch commit and README.",
+        "Repository homepage points to https://sharprod.com/.",
+        "Version is the checked default-branch commit."
+      ]
+    },
+    {
+      "assetId": "shar-public.asset.github.subtitle-delivery-checker",
+      "type": "github_repository",
+      "title": {
+        "en": "Subtitle Delivery Checker",
+        "ru": "Проверка поставки субтитров"
+      },
+      "category": "open-source",
+      "url": "https://github.com/Ares3333333/subtitle-delivery-checker",
+      "status": "PUBLISHED_VERIFIED",
+      "license": "MIT",
+      "version": {
+        "kind": "git_commit",
+        "value": "466a0ce891e7ae037031cacd19cdd57100eab7e7"
+      },
+      "verifiedAt": "2026-09-05T19:16:00Z",
+      "evidence": [
+        "GitHub provider API returned a public repository, default branch commit and README.",
+        "Repository homepage points to https://sharprod.com/.",
+        "Version is the checked default-branch commit."
+      ]
+    },
+    {
+      "assetId": "shar-public.asset.hf.production-brief-taxonomy",
+      "type": "huggingface_dataset",
+      "title": {
+        "en": "Production Brief Taxonomy",
+        "ru": "Таксономия production-брифа"
+      },
+      "category": "dataset",
+      "url": "https://huggingface.co/datasets/SHARProduction/production-brief-taxonomy",
+      "status": "PUBLISHED_VERIFIED",
+      "license": "CC-BY-4.0",
+      "version": {
+        "kind": "hub_commit",
+        "value": "368d5524ff24c5cbea6d2872b23dfd4c6f9051c8"
+      },
+      "verifiedAt": "2026-09-05T19:16:00Z",
+      "evidence": [
+        "Dataset API reports public, non-gated and enabled.",
+        "Repository tree contains README/data/license materials.",
+        "Version is the checked Hub commit SHA."
+      ]
+    },
+    {
+      "assetId": "shar-public.asset.hf.production-deliverables-taxonomy",
+      "type": "huggingface_dataset",
+      "title": {
+        "en": "Production Deliverables Taxonomy Dataset",
+        "ru": "Датасет таксономии производственных материалов"
+      },
+      "category": "dataset",
+      "url": "https://huggingface.co/datasets/SHARProduction/production-deliverables-taxonomy",
+      "status": "PUBLISHED_VERIFIED",
+      "license": "CC-BY-4.0",
+      "version": {
+        "kind": "hub_commit",
+        "value": "7e20f3f7baaf7299be137ab667bb3fe2e860e763"
+      },
+      "verifiedAt": "2026-09-05T19:16:00Z",
+      "evidence": [
+        "Dataset API reports public, non-gated and enabled.",
+        "Repository tree contains README/data/license materials.",
+        "Version is the checked Hub commit SHA."
+      ]
+    },
+    {
+      "assetId": "shar-public.asset.mcp.public-knowledge",
+      "type": "mcp_service",
+      "title": {
+        "en": "SHAR Public Knowledge MCP",
+        "ru": "Публичный MCP знаний SHAR"
+      },
+      "category": "knowledge-api",
+      "url": "https://mcp.sharprod.com/public",
+      "status": "PUBLISHED_VERIFIED",
+      "license": "UNSUPPORTED",
+      "version": {
+        "kind": "semantic",
+        "value": "0.1.0"
+      },
+      "verifiedAt": "2026-09-05T19:16:00Z",
+      "evidence": [
+        "Public tool-list call completed and returned 15 read-only tools.",
+        "Endpoint requires protocol-specific metadata; ordinary browser GET is not the functional check.",
+        "Service version 0.1.0 and ownership are exposed by the public service contract."
+      ]
+    },
+    {
+      "assetId": "shar-public.asset.web.sharprod-home",
+      "type": "website",
+      "title": {
+        "en": "SHAR Production website",
+        "ru": "Сайт SHAR Production"
+      },
+      "category": "brand",
+      "url": "https://sharprod.com/",
+      "status": "PUBLISHED_VERIFIED",
+      "license": "UNSUPPORTED",
+      "version": {
+        "kind": "content_sha256",
+        "value": "5e5f72be6baac730649f4bc0616379d0bf277824e98933383eb21faf3bf7d28e"
+      },
+      "verifiedAt": "2026-09-05T19:16:00Z",
+      "evidence": [
+        "HTTP 200; HTML title identifies SHAR; canonical equals public URL.",
+        "Version is the SHA-256 of the exact retrieved response body.",
+        "License is unsupported because no public repository license governs the website content."
+      ]
+    }
+  ]
+}

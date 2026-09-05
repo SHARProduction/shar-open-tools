@@ -1,0 +1,12 @@
+{
+  "schemaVersion": "1.0.0",
+  "canonicalBase": "https://sharprod.com/open-tools",
+  "registryVersion": "1.0.0",
+  "registryUpdatedAt": "2026-09-05T19:16:00Z",
+  "toolFactoryVersion": "1.0.0",
+  "assetCount": 13,
+  "sourceDigests": {
+    "registry": "05f0b1c5fffc073e82adb9e2e373f9c3766d9b9231cf6e567a0e6f30507405a6",
+    "toolFactory": "cc2fbee1530e1e188ff4e95441a7a884d648dc056b0fe33916bcd69a32a7b20c"
+  }
+}
