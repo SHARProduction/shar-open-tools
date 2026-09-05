@@ -1,6 +1,6 @@
 {
   "name": "@shar-production/open-tools-hub",
-  "version": "1.10.1",
+  "version": "1.11.0",
   "description": "Bilingual static directory of verified SHAR Production public tools and datasets",
   "type": "module",
   "private": false,
@@ -17,5 +17,6 @@
     "node": ">=20"
   }
 }
+
 
 
