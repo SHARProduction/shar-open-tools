@@ -4,7 +4,7 @@
     "registry": {
       "id": "SHAR_PUBLIC_ASSET_REGISTRY",
       "version": "1.0.0",
-      "updatedAt": "2026-09-05T19:58:00Z"
+      "updatedAt": "2026-09-05T20:24:54Z"
     },
     "toolFactory": {
       "name": "@shar-production/tool-factory",
@@ -281,6 +281,226 @@
       ]
     },
     {
+      "assetId": "shar-public.asset.github.wave01.ai-cgi-readiness-tools",
+      "type": "github_repository",
+      "title": {
+        "en": "SHAR Production ai cgi routing tools",
+        "ru": "Инструменты SHAR Production: ai cgi routing"
+      },
+      "category": "open-source",
+      "url": "https://github.com/SHARProduction/ai-cgi-readiness-tools",
+      "status": "PUBLISHED_VERIFIED",
+      "license": "MIT",
+      "version": {
+        "kind": "git_commit",
+        "value": "3a25a14cd0dd0aeb0af00eb9a1f37edfae40e414"
+      },
+      "verifiedAt": "2026-09-05T20:24:09Z",
+      "evidence": [
+        "Public SHARProduction/ai-cgi-readiness-tools repository verified at exact main commit 3a25a14cd0dd0aeb0af00eb9a1f37edfae40e414.",
+        "Public v1.0.0 release is non-draft and non-prerelease; SPDX license is MIT.",
+        "README and repository metadata identify SHAR Production and https://sharprod.com/. Pair contains 2 working bilingual tools."
+      ]
+    },
+    {
+      "assetId": "shar-public.asset.github.wave01.delivery-archive-tools",
+      "type": "github_repository",
+      "title": {
+        "en": "SHAR Production delivery archive tools",
+        "ru": "Инструменты SHAR Production: delivery archive"
+      },
+      "category": "open-source",
+      "url": "https://github.com/SHARProduction/delivery-archive-tools",
+      "status": "PUBLISHED_VERIFIED",
+      "license": "MIT",
+      "version": {
+        "kind": "git_commit",
+        "value": "9cffd44704c8546fca8a9cfbdf08add0502dc7fd"
+      },
+      "verifiedAt": "2026-09-05T20:24:09Z",
+      "evidence": [
+        "Public SHARProduction/delivery-archive-tools repository verified at exact main commit 9cffd44704c8546fca8a9cfbdf08add0502dc7fd.",
+        "Public v1.0.0 release is non-draft and non-prerelease; SPDX license is MIT.",
+        "README and repository metadata identify SHAR Production and https://sharprod.com/. Pair contains 2 working bilingual tools."
+      ]
+    },
+    {
+      "assetId": "shar-public.asset.github.wave01.media-rights-readiness-tools",
+      "type": "github_repository",
+      "title": {
+        "en": "SHAR Production rights readiness tools",
+        "ru": "Инструменты SHAR Production: rights readiness"
+      },
+      "category": "open-source",
+      "url": "https://github.com/SHARProduction/media-rights-readiness-tools",
+      "status": "PUBLISHED_VERIFIED",
+      "license": "MIT",
+      "version": {
+        "kind": "git_commit",
+        "value": "331305da4da91ea24b8c1e952edc53ade82916c8"
+      },
+      "verifiedAt": "2026-09-05T20:24:09Z",
+      "evidence": [
+        "Public SHARProduction/media-rights-readiness-tools repository verified at exact main commit 331305da4da91ea24b8c1e952edc53ade82916c8.",
+        "Public v1.0.0 release is non-draft and non-prerelease; SPDX license is MIT.",
+        "README and repository metadata identify SHAR Production and https://sharprod.com/. Pair contains 2 working bilingual tools."
+      ]
+    },
+    {
+      "assetId": "shar-public.asset.github.wave01.production-briefing-tools",
+      "type": "github_repository",
+      "title": {
+        "en": "SHAR Production briefing tools",
+        "ru": "Инструменты SHAR Production: briefing"
+      },
+      "category": "open-source",
+      "url": "https://github.com/SHARProduction/production-briefing-tools",
+      "status": "PUBLISHED_VERIFIED",
+      "license": "MIT",
+      "version": {
+        "kind": "git_commit",
+        "value": "b68e88357ebb9c6765760f664ea845b0ef74527e"
+      },
+      "verifiedAt": "2026-09-05T20:24:09Z",
+      "evidence": [
+        "Public SHARProduction/production-briefing-tools repository verified at exact main commit b68e88357ebb9c6765760f664ea845b0ef74527e.",
+        "Public v1.0.0 release is non-draft and non-prerelease; SPDX license is MIT.",
+        "README and repository metadata identify SHAR Production and https://sharprod.com/. Pair contains 2 working bilingual tools."
+      ]
+    },
+    {
+      "assetId": "shar-public.asset.github.wave01.production-budgeting-tools",
+      "type": "github_repository",
+      "title": {
+        "en": "SHAR Production budgeting tools",
+        "ru": "Инструменты SHAR Production: budgeting"
+      },
+      "category": "open-source",
+      "url": "https://github.com/SHARProduction/production-budgeting-tools",
+      "status": "PUBLISHED_VERIFIED",
+      "license": "MIT",
+      "version": {
+        "kind": "git_commit",
+        "value": "4542ad06d34b930dc86861757364abeb872bf821"
+      },
+      "verifiedAt": "2026-09-05T20:24:09Z",
+      "evidence": [
+        "Public SHARProduction/production-budgeting-tools repository verified at exact main commit 4542ad06d34b930dc86861757364abeb872bf821.",
+        "Public v1.0.0 release is non-draft and non-prerelease; SPDX license is MIT.",
+        "README and repository metadata identify SHAR Production and https://sharprod.com/. Pair contains 2 working bilingual tools."
+      ]
+    },
+    {
+      "assetId": "shar-public.asset.github.wave01.production-calculators",
+      "type": "github_repository",
+      "title": {
+        "en": "SHAR Production calculators tools",
+        "ru": "Инструменты SHAR Production: calculators"
+      },
+      "category": "open-source",
+      "url": "https://github.com/SHARProduction/production-calculators",
+      "status": "PUBLISHED_VERIFIED",
+      "license": "MIT",
+      "version": {
+        "kind": "git_commit",
+        "value": "5d5134e2297deeb8bb9e4598f27dbed0cda1cd0d"
+      },
+      "verifiedAt": "2026-09-05T20:24:09Z",
+      "evidence": [
+        "Public SHARProduction/production-calculators repository verified at exact main commit 5d5134e2297deeb8bb9e4598f27dbed0cda1cd0d.",
+        "Public v1.0.0 release is non-draft and non-prerelease; SPDX license is MIT.",
+        "README and repository metadata identify SHAR Production and https://sharprod.com/. Pair contains 2 working bilingual tools."
+      ]
+    },
+    {
+      "assetId": "shar-public.asset.github.wave01.production-scheduling-tools",
+      "type": "github_repository",
+      "title": {
+        "en": "SHAR Production scheduling tools",
+        "ru": "Инструменты SHAR Production: scheduling"
+      },
+      "category": "open-source",
+      "url": "https://github.com/SHARProduction/production-scheduling-tools",
+      "status": "PUBLISHED_VERIFIED",
+      "license": "MIT",
+      "version": {
+        "kind": "git_commit",
+        "value": "80ef28614686c85fb7cee6864e11e4e24d66b5bd"
+      },
+      "verifiedAt": "2026-09-05T20:24:09Z",
+      "evidence": [
+        "Public SHARProduction/production-scheduling-tools repository verified at exact main commit 80ef28614686c85fb7cee6864e11e4e24d66b5bd.",
+        "Public v1.0.0 release is non-draft and non-prerelease; SPDX license is MIT.",
+        "README and repository metadata identify SHAR Production and https://sharprod.com/. Pair contains 2 working bilingual tools."
+      ]
+    },
+    {
+      "assetId": "shar-public.asset.github.wave01.script-storyboard-tools",
+      "type": "github_repository",
+      "title": {
+        "en": "SHAR Production script storyboard tools",
+        "ru": "Инструменты SHAR Production: script storyboard"
+      },
+      "category": "open-source",
+      "url": "https://github.com/SHARProduction/script-storyboard-tools",
+      "status": "PUBLISHED_VERIFIED",
+      "license": "MIT",
+      "version": {
+        "kind": "git_commit",
+        "value": "0a60e2e6d58ee95c6f63df39bfb91eacaa59f01f"
+      },
+      "verifiedAt": "2026-09-05T20:24:09Z",
+      "evidence": [
+        "Public SHARProduction/script-storyboard-tools repository verified at exact main commit 0a60e2e6d58ee95c6f63df39bfb91eacaa59f01f.",
+        "Public v1.0.0 release is non-draft and non-prerelease; SPDX license is MIT.",
+        "README and repository metadata identify SHAR Production and https://sharprod.com/. Pair contains 2 working bilingual tools."
+      ]
+    },
+    {
+      "assetId": "shar-public.asset.github.wave01.subtitle-localization-tools",
+      "type": "github_repository",
+      "title": {
+        "en": "SHAR Production subtitles localization tools",
+        "ru": "Инструменты SHAR Production: subtitles localization"
+      },
+      "category": "open-source",
+      "url": "https://github.com/SHARProduction/subtitle-localization-tools",
+      "status": "PUBLISHED_VERIFIED",
+      "license": "MIT",
+      "version": {
+        "kind": "git_commit",
+        "value": "0a9dfcc00fb12f56b8fbda7c0a2f6e9a933cd0a0"
+      },
+      "verifiedAt": "2026-09-05T20:24:09Z",
+      "evidence": [
+        "Public SHARProduction/subtitle-localization-tools repository verified at exact main commit 0a9dfcc00fb12f56b8fbda7c0a2f6e9a933cd0a0.",
+        "Public v1.0.0 release is non-draft and non-prerelease; SPDX license is MIT.",
+        "README and repository metadata identify SHAR Production and https://sharprod.com/. Pair contains 2 working bilingual tools."
+      ]
+    },
+    {
+      "assetId": "shar-public.asset.github.wave01.technical-qc-tools",
+      "type": "github_repository",
+      "title": {
+        "en": "SHAR Production technical qc tools",
+        "ru": "Инструменты SHAR Production: technical qc"
+      },
+      "category": "open-source",
+      "url": "https://github.com/SHARProduction/technical-qc-tools",
+      "status": "PUBLISHED_VERIFIED",
+      "license": "MIT",
+      "version": {
+        "kind": "git_commit",
+        "value": "36c5451113bef34102864d2c92146058e3223467"
+      },
+      "verifiedAt": "2026-09-05T20:24:09Z",
+      "evidence": [
+        "Public SHARProduction/technical-qc-tools repository verified at exact main commit 36c5451113bef34102864d2c92146058e3223467.",
+        "Public v1.0.0 release is non-draft and non-prerelease; SPDX license is MIT.",
+        "README and repository metadata identify SHAR Production and https://sharprod.com/. Pair contains 2 working bilingual tools."
+      ]
+    },
+    {
       "assetId": "shar-public.asset.hf.production-brief-taxonomy",
       "type": "huggingface_dataset",
       "title": {
@@ -388,6 +608,28 @@
         "HTTP 200; HTML title identifies SHAR; canonical equals public URL.",
         "Version is the SHA-256 of the exact retrieved response body.",
         "License is unsupported because no public repository license governs the website content."
+      ]
+    },
+    {
+      "assetId": "shar-public.asset.web.wave01",
+      "type": "website",
+      "title": {
+        "en": "SHAR Production Public Engine Wave 01",
+        "ru": "Первая волна SHAR Production Public Engine"
+      },
+      "category": "brand",
+      "url": "https://shar-production-wave-01.pages.dev/",
+      "status": "PUBLISHED_VERIFIED",
+      "license": "MIT",
+      "version": {
+        "kind": "content_sha256",
+        "value": "b4e22248f59d7e30e43e93590c886cc2cace8a6e264dbe8b3eea69b949e346a4"
+      },
+      "verifiedAt": "2026-09-05T20:24:09Z",
+      "evidence": [
+        "All 62 EN/RU pages returned HTTP 200 with unique exact canonicals, indexable robots metadata and valid JSON-LD.",
+        "Root and sitemap expose 20 tools in 10 families; robots.txt and sitemap.xml returned HTTP 200.",
+        "390px mobile viewport has no horizontal overflow; a live tool executed client-side and returned a valid conflict report."
       ]
     }
   ]
