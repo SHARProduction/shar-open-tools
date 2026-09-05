@@ -1,3 +1,8 @@
 node_modules/
 .tmp/
 *.log
+.edge-*/
+.chrome-*/
+.qa-*.mjs
+mobile-*.png
+*-dist-*.zip
