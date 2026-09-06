@@ -4,7 +4,7 @@
     "registry": {
       "id": "SHAR_PUBLIC_ASSET_REGISTRY",
       "version": "1.0.0",
-      "updatedAt": "2026-09-06T04:54:14.604Z"
+      "updatedAt": "2026-09-06T05:18:43Z"
     },
     "toolFactory": {
       "name": "@shar-production/tool-factory",
@@ -226,14 +226,14 @@
       "status": "PUBLISHED_VERIFIED",
       "license": "MIT",
       "version": {
-        "kind": "git_commit",
-        "value": "3d94c0fed46ca358fc16dec66dd0c87edee62bdf"
+        "kind": "release_tag",
+        "value": "v1.5.0"
       },
-      "verifiedAt": "2026-09-05T19:58:00Z",
+      "verifiedAt": "2026-09-06T05:18:43Z",
       "evidence": [
-        "GitHub API returned public SHARProduction/shar-production-public-roadmap at exact default-branch commit 3d94c0fed46ca358fc16dec66dd0c87edee62bdf.",
-        "README identifies SHAR Production and links to https://sharprod.com/.",
-        "Public LICENSE is detected as SPDX MIT."
+        "Public repository and v1.5.0 release returned HTTP 200.",
+        "The tagged search evidence contains all 72 Google/Bing/Yandex slots: 33 MEASURED and 39 NOT_MEASURED.",
+        "Five Google rows link to directly inspected SHAR Production pages: four observed rank 1 and one observed rank 2; no stable-rank, traffic or causation claim is made."
       ]
     },
     {
@@ -3307,9 +3307,9 @@
       "license": "MIT",
       "version": {
         "kind": "release_tag",
-        "value": "v1.1.0"
+        "value": "v1.1.1"
       },
-      "verifiedAt": "2026-09-06T04:54:14.604Z",
+      "verifiedAt": "2026-09-06T04:58:13.910Z",
       "evidence": [
         "Public repository and v1.1.0 release returned HTTP 200.",
         "README contains SHAR Production and https://sharprod.com/.",
@@ -3351,13 +3351,13 @@
       "license": "MIT",
       "version": {
         "kind": "content_sha256",
-        "value": "91f582943b298bfe670a77482a89f84705d2025e9a8e91f1617b8760624f6c11"
+        "value": "c77d15e937fe796f9f4367195bccd7c86eb39a2468e86f7cce147a973a6a63bd"
       },
-      "verifiedAt": "2026-09-06T04:54:14.604Z",
+      "verifiedAt": "2026-09-06T04:58:13.910Z",
       "evidence": [
         "EN and RU routes, graph JSON and sitemap entries returned HTTP 200.",
         "Exact canonicals, index,follow metadata, SHAR Production and https://sharprod.com/ were observed.",
-        "Browser evidence filter worked; 390px viewport had 390px document width with no horizontal overflow."
+        "Browser evidence filter and separate entity/evidence links worked; 390px viewport had no horizontal overflow."
       ]
     }
   ]
