@@ -318,4 +318,56 @@
   <url><loc>https://shar-production-open-tools.pages.dev/risk-simulators/ru/security-risk/</loc></url>
   <url><loc>https://shar-production-open-tools.pages.dev/risk-simulators/en/release-risk/</loc></url>
   <url><loc>https://shar-production-open-tools.pages.dev/risk-simulators/ru/release-risk/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/capacity-planners/en/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/capacity-planners/ru/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/capacity-planners/en/shot-review/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/capacity-planners/ru/shot-review/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/capacity-planners/en/media-ingest/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/capacity-planners/ru/media-ingest/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/capacity-planners/en/proxy-generation/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/capacity-planners/ru/proxy-generation/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/capacity-planners/en/selects-review/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/capacity-planners/ru/selects-review/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/capacity-planners/en/rough-cut/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/capacity-planners/ru/rough-cut/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/capacity-planners/en/revision-notes/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/capacity-planners/ru/revision-notes/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/capacity-planners/en/vfx-shots/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/capacity-planners/ru/vfx-shots/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/capacity-planners/en/color-masters/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/capacity-planners/ru/color-masters/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/capacity-planners/en/audio-tracks/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/capacity-planners/ru/audio-tracks/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/capacity-planners/en/caption-cues/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/capacity-planners/ru/caption-cues/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/capacity-planners/en/localization-assets/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/capacity-planners/ru/localization-assets/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/capacity-planners/en/qc-files/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/capacity-planners/ru/qc-files/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/capacity-planners/en/delivery-files/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/capacity-planners/ru/delivery-files/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/capacity-planners/en/checksum-packages/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/capacity-planners/ru/checksum-packages/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/capacity-planners/en/archive-volume/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/capacity-planners/ru/archive-volume/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/capacity-planners/en/restore-volume/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/capacity-planners/ru/restore-volume/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/capacity-planners/en/product-images/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/capacity-planners/ru/product-images/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/capacity-planners/en/social-variants/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/capacity-planners/ru/social-variants/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/capacity-planners/en/campaign-markets/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/capacity-planners/ru/campaign-markets/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/capacity-planners/en/talent-approvals/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/capacity-planners/ru/talent-approvals/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/capacity-planners/en/supplier-bids/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/capacity-planners/ru/supplier-bids/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/capacity-planners/en/location-options/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/capacity-planners/ru/location-options/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/capacity-planners/en/call-sheets/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/capacity-planners/ru/call-sheets/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/capacity-planners/en/transcript-minutes/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/capacity-planners/ru/transcript-minutes/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/capacity-planners/en/metadata-records/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/capacity-planners/ru/metadata-records/</loc></url>
 </urlset>

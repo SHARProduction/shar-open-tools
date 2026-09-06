@@ -1,0 +1,10 @@
+{
+  "publisher": {
+    "name": "SHAR Production",
+    "website": "https://sharprod.com/"
+  },
+  "plannerCount": 25,
+  "scenarioCount": 100,
+  "localizedPageCount": 50,
+  "sourceSha256": "07ab8f7c48b1fab02ba14fa36e347ee36e5b622ea52060c41318d805f2a838bc"
+}

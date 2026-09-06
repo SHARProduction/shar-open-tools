@@ -1,0 +1,2311 @@
+{
+  "schema_version": "1.0.0",
+  "publisher": {
+    "name": "SHAR Production",
+    "website": "https://sharprod.com/"
+  },
+  "license": "CC-BY-4.0",
+  "synthetic": true,
+  "scenarios": [
+    {
+      "planner_id": "shot-review",
+      "id": "shot-review-baseline",
+      "synthetic": true,
+      "inputs": {
+        "workload": 120,
+        "throughput": 30,
+        "streams": 2,
+        "buffer_percent": 20
+      },
+      "expected": {
+        "adjusted_workload": 144,
+        "capacity_per_day": 60,
+        "days": 3,
+        "band": "STANDARD"
+      },
+      "reproduced": {
+        "adjusted_workload": 144,
+        "capacity_per_day": 60,
+        "days": 3,
+        "band": "STANDARD"
+      }
+    },
+    {
+      "planner_id": "shot-review",
+      "id": "shot-review-no-buffer",
+      "synthetic": true,
+      "inputs": {
+        "workload": 120,
+        "throughput": 30,
+        "streams": 2,
+        "buffer_percent": 0
+      },
+      "expected": {
+        "adjusted_workload": 120,
+        "capacity_per_day": 60,
+        "days": 2,
+        "band": "QUICK"
+      },
+      "reproduced": {
+        "adjusted_workload": 120,
+        "capacity_per_day": 60,
+        "days": 2,
+        "band": "QUICK"
+      }
+    },
+    {
+      "planner_id": "shot-review",
+      "id": "shot-review-parallel",
+      "synthetic": true,
+      "inputs": {
+        "workload": 120,
+        "throughput": 30,
+        "streams": 4,
+        "buffer_percent": 20
+      },
+      "expected": {
+        "adjusted_workload": 144,
+        "capacity_per_day": 120,
+        "days": 2,
+        "band": "QUICK"
+      },
+      "reproduced": {
+        "adjusted_workload": 144,
+        "capacity_per_day": 120,
+        "days": 2,
+        "band": "QUICK"
+      }
+    },
+    {
+      "planner_id": "shot-review",
+      "id": "shot-review-heavy",
+      "synthetic": true,
+      "inputs": {
+        "workload": 240,
+        "throughput": 30,
+        "streams": 2,
+        "buffer_percent": 30
+      },
+      "expected": {
+        "adjusted_workload": 312,
+        "capacity_per_day": 60,
+        "days": 6,
+        "band": "EXTENDED"
+      },
+      "reproduced": {
+        "adjusted_workload": 312,
+        "capacity_per_day": 60,
+        "days": 6,
+        "band": "EXTENDED"
+      }
+    },
+    {
+      "planner_id": "media-ingest",
+      "id": "media-ingest-baseline",
+      "synthetic": true,
+      "inputs": {
+        "workload": 800,
+        "throughput": 250,
+        "streams": 2,
+        "buffer_percent": 20
+      },
+      "expected": {
+        "adjusted_workload": 960,
+        "capacity_per_day": 500,
+        "days": 2,
+        "band": "QUICK"
+      },
+      "reproduced": {
+        "adjusted_workload": 960,
+        "capacity_per_day": 500,
+        "days": 2,
+        "band": "QUICK"
+      }
+    },
+    {
+      "planner_id": "media-ingest",
+      "id": "media-ingest-no-buffer",
+      "synthetic": true,
+      "inputs": {
+        "workload": 800,
+        "throughput": 250,
+        "streams": 2,
+        "buffer_percent": 0
+      },
+      "expected": {
+        "adjusted_workload": 800,
+        "capacity_per_day": 500,
+        "days": 2,
+        "band": "QUICK"
+      },
+      "reproduced": {
+        "adjusted_workload": 800,
+        "capacity_per_day": 500,
+        "days": 2,
+        "band": "QUICK"
+      }
+    },
+    {
+      "planner_id": "media-ingest",
+      "id": "media-ingest-parallel",
+      "synthetic": true,
+      "inputs": {
+        "workload": 800,
+        "throughput": 250,
+        "streams": 4,
+        "buffer_percent": 20
+      },
+      "expected": {
+        "adjusted_workload": 960,
+        "capacity_per_day": 1000,
+        "days": 1,
+        "band": "QUICK"
+      },
+      "reproduced": {
+        "adjusted_workload": 960,
+        "capacity_per_day": 1000,
+        "days": 1,
+        "band": "QUICK"
+      }
+    },
+    {
+      "planner_id": "media-ingest",
+      "id": "media-ingest-heavy",
+      "synthetic": true,
+      "inputs": {
+        "workload": 1600,
+        "throughput": 250,
+        "streams": 2,
+        "buffer_percent": 30
+      },
+      "expected": {
+        "adjusted_workload": 2080,
+        "capacity_per_day": 500,
+        "days": 5,
+        "band": "STANDARD"
+      },
+      "reproduced": {
+        "adjusted_workload": 2080,
+        "capacity_per_day": 500,
+        "days": 5,
+        "band": "STANDARD"
+      }
+    },
+    {
+      "planner_id": "proxy-generation",
+      "id": "proxy-generation-baseline",
+      "synthetic": true,
+      "inputs": {
+        "workload": 600,
+        "throughput": 200,
+        "streams": 2,
+        "buffer_percent": 20
+      },
+      "expected": {
+        "adjusted_workload": 720,
+        "capacity_per_day": 400,
+        "days": 2,
+        "band": "QUICK"
+      },
+      "reproduced": {
+        "adjusted_workload": 720,
+        "capacity_per_day": 400,
+        "days": 2,
+        "band": "QUICK"
+      }
+    },
+    {
+      "planner_id": "proxy-generation",
+      "id": "proxy-generation-no-buffer",
+      "synthetic": true,
+      "inputs": {
+        "workload": 600,
+        "throughput": 200,
+        "streams": 2,
+        "buffer_percent": 0
+      },
+      "expected": {
+        "adjusted_workload": 600,
+        "capacity_per_day": 400,
+        "days": 2,
+        "band": "QUICK"
+      },
+      "reproduced": {
+        "adjusted_workload": 600,
+        "capacity_per_day": 400,
+        "days": 2,
+        "band": "QUICK"
+      }
+    },
+    {
+      "planner_id": "proxy-generation",
+      "id": "proxy-generation-parallel",
+      "synthetic": true,
+      "inputs": {
+        "workload": 600,
+        "throughput": 200,
+        "streams": 4,
+        "buffer_percent": 20
+      },
+      "expected": {
+        "adjusted_workload": 720,
+        "capacity_per_day": 800,
+        "days": 1,
+        "band": "QUICK"
+      },
+      "reproduced": {
+        "adjusted_workload": 720,
+        "capacity_per_day": 800,
+        "days": 1,
+        "band": "QUICK"
+      }
+    },
+    {
+      "planner_id": "proxy-generation",
+      "id": "proxy-generation-heavy",
+      "synthetic": true,
+      "inputs": {
+        "workload": 1200,
+        "throughput": 200,
+        "streams": 2,
+        "buffer_percent": 30
+      },
+      "expected": {
+        "adjusted_workload": 1560,
+        "capacity_per_day": 400,
+        "days": 4,
+        "band": "STANDARD"
+      },
+      "reproduced": {
+        "adjusted_workload": 1560,
+        "capacity_per_day": 400,
+        "days": 4,
+        "band": "STANDARD"
+      }
+    },
+    {
+      "planner_id": "selects-review",
+      "id": "selects-review-baseline",
+      "synthetic": true,
+      "inputs": {
+        "workload": 180,
+        "throughput": 45,
+        "streams": 2,
+        "buffer_percent": 20
+      },
+      "expected": {
+        "adjusted_workload": 216,
+        "capacity_per_day": 90,
+        "days": 3,
+        "band": "STANDARD"
+      },
+      "reproduced": {
+        "adjusted_workload": 216,
+        "capacity_per_day": 90,
+        "days": 3,
+        "band": "STANDARD"
+      }
+    },
+    {
+      "planner_id": "selects-review",
+      "id": "selects-review-no-buffer",
+      "synthetic": true,
+      "inputs": {
+        "workload": 180,
+        "throughput": 45,
+        "streams": 2,
+        "buffer_percent": 0
+      },
+      "expected": {
+        "adjusted_workload": 180,
+        "capacity_per_day": 90,
+        "days": 2,
+        "band": "QUICK"
+      },
+      "reproduced": {
+        "adjusted_workload": 180,
+        "capacity_per_day": 90,
+        "days": 2,
+        "band": "QUICK"
+      }
+    },
+    {
+      "planner_id": "selects-review",
+      "id": "selects-review-parallel",
+      "synthetic": true,
+      "inputs": {
+        "workload": 180,
+        "throughput": 45,
+        "streams": 4,
+        "buffer_percent": 20
+      },
+      "expected": {
+        "adjusted_workload": 216,
+        "capacity_per_day": 180,
+        "days": 2,
+        "band": "QUICK"
+      },
+      "reproduced": {
+        "adjusted_workload": 216,
+        "capacity_per_day": 180,
+        "days": 2,
+        "band": "QUICK"
+      }
+    },
+    {
+      "planner_id": "selects-review",
+      "id": "selects-review-heavy",
+      "synthetic": true,
+      "inputs": {
+        "workload": 360,
+        "throughput": 45,
+        "streams": 2,
+        "buffer_percent": 30
+      },
+      "expected": {
+        "adjusted_workload": 468,
+        "capacity_per_day": 90,
+        "days": 6,
+        "band": "EXTENDED"
+      },
+      "reproduced": {
+        "adjusted_workload": 468,
+        "capacity_per_day": 90,
+        "days": 6,
+        "band": "EXTENDED"
+      }
+    },
+    {
+      "planner_id": "rough-cut",
+      "id": "rough-cut-baseline",
+      "synthetic": true,
+      "inputs": {
+        "workload": 24,
+        "throughput": 6,
+        "streams": 2,
+        "buffer_percent": 20
+      },
+      "expected": {
+        "adjusted_workload": 28.8,
+        "capacity_per_day": 12,
+        "days": 3,
+        "band": "STANDARD"
+      },
+      "reproduced": {
+        "adjusted_workload": 28.8,
+        "capacity_per_day": 12,
+        "days": 3,
+        "band": "STANDARD"
+      }
+    },
+    {
+      "planner_id": "rough-cut",
+      "id": "rough-cut-no-buffer",
+      "synthetic": true,
+      "inputs": {
+        "workload": 24,
+        "throughput": 6,
+        "streams": 2,
+        "buffer_percent": 0
+      },
+      "expected": {
+        "adjusted_workload": 24,
+        "capacity_per_day": 12,
+        "days": 2,
+        "band": "QUICK"
+      },
+      "reproduced": {
+        "adjusted_workload": 24,
+        "capacity_per_day": 12,
+        "days": 2,
+        "band": "QUICK"
+      }
+    },
+    {
+      "planner_id": "rough-cut",
+      "id": "rough-cut-parallel",
+      "synthetic": true,
+      "inputs": {
+        "workload": 24,
+        "throughput": 6,
+        "streams": 4,
+        "buffer_percent": 20
+      },
+      "expected": {
+        "adjusted_workload": 28.8,
+        "capacity_per_day": 24,
+        "days": 2,
+        "band": "QUICK"
+      },
+      "reproduced": {
+        "adjusted_workload": 28.8,
+        "capacity_per_day": 24,
+        "days": 2,
+        "band": "QUICK"
+      }
+    },
+    {
+      "planner_id": "rough-cut",
+      "id": "rough-cut-heavy",
+      "synthetic": true,
+      "inputs": {
+        "workload": 48,
+        "throughput": 6,
+        "streams": 2,
+        "buffer_percent": 30
+      },
+      "expected": {
+        "adjusted_workload": 62.4,
+        "capacity_per_day": 12,
+        "days": 6,
+        "band": "EXTENDED"
+      },
+      "reproduced": {
+        "adjusted_workload": 62.4,
+        "capacity_per_day": 12,
+        "days": 6,
+        "band": "EXTENDED"
+      }
+    },
+    {
+      "planner_id": "revision-notes",
+      "id": "revision-notes-baseline",
+      "synthetic": true,
+      "inputs": {
+        "workload": 80,
+        "throughput": 20,
+        "streams": 2,
+        "buffer_percent": 20
+      },
+      "expected": {
+        "adjusted_workload": 96,
+        "capacity_per_day": 40,
+        "days": 3,
+        "band": "STANDARD"
+      },
+      "reproduced": {
+        "adjusted_workload": 96,
+        "capacity_per_day": 40,
+        "days": 3,
+        "band": "STANDARD"
+      }
+    },
+    {
+      "planner_id": "revision-notes",
+      "id": "revision-notes-no-buffer",
+      "synthetic": true,
+      "inputs": {
+        "workload": 80,
+        "throughput": 20,
+        "streams": 2,
+        "buffer_percent": 0
+      },
+      "expected": {
+        "adjusted_workload": 80,
+        "capacity_per_day": 40,
+        "days": 2,
+        "band": "QUICK"
+      },
+      "reproduced": {
+        "adjusted_workload": 80,
+        "capacity_per_day": 40,
+        "days": 2,
+        "band": "QUICK"
+      }
+    },
+    {
+      "planner_id": "revision-notes",
+      "id": "revision-notes-parallel",
+      "synthetic": true,
+      "inputs": {
+        "workload": 80,
+        "throughput": 20,
+        "streams": 4,
+        "buffer_percent": 20
+      },
+      "expected": {
+        "adjusted_workload": 96,
+        "capacity_per_day": 80,
+        "days": 2,
+        "band": "QUICK"
+      },
+      "reproduced": {
+        "adjusted_workload": 96,
+        "capacity_per_day": 80,
+        "days": 2,
+        "band": "QUICK"
+      }
+    },
+    {
+      "planner_id": "revision-notes",
+      "id": "revision-notes-heavy",
+      "synthetic": true,
+      "inputs": {
+        "workload": 160,
+        "throughput": 20,
+        "streams": 2,
+        "buffer_percent": 30
+      },
+      "expected": {
+        "adjusted_workload": 208,
+        "capacity_per_day": 40,
+        "days": 6,
+        "band": "EXTENDED"
+      },
+      "reproduced": {
+        "adjusted_workload": 208,
+        "capacity_per_day": 40,
+        "days": 6,
+        "band": "EXTENDED"
+      }
+    },
+    {
+      "planner_id": "vfx-shots",
+      "id": "vfx-shots-baseline",
+      "synthetic": true,
+      "inputs": {
+        "workload": 40,
+        "throughput": 8,
+        "streams": 2,
+        "buffer_percent": 20
+      },
+      "expected": {
+        "adjusted_workload": 48,
+        "capacity_per_day": 16,
+        "days": 3,
+        "band": "STANDARD"
+      },
+      "reproduced": {
+        "adjusted_workload": 48,
+        "capacity_per_day": 16,
+        "days": 3,
+        "band": "STANDARD"
+      }
+    },
+    {
+      "planner_id": "vfx-shots",
+      "id": "vfx-shots-no-buffer",
+      "synthetic": true,
+      "inputs": {
+        "workload": 40,
+        "throughput": 8,
+        "streams": 2,
+        "buffer_percent": 0
+      },
+      "expected": {
+        "adjusted_workload": 40,
+        "capacity_per_day": 16,
+        "days": 3,
+        "band": "STANDARD"
+      },
+      "reproduced": {
+        "adjusted_workload": 40,
+        "capacity_per_day": 16,
+        "days": 3,
+        "band": "STANDARD"
+      }
+    },
+    {
+      "planner_id": "vfx-shots",
+      "id": "vfx-shots-parallel",
+      "synthetic": true,
+      "inputs": {
+        "workload": 40,
+        "throughput": 8,
+        "streams": 4,
+        "buffer_percent": 20
+      },
+      "expected": {
+        "adjusted_workload": 48,
+        "capacity_per_day": 32,
+        "days": 2,
+        "band": "QUICK"
+      },
+      "reproduced": {
+        "adjusted_workload": 48,
+        "capacity_per_day": 32,
+        "days": 2,
+        "band": "QUICK"
+      }
+    },
+    {
+      "planner_id": "vfx-shots",
+      "id": "vfx-shots-heavy",
+      "synthetic": true,
+      "inputs": {
+        "workload": 80,
+        "throughput": 8,
+        "streams": 2,
+        "buffer_percent": 30
+      },
+      "expected": {
+        "adjusted_workload": 104,
+        "capacity_per_day": 16,
+        "days": 7,
+        "band": "EXTENDED"
+      },
+      "reproduced": {
+        "adjusted_workload": 104,
+        "capacity_per_day": 16,
+        "days": 7,
+        "band": "EXTENDED"
+      }
+    },
+    {
+      "planner_id": "color-masters",
+      "id": "color-masters-baseline",
+      "synthetic": true,
+      "inputs": {
+        "workload": 12,
+        "throughput": 3,
+        "streams": 2,
+        "buffer_percent": 20
+      },
+      "expected": {
+        "adjusted_workload": 14.4,
+        "capacity_per_day": 6,
+        "days": 3,
+        "band": "STANDARD"
+      },
+      "reproduced": {
+        "adjusted_workload": 14.4,
+        "capacity_per_day": 6,
+        "days": 3,
+        "band": "STANDARD"
+      }
+    },
+    {
+      "planner_id": "color-masters",
+      "id": "color-masters-no-buffer",
+      "synthetic": true,
+      "inputs": {
+        "workload": 12,
+        "throughput": 3,
+        "streams": 2,
+        "buffer_percent": 0
+      },
+      "expected": {
+        "adjusted_workload": 12,
+        "capacity_per_day": 6,
+        "days": 2,
+        "band": "QUICK"
+      },
+      "reproduced": {
+        "adjusted_workload": 12,
+        "capacity_per_day": 6,
+        "days": 2,
+        "band": "QUICK"
+      }
+    },
+    {
+      "planner_id": "color-masters",
+      "id": "color-masters-parallel",
+      "synthetic": true,
+      "inputs": {
+        "workload": 12,
+        "throughput": 3,
+        "streams": 4,
+        "buffer_percent": 20
+      },
+      "expected": {
+        "adjusted_workload": 14.4,
+        "capacity_per_day": 12,
+        "days": 2,
+        "band": "QUICK"
+      },
+      "reproduced": {
+        "adjusted_workload": 14.4,
+        "capacity_per_day": 12,
+        "days": 2,
+        "band": "QUICK"
+      }
+    },
+    {
+      "planner_id": "color-masters",
+      "id": "color-masters-heavy",
+      "synthetic": true,
+      "inputs": {
+        "workload": 24,
+        "throughput": 3,
+        "streams": 2,
+        "buffer_percent": 30
+      },
+      "expected": {
+        "adjusted_workload": 31.2,
+        "capacity_per_day": 6,
+        "days": 6,
+        "band": "EXTENDED"
+      },
+      "reproduced": {
+        "adjusted_workload": 31.2,
+        "capacity_per_day": 6,
+        "days": 6,
+        "band": "EXTENDED"
+      }
+    },
+    {
+      "planner_id": "audio-tracks",
+      "id": "audio-tracks-baseline",
+      "synthetic": true,
+      "inputs": {
+        "workload": 32,
+        "throughput": 8,
+        "streams": 2,
+        "buffer_percent": 20
+      },
+      "expected": {
+        "adjusted_workload": 38.4,
+        "capacity_per_day": 16,
+        "days": 3,
+        "band": "STANDARD"
+      },
+      "reproduced": {
+        "adjusted_workload": 38.4,
+        "capacity_per_day": 16,
+        "days": 3,
+        "band": "STANDARD"
+      }
+    },
+    {
+      "planner_id": "audio-tracks",
+      "id": "audio-tracks-no-buffer",
+      "synthetic": true,
+      "inputs": {
+        "workload": 32,
+        "throughput": 8,
+        "streams": 2,
+        "buffer_percent": 0
+      },
+      "expected": {
+        "adjusted_workload": 32,
+        "capacity_per_day": 16,
+        "days": 2,
+        "band": "QUICK"
+      },
+      "reproduced": {
+        "adjusted_workload": 32,
+        "capacity_per_day": 16,
+        "days": 2,
+        "band": "QUICK"
+      }
+    },
+    {
+      "planner_id": "audio-tracks",
+      "id": "audio-tracks-parallel",
+      "synthetic": true,
+      "inputs": {
+        "workload": 32,
+        "throughput": 8,
+        "streams": 4,
+        "buffer_percent": 20
+      },
+      "expected": {
+        "adjusted_workload": 38.4,
+        "capacity_per_day": 32,
+        "days": 2,
+        "band": "QUICK"
+      },
+      "reproduced": {
+        "adjusted_workload": 38.4,
+        "capacity_per_day": 32,
+        "days": 2,
+        "band": "QUICK"
+      }
+    },
+    {
+      "planner_id": "audio-tracks",
+      "id": "audio-tracks-heavy",
+      "synthetic": true,
+      "inputs": {
+        "workload": 64,
+        "throughput": 8,
+        "streams": 2,
+        "buffer_percent": 30
+      },
+      "expected": {
+        "adjusted_workload": 83.2,
+        "capacity_per_day": 16,
+        "days": 6,
+        "band": "EXTENDED"
+      },
+      "reproduced": {
+        "adjusted_workload": 83.2,
+        "capacity_per_day": 16,
+        "days": 6,
+        "band": "EXTENDED"
+      }
+    },
+    {
+      "planner_id": "caption-cues",
+      "id": "caption-cues-baseline",
+      "synthetic": true,
+      "inputs": {
+        "workload": 500,
+        "throughput": 160,
+        "streams": 2,
+        "buffer_percent": 20
+      },
+      "expected": {
+        "adjusted_workload": 600,
+        "capacity_per_day": 320,
+        "days": 2,
+        "band": "QUICK"
+      },
+      "reproduced": {
+        "adjusted_workload": 600,
+        "capacity_per_day": 320,
+        "days": 2,
+        "band": "QUICK"
+      }
+    },
+    {
+      "planner_id": "caption-cues",
+      "id": "caption-cues-no-buffer",
+      "synthetic": true,
+      "inputs": {
+        "workload": 500,
+        "throughput": 160,
+        "streams": 2,
+        "buffer_percent": 0
+      },
+      "expected": {
+        "adjusted_workload": 500,
+        "capacity_per_day": 320,
+        "days": 2,
+        "band": "QUICK"
+      },
+      "reproduced": {
+        "adjusted_workload": 500,
+        "capacity_per_day": 320,
+        "days": 2,
+        "band": "QUICK"
+      }
+    },
+    {
+      "planner_id": "caption-cues",
+      "id": "caption-cues-parallel",
+      "synthetic": true,
+      "inputs": {
+        "workload": 500,
+        "throughput": 160,
+        "streams": 4,
+        "buffer_percent": 20
+      },
+      "expected": {
+        "adjusted_workload": 600,
+        "capacity_per_day": 640,
+        "days": 1,
+        "band": "QUICK"
+      },
+      "reproduced": {
+        "adjusted_workload": 600,
+        "capacity_per_day": 640,
+        "days": 1,
+        "band": "QUICK"
+      }
+    },
+    {
+      "planner_id": "caption-cues",
+      "id": "caption-cues-heavy",
+      "synthetic": true,
+      "inputs": {
+        "workload": 1000,
+        "throughput": 160,
+        "streams": 2,
+        "buffer_percent": 30
+      },
+      "expected": {
+        "adjusted_workload": 1300,
+        "capacity_per_day": 320,
+        "days": 5,
+        "band": "STANDARD"
+      },
+      "reproduced": {
+        "adjusted_workload": 1300,
+        "capacity_per_day": 320,
+        "days": 5,
+        "band": "STANDARD"
+      }
+    },
+    {
+      "planner_id": "localization-assets",
+      "id": "localization-assets-baseline",
+      "synthetic": true,
+      "inputs": {
+        "workload": 60,
+        "throughput": 15,
+        "streams": 2,
+        "buffer_percent": 20
+      },
+      "expected": {
+        "adjusted_workload": 72,
+        "capacity_per_day": 30,
+        "days": 3,
+        "band": "STANDARD"
+      },
+      "reproduced": {
+        "adjusted_workload": 72,
+        "capacity_per_day": 30,
+        "days": 3,
+        "band": "STANDARD"
+      }
+    },
+    {
+      "planner_id": "localization-assets",
+      "id": "localization-assets-no-buffer",
+      "synthetic": true,
+      "inputs": {
+        "workload": 60,
+        "throughput": 15,
+        "streams": 2,
+        "buffer_percent": 0
+      },
+      "expected": {
+        "adjusted_workload": 60,
+        "capacity_per_day": 30,
+        "days": 2,
+        "band": "QUICK"
+      },
+      "reproduced": {
+        "adjusted_workload": 60,
+        "capacity_per_day": 30,
+        "days": 2,
+        "band": "QUICK"
+      }
+    },
+    {
+      "planner_id": "localization-assets",
+      "id": "localization-assets-parallel",
+      "synthetic": true,
+      "inputs": {
+        "workload": 60,
+        "throughput": 15,
+        "streams": 4,
+        "buffer_percent": 20
+      },
+      "expected": {
+        "adjusted_workload": 72,
+        "capacity_per_day": 60,
+        "days": 2,
+        "band": "QUICK"
+      },
+      "reproduced": {
+        "adjusted_workload": 72,
+        "capacity_per_day": 60,
+        "days": 2,
+        "band": "QUICK"
+      }
+    },
+    {
+      "planner_id": "localization-assets",
+      "id": "localization-assets-heavy",
+      "synthetic": true,
+      "inputs": {
+        "workload": 120,
+        "throughput": 15,
+        "streams": 2,
+        "buffer_percent": 30
+      },
+      "expected": {
+        "adjusted_workload": 156,
+        "capacity_per_day": 30,
+        "days": 6,
+        "band": "EXTENDED"
+      },
+      "reproduced": {
+        "adjusted_workload": 156,
+        "capacity_per_day": 30,
+        "days": 6,
+        "band": "EXTENDED"
+      }
+    },
+    {
+      "planner_id": "qc-files",
+      "id": "qc-files-baseline",
+      "synthetic": true,
+      "inputs": {
+        "workload": 48,
+        "throughput": 12,
+        "streams": 2,
+        "buffer_percent": 20
+      },
+      "expected": {
+        "adjusted_workload": 57.6,
+        "capacity_per_day": 24,
+        "days": 3,
+        "band": "STANDARD"
+      },
+      "reproduced": {
+        "adjusted_workload": 57.6,
+        "capacity_per_day": 24,
+        "days": 3,
+        "band": "STANDARD"
+      }
+    },
+    {
+      "planner_id": "qc-files",
+      "id": "qc-files-no-buffer",
+      "synthetic": true,
+      "inputs": {
+        "workload": 48,
+        "throughput": 12,
+        "streams": 2,
+        "buffer_percent": 0
+      },
+      "expected": {
+        "adjusted_workload": 48,
+        "capacity_per_day": 24,
+        "days": 2,
+        "band": "QUICK"
+      },
+      "reproduced": {
+        "adjusted_workload": 48,
+        "capacity_per_day": 24,
+        "days": 2,
+        "band": "QUICK"
+      }
+    },
+    {
+      "planner_id": "qc-files",
+      "id": "qc-files-parallel",
+      "synthetic": true,
+      "inputs": {
+        "workload": 48,
+        "throughput": 12,
+        "streams": 4,
+        "buffer_percent": 20
+      },
+      "expected": {
+        "adjusted_workload": 57.6,
+        "capacity_per_day": 48,
+        "days": 2,
+        "band": "QUICK"
+      },
+      "reproduced": {
+        "adjusted_workload": 57.6,
+        "capacity_per_day": 48,
+        "days": 2,
+        "band": "QUICK"
+      }
+    },
+    {
+      "planner_id": "qc-files",
+      "id": "qc-files-heavy",
+      "synthetic": true,
+      "inputs": {
+        "workload": 96,
+        "throughput": 12,
+        "streams": 2,
+        "buffer_percent": 30
+      },
+      "expected": {
+        "adjusted_workload": 124.8,
+        "capacity_per_day": 24,
+        "days": 6,
+        "band": "EXTENDED"
+      },
+      "reproduced": {
+        "adjusted_workload": 124.8,
+        "capacity_per_day": 24,
+        "days": 6,
+        "band": "EXTENDED"
+      }
+    },
+    {
+      "planner_id": "delivery-files",
+      "id": "delivery-files-baseline",
+      "synthetic": true,
+      "inputs": {
+        "workload": 80,
+        "throughput": 20,
+        "streams": 2,
+        "buffer_percent": 20
+      },
+      "expected": {
+        "adjusted_workload": 96,
+        "capacity_per_day": 40,
+        "days": 3,
+        "band": "STANDARD"
+      },
+      "reproduced": {
+        "adjusted_workload": 96,
+        "capacity_per_day": 40,
+        "days": 3,
+        "band": "STANDARD"
+      }
+    },
+    {
+      "planner_id": "delivery-files",
+      "id": "delivery-files-no-buffer",
+      "synthetic": true,
+      "inputs": {
+        "workload": 80,
+        "throughput": 20,
+        "streams": 2,
+        "buffer_percent": 0
+      },
+      "expected": {
+        "adjusted_workload": 80,
+        "capacity_per_day": 40,
+        "days": 2,
+        "band": "QUICK"
+      },
+      "reproduced": {
+        "adjusted_workload": 80,
+        "capacity_per_day": 40,
+        "days": 2,
+        "band": "QUICK"
+      }
+    },
+    {
+      "planner_id": "delivery-files",
+      "id": "delivery-files-parallel",
+      "synthetic": true,
+      "inputs": {
+        "workload": 80,
+        "throughput": 20,
+        "streams": 4,
+        "buffer_percent": 20
+      },
+      "expected": {
+        "adjusted_workload": 96,
+        "capacity_per_day": 80,
+        "days": 2,
+        "band": "QUICK"
+      },
+      "reproduced": {
+        "adjusted_workload": 96,
+        "capacity_per_day": 80,
+        "days": 2,
+        "band": "QUICK"
+      }
+    },
+    {
+      "planner_id": "delivery-files",
+      "id": "delivery-files-heavy",
+      "synthetic": true,
+      "inputs": {
+        "workload": 160,
+        "throughput": 20,
+        "streams": 2,
+        "buffer_percent": 30
+      },
+      "expected": {
+        "adjusted_workload": 208,
+        "capacity_per_day": 40,
+        "days": 6,
+        "band": "EXTENDED"
+      },
+      "reproduced": {
+        "adjusted_workload": 208,
+        "capacity_per_day": 40,
+        "days": 6,
+        "band": "EXTENDED"
+      }
+    },
+    {
+      "planner_id": "checksum-packages",
+      "id": "checksum-packages-baseline",
+      "synthetic": true,
+      "inputs": {
+        "workload": 40,
+        "throughput": 10,
+        "streams": 2,
+        "buffer_percent": 20
+      },
+      "expected": {
+        "adjusted_workload": 48,
+        "capacity_per_day": 20,
+        "days": 3,
+        "band": "STANDARD"
+      },
+      "reproduced": {
+        "adjusted_workload": 48,
+        "capacity_per_day": 20,
+        "days": 3,
+        "band": "STANDARD"
+      }
+    },
+    {
+      "planner_id": "checksum-packages",
+      "id": "checksum-packages-no-buffer",
+      "synthetic": true,
+      "inputs": {
+        "workload": 40,
+        "throughput": 10,
+        "streams": 2,
+        "buffer_percent": 0
+      },
+      "expected": {
+        "adjusted_workload": 40,
+        "capacity_per_day": 20,
+        "days": 2,
+        "band": "QUICK"
+      },
+      "reproduced": {
+        "adjusted_workload": 40,
+        "capacity_per_day": 20,
+        "days": 2,
+        "band": "QUICK"
+      }
+    },
+    {
+      "planner_id": "checksum-packages",
+      "id": "checksum-packages-parallel",
+      "synthetic": true,
+      "inputs": {
+        "workload": 40,
+        "throughput": 10,
+        "streams": 4,
+        "buffer_percent": 20
+      },
+      "expected": {
+        "adjusted_workload": 48,
+        "capacity_per_day": 40,
+        "days": 2,
+        "band": "QUICK"
+      },
+      "reproduced": {
+        "adjusted_workload": 48,
+        "capacity_per_day": 40,
+        "days": 2,
+        "band": "QUICK"
+      }
+    },
+    {
+      "planner_id": "checksum-packages",
+      "id": "checksum-packages-heavy",
+      "synthetic": true,
+      "inputs": {
+        "workload": 80,
+        "throughput": 10,
+        "streams": 2,
+        "buffer_percent": 30
+      },
+      "expected": {
+        "adjusted_workload": 104,
+        "capacity_per_day": 20,
+        "days": 6,
+        "band": "EXTENDED"
+      },
+      "reproduced": {
+        "adjusted_workload": 104,
+        "capacity_per_day": 20,
+        "days": 6,
+        "band": "EXTENDED"
+      }
+    },
+    {
+      "planner_id": "archive-volume",
+      "id": "archive-volume-baseline",
+      "synthetic": true,
+      "inputs": {
+        "workload": 24,
+        "throughput": 6,
+        "streams": 2,
+        "buffer_percent": 20
+      },
+      "expected": {
+        "adjusted_workload": 28.8,
+        "capacity_per_day": 12,
+        "days": 3,
+        "band": "STANDARD"
+      },
+      "reproduced": {
+        "adjusted_workload": 28.8,
+        "capacity_per_day": 12,
+        "days": 3,
+        "band": "STANDARD"
+      }
+    },
+    {
+      "planner_id": "archive-volume",
+      "id": "archive-volume-no-buffer",
+      "synthetic": true,
+      "inputs": {
+        "workload": 24,
+        "throughput": 6,
+        "streams": 2,
+        "buffer_percent": 0
+      },
+      "expected": {
+        "adjusted_workload": 24,
+        "capacity_per_day": 12,
+        "days": 2,
+        "band": "QUICK"
+      },
+      "reproduced": {
+        "adjusted_workload": 24,
+        "capacity_per_day": 12,
+        "days": 2,
+        "band": "QUICK"
+      }
+    },
+    {
+      "planner_id": "archive-volume",
+      "id": "archive-volume-parallel",
+      "synthetic": true,
+      "inputs": {
+        "workload": 24,
+        "throughput": 6,
+        "streams": 4,
+        "buffer_percent": 20
+      },
+      "expected": {
+        "adjusted_workload": 28.8,
+        "capacity_per_day": 24,
+        "days": 2,
+        "band": "QUICK"
+      },
+      "reproduced": {
+        "adjusted_workload": 28.8,
+        "capacity_per_day": 24,
+        "days": 2,
+        "band": "QUICK"
+      }
+    },
+    {
+      "planner_id": "archive-volume",
+      "id": "archive-volume-heavy",
+      "synthetic": true,
+      "inputs": {
+        "workload": 48,
+        "throughput": 6,
+        "streams": 2,
+        "buffer_percent": 30
+      },
+      "expected": {
+        "adjusted_workload": 62.4,
+        "capacity_per_day": 12,
+        "days": 6,
+        "band": "EXTENDED"
+      },
+      "reproduced": {
+        "adjusted_workload": 62.4,
+        "capacity_per_day": 12,
+        "days": 6,
+        "band": "EXTENDED"
+      }
+    },
+    {
+      "planner_id": "restore-volume",
+      "id": "restore-volume-baseline",
+      "synthetic": true,
+      "inputs": {
+        "workload": 12,
+        "throughput": 3,
+        "streams": 2,
+        "buffer_percent": 20
+      },
+      "expected": {
+        "adjusted_workload": 14.4,
+        "capacity_per_day": 6,
+        "days": 3,
+        "band": "STANDARD"
+      },
+      "reproduced": {
+        "adjusted_workload": 14.4,
+        "capacity_per_day": 6,
+        "days": 3,
+        "band": "STANDARD"
+      }
+    },
+    {
+      "planner_id": "restore-volume",
+      "id": "restore-volume-no-buffer",
+      "synthetic": true,
+      "inputs": {
+        "workload": 12,
+        "throughput": 3,
+        "streams": 2,
+        "buffer_percent": 0
+      },
+      "expected": {
+        "adjusted_workload": 12,
+        "capacity_per_day": 6,
+        "days": 2,
+        "band": "QUICK"
+      },
+      "reproduced": {
+        "adjusted_workload": 12,
+        "capacity_per_day": 6,
+        "days": 2,
+        "band": "QUICK"
+      }
+    },
+    {
+      "planner_id": "restore-volume",
+      "id": "restore-volume-parallel",
+      "synthetic": true,
+      "inputs": {
+        "workload": 12,
+        "throughput": 3,
+        "streams": 4,
+        "buffer_percent": 20
+      },
+      "expected": {
+        "adjusted_workload": 14.4,
+        "capacity_per_day": 12,
+        "days": 2,
+        "band": "QUICK"
+      },
+      "reproduced": {
+        "adjusted_workload": 14.4,
+        "capacity_per_day": 12,
+        "days": 2,
+        "band": "QUICK"
+      }
+    },
+    {
+      "planner_id": "restore-volume",
+      "id": "restore-volume-heavy",
+      "synthetic": true,
+      "inputs": {
+        "workload": 24,
+        "throughput": 3,
+        "streams": 2,
+        "buffer_percent": 30
+      },
+      "expected": {
+        "adjusted_workload": 31.2,
+        "capacity_per_day": 6,
+        "days": 6,
+        "band": "EXTENDED"
+      },
+      "reproduced": {
+        "adjusted_workload": 31.2,
+        "capacity_per_day": 6,
+        "days": 6,
+        "band": "EXTENDED"
+      }
+    },
+    {
+      "planner_id": "product-images",
+      "id": "product-images-baseline",
+      "synthetic": true,
+      "inputs": {
+        "workload": 240,
+        "throughput": 60,
+        "streams": 2,
+        "buffer_percent": 20
+      },
+      "expected": {
+        "adjusted_workload": 288,
+        "capacity_per_day": 120,
+        "days": 3,
+        "band": "STANDARD"
+      },
+      "reproduced": {
+        "adjusted_workload": 288,
+        "capacity_per_day": 120,
+        "days": 3,
+        "band": "STANDARD"
+      }
+    },
+    {
+      "planner_id": "product-images",
+      "id": "product-images-no-buffer",
+      "synthetic": true,
+      "inputs": {
+        "workload": 240,
+        "throughput": 60,
+        "streams": 2,
+        "buffer_percent": 0
+      },
+      "expected": {
+        "adjusted_workload": 240,
+        "capacity_per_day": 120,
+        "days": 2,
+        "band": "QUICK"
+      },
+      "reproduced": {
+        "adjusted_workload": 240,
+        "capacity_per_day": 120,
+        "days": 2,
+        "band": "QUICK"
+      }
+    },
+    {
+      "planner_id": "product-images",
+      "id": "product-images-parallel",
+      "synthetic": true,
+      "inputs": {
+        "workload": 240,
+        "throughput": 60,
+        "streams": 4,
+        "buffer_percent": 20
+      },
+      "expected": {
+        "adjusted_workload": 288,
+        "capacity_per_day": 240,
+        "days": 2,
+        "band": "QUICK"
+      },
+      "reproduced": {
+        "adjusted_workload": 288,
+        "capacity_per_day": 240,
+        "days": 2,
+        "band": "QUICK"
+      }
+    },
+    {
+      "planner_id": "product-images",
+      "id": "product-images-heavy",
+      "synthetic": true,
+      "inputs": {
+        "workload": 480,
+        "throughput": 60,
+        "streams": 2,
+        "buffer_percent": 30
+      },
+      "expected": {
+        "adjusted_workload": 624,
+        "capacity_per_day": 120,
+        "days": 6,
+        "band": "EXTENDED"
+      },
+      "reproduced": {
+        "adjusted_workload": 624,
+        "capacity_per_day": 120,
+        "days": 6,
+        "band": "EXTENDED"
+      }
+    },
+    {
+      "planner_id": "social-variants",
+      "id": "social-variants-baseline",
+      "synthetic": true,
+      "inputs": {
+        "workload": 64,
+        "throughput": 16,
+        "streams": 2,
+        "buffer_percent": 20
+      },
+      "expected": {
+        "adjusted_workload": 76.8,
+        "capacity_per_day": 32,
+        "days": 3,
+        "band": "STANDARD"
+      },
+      "reproduced": {
+        "adjusted_workload": 76.8,
+        "capacity_per_day": 32,
+        "days": 3,
+        "band": "STANDARD"
+      }
+    },
+    {
+      "planner_id": "social-variants",
+      "id": "social-variants-no-buffer",
+      "synthetic": true,
+      "inputs": {
+        "workload": 64,
+        "throughput": 16,
+        "streams": 2,
+        "buffer_percent": 0
+      },
+      "expected": {
+        "adjusted_workload": 64,
+        "capacity_per_day": 32,
+        "days": 2,
+        "band": "QUICK"
+      },
+      "reproduced": {
+        "adjusted_workload": 64,
+        "capacity_per_day": 32,
+        "days": 2,
+        "band": "QUICK"
+      }
+    },
+    {
+      "planner_id": "social-variants",
+      "id": "social-variants-parallel",
+      "synthetic": true,
+      "inputs": {
+        "workload": 64,
+        "throughput": 16,
+        "streams": 4,
+        "buffer_percent": 20
+      },
+      "expected": {
+        "adjusted_workload": 76.8,
+        "capacity_per_day": 64,
+        "days": 2,
+        "band": "QUICK"
+      },
+      "reproduced": {
+        "adjusted_workload": 76.8,
+        "capacity_per_day": 64,
+        "days": 2,
+        "band": "QUICK"
+      }
+    },
+    {
+      "planner_id": "social-variants",
+      "id": "social-variants-heavy",
+      "synthetic": true,
+      "inputs": {
+        "workload": 128,
+        "throughput": 16,
+        "streams": 2,
+        "buffer_percent": 30
+      },
+      "expected": {
+        "adjusted_workload": 166.4,
+        "capacity_per_day": 32,
+        "days": 6,
+        "band": "EXTENDED"
+      },
+      "reproduced": {
+        "adjusted_workload": 166.4,
+        "capacity_per_day": 32,
+        "days": 6,
+        "band": "EXTENDED"
+      }
+    },
+    {
+      "planner_id": "campaign-markets",
+      "id": "campaign-markets-baseline",
+      "synthetic": true,
+      "inputs": {
+        "workload": 20,
+        "throughput": 5,
+        "streams": 2,
+        "buffer_percent": 20
+      },
+      "expected": {
+        "adjusted_workload": 24,
+        "capacity_per_day": 10,
+        "days": 3,
+        "band": "STANDARD"
+      },
+      "reproduced": {
+        "adjusted_workload": 24,
+        "capacity_per_day": 10,
+        "days": 3,
+        "band": "STANDARD"
+      }
+    },
+    {
+      "planner_id": "campaign-markets",
+      "id": "campaign-markets-no-buffer",
+      "synthetic": true,
+      "inputs": {
+        "workload": 20,
+        "throughput": 5,
+        "streams": 2,
+        "buffer_percent": 0
+      },
+      "expected": {
+        "adjusted_workload": 20,
+        "capacity_per_day": 10,
+        "days": 2,
+        "band": "QUICK"
+      },
+      "reproduced": {
+        "adjusted_workload": 20,
+        "capacity_per_day": 10,
+        "days": 2,
+        "band": "QUICK"
+      }
+    },
+    {
+      "planner_id": "campaign-markets",
+      "id": "campaign-markets-parallel",
+      "synthetic": true,
+      "inputs": {
+        "workload": 20,
+        "throughput": 5,
+        "streams": 4,
+        "buffer_percent": 20
+      },
+      "expected": {
+        "adjusted_workload": 24,
+        "capacity_per_day": 20,
+        "days": 2,
+        "band": "QUICK"
+      },
+      "reproduced": {
+        "adjusted_workload": 24,
+        "capacity_per_day": 20,
+        "days": 2,
+        "band": "QUICK"
+      }
+    },
+    {
+      "planner_id": "campaign-markets",
+      "id": "campaign-markets-heavy",
+      "synthetic": true,
+      "inputs": {
+        "workload": 40,
+        "throughput": 5,
+        "streams": 2,
+        "buffer_percent": 30
+      },
+      "expected": {
+        "adjusted_workload": 52,
+        "capacity_per_day": 10,
+        "days": 6,
+        "band": "EXTENDED"
+      },
+      "reproduced": {
+        "adjusted_workload": 52,
+        "capacity_per_day": 10,
+        "days": 6,
+        "band": "EXTENDED"
+      }
+    },
+    {
+      "planner_id": "talent-approvals",
+      "id": "talent-approvals-baseline",
+      "synthetic": true,
+      "inputs": {
+        "workload": 30,
+        "throughput": 10,
+        "streams": 2,
+        "buffer_percent": 20
+      },
+      "expected": {
+        "adjusted_workload": 36,
+        "capacity_per_day": 20,
+        "days": 2,
+        "band": "QUICK"
+      },
+      "reproduced": {
+        "adjusted_workload": 36,
+        "capacity_per_day": 20,
+        "days": 2,
+        "band": "QUICK"
+      }
+    },
+    {
+      "planner_id": "talent-approvals",
+      "id": "talent-approvals-no-buffer",
+      "synthetic": true,
+      "inputs": {
+        "workload": 30,
+        "throughput": 10,
+        "streams": 2,
+        "buffer_percent": 0
+      },
+      "expected": {
+        "adjusted_workload": 30,
+        "capacity_per_day": 20,
+        "days": 2,
+        "band": "QUICK"
+      },
+      "reproduced": {
+        "adjusted_workload": 30,
+        "capacity_per_day": 20,
+        "days": 2,
+        "band": "QUICK"
+      }
+    },
+    {
+      "planner_id": "talent-approvals",
+      "id": "talent-approvals-parallel",
+      "synthetic": true,
+      "inputs": {
+        "workload": 30,
+        "throughput": 10,
+        "streams": 4,
+        "buffer_percent": 20
+      },
+      "expected": {
+        "adjusted_workload": 36,
+        "capacity_per_day": 40,
+        "days": 1,
+        "band": "QUICK"
+      },
+      "reproduced": {
+        "adjusted_workload": 36,
+        "capacity_per_day": 40,
+        "days": 1,
+        "band": "QUICK"
+      }
+    },
+    {
+      "planner_id": "talent-approvals",
+      "id": "talent-approvals-heavy",
+      "synthetic": true,
+      "inputs": {
+        "workload": 60,
+        "throughput": 10,
+        "streams": 2,
+        "buffer_percent": 30
+      },
+      "expected": {
+        "adjusted_workload": 78,
+        "capacity_per_day": 20,
+        "days": 4,
+        "band": "STANDARD"
+      },
+      "reproduced": {
+        "adjusted_workload": 78,
+        "capacity_per_day": 20,
+        "days": 4,
+        "band": "STANDARD"
+      }
+    },
+    {
+      "planner_id": "supplier-bids",
+      "id": "supplier-bids-baseline",
+      "synthetic": true,
+      "inputs": {
+        "workload": 24,
+        "throughput": 6,
+        "streams": 2,
+        "buffer_percent": 20
+      },
+      "expected": {
+        "adjusted_workload": 28.8,
+        "capacity_per_day": 12,
+        "days": 3,
+        "band": "STANDARD"
+      },
+      "reproduced": {
+        "adjusted_workload": 28.8,
+        "capacity_per_day": 12,
+        "days": 3,
+        "band": "STANDARD"
+      }
+    },
+    {
+      "planner_id": "supplier-bids",
+      "id": "supplier-bids-no-buffer",
+      "synthetic": true,
+      "inputs": {
+        "workload": 24,
+        "throughput": 6,
+        "streams": 2,
+        "buffer_percent": 0
+      },
+      "expected": {
+        "adjusted_workload": 24,
+        "capacity_per_day": 12,
+        "days": 2,
+        "band": "QUICK"
+      },
+      "reproduced": {
+        "adjusted_workload": 24,
+        "capacity_per_day": 12,
+        "days": 2,
+        "band": "QUICK"
+      }
+    },
+    {
+      "planner_id": "supplier-bids",
+      "id": "supplier-bids-parallel",
+      "synthetic": true,
+      "inputs": {
+        "workload": 24,
+        "throughput": 6,
+        "streams": 4,
+        "buffer_percent": 20
+      },
+      "expected": {
+        "adjusted_workload": 28.8,
+        "capacity_per_day": 24,
+        "days": 2,
+        "band": "QUICK"
+      },
+      "reproduced": {
+        "adjusted_workload": 28.8,
+        "capacity_per_day": 24,
+        "days": 2,
+        "band": "QUICK"
+      }
+    },
+    {
+      "planner_id": "supplier-bids",
+      "id": "supplier-bids-heavy",
+      "synthetic": true,
+      "inputs": {
+        "workload": 48,
+        "throughput": 6,
+        "streams": 2,
+        "buffer_percent": 30
+      },
+      "expected": {
+        "adjusted_workload": 62.4,
+        "capacity_per_day": 12,
+        "days": 6,
+        "band": "EXTENDED"
+      },
+      "reproduced": {
+        "adjusted_workload": 62.4,
+        "capacity_per_day": 12,
+        "days": 6,
+        "band": "EXTENDED"
+      }
+    },
+    {
+      "planner_id": "location-options",
+      "id": "location-options-baseline",
+      "synthetic": true,
+      "inputs": {
+        "workload": 18,
+        "throughput": 6,
+        "streams": 2,
+        "buffer_percent": 20
+      },
+      "expected": {
+        "adjusted_workload": 21.6,
+        "capacity_per_day": 12,
+        "days": 2,
+        "band": "QUICK"
+      },
+      "reproduced": {
+        "adjusted_workload": 21.6,
+        "capacity_per_day": 12,
+        "days": 2,
+        "band": "QUICK"
+      }
+    },
+    {
+      "planner_id": "location-options",
+      "id": "location-options-no-buffer",
+      "synthetic": true,
+      "inputs": {
+        "workload": 18,
+        "throughput": 6,
+        "streams": 2,
+        "buffer_percent": 0
+      },
+      "expected": {
+        "adjusted_workload": 18,
+        "capacity_per_day": 12,
+        "days": 2,
+        "band": "QUICK"
+      },
+      "reproduced": {
+        "adjusted_workload": 18,
+        "capacity_per_day": 12,
+        "days": 2,
+        "band": "QUICK"
+      }
+    },
+    {
+      "planner_id": "location-options",
+      "id": "location-options-parallel",
+      "synthetic": true,
+      "inputs": {
+        "workload": 18,
+        "throughput": 6,
+        "streams": 4,
+        "buffer_percent": 20
+      },
+      "expected": {
+        "adjusted_workload": 21.6,
+        "capacity_per_day": 24,
+        "days": 1,
+        "band": "QUICK"
+      },
+      "reproduced": {
+        "adjusted_workload": 21.6,
+        "capacity_per_day": 24,
+        "days": 1,
+        "band": "QUICK"
+      }
+    },
+    {
+      "planner_id": "location-options",
+      "id": "location-options-heavy",
+      "synthetic": true,
+      "inputs": {
+        "workload": 36,
+        "throughput": 6,
+        "streams": 2,
+        "buffer_percent": 30
+      },
+      "expected": {
+        "adjusted_workload": 46.8,
+        "capacity_per_day": 12,
+        "days": 4,
+        "band": "STANDARD"
+      },
+      "reproduced": {
+        "adjusted_workload": 46.8,
+        "capacity_per_day": 12,
+        "days": 4,
+        "band": "STANDARD"
+      }
+    },
+    {
+      "planner_id": "call-sheets",
+      "id": "call-sheets-baseline",
+      "synthetic": true,
+      "inputs": {
+        "workload": 15,
+        "throughput": 5,
+        "streams": 2,
+        "buffer_percent": 20
+      },
+      "expected": {
+        "adjusted_workload": 18,
+        "capacity_per_day": 10,
+        "days": 2,
+        "band": "QUICK"
+      },
+      "reproduced": {
+        "adjusted_workload": 18,
+        "capacity_per_day": 10,
+        "days": 2,
+        "band": "QUICK"
+      }
+    },
+    {
+      "planner_id": "call-sheets",
+      "id": "call-sheets-no-buffer",
+      "synthetic": true,
+      "inputs": {
+        "workload": 15,
+        "throughput": 5,
+        "streams": 2,
+        "buffer_percent": 0
+      },
+      "expected": {
+        "adjusted_workload": 15,
+        "capacity_per_day": 10,
+        "days": 2,
+        "band": "QUICK"
+      },
+      "reproduced": {
+        "adjusted_workload": 15,
+        "capacity_per_day": 10,
+        "days": 2,
+        "band": "QUICK"
+      }
+    },
+    {
+      "planner_id": "call-sheets",
+      "id": "call-sheets-parallel",
+      "synthetic": true,
+      "inputs": {
+        "workload": 15,
+        "throughput": 5,
+        "streams": 4,
+        "buffer_percent": 20
+      },
+      "expected": {
+        "adjusted_workload": 18,
+        "capacity_per_day": 20,
+        "days": 1,
+        "band": "QUICK"
+      },
+      "reproduced": {
+        "adjusted_workload": 18,
+        "capacity_per_day": 20,
+        "days": 1,
+        "band": "QUICK"
+      }
+    },
+    {
+      "planner_id": "call-sheets",
+      "id": "call-sheets-heavy",
+      "synthetic": true,
+      "inputs": {
+        "workload": 30,
+        "throughput": 5,
+        "streams": 2,
+        "buffer_percent": 30
+      },
+      "expected": {
+        "adjusted_workload": 39,
+        "capacity_per_day": 10,
+        "days": 4,
+        "band": "STANDARD"
+      },
+      "reproduced": {
+        "adjusted_workload": 39,
+        "capacity_per_day": 10,
+        "days": 4,
+        "band": "STANDARD"
+      }
+    },
+    {
+      "planner_id": "transcript-minutes",
+      "id": "transcript-minutes-baseline",
+      "synthetic": true,
+      "inputs": {
+        "workload": 480,
+        "throughput": 120,
+        "streams": 2,
+        "buffer_percent": 20
+      },
+      "expected": {
+        "adjusted_workload": 576,
+        "capacity_per_day": 240,
+        "days": 3,
+        "band": "STANDARD"
+      },
+      "reproduced": {
+        "adjusted_workload": 576,
+        "capacity_per_day": 240,
+        "days": 3,
+        "band": "STANDARD"
+      }
+    },
+    {
+      "planner_id": "transcript-minutes",
+      "id": "transcript-minutes-no-buffer",
+      "synthetic": true,
+      "inputs": {
+        "workload": 480,
+        "throughput": 120,
+        "streams": 2,
+        "buffer_percent": 0
+      },
+      "expected": {
+        "adjusted_workload": 480,
+        "capacity_per_day": 240,
+        "days": 2,
+        "band": "QUICK"
+      },
+      "reproduced": {
+        "adjusted_workload": 480,
+        "capacity_per_day": 240,
+        "days": 2,
+        "band": "QUICK"
+      }
+    },
+    {
+      "planner_id": "transcript-minutes",
+      "id": "transcript-minutes-parallel",
+      "synthetic": true,
+      "inputs": {
+        "workload": 480,
+        "throughput": 120,
+        "streams": 4,
+        "buffer_percent": 20
+      },
+      "expected": {
+        "adjusted_workload": 576,
+        "capacity_per_day": 480,
+        "days": 2,
+        "band": "QUICK"
+      },
+      "reproduced": {
+        "adjusted_workload": 576,
+        "capacity_per_day": 480,
+        "days": 2,
+        "band": "QUICK"
+      }
+    },
+    {
+      "planner_id": "transcript-minutes",
+      "id": "transcript-minutes-heavy",
+      "synthetic": true,
+      "inputs": {
+        "workload": 960,
+        "throughput": 120,
+        "streams": 2,
+        "buffer_percent": 30
+      },
+      "expected": {
+        "adjusted_workload": 1248,
+        "capacity_per_day": 240,
+        "days": 6,
+        "band": "EXTENDED"
+      },
+      "reproduced": {
+        "adjusted_workload": 1248,
+        "capacity_per_day": 240,
+        "days": 6,
+        "band": "EXTENDED"
+      }
+    },
+    {
+      "planner_id": "metadata-records",
+      "id": "metadata-records-baseline",
+      "synthetic": true,
+      "inputs": {
+        "workload": 1000,
+        "throughput": 250,
+        "streams": 2,
+        "buffer_percent": 20
+      },
+      "expected": {
+        "adjusted_workload": 1200,
+        "capacity_per_day": 500,
+        "days": 3,
+        "band": "STANDARD"
+      },
+      "reproduced": {
+        "adjusted_workload": 1200,
+        "capacity_per_day": 500,
+        "days": 3,
+        "band": "STANDARD"
+      }
+    },
+    {
+      "planner_id": "metadata-records",
+      "id": "metadata-records-no-buffer",
+      "synthetic": true,
+      "inputs": {
+        "workload": 1000,
+        "throughput": 250,
+        "streams": 2,
+        "buffer_percent": 0
+      },
+      "expected": {
+        "adjusted_workload": 1000,
+        "capacity_per_day": 500,
+        "days": 2,
+        "band": "QUICK"
+      },
+      "reproduced": {
+        "adjusted_workload": 1000,
+        "capacity_per_day": 500,
+        "days": 2,
+        "band": "QUICK"
+      }
+    },
+    {
+      "planner_id": "metadata-records",
+      "id": "metadata-records-parallel",
+      "synthetic": true,
+      "inputs": {
+        "workload": 1000,
+        "throughput": 250,
+        "streams": 4,
+        "buffer_percent": 20
+      },
+      "expected": {
+        "adjusted_workload": 1200,
+        "capacity_per_day": 1000,
+        "days": 2,
+        "band": "QUICK"
+      },
+      "reproduced": {
+        "adjusted_workload": 1200,
+        "capacity_per_day": 1000,
+        "days": 2,
+        "band": "QUICK"
+      }
+    },
+    {
+      "planner_id": "metadata-records",
+      "id": "metadata-records-heavy",
+      "synthetic": true,
+      "inputs": {
+        "workload": 2000,
+        "throughput": 250,
+        "streams": 2,
+        "buffer_percent": 30
+      },
+      "expected": {
+        "adjusted_workload": 2600,
+        "capacity_per_day": 500,
+        "days": 6,
+        "band": "EXTENDED"
+      },
+      "reproduced": {
+        "adjusted_workload": 2600,
+        "capacity_per_day": 500,
+        "days": 6,
+        "band": "EXTENDED"
+      }
+    }
+  ]
+}
