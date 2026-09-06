@@ -1,0 +1,3685 @@
+{
+  "schema_version": "1.0.0",
+  "publisher": {
+    "name": "SHAR Production",
+    "website": "https://sharprod.com/"
+  },
+  "license": "MIT",
+  "scorecards": [
+    {
+      "id": "brief-readiness",
+      "title": {
+        "en": "Brief readiness",
+        "ru": "Готовность брифа"
+      },
+      "scope": {
+        "en": "Measures whether objectives, audience, deliverables and constraints are ready for production.",
+        "ru": "Проверяет готовность целей, аудитории, материалов и ограничений к запуску производства."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "criteria": [
+        {
+          "id": "brief-readiness-coverage",
+          "label": {
+            "en": "Brief readiness: Coverage",
+            "ru": "Готовность брифа: Полнота"
+          },
+          "weight": 16
+        },
+        {
+          "id": "brief-readiness-evidence",
+          "label": {
+            "en": "Brief readiness: Evidence",
+            "ru": "Готовность брифа: Доказательства"
+          },
+          "weight": 15
+        },
+        {
+          "id": "brief-readiness-ownership",
+          "label": {
+            "en": "Brief readiness: Ownership",
+            "ru": "Готовность брифа: Ответственность"
+          },
+          "weight": 14
+        },
+        {
+          "id": "brief-readiness-accuracy",
+          "label": {
+            "en": "Brief readiness: Accuracy",
+            "ru": "Готовность брифа: Точность"
+          },
+          "weight": 13
+        },
+        {
+          "id": "brief-readiness-recency",
+          "label": {
+            "en": "Brief readiness: Recency",
+            "ru": "Готовность брифа: Актуальность"
+          },
+          "weight": 12
+        },
+        {
+          "id": "brief-readiness-dependencies",
+          "label": {
+            "en": "Brief readiness: Dependencies",
+            "ru": "Готовность брифа: Зависимости"
+          },
+          "weight": 11
+        },
+        {
+          "id": "brief-readiness-risk-control",
+          "label": {
+            "en": "Brief readiness: Risk control",
+            "ru": "Готовность брифа: Контроль рисков"
+          },
+          "weight": 10
+        },
+        {
+          "id": "brief-readiness-approval",
+          "label": {
+            "en": "Brief readiness: Approval",
+            "ru": "Готовность брифа: Согласование"
+          },
+          "weight": 9
+        }
+      ],
+      "scenarios": [
+        {
+          "id": "brief-readiness-complete",
+          "synthetic": true,
+          "values": {
+            "brief-readiness-coverage": 100,
+            "brief-readiness-evidence": 100,
+            "brief-readiness-ownership": 100,
+            "brief-readiness-accuracy": 100,
+            "brief-readiness-recency": 100,
+            "brief-readiness-dependencies": 100,
+            "brief-readiness-risk-control": 100,
+            "brief-readiness-approval": 100
+          },
+          "expected_score": 100,
+          "expected_decision": "READY"
+        },
+        {
+          "id": "brief-readiness-strong",
+          "synthetic": true,
+          "values": {
+            "brief-readiness-coverage": 80,
+            "brief-readiness-evidence": 80,
+            "brief-readiness-ownership": 80,
+            "brief-readiness-accuracy": 80,
+            "brief-readiness-recency": 80,
+            "brief-readiness-dependencies": 80,
+            "brief-readiness-risk-control": 80,
+            "brief-readiness-approval": 80
+          },
+          "expected_score": 80,
+          "expected_decision": "READY"
+        },
+        {
+          "id": "brief-readiness-partial",
+          "synthetic": true,
+          "values": {
+            "brief-readiness-coverage": 60,
+            "brief-readiness-evidence": 60,
+            "brief-readiness-ownership": 60,
+            "brief-readiness-accuracy": 60,
+            "brief-readiness-recency": 60,
+            "brief-readiness-dependencies": 60,
+            "brief-readiness-risk-control": 60,
+            "brief-readiness-approval": 60
+          },
+          "expected_score": 60,
+          "expected_decision": "CONDITIONAL"
+        },
+        {
+          "id": "brief-readiness-blocked",
+          "synthetic": true,
+          "values": {
+            "brief-readiness-coverage": 30,
+            "brief-readiness-evidence": 30,
+            "brief-readiness-ownership": 30,
+            "brief-readiness-accuracy": 30,
+            "brief-readiness-recency": 30,
+            "brief-readiness-dependencies": 30,
+            "brief-readiness-risk-control": 30,
+            "brief-readiness-approval": 30
+          },
+          "expected_score": 30,
+          "expected_decision": "HOLD"
+        }
+      ]
+    },
+    {
+      "id": "rights-readiness",
+      "title": {
+        "en": "Rights readiness",
+        "ru": "Готовность прав"
+      },
+      "scope": {
+        "en": "Measures documented usage rights, territories, terms and attribution obligations.",
+        "ru": "Оценивает документирование прав, территорий, сроков и обязательств по атрибуции."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "criteria": [
+        {
+          "id": "rights-readiness-coverage",
+          "label": {
+            "en": "Rights readiness: Coverage",
+            "ru": "Готовность прав: Полнота"
+          },
+          "weight": 16
+        },
+        {
+          "id": "rights-readiness-evidence",
+          "label": {
+            "en": "Rights readiness: Evidence",
+            "ru": "Готовность прав: Доказательства"
+          },
+          "weight": 15
+        },
+        {
+          "id": "rights-readiness-ownership",
+          "label": {
+            "en": "Rights readiness: Ownership",
+            "ru": "Готовность прав: Ответственность"
+          },
+          "weight": 14
+        },
+        {
+          "id": "rights-readiness-accuracy",
+          "label": {
+            "en": "Rights readiness: Accuracy",
+            "ru": "Готовность прав: Точность"
+          },
+          "weight": 13
+        },
+        {
+          "id": "rights-readiness-recency",
+          "label": {
+            "en": "Rights readiness: Recency",
+            "ru": "Готовность прав: Актуальность"
+          },
+          "weight": 12
+        },
+        {
+          "id": "rights-readiness-dependencies",
+          "label": {
+            "en": "Rights readiness: Dependencies",
+            "ru": "Готовность прав: Зависимости"
+          },
+          "weight": 11
+        },
+        {
+          "id": "rights-readiness-risk-control",
+          "label": {
+            "en": "Rights readiness: Risk control",
+            "ru": "Готовность прав: Контроль рисков"
+          },
+          "weight": 10
+        },
+        {
+          "id": "rights-readiness-approval",
+          "label": {
+            "en": "Rights readiness: Approval",
+            "ru": "Готовность прав: Согласование"
+          },
+          "weight": 9
+        }
+      ],
+      "scenarios": [
+        {
+          "id": "rights-readiness-complete",
+          "synthetic": true,
+          "values": {
+            "rights-readiness-coverage": 100,
+            "rights-readiness-evidence": 100,
+            "rights-readiness-ownership": 100,
+            "rights-readiness-accuracy": 100,
+            "rights-readiness-recency": 100,
+            "rights-readiness-dependencies": 100,
+            "rights-readiness-risk-control": 100,
+            "rights-readiness-approval": 100
+          },
+          "expected_score": 100,
+          "expected_decision": "READY"
+        },
+        {
+          "id": "rights-readiness-strong",
+          "synthetic": true,
+          "values": {
+            "rights-readiness-coverage": 80,
+            "rights-readiness-evidence": 80,
+            "rights-readiness-ownership": 80,
+            "rights-readiness-accuracy": 80,
+            "rights-readiness-recency": 80,
+            "rights-readiness-dependencies": 80,
+            "rights-readiness-risk-control": 80,
+            "rights-readiness-approval": 80
+          },
+          "expected_score": 80,
+          "expected_decision": "READY"
+        },
+        {
+          "id": "rights-readiness-partial",
+          "synthetic": true,
+          "values": {
+            "rights-readiness-coverage": 60,
+            "rights-readiness-evidence": 60,
+            "rights-readiness-ownership": 60,
+            "rights-readiness-accuracy": 60,
+            "rights-readiness-recency": 60,
+            "rights-readiness-dependencies": 60,
+            "rights-readiness-risk-control": 60,
+            "rights-readiness-approval": 60
+          },
+          "expected_score": 60,
+          "expected_decision": "CONDITIONAL"
+        },
+        {
+          "id": "rights-readiness-blocked",
+          "synthetic": true,
+          "values": {
+            "rights-readiness-coverage": 30,
+            "rights-readiness-evidence": 30,
+            "rights-readiness-ownership": 30,
+            "rights-readiness-accuracy": 30,
+            "rights-readiness-recency": 30,
+            "rights-readiness-dependencies": 30,
+            "rights-readiness-risk-control": 30,
+            "rights-readiness-approval": 30
+          },
+          "expected_score": 30,
+          "expected_decision": "HOLD"
+        }
+      ]
+    },
+    {
+      "id": "budget-readiness",
+      "title": {
+        "en": "Budget readiness",
+        "ru": "Готовность бюджета"
+      },
+      "scope": {
+        "en": "Measures estimate coverage, contingencies, approvals and cost traceability.",
+        "ru": "Оценивает полноту сметы, резервы, согласования и прослеживаемость затрат."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "criteria": [
+        {
+          "id": "budget-readiness-coverage",
+          "label": {
+            "en": "Budget readiness: Coverage",
+            "ru": "Готовность бюджета: Полнота"
+          },
+          "weight": 16
+        },
+        {
+          "id": "budget-readiness-evidence",
+          "label": {
+            "en": "Budget readiness: Evidence",
+            "ru": "Готовность бюджета: Доказательства"
+          },
+          "weight": 15
+        },
+        {
+          "id": "budget-readiness-ownership",
+          "label": {
+            "en": "Budget readiness: Ownership",
+            "ru": "Готовность бюджета: Ответственность"
+          },
+          "weight": 14
+        },
+        {
+          "id": "budget-readiness-accuracy",
+          "label": {
+            "en": "Budget readiness: Accuracy",
+            "ru": "Готовность бюджета: Точность"
+          },
+          "weight": 13
+        },
+        {
+          "id": "budget-readiness-recency",
+          "label": {
+            "en": "Budget readiness: Recency",
+            "ru": "Готовность бюджета: Актуальность"
+          },
+          "weight": 12
+        },
+        {
+          "id": "budget-readiness-dependencies",
+          "label": {
+            "en": "Budget readiness: Dependencies",
+            "ru": "Готовность бюджета: Зависимости"
+          },
+          "weight": 11
+        },
+        {
+          "id": "budget-readiness-risk-control",
+          "label": {
+            "en": "Budget readiness: Risk control",
+            "ru": "Готовность бюджета: Контроль рисков"
+          },
+          "weight": 10
+        },
+        {
+          "id": "budget-readiness-approval",
+          "label": {
+            "en": "Budget readiness: Approval",
+            "ru": "Готовность бюджета: Согласование"
+          },
+          "weight": 9
+        }
+      ],
+      "scenarios": [
+        {
+          "id": "budget-readiness-complete",
+          "synthetic": true,
+          "values": {
+            "budget-readiness-coverage": 100,
+            "budget-readiness-evidence": 100,
+            "budget-readiness-ownership": 100,
+            "budget-readiness-accuracy": 100,
+            "budget-readiness-recency": 100,
+            "budget-readiness-dependencies": 100,
+            "budget-readiness-risk-control": 100,
+            "budget-readiness-approval": 100
+          },
+          "expected_score": 100,
+          "expected_decision": "READY"
+        },
+        {
+          "id": "budget-readiness-strong",
+          "synthetic": true,
+          "values": {
+            "budget-readiness-coverage": 80,
+            "budget-readiness-evidence": 80,
+            "budget-readiness-ownership": 80,
+            "budget-readiness-accuracy": 80,
+            "budget-readiness-recency": 80,
+            "budget-readiness-dependencies": 80,
+            "budget-readiness-risk-control": 80,
+            "budget-readiness-approval": 80
+          },
+          "expected_score": 80,
+          "expected_decision": "READY"
+        },
+        {
+          "id": "budget-readiness-partial",
+          "synthetic": true,
+          "values": {
+            "budget-readiness-coverage": 60,
+            "budget-readiness-evidence": 60,
+            "budget-readiness-ownership": 60,
+            "budget-readiness-accuracy": 60,
+            "budget-readiness-recency": 60,
+            "budget-readiness-dependencies": 60,
+            "budget-readiness-risk-control": 60,
+            "budget-readiness-approval": 60
+          },
+          "expected_score": 60,
+          "expected_decision": "CONDITIONAL"
+        },
+        {
+          "id": "budget-readiness-blocked",
+          "synthetic": true,
+          "values": {
+            "budget-readiness-coverage": 30,
+            "budget-readiness-evidence": 30,
+            "budget-readiness-ownership": 30,
+            "budget-readiness-accuracy": 30,
+            "budget-readiness-recency": 30,
+            "budget-readiness-dependencies": 30,
+            "budget-readiness-risk-control": 30,
+            "budget-readiness-approval": 30
+          },
+          "expected_score": 30,
+          "expected_decision": "HOLD"
+        }
+      ]
+    },
+    {
+      "id": "schedule-readiness",
+      "title": {
+        "en": "Schedule readiness",
+        "ru": "Готовность графика"
+      },
+      "scope": {
+        "en": "Measures dependencies, milestones, buffers and accountable owners.",
+        "ru": "Оценивает зависимости, вехи, резервы времени и ответственных."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "criteria": [
+        {
+          "id": "schedule-readiness-coverage",
+          "label": {
+            "en": "Schedule readiness: Coverage",
+            "ru": "Готовность графика: Полнота"
+          },
+          "weight": 16
+        },
+        {
+          "id": "schedule-readiness-evidence",
+          "label": {
+            "en": "Schedule readiness: Evidence",
+            "ru": "Готовность графика: Доказательства"
+          },
+          "weight": 15
+        },
+        {
+          "id": "schedule-readiness-ownership",
+          "label": {
+            "en": "Schedule readiness: Ownership",
+            "ru": "Готовность графика: Ответственность"
+          },
+          "weight": 14
+        },
+        {
+          "id": "schedule-readiness-accuracy",
+          "label": {
+            "en": "Schedule readiness: Accuracy",
+            "ru": "Готовность графика: Точность"
+          },
+          "weight": 13
+        },
+        {
+          "id": "schedule-readiness-recency",
+          "label": {
+            "en": "Schedule readiness: Recency",
+            "ru": "Готовность графика: Актуальность"
+          },
+          "weight": 12
+        },
+        {
+          "id": "schedule-readiness-dependencies",
+          "label": {
+            "en": "Schedule readiness: Dependencies",
+            "ru": "Готовность графика: Зависимости"
+          },
+          "weight": 11
+        },
+        {
+          "id": "schedule-readiness-risk-control",
+          "label": {
+            "en": "Schedule readiness: Risk control",
+            "ru": "Готовность графика: Контроль рисков"
+          },
+          "weight": 10
+        },
+        {
+          "id": "schedule-readiness-approval",
+          "label": {
+            "en": "Schedule readiness: Approval",
+            "ru": "Готовность графика: Согласование"
+          },
+          "weight": 9
+        }
+      ],
+      "scenarios": [
+        {
+          "id": "schedule-readiness-complete",
+          "synthetic": true,
+          "values": {
+            "schedule-readiness-coverage": 100,
+            "schedule-readiness-evidence": 100,
+            "schedule-readiness-ownership": 100,
+            "schedule-readiness-accuracy": 100,
+            "schedule-readiness-recency": 100,
+            "schedule-readiness-dependencies": 100,
+            "schedule-readiness-risk-control": 100,
+            "schedule-readiness-approval": 100
+          },
+          "expected_score": 100,
+          "expected_decision": "READY"
+        },
+        {
+          "id": "schedule-readiness-strong",
+          "synthetic": true,
+          "values": {
+            "schedule-readiness-coverage": 80,
+            "schedule-readiness-evidence": 80,
+            "schedule-readiness-ownership": 80,
+            "schedule-readiness-accuracy": 80,
+            "schedule-readiness-recency": 80,
+            "schedule-readiness-dependencies": 80,
+            "schedule-readiness-risk-control": 80,
+            "schedule-readiness-approval": 80
+          },
+          "expected_score": 80,
+          "expected_decision": "READY"
+        },
+        {
+          "id": "schedule-readiness-partial",
+          "synthetic": true,
+          "values": {
+            "schedule-readiness-coverage": 60,
+            "schedule-readiness-evidence": 60,
+            "schedule-readiness-ownership": 60,
+            "schedule-readiness-accuracy": 60,
+            "schedule-readiness-recency": 60,
+            "schedule-readiness-dependencies": 60,
+            "schedule-readiness-risk-control": 60,
+            "schedule-readiness-approval": 60
+          },
+          "expected_score": 60,
+          "expected_decision": "CONDITIONAL"
+        },
+        {
+          "id": "schedule-readiness-blocked",
+          "synthetic": true,
+          "values": {
+            "schedule-readiness-coverage": 30,
+            "schedule-readiness-evidence": 30,
+            "schedule-readiness-ownership": 30,
+            "schedule-readiness-accuracy": 30,
+            "schedule-readiness-recency": 30,
+            "schedule-readiness-dependencies": 30,
+            "schedule-readiness-risk-control": 30,
+            "schedule-readiness-approval": 30
+          },
+          "expected_score": 30,
+          "expected_decision": "HOLD"
+        }
+      ]
+    },
+    {
+      "id": "location-readiness",
+      "title": {
+        "en": "Location readiness",
+        "ru": "Готовность локаций"
+      },
+      "scope": {
+        "en": "Measures access, permits, utilities, restrictions and fallback plans.",
+        "ru": "Оценивает доступ, разрешения, инфраструктуру, ограничения и запасные планы."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "criteria": [
+        {
+          "id": "location-readiness-coverage",
+          "label": {
+            "en": "Location readiness: Coverage",
+            "ru": "Готовность локаций: Полнота"
+          },
+          "weight": 16
+        },
+        {
+          "id": "location-readiness-evidence",
+          "label": {
+            "en": "Location readiness: Evidence",
+            "ru": "Готовность локаций: Доказательства"
+          },
+          "weight": 15
+        },
+        {
+          "id": "location-readiness-ownership",
+          "label": {
+            "en": "Location readiness: Ownership",
+            "ru": "Готовность локаций: Ответственность"
+          },
+          "weight": 14
+        },
+        {
+          "id": "location-readiness-accuracy",
+          "label": {
+            "en": "Location readiness: Accuracy",
+            "ru": "Готовность локаций: Точность"
+          },
+          "weight": 13
+        },
+        {
+          "id": "location-readiness-recency",
+          "label": {
+            "en": "Location readiness: Recency",
+            "ru": "Готовность локаций: Актуальность"
+          },
+          "weight": 12
+        },
+        {
+          "id": "location-readiness-dependencies",
+          "label": {
+            "en": "Location readiness: Dependencies",
+            "ru": "Готовность локаций: Зависимости"
+          },
+          "weight": 11
+        },
+        {
+          "id": "location-readiness-risk-control",
+          "label": {
+            "en": "Location readiness: Risk control",
+            "ru": "Готовность локаций: Контроль рисков"
+          },
+          "weight": 10
+        },
+        {
+          "id": "location-readiness-approval",
+          "label": {
+            "en": "Location readiness: Approval",
+            "ru": "Готовность локаций: Согласование"
+          },
+          "weight": 9
+        }
+      ],
+      "scenarios": [
+        {
+          "id": "location-readiness-complete",
+          "synthetic": true,
+          "values": {
+            "location-readiness-coverage": 100,
+            "location-readiness-evidence": 100,
+            "location-readiness-ownership": 100,
+            "location-readiness-accuracy": 100,
+            "location-readiness-recency": 100,
+            "location-readiness-dependencies": 100,
+            "location-readiness-risk-control": 100,
+            "location-readiness-approval": 100
+          },
+          "expected_score": 100,
+          "expected_decision": "READY"
+        },
+        {
+          "id": "location-readiness-strong",
+          "synthetic": true,
+          "values": {
+            "location-readiness-coverage": 80,
+            "location-readiness-evidence": 80,
+            "location-readiness-ownership": 80,
+            "location-readiness-accuracy": 80,
+            "location-readiness-recency": 80,
+            "location-readiness-dependencies": 80,
+            "location-readiness-risk-control": 80,
+            "location-readiness-approval": 80
+          },
+          "expected_score": 80,
+          "expected_decision": "READY"
+        },
+        {
+          "id": "location-readiness-partial",
+          "synthetic": true,
+          "values": {
+            "location-readiness-coverage": 60,
+            "location-readiness-evidence": 60,
+            "location-readiness-ownership": 60,
+            "location-readiness-accuracy": 60,
+            "location-readiness-recency": 60,
+            "location-readiness-dependencies": 60,
+            "location-readiness-risk-control": 60,
+            "location-readiness-approval": 60
+          },
+          "expected_score": 60,
+          "expected_decision": "CONDITIONAL"
+        },
+        {
+          "id": "location-readiness-blocked",
+          "synthetic": true,
+          "values": {
+            "location-readiness-coverage": 30,
+            "location-readiness-evidence": 30,
+            "location-readiness-ownership": 30,
+            "location-readiness-accuracy": 30,
+            "location-readiness-recency": 30,
+            "location-readiness-dependencies": 30,
+            "location-readiness-risk-control": 30,
+            "location-readiness-approval": 30
+          },
+          "expected_score": 30,
+          "expected_decision": "HOLD"
+        }
+      ]
+    },
+    {
+      "id": "talent-readiness",
+      "title": {
+        "en": "Talent readiness",
+        "ru": "Готовность талантов"
+      },
+      "scope": {
+        "en": "Measures availability, consent, usage terms, travel and welfare readiness.",
+        "ru": "Оценивает доступность, согласия, условия использования, поездки и бытовую готовность."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "criteria": [
+        {
+          "id": "talent-readiness-coverage",
+          "label": {
+            "en": "Talent readiness: Coverage",
+            "ru": "Готовность талантов: Полнота"
+          },
+          "weight": 16
+        },
+        {
+          "id": "talent-readiness-evidence",
+          "label": {
+            "en": "Talent readiness: Evidence",
+            "ru": "Готовность талантов: Доказательства"
+          },
+          "weight": 15
+        },
+        {
+          "id": "talent-readiness-ownership",
+          "label": {
+            "en": "Talent readiness: Ownership",
+            "ru": "Готовность талантов: Ответственность"
+          },
+          "weight": 14
+        },
+        {
+          "id": "talent-readiness-accuracy",
+          "label": {
+            "en": "Talent readiness: Accuracy",
+            "ru": "Готовность талантов: Точность"
+          },
+          "weight": 13
+        },
+        {
+          "id": "talent-readiness-recency",
+          "label": {
+            "en": "Talent readiness: Recency",
+            "ru": "Готовность талантов: Актуальность"
+          },
+          "weight": 12
+        },
+        {
+          "id": "talent-readiness-dependencies",
+          "label": {
+            "en": "Talent readiness: Dependencies",
+            "ru": "Готовность талантов: Зависимости"
+          },
+          "weight": 11
+        },
+        {
+          "id": "talent-readiness-risk-control",
+          "label": {
+            "en": "Talent readiness: Risk control",
+            "ru": "Готовность талантов: Контроль рисков"
+          },
+          "weight": 10
+        },
+        {
+          "id": "talent-readiness-approval",
+          "label": {
+            "en": "Talent readiness: Approval",
+            "ru": "Готовность талантов: Согласование"
+          },
+          "weight": 9
+        }
+      ],
+      "scenarios": [
+        {
+          "id": "talent-readiness-complete",
+          "synthetic": true,
+          "values": {
+            "talent-readiness-coverage": 100,
+            "talent-readiness-evidence": 100,
+            "talent-readiness-ownership": 100,
+            "talent-readiness-accuracy": 100,
+            "talent-readiness-recency": 100,
+            "talent-readiness-dependencies": 100,
+            "talent-readiness-risk-control": 100,
+            "talent-readiness-approval": 100
+          },
+          "expected_score": 100,
+          "expected_decision": "READY"
+        },
+        {
+          "id": "talent-readiness-strong",
+          "synthetic": true,
+          "values": {
+            "talent-readiness-coverage": 80,
+            "talent-readiness-evidence": 80,
+            "talent-readiness-ownership": 80,
+            "talent-readiness-accuracy": 80,
+            "talent-readiness-recency": 80,
+            "talent-readiness-dependencies": 80,
+            "talent-readiness-risk-control": 80,
+            "talent-readiness-approval": 80
+          },
+          "expected_score": 80,
+          "expected_decision": "READY"
+        },
+        {
+          "id": "talent-readiness-partial",
+          "synthetic": true,
+          "values": {
+            "talent-readiness-coverage": 60,
+            "talent-readiness-evidence": 60,
+            "talent-readiness-ownership": 60,
+            "talent-readiness-accuracy": 60,
+            "talent-readiness-recency": 60,
+            "talent-readiness-dependencies": 60,
+            "talent-readiness-risk-control": 60,
+            "talent-readiness-approval": 60
+          },
+          "expected_score": 60,
+          "expected_decision": "CONDITIONAL"
+        },
+        {
+          "id": "talent-readiness-blocked",
+          "synthetic": true,
+          "values": {
+            "talent-readiness-coverage": 30,
+            "talent-readiness-evidence": 30,
+            "talent-readiness-ownership": 30,
+            "talent-readiness-accuracy": 30,
+            "talent-readiness-recency": 30,
+            "talent-readiness-dependencies": 30,
+            "talent-readiness-risk-control": 30,
+            "talent-readiness-approval": 30
+          },
+          "expected_score": 30,
+          "expected_decision": "HOLD"
+        }
+      ]
+    },
+    {
+      "id": "crew-readiness",
+      "title": {
+        "en": "Crew readiness",
+        "ru": "Готовность команды"
+      },
+      "scope": {
+        "en": "Measures role coverage, contacts, rest, safety and escalation paths.",
+        "ru": "Оценивает закрытие ролей, контакты, отдых, безопасность и эскалации."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "criteria": [
+        {
+          "id": "crew-readiness-coverage",
+          "label": {
+            "en": "Crew readiness: Coverage",
+            "ru": "Готовность команды: Полнота"
+          },
+          "weight": 16
+        },
+        {
+          "id": "crew-readiness-evidence",
+          "label": {
+            "en": "Crew readiness: Evidence",
+            "ru": "Готовность команды: Доказательства"
+          },
+          "weight": 15
+        },
+        {
+          "id": "crew-readiness-ownership",
+          "label": {
+            "en": "Crew readiness: Ownership",
+            "ru": "Готовность команды: Ответственность"
+          },
+          "weight": 14
+        },
+        {
+          "id": "crew-readiness-accuracy",
+          "label": {
+            "en": "Crew readiness: Accuracy",
+            "ru": "Готовность команды: Точность"
+          },
+          "weight": 13
+        },
+        {
+          "id": "crew-readiness-recency",
+          "label": {
+            "en": "Crew readiness: Recency",
+            "ru": "Готовность команды: Актуальность"
+          },
+          "weight": 12
+        },
+        {
+          "id": "crew-readiness-dependencies",
+          "label": {
+            "en": "Crew readiness: Dependencies",
+            "ru": "Готовность команды: Зависимости"
+          },
+          "weight": 11
+        },
+        {
+          "id": "crew-readiness-risk-control",
+          "label": {
+            "en": "Crew readiness: Risk control",
+            "ru": "Готовность команды: Контроль рисков"
+          },
+          "weight": 10
+        },
+        {
+          "id": "crew-readiness-approval",
+          "label": {
+            "en": "Crew readiness: Approval",
+            "ru": "Готовность команды: Согласование"
+          },
+          "weight": 9
+        }
+      ],
+      "scenarios": [
+        {
+          "id": "crew-readiness-complete",
+          "synthetic": true,
+          "values": {
+            "crew-readiness-coverage": 100,
+            "crew-readiness-evidence": 100,
+            "crew-readiness-ownership": 100,
+            "crew-readiness-accuracy": 100,
+            "crew-readiness-recency": 100,
+            "crew-readiness-dependencies": 100,
+            "crew-readiness-risk-control": 100,
+            "crew-readiness-approval": 100
+          },
+          "expected_score": 100,
+          "expected_decision": "READY"
+        },
+        {
+          "id": "crew-readiness-strong",
+          "synthetic": true,
+          "values": {
+            "crew-readiness-coverage": 80,
+            "crew-readiness-evidence": 80,
+            "crew-readiness-ownership": 80,
+            "crew-readiness-accuracy": 80,
+            "crew-readiness-recency": 80,
+            "crew-readiness-dependencies": 80,
+            "crew-readiness-risk-control": 80,
+            "crew-readiness-approval": 80
+          },
+          "expected_score": 80,
+          "expected_decision": "READY"
+        },
+        {
+          "id": "crew-readiness-partial",
+          "synthetic": true,
+          "values": {
+            "crew-readiness-coverage": 60,
+            "crew-readiness-evidence": 60,
+            "crew-readiness-ownership": 60,
+            "crew-readiness-accuracy": 60,
+            "crew-readiness-recency": 60,
+            "crew-readiness-dependencies": 60,
+            "crew-readiness-risk-control": 60,
+            "crew-readiness-approval": 60
+          },
+          "expected_score": 60,
+          "expected_decision": "CONDITIONAL"
+        },
+        {
+          "id": "crew-readiness-blocked",
+          "synthetic": true,
+          "values": {
+            "crew-readiness-coverage": 30,
+            "crew-readiness-evidence": 30,
+            "crew-readiness-ownership": 30,
+            "crew-readiness-accuracy": 30,
+            "crew-readiness-recency": 30,
+            "crew-readiness-dependencies": 30,
+            "crew-readiness-risk-control": 30,
+            "crew-readiness-approval": 30
+          },
+          "expected_score": 30,
+          "expected_decision": "HOLD"
+        }
+      ]
+    },
+    {
+      "id": "safety-readiness",
+      "title": {
+        "en": "Safety readiness",
+        "ru": "Готовность безопасности"
+      },
+      "scope": {
+        "en": "Measures hazards, controls, briefings, medical response and incident ownership.",
+        "ru": "Оценивает риски, меры контроля, инструктажи, медпомощь и ответственность за инциденты."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "criteria": [
+        {
+          "id": "safety-readiness-coverage",
+          "label": {
+            "en": "Safety readiness: Coverage",
+            "ru": "Готовность безопасности: Полнота"
+          },
+          "weight": 16
+        },
+        {
+          "id": "safety-readiness-evidence",
+          "label": {
+            "en": "Safety readiness: Evidence",
+            "ru": "Готовность безопасности: Доказательства"
+          },
+          "weight": 15
+        },
+        {
+          "id": "safety-readiness-ownership",
+          "label": {
+            "en": "Safety readiness: Ownership",
+            "ru": "Готовность безопасности: Ответственность"
+          },
+          "weight": 14
+        },
+        {
+          "id": "safety-readiness-accuracy",
+          "label": {
+            "en": "Safety readiness: Accuracy",
+            "ru": "Готовность безопасности: Точность"
+          },
+          "weight": 13
+        },
+        {
+          "id": "safety-readiness-recency",
+          "label": {
+            "en": "Safety readiness: Recency",
+            "ru": "Готовность безопасности: Актуальность"
+          },
+          "weight": 12
+        },
+        {
+          "id": "safety-readiness-dependencies",
+          "label": {
+            "en": "Safety readiness: Dependencies",
+            "ru": "Готовность безопасности: Зависимости"
+          },
+          "weight": 11
+        },
+        {
+          "id": "safety-readiness-risk-control",
+          "label": {
+            "en": "Safety readiness: Risk control",
+            "ru": "Готовность безопасности: Контроль рисков"
+          },
+          "weight": 10
+        },
+        {
+          "id": "safety-readiness-approval",
+          "label": {
+            "en": "Safety readiness: Approval",
+            "ru": "Готовность безопасности: Согласование"
+          },
+          "weight": 9
+        }
+      ],
+      "scenarios": [
+        {
+          "id": "safety-readiness-complete",
+          "synthetic": true,
+          "values": {
+            "safety-readiness-coverage": 100,
+            "safety-readiness-evidence": 100,
+            "safety-readiness-ownership": 100,
+            "safety-readiness-accuracy": 100,
+            "safety-readiness-recency": 100,
+            "safety-readiness-dependencies": 100,
+            "safety-readiness-risk-control": 100,
+            "safety-readiness-approval": 100
+          },
+          "expected_score": 100,
+          "expected_decision": "READY"
+        },
+        {
+          "id": "safety-readiness-strong",
+          "synthetic": true,
+          "values": {
+            "safety-readiness-coverage": 80,
+            "safety-readiness-evidence": 80,
+            "safety-readiness-ownership": 80,
+            "safety-readiness-accuracy": 80,
+            "safety-readiness-recency": 80,
+            "safety-readiness-dependencies": 80,
+            "safety-readiness-risk-control": 80,
+            "safety-readiness-approval": 80
+          },
+          "expected_score": 80,
+          "expected_decision": "READY"
+        },
+        {
+          "id": "safety-readiness-partial",
+          "synthetic": true,
+          "values": {
+            "safety-readiness-coverage": 60,
+            "safety-readiness-evidence": 60,
+            "safety-readiness-ownership": 60,
+            "safety-readiness-accuracy": 60,
+            "safety-readiness-recency": 60,
+            "safety-readiness-dependencies": 60,
+            "safety-readiness-risk-control": 60,
+            "safety-readiness-approval": 60
+          },
+          "expected_score": 60,
+          "expected_decision": "CONDITIONAL"
+        },
+        {
+          "id": "safety-readiness-blocked",
+          "synthetic": true,
+          "values": {
+            "safety-readiness-coverage": 30,
+            "safety-readiness-evidence": 30,
+            "safety-readiness-ownership": 30,
+            "safety-readiness-accuracy": 30,
+            "safety-readiness-recency": 30,
+            "safety-readiness-dependencies": 30,
+            "safety-readiness-risk-control": 30,
+            "safety-readiness-approval": 30
+          },
+          "expected_score": 30,
+          "expected_decision": "HOLD"
+        }
+      ]
+    },
+    {
+      "id": "camera-readiness",
+      "title": {
+        "en": "Camera readiness",
+        "ru": "Готовность камеры"
+      },
+      "scope": {
+        "en": "Measures capture settings, media capacity, monitoring, reports and redundancy.",
+        "ru": "Оценивает настройки съёмки, носители, мониторинг, отчёты и резервирование."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "criteria": [
+        {
+          "id": "camera-readiness-coverage",
+          "label": {
+            "en": "Camera readiness: Coverage",
+            "ru": "Готовность камеры: Полнота"
+          },
+          "weight": 16
+        },
+        {
+          "id": "camera-readiness-evidence",
+          "label": {
+            "en": "Camera readiness: Evidence",
+            "ru": "Готовность камеры: Доказательства"
+          },
+          "weight": 15
+        },
+        {
+          "id": "camera-readiness-ownership",
+          "label": {
+            "en": "Camera readiness: Ownership",
+            "ru": "Готовность камеры: Ответственность"
+          },
+          "weight": 14
+        },
+        {
+          "id": "camera-readiness-accuracy",
+          "label": {
+            "en": "Camera readiness: Accuracy",
+            "ru": "Готовность камеры: Точность"
+          },
+          "weight": 13
+        },
+        {
+          "id": "camera-readiness-recency",
+          "label": {
+            "en": "Camera readiness: Recency",
+            "ru": "Готовность камеры: Актуальность"
+          },
+          "weight": 12
+        },
+        {
+          "id": "camera-readiness-dependencies",
+          "label": {
+            "en": "Camera readiness: Dependencies",
+            "ru": "Готовность камеры: Зависимости"
+          },
+          "weight": 11
+        },
+        {
+          "id": "camera-readiness-risk-control",
+          "label": {
+            "en": "Camera readiness: Risk control",
+            "ru": "Готовность камеры: Контроль рисков"
+          },
+          "weight": 10
+        },
+        {
+          "id": "camera-readiness-approval",
+          "label": {
+            "en": "Camera readiness: Approval",
+            "ru": "Готовность камеры: Согласование"
+          },
+          "weight": 9
+        }
+      ],
+      "scenarios": [
+        {
+          "id": "camera-readiness-complete",
+          "synthetic": true,
+          "values": {
+            "camera-readiness-coverage": 100,
+            "camera-readiness-evidence": 100,
+            "camera-readiness-ownership": 100,
+            "camera-readiness-accuracy": 100,
+            "camera-readiness-recency": 100,
+            "camera-readiness-dependencies": 100,
+            "camera-readiness-risk-control": 100,
+            "camera-readiness-approval": 100
+          },
+          "expected_score": 100,
+          "expected_decision": "READY"
+        },
+        {
+          "id": "camera-readiness-strong",
+          "synthetic": true,
+          "values": {
+            "camera-readiness-coverage": 80,
+            "camera-readiness-evidence": 80,
+            "camera-readiness-ownership": 80,
+            "camera-readiness-accuracy": 80,
+            "camera-readiness-recency": 80,
+            "camera-readiness-dependencies": 80,
+            "camera-readiness-risk-control": 80,
+            "camera-readiness-approval": 80
+          },
+          "expected_score": 80,
+          "expected_decision": "READY"
+        },
+        {
+          "id": "camera-readiness-partial",
+          "synthetic": true,
+          "values": {
+            "camera-readiness-coverage": 60,
+            "camera-readiness-evidence": 60,
+            "camera-readiness-ownership": 60,
+            "camera-readiness-accuracy": 60,
+            "camera-readiness-recency": 60,
+            "camera-readiness-dependencies": 60,
+            "camera-readiness-risk-control": 60,
+            "camera-readiness-approval": 60
+          },
+          "expected_score": 60,
+          "expected_decision": "CONDITIONAL"
+        },
+        {
+          "id": "camera-readiness-blocked",
+          "synthetic": true,
+          "values": {
+            "camera-readiness-coverage": 30,
+            "camera-readiness-evidence": 30,
+            "camera-readiness-ownership": 30,
+            "camera-readiness-accuracy": 30,
+            "camera-readiness-recency": 30,
+            "camera-readiness-dependencies": 30,
+            "camera-readiness-risk-control": 30,
+            "camera-readiness-approval": 30
+          },
+          "expected_score": 30,
+          "expected_decision": "HOLD"
+        }
+      ]
+    },
+    {
+      "id": "sound-readiness",
+      "title": {
+        "en": "Sound readiness",
+        "ru": "Готовность звука"
+      },
+      "scope": {
+        "en": "Measures channel plans, synchronization, monitoring, reports and backups.",
+        "ru": "Оценивает каналы, синхронизацию, мониторинг, отчёты и резервные записи."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "criteria": [
+        {
+          "id": "sound-readiness-coverage",
+          "label": {
+            "en": "Sound readiness: Coverage",
+            "ru": "Готовность звука: Полнота"
+          },
+          "weight": 16
+        },
+        {
+          "id": "sound-readiness-evidence",
+          "label": {
+            "en": "Sound readiness: Evidence",
+            "ru": "Готовность звука: Доказательства"
+          },
+          "weight": 15
+        },
+        {
+          "id": "sound-readiness-ownership",
+          "label": {
+            "en": "Sound readiness: Ownership",
+            "ru": "Готовность звука: Ответственность"
+          },
+          "weight": 14
+        },
+        {
+          "id": "sound-readiness-accuracy",
+          "label": {
+            "en": "Sound readiness: Accuracy",
+            "ru": "Готовность звука: Точность"
+          },
+          "weight": 13
+        },
+        {
+          "id": "sound-readiness-recency",
+          "label": {
+            "en": "Sound readiness: Recency",
+            "ru": "Готовность звука: Актуальность"
+          },
+          "weight": 12
+        },
+        {
+          "id": "sound-readiness-dependencies",
+          "label": {
+            "en": "Sound readiness: Dependencies",
+            "ru": "Готовность звука: Зависимости"
+          },
+          "weight": 11
+        },
+        {
+          "id": "sound-readiness-risk-control",
+          "label": {
+            "en": "Sound readiness: Risk control",
+            "ru": "Готовность звука: Контроль рисков"
+          },
+          "weight": 10
+        },
+        {
+          "id": "sound-readiness-approval",
+          "label": {
+            "en": "Sound readiness: Approval",
+            "ru": "Готовность звука: Согласование"
+          },
+          "weight": 9
+        }
+      ],
+      "scenarios": [
+        {
+          "id": "sound-readiness-complete",
+          "synthetic": true,
+          "values": {
+            "sound-readiness-coverage": 100,
+            "sound-readiness-evidence": 100,
+            "sound-readiness-ownership": 100,
+            "sound-readiness-accuracy": 100,
+            "sound-readiness-recency": 100,
+            "sound-readiness-dependencies": 100,
+            "sound-readiness-risk-control": 100,
+            "sound-readiness-approval": 100
+          },
+          "expected_score": 100,
+          "expected_decision": "READY"
+        },
+        {
+          "id": "sound-readiness-strong",
+          "synthetic": true,
+          "values": {
+            "sound-readiness-coverage": 80,
+            "sound-readiness-evidence": 80,
+            "sound-readiness-ownership": 80,
+            "sound-readiness-accuracy": 80,
+            "sound-readiness-recency": 80,
+            "sound-readiness-dependencies": 80,
+            "sound-readiness-risk-control": 80,
+            "sound-readiness-approval": 80
+          },
+          "expected_score": 80,
+          "expected_decision": "READY"
+        },
+        {
+          "id": "sound-readiness-partial",
+          "synthetic": true,
+          "values": {
+            "sound-readiness-coverage": 60,
+            "sound-readiness-evidence": 60,
+            "sound-readiness-ownership": 60,
+            "sound-readiness-accuracy": 60,
+            "sound-readiness-recency": 60,
+            "sound-readiness-dependencies": 60,
+            "sound-readiness-risk-control": 60,
+            "sound-readiness-approval": 60
+          },
+          "expected_score": 60,
+          "expected_decision": "CONDITIONAL"
+        },
+        {
+          "id": "sound-readiness-blocked",
+          "synthetic": true,
+          "values": {
+            "sound-readiness-coverage": 30,
+            "sound-readiness-evidence": 30,
+            "sound-readiness-ownership": 30,
+            "sound-readiness-accuracy": 30,
+            "sound-readiness-recency": 30,
+            "sound-readiness-dependencies": 30,
+            "sound-readiness-risk-control": 30,
+            "sound-readiness-approval": 30
+          },
+          "expected_score": 30,
+          "expected_decision": "HOLD"
+        }
+      ]
+    },
+    {
+      "id": "dit-readiness",
+      "title": {
+        "en": "DIT readiness",
+        "ru": "Готовность DIT"
+      },
+      "scope": {
+        "en": "Measures checksum policy, copies, naming, reports and handoff evidence.",
+        "ru": "Оценивает контрольные суммы, копии, именование, отчёты и доказательства передачи."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "criteria": [
+        {
+          "id": "dit-readiness-coverage",
+          "label": {
+            "en": "DIT readiness: Coverage",
+            "ru": "Готовность DIT: Полнота"
+          },
+          "weight": 16
+        },
+        {
+          "id": "dit-readiness-evidence",
+          "label": {
+            "en": "DIT readiness: Evidence",
+            "ru": "Готовность DIT: Доказательства"
+          },
+          "weight": 15
+        },
+        {
+          "id": "dit-readiness-ownership",
+          "label": {
+            "en": "DIT readiness: Ownership",
+            "ru": "Готовность DIT: Ответственность"
+          },
+          "weight": 14
+        },
+        {
+          "id": "dit-readiness-accuracy",
+          "label": {
+            "en": "DIT readiness: Accuracy",
+            "ru": "Готовность DIT: Точность"
+          },
+          "weight": 13
+        },
+        {
+          "id": "dit-readiness-recency",
+          "label": {
+            "en": "DIT readiness: Recency",
+            "ru": "Готовность DIT: Актуальность"
+          },
+          "weight": 12
+        },
+        {
+          "id": "dit-readiness-dependencies",
+          "label": {
+            "en": "DIT readiness: Dependencies",
+            "ru": "Готовность DIT: Зависимости"
+          },
+          "weight": 11
+        },
+        {
+          "id": "dit-readiness-risk-control",
+          "label": {
+            "en": "DIT readiness: Risk control",
+            "ru": "Готовность DIT: Контроль рисков"
+          },
+          "weight": 10
+        },
+        {
+          "id": "dit-readiness-approval",
+          "label": {
+            "en": "DIT readiness: Approval",
+            "ru": "Готовность DIT: Согласование"
+          },
+          "weight": 9
+        }
+      ],
+      "scenarios": [
+        {
+          "id": "dit-readiness-complete",
+          "synthetic": true,
+          "values": {
+            "dit-readiness-coverage": 100,
+            "dit-readiness-evidence": 100,
+            "dit-readiness-ownership": 100,
+            "dit-readiness-accuracy": 100,
+            "dit-readiness-recency": 100,
+            "dit-readiness-dependencies": 100,
+            "dit-readiness-risk-control": 100,
+            "dit-readiness-approval": 100
+          },
+          "expected_score": 100,
+          "expected_decision": "READY"
+        },
+        {
+          "id": "dit-readiness-strong",
+          "synthetic": true,
+          "values": {
+            "dit-readiness-coverage": 80,
+            "dit-readiness-evidence": 80,
+            "dit-readiness-ownership": 80,
+            "dit-readiness-accuracy": 80,
+            "dit-readiness-recency": 80,
+            "dit-readiness-dependencies": 80,
+            "dit-readiness-risk-control": 80,
+            "dit-readiness-approval": 80
+          },
+          "expected_score": 80,
+          "expected_decision": "READY"
+        },
+        {
+          "id": "dit-readiness-partial",
+          "synthetic": true,
+          "values": {
+            "dit-readiness-coverage": 60,
+            "dit-readiness-evidence": 60,
+            "dit-readiness-ownership": 60,
+            "dit-readiness-accuracy": 60,
+            "dit-readiness-recency": 60,
+            "dit-readiness-dependencies": 60,
+            "dit-readiness-risk-control": 60,
+            "dit-readiness-approval": 60
+          },
+          "expected_score": 60,
+          "expected_decision": "CONDITIONAL"
+        },
+        {
+          "id": "dit-readiness-blocked",
+          "synthetic": true,
+          "values": {
+            "dit-readiness-coverage": 30,
+            "dit-readiness-evidence": 30,
+            "dit-readiness-ownership": 30,
+            "dit-readiness-accuracy": 30,
+            "dit-readiness-recency": 30,
+            "dit-readiness-dependencies": 30,
+            "dit-readiness-risk-control": 30,
+            "dit-readiness-approval": 30
+          },
+          "expected_score": 30,
+          "expected_decision": "HOLD"
+        }
+      ]
+    },
+    {
+      "id": "editorial-readiness",
+      "title": {
+        "en": "Editorial readiness",
+        "ru": "Готовность монтажа"
+      },
+      "scope": {
+        "en": "Measures source inventory, proxies, sync, project structure and decision ownership.",
+        "ru": "Оценивает исходники, прокси, синхронизацию, структуру проекта и владельцев решений."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "criteria": [
+        {
+          "id": "editorial-readiness-coverage",
+          "label": {
+            "en": "Editorial readiness: Coverage",
+            "ru": "Готовность монтажа: Полнота"
+          },
+          "weight": 16
+        },
+        {
+          "id": "editorial-readiness-evidence",
+          "label": {
+            "en": "Editorial readiness: Evidence",
+            "ru": "Готовность монтажа: Доказательства"
+          },
+          "weight": 15
+        },
+        {
+          "id": "editorial-readiness-ownership",
+          "label": {
+            "en": "Editorial readiness: Ownership",
+            "ru": "Готовность монтажа: Ответственность"
+          },
+          "weight": 14
+        },
+        {
+          "id": "editorial-readiness-accuracy",
+          "label": {
+            "en": "Editorial readiness: Accuracy",
+            "ru": "Готовность монтажа: Точность"
+          },
+          "weight": 13
+        },
+        {
+          "id": "editorial-readiness-recency",
+          "label": {
+            "en": "Editorial readiness: Recency",
+            "ru": "Готовность монтажа: Актуальность"
+          },
+          "weight": 12
+        },
+        {
+          "id": "editorial-readiness-dependencies",
+          "label": {
+            "en": "Editorial readiness: Dependencies",
+            "ru": "Готовность монтажа: Зависимости"
+          },
+          "weight": 11
+        },
+        {
+          "id": "editorial-readiness-risk-control",
+          "label": {
+            "en": "Editorial readiness: Risk control",
+            "ru": "Готовность монтажа: Контроль рисков"
+          },
+          "weight": 10
+        },
+        {
+          "id": "editorial-readiness-approval",
+          "label": {
+            "en": "Editorial readiness: Approval",
+            "ru": "Готовность монтажа: Согласование"
+          },
+          "weight": 9
+        }
+      ],
+      "scenarios": [
+        {
+          "id": "editorial-readiness-complete",
+          "synthetic": true,
+          "values": {
+            "editorial-readiness-coverage": 100,
+            "editorial-readiness-evidence": 100,
+            "editorial-readiness-ownership": 100,
+            "editorial-readiness-accuracy": 100,
+            "editorial-readiness-recency": 100,
+            "editorial-readiness-dependencies": 100,
+            "editorial-readiness-risk-control": 100,
+            "editorial-readiness-approval": 100
+          },
+          "expected_score": 100,
+          "expected_decision": "READY"
+        },
+        {
+          "id": "editorial-readiness-strong",
+          "synthetic": true,
+          "values": {
+            "editorial-readiness-coverage": 80,
+            "editorial-readiness-evidence": 80,
+            "editorial-readiness-ownership": 80,
+            "editorial-readiness-accuracy": 80,
+            "editorial-readiness-recency": 80,
+            "editorial-readiness-dependencies": 80,
+            "editorial-readiness-risk-control": 80,
+            "editorial-readiness-approval": 80
+          },
+          "expected_score": 80,
+          "expected_decision": "READY"
+        },
+        {
+          "id": "editorial-readiness-partial",
+          "synthetic": true,
+          "values": {
+            "editorial-readiness-coverage": 60,
+            "editorial-readiness-evidence": 60,
+            "editorial-readiness-ownership": 60,
+            "editorial-readiness-accuracy": 60,
+            "editorial-readiness-recency": 60,
+            "editorial-readiness-dependencies": 60,
+            "editorial-readiness-risk-control": 60,
+            "editorial-readiness-approval": 60
+          },
+          "expected_score": 60,
+          "expected_decision": "CONDITIONAL"
+        },
+        {
+          "id": "editorial-readiness-blocked",
+          "synthetic": true,
+          "values": {
+            "editorial-readiness-coverage": 30,
+            "editorial-readiness-evidence": 30,
+            "editorial-readiness-ownership": 30,
+            "editorial-readiness-accuracy": 30,
+            "editorial-readiness-recency": 30,
+            "editorial-readiness-dependencies": 30,
+            "editorial-readiness-risk-control": 30,
+            "editorial-readiness-approval": 30
+          },
+          "expected_score": 30,
+          "expected_decision": "HOLD"
+        }
+      ]
+    },
+    {
+      "id": "vfx-readiness",
+      "title": {
+        "en": "VFX readiness",
+        "ru": "Готовность VFX"
+      },
+      "scope": {
+        "en": "Measures shot scope, pulls, handles, color context and review ownership.",
+        "ru": "Оценивает объём шотов, pulls, handles, цветовой контекст и ответственность за ревью."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "criteria": [
+        {
+          "id": "vfx-readiness-coverage",
+          "label": {
+            "en": "VFX readiness: Coverage",
+            "ru": "Готовность VFX: Полнота"
+          },
+          "weight": 16
+        },
+        {
+          "id": "vfx-readiness-evidence",
+          "label": {
+            "en": "VFX readiness: Evidence",
+            "ru": "Готовность VFX: Доказательства"
+          },
+          "weight": 15
+        },
+        {
+          "id": "vfx-readiness-ownership",
+          "label": {
+            "en": "VFX readiness: Ownership",
+            "ru": "Готовность VFX: Ответственность"
+          },
+          "weight": 14
+        },
+        {
+          "id": "vfx-readiness-accuracy",
+          "label": {
+            "en": "VFX readiness: Accuracy",
+            "ru": "Готовность VFX: Точность"
+          },
+          "weight": 13
+        },
+        {
+          "id": "vfx-readiness-recency",
+          "label": {
+            "en": "VFX readiness: Recency",
+            "ru": "Готовность VFX: Актуальность"
+          },
+          "weight": 12
+        },
+        {
+          "id": "vfx-readiness-dependencies",
+          "label": {
+            "en": "VFX readiness: Dependencies",
+            "ru": "Готовность VFX: Зависимости"
+          },
+          "weight": 11
+        },
+        {
+          "id": "vfx-readiness-risk-control",
+          "label": {
+            "en": "VFX readiness: Risk control",
+            "ru": "Готовность VFX: Контроль рисков"
+          },
+          "weight": 10
+        },
+        {
+          "id": "vfx-readiness-approval",
+          "label": {
+            "en": "VFX readiness: Approval",
+            "ru": "Готовность VFX: Согласование"
+          },
+          "weight": 9
+        }
+      ],
+      "scenarios": [
+        {
+          "id": "vfx-readiness-complete",
+          "synthetic": true,
+          "values": {
+            "vfx-readiness-coverage": 100,
+            "vfx-readiness-evidence": 100,
+            "vfx-readiness-ownership": 100,
+            "vfx-readiness-accuracy": 100,
+            "vfx-readiness-recency": 100,
+            "vfx-readiness-dependencies": 100,
+            "vfx-readiness-risk-control": 100,
+            "vfx-readiness-approval": 100
+          },
+          "expected_score": 100,
+          "expected_decision": "READY"
+        },
+        {
+          "id": "vfx-readiness-strong",
+          "synthetic": true,
+          "values": {
+            "vfx-readiness-coverage": 80,
+            "vfx-readiness-evidence": 80,
+            "vfx-readiness-ownership": 80,
+            "vfx-readiness-accuracy": 80,
+            "vfx-readiness-recency": 80,
+            "vfx-readiness-dependencies": 80,
+            "vfx-readiness-risk-control": 80,
+            "vfx-readiness-approval": 80
+          },
+          "expected_score": 80,
+          "expected_decision": "READY"
+        },
+        {
+          "id": "vfx-readiness-partial",
+          "synthetic": true,
+          "values": {
+            "vfx-readiness-coverage": 60,
+            "vfx-readiness-evidence": 60,
+            "vfx-readiness-ownership": 60,
+            "vfx-readiness-accuracy": 60,
+            "vfx-readiness-recency": 60,
+            "vfx-readiness-dependencies": 60,
+            "vfx-readiness-risk-control": 60,
+            "vfx-readiness-approval": 60
+          },
+          "expected_score": 60,
+          "expected_decision": "CONDITIONAL"
+        },
+        {
+          "id": "vfx-readiness-blocked",
+          "synthetic": true,
+          "values": {
+            "vfx-readiness-coverage": 30,
+            "vfx-readiness-evidence": 30,
+            "vfx-readiness-ownership": 30,
+            "vfx-readiness-accuracy": 30,
+            "vfx-readiness-recency": 30,
+            "vfx-readiness-dependencies": 30,
+            "vfx-readiness-risk-control": 30,
+            "vfx-readiness-approval": 30
+          },
+          "expected_score": 30,
+          "expected_decision": "HOLD"
+        }
+      ]
+    },
+    {
+      "id": "color-readiness",
+      "title": {
+        "en": "Color readiness",
+        "ru": "Готовность цветокоррекции"
+      },
+      "scope": {
+        "en": "Measures color pipeline, references, conform, monitoring and approval evidence.",
+        "ru": "Оценивает цветовой pipeline, референсы, conform, мониторинг и доказательства согласования."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "criteria": [
+        {
+          "id": "color-readiness-coverage",
+          "label": {
+            "en": "Color readiness: Coverage",
+            "ru": "Готовность цветокоррекции: Полнота"
+          },
+          "weight": 16
+        },
+        {
+          "id": "color-readiness-evidence",
+          "label": {
+            "en": "Color readiness: Evidence",
+            "ru": "Готовность цветокоррекции: Доказательства"
+          },
+          "weight": 15
+        },
+        {
+          "id": "color-readiness-ownership",
+          "label": {
+            "en": "Color readiness: Ownership",
+            "ru": "Готовность цветокоррекции: Ответственность"
+          },
+          "weight": 14
+        },
+        {
+          "id": "color-readiness-accuracy",
+          "label": {
+            "en": "Color readiness: Accuracy",
+            "ru": "Готовность цветокоррекции: Точность"
+          },
+          "weight": 13
+        },
+        {
+          "id": "color-readiness-recency",
+          "label": {
+            "en": "Color readiness: Recency",
+            "ru": "Готовность цветокоррекции: Актуальность"
+          },
+          "weight": 12
+        },
+        {
+          "id": "color-readiness-dependencies",
+          "label": {
+            "en": "Color readiness: Dependencies",
+            "ru": "Готовность цветокоррекции: Зависимости"
+          },
+          "weight": 11
+        },
+        {
+          "id": "color-readiness-risk-control",
+          "label": {
+            "en": "Color readiness: Risk control",
+            "ru": "Готовность цветокоррекции: Контроль рисков"
+          },
+          "weight": 10
+        },
+        {
+          "id": "color-readiness-approval",
+          "label": {
+            "en": "Color readiness: Approval",
+            "ru": "Готовность цветокоррекции: Согласование"
+          },
+          "weight": 9
+        }
+      ],
+      "scenarios": [
+        {
+          "id": "color-readiness-complete",
+          "synthetic": true,
+          "values": {
+            "color-readiness-coverage": 100,
+            "color-readiness-evidence": 100,
+            "color-readiness-ownership": 100,
+            "color-readiness-accuracy": 100,
+            "color-readiness-recency": 100,
+            "color-readiness-dependencies": 100,
+            "color-readiness-risk-control": 100,
+            "color-readiness-approval": 100
+          },
+          "expected_score": 100,
+          "expected_decision": "READY"
+        },
+        {
+          "id": "color-readiness-strong",
+          "synthetic": true,
+          "values": {
+            "color-readiness-coverage": 80,
+            "color-readiness-evidence": 80,
+            "color-readiness-ownership": 80,
+            "color-readiness-accuracy": 80,
+            "color-readiness-recency": 80,
+            "color-readiness-dependencies": 80,
+            "color-readiness-risk-control": 80,
+            "color-readiness-approval": 80
+          },
+          "expected_score": 80,
+          "expected_decision": "READY"
+        },
+        {
+          "id": "color-readiness-partial",
+          "synthetic": true,
+          "values": {
+            "color-readiness-coverage": 60,
+            "color-readiness-evidence": 60,
+            "color-readiness-ownership": 60,
+            "color-readiness-accuracy": 60,
+            "color-readiness-recency": 60,
+            "color-readiness-dependencies": 60,
+            "color-readiness-risk-control": 60,
+            "color-readiness-approval": 60
+          },
+          "expected_score": 60,
+          "expected_decision": "CONDITIONAL"
+        },
+        {
+          "id": "color-readiness-blocked",
+          "synthetic": true,
+          "values": {
+            "color-readiness-coverage": 30,
+            "color-readiness-evidence": 30,
+            "color-readiness-ownership": 30,
+            "color-readiness-accuracy": 30,
+            "color-readiness-recency": 30,
+            "color-readiness-dependencies": 30,
+            "color-readiness-risk-control": 30,
+            "color-readiness-approval": 30
+          },
+          "expected_score": 30,
+          "expected_decision": "HOLD"
+        }
+      ]
+    },
+    {
+      "id": "mix-readiness",
+      "title": {
+        "en": "Mix readiness",
+        "ru": "Готовность сведения"
+      },
+      "scope": {
+        "en": "Measures stems, channel maps, loudness targets, references and approval evidence.",
+        "ru": "Оценивает stems, карту каналов, loudness-цели, референсы и доказательства согласования."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "criteria": [
+        {
+          "id": "mix-readiness-coverage",
+          "label": {
+            "en": "Mix readiness: Coverage",
+            "ru": "Готовность сведения: Полнота"
+          },
+          "weight": 16
+        },
+        {
+          "id": "mix-readiness-evidence",
+          "label": {
+            "en": "Mix readiness: Evidence",
+            "ru": "Готовность сведения: Доказательства"
+          },
+          "weight": 15
+        },
+        {
+          "id": "mix-readiness-ownership",
+          "label": {
+            "en": "Mix readiness: Ownership",
+            "ru": "Готовность сведения: Ответственность"
+          },
+          "weight": 14
+        },
+        {
+          "id": "mix-readiness-accuracy",
+          "label": {
+            "en": "Mix readiness: Accuracy",
+            "ru": "Готовность сведения: Точность"
+          },
+          "weight": 13
+        },
+        {
+          "id": "mix-readiness-recency",
+          "label": {
+            "en": "Mix readiness: Recency",
+            "ru": "Готовность сведения: Актуальность"
+          },
+          "weight": 12
+        },
+        {
+          "id": "mix-readiness-dependencies",
+          "label": {
+            "en": "Mix readiness: Dependencies",
+            "ru": "Готовность сведения: Зависимости"
+          },
+          "weight": 11
+        },
+        {
+          "id": "mix-readiness-risk-control",
+          "label": {
+            "en": "Mix readiness: Risk control",
+            "ru": "Готовность сведения: Контроль рисков"
+          },
+          "weight": 10
+        },
+        {
+          "id": "mix-readiness-approval",
+          "label": {
+            "en": "Mix readiness: Approval",
+            "ru": "Готовность сведения: Согласование"
+          },
+          "weight": 9
+        }
+      ],
+      "scenarios": [
+        {
+          "id": "mix-readiness-complete",
+          "synthetic": true,
+          "values": {
+            "mix-readiness-coverage": 100,
+            "mix-readiness-evidence": 100,
+            "mix-readiness-ownership": 100,
+            "mix-readiness-accuracy": 100,
+            "mix-readiness-recency": 100,
+            "mix-readiness-dependencies": 100,
+            "mix-readiness-risk-control": 100,
+            "mix-readiness-approval": 100
+          },
+          "expected_score": 100,
+          "expected_decision": "READY"
+        },
+        {
+          "id": "mix-readiness-strong",
+          "synthetic": true,
+          "values": {
+            "mix-readiness-coverage": 80,
+            "mix-readiness-evidence": 80,
+            "mix-readiness-ownership": 80,
+            "mix-readiness-accuracy": 80,
+            "mix-readiness-recency": 80,
+            "mix-readiness-dependencies": 80,
+            "mix-readiness-risk-control": 80,
+            "mix-readiness-approval": 80
+          },
+          "expected_score": 80,
+          "expected_decision": "READY"
+        },
+        {
+          "id": "mix-readiness-partial",
+          "synthetic": true,
+          "values": {
+            "mix-readiness-coverage": 60,
+            "mix-readiness-evidence": 60,
+            "mix-readiness-ownership": 60,
+            "mix-readiness-accuracy": 60,
+            "mix-readiness-recency": 60,
+            "mix-readiness-dependencies": 60,
+            "mix-readiness-risk-control": 60,
+            "mix-readiness-approval": 60
+          },
+          "expected_score": 60,
+          "expected_decision": "CONDITIONAL"
+        },
+        {
+          "id": "mix-readiness-blocked",
+          "synthetic": true,
+          "values": {
+            "mix-readiness-coverage": 30,
+            "mix-readiness-evidence": 30,
+            "mix-readiness-ownership": 30,
+            "mix-readiness-accuracy": 30,
+            "mix-readiness-recency": 30,
+            "mix-readiness-dependencies": 30,
+            "mix-readiness-risk-control": 30,
+            "mix-readiness-approval": 30
+          },
+          "expected_score": 30,
+          "expected_decision": "HOLD"
+        }
+      ]
+    },
+    {
+      "id": "caption-readiness",
+      "title": {
+        "en": "Caption readiness",
+        "ru": "Готовность субтитров"
+      },
+      "scope": {
+        "en": "Measures timing, reading speed, speaker cues, locale rules and QC evidence.",
+        "ru": "Оценивает тайминг, скорость чтения, реплики, правила локали и доказательства QC."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "criteria": [
+        {
+          "id": "caption-readiness-coverage",
+          "label": {
+            "en": "Caption readiness: Coverage",
+            "ru": "Готовность субтитров: Полнота"
+          },
+          "weight": 16
+        },
+        {
+          "id": "caption-readiness-evidence",
+          "label": {
+            "en": "Caption readiness: Evidence",
+            "ru": "Готовность субтитров: Доказательства"
+          },
+          "weight": 15
+        },
+        {
+          "id": "caption-readiness-ownership",
+          "label": {
+            "en": "Caption readiness: Ownership",
+            "ru": "Готовность субтитров: Ответственность"
+          },
+          "weight": 14
+        },
+        {
+          "id": "caption-readiness-accuracy",
+          "label": {
+            "en": "Caption readiness: Accuracy",
+            "ru": "Готовность субтитров: Точность"
+          },
+          "weight": 13
+        },
+        {
+          "id": "caption-readiness-recency",
+          "label": {
+            "en": "Caption readiness: Recency",
+            "ru": "Готовность субтитров: Актуальность"
+          },
+          "weight": 12
+        },
+        {
+          "id": "caption-readiness-dependencies",
+          "label": {
+            "en": "Caption readiness: Dependencies",
+            "ru": "Готовность субтитров: Зависимости"
+          },
+          "weight": 11
+        },
+        {
+          "id": "caption-readiness-risk-control",
+          "label": {
+            "en": "Caption readiness: Risk control",
+            "ru": "Готовность субтитров: Контроль рисков"
+          },
+          "weight": 10
+        },
+        {
+          "id": "caption-readiness-approval",
+          "label": {
+            "en": "Caption readiness: Approval",
+            "ru": "Готовность субтитров: Согласование"
+          },
+          "weight": 9
+        }
+      ],
+      "scenarios": [
+        {
+          "id": "caption-readiness-complete",
+          "synthetic": true,
+          "values": {
+            "caption-readiness-coverage": 100,
+            "caption-readiness-evidence": 100,
+            "caption-readiness-ownership": 100,
+            "caption-readiness-accuracy": 100,
+            "caption-readiness-recency": 100,
+            "caption-readiness-dependencies": 100,
+            "caption-readiness-risk-control": 100,
+            "caption-readiness-approval": 100
+          },
+          "expected_score": 100,
+          "expected_decision": "READY"
+        },
+        {
+          "id": "caption-readiness-strong",
+          "synthetic": true,
+          "values": {
+            "caption-readiness-coverage": 80,
+            "caption-readiness-evidence": 80,
+            "caption-readiness-ownership": 80,
+            "caption-readiness-accuracy": 80,
+            "caption-readiness-recency": 80,
+            "caption-readiness-dependencies": 80,
+            "caption-readiness-risk-control": 80,
+            "caption-readiness-approval": 80
+          },
+          "expected_score": 80,
+          "expected_decision": "READY"
+        },
+        {
+          "id": "caption-readiness-partial",
+          "synthetic": true,
+          "values": {
+            "caption-readiness-coverage": 60,
+            "caption-readiness-evidence": 60,
+            "caption-readiness-ownership": 60,
+            "caption-readiness-accuracy": 60,
+            "caption-readiness-recency": 60,
+            "caption-readiness-dependencies": 60,
+            "caption-readiness-risk-control": 60,
+            "caption-readiness-approval": 60
+          },
+          "expected_score": 60,
+          "expected_decision": "CONDITIONAL"
+        },
+        {
+          "id": "caption-readiness-blocked",
+          "synthetic": true,
+          "values": {
+            "caption-readiness-coverage": 30,
+            "caption-readiness-evidence": 30,
+            "caption-readiness-ownership": 30,
+            "caption-readiness-accuracy": 30,
+            "caption-readiness-recency": 30,
+            "caption-readiness-dependencies": 30,
+            "caption-readiness-risk-control": 30,
+            "caption-readiness-approval": 30
+          },
+          "expected_score": 30,
+          "expected_decision": "HOLD"
+        }
+      ]
+    },
+    {
+      "id": "accessibility-readiness",
+      "title": {
+        "en": "Accessibility readiness",
+        "ru": "Готовность доступности"
+      },
+      "scope": {
+        "en": "Measures captions, audio description, contrast, controls and review evidence.",
+        "ru": "Оценивает субтитры, тифлокомментарии, контраст, управление и доказательства ревью."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "criteria": [
+        {
+          "id": "accessibility-readiness-coverage",
+          "label": {
+            "en": "Accessibility readiness: Coverage",
+            "ru": "Готовность доступности: Полнота"
+          },
+          "weight": 16
+        },
+        {
+          "id": "accessibility-readiness-evidence",
+          "label": {
+            "en": "Accessibility readiness: Evidence",
+            "ru": "Готовность доступности: Доказательства"
+          },
+          "weight": 15
+        },
+        {
+          "id": "accessibility-readiness-ownership",
+          "label": {
+            "en": "Accessibility readiness: Ownership",
+            "ru": "Готовность доступности: Ответственность"
+          },
+          "weight": 14
+        },
+        {
+          "id": "accessibility-readiness-accuracy",
+          "label": {
+            "en": "Accessibility readiness: Accuracy",
+            "ru": "Готовность доступности: Точность"
+          },
+          "weight": 13
+        },
+        {
+          "id": "accessibility-readiness-recency",
+          "label": {
+            "en": "Accessibility readiness: Recency",
+            "ru": "Готовность доступности: Актуальность"
+          },
+          "weight": 12
+        },
+        {
+          "id": "accessibility-readiness-dependencies",
+          "label": {
+            "en": "Accessibility readiness: Dependencies",
+            "ru": "Готовность доступности: Зависимости"
+          },
+          "weight": 11
+        },
+        {
+          "id": "accessibility-readiness-risk-control",
+          "label": {
+            "en": "Accessibility readiness: Risk control",
+            "ru": "Готовность доступности: Контроль рисков"
+          },
+          "weight": 10
+        },
+        {
+          "id": "accessibility-readiness-approval",
+          "label": {
+            "en": "Accessibility readiness: Approval",
+            "ru": "Готовность доступности: Согласование"
+          },
+          "weight": 9
+        }
+      ],
+      "scenarios": [
+        {
+          "id": "accessibility-readiness-complete",
+          "synthetic": true,
+          "values": {
+            "accessibility-readiness-coverage": 100,
+            "accessibility-readiness-evidence": 100,
+            "accessibility-readiness-ownership": 100,
+            "accessibility-readiness-accuracy": 100,
+            "accessibility-readiness-recency": 100,
+            "accessibility-readiness-dependencies": 100,
+            "accessibility-readiness-risk-control": 100,
+            "accessibility-readiness-approval": 100
+          },
+          "expected_score": 100,
+          "expected_decision": "READY"
+        },
+        {
+          "id": "accessibility-readiness-strong",
+          "synthetic": true,
+          "values": {
+            "accessibility-readiness-coverage": 80,
+            "accessibility-readiness-evidence": 80,
+            "accessibility-readiness-ownership": 80,
+            "accessibility-readiness-accuracy": 80,
+            "accessibility-readiness-recency": 80,
+            "accessibility-readiness-dependencies": 80,
+            "accessibility-readiness-risk-control": 80,
+            "accessibility-readiness-approval": 80
+          },
+          "expected_score": 80,
+          "expected_decision": "READY"
+        },
+        {
+          "id": "accessibility-readiness-partial",
+          "synthetic": true,
+          "values": {
+            "accessibility-readiness-coverage": 60,
+            "accessibility-readiness-evidence": 60,
+            "accessibility-readiness-ownership": 60,
+            "accessibility-readiness-accuracy": 60,
+            "accessibility-readiness-recency": 60,
+            "accessibility-readiness-dependencies": 60,
+            "accessibility-readiness-risk-control": 60,
+            "accessibility-readiness-approval": 60
+          },
+          "expected_score": 60,
+          "expected_decision": "CONDITIONAL"
+        },
+        {
+          "id": "accessibility-readiness-blocked",
+          "synthetic": true,
+          "values": {
+            "accessibility-readiness-coverage": 30,
+            "accessibility-readiness-evidence": 30,
+            "accessibility-readiness-ownership": 30,
+            "accessibility-readiness-accuracy": 30,
+            "accessibility-readiness-recency": 30,
+            "accessibility-readiness-dependencies": 30,
+            "accessibility-readiness-risk-control": 30,
+            "accessibility-readiness-approval": 30
+          },
+          "expected_score": 30,
+          "expected_decision": "HOLD"
+        }
+      ]
+    },
+    {
+      "id": "localization-readiness",
+      "title": {
+        "en": "Localization readiness",
+        "ru": "Готовность локализации"
+      },
+      "scope": {
+        "en": "Measures locale coverage, terminology, assets, approvals and fallback behavior.",
+        "ru": "Оценивает локали, терминологию, материалы, согласования и резервное поведение."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "criteria": [
+        {
+          "id": "localization-readiness-coverage",
+          "label": {
+            "en": "Localization readiness: Coverage",
+            "ru": "Готовность локализации: Полнота"
+          },
+          "weight": 16
+        },
+        {
+          "id": "localization-readiness-evidence",
+          "label": {
+            "en": "Localization readiness: Evidence",
+            "ru": "Готовность локализации: Доказательства"
+          },
+          "weight": 15
+        },
+        {
+          "id": "localization-readiness-ownership",
+          "label": {
+            "en": "Localization readiness: Ownership",
+            "ru": "Готовность локализации: Ответственность"
+          },
+          "weight": 14
+        },
+        {
+          "id": "localization-readiness-accuracy",
+          "label": {
+            "en": "Localization readiness: Accuracy",
+            "ru": "Готовность локализации: Точность"
+          },
+          "weight": 13
+        },
+        {
+          "id": "localization-readiness-recency",
+          "label": {
+            "en": "Localization readiness: Recency",
+            "ru": "Готовность локализации: Актуальность"
+          },
+          "weight": 12
+        },
+        {
+          "id": "localization-readiness-dependencies",
+          "label": {
+            "en": "Localization readiness: Dependencies",
+            "ru": "Готовность локализации: Зависимости"
+          },
+          "weight": 11
+        },
+        {
+          "id": "localization-readiness-risk-control",
+          "label": {
+            "en": "Localization readiness: Risk control",
+            "ru": "Готовность локализации: Контроль рисков"
+          },
+          "weight": 10
+        },
+        {
+          "id": "localization-readiness-approval",
+          "label": {
+            "en": "Localization readiness: Approval",
+            "ru": "Готовность локализации: Согласование"
+          },
+          "weight": 9
+        }
+      ],
+      "scenarios": [
+        {
+          "id": "localization-readiness-complete",
+          "synthetic": true,
+          "values": {
+            "localization-readiness-coverage": 100,
+            "localization-readiness-evidence": 100,
+            "localization-readiness-ownership": 100,
+            "localization-readiness-accuracy": 100,
+            "localization-readiness-recency": 100,
+            "localization-readiness-dependencies": 100,
+            "localization-readiness-risk-control": 100,
+            "localization-readiness-approval": 100
+          },
+          "expected_score": 100,
+          "expected_decision": "READY"
+        },
+        {
+          "id": "localization-readiness-strong",
+          "synthetic": true,
+          "values": {
+            "localization-readiness-coverage": 80,
+            "localization-readiness-evidence": 80,
+            "localization-readiness-ownership": 80,
+            "localization-readiness-accuracy": 80,
+            "localization-readiness-recency": 80,
+            "localization-readiness-dependencies": 80,
+            "localization-readiness-risk-control": 80,
+            "localization-readiness-approval": 80
+          },
+          "expected_score": 80,
+          "expected_decision": "READY"
+        },
+        {
+          "id": "localization-readiness-partial",
+          "synthetic": true,
+          "values": {
+            "localization-readiness-coverage": 60,
+            "localization-readiness-evidence": 60,
+            "localization-readiness-ownership": 60,
+            "localization-readiness-accuracy": 60,
+            "localization-readiness-recency": 60,
+            "localization-readiness-dependencies": 60,
+            "localization-readiness-risk-control": 60,
+            "localization-readiness-approval": 60
+          },
+          "expected_score": 60,
+          "expected_decision": "CONDITIONAL"
+        },
+        {
+          "id": "localization-readiness-blocked",
+          "synthetic": true,
+          "values": {
+            "localization-readiness-coverage": 30,
+            "localization-readiness-evidence": 30,
+            "localization-readiness-ownership": 30,
+            "localization-readiness-accuracy": 30,
+            "localization-readiness-recency": 30,
+            "localization-readiness-dependencies": 30,
+            "localization-readiness-risk-control": 30,
+            "localization-readiness-approval": 30
+          },
+          "expected_score": 30,
+          "expected_decision": "HOLD"
+        }
+      ]
+    },
+    {
+      "id": "platform-readiness",
+      "title": {
+        "en": "Platform readiness",
+        "ru": "Готовность платформ"
+      },
+      "scope": {
+        "en": "Measures format profiles, metadata, naming, QC and delivery receipts.",
+        "ru": "Оценивает профили форматов, метаданные, именование, QC и подтверждения доставки."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "criteria": [
+        {
+          "id": "platform-readiness-coverage",
+          "label": {
+            "en": "Platform readiness: Coverage",
+            "ru": "Готовность платформ: Полнота"
+          },
+          "weight": 16
+        },
+        {
+          "id": "platform-readiness-evidence",
+          "label": {
+            "en": "Platform readiness: Evidence",
+            "ru": "Готовность платформ: Доказательства"
+          },
+          "weight": 15
+        },
+        {
+          "id": "platform-readiness-ownership",
+          "label": {
+            "en": "Platform readiness: Ownership",
+            "ru": "Готовность платформ: Ответственность"
+          },
+          "weight": 14
+        },
+        {
+          "id": "platform-readiness-accuracy",
+          "label": {
+            "en": "Platform readiness: Accuracy",
+            "ru": "Готовность платформ: Точность"
+          },
+          "weight": 13
+        },
+        {
+          "id": "platform-readiness-recency",
+          "label": {
+            "en": "Platform readiness: Recency",
+            "ru": "Готовность платформ: Актуальность"
+          },
+          "weight": 12
+        },
+        {
+          "id": "platform-readiness-dependencies",
+          "label": {
+            "en": "Platform readiness: Dependencies",
+            "ru": "Готовность платформ: Зависимости"
+          },
+          "weight": 11
+        },
+        {
+          "id": "platform-readiness-risk-control",
+          "label": {
+            "en": "Platform readiness: Risk control",
+            "ru": "Готовность платформ: Контроль рисков"
+          },
+          "weight": 10
+        },
+        {
+          "id": "platform-readiness-approval",
+          "label": {
+            "en": "Platform readiness: Approval",
+            "ru": "Готовность платформ: Согласование"
+          },
+          "weight": 9
+        }
+      ],
+      "scenarios": [
+        {
+          "id": "platform-readiness-complete",
+          "synthetic": true,
+          "values": {
+            "platform-readiness-coverage": 100,
+            "platform-readiness-evidence": 100,
+            "platform-readiness-ownership": 100,
+            "platform-readiness-accuracy": 100,
+            "platform-readiness-recency": 100,
+            "platform-readiness-dependencies": 100,
+            "platform-readiness-risk-control": 100,
+            "platform-readiness-approval": 100
+          },
+          "expected_score": 100,
+          "expected_decision": "READY"
+        },
+        {
+          "id": "platform-readiness-strong",
+          "synthetic": true,
+          "values": {
+            "platform-readiness-coverage": 80,
+            "platform-readiness-evidence": 80,
+            "platform-readiness-ownership": 80,
+            "platform-readiness-accuracy": 80,
+            "platform-readiness-recency": 80,
+            "platform-readiness-dependencies": 80,
+            "platform-readiness-risk-control": 80,
+            "platform-readiness-approval": 80
+          },
+          "expected_score": 80,
+          "expected_decision": "READY"
+        },
+        {
+          "id": "platform-readiness-partial",
+          "synthetic": true,
+          "values": {
+            "platform-readiness-coverage": 60,
+            "platform-readiness-evidence": 60,
+            "platform-readiness-ownership": 60,
+            "platform-readiness-accuracy": 60,
+            "platform-readiness-recency": 60,
+            "platform-readiness-dependencies": 60,
+            "platform-readiness-risk-control": 60,
+            "platform-readiness-approval": 60
+          },
+          "expected_score": 60,
+          "expected_decision": "CONDITIONAL"
+        },
+        {
+          "id": "platform-readiness-blocked",
+          "synthetic": true,
+          "values": {
+            "platform-readiness-coverage": 30,
+            "platform-readiness-evidence": 30,
+            "platform-readiness-ownership": 30,
+            "platform-readiness-accuracy": 30,
+            "platform-readiness-recency": 30,
+            "platform-readiness-dependencies": 30,
+            "platform-readiness-risk-control": 30,
+            "platform-readiness-approval": 30
+          },
+          "expected_score": 30,
+          "expected_decision": "HOLD"
+        }
+      ]
+    },
+    {
+      "id": "archive-readiness",
+      "title": {
+        "en": "Archive readiness",
+        "ru": "Готовность архива"
+      },
+      "scope": {
+        "en": "Measures inventory, fixity, copy diversity, restore tests and retention ownership.",
+        "ru": "Оценивает инвентарь, целостность, разнообразие копий, тесты восстановления и хранение."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "criteria": [
+        {
+          "id": "archive-readiness-coverage",
+          "label": {
+            "en": "Archive readiness: Coverage",
+            "ru": "Готовность архива: Полнота"
+          },
+          "weight": 16
+        },
+        {
+          "id": "archive-readiness-evidence",
+          "label": {
+            "en": "Archive readiness: Evidence",
+            "ru": "Готовность архива: Доказательства"
+          },
+          "weight": 15
+        },
+        {
+          "id": "archive-readiness-ownership",
+          "label": {
+            "en": "Archive readiness: Ownership",
+            "ru": "Готовность архива: Ответственность"
+          },
+          "weight": 14
+        },
+        {
+          "id": "archive-readiness-accuracy",
+          "label": {
+            "en": "Archive readiness: Accuracy",
+            "ru": "Готовность архива: Точность"
+          },
+          "weight": 13
+        },
+        {
+          "id": "archive-readiness-recency",
+          "label": {
+            "en": "Archive readiness: Recency",
+            "ru": "Готовность архива: Актуальность"
+          },
+          "weight": 12
+        },
+        {
+          "id": "archive-readiness-dependencies",
+          "label": {
+            "en": "Archive readiness: Dependencies",
+            "ru": "Готовность архива: Зависимости"
+          },
+          "weight": 11
+        },
+        {
+          "id": "archive-readiness-risk-control",
+          "label": {
+            "en": "Archive readiness: Risk control",
+            "ru": "Готовность архива: Контроль рисков"
+          },
+          "weight": 10
+        },
+        {
+          "id": "archive-readiness-approval",
+          "label": {
+            "en": "Archive readiness: Approval",
+            "ru": "Готовность архива: Согласование"
+          },
+          "weight": 9
+        }
+      ],
+      "scenarios": [
+        {
+          "id": "archive-readiness-complete",
+          "synthetic": true,
+          "values": {
+            "archive-readiness-coverage": 100,
+            "archive-readiness-evidence": 100,
+            "archive-readiness-ownership": 100,
+            "archive-readiness-accuracy": 100,
+            "archive-readiness-recency": 100,
+            "archive-readiness-dependencies": 100,
+            "archive-readiness-risk-control": 100,
+            "archive-readiness-approval": 100
+          },
+          "expected_score": 100,
+          "expected_decision": "READY"
+        },
+        {
+          "id": "archive-readiness-strong",
+          "synthetic": true,
+          "values": {
+            "archive-readiness-coverage": 80,
+            "archive-readiness-evidence": 80,
+            "archive-readiness-ownership": 80,
+            "archive-readiness-accuracy": 80,
+            "archive-readiness-recency": 80,
+            "archive-readiness-dependencies": 80,
+            "archive-readiness-risk-control": 80,
+            "archive-readiness-approval": 80
+          },
+          "expected_score": 80,
+          "expected_decision": "READY"
+        },
+        {
+          "id": "archive-readiness-partial",
+          "synthetic": true,
+          "values": {
+            "archive-readiness-coverage": 60,
+            "archive-readiness-evidence": 60,
+            "archive-readiness-ownership": 60,
+            "archive-readiness-accuracy": 60,
+            "archive-readiness-recency": 60,
+            "archive-readiness-dependencies": 60,
+            "archive-readiness-risk-control": 60,
+            "archive-readiness-approval": 60
+          },
+          "expected_score": 60,
+          "expected_decision": "CONDITIONAL"
+        },
+        {
+          "id": "archive-readiness-blocked",
+          "synthetic": true,
+          "values": {
+            "archive-readiness-coverage": 30,
+            "archive-readiness-evidence": 30,
+            "archive-readiness-ownership": 30,
+            "archive-readiness-accuracy": 30,
+            "archive-readiness-recency": 30,
+            "archive-readiness-dependencies": 30,
+            "archive-readiness-risk-control": 30,
+            "archive-readiness-approval": 30
+          },
+          "expected_score": 30,
+          "expected_decision": "HOLD"
+        }
+      ]
+    },
+    {
+      "id": "provenance-readiness",
+      "title": {
+        "en": "Provenance readiness",
+        "ru": "Готовность происхождения"
+      },
+      "scope": {
+        "en": "Measures source lineage, AI/CGI disclosure, licenses, edits and evidence links.",
+        "ru": "Оценивает происхождение, раскрытие AI/CGI, лицензии, изменения и ссылки на доказательства."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "criteria": [
+        {
+          "id": "provenance-readiness-coverage",
+          "label": {
+            "en": "Provenance readiness: Coverage",
+            "ru": "Готовность происхождения: Полнота"
+          },
+          "weight": 16
+        },
+        {
+          "id": "provenance-readiness-evidence",
+          "label": {
+            "en": "Provenance readiness: Evidence",
+            "ru": "Готовность происхождения: Доказательства"
+          },
+          "weight": 15
+        },
+        {
+          "id": "provenance-readiness-ownership",
+          "label": {
+            "en": "Provenance readiness: Ownership",
+            "ru": "Готовность происхождения: Ответственность"
+          },
+          "weight": 14
+        },
+        {
+          "id": "provenance-readiness-accuracy",
+          "label": {
+            "en": "Provenance readiness: Accuracy",
+            "ru": "Готовность происхождения: Точность"
+          },
+          "weight": 13
+        },
+        {
+          "id": "provenance-readiness-recency",
+          "label": {
+            "en": "Provenance readiness: Recency",
+            "ru": "Готовность происхождения: Актуальность"
+          },
+          "weight": 12
+        },
+        {
+          "id": "provenance-readiness-dependencies",
+          "label": {
+            "en": "Provenance readiness: Dependencies",
+            "ru": "Готовность происхождения: Зависимости"
+          },
+          "weight": 11
+        },
+        {
+          "id": "provenance-readiness-risk-control",
+          "label": {
+            "en": "Provenance readiness: Risk control",
+            "ru": "Готовность происхождения: Контроль рисков"
+          },
+          "weight": 10
+        },
+        {
+          "id": "provenance-readiness-approval",
+          "label": {
+            "en": "Provenance readiness: Approval",
+            "ru": "Готовность происхождения: Согласование"
+          },
+          "weight": 9
+        }
+      ],
+      "scenarios": [
+        {
+          "id": "provenance-readiness-complete",
+          "synthetic": true,
+          "values": {
+            "provenance-readiness-coverage": 100,
+            "provenance-readiness-evidence": 100,
+            "provenance-readiness-ownership": 100,
+            "provenance-readiness-accuracy": 100,
+            "provenance-readiness-recency": 100,
+            "provenance-readiness-dependencies": 100,
+            "provenance-readiness-risk-control": 100,
+            "provenance-readiness-approval": 100
+          },
+          "expected_score": 100,
+          "expected_decision": "READY"
+        },
+        {
+          "id": "provenance-readiness-strong",
+          "synthetic": true,
+          "values": {
+            "provenance-readiness-coverage": 80,
+            "provenance-readiness-evidence": 80,
+            "provenance-readiness-ownership": 80,
+            "provenance-readiness-accuracy": 80,
+            "provenance-readiness-recency": 80,
+            "provenance-readiness-dependencies": 80,
+            "provenance-readiness-risk-control": 80,
+            "provenance-readiness-approval": 80
+          },
+          "expected_score": 80,
+          "expected_decision": "READY"
+        },
+        {
+          "id": "provenance-readiness-partial",
+          "synthetic": true,
+          "values": {
+            "provenance-readiness-coverage": 60,
+            "provenance-readiness-evidence": 60,
+            "provenance-readiness-ownership": 60,
+            "provenance-readiness-accuracy": 60,
+            "provenance-readiness-recency": 60,
+            "provenance-readiness-dependencies": 60,
+            "provenance-readiness-risk-control": 60,
+            "provenance-readiness-approval": 60
+          },
+          "expected_score": 60,
+          "expected_decision": "CONDITIONAL"
+        },
+        {
+          "id": "provenance-readiness-blocked",
+          "synthetic": true,
+          "values": {
+            "provenance-readiness-coverage": 30,
+            "provenance-readiness-evidence": 30,
+            "provenance-readiness-ownership": 30,
+            "provenance-readiness-accuracy": 30,
+            "provenance-readiness-recency": 30,
+            "provenance-readiness-dependencies": 30,
+            "provenance-readiness-risk-control": 30,
+            "provenance-readiness-approval": 30
+          },
+          "expected_score": 30,
+          "expected_decision": "HOLD"
+        }
+      ]
+    },
+    {
+      "id": "privacy-readiness",
+      "title": {
+        "en": "Privacy readiness",
+        "ru": "Готовность приватности"
+      },
+      "scope": {
+        "en": "Measures minimization, access control, retention, redaction and incident response.",
+        "ru": "Оценивает минимизацию данных, доступ, хранение, редактирование и реакцию на инциденты."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "criteria": [
+        {
+          "id": "privacy-readiness-coverage",
+          "label": {
+            "en": "Privacy readiness: Coverage",
+            "ru": "Готовность приватности: Полнота"
+          },
+          "weight": 16
+        },
+        {
+          "id": "privacy-readiness-evidence",
+          "label": {
+            "en": "Privacy readiness: Evidence",
+            "ru": "Готовность приватности: Доказательства"
+          },
+          "weight": 15
+        },
+        {
+          "id": "privacy-readiness-ownership",
+          "label": {
+            "en": "Privacy readiness: Ownership",
+            "ru": "Готовность приватности: Ответственность"
+          },
+          "weight": 14
+        },
+        {
+          "id": "privacy-readiness-accuracy",
+          "label": {
+            "en": "Privacy readiness: Accuracy",
+            "ru": "Готовность приватности: Точность"
+          },
+          "weight": 13
+        },
+        {
+          "id": "privacy-readiness-recency",
+          "label": {
+            "en": "Privacy readiness: Recency",
+            "ru": "Готовность приватности: Актуальность"
+          },
+          "weight": 12
+        },
+        {
+          "id": "privacy-readiness-dependencies",
+          "label": {
+            "en": "Privacy readiness: Dependencies",
+            "ru": "Готовность приватности: Зависимости"
+          },
+          "weight": 11
+        },
+        {
+          "id": "privacy-readiness-risk-control",
+          "label": {
+            "en": "Privacy readiness: Risk control",
+            "ru": "Готовность приватности: Контроль рисков"
+          },
+          "weight": 10
+        },
+        {
+          "id": "privacy-readiness-approval",
+          "label": {
+            "en": "Privacy readiness: Approval",
+            "ru": "Готовность приватности: Согласование"
+          },
+          "weight": 9
+        }
+      ],
+      "scenarios": [
+        {
+          "id": "privacy-readiness-complete",
+          "synthetic": true,
+          "values": {
+            "privacy-readiness-coverage": 100,
+            "privacy-readiness-evidence": 100,
+            "privacy-readiness-ownership": 100,
+            "privacy-readiness-accuracy": 100,
+            "privacy-readiness-recency": 100,
+            "privacy-readiness-dependencies": 100,
+            "privacy-readiness-risk-control": 100,
+            "privacy-readiness-approval": 100
+          },
+          "expected_score": 100,
+          "expected_decision": "READY"
+        },
+        {
+          "id": "privacy-readiness-strong",
+          "synthetic": true,
+          "values": {
+            "privacy-readiness-coverage": 80,
+            "privacy-readiness-evidence": 80,
+            "privacy-readiness-ownership": 80,
+            "privacy-readiness-accuracy": 80,
+            "privacy-readiness-recency": 80,
+            "privacy-readiness-dependencies": 80,
+            "privacy-readiness-risk-control": 80,
+            "privacy-readiness-approval": 80
+          },
+          "expected_score": 80,
+          "expected_decision": "READY"
+        },
+        {
+          "id": "privacy-readiness-partial",
+          "synthetic": true,
+          "values": {
+            "privacy-readiness-coverage": 60,
+            "privacy-readiness-evidence": 60,
+            "privacy-readiness-ownership": 60,
+            "privacy-readiness-accuracy": 60,
+            "privacy-readiness-recency": 60,
+            "privacy-readiness-dependencies": 60,
+            "privacy-readiness-risk-control": 60,
+            "privacy-readiness-approval": 60
+          },
+          "expected_score": 60,
+          "expected_decision": "CONDITIONAL"
+        },
+        {
+          "id": "privacy-readiness-blocked",
+          "synthetic": true,
+          "values": {
+            "privacy-readiness-coverage": 30,
+            "privacy-readiness-evidence": 30,
+            "privacy-readiness-ownership": 30,
+            "privacy-readiness-accuracy": 30,
+            "privacy-readiness-recency": 30,
+            "privacy-readiness-dependencies": 30,
+            "privacy-readiness-risk-control": 30,
+            "privacy-readiness-approval": 30
+          },
+          "expected_score": 30,
+          "expected_decision": "HOLD"
+        }
+      ]
+    },
+    {
+      "id": "supplier-readiness",
+      "title": {
+        "en": "Supplier readiness",
+        "ru": "Готовность поставщиков"
+      },
+      "scope": {
+        "en": "Measures identity, scope, pricing, rights, delivery and escalation commitments.",
+        "ru": "Оценивает идентификацию, объём, цены, права, поставку и обязательства по эскалации."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "criteria": [
+        {
+          "id": "supplier-readiness-coverage",
+          "label": {
+            "en": "Supplier readiness: Coverage",
+            "ru": "Готовность поставщиков: Полнота"
+          },
+          "weight": 16
+        },
+        {
+          "id": "supplier-readiness-evidence",
+          "label": {
+            "en": "Supplier readiness: Evidence",
+            "ru": "Готовность поставщиков: Доказательства"
+          },
+          "weight": 15
+        },
+        {
+          "id": "supplier-readiness-ownership",
+          "label": {
+            "en": "Supplier readiness: Ownership",
+            "ru": "Готовность поставщиков: Ответственность"
+          },
+          "weight": 14
+        },
+        {
+          "id": "supplier-readiness-accuracy",
+          "label": {
+            "en": "Supplier readiness: Accuracy",
+            "ru": "Готовность поставщиков: Точность"
+          },
+          "weight": 13
+        },
+        {
+          "id": "supplier-readiness-recency",
+          "label": {
+            "en": "Supplier readiness: Recency",
+            "ru": "Готовность поставщиков: Актуальность"
+          },
+          "weight": 12
+        },
+        {
+          "id": "supplier-readiness-dependencies",
+          "label": {
+            "en": "Supplier readiness: Dependencies",
+            "ru": "Готовность поставщиков: Зависимости"
+          },
+          "weight": 11
+        },
+        {
+          "id": "supplier-readiness-risk-control",
+          "label": {
+            "en": "Supplier readiness: Risk control",
+            "ru": "Готовность поставщиков: Контроль рисков"
+          },
+          "weight": 10
+        },
+        {
+          "id": "supplier-readiness-approval",
+          "label": {
+            "en": "Supplier readiness: Approval",
+            "ru": "Готовность поставщиков: Согласование"
+          },
+          "weight": 9
+        }
+      ],
+      "scenarios": [
+        {
+          "id": "supplier-readiness-complete",
+          "synthetic": true,
+          "values": {
+            "supplier-readiness-coverage": 100,
+            "supplier-readiness-evidence": 100,
+            "supplier-readiness-ownership": 100,
+            "supplier-readiness-accuracy": 100,
+            "supplier-readiness-recency": 100,
+            "supplier-readiness-dependencies": 100,
+            "supplier-readiness-risk-control": 100,
+            "supplier-readiness-approval": 100
+          },
+          "expected_score": 100,
+          "expected_decision": "READY"
+        },
+        {
+          "id": "supplier-readiness-strong",
+          "synthetic": true,
+          "values": {
+            "supplier-readiness-coverage": 80,
+            "supplier-readiness-evidence": 80,
+            "supplier-readiness-ownership": 80,
+            "supplier-readiness-accuracy": 80,
+            "supplier-readiness-recency": 80,
+            "supplier-readiness-dependencies": 80,
+            "supplier-readiness-risk-control": 80,
+            "supplier-readiness-approval": 80
+          },
+          "expected_score": 80,
+          "expected_decision": "READY"
+        },
+        {
+          "id": "supplier-readiness-partial",
+          "synthetic": true,
+          "values": {
+            "supplier-readiness-coverage": 60,
+            "supplier-readiness-evidence": 60,
+            "supplier-readiness-ownership": 60,
+            "supplier-readiness-accuracy": 60,
+            "supplier-readiness-recency": 60,
+            "supplier-readiness-dependencies": 60,
+            "supplier-readiness-risk-control": 60,
+            "supplier-readiness-approval": 60
+          },
+          "expected_score": 60,
+          "expected_decision": "CONDITIONAL"
+        },
+        {
+          "id": "supplier-readiness-blocked",
+          "synthetic": true,
+          "values": {
+            "supplier-readiness-coverage": 30,
+            "supplier-readiness-evidence": 30,
+            "supplier-readiness-ownership": 30,
+            "supplier-readiness-accuracy": 30,
+            "supplier-readiness-recency": 30,
+            "supplier-readiness-dependencies": 30,
+            "supplier-readiness-risk-control": 30,
+            "supplier-readiness-approval": 30
+          },
+          "expected_score": 30,
+          "expected_decision": "HOLD"
+        }
+      ]
+    },
+    {
+      "id": "sustainability-readiness",
+      "title": {
+        "en": "Sustainability readiness",
+        "ru": "Готовность устойчивости"
+      },
+      "scope": {
+        "en": "Measures travel, energy, waste, materials, measurement and accountable actions.",
+        "ru": "Оценивает поездки, энергию, отходы, материалы, измерения и ответственные действия."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "criteria": [
+        {
+          "id": "sustainability-readiness-coverage",
+          "label": {
+            "en": "Sustainability readiness: Coverage",
+            "ru": "Готовность устойчивости: Полнота"
+          },
+          "weight": 16
+        },
+        {
+          "id": "sustainability-readiness-evidence",
+          "label": {
+            "en": "Sustainability readiness: Evidence",
+            "ru": "Готовность устойчивости: Доказательства"
+          },
+          "weight": 15
+        },
+        {
+          "id": "sustainability-readiness-ownership",
+          "label": {
+            "en": "Sustainability readiness: Ownership",
+            "ru": "Готовность устойчивости: Ответственность"
+          },
+          "weight": 14
+        },
+        {
+          "id": "sustainability-readiness-accuracy",
+          "label": {
+            "en": "Sustainability readiness: Accuracy",
+            "ru": "Готовность устойчивости: Точность"
+          },
+          "weight": 13
+        },
+        {
+          "id": "sustainability-readiness-recency",
+          "label": {
+            "en": "Sustainability readiness: Recency",
+            "ru": "Готовность устойчивости: Актуальность"
+          },
+          "weight": 12
+        },
+        {
+          "id": "sustainability-readiness-dependencies",
+          "label": {
+            "en": "Sustainability readiness: Dependencies",
+            "ru": "Готовность устойчивости: Зависимости"
+          },
+          "weight": 11
+        },
+        {
+          "id": "sustainability-readiness-risk-control",
+          "label": {
+            "en": "Sustainability readiness: Risk control",
+            "ru": "Готовность устойчивости: Контроль рисков"
+          },
+          "weight": 10
+        },
+        {
+          "id": "sustainability-readiness-approval",
+          "label": {
+            "en": "Sustainability readiness: Approval",
+            "ru": "Готовность устойчивости: Согласование"
+          },
+          "weight": 9
+        }
+      ],
+      "scenarios": [
+        {
+          "id": "sustainability-readiness-complete",
+          "synthetic": true,
+          "values": {
+            "sustainability-readiness-coverage": 100,
+            "sustainability-readiness-evidence": 100,
+            "sustainability-readiness-ownership": 100,
+            "sustainability-readiness-accuracy": 100,
+            "sustainability-readiness-recency": 100,
+            "sustainability-readiness-dependencies": 100,
+            "sustainability-readiness-risk-control": 100,
+            "sustainability-readiness-approval": 100
+          },
+          "expected_score": 100,
+          "expected_decision": "READY"
+        },
+        {
+          "id": "sustainability-readiness-strong",
+          "synthetic": true,
+          "values": {
+            "sustainability-readiness-coverage": 80,
+            "sustainability-readiness-evidence": 80,
+            "sustainability-readiness-ownership": 80,
+            "sustainability-readiness-accuracy": 80,
+            "sustainability-readiness-recency": 80,
+            "sustainability-readiness-dependencies": 80,
+            "sustainability-readiness-risk-control": 80,
+            "sustainability-readiness-approval": 80
+          },
+          "expected_score": 80,
+          "expected_decision": "READY"
+        },
+        {
+          "id": "sustainability-readiness-partial",
+          "synthetic": true,
+          "values": {
+            "sustainability-readiness-coverage": 60,
+            "sustainability-readiness-evidence": 60,
+            "sustainability-readiness-ownership": 60,
+            "sustainability-readiness-accuracy": 60,
+            "sustainability-readiness-recency": 60,
+            "sustainability-readiness-dependencies": 60,
+            "sustainability-readiness-risk-control": 60,
+            "sustainability-readiness-approval": 60
+          },
+          "expected_score": 60,
+          "expected_decision": "CONDITIONAL"
+        },
+        {
+          "id": "sustainability-readiness-blocked",
+          "synthetic": true,
+          "values": {
+            "sustainability-readiness-coverage": 30,
+            "sustainability-readiness-evidence": 30,
+            "sustainability-readiness-ownership": 30,
+            "sustainability-readiness-accuracy": 30,
+            "sustainability-readiness-recency": 30,
+            "sustainability-readiness-dependencies": 30,
+            "sustainability-readiness-risk-control": 30,
+            "sustainability-readiness-approval": 30
+          },
+          "expected_score": 30,
+          "expected_decision": "HOLD"
+        }
+      ]
+    },
+    {
+      "id": "release-readiness",
+      "title": {
+        "en": "Release readiness",
+        "ru": "Готовность релиза"
+      },
+      "scope": {
+        "en": "Measures approvals, technical QC, rights, accessibility, delivery and rollback evidence.",
+        "ru": "Оценивает согласования, технический QC, права, доступность, доставку и доказательства отката."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "criteria": [
+        {
+          "id": "release-readiness-coverage",
+          "label": {
+            "en": "Release readiness: Coverage",
+            "ru": "Готовность релиза: Полнота"
+          },
+          "weight": 16
+        },
+        {
+          "id": "release-readiness-evidence",
+          "label": {
+            "en": "Release readiness: Evidence",
+            "ru": "Готовность релиза: Доказательства"
+          },
+          "weight": 15
+        },
+        {
+          "id": "release-readiness-ownership",
+          "label": {
+            "en": "Release readiness: Ownership",
+            "ru": "Готовность релиза: Ответственность"
+          },
+          "weight": 14
+        },
+        {
+          "id": "release-readiness-accuracy",
+          "label": {
+            "en": "Release readiness: Accuracy",
+            "ru": "Готовность релиза: Точность"
+          },
+          "weight": 13
+        },
+        {
+          "id": "release-readiness-recency",
+          "label": {
+            "en": "Release readiness: Recency",
+            "ru": "Готовность релиза: Актуальность"
+          },
+          "weight": 12
+        },
+        {
+          "id": "release-readiness-dependencies",
+          "label": {
+            "en": "Release readiness: Dependencies",
+            "ru": "Готовность релиза: Зависимости"
+          },
+          "weight": 11
+        },
+        {
+          "id": "release-readiness-risk-control",
+          "label": {
+            "en": "Release readiness: Risk control",
+            "ru": "Готовность релиза: Контроль рисков"
+          },
+          "weight": 10
+        },
+        {
+          "id": "release-readiness-approval",
+          "label": {
+            "en": "Release readiness: Approval",
+            "ru": "Готовность релиза: Согласование"
+          },
+          "weight": 9
+        }
+      ],
+      "scenarios": [
+        {
+          "id": "release-readiness-complete",
+          "synthetic": true,
+          "values": {
+            "release-readiness-coverage": 100,
+            "release-readiness-evidence": 100,
+            "release-readiness-ownership": 100,
+            "release-readiness-accuracy": 100,
+            "release-readiness-recency": 100,
+            "release-readiness-dependencies": 100,
+            "release-readiness-risk-control": 100,
+            "release-readiness-approval": 100
+          },
+          "expected_score": 100,
+          "expected_decision": "READY"
+        },
+        {
+          "id": "release-readiness-strong",
+          "synthetic": true,
+          "values": {
+            "release-readiness-coverage": 80,
+            "release-readiness-evidence": 80,
+            "release-readiness-ownership": 80,
+            "release-readiness-accuracy": 80,
+            "release-readiness-recency": 80,
+            "release-readiness-dependencies": 80,
+            "release-readiness-risk-control": 80,
+            "release-readiness-approval": 80
+          },
+          "expected_score": 80,
+          "expected_decision": "READY"
+        },
+        {
+          "id": "release-readiness-partial",
+          "synthetic": true,
+          "values": {
+            "release-readiness-coverage": 60,
+            "release-readiness-evidence": 60,
+            "release-readiness-ownership": 60,
+            "release-readiness-accuracy": 60,
+            "release-readiness-recency": 60,
+            "release-readiness-dependencies": 60,
+            "release-readiness-risk-control": 60,
+            "release-readiness-approval": 60
+          },
+          "expected_score": 60,
+          "expected_decision": "CONDITIONAL"
+        },
+        {
+          "id": "release-readiness-blocked",
+          "synthetic": true,
+          "values": {
+            "release-readiness-coverage": 30,
+            "release-readiness-evidence": 30,
+            "release-readiness-ownership": 30,
+            "release-readiness-accuracy": 30,
+            "release-readiness-recency": 30,
+            "release-readiness-dependencies": 30,
+            "release-readiness-risk-control": 30,
+            "release-readiness-approval": 30
+          },
+          "expected_score": 30,
+          "expected_decision": "HOLD"
+        }
+      ]
+    }
+  ]
+}

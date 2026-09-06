@@ -1,0 +1,6411 @@
+{
+  "schema_version": "1.0.0",
+  "publisher": {
+    "name": "SHAR Production",
+    "website": "https://sharprod.com/"
+  },
+  "license": "CC-BY-4.0",
+  "synthetic": true,
+  "scenarios": [
+    {
+      "scorecard_id": "brief-readiness",
+      "id": "brief-readiness-complete",
+      "synthetic": true,
+      "values": {
+        "brief-readiness-coverage": 100,
+        "brief-readiness-evidence": 100,
+        "brief-readiness-ownership": 100,
+        "brief-readiness-accuracy": 100,
+        "brief-readiness-recency": 100,
+        "brief-readiness-dependencies": 100,
+        "brief-readiness-risk-control": 100,
+        "brief-readiness-approval": 100
+      },
+      "expected_score": 100,
+      "expected_decision": "READY",
+      "result": {
+        "ok": true,
+        "score": 100,
+        "decision": "READY",
+        "criteria": [
+          {
+            "id": "brief-readiness-coverage",
+            "value": 100,
+            "weight": 16
+          },
+          {
+            "id": "brief-readiness-evidence",
+            "value": 100,
+            "weight": 15
+          },
+          {
+            "id": "brief-readiness-ownership",
+            "value": 100,
+            "weight": 14
+          },
+          {
+            "id": "brief-readiness-accuracy",
+            "value": 100,
+            "weight": 13
+          },
+          {
+            "id": "brief-readiness-recency",
+            "value": 100,
+            "weight": 12
+          },
+          {
+            "id": "brief-readiness-dependencies",
+            "value": 100,
+            "weight": 11
+          },
+          {
+            "id": "brief-readiness-risk-control",
+            "value": 100,
+            "weight": 10
+          },
+          {
+            "id": "brief-readiness-approval",
+            "value": 100,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "brief-readiness",
+      "id": "brief-readiness-strong",
+      "synthetic": true,
+      "values": {
+        "brief-readiness-coverage": 80,
+        "brief-readiness-evidence": 80,
+        "brief-readiness-ownership": 80,
+        "brief-readiness-accuracy": 80,
+        "brief-readiness-recency": 80,
+        "brief-readiness-dependencies": 80,
+        "brief-readiness-risk-control": 80,
+        "brief-readiness-approval": 80
+      },
+      "expected_score": 80,
+      "expected_decision": "READY",
+      "result": {
+        "ok": true,
+        "score": 80,
+        "decision": "READY",
+        "criteria": [
+          {
+            "id": "brief-readiness-coverage",
+            "value": 80,
+            "weight": 16
+          },
+          {
+            "id": "brief-readiness-evidence",
+            "value": 80,
+            "weight": 15
+          },
+          {
+            "id": "brief-readiness-ownership",
+            "value": 80,
+            "weight": 14
+          },
+          {
+            "id": "brief-readiness-accuracy",
+            "value": 80,
+            "weight": 13
+          },
+          {
+            "id": "brief-readiness-recency",
+            "value": 80,
+            "weight": 12
+          },
+          {
+            "id": "brief-readiness-dependencies",
+            "value": 80,
+            "weight": 11
+          },
+          {
+            "id": "brief-readiness-risk-control",
+            "value": 80,
+            "weight": 10
+          },
+          {
+            "id": "brief-readiness-approval",
+            "value": 80,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "brief-readiness",
+      "id": "brief-readiness-partial",
+      "synthetic": true,
+      "values": {
+        "brief-readiness-coverage": 60,
+        "brief-readiness-evidence": 60,
+        "brief-readiness-ownership": 60,
+        "brief-readiness-accuracy": 60,
+        "brief-readiness-recency": 60,
+        "brief-readiness-dependencies": 60,
+        "brief-readiness-risk-control": 60,
+        "brief-readiness-approval": 60
+      },
+      "expected_score": 60,
+      "expected_decision": "CONDITIONAL",
+      "result": {
+        "ok": true,
+        "score": 60,
+        "decision": "CONDITIONAL",
+        "criteria": [
+          {
+            "id": "brief-readiness-coverage",
+            "value": 60,
+            "weight": 16
+          },
+          {
+            "id": "brief-readiness-evidence",
+            "value": 60,
+            "weight": 15
+          },
+          {
+            "id": "brief-readiness-ownership",
+            "value": 60,
+            "weight": 14
+          },
+          {
+            "id": "brief-readiness-accuracy",
+            "value": 60,
+            "weight": 13
+          },
+          {
+            "id": "brief-readiness-recency",
+            "value": 60,
+            "weight": 12
+          },
+          {
+            "id": "brief-readiness-dependencies",
+            "value": 60,
+            "weight": 11
+          },
+          {
+            "id": "brief-readiness-risk-control",
+            "value": 60,
+            "weight": 10
+          },
+          {
+            "id": "brief-readiness-approval",
+            "value": 60,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "brief-readiness",
+      "id": "brief-readiness-blocked",
+      "synthetic": true,
+      "values": {
+        "brief-readiness-coverage": 30,
+        "brief-readiness-evidence": 30,
+        "brief-readiness-ownership": 30,
+        "brief-readiness-accuracy": 30,
+        "brief-readiness-recency": 30,
+        "brief-readiness-dependencies": 30,
+        "brief-readiness-risk-control": 30,
+        "brief-readiness-approval": 30
+      },
+      "expected_score": 30,
+      "expected_decision": "HOLD",
+      "result": {
+        "ok": true,
+        "score": 30,
+        "decision": "HOLD",
+        "criteria": [
+          {
+            "id": "brief-readiness-coverage",
+            "value": 30,
+            "weight": 16
+          },
+          {
+            "id": "brief-readiness-evidence",
+            "value": 30,
+            "weight": 15
+          },
+          {
+            "id": "brief-readiness-ownership",
+            "value": 30,
+            "weight": 14
+          },
+          {
+            "id": "brief-readiness-accuracy",
+            "value": 30,
+            "weight": 13
+          },
+          {
+            "id": "brief-readiness-recency",
+            "value": 30,
+            "weight": 12
+          },
+          {
+            "id": "brief-readiness-dependencies",
+            "value": 30,
+            "weight": 11
+          },
+          {
+            "id": "brief-readiness-risk-control",
+            "value": 30,
+            "weight": 10
+          },
+          {
+            "id": "brief-readiness-approval",
+            "value": 30,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "rights-readiness",
+      "id": "rights-readiness-complete",
+      "synthetic": true,
+      "values": {
+        "rights-readiness-coverage": 100,
+        "rights-readiness-evidence": 100,
+        "rights-readiness-ownership": 100,
+        "rights-readiness-accuracy": 100,
+        "rights-readiness-recency": 100,
+        "rights-readiness-dependencies": 100,
+        "rights-readiness-risk-control": 100,
+        "rights-readiness-approval": 100
+      },
+      "expected_score": 100,
+      "expected_decision": "READY",
+      "result": {
+        "ok": true,
+        "score": 100,
+        "decision": "READY",
+        "criteria": [
+          {
+            "id": "rights-readiness-coverage",
+            "value": 100,
+            "weight": 16
+          },
+          {
+            "id": "rights-readiness-evidence",
+            "value": 100,
+            "weight": 15
+          },
+          {
+            "id": "rights-readiness-ownership",
+            "value": 100,
+            "weight": 14
+          },
+          {
+            "id": "rights-readiness-accuracy",
+            "value": 100,
+            "weight": 13
+          },
+          {
+            "id": "rights-readiness-recency",
+            "value": 100,
+            "weight": 12
+          },
+          {
+            "id": "rights-readiness-dependencies",
+            "value": 100,
+            "weight": 11
+          },
+          {
+            "id": "rights-readiness-risk-control",
+            "value": 100,
+            "weight": 10
+          },
+          {
+            "id": "rights-readiness-approval",
+            "value": 100,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "rights-readiness",
+      "id": "rights-readiness-strong",
+      "synthetic": true,
+      "values": {
+        "rights-readiness-coverage": 80,
+        "rights-readiness-evidence": 80,
+        "rights-readiness-ownership": 80,
+        "rights-readiness-accuracy": 80,
+        "rights-readiness-recency": 80,
+        "rights-readiness-dependencies": 80,
+        "rights-readiness-risk-control": 80,
+        "rights-readiness-approval": 80
+      },
+      "expected_score": 80,
+      "expected_decision": "READY",
+      "result": {
+        "ok": true,
+        "score": 80,
+        "decision": "READY",
+        "criteria": [
+          {
+            "id": "rights-readiness-coverage",
+            "value": 80,
+            "weight": 16
+          },
+          {
+            "id": "rights-readiness-evidence",
+            "value": 80,
+            "weight": 15
+          },
+          {
+            "id": "rights-readiness-ownership",
+            "value": 80,
+            "weight": 14
+          },
+          {
+            "id": "rights-readiness-accuracy",
+            "value": 80,
+            "weight": 13
+          },
+          {
+            "id": "rights-readiness-recency",
+            "value": 80,
+            "weight": 12
+          },
+          {
+            "id": "rights-readiness-dependencies",
+            "value": 80,
+            "weight": 11
+          },
+          {
+            "id": "rights-readiness-risk-control",
+            "value": 80,
+            "weight": 10
+          },
+          {
+            "id": "rights-readiness-approval",
+            "value": 80,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "rights-readiness",
+      "id": "rights-readiness-partial",
+      "synthetic": true,
+      "values": {
+        "rights-readiness-coverage": 60,
+        "rights-readiness-evidence": 60,
+        "rights-readiness-ownership": 60,
+        "rights-readiness-accuracy": 60,
+        "rights-readiness-recency": 60,
+        "rights-readiness-dependencies": 60,
+        "rights-readiness-risk-control": 60,
+        "rights-readiness-approval": 60
+      },
+      "expected_score": 60,
+      "expected_decision": "CONDITIONAL",
+      "result": {
+        "ok": true,
+        "score": 60,
+        "decision": "CONDITIONAL",
+        "criteria": [
+          {
+            "id": "rights-readiness-coverage",
+            "value": 60,
+            "weight": 16
+          },
+          {
+            "id": "rights-readiness-evidence",
+            "value": 60,
+            "weight": 15
+          },
+          {
+            "id": "rights-readiness-ownership",
+            "value": 60,
+            "weight": 14
+          },
+          {
+            "id": "rights-readiness-accuracy",
+            "value": 60,
+            "weight": 13
+          },
+          {
+            "id": "rights-readiness-recency",
+            "value": 60,
+            "weight": 12
+          },
+          {
+            "id": "rights-readiness-dependencies",
+            "value": 60,
+            "weight": 11
+          },
+          {
+            "id": "rights-readiness-risk-control",
+            "value": 60,
+            "weight": 10
+          },
+          {
+            "id": "rights-readiness-approval",
+            "value": 60,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "rights-readiness",
+      "id": "rights-readiness-blocked",
+      "synthetic": true,
+      "values": {
+        "rights-readiness-coverage": 30,
+        "rights-readiness-evidence": 30,
+        "rights-readiness-ownership": 30,
+        "rights-readiness-accuracy": 30,
+        "rights-readiness-recency": 30,
+        "rights-readiness-dependencies": 30,
+        "rights-readiness-risk-control": 30,
+        "rights-readiness-approval": 30
+      },
+      "expected_score": 30,
+      "expected_decision": "HOLD",
+      "result": {
+        "ok": true,
+        "score": 30,
+        "decision": "HOLD",
+        "criteria": [
+          {
+            "id": "rights-readiness-coverage",
+            "value": 30,
+            "weight": 16
+          },
+          {
+            "id": "rights-readiness-evidence",
+            "value": 30,
+            "weight": 15
+          },
+          {
+            "id": "rights-readiness-ownership",
+            "value": 30,
+            "weight": 14
+          },
+          {
+            "id": "rights-readiness-accuracy",
+            "value": 30,
+            "weight": 13
+          },
+          {
+            "id": "rights-readiness-recency",
+            "value": 30,
+            "weight": 12
+          },
+          {
+            "id": "rights-readiness-dependencies",
+            "value": 30,
+            "weight": 11
+          },
+          {
+            "id": "rights-readiness-risk-control",
+            "value": 30,
+            "weight": 10
+          },
+          {
+            "id": "rights-readiness-approval",
+            "value": 30,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "budget-readiness",
+      "id": "budget-readiness-complete",
+      "synthetic": true,
+      "values": {
+        "budget-readiness-coverage": 100,
+        "budget-readiness-evidence": 100,
+        "budget-readiness-ownership": 100,
+        "budget-readiness-accuracy": 100,
+        "budget-readiness-recency": 100,
+        "budget-readiness-dependencies": 100,
+        "budget-readiness-risk-control": 100,
+        "budget-readiness-approval": 100
+      },
+      "expected_score": 100,
+      "expected_decision": "READY",
+      "result": {
+        "ok": true,
+        "score": 100,
+        "decision": "READY",
+        "criteria": [
+          {
+            "id": "budget-readiness-coverage",
+            "value": 100,
+            "weight": 16
+          },
+          {
+            "id": "budget-readiness-evidence",
+            "value": 100,
+            "weight": 15
+          },
+          {
+            "id": "budget-readiness-ownership",
+            "value": 100,
+            "weight": 14
+          },
+          {
+            "id": "budget-readiness-accuracy",
+            "value": 100,
+            "weight": 13
+          },
+          {
+            "id": "budget-readiness-recency",
+            "value": 100,
+            "weight": 12
+          },
+          {
+            "id": "budget-readiness-dependencies",
+            "value": 100,
+            "weight": 11
+          },
+          {
+            "id": "budget-readiness-risk-control",
+            "value": 100,
+            "weight": 10
+          },
+          {
+            "id": "budget-readiness-approval",
+            "value": 100,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "budget-readiness",
+      "id": "budget-readiness-strong",
+      "synthetic": true,
+      "values": {
+        "budget-readiness-coverage": 80,
+        "budget-readiness-evidence": 80,
+        "budget-readiness-ownership": 80,
+        "budget-readiness-accuracy": 80,
+        "budget-readiness-recency": 80,
+        "budget-readiness-dependencies": 80,
+        "budget-readiness-risk-control": 80,
+        "budget-readiness-approval": 80
+      },
+      "expected_score": 80,
+      "expected_decision": "READY",
+      "result": {
+        "ok": true,
+        "score": 80,
+        "decision": "READY",
+        "criteria": [
+          {
+            "id": "budget-readiness-coverage",
+            "value": 80,
+            "weight": 16
+          },
+          {
+            "id": "budget-readiness-evidence",
+            "value": 80,
+            "weight": 15
+          },
+          {
+            "id": "budget-readiness-ownership",
+            "value": 80,
+            "weight": 14
+          },
+          {
+            "id": "budget-readiness-accuracy",
+            "value": 80,
+            "weight": 13
+          },
+          {
+            "id": "budget-readiness-recency",
+            "value": 80,
+            "weight": 12
+          },
+          {
+            "id": "budget-readiness-dependencies",
+            "value": 80,
+            "weight": 11
+          },
+          {
+            "id": "budget-readiness-risk-control",
+            "value": 80,
+            "weight": 10
+          },
+          {
+            "id": "budget-readiness-approval",
+            "value": 80,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "budget-readiness",
+      "id": "budget-readiness-partial",
+      "synthetic": true,
+      "values": {
+        "budget-readiness-coverage": 60,
+        "budget-readiness-evidence": 60,
+        "budget-readiness-ownership": 60,
+        "budget-readiness-accuracy": 60,
+        "budget-readiness-recency": 60,
+        "budget-readiness-dependencies": 60,
+        "budget-readiness-risk-control": 60,
+        "budget-readiness-approval": 60
+      },
+      "expected_score": 60,
+      "expected_decision": "CONDITIONAL",
+      "result": {
+        "ok": true,
+        "score": 60,
+        "decision": "CONDITIONAL",
+        "criteria": [
+          {
+            "id": "budget-readiness-coverage",
+            "value": 60,
+            "weight": 16
+          },
+          {
+            "id": "budget-readiness-evidence",
+            "value": 60,
+            "weight": 15
+          },
+          {
+            "id": "budget-readiness-ownership",
+            "value": 60,
+            "weight": 14
+          },
+          {
+            "id": "budget-readiness-accuracy",
+            "value": 60,
+            "weight": 13
+          },
+          {
+            "id": "budget-readiness-recency",
+            "value": 60,
+            "weight": 12
+          },
+          {
+            "id": "budget-readiness-dependencies",
+            "value": 60,
+            "weight": 11
+          },
+          {
+            "id": "budget-readiness-risk-control",
+            "value": 60,
+            "weight": 10
+          },
+          {
+            "id": "budget-readiness-approval",
+            "value": 60,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "budget-readiness",
+      "id": "budget-readiness-blocked",
+      "synthetic": true,
+      "values": {
+        "budget-readiness-coverage": 30,
+        "budget-readiness-evidence": 30,
+        "budget-readiness-ownership": 30,
+        "budget-readiness-accuracy": 30,
+        "budget-readiness-recency": 30,
+        "budget-readiness-dependencies": 30,
+        "budget-readiness-risk-control": 30,
+        "budget-readiness-approval": 30
+      },
+      "expected_score": 30,
+      "expected_decision": "HOLD",
+      "result": {
+        "ok": true,
+        "score": 30,
+        "decision": "HOLD",
+        "criteria": [
+          {
+            "id": "budget-readiness-coverage",
+            "value": 30,
+            "weight": 16
+          },
+          {
+            "id": "budget-readiness-evidence",
+            "value": 30,
+            "weight": 15
+          },
+          {
+            "id": "budget-readiness-ownership",
+            "value": 30,
+            "weight": 14
+          },
+          {
+            "id": "budget-readiness-accuracy",
+            "value": 30,
+            "weight": 13
+          },
+          {
+            "id": "budget-readiness-recency",
+            "value": 30,
+            "weight": 12
+          },
+          {
+            "id": "budget-readiness-dependencies",
+            "value": 30,
+            "weight": 11
+          },
+          {
+            "id": "budget-readiness-risk-control",
+            "value": 30,
+            "weight": 10
+          },
+          {
+            "id": "budget-readiness-approval",
+            "value": 30,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "schedule-readiness",
+      "id": "schedule-readiness-complete",
+      "synthetic": true,
+      "values": {
+        "schedule-readiness-coverage": 100,
+        "schedule-readiness-evidence": 100,
+        "schedule-readiness-ownership": 100,
+        "schedule-readiness-accuracy": 100,
+        "schedule-readiness-recency": 100,
+        "schedule-readiness-dependencies": 100,
+        "schedule-readiness-risk-control": 100,
+        "schedule-readiness-approval": 100
+      },
+      "expected_score": 100,
+      "expected_decision": "READY",
+      "result": {
+        "ok": true,
+        "score": 100,
+        "decision": "READY",
+        "criteria": [
+          {
+            "id": "schedule-readiness-coverage",
+            "value": 100,
+            "weight": 16
+          },
+          {
+            "id": "schedule-readiness-evidence",
+            "value": 100,
+            "weight": 15
+          },
+          {
+            "id": "schedule-readiness-ownership",
+            "value": 100,
+            "weight": 14
+          },
+          {
+            "id": "schedule-readiness-accuracy",
+            "value": 100,
+            "weight": 13
+          },
+          {
+            "id": "schedule-readiness-recency",
+            "value": 100,
+            "weight": 12
+          },
+          {
+            "id": "schedule-readiness-dependencies",
+            "value": 100,
+            "weight": 11
+          },
+          {
+            "id": "schedule-readiness-risk-control",
+            "value": 100,
+            "weight": 10
+          },
+          {
+            "id": "schedule-readiness-approval",
+            "value": 100,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "schedule-readiness",
+      "id": "schedule-readiness-strong",
+      "synthetic": true,
+      "values": {
+        "schedule-readiness-coverage": 80,
+        "schedule-readiness-evidence": 80,
+        "schedule-readiness-ownership": 80,
+        "schedule-readiness-accuracy": 80,
+        "schedule-readiness-recency": 80,
+        "schedule-readiness-dependencies": 80,
+        "schedule-readiness-risk-control": 80,
+        "schedule-readiness-approval": 80
+      },
+      "expected_score": 80,
+      "expected_decision": "READY",
+      "result": {
+        "ok": true,
+        "score": 80,
+        "decision": "READY",
+        "criteria": [
+          {
+            "id": "schedule-readiness-coverage",
+            "value": 80,
+            "weight": 16
+          },
+          {
+            "id": "schedule-readiness-evidence",
+            "value": 80,
+            "weight": 15
+          },
+          {
+            "id": "schedule-readiness-ownership",
+            "value": 80,
+            "weight": 14
+          },
+          {
+            "id": "schedule-readiness-accuracy",
+            "value": 80,
+            "weight": 13
+          },
+          {
+            "id": "schedule-readiness-recency",
+            "value": 80,
+            "weight": 12
+          },
+          {
+            "id": "schedule-readiness-dependencies",
+            "value": 80,
+            "weight": 11
+          },
+          {
+            "id": "schedule-readiness-risk-control",
+            "value": 80,
+            "weight": 10
+          },
+          {
+            "id": "schedule-readiness-approval",
+            "value": 80,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "schedule-readiness",
+      "id": "schedule-readiness-partial",
+      "synthetic": true,
+      "values": {
+        "schedule-readiness-coverage": 60,
+        "schedule-readiness-evidence": 60,
+        "schedule-readiness-ownership": 60,
+        "schedule-readiness-accuracy": 60,
+        "schedule-readiness-recency": 60,
+        "schedule-readiness-dependencies": 60,
+        "schedule-readiness-risk-control": 60,
+        "schedule-readiness-approval": 60
+      },
+      "expected_score": 60,
+      "expected_decision": "CONDITIONAL",
+      "result": {
+        "ok": true,
+        "score": 60,
+        "decision": "CONDITIONAL",
+        "criteria": [
+          {
+            "id": "schedule-readiness-coverage",
+            "value": 60,
+            "weight": 16
+          },
+          {
+            "id": "schedule-readiness-evidence",
+            "value": 60,
+            "weight": 15
+          },
+          {
+            "id": "schedule-readiness-ownership",
+            "value": 60,
+            "weight": 14
+          },
+          {
+            "id": "schedule-readiness-accuracy",
+            "value": 60,
+            "weight": 13
+          },
+          {
+            "id": "schedule-readiness-recency",
+            "value": 60,
+            "weight": 12
+          },
+          {
+            "id": "schedule-readiness-dependencies",
+            "value": 60,
+            "weight": 11
+          },
+          {
+            "id": "schedule-readiness-risk-control",
+            "value": 60,
+            "weight": 10
+          },
+          {
+            "id": "schedule-readiness-approval",
+            "value": 60,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "schedule-readiness",
+      "id": "schedule-readiness-blocked",
+      "synthetic": true,
+      "values": {
+        "schedule-readiness-coverage": 30,
+        "schedule-readiness-evidence": 30,
+        "schedule-readiness-ownership": 30,
+        "schedule-readiness-accuracy": 30,
+        "schedule-readiness-recency": 30,
+        "schedule-readiness-dependencies": 30,
+        "schedule-readiness-risk-control": 30,
+        "schedule-readiness-approval": 30
+      },
+      "expected_score": 30,
+      "expected_decision": "HOLD",
+      "result": {
+        "ok": true,
+        "score": 30,
+        "decision": "HOLD",
+        "criteria": [
+          {
+            "id": "schedule-readiness-coverage",
+            "value": 30,
+            "weight": 16
+          },
+          {
+            "id": "schedule-readiness-evidence",
+            "value": 30,
+            "weight": 15
+          },
+          {
+            "id": "schedule-readiness-ownership",
+            "value": 30,
+            "weight": 14
+          },
+          {
+            "id": "schedule-readiness-accuracy",
+            "value": 30,
+            "weight": 13
+          },
+          {
+            "id": "schedule-readiness-recency",
+            "value": 30,
+            "weight": 12
+          },
+          {
+            "id": "schedule-readiness-dependencies",
+            "value": 30,
+            "weight": 11
+          },
+          {
+            "id": "schedule-readiness-risk-control",
+            "value": 30,
+            "weight": 10
+          },
+          {
+            "id": "schedule-readiness-approval",
+            "value": 30,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "location-readiness",
+      "id": "location-readiness-complete",
+      "synthetic": true,
+      "values": {
+        "location-readiness-coverage": 100,
+        "location-readiness-evidence": 100,
+        "location-readiness-ownership": 100,
+        "location-readiness-accuracy": 100,
+        "location-readiness-recency": 100,
+        "location-readiness-dependencies": 100,
+        "location-readiness-risk-control": 100,
+        "location-readiness-approval": 100
+      },
+      "expected_score": 100,
+      "expected_decision": "READY",
+      "result": {
+        "ok": true,
+        "score": 100,
+        "decision": "READY",
+        "criteria": [
+          {
+            "id": "location-readiness-coverage",
+            "value": 100,
+            "weight": 16
+          },
+          {
+            "id": "location-readiness-evidence",
+            "value": 100,
+            "weight": 15
+          },
+          {
+            "id": "location-readiness-ownership",
+            "value": 100,
+            "weight": 14
+          },
+          {
+            "id": "location-readiness-accuracy",
+            "value": 100,
+            "weight": 13
+          },
+          {
+            "id": "location-readiness-recency",
+            "value": 100,
+            "weight": 12
+          },
+          {
+            "id": "location-readiness-dependencies",
+            "value": 100,
+            "weight": 11
+          },
+          {
+            "id": "location-readiness-risk-control",
+            "value": 100,
+            "weight": 10
+          },
+          {
+            "id": "location-readiness-approval",
+            "value": 100,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "location-readiness",
+      "id": "location-readiness-strong",
+      "synthetic": true,
+      "values": {
+        "location-readiness-coverage": 80,
+        "location-readiness-evidence": 80,
+        "location-readiness-ownership": 80,
+        "location-readiness-accuracy": 80,
+        "location-readiness-recency": 80,
+        "location-readiness-dependencies": 80,
+        "location-readiness-risk-control": 80,
+        "location-readiness-approval": 80
+      },
+      "expected_score": 80,
+      "expected_decision": "READY",
+      "result": {
+        "ok": true,
+        "score": 80,
+        "decision": "READY",
+        "criteria": [
+          {
+            "id": "location-readiness-coverage",
+            "value": 80,
+            "weight": 16
+          },
+          {
+            "id": "location-readiness-evidence",
+            "value": 80,
+            "weight": 15
+          },
+          {
+            "id": "location-readiness-ownership",
+            "value": 80,
+            "weight": 14
+          },
+          {
+            "id": "location-readiness-accuracy",
+            "value": 80,
+            "weight": 13
+          },
+          {
+            "id": "location-readiness-recency",
+            "value": 80,
+            "weight": 12
+          },
+          {
+            "id": "location-readiness-dependencies",
+            "value": 80,
+            "weight": 11
+          },
+          {
+            "id": "location-readiness-risk-control",
+            "value": 80,
+            "weight": 10
+          },
+          {
+            "id": "location-readiness-approval",
+            "value": 80,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "location-readiness",
+      "id": "location-readiness-partial",
+      "synthetic": true,
+      "values": {
+        "location-readiness-coverage": 60,
+        "location-readiness-evidence": 60,
+        "location-readiness-ownership": 60,
+        "location-readiness-accuracy": 60,
+        "location-readiness-recency": 60,
+        "location-readiness-dependencies": 60,
+        "location-readiness-risk-control": 60,
+        "location-readiness-approval": 60
+      },
+      "expected_score": 60,
+      "expected_decision": "CONDITIONAL",
+      "result": {
+        "ok": true,
+        "score": 60,
+        "decision": "CONDITIONAL",
+        "criteria": [
+          {
+            "id": "location-readiness-coverage",
+            "value": 60,
+            "weight": 16
+          },
+          {
+            "id": "location-readiness-evidence",
+            "value": 60,
+            "weight": 15
+          },
+          {
+            "id": "location-readiness-ownership",
+            "value": 60,
+            "weight": 14
+          },
+          {
+            "id": "location-readiness-accuracy",
+            "value": 60,
+            "weight": 13
+          },
+          {
+            "id": "location-readiness-recency",
+            "value": 60,
+            "weight": 12
+          },
+          {
+            "id": "location-readiness-dependencies",
+            "value": 60,
+            "weight": 11
+          },
+          {
+            "id": "location-readiness-risk-control",
+            "value": 60,
+            "weight": 10
+          },
+          {
+            "id": "location-readiness-approval",
+            "value": 60,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "location-readiness",
+      "id": "location-readiness-blocked",
+      "synthetic": true,
+      "values": {
+        "location-readiness-coverage": 30,
+        "location-readiness-evidence": 30,
+        "location-readiness-ownership": 30,
+        "location-readiness-accuracy": 30,
+        "location-readiness-recency": 30,
+        "location-readiness-dependencies": 30,
+        "location-readiness-risk-control": 30,
+        "location-readiness-approval": 30
+      },
+      "expected_score": 30,
+      "expected_decision": "HOLD",
+      "result": {
+        "ok": true,
+        "score": 30,
+        "decision": "HOLD",
+        "criteria": [
+          {
+            "id": "location-readiness-coverage",
+            "value": 30,
+            "weight": 16
+          },
+          {
+            "id": "location-readiness-evidence",
+            "value": 30,
+            "weight": 15
+          },
+          {
+            "id": "location-readiness-ownership",
+            "value": 30,
+            "weight": 14
+          },
+          {
+            "id": "location-readiness-accuracy",
+            "value": 30,
+            "weight": 13
+          },
+          {
+            "id": "location-readiness-recency",
+            "value": 30,
+            "weight": 12
+          },
+          {
+            "id": "location-readiness-dependencies",
+            "value": 30,
+            "weight": 11
+          },
+          {
+            "id": "location-readiness-risk-control",
+            "value": 30,
+            "weight": 10
+          },
+          {
+            "id": "location-readiness-approval",
+            "value": 30,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "talent-readiness",
+      "id": "talent-readiness-complete",
+      "synthetic": true,
+      "values": {
+        "talent-readiness-coverage": 100,
+        "talent-readiness-evidence": 100,
+        "talent-readiness-ownership": 100,
+        "talent-readiness-accuracy": 100,
+        "talent-readiness-recency": 100,
+        "talent-readiness-dependencies": 100,
+        "talent-readiness-risk-control": 100,
+        "talent-readiness-approval": 100
+      },
+      "expected_score": 100,
+      "expected_decision": "READY",
+      "result": {
+        "ok": true,
+        "score": 100,
+        "decision": "READY",
+        "criteria": [
+          {
+            "id": "talent-readiness-coverage",
+            "value": 100,
+            "weight": 16
+          },
+          {
+            "id": "talent-readiness-evidence",
+            "value": 100,
+            "weight": 15
+          },
+          {
+            "id": "talent-readiness-ownership",
+            "value": 100,
+            "weight": 14
+          },
+          {
+            "id": "talent-readiness-accuracy",
+            "value": 100,
+            "weight": 13
+          },
+          {
+            "id": "talent-readiness-recency",
+            "value": 100,
+            "weight": 12
+          },
+          {
+            "id": "talent-readiness-dependencies",
+            "value": 100,
+            "weight": 11
+          },
+          {
+            "id": "talent-readiness-risk-control",
+            "value": 100,
+            "weight": 10
+          },
+          {
+            "id": "talent-readiness-approval",
+            "value": 100,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "talent-readiness",
+      "id": "talent-readiness-strong",
+      "synthetic": true,
+      "values": {
+        "talent-readiness-coverage": 80,
+        "talent-readiness-evidence": 80,
+        "talent-readiness-ownership": 80,
+        "talent-readiness-accuracy": 80,
+        "talent-readiness-recency": 80,
+        "talent-readiness-dependencies": 80,
+        "talent-readiness-risk-control": 80,
+        "talent-readiness-approval": 80
+      },
+      "expected_score": 80,
+      "expected_decision": "READY",
+      "result": {
+        "ok": true,
+        "score": 80,
+        "decision": "READY",
+        "criteria": [
+          {
+            "id": "talent-readiness-coverage",
+            "value": 80,
+            "weight": 16
+          },
+          {
+            "id": "talent-readiness-evidence",
+            "value": 80,
+            "weight": 15
+          },
+          {
+            "id": "talent-readiness-ownership",
+            "value": 80,
+            "weight": 14
+          },
+          {
+            "id": "talent-readiness-accuracy",
+            "value": 80,
+            "weight": 13
+          },
+          {
+            "id": "talent-readiness-recency",
+            "value": 80,
+            "weight": 12
+          },
+          {
+            "id": "talent-readiness-dependencies",
+            "value": 80,
+            "weight": 11
+          },
+          {
+            "id": "talent-readiness-risk-control",
+            "value": 80,
+            "weight": 10
+          },
+          {
+            "id": "talent-readiness-approval",
+            "value": 80,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "talent-readiness",
+      "id": "talent-readiness-partial",
+      "synthetic": true,
+      "values": {
+        "talent-readiness-coverage": 60,
+        "talent-readiness-evidence": 60,
+        "talent-readiness-ownership": 60,
+        "talent-readiness-accuracy": 60,
+        "talent-readiness-recency": 60,
+        "talent-readiness-dependencies": 60,
+        "talent-readiness-risk-control": 60,
+        "talent-readiness-approval": 60
+      },
+      "expected_score": 60,
+      "expected_decision": "CONDITIONAL",
+      "result": {
+        "ok": true,
+        "score": 60,
+        "decision": "CONDITIONAL",
+        "criteria": [
+          {
+            "id": "talent-readiness-coverage",
+            "value": 60,
+            "weight": 16
+          },
+          {
+            "id": "talent-readiness-evidence",
+            "value": 60,
+            "weight": 15
+          },
+          {
+            "id": "talent-readiness-ownership",
+            "value": 60,
+            "weight": 14
+          },
+          {
+            "id": "talent-readiness-accuracy",
+            "value": 60,
+            "weight": 13
+          },
+          {
+            "id": "talent-readiness-recency",
+            "value": 60,
+            "weight": 12
+          },
+          {
+            "id": "talent-readiness-dependencies",
+            "value": 60,
+            "weight": 11
+          },
+          {
+            "id": "talent-readiness-risk-control",
+            "value": 60,
+            "weight": 10
+          },
+          {
+            "id": "talent-readiness-approval",
+            "value": 60,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "talent-readiness",
+      "id": "talent-readiness-blocked",
+      "synthetic": true,
+      "values": {
+        "talent-readiness-coverage": 30,
+        "talent-readiness-evidence": 30,
+        "talent-readiness-ownership": 30,
+        "talent-readiness-accuracy": 30,
+        "talent-readiness-recency": 30,
+        "talent-readiness-dependencies": 30,
+        "talent-readiness-risk-control": 30,
+        "talent-readiness-approval": 30
+      },
+      "expected_score": 30,
+      "expected_decision": "HOLD",
+      "result": {
+        "ok": true,
+        "score": 30,
+        "decision": "HOLD",
+        "criteria": [
+          {
+            "id": "talent-readiness-coverage",
+            "value": 30,
+            "weight": 16
+          },
+          {
+            "id": "talent-readiness-evidence",
+            "value": 30,
+            "weight": 15
+          },
+          {
+            "id": "talent-readiness-ownership",
+            "value": 30,
+            "weight": 14
+          },
+          {
+            "id": "talent-readiness-accuracy",
+            "value": 30,
+            "weight": 13
+          },
+          {
+            "id": "talent-readiness-recency",
+            "value": 30,
+            "weight": 12
+          },
+          {
+            "id": "talent-readiness-dependencies",
+            "value": 30,
+            "weight": 11
+          },
+          {
+            "id": "talent-readiness-risk-control",
+            "value": 30,
+            "weight": 10
+          },
+          {
+            "id": "talent-readiness-approval",
+            "value": 30,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "crew-readiness",
+      "id": "crew-readiness-complete",
+      "synthetic": true,
+      "values": {
+        "crew-readiness-coverage": 100,
+        "crew-readiness-evidence": 100,
+        "crew-readiness-ownership": 100,
+        "crew-readiness-accuracy": 100,
+        "crew-readiness-recency": 100,
+        "crew-readiness-dependencies": 100,
+        "crew-readiness-risk-control": 100,
+        "crew-readiness-approval": 100
+      },
+      "expected_score": 100,
+      "expected_decision": "READY",
+      "result": {
+        "ok": true,
+        "score": 100,
+        "decision": "READY",
+        "criteria": [
+          {
+            "id": "crew-readiness-coverage",
+            "value": 100,
+            "weight": 16
+          },
+          {
+            "id": "crew-readiness-evidence",
+            "value": 100,
+            "weight": 15
+          },
+          {
+            "id": "crew-readiness-ownership",
+            "value": 100,
+            "weight": 14
+          },
+          {
+            "id": "crew-readiness-accuracy",
+            "value": 100,
+            "weight": 13
+          },
+          {
+            "id": "crew-readiness-recency",
+            "value": 100,
+            "weight": 12
+          },
+          {
+            "id": "crew-readiness-dependencies",
+            "value": 100,
+            "weight": 11
+          },
+          {
+            "id": "crew-readiness-risk-control",
+            "value": 100,
+            "weight": 10
+          },
+          {
+            "id": "crew-readiness-approval",
+            "value": 100,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "crew-readiness",
+      "id": "crew-readiness-strong",
+      "synthetic": true,
+      "values": {
+        "crew-readiness-coverage": 80,
+        "crew-readiness-evidence": 80,
+        "crew-readiness-ownership": 80,
+        "crew-readiness-accuracy": 80,
+        "crew-readiness-recency": 80,
+        "crew-readiness-dependencies": 80,
+        "crew-readiness-risk-control": 80,
+        "crew-readiness-approval": 80
+      },
+      "expected_score": 80,
+      "expected_decision": "READY",
+      "result": {
+        "ok": true,
+        "score": 80,
+        "decision": "READY",
+        "criteria": [
+          {
+            "id": "crew-readiness-coverage",
+            "value": 80,
+            "weight": 16
+          },
+          {
+            "id": "crew-readiness-evidence",
+            "value": 80,
+            "weight": 15
+          },
+          {
+            "id": "crew-readiness-ownership",
+            "value": 80,
+            "weight": 14
+          },
+          {
+            "id": "crew-readiness-accuracy",
+            "value": 80,
+            "weight": 13
+          },
+          {
+            "id": "crew-readiness-recency",
+            "value": 80,
+            "weight": 12
+          },
+          {
+            "id": "crew-readiness-dependencies",
+            "value": 80,
+            "weight": 11
+          },
+          {
+            "id": "crew-readiness-risk-control",
+            "value": 80,
+            "weight": 10
+          },
+          {
+            "id": "crew-readiness-approval",
+            "value": 80,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "crew-readiness",
+      "id": "crew-readiness-partial",
+      "synthetic": true,
+      "values": {
+        "crew-readiness-coverage": 60,
+        "crew-readiness-evidence": 60,
+        "crew-readiness-ownership": 60,
+        "crew-readiness-accuracy": 60,
+        "crew-readiness-recency": 60,
+        "crew-readiness-dependencies": 60,
+        "crew-readiness-risk-control": 60,
+        "crew-readiness-approval": 60
+      },
+      "expected_score": 60,
+      "expected_decision": "CONDITIONAL",
+      "result": {
+        "ok": true,
+        "score": 60,
+        "decision": "CONDITIONAL",
+        "criteria": [
+          {
+            "id": "crew-readiness-coverage",
+            "value": 60,
+            "weight": 16
+          },
+          {
+            "id": "crew-readiness-evidence",
+            "value": 60,
+            "weight": 15
+          },
+          {
+            "id": "crew-readiness-ownership",
+            "value": 60,
+            "weight": 14
+          },
+          {
+            "id": "crew-readiness-accuracy",
+            "value": 60,
+            "weight": 13
+          },
+          {
+            "id": "crew-readiness-recency",
+            "value": 60,
+            "weight": 12
+          },
+          {
+            "id": "crew-readiness-dependencies",
+            "value": 60,
+            "weight": 11
+          },
+          {
+            "id": "crew-readiness-risk-control",
+            "value": 60,
+            "weight": 10
+          },
+          {
+            "id": "crew-readiness-approval",
+            "value": 60,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "crew-readiness",
+      "id": "crew-readiness-blocked",
+      "synthetic": true,
+      "values": {
+        "crew-readiness-coverage": 30,
+        "crew-readiness-evidence": 30,
+        "crew-readiness-ownership": 30,
+        "crew-readiness-accuracy": 30,
+        "crew-readiness-recency": 30,
+        "crew-readiness-dependencies": 30,
+        "crew-readiness-risk-control": 30,
+        "crew-readiness-approval": 30
+      },
+      "expected_score": 30,
+      "expected_decision": "HOLD",
+      "result": {
+        "ok": true,
+        "score": 30,
+        "decision": "HOLD",
+        "criteria": [
+          {
+            "id": "crew-readiness-coverage",
+            "value": 30,
+            "weight": 16
+          },
+          {
+            "id": "crew-readiness-evidence",
+            "value": 30,
+            "weight": 15
+          },
+          {
+            "id": "crew-readiness-ownership",
+            "value": 30,
+            "weight": 14
+          },
+          {
+            "id": "crew-readiness-accuracy",
+            "value": 30,
+            "weight": 13
+          },
+          {
+            "id": "crew-readiness-recency",
+            "value": 30,
+            "weight": 12
+          },
+          {
+            "id": "crew-readiness-dependencies",
+            "value": 30,
+            "weight": 11
+          },
+          {
+            "id": "crew-readiness-risk-control",
+            "value": 30,
+            "weight": 10
+          },
+          {
+            "id": "crew-readiness-approval",
+            "value": 30,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "safety-readiness",
+      "id": "safety-readiness-complete",
+      "synthetic": true,
+      "values": {
+        "safety-readiness-coverage": 100,
+        "safety-readiness-evidence": 100,
+        "safety-readiness-ownership": 100,
+        "safety-readiness-accuracy": 100,
+        "safety-readiness-recency": 100,
+        "safety-readiness-dependencies": 100,
+        "safety-readiness-risk-control": 100,
+        "safety-readiness-approval": 100
+      },
+      "expected_score": 100,
+      "expected_decision": "READY",
+      "result": {
+        "ok": true,
+        "score": 100,
+        "decision": "READY",
+        "criteria": [
+          {
+            "id": "safety-readiness-coverage",
+            "value": 100,
+            "weight": 16
+          },
+          {
+            "id": "safety-readiness-evidence",
+            "value": 100,
+            "weight": 15
+          },
+          {
+            "id": "safety-readiness-ownership",
+            "value": 100,
+            "weight": 14
+          },
+          {
+            "id": "safety-readiness-accuracy",
+            "value": 100,
+            "weight": 13
+          },
+          {
+            "id": "safety-readiness-recency",
+            "value": 100,
+            "weight": 12
+          },
+          {
+            "id": "safety-readiness-dependencies",
+            "value": 100,
+            "weight": 11
+          },
+          {
+            "id": "safety-readiness-risk-control",
+            "value": 100,
+            "weight": 10
+          },
+          {
+            "id": "safety-readiness-approval",
+            "value": 100,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "safety-readiness",
+      "id": "safety-readiness-strong",
+      "synthetic": true,
+      "values": {
+        "safety-readiness-coverage": 80,
+        "safety-readiness-evidence": 80,
+        "safety-readiness-ownership": 80,
+        "safety-readiness-accuracy": 80,
+        "safety-readiness-recency": 80,
+        "safety-readiness-dependencies": 80,
+        "safety-readiness-risk-control": 80,
+        "safety-readiness-approval": 80
+      },
+      "expected_score": 80,
+      "expected_decision": "READY",
+      "result": {
+        "ok": true,
+        "score": 80,
+        "decision": "READY",
+        "criteria": [
+          {
+            "id": "safety-readiness-coverage",
+            "value": 80,
+            "weight": 16
+          },
+          {
+            "id": "safety-readiness-evidence",
+            "value": 80,
+            "weight": 15
+          },
+          {
+            "id": "safety-readiness-ownership",
+            "value": 80,
+            "weight": 14
+          },
+          {
+            "id": "safety-readiness-accuracy",
+            "value": 80,
+            "weight": 13
+          },
+          {
+            "id": "safety-readiness-recency",
+            "value": 80,
+            "weight": 12
+          },
+          {
+            "id": "safety-readiness-dependencies",
+            "value": 80,
+            "weight": 11
+          },
+          {
+            "id": "safety-readiness-risk-control",
+            "value": 80,
+            "weight": 10
+          },
+          {
+            "id": "safety-readiness-approval",
+            "value": 80,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "safety-readiness",
+      "id": "safety-readiness-partial",
+      "synthetic": true,
+      "values": {
+        "safety-readiness-coverage": 60,
+        "safety-readiness-evidence": 60,
+        "safety-readiness-ownership": 60,
+        "safety-readiness-accuracy": 60,
+        "safety-readiness-recency": 60,
+        "safety-readiness-dependencies": 60,
+        "safety-readiness-risk-control": 60,
+        "safety-readiness-approval": 60
+      },
+      "expected_score": 60,
+      "expected_decision": "CONDITIONAL",
+      "result": {
+        "ok": true,
+        "score": 60,
+        "decision": "CONDITIONAL",
+        "criteria": [
+          {
+            "id": "safety-readiness-coverage",
+            "value": 60,
+            "weight": 16
+          },
+          {
+            "id": "safety-readiness-evidence",
+            "value": 60,
+            "weight": 15
+          },
+          {
+            "id": "safety-readiness-ownership",
+            "value": 60,
+            "weight": 14
+          },
+          {
+            "id": "safety-readiness-accuracy",
+            "value": 60,
+            "weight": 13
+          },
+          {
+            "id": "safety-readiness-recency",
+            "value": 60,
+            "weight": 12
+          },
+          {
+            "id": "safety-readiness-dependencies",
+            "value": 60,
+            "weight": 11
+          },
+          {
+            "id": "safety-readiness-risk-control",
+            "value": 60,
+            "weight": 10
+          },
+          {
+            "id": "safety-readiness-approval",
+            "value": 60,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "safety-readiness",
+      "id": "safety-readiness-blocked",
+      "synthetic": true,
+      "values": {
+        "safety-readiness-coverage": 30,
+        "safety-readiness-evidence": 30,
+        "safety-readiness-ownership": 30,
+        "safety-readiness-accuracy": 30,
+        "safety-readiness-recency": 30,
+        "safety-readiness-dependencies": 30,
+        "safety-readiness-risk-control": 30,
+        "safety-readiness-approval": 30
+      },
+      "expected_score": 30,
+      "expected_decision": "HOLD",
+      "result": {
+        "ok": true,
+        "score": 30,
+        "decision": "HOLD",
+        "criteria": [
+          {
+            "id": "safety-readiness-coverage",
+            "value": 30,
+            "weight": 16
+          },
+          {
+            "id": "safety-readiness-evidence",
+            "value": 30,
+            "weight": 15
+          },
+          {
+            "id": "safety-readiness-ownership",
+            "value": 30,
+            "weight": 14
+          },
+          {
+            "id": "safety-readiness-accuracy",
+            "value": 30,
+            "weight": 13
+          },
+          {
+            "id": "safety-readiness-recency",
+            "value": 30,
+            "weight": 12
+          },
+          {
+            "id": "safety-readiness-dependencies",
+            "value": 30,
+            "weight": 11
+          },
+          {
+            "id": "safety-readiness-risk-control",
+            "value": 30,
+            "weight": 10
+          },
+          {
+            "id": "safety-readiness-approval",
+            "value": 30,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "camera-readiness",
+      "id": "camera-readiness-complete",
+      "synthetic": true,
+      "values": {
+        "camera-readiness-coverage": 100,
+        "camera-readiness-evidence": 100,
+        "camera-readiness-ownership": 100,
+        "camera-readiness-accuracy": 100,
+        "camera-readiness-recency": 100,
+        "camera-readiness-dependencies": 100,
+        "camera-readiness-risk-control": 100,
+        "camera-readiness-approval": 100
+      },
+      "expected_score": 100,
+      "expected_decision": "READY",
+      "result": {
+        "ok": true,
+        "score": 100,
+        "decision": "READY",
+        "criteria": [
+          {
+            "id": "camera-readiness-coverage",
+            "value": 100,
+            "weight": 16
+          },
+          {
+            "id": "camera-readiness-evidence",
+            "value": 100,
+            "weight": 15
+          },
+          {
+            "id": "camera-readiness-ownership",
+            "value": 100,
+            "weight": 14
+          },
+          {
+            "id": "camera-readiness-accuracy",
+            "value": 100,
+            "weight": 13
+          },
+          {
+            "id": "camera-readiness-recency",
+            "value": 100,
+            "weight": 12
+          },
+          {
+            "id": "camera-readiness-dependencies",
+            "value": 100,
+            "weight": 11
+          },
+          {
+            "id": "camera-readiness-risk-control",
+            "value": 100,
+            "weight": 10
+          },
+          {
+            "id": "camera-readiness-approval",
+            "value": 100,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "camera-readiness",
+      "id": "camera-readiness-strong",
+      "synthetic": true,
+      "values": {
+        "camera-readiness-coverage": 80,
+        "camera-readiness-evidence": 80,
+        "camera-readiness-ownership": 80,
+        "camera-readiness-accuracy": 80,
+        "camera-readiness-recency": 80,
+        "camera-readiness-dependencies": 80,
+        "camera-readiness-risk-control": 80,
+        "camera-readiness-approval": 80
+      },
+      "expected_score": 80,
+      "expected_decision": "READY",
+      "result": {
+        "ok": true,
+        "score": 80,
+        "decision": "READY",
+        "criteria": [
+          {
+            "id": "camera-readiness-coverage",
+            "value": 80,
+            "weight": 16
+          },
+          {
+            "id": "camera-readiness-evidence",
+            "value": 80,
+            "weight": 15
+          },
+          {
+            "id": "camera-readiness-ownership",
+            "value": 80,
+            "weight": 14
+          },
+          {
+            "id": "camera-readiness-accuracy",
+            "value": 80,
+            "weight": 13
+          },
+          {
+            "id": "camera-readiness-recency",
+            "value": 80,
+            "weight": 12
+          },
+          {
+            "id": "camera-readiness-dependencies",
+            "value": 80,
+            "weight": 11
+          },
+          {
+            "id": "camera-readiness-risk-control",
+            "value": 80,
+            "weight": 10
+          },
+          {
+            "id": "camera-readiness-approval",
+            "value": 80,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "camera-readiness",
+      "id": "camera-readiness-partial",
+      "synthetic": true,
+      "values": {
+        "camera-readiness-coverage": 60,
+        "camera-readiness-evidence": 60,
+        "camera-readiness-ownership": 60,
+        "camera-readiness-accuracy": 60,
+        "camera-readiness-recency": 60,
+        "camera-readiness-dependencies": 60,
+        "camera-readiness-risk-control": 60,
+        "camera-readiness-approval": 60
+      },
+      "expected_score": 60,
+      "expected_decision": "CONDITIONAL",
+      "result": {
+        "ok": true,
+        "score": 60,
+        "decision": "CONDITIONAL",
+        "criteria": [
+          {
+            "id": "camera-readiness-coverage",
+            "value": 60,
+            "weight": 16
+          },
+          {
+            "id": "camera-readiness-evidence",
+            "value": 60,
+            "weight": 15
+          },
+          {
+            "id": "camera-readiness-ownership",
+            "value": 60,
+            "weight": 14
+          },
+          {
+            "id": "camera-readiness-accuracy",
+            "value": 60,
+            "weight": 13
+          },
+          {
+            "id": "camera-readiness-recency",
+            "value": 60,
+            "weight": 12
+          },
+          {
+            "id": "camera-readiness-dependencies",
+            "value": 60,
+            "weight": 11
+          },
+          {
+            "id": "camera-readiness-risk-control",
+            "value": 60,
+            "weight": 10
+          },
+          {
+            "id": "camera-readiness-approval",
+            "value": 60,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "camera-readiness",
+      "id": "camera-readiness-blocked",
+      "synthetic": true,
+      "values": {
+        "camera-readiness-coverage": 30,
+        "camera-readiness-evidence": 30,
+        "camera-readiness-ownership": 30,
+        "camera-readiness-accuracy": 30,
+        "camera-readiness-recency": 30,
+        "camera-readiness-dependencies": 30,
+        "camera-readiness-risk-control": 30,
+        "camera-readiness-approval": 30
+      },
+      "expected_score": 30,
+      "expected_decision": "HOLD",
+      "result": {
+        "ok": true,
+        "score": 30,
+        "decision": "HOLD",
+        "criteria": [
+          {
+            "id": "camera-readiness-coverage",
+            "value": 30,
+            "weight": 16
+          },
+          {
+            "id": "camera-readiness-evidence",
+            "value": 30,
+            "weight": 15
+          },
+          {
+            "id": "camera-readiness-ownership",
+            "value": 30,
+            "weight": 14
+          },
+          {
+            "id": "camera-readiness-accuracy",
+            "value": 30,
+            "weight": 13
+          },
+          {
+            "id": "camera-readiness-recency",
+            "value": 30,
+            "weight": 12
+          },
+          {
+            "id": "camera-readiness-dependencies",
+            "value": 30,
+            "weight": 11
+          },
+          {
+            "id": "camera-readiness-risk-control",
+            "value": 30,
+            "weight": 10
+          },
+          {
+            "id": "camera-readiness-approval",
+            "value": 30,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "sound-readiness",
+      "id": "sound-readiness-complete",
+      "synthetic": true,
+      "values": {
+        "sound-readiness-coverage": 100,
+        "sound-readiness-evidence": 100,
+        "sound-readiness-ownership": 100,
+        "sound-readiness-accuracy": 100,
+        "sound-readiness-recency": 100,
+        "sound-readiness-dependencies": 100,
+        "sound-readiness-risk-control": 100,
+        "sound-readiness-approval": 100
+      },
+      "expected_score": 100,
+      "expected_decision": "READY",
+      "result": {
+        "ok": true,
+        "score": 100,
+        "decision": "READY",
+        "criteria": [
+          {
+            "id": "sound-readiness-coverage",
+            "value": 100,
+            "weight": 16
+          },
+          {
+            "id": "sound-readiness-evidence",
+            "value": 100,
+            "weight": 15
+          },
+          {
+            "id": "sound-readiness-ownership",
+            "value": 100,
+            "weight": 14
+          },
+          {
+            "id": "sound-readiness-accuracy",
+            "value": 100,
+            "weight": 13
+          },
+          {
+            "id": "sound-readiness-recency",
+            "value": 100,
+            "weight": 12
+          },
+          {
+            "id": "sound-readiness-dependencies",
+            "value": 100,
+            "weight": 11
+          },
+          {
+            "id": "sound-readiness-risk-control",
+            "value": 100,
+            "weight": 10
+          },
+          {
+            "id": "sound-readiness-approval",
+            "value": 100,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "sound-readiness",
+      "id": "sound-readiness-strong",
+      "synthetic": true,
+      "values": {
+        "sound-readiness-coverage": 80,
+        "sound-readiness-evidence": 80,
+        "sound-readiness-ownership": 80,
+        "sound-readiness-accuracy": 80,
+        "sound-readiness-recency": 80,
+        "sound-readiness-dependencies": 80,
+        "sound-readiness-risk-control": 80,
+        "sound-readiness-approval": 80
+      },
+      "expected_score": 80,
+      "expected_decision": "READY",
+      "result": {
+        "ok": true,
+        "score": 80,
+        "decision": "READY",
+        "criteria": [
+          {
+            "id": "sound-readiness-coverage",
+            "value": 80,
+            "weight": 16
+          },
+          {
+            "id": "sound-readiness-evidence",
+            "value": 80,
+            "weight": 15
+          },
+          {
+            "id": "sound-readiness-ownership",
+            "value": 80,
+            "weight": 14
+          },
+          {
+            "id": "sound-readiness-accuracy",
+            "value": 80,
+            "weight": 13
+          },
+          {
+            "id": "sound-readiness-recency",
+            "value": 80,
+            "weight": 12
+          },
+          {
+            "id": "sound-readiness-dependencies",
+            "value": 80,
+            "weight": 11
+          },
+          {
+            "id": "sound-readiness-risk-control",
+            "value": 80,
+            "weight": 10
+          },
+          {
+            "id": "sound-readiness-approval",
+            "value": 80,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "sound-readiness",
+      "id": "sound-readiness-partial",
+      "synthetic": true,
+      "values": {
+        "sound-readiness-coverage": 60,
+        "sound-readiness-evidence": 60,
+        "sound-readiness-ownership": 60,
+        "sound-readiness-accuracy": 60,
+        "sound-readiness-recency": 60,
+        "sound-readiness-dependencies": 60,
+        "sound-readiness-risk-control": 60,
+        "sound-readiness-approval": 60
+      },
+      "expected_score": 60,
+      "expected_decision": "CONDITIONAL",
+      "result": {
+        "ok": true,
+        "score": 60,
+        "decision": "CONDITIONAL",
+        "criteria": [
+          {
+            "id": "sound-readiness-coverage",
+            "value": 60,
+            "weight": 16
+          },
+          {
+            "id": "sound-readiness-evidence",
+            "value": 60,
+            "weight": 15
+          },
+          {
+            "id": "sound-readiness-ownership",
+            "value": 60,
+            "weight": 14
+          },
+          {
+            "id": "sound-readiness-accuracy",
+            "value": 60,
+            "weight": 13
+          },
+          {
+            "id": "sound-readiness-recency",
+            "value": 60,
+            "weight": 12
+          },
+          {
+            "id": "sound-readiness-dependencies",
+            "value": 60,
+            "weight": 11
+          },
+          {
+            "id": "sound-readiness-risk-control",
+            "value": 60,
+            "weight": 10
+          },
+          {
+            "id": "sound-readiness-approval",
+            "value": 60,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "sound-readiness",
+      "id": "sound-readiness-blocked",
+      "synthetic": true,
+      "values": {
+        "sound-readiness-coverage": 30,
+        "sound-readiness-evidence": 30,
+        "sound-readiness-ownership": 30,
+        "sound-readiness-accuracy": 30,
+        "sound-readiness-recency": 30,
+        "sound-readiness-dependencies": 30,
+        "sound-readiness-risk-control": 30,
+        "sound-readiness-approval": 30
+      },
+      "expected_score": 30,
+      "expected_decision": "HOLD",
+      "result": {
+        "ok": true,
+        "score": 30,
+        "decision": "HOLD",
+        "criteria": [
+          {
+            "id": "sound-readiness-coverage",
+            "value": 30,
+            "weight": 16
+          },
+          {
+            "id": "sound-readiness-evidence",
+            "value": 30,
+            "weight": 15
+          },
+          {
+            "id": "sound-readiness-ownership",
+            "value": 30,
+            "weight": 14
+          },
+          {
+            "id": "sound-readiness-accuracy",
+            "value": 30,
+            "weight": 13
+          },
+          {
+            "id": "sound-readiness-recency",
+            "value": 30,
+            "weight": 12
+          },
+          {
+            "id": "sound-readiness-dependencies",
+            "value": 30,
+            "weight": 11
+          },
+          {
+            "id": "sound-readiness-risk-control",
+            "value": 30,
+            "weight": 10
+          },
+          {
+            "id": "sound-readiness-approval",
+            "value": 30,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "dit-readiness",
+      "id": "dit-readiness-complete",
+      "synthetic": true,
+      "values": {
+        "dit-readiness-coverage": 100,
+        "dit-readiness-evidence": 100,
+        "dit-readiness-ownership": 100,
+        "dit-readiness-accuracy": 100,
+        "dit-readiness-recency": 100,
+        "dit-readiness-dependencies": 100,
+        "dit-readiness-risk-control": 100,
+        "dit-readiness-approval": 100
+      },
+      "expected_score": 100,
+      "expected_decision": "READY",
+      "result": {
+        "ok": true,
+        "score": 100,
+        "decision": "READY",
+        "criteria": [
+          {
+            "id": "dit-readiness-coverage",
+            "value": 100,
+            "weight": 16
+          },
+          {
+            "id": "dit-readiness-evidence",
+            "value": 100,
+            "weight": 15
+          },
+          {
+            "id": "dit-readiness-ownership",
+            "value": 100,
+            "weight": 14
+          },
+          {
+            "id": "dit-readiness-accuracy",
+            "value": 100,
+            "weight": 13
+          },
+          {
+            "id": "dit-readiness-recency",
+            "value": 100,
+            "weight": 12
+          },
+          {
+            "id": "dit-readiness-dependencies",
+            "value": 100,
+            "weight": 11
+          },
+          {
+            "id": "dit-readiness-risk-control",
+            "value": 100,
+            "weight": 10
+          },
+          {
+            "id": "dit-readiness-approval",
+            "value": 100,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "dit-readiness",
+      "id": "dit-readiness-strong",
+      "synthetic": true,
+      "values": {
+        "dit-readiness-coverage": 80,
+        "dit-readiness-evidence": 80,
+        "dit-readiness-ownership": 80,
+        "dit-readiness-accuracy": 80,
+        "dit-readiness-recency": 80,
+        "dit-readiness-dependencies": 80,
+        "dit-readiness-risk-control": 80,
+        "dit-readiness-approval": 80
+      },
+      "expected_score": 80,
+      "expected_decision": "READY",
+      "result": {
+        "ok": true,
+        "score": 80,
+        "decision": "READY",
+        "criteria": [
+          {
+            "id": "dit-readiness-coverage",
+            "value": 80,
+            "weight": 16
+          },
+          {
+            "id": "dit-readiness-evidence",
+            "value": 80,
+            "weight": 15
+          },
+          {
+            "id": "dit-readiness-ownership",
+            "value": 80,
+            "weight": 14
+          },
+          {
+            "id": "dit-readiness-accuracy",
+            "value": 80,
+            "weight": 13
+          },
+          {
+            "id": "dit-readiness-recency",
+            "value": 80,
+            "weight": 12
+          },
+          {
+            "id": "dit-readiness-dependencies",
+            "value": 80,
+            "weight": 11
+          },
+          {
+            "id": "dit-readiness-risk-control",
+            "value": 80,
+            "weight": 10
+          },
+          {
+            "id": "dit-readiness-approval",
+            "value": 80,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "dit-readiness",
+      "id": "dit-readiness-partial",
+      "synthetic": true,
+      "values": {
+        "dit-readiness-coverage": 60,
+        "dit-readiness-evidence": 60,
+        "dit-readiness-ownership": 60,
+        "dit-readiness-accuracy": 60,
+        "dit-readiness-recency": 60,
+        "dit-readiness-dependencies": 60,
+        "dit-readiness-risk-control": 60,
+        "dit-readiness-approval": 60
+      },
+      "expected_score": 60,
+      "expected_decision": "CONDITIONAL",
+      "result": {
+        "ok": true,
+        "score": 60,
+        "decision": "CONDITIONAL",
+        "criteria": [
+          {
+            "id": "dit-readiness-coverage",
+            "value": 60,
+            "weight": 16
+          },
+          {
+            "id": "dit-readiness-evidence",
+            "value": 60,
+            "weight": 15
+          },
+          {
+            "id": "dit-readiness-ownership",
+            "value": 60,
+            "weight": 14
+          },
+          {
+            "id": "dit-readiness-accuracy",
+            "value": 60,
+            "weight": 13
+          },
+          {
+            "id": "dit-readiness-recency",
+            "value": 60,
+            "weight": 12
+          },
+          {
+            "id": "dit-readiness-dependencies",
+            "value": 60,
+            "weight": 11
+          },
+          {
+            "id": "dit-readiness-risk-control",
+            "value": 60,
+            "weight": 10
+          },
+          {
+            "id": "dit-readiness-approval",
+            "value": 60,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "dit-readiness",
+      "id": "dit-readiness-blocked",
+      "synthetic": true,
+      "values": {
+        "dit-readiness-coverage": 30,
+        "dit-readiness-evidence": 30,
+        "dit-readiness-ownership": 30,
+        "dit-readiness-accuracy": 30,
+        "dit-readiness-recency": 30,
+        "dit-readiness-dependencies": 30,
+        "dit-readiness-risk-control": 30,
+        "dit-readiness-approval": 30
+      },
+      "expected_score": 30,
+      "expected_decision": "HOLD",
+      "result": {
+        "ok": true,
+        "score": 30,
+        "decision": "HOLD",
+        "criteria": [
+          {
+            "id": "dit-readiness-coverage",
+            "value": 30,
+            "weight": 16
+          },
+          {
+            "id": "dit-readiness-evidence",
+            "value": 30,
+            "weight": 15
+          },
+          {
+            "id": "dit-readiness-ownership",
+            "value": 30,
+            "weight": 14
+          },
+          {
+            "id": "dit-readiness-accuracy",
+            "value": 30,
+            "weight": 13
+          },
+          {
+            "id": "dit-readiness-recency",
+            "value": 30,
+            "weight": 12
+          },
+          {
+            "id": "dit-readiness-dependencies",
+            "value": 30,
+            "weight": 11
+          },
+          {
+            "id": "dit-readiness-risk-control",
+            "value": 30,
+            "weight": 10
+          },
+          {
+            "id": "dit-readiness-approval",
+            "value": 30,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "editorial-readiness",
+      "id": "editorial-readiness-complete",
+      "synthetic": true,
+      "values": {
+        "editorial-readiness-coverage": 100,
+        "editorial-readiness-evidence": 100,
+        "editorial-readiness-ownership": 100,
+        "editorial-readiness-accuracy": 100,
+        "editorial-readiness-recency": 100,
+        "editorial-readiness-dependencies": 100,
+        "editorial-readiness-risk-control": 100,
+        "editorial-readiness-approval": 100
+      },
+      "expected_score": 100,
+      "expected_decision": "READY",
+      "result": {
+        "ok": true,
+        "score": 100,
+        "decision": "READY",
+        "criteria": [
+          {
+            "id": "editorial-readiness-coverage",
+            "value": 100,
+            "weight": 16
+          },
+          {
+            "id": "editorial-readiness-evidence",
+            "value": 100,
+            "weight": 15
+          },
+          {
+            "id": "editorial-readiness-ownership",
+            "value": 100,
+            "weight": 14
+          },
+          {
+            "id": "editorial-readiness-accuracy",
+            "value": 100,
+            "weight": 13
+          },
+          {
+            "id": "editorial-readiness-recency",
+            "value": 100,
+            "weight": 12
+          },
+          {
+            "id": "editorial-readiness-dependencies",
+            "value": 100,
+            "weight": 11
+          },
+          {
+            "id": "editorial-readiness-risk-control",
+            "value": 100,
+            "weight": 10
+          },
+          {
+            "id": "editorial-readiness-approval",
+            "value": 100,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "editorial-readiness",
+      "id": "editorial-readiness-strong",
+      "synthetic": true,
+      "values": {
+        "editorial-readiness-coverage": 80,
+        "editorial-readiness-evidence": 80,
+        "editorial-readiness-ownership": 80,
+        "editorial-readiness-accuracy": 80,
+        "editorial-readiness-recency": 80,
+        "editorial-readiness-dependencies": 80,
+        "editorial-readiness-risk-control": 80,
+        "editorial-readiness-approval": 80
+      },
+      "expected_score": 80,
+      "expected_decision": "READY",
+      "result": {
+        "ok": true,
+        "score": 80,
+        "decision": "READY",
+        "criteria": [
+          {
+            "id": "editorial-readiness-coverage",
+            "value": 80,
+            "weight": 16
+          },
+          {
+            "id": "editorial-readiness-evidence",
+            "value": 80,
+            "weight": 15
+          },
+          {
+            "id": "editorial-readiness-ownership",
+            "value": 80,
+            "weight": 14
+          },
+          {
+            "id": "editorial-readiness-accuracy",
+            "value": 80,
+            "weight": 13
+          },
+          {
+            "id": "editorial-readiness-recency",
+            "value": 80,
+            "weight": 12
+          },
+          {
+            "id": "editorial-readiness-dependencies",
+            "value": 80,
+            "weight": 11
+          },
+          {
+            "id": "editorial-readiness-risk-control",
+            "value": 80,
+            "weight": 10
+          },
+          {
+            "id": "editorial-readiness-approval",
+            "value": 80,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "editorial-readiness",
+      "id": "editorial-readiness-partial",
+      "synthetic": true,
+      "values": {
+        "editorial-readiness-coverage": 60,
+        "editorial-readiness-evidence": 60,
+        "editorial-readiness-ownership": 60,
+        "editorial-readiness-accuracy": 60,
+        "editorial-readiness-recency": 60,
+        "editorial-readiness-dependencies": 60,
+        "editorial-readiness-risk-control": 60,
+        "editorial-readiness-approval": 60
+      },
+      "expected_score": 60,
+      "expected_decision": "CONDITIONAL",
+      "result": {
+        "ok": true,
+        "score": 60,
+        "decision": "CONDITIONAL",
+        "criteria": [
+          {
+            "id": "editorial-readiness-coverage",
+            "value": 60,
+            "weight": 16
+          },
+          {
+            "id": "editorial-readiness-evidence",
+            "value": 60,
+            "weight": 15
+          },
+          {
+            "id": "editorial-readiness-ownership",
+            "value": 60,
+            "weight": 14
+          },
+          {
+            "id": "editorial-readiness-accuracy",
+            "value": 60,
+            "weight": 13
+          },
+          {
+            "id": "editorial-readiness-recency",
+            "value": 60,
+            "weight": 12
+          },
+          {
+            "id": "editorial-readiness-dependencies",
+            "value": 60,
+            "weight": 11
+          },
+          {
+            "id": "editorial-readiness-risk-control",
+            "value": 60,
+            "weight": 10
+          },
+          {
+            "id": "editorial-readiness-approval",
+            "value": 60,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "editorial-readiness",
+      "id": "editorial-readiness-blocked",
+      "synthetic": true,
+      "values": {
+        "editorial-readiness-coverage": 30,
+        "editorial-readiness-evidence": 30,
+        "editorial-readiness-ownership": 30,
+        "editorial-readiness-accuracy": 30,
+        "editorial-readiness-recency": 30,
+        "editorial-readiness-dependencies": 30,
+        "editorial-readiness-risk-control": 30,
+        "editorial-readiness-approval": 30
+      },
+      "expected_score": 30,
+      "expected_decision": "HOLD",
+      "result": {
+        "ok": true,
+        "score": 30,
+        "decision": "HOLD",
+        "criteria": [
+          {
+            "id": "editorial-readiness-coverage",
+            "value": 30,
+            "weight": 16
+          },
+          {
+            "id": "editorial-readiness-evidence",
+            "value": 30,
+            "weight": 15
+          },
+          {
+            "id": "editorial-readiness-ownership",
+            "value": 30,
+            "weight": 14
+          },
+          {
+            "id": "editorial-readiness-accuracy",
+            "value": 30,
+            "weight": 13
+          },
+          {
+            "id": "editorial-readiness-recency",
+            "value": 30,
+            "weight": 12
+          },
+          {
+            "id": "editorial-readiness-dependencies",
+            "value": 30,
+            "weight": 11
+          },
+          {
+            "id": "editorial-readiness-risk-control",
+            "value": 30,
+            "weight": 10
+          },
+          {
+            "id": "editorial-readiness-approval",
+            "value": 30,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "vfx-readiness",
+      "id": "vfx-readiness-complete",
+      "synthetic": true,
+      "values": {
+        "vfx-readiness-coverage": 100,
+        "vfx-readiness-evidence": 100,
+        "vfx-readiness-ownership": 100,
+        "vfx-readiness-accuracy": 100,
+        "vfx-readiness-recency": 100,
+        "vfx-readiness-dependencies": 100,
+        "vfx-readiness-risk-control": 100,
+        "vfx-readiness-approval": 100
+      },
+      "expected_score": 100,
+      "expected_decision": "READY",
+      "result": {
+        "ok": true,
+        "score": 100,
+        "decision": "READY",
+        "criteria": [
+          {
+            "id": "vfx-readiness-coverage",
+            "value": 100,
+            "weight": 16
+          },
+          {
+            "id": "vfx-readiness-evidence",
+            "value": 100,
+            "weight": 15
+          },
+          {
+            "id": "vfx-readiness-ownership",
+            "value": 100,
+            "weight": 14
+          },
+          {
+            "id": "vfx-readiness-accuracy",
+            "value": 100,
+            "weight": 13
+          },
+          {
+            "id": "vfx-readiness-recency",
+            "value": 100,
+            "weight": 12
+          },
+          {
+            "id": "vfx-readiness-dependencies",
+            "value": 100,
+            "weight": 11
+          },
+          {
+            "id": "vfx-readiness-risk-control",
+            "value": 100,
+            "weight": 10
+          },
+          {
+            "id": "vfx-readiness-approval",
+            "value": 100,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "vfx-readiness",
+      "id": "vfx-readiness-strong",
+      "synthetic": true,
+      "values": {
+        "vfx-readiness-coverage": 80,
+        "vfx-readiness-evidence": 80,
+        "vfx-readiness-ownership": 80,
+        "vfx-readiness-accuracy": 80,
+        "vfx-readiness-recency": 80,
+        "vfx-readiness-dependencies": 80,
+        "vfx-readiness-risk-control": 80,
+        "vfx-readiness-approval": 80
+      },
+      "expected_score": 80,
+      "expected_decision": "READY",
+      "result": {
+        "ok": true,
+        "score": 80,
+        "decision": "READY",
+        "criteria": [
+          {
+            "id": "vfx-readiness-coverage",
+            "value": 80,
+            "weight": 16
+          },
+          {
+            "id": "vfx-readiness-evidence",
+            "value": 80,
+            "weight": 15
+          },
+          {
+            "id": "vfx-readiness-ownership",
+            "value": 80,
+            "weight": 14
+          },
+          {
+            "id": "vfx-readiness-accuracy",
+            "value": 80,
+            "weight": 13
+          },
+          {
+            "id": "vfx-readiness-recency",
+            "value": 80,
+            "weight": 12
+          },
+          {
+            "id": "vfx-readiness-dependencies",
+            "value": 80,
+            "weight": 11
+          },
+          {
+            "id": "vfx-readiness-risk-control",
+            "value": 80,
+            "weight": 10
+          },
+          {
+            "id": "vfx-readiness-approval",
+            "value": 80,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "vfx-readiness",
+      "id": "vfx-readiness-partial",
+      "synthetic": true,
+      "values": {
+        "vfx-readiness-coverage": 60,
+        "vfx-readiness-evidence": 60,
+        "vfx-readiness-ownership": 60,
+        "vfx-readiness-accuracy": 60,
+        "vfx-readiness-recency": 60,
+        "vfx-readiness-dependencies": 60,
+        "vfx-readiness-risk-control": 60,
+        "vfx-readiness-approval": 60
+      },
+      "expected_score": 60,
+      "expected_decision": "CONDITIONAL",
+      "result": {
+        "ok": true,
+        "score": 60,
+        "decision": "CONDITIONAL",
+        "criteria": [
+          {
+            "id": "vfx-readiness-coverage",
+            "value": 60,
+            "weight": 16
+          },
+          {
+            "id": "vfx-readiness-evidence",
+            "value": 60,
+            "weight": 15
+          },
+          {
+            "id": "vfx-readiness-ownership",
+            "value": 60,
+            "weight": 14
+          },
+          {
+            "id": "vfx-readiness-accuracy",
+            "value": 60,
+            "weight": 13
+          },
+          {
+            "id": "vfx-readiness-recency",
+            "value": 60,
+            "weight": 12
+          },
+          {
+            "id": "vfx-readiness-dependencies",
+            "value": 60,
+            "weight": 11
+          },
+          {
+            "id": "vfx-readiness-risk-control",
+            "value": 60,
+            "weight": 10
+          },
+          {
+            "id": "vfx-readiness-approval",
+            "value": 60,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "vfx-readiness",
+      "id": "vfx-readiness-blocked",
+      "synthetic": true,
+      "values": {
+        "vfx-readiness-coverage": 30,
+        "vfx-readiness-evidence": 30,
+        "vfx-readiness-ownership": 30,
+        "vfx-readiness-accuracy": 30,
+        "vfx-readiness-recency": 30,
+        "vfx-readiness-dependencies": 30,
+        "vfx-readiness-risk-control": 30,
+        "vfx-readiness-approval": 30
+      },
+      "expected_score": 30,
+      "expected_decision": "HOLD",
+      "result": {
+        "ok": true,
+        "score": 30,
+        "decision": "HOLD",
+        "criteria": [
+          {
+            "id": "vfx-readiness-coverage",
+            "value": 30,
+            "weight": 16
+          },
+          {
+            "id": "vfx-readiness-evidence",
+            "value": 30,
+            "weight": 15
+          },
+          {
+            "id": "vfx-readiness-ownership",
+            "value": 30,
+            "weight": 14
+          },
+          {
+            "id": "vfx-readiness-accuracy",
+            "value": 30,
+            "weight": 13
+          },
+          {
+            "id": "vfx-readiness-recency",
+            "value": 30,
+            "weight": 12
+          },
+          {
+            "id": "vfx-readiness-dependencies",
+            "value": 30,
+            "weight": 11
+          },
+          {
+            "id": "vfx-readiness-risk-control",
+            "value": 30,
+            "weight": 10
+          },
+          {
+            "id": "vfx-readiness-approval",
+            "value": 30,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "color-readiness",
+      "id": "color-readiness-complete",
+      "synthetic": true,
+      "values": {
+        "color-readiness-coverage": 100,
+        "color-readiness-evidence": 100,
+        "color-readiness-ownership": 100,
+        "color-readiness-accuracy": 100,
+        "color-readiness-recency": 100,
+        "color-readiness-dependencies": 100,
+        "color-readiness-risk-control": 100,
+        "color-readiness-approval": 100
+      },
+      "expected_score": 100,
+      "expected_decision": "READY",
+      "result": {
+        "ok": true,
+        "score": 100,
+        "decision": "READY",
+        "criteria": [
+          {
+            "id": "color-readiness-coverage",
+            "value": 100,
+            "weight": 16
+          },
+          {
+            "id": "color-readiness-evidence",
+            "value": 100,
+            "weight": 15
+          },
+          {
+            "id": "color-readiness-ownership",
+            "value": 100,
+            "weight": 14
+          },
+          {
+            "id": "color-readiness-accuracy",
+            "value": 100,
+            "weight": 13
+          },
+          {
+            "id": "color-readiness-recency",
+            "value": 100,
+            "weight": 12
+          },
+          {
+            "id": "color-readiness-dependencies",
+            "value": 100,
+            "weight": 11
+          },
+          {
+            "id": "color-readiness-risk-control",
+            "value": 100,
+            "weight": 10
+          },
+          {
+            "id": "color-readiness-approval",
+            "value": 100,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "color-readiness",
+      "id": "color-readiness-strong",
+      "synthetic": true,
+      "values": {
+        "color-readiness-coverage": 80,
+        "color-readiness-evidence": 80,
+        "color-readiness-ownership": 80,
+        "color-readiness-accuracy": 80,
+        "color-readiness-recency": 80,
+        "color-readiness-dependencies": 80,
+        "color-readiness-risk-control": 80,
+        "color-readiness-approval": 80
+      },
+      "expected_score": 80,
+      "expected_decision": "READY",
+      "result": {
+        "ok": true,
+        "score": 80,
+        "decision": "READY",
+        "criteria": [
+          {
+            "id": "color-readiness-coverage",
+            "value": 80,
+            "weight": 16
+          },
+          {
+            "id": "color-readiness-evidence",
+            "value": 80,
+            "weight": 15
+          },
+          {
+            "id": "color-readiness-ownership",
+            "value": 80,
+            "weight": 14
+          },
+          {
+            "id": "color-readiness-accuracy",
+            "value": 80,
+            "weight": 13
+          },
+          {
+            "id": "color-readiness-recency",
+            "value": 80,
+            "weight": 12
+          },
+          {
+            "id": "color-readiness-dependencies",
+            "value": 80,
+            "weight": 11
+          },
+          {
+            "id": "color-readiness-risk-control",
+            "value": 80,
+            "weight": 10
+          },
+          {
+            "id": "color-readiness-approval",
+            "value": 80,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "color-readiness",
+      "id": "color-readiness-partial",
+      "synthetic": true,
+      "values": {
+        "color-readiness-coverage": 60,
+        "color-readiness-evidence": 60,
+        "color-readiness-ownership": 60,
+        "color-readiness-accuracy": 60,
+        "color-readiness-recency": 60,
+        "color-readiness-dependencies": 60,
+        "color-readiness-risk-control": 60,
+        "color-readiness-approval": 60
+      },
+      "expected_score": 60,
+      "expected_decision": "CONDITIONAL",
+      "result": {
+        "ok": true,
+        "score": 60,
+        "decision": "CONDITIONAL",
+        "criteria": [
+          {
+            "id": "color-readiness-coverage",
+            "value": 60,
+            "weight": 16
+          },
+          {
+            "id": "color-readiness-evidence",
+            "value": 60,
+            "weight": 15
+          },
+          {
+            "id": "color-readiness-ownership",
+            "value": 60,
+            "weight": 14
+          },
+          {
+            "id": "color-readiness-accuracy",
+            "value": 60,
+            "weight": 13
+          },
+          {
+            "id": "color-readiness-recency",
+            "value": 60,
+            "weight": 12
+          },
+          {
+            "id": "color-readiness-dependencies",
+            "value": 60,
+            "weight": 11
+          },
+          {
+            "id": "color-readiness-risk-control",
+            "value": 60,
+            "weight": 10
+          },
+          {
+            "id": "color-readiness-approval",
+            "value": 60,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "color-readiness",
+      "id": "color-readiness-blocked",
+      "synthetic": true,
+      "values": {
+        "color-readiness-coverage": 30,
+        "color-readiness-evidence": 30,
+        "color-readiness-ownership": 30,
+        "color-readiness-accuracy": 30,
+        "color-readiness-recency": 30,
+        "color-readiness-dependencies": 30,
+        "color-readiness-risk-control": 30,
+        "color-readiness-approval": 30
+      },
+      "expected_score": 30,
+      "expected_decision": "HOLD",
+      "result": {
+        "ok": true,
+        "score": 30,
+        "decision": "HOLD",
+        "criteria": [
+          {
+            "id": "color-readiness-coverage",
+            "value": 30,
+            "weight": 16
+          },
+          {
+            "id": "color-readiness-evidence",
+            "value": 30,
+            "weight": 15
+          },
+          {
+            "id": "color-readiness-ownership",
+            "value": 30,
+            "weight": 14
+          },
+          {
+            "id": "color-readiness-accuracy",
+            "value": 30,
+            "weight": 13
+          },
+          {
+            "id": "color-readiness-recency",
+            "value": 30,
+            "weight": 12
+          },
+          {
+            "id": "color-readiness-dependencies",
+            "value": 30,
+            "weight": 11
+          },
+          {
+            "id": "color-readiness-risk-control",
+            "value": 30,
+            "weight": 10
+          },
+          {
+            "id": "color-readiness-approval",
+            "value": 30,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "mix-readiness",
+      "id": "mix-readiness-complete",
+      "synthetic": true,
+      "values": {
+        "mix-readiness-coverage": 100,
+        "mix-readiness-evidence": 100,
+        "mix-readiness-ownership": 100,
+        "mix-readiness-accuracy": 100,
+        "mix-readiness-recency": 100,
+        "mix-readiness-dependencies": 100,
+        "mix-readiness-risk-control": 100,
+        "mix-readiness-approval": 100
+      },
+      "expected_score": 100,
+      "expected_decision": "READY",
+      "result": {
+        "ok": true,
+        "score": 100,
+        "decision": "READY",
+        "criteria": [
+          {
+            "id": "mix-readiness-coverage",
+            "value": 100,
+            "weight": 16
+          },
+          {
+            "id": "mix-readiness-evidence",
+            "value": 100,
+            "weight": 15
+          },
+          {
+            "id": "mix-readiness-ownership",
+            "value": 100,
+            "weight": 14
+          },
+          {
+            "id": "mix-readiness-accuracy",
+            "value": 100,
+            "weight": 13
+          },
+          {
+            "id": "mix-readiness-recency",
+            "value": 100,
+            "weight": 12
+          },
+          {
+            "id": "mix-readiness-dependencies",
+            "value": 100,
+            "weight": 11
+          },
+          {
+            "id": "mix-readiness-risk-control",
+            "value": 100,
+            "weight": 10
+          },
+          {
+            "id": "mix-readiness-approval",
+            "value": 100,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "mix-readiness",
+      "id": "mix-readiness-strong",
+      "synthetic": true,
+      "values": {
+        "mix-readiness-coverage": 80,
+        "mix-readiness-evidence": 80,
+        "mix-readiness-ownership": 80,
+        "mix-readiness-accuracy": 80,
+        "mix-readiness-recency": 80,
+        "mix-readiness-dependencies": 80,
+        "mix-readiness-risk-control": 80,
+        "mix-readiness-approval": 80
+      },
+      "expected_score": 80,
+      "expected_decision": "READY",
+      "result": {
+        "ok": true,
+        "score": 80,
+        "decision": "READY",
+        "criteria": [
+          {
+            "id": "mix-readiness-coverage",
+            "value": 80,
+            "weight": 16
+          },
+          {
+            "id": "mix-readiness-evidence",
+            "value": 80,
+            "weight": 15
+          },
+          {
+            "id": "mix-readiness-ownership",
+            "value": 80,
+            "weight": 14
+          },
+          {
+            "id": "mix-readiness-accuracy",
+            "value": 80,
+            "weight": 13
+          },
+          {
+            "id": "mix-readiness-recency",
+            "value": 80,
+            "weight": 12
+          },
+          {
+            "id": "mix-readiness-dependencies",
+            "value": 80,
+            "weight": 11
+          },
+          {
+            "id": "mix-readiness-risk-control",
+            "value": 80,
+            "weight": 10
+          },
+          {
+            "id": "mix-readiness-approval",
+            "value": 80,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "mix-readiness",
+      "id": "mix-readiness-partial",
+      "synthetic": true,
+      "values": {
+        "mix-readiness-coverage": 60,
+        "mix-readiness-evidence": 60,
+        "mix-readiness-ownership": 60,
+        "mix-readiness-accuracy": 60,
+        "mix-readiness-recency": 60,
+        "mix-readiness-dependencies": 60,
+        "mix-readiness-risk-control": 60,
+        "mix-readiness-approval": 60
+      },
+      "expected_score": 60,
+      "expected_decision": "CONDITIONAL",
+      "result": {
+        "ok": true,
+        "score": 60,
+        "decision": "CONDITIONAL",
+        "criteria": [
+          {
+            "id": "mix-readiness-coverage",
+            "value": 60,
+            "weight": 16
+          },
+          {
+            "id": "mix-readiness-evidence",
+            "value": 60,
+            "weight": 15
+          },
+          {
+            "id": "mix-readiness-ownership",
+            "value": 60,
+            "weight": 14
+          },
+          {
+            "id": "mix-readiness-accuracy",
+            "value": 60,
+            "weight": 13
+          },
+          {
+            "id": "mix-readiness-recency",
+            "value": 60,
+            "weight": 12
+          },
+          {
+            "id": "mix-readiness-dependencies",
+            "value": 60,
+            "weight": 11
+          },
+          {
+            "id": "mix-readiness-risk-control",
+            "value": 60,
+            "weight": 10
+          },
+          {
+            "id": "mix-readiness-approval",
+            "value": 60,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "mix-readiness",
+      "id": "mix-readiness-blocked",
+      "synthetic": true,
+      "values": {
+        "mix-readiness-coverage": 30,
+        "mix-readiness-evidence": 30,
+        "mix-readiness-ownership": 30,
+        "mix-readiness-accuracy": 30,
+        "mix-readiness-recency": 30,
+        "mix-readiness-dependencies": 30,
+        "mix-readiness-risk-control": 30,
+        "mix-readiness-approval": 30
+      },
+      "expected_score": 30,
+      "expected_decision": "HOLD",
+      "result": {
+        "ok": true,
+        "score": 30,
+        "decision": "HOLD",
+        "criteria": [
+          {
+            "id": "mix-readiness-coverage",
+            "value": 30,
+            "weight": 16
+          },
+          {
+            "id": "mix-readiness-evidence",
+            "value": 30,
+            "weight": 15
+          },
+          {
+            "id": "mix-readiness-ownership",
+            "value": 30,
+            "weight": 14
+          },
+          {
+            "id": "mix-readiness-accuracy",
+            "value": 30,
+            "weight": 13
+          },
+          {
+            "id": "mix-readiness-recency",
+            "value": 30,
+            "weight": 12
+          },
+          {
+            "id": "mix-readiness-dependencies",
+            "value": 30,
+            "weight": 11
+          },
+          {
+            "id": "mix-readiness-risk-control",
+            "value": 30,
+            "weight": 10
+          },
+          {
+            "id": "mix-readiness-approval",
+            "value": 30,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "caption-readiness",
+      "id": "caption-readiness-complete",
+      "synthetic": true,
+      "values": {
+        "caption-readiness-coverage": 100,
+        "caption-readiness-evidence": 100,
+        "caption-readiness-ownership": 100,
+        "caption-readiness-accuracy": 100,
+        "caption-readiness-recency": 100,
+        "caption-readiness-dependencies": 100,
+        "caption-readiness-risk-control": 100,
+        "caption-readiness-approval": 100
+      },
+      "expected_score": 100,
+      "expected_decision": "READY",
+      "result": {
+        "ok": true,
+        "score": 100,
+        "decision": "READY",
+        "criteria": [
+          {
+            "id": "caption-readiness-coverage",
+            "value": 100,
+            "weight": 16
+          },
+          {
+            "id": "caption-readiness-evidence",
+            "value": 100,
+            "weight": 15
+          },
+          {
+            "id": "caption-readiness-ownership",
+            "value": 100,
+            "weight": 14
+          },
+          {
+            "id": "caption-readiness-accuracy",
+            "value": 100,
+            "weight": 13
+          },
+          {
+            "id": "caption-readiness-recency",
+            "value": 100,
+            "weight": 12
+          },
+          {
+            "id": "caption-readiness-dependencies",
+            "value": 100,
+            "weight": 11
+          },
+          {
+            "id": "caption-readiness-risk-control",
+            "value": 100,
+            "weight": 10
+          },
+          {
+            "id": "caption-readiness-approval",
+            "value": 100,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "caption-readiness",
+      "id": "caption-readiness-strong",
+      "synthetic": true,
+      "values": {
+        "caption-readiness-coverage": 80,
+        "caption-readiness-evidence": 80,
+        "caption-readiness-ownership": 80,
+        "caption-readiness-accuracy": 80,
+        "caption-readiness-recency": 80,
+        "caption-readiness-dependencies": 80,
+        "caption-readiness-risk-control": 80,
+        "caption-readiness-approval": 80
+      },
+      "expected_score": 80,
+      "expected_decision": "READY",
+      "result": {
+        "ok": true,
+        "score": 80,
+        "decision": "READY",
+        "criteria": [
+          {
+            "id": "caption-readiness-coverage",
+            "value": 80,
+            "weight": 16
+          },
+          {
+            "id": "caption-readiness-evidence",
+            "value": 80,
+            "weight": 15
+          },
+          {
+            "id": "caption-readiness-ownership",
+            "value": 80,
+            "weight": 14
+          },
+          {
+            "id": "caption-readiness-accuracy",
+            "value": 80,
+            "weight": 13
+          },
+          {
+            "id": "caption-readiness-recency",
+            "value": 80,
+            "weight": 12
+          },
+          {
+            "id": "caption-readiness-dependencies",
+            "value": 80,
+            "weight": 11
+          },
+          {
+            "id": "caption-readiness-risk-control",
+            "value": 80,
+            "weight": 10
+          },
+          {
+            "id": "caption-readiness-approval",
+            "value": 80,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "caption-readiness",
+      "id": "caption-readiness-partial",
+      "synthetic": true,
+      "values": {
+        "caption-readiness-coverage": 60,
+        "caption-readiness-evidence": 60,
+        "caption-readiness-ownership": 60,
+        "caption-readiness-accuracy": 60,
+        "caption-readiness-recency": 60,
+        "caption-readiness-dependencies": 60,
+        "caption-readiness-risk-control": 60,
+        "caption-readiness-approval": 60
+      },
+      "expected_score": 60,
+      "expected_decision": "CONDITIONAL",
+      "result": {
+        "ok": true,
+        "score": 60,
+        "decision": "CONDITIONAL",
+        "criteria": [
+          {
+            "id": "caption-readiness-coverage",
+            "value": 60,
+            "weight": 16
+          },
+          {
+            "id": "caption-readiness-evidence",
+            "value": 60,
+            "weight": 15
+          },
+          {
+            "id": "caption-readiness-ownership",
+            "value": 60,
+            "weight": 14
+          },
+          {
+            "id": "caption-readiness-accuracy",
+            "value": 60,
+            "weight": 13
+          },
+          {
+            "id": "caption-readiness-recency",
+            "value": 60,
+            "weight": 12
+          },
+          {
+            "id": "caption-readiness-dependencies",
+            "value": 60,
+            "weight": 11
+          },
+          {
+            "id": "caption-readiness-risk-control",
+            "value": 60,
+            "weight": 10
+          },
+          {
+            "id": "caption-readiness-approval",
+            "value": 60,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "caption-readiness",
+      "id": "caption-readiness-blocked",
+      "synthetic": true,
+      "values": {
+        "caption-readiness-coverage": 30,
+        "caption-readiness-evidence": 30,
+        "caption-readiness-ownership": 30,
+        "caption-readiness-accuracy": 30,
+        "caption-readiness-recency": 30,
+        "caption-readiness-dependencies": 30,
+        "caption-readiness-risk-control": 30,
+        "caption-readiness-approval": 30
+      },
+      "expected_score": 30,
+      "expected_decision": "HOLD",
+      "result": {
+        "ok": true,
+        "score": 30,
+        "decision": "HOLD",
+        "criteria": [
+          {
+            "id": "caption-readiness-coverage",
+            "value": 30,
+            "weight": 16
+          },
+          {
+            "id": "caption-readiness-evidence",
+            "value": 30,
+            "weight": 15
+          },
+          {
+            "id": "caption-readiness-ownership",
+            "value": 30,
+            "weight": 14
+          },
+          {
+            "id": "caption-readiness-accuracy",
+            "value": 30,
+            "weight": 13
+          },
+          {
+            "id": "caption-readiness-recency",
+            "value": 30,
+            "weight": 12
+          },
+          {
+            "id": "caption-readiness-dependencies",
+            "value": 30,
+            "weight": 11
+          },
+          {
+            "id": "caption-readiness-risk-control",
+            "value": 30,
+            "weight": 10
+          },
+          {
+            "id": "caption-readiness-approval",
+            "value": 30,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "accessibility-readiness",
+      "id": "accessibility-readiness-complete",
+      "synthetic": true,
+      "values": {
+        "accessibility-readiness-coverage": 100,
+        "accessibility-readiness-evidence": 100,
+        "accessibility-readiness-ownership": 100,
+        "accessibility-readiness-accuracy": 100,
+        "accessibility-readiness-recency": 100,
+        "accessibility-readiness-dependencies": 100,
+        "accessibility-readiness-risk-control": 100,
+        "accessibility-readiness-approval": 100
+      },
+      "expected_score": 100,
+      "expected_decision": "READY",
+      "result": {
+        "ok": true,
+        "score": 100,
+        "decision": "READY",
+        "criteria": [
+          {
+            "id": "accessibility-readiness-coverage",
+            "value": 100,
+            "weight": 16
+          },
+          {
+            "id": "accessibility-readiness-evidence",
+            "value": 100,
+            "weight": 15
+          },
+          {
+            "id": "accessibility-readiness-ownership",
+            "value": 100,
+            "weight": 14
+          },
+          {
+            "id": "accessibility-readiness-accuracy",
+            "value": 100,
+            "weight": 13
+          },
+          {
+            "id": "accessibility-readiness-recency",
+            "value": 100,
+            "weight": 12
+          },
+          {
+            "id": "accessibility-readiness-dependencies",
+            "value": 100,
+            "weight": 11
+          },
+          {
+            "id": "accessibility-readiness-risk-control",
+            "value": 100,
+            "weight": 10
+          },
+          {
+            "id": "accessibility-readiness-approval",
+            "value": 100,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "accessibility-readiness",
+      "id": "accessibility-readiness-strong",
+      "synthetic": true,
+      "values": {
+        "accessibility-readiness-coverage": 80,
+        "accessibility-readiness-evidence": 80,
+        "accessibility-readiness-ownership": 80,
+        "accessibility-readiness-accuracy": 80,
+        "accessibility-readiness-recency": 80,
+        "accessibility-readiness-dependencies": 80,
+        "accessibility-readiness-risk-control": 80,
+        "accessibility-readiness-approval": 80
+      },
+      "expected_score": 80,
+      "expected_decision": "READY",
+      "result": {
+        "ok": true,
+        "score": 80,
+        "decision": "READY",
+        "criteria": [
+          {
+            "id": "accessibility-readiness-coverage",
+            "value": 80,
+            "weight": 16
+          },
+          {
+            "id": "accessibility-readiness-evidence",
+            "value": 80,
+            "weight": 15
+          },
+          {
+            "id": "accessibility-readiness-ownership",
+            "value": 80,
+            "weight": 14
+          },
+          {
+            "id": "accessibility-readiness-accuracy",
+            "value": 80,
+            "weight": 13
+          },
+          {
+            "id": "accessibility-readiness-recency",
+            "value": 80,
+            "weight": 12
+          },
+          {
+            "id": "accessibility-readiness-dependencies",
+            "value": 80,
+            "weight": 11
+          },
+          {
+            "id": "accessibility-readiness-risk-control",
+            "value": 80,
+            "weight": 10
+          },
+          {
+            "id": "accessibility-readiness-approval",
+            "value": 80,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "accessibility-readiness",
+      "id": "accessibility-readiness-partial",
+      "synthetic": true,
+      "values": {
+        "accessibility-readiness-coverage": 60,
+        "accessibility-readiness-evidence": 60,
+        "accessibility-readiness-ownership": 60,
+        "accessibility-readiness-accuracy": 60,
+        "accessibility-readiness-recency": 60,
+        "accessibility-readiness-dependencies": 60,
+        "accessibility-readiness-risk-control": 60,
+        "accessibility-readiness-approval": 60
+      },
+      "expected_score": 60,
+      "expected_decision": "CONDITIONAL",
+      "result": {
+        "ok": true,
+        "score": 60,
+        "decision": "CONDITIONAL",
+        "criteria": [
+          {
+            "id": "accessibility-readiness-coverage",
+            "value": 60,
+            "weight": 16
+          },
+          {
+            "id": "accessibility-readiness-evidence",
+            "value": 60,
+            "weight": 15
+          },
+          {
+            "id": "accessibility-readiness-ownership",
+            "value": 60,
+            "weight": 14
+          },
+          {
+            "id": "accessibility-readiness-accuracy",
+            "value": 60,
+            "weight": 13
+          },
+          {
+            "id": "accessibility-readiness-recency",
+            "value": 60,
+            "weight": 12
+          },
+          {
+            "id": "accessibility-readiness-dependencies",
+            "value": 60,
+            "weight": 11
+          },
+          {
+            "id": "accessibility-readiness-risk-control",
+            "value": 60,
+            "weight": 10
+          },
+          {
+            "id": "accessibility-readiness-approval",
+            "value": 60,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "accessibility-readiness",
+      "id": "accessibility-readiness-blocked",
+      "synthetic": true,
+      "values": {
+        "accessibility-readiness-coverage": 30,
+        "accessibility-readiness-evidence": 30,
+        "accessibility-readiness-ownership": 30,
+        "accessibility-readiness-accuracy": 30,
+        "accessibility-readiness-recency": 30,
+        "accessibility-readiness-dependencies": 30,
+        "accessibility-readiness-risk-control": 30,
+        "accessibility-readiness-approval": 30
+      },
+      "expected_score": 30,
+      "expected_decision": "HOLD",
+      "result": {
+        "ok": true,
+        "score": 30,
+        "decision": "HOLD",
+        "criteria": [
+          {
+            "id": "accessibility-readiness-coverage",
+            "value": 30,
+            "weight": 16
+          },
+          {
+            "id": "accessibility-readiness-evidence",
+            "value": 30,
+            "weight": 15
+          },
+          {
+            "id": "accessibility-readiness-ownership",
+            "value": 30,
+            "weight": 14
+          },
+          {
+            "id": "accessibility-readiness-accuracy",
+            "value": 30,
+            "weight": 13
+          },
+          {
+            "id": "accessibility-readiness-recency",
+            "value": 30,
+            "weight": 12
+          },
+          {
+            "id": "accessibility-readiness-dependencies",
+            "value": 30,
+            "weight": 11
+          },
+          {
+            "id": "accessibility-readiness-risk-control",
+            "value": 30,
+            "weight": 10
+          },
+          {
+            "id": "accessibility-readiness-approval",
+            "value": 30,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "localization-readiness",
+      "id": "localization-readiness-complete",
+      "synthetic": true,
+      "values": {
+        "localization-readiness-coverage": 100,
+        "localization-readiness-evidence": 100,
+        "localization-readiness-ownership": 100,
+        "localization-readiness-accuracy": 100,
+        "localization-readiness-recency": 100,
+        "localization-readiness-dependencies": 100,
+        "localization-readiness-risk-control": 100,
+        "localization-readiness-approval": 100
+      },
+      "expected_score": 100,
+      "expected_decision": "READY",
+      "result": {
+        "ok": true,
+        "score": 100,
+        "decision": "READY",
+        "criteria": [
+          {
+            "id": "localization-readiness-coverage",
+            "value": 100,
+            "weight": 16
+          },
+          {
+            "id": "localization-readiness-evidence",
+            "value": 100,
+            "weight": 15
+          },
+          {
+            "id": "localization-readiness-ownership",
+            "value": 100,
+            "weight": 14
+          },
+          {
+            "id": "localization-readiness-accuracy",
+            "value": 100,
+            "weight": 13
+          },
+          {
+            "id": "localization-readiness-recency",
+            "value": 100,
+            "weight": 12
+          },
+          {
+            "id": "localization-readiness-dependencies",
+            "value": 100,
+            "weight": 11
+          },
+          {
+            "id": "localization-readiness-risk-control",
+            "value": 100,
+            "weight": 10
+          },
+          {
+            "id": "localization-readiness-approval",
+            "value": 100,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "localization-readiness",
+      "id": "localization-readiness-strong",
+      "synthetic": true,
+      "values": {
+        "localization-readiness-coverage": 80,
+        "localization-readiness-evidence": 80,
+        "localization-readiness-ownership": 80,
+        "localization-readiness-accuracy": 80,
+        "localization-readiness-recency": 80,
+        "localization-readiness-dependencies": 80,
+        "localization-readiness-risk-control": 80,
+        "localization-readiness-approval": 80
+      },
+      "expected_score": 80,
+      "expected_decision": "READY",
+      "result": {
+        "ok": true,
+        "score": 80,
+        "decision": "READY",
+        "criteria": [
+          {
+            "id": "localization-readiness-coverage",
+            "value": 80,
+            "weight": 16
+          },
+          {
+            "id": "localization-readiness-evidence",
+            "value": 80,
+            "weight": 15
+          },
+          {
+            "id": "localization-readiness-ownership",
+            "value": 80,
+            "weight": 14
+          },
+          {
+            "id": "localization-readiness-accuracy",
+            "value": 80,
+            "weight": 13
+          },
+          {
+            "id": "localization-readiness-recency",
+            "value": 80,
+            "weight": 12
+          },
+          {
+            "id": "localization-readiness-dependencies",
+            "value": 80,
+            "weight": 11
+          },
+          {
+            "id": "localization-readiness-risk-control",
+            "value": 80,
+            "weight": 10
+          },
+          {
+            "id": "localization-readiness-approval",
+            "value": 80,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "localization-readiness",
+      "id": "localization-readiness-partial",
+      "synthetic": true,
+      "values": {
+        "localization-readiness-coverage": 60,
+        "localization-readiness-evidence": 60,
+        "localization-readiness-ownership": 60,
+        "localization-readiness-accuracy": 60,
+        "localization-readiness-recency": 60,
+        "localization-readiness-dependencies": 60,
+        "localization-readiness-risk-control": 60,
+        "localization-readiness-approval": 60
+      },
+      "expected_score": 60,
+      "expected_decision": "CONDITIONAL",
+      "result": {
+        "ok": true,
+        "score": 60,
+        "decision": "CONDITIONAL",
+        "criteria": [
+          {
+            "id": "localization-readiness-coverage",
+            "value": 60,
+            "weight": 16
+          },
+          {
+            "id": "localization-readiness-evidence",
+            "value": 60,
+            "weight": 15
+          },
+          {
+            "id": "localization-readiness-ownership",
+            "value": 60,
+            "weight": 14
+          },
+          {
+            "id": "localization-readiness-accuracy",
+            "value": 60,
+            "weight": 13
+          },
+          {
+            "id": "localization-readiness-recency",
+            "value": 60,
+            "weight": 12
+          },
+          {
+            "id": "localization-readiness-dependencies",
+            "value": 60,
+            "weight": 11
+          },
+          {
+            "id": "localization-readiness-risk-control",
+            "value": 60,
+            "weight": 10
+          },
+          {
+            "id": "localization-readiness-approval",
+            "value": 60,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "localization-readiness",
+      "id": "localization-readiness-blocked",
+      "synthetic": true,
+      "values": {
+        "localization-readiness-coverage": 30,
+        "localization-readiness-evidence": 30,
+        "localization-readiness-ownership": 30,
+        "localization-readiness-accuracy": 30,
+        "localization-readiness-recency": 30,
+        "localization-readiness-dependencies": 30,
+        "localization-readiness-risk-control": 30,
+        "localization-readiness-approval": 30
+      },
+      "expected_score": 30,
+      "expected_decision": "HOLD",
+      "result": {
+        "ok": true,
+        "score": 30,
+        "decision": "HOLD",
+        "criteria": [
+          {
+            "id": "localization-readiness-coverage",
+            "value": 30,
+            "weight": 16
+          },
+          {
+            "id": "localization-readiness-evidence",
+            "value": 30,
+            "weight": 15
+          },
+          {
+            "id": "localization-readiness-ownership",
+            "value": 30,
+            "weight": 14
+          },
+          {
+            "id": "localization-readiness-accuracy",
+            "value": 30,
+            "weight": 13
+          },
+          {
+            "id": "localization-readiness-recency",
+            "value": 30,
+            "weight": 12
+          },
+          {
+            "id": "localization-readiness-dependencies",
+            "value": 30,
+            "weight": 11
+          },
+          {
+            "id": "localization-readiness-risk-control",
+            "value": 30,
+            "weight": 10
+          },
+          {
+            "id": "localization-readiness-approval",
+            "value": 30,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "platform-readiness",
+      "id": "platform-readiness-complete",
+      "synthetic": true,
+      "values": {
+        "platform-readiness-coverage": 100,
+        "platform-readiness-evidence": 100,
+        "platform-readiness-ownership": 100,
+        "platform-readiness-accuracy": 100,
+        "platform-readiness-recency": 100,
+        "platform-readiness-dependencies": 100,
+        "platform-readiness-risk-control": 100,
+        "platform-readiness-approval": 100
+      },
+      "expected_score": 100,
+      "expected_decision": "READY",
+      "result": {
+        "ok": true,
+        "score": 100,
+        "decision": "READY",
+        "criteria": [
+          {
+            "id": "platform-readiness-coverage",
+            "value": 100,
+            "weight": 16
+          },
+          {
+            "id": "platform-readiness-evidence",
+            "value": 100,
+            "weight": 15
+          },
+          {
+            "id": "platform-readiness-ownership",
+            "value": 100,
+            "weight": 14
+          },
+          {
+            "id": "platform-readiness-accuracy",
+            "value": 100,
+            "weight": 13
+          },
+          {
+            "id": "platform-readiness-recency",
+            "value": 100,
+            "weight": 12
+          },
+          {
+            "id": "platform-readiness-dependencies",
+            "value": 100,
+            "weight": 11
+          },
+          {
+            "id": "platform-readiness-risk-control",
+            "value": 100,
+            "weight": 10
+          },
+          {
+            "id": "platform-readiness-approval",
+            "value": 100,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "platform-readiness",
+      "id": "platform-readiness-strong",
+      "synthetic": true,
+      "values": {
+        "platform-readiness-coverage": 80,
+        "platform-readiness-evidence": 80,
+        "platform-readiness-ownership": 80,
+        "platform-readiness-accuracy": 80,
+        "platform-readiness-recency": 80,
+        "platform-readiness-dependencies": 80,
+        "platform-readiness-risk-control": 80,
+        "platform-readiness-approval": 80
+      },
+      "expected_score": 80,
+      "expected_decision": "READY",
+      "result": {
+        "ok": true,
+        "score": 80,
+        "decision": "READY",
+        "criteria": [
+          {
+            "id": "platform-readiness-coverage",
+            "value": 80,
+            "weight": 16
+          },
+          {
+            "id": "platform-readiness-evidence",
+            "value": 80,
+            "weight": 15
+          },
+          {
+            "id": "platform-readiness-ownership",
+            "value": 80,
+            "weight": 14
+          },
+          {
+            "id": "platform-readiness-accuracy",
+            "value": 80,
+            "weight": 13
+          },
+          {
+            "id": "platform-readiness-recency",
+            "value": 80,
+            "weight": 12
+          },
+          {
+            "id": "platform-readiness-dependencies",
+            "value": 80,
+            "weight": 11
+          },
+          {
+            "id": "platform-readiness-risk-control",
+            "value": 80,
+            "weight": 10
+          },
+          {
+            "id": "platform-readiness-approval",
+            "value": 80,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "platform-readiness",
+      "id": "platform-readiness-partial",
+      "synthetic": true,
+      "values": {
+        "platform-readiness-coverage": 60,
+        "platform-readiness-evidence": 60,
+        "platform-readiness-ownership": 60,
+        "platform-readiness-accuracy": 60,
+        "platform-readiness-recency": 60,
+        "platform-readiness-dependencies": 60,
+        "platform-readiness-risk-control": 60,
+        "platform-readiness-approval": 60
+      },
+      "expected_score": 60,
+      "expected_decision": "CONDITIONAL",
+      "result": {
+        "ok": true,
+        "score": 60,
+        "decision": "CONDITIONAL",
+        "criteria": [
+          {
+            "id": "platform-readiness-coverage",
+            "value": 60,
+            "weight": 16
+          },
+          {
+            "id": "platform-readiness-evidence",
+            "value": 60,
+            "weight": 15
+          },
+          {
+            "id": "platform-readiness-ownership",
+            "value": 60,
+            "weight": 14
+          },
+          {
+            "id": "platform-readiness-accuracy",
+            "value": 60,
+            "weight": 13
+          },
+          {
+            "id": "platform-readiness-recency",
+            "value": 60,
+            "weight": 12
+          },
+          {
+            "id": "platform-readiness-dependencies",
+            "value": 60,
+            "weight": 11
+          },
+          {
+            "id": "platform-readiness-risk-control",
+            "value": 60,
+            "weight": 10
+          },
+          {
+            "id": "platform-readiness-approval",
+            "value": 60,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "platform-readiness",
+      "id": "platform-readiness-blocked",
+      "synthetic": true,
+      "values": {
+        "platform-readiness-coverage": 30,
+        "platform-readiness-evidence": 30,
+        "platform-readiness-ownership": 30,
+        "platform-readiness-accuracy": 30,
+        "platform-readiness-recency": 30,
+        "platform-readiness-dependencies": 30,
+        "platform-readiness-risk-control": 30,
+        "platform-readiness-approval": 30
+      },
+      "expected_score": 30,
+      "expected_decision": "HOLD",
+      "result": {
+        "ok": true,
+        "score": 30,
+        "decision": "HOLD",
+        "criteria": [
+          {
+            "id": "platform-readiness-coverage",
+            "value": 30,
+            "weight": 16
+          },
+          {
+            "id": "platform-readiness-evidence",
+            "value": 30,
+            "weight": 15
+          },
+          {
+            "id": "platform-readiness-ownership",
+            "value": 30,
+            "weight": 14
+          },
+          {
+            "id": "platform-readiness-accuracy",
+            "value": 30,
+            "weight": 13
+          },
+          {
+            "id": "platform-readiness-recency",
+            "value": 30,
+            "weight": 12
+          },
+          {
+            "id": "platform-readiness-dependencies",
+            "value": 30,
+            "weight": 11
+          },
+          {
+            "id": "platform-readiness-risk-control",
+            "value": 30,
+            "weight": 10
+          },
+          {
+            "id": "platform-readiness-approval",
+            "value": 30,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "archive-readiness",
+      "id": "archive-readiness-complete",
+      "synthetic": true,
+      "values": {
+        "archive-readiness-coverage": 100,
+        "archive-readiness-evidence": 100,
+        "archive-readiness-ownership": 100,
+        "archive-readiness-accuracy": 100,
+        "archive-readiness-recency": 100,
+        "archive-readiness-dependencies": 100,
+        "archive-readiness-risk-control": 100,
+        "archive-readiness-approval": 100
+      },
+      "expected_score": 100,
+      "expected_decision": "READY",
+      "result": {
+        "ok": true,
+        "score": 100,
+        "decision": "READY",
+        "criteria": [
+          {
+            "id": "archive-readiness-coverage",
+            "value": 100,
+            "weight": 16
+          },
+          {
+            "id": "archive-readiness-evidence",
+            "value": 100,
+            "weight": 15
+          },
+          {
+            "id": "archive-readiness-ownership",
+            "value": 100,
+            "weight": 14
+          },
+          {
+            "id": "archive-readiness-accuracy",
+            "value": 100,
+            "weight": 13
+          },
+          {
+            "id": "archive-readiness-recency",
+            "value": 100,
+            "weight": 12
+          },
+          {
+            "id": "archive-readiness-dependencies",
+            "value": 100,
+            "weight": 11
+          },
+          {
+            "id": "archive-readiness-risk-control",
+            "value": 100,
+            "weight": 10
+          },
+          {
+            "id": "archive-readiness-approval",
+            "value": 100,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "archive-readiness",
+      "id": "archive-readiness-strong",
+      "synthetic": true,
+      "values": {
+        "archive-readiness-coverage": 80,
+        "archive-readiness-evidence": 80,
+        "archive-readiness-ownership": 80,
+        "archive-readiness-accuracy": 80,
+        "archive-readiness-recency": 80,
+        "archive-readiness-dependencies": 80,
+        "archive-readiness-risk-control": 80,
+        "archive-readiness-approval": 80
+      },
+      "expected_score": 80,
+      "expected_decision": "READY",
+      "result": {
+        "ok": true,
+        "score": 80,
+        "decision": "READY",
+        "criteria": [
+          {
+            "id": "archive-readiness-coverage",
+            "value": 80,
+            "weight": 16
+          },
+          {
+            "id": "archive-readiness-evidence",
+            "value": 80,
+            "weight": 15
+          },
+          {
+            "id": "archive-readiness-ownership",
+            "value": 80,
+            "weight": 14
+          },
+          {
+            "id": "archive-readiness-accuracy",
+            "value": 80,
+            "weight": 13
+          },
+          {
+            "id": "archive-readiness-recency",
+            "value": 80,
+            "weight": 12
+          },
+          {
+            "id": "archive-readiness-dependencies",
+            "value": 80,
+            "weight": 11
+          },
+          {
+            "id": "archive-readiness-risk-control",
+            "value": 80,
+            "weight": 10
+          },
+          {
+            "id": "archive-readiness-approval",
+            "value": 80,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "archive-readiness",
+      "id": "archive-readiness-partial",
+      "synthetic": true,
+      "values": {
+        "archive-readiness-coverage": 60,
+        "archive-readiness-evidence": 60,
+        "archive-readiness-ownership": 60,
+        "archive-readiness-accuracy": 60,
+        "archive-readiness-recency": 60,
+        "archive-readiness-dependencies": 60,
+        "archive-readiness-risk-control": 60,
+        "archive-readiness-approval": 60
+      },
+      "expected_score": 60,
+      "expected_decision": "CONDITIONAL",
+      "result": {
+        "ok": true,
+        "score": 60,
+        "decision": "CONDITIONAL",
+        "criteria": [
+          {
+            "id": "archive-readiness-coverage",
+            "value": 60,
+            "weight": 16
+          },
+          {
+            "id": "archive-readiness-evidence",
+            "value": 60,
+            "weight": 15
+          },
+          {
+            "id": "archive-readiness-ownership",
+            "value": 60,
+            "weight": 14
+          },
+          {
+            "id": "archive-readiness-accuracy",
+            "value": 60,
+            "weight": 13
+          },
+          {
+            "id": "archive-readiness-recency",
+            "value": 60,
+            "weight": 12
+          },
+          {
+            "id": "archive-readiness-dependencies",
+            "value": 60,
+            "weight": 11
+          },
+          {
+            "id": "archive-readiness-risk-control",
+            "value": 60,
+            "weight": 10
+          },
+          {
+            "id": "archive-readiness-approval",
+            "value": 60,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "archive-readiness",
+      "id": "archive-readiness-blocked",
+      "synthetic": true,
+      "values": {
+        "archive-readiness-coverage": 30,
+        "archive-readiness-evidence": 30,
+        "archive-readiness-ownership": 30,
+        "archive-readiness-accuracy": 30,
+        "archive-readiness-recency": 30,
+        "archive-readiness-dependencies": 30,
+        "archive-readiness-risk-control": 30,
+        "archive-readiness-approval": 30
+      },
+      "expected_score": 30,
+      "expected_decision": "HOLD",
+      "result": {
+        "ok": true,
+        "score": 30,
+        "decision": "HOLD",
+        "criteria": [
+          {
+            "id": "archive-readiness-coverage",
+            "value": 30,
+            "weight": 16
+          },
+          {
+            "id": "archive-readiness-evidence",
+            "value": 30,
+            "weight": 15
+          },
+          {
+            "id": "archive-readiness-ownership",
+            "value": 30,
+            "weight": 14
+          },
+          {
+            "id": "archive-readiness-accuracy",
+            "value": 30,
+            "weight": 13
+          },
+          {
+            "id": "archive-readiness-recency",
+            "value": 30,
+            "weight": 12
+          },
+          {
+            "id": "archive-readiness-dependencies",
+            "value": 30,
+            "weight": 11
+          },
+          {
+            "id": "archive-readiness-risk-control",
+            "value": 30,
+            "weight": 10
+          },
+          {
+            "id": "archive-readiness-approval",
+            "value": 30,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "provenance-readiness",
+      "id": "provenance-readiness-complete",
+      "synthetic": true,
+      "values": {
+        "provenance-readiness-coverage": 100,
+        "provenance-readiness-evidence": 100,
+        "provenance-readiness-ownership": 100,
+        "provenance-readiness-accuracy": 100,
+        "provenance-readiness-recency": 100,
+        "provenance-readiness-dependencies": 100,
+        "provenance-readiness-risk-control": 100,
+        "provenance-readiness-approval": 100
+      },
+      "expected_score": 100,
+      "expected_decision": "READY",
+      "result": {
+        "ok": true,
+        "score": 100,
+        "decision": "READY",
+        "criteria": [
+          {
+            "id": "provenance-readiness-coverage",
+            "value": 100,
+            "weight": 16
+          },
+          {
+            "id": "provenance-readiness-evidence",
+            "value": 100,
+            "weight": 15
+          },
+          {
+            "id": "provenance-readiness-ownership",
+            "value": 100,
+            "weight": 14
+          },
+          {
+            "id": "provenance-readiness-accuracy",
+            "value": 100,
+            "weight": 13
+          },
+          {
+            "id": "provenance-readiness-recency",
+            "value": 100,
+            "weight": 12
+          },
+          {
+            "id": "provenance-readiness-dependencies",
+            "value": 100,
+            "weight": 11
+          },
+          {
+            "id": "provenance-readiness-risk-control",
+            "value": 100,
+            "weight": 10
+          },
+          {
+            "id": "provenance-readiness-approval",
+            "value": 100,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "provenance-readiness",
+      "id": "provenance-readiness-strong",
+      "synthetic": true,
+      "values": {
+        "provenance-readiness-coverage": 80,
+        "provenance-readiness-evidence": 80,
+        "provenance-readiness-ownership": 80,
+        "provenance-readiness-accuracy": 80,
+        "provenance-readiness-recency": 80,
+        "provenance-readiness-dependencies": 80,
+        "provenance-readiness-risk-control": 80,
+        "provenance-readiness-approval": 80
+      },
+      "expected_score": 80,
+      "expected_decision": "READY",
+      "result": {
+        "ok": true,
+        "score": 80,
+        "decision": "READY",
+        "criteria": [
+          {
+            "id": "provenance-readiness-coverage",
+            "value": 80,
+            "weight": 16
+          },
+          {
+            "id": "provenance-readiness-evidence",
+            "value": 80,
+            "weight": 15
+          },
+          {
+            "id": "provenance-readiness-ownership",
+            "value": 80,
+            "weight": 14
+          },
+          {
+            "id": "provenance-readiness-accuracy",
+            "value": 80,
+            "weight": 13
+          },
+          {
+            "id": "provenance-readiness-recency",
+            "value": 80,
+            "weight": 12
+          },
+          {
+            "id": "provenance-readiness-dependencies",
+            "value": 80,
+            "weight": 11
+          },
+          {
+            "id": "provenance-readiness-risk-control",
+            "value": 80,
+            "weight": 10
+          },
+          {
+            "id": "provenance-readiness-approval",
+            "value": 80,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "provenance-readiness",
+      "id": "provenance-readiness-partial",
+      "synthetic": true,
+      "values": {
+        "provenance-readiness-coverage": 60,
+        "provenance-readiness-evidence": 60,
+        "provenance-readiness-ownership": 60,
+        "provenance-readiness-accuracy": 60,
+        "provenance-readiness-recency": 60,
+        "provenance-readiness-dependencies": 60,
+        "provenance-readiness-risk-control": 60,
+        "provenance-readiness-approval": 60
+      },
+      "expected_score": 60,
+      "expected_decision": "CONDITIONAL",
+      "result": {
+        "ok": true,
+        "score": 60,
+        "decision": "CONDITIONAL",
+        "criteria": [
+          {
+            "id": "provenance-readiness-coverage",
+            "value": 60,
+            "weight": 16
+          },
+          {
+            "id": "provenance-readiness-evidence",
+            "value": 60,
+            "weight": 15
+          },
+          {
+            "id": "provenance-readiness-ownership",
+            "value": 60,
+            "weight": 14
+          },
+          {
+            "id": "provenance-readiness-accuracy",
+            "value": 60,
+            "weight": 13
+          },
+          {
+            "id": "provenance-readiness-recency",
+            "value": 60,
+            "weight": 12
+          },
+          {
+            "id": "provenance-readiness-dependencies",
+            "value": 60,
+            "weight": 11
+          },
+          {
+            "id": "provenance-readiness-risk-control",
+            "value": 60,
+            "weight": 10
+          },
+          {
+            "id": "provenance-readiness-approval",
+            "value": 60,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "provenance-readiness",
+      "id": "provenance-readiness-blocked",
+      "synthetic": true,
+      "values": {
+        "provenance-readiness-coverage": 30,
+        "provenance-readiness-evidence": 30,
+        "provenance-readiness-ownership": 30,
+        "provenance-readiness-accuracy": 30,
+        "provenance-readiness-recency": 30,
+        "provenance-readiness-dependencies": 30,
+        "provenance-readiness-risk-control": 30,
+        "provenance-readiness-approval": 30
+      },
+      "expected_score": 30,
+      "expected_decision": "HOLD",
+      "result": {
+        "ok": true,
+        "score": 30,
+        "decision": "HOLD",
+        "criteria": [
+          {
+            "id": "provenance-readiness-coverage",
+            "value": 30,
+            "weight": 16
+          },
+          {
+            "id": "provenance-readiness-evidence",
+            "value": 30,
+            "weight": 15
+          },
+          {
+            "id": "provenance-readiness-ownership",
+            "value": 30,
+            "weight": 14
+          },
+          {
+            "id": "provenance-readiness-accuracy",
+            "value": 30,
+            "weight": 13
+          },
+          {
+            "id": "provenance-readiness-recency",
+            "value": 30,
+            "weight": 12
+          },
+          {
+            "id": "provenance-readiness-dependencies",
+            "value": 30,
+            "weight": 11
+          },
+          {
+            "id": "provenance-readiness-risk-control",
+            "value": 30,
+            "weight": 10
+          },
+          {
+            "id": "provenance-readiness-approval",
+            "value": 30,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "privacy-readiness",
+      "id": "privacy-readiness-complete",
+      "synthetic": true,
+      "values": {
+        "privacy-readiness-coverage": 100,
+        "privacy-readiness-evidence": 100,
+        "privacy-readiness-ownership": 100,
+        "privacy-readiness-accuracy": 100,
+        "privacy-readiness-recency": 100,
+        "privacy-readiness-dependencies": 100,
+        "privacy-readiness-risk-control": 100,
+        "privacy-readiness-approval": 100
+      },
+      "expected_score": 100,
+      "expected_decision": "READY",
+      "result": {
+        "ok": true,
+        "score": 100,
+        "decision": "READY",
+        "criteria": [
+          {
+            "id": "privacy-readiness-coverage",
+            "value": 100,
+            "weight": 16
+          },
+          {
+            "id": "privacy-readiness-evidence",
+            "value": 100,
+            "weight": 15
+          },
+          {
+            "id": "privacy-readiness-ownership",
+            "value": 100,
+            "weight": 14
+          },
+          {
+            "id": "privacy-readiness-accuracy",
+            "value": 100,
+            "weight": 13
+          },
+          {
+            "id": "privacy-readiness-recency",
+            "value": 100,
+            "weight": 12
+          },
+          {
+            "id": "privacy-readiness-dependencies",
+            "value": 100,
+            "weight": 11
+          },
+          {
+            "id": "privacy-readiness-risk-control",
+            "value": 100,
+            "weight": 10
+          },
+          {
+            "id": "privacy-readiness-approval",
+            "value": 100,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "privacy-readiness",
+      "id": "privacy-readiness-strong",
+      "synthetic": true,
+      "values": {
+        "privacy-readiness-coverage": 80,
+        "privacy-readiness-evidence": 80,
+        "privacy-readiness-ownership": 80,
+        "privacy-readiness-accuracy": 80,
+        "privacy-readiness-recency": 80,
+        "privacy-readiness-dependencies": 80,
+        "privacy-readiness-risk-control": 80,
+        "privacy-readiness-approval": 80
+      },
+      "expected_score": 80,
+      "expected_decision": "READY",
+      "result": {
+        "ok": true,
+        "score": 80,
+        "decision": "READY",
+        "criteria": [
+          {
+            "id": "privacy-readiness-coverage",
+            "value": 80,
+            "weight": 16
+          },
+          {
+            "id": "privacy-readiness-evidence",
+            "value": 80,
+            "weight": 15
+          },
+          {
+            "id": "privacy-readiness-ownership",
+            "value": 80,
+            "weight": 14
+          },
+          {
+            "id": "privacy-readiness-accuracy",
+            "value": 80,
+            "weight": 13
+          },
+          {
+            "id": "privacy-readiness-recency",
+            "value": 80,
+            "weight": 12
+          },
+          {
+            "id": "privacy-readiness-dependencies",
+            "value": 80,
+            "weight": 11
+          },
+          {
+            "id": "privacy-readiness-risk-control",
+            "value": 80,
+            "weight": 10
+          },
+          {
+            "id": "privacy-readiness-approval",
+            "value": 80,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "privacy-readiness",
+      "id": "privacy-readiness-partial",
+      "synthetic": true,
+      "values": {
+        "privacy-readiness-coverage": 60,
+        "privacy-readiness-evidence": 60,
+        "privacy-readiness-ownership": 60,
+        "privacy-readiness-accuracy": 60,
+        "privacy-readiness-recency": 60,
+        "privacy-readiness-dependencies": 60,
+        "privacy-readiness-risk-control": 60,
+        "privacy-readiness-approval": 60
+      },
+      "expected_score": 60,
+      "expected_decision": "CONDITIONAL",
+      "result": {
+        "ok": true,
+        "score": 60,
+        "decision": "CONDITIONAL",
+        "criteria": [
+          {
+            "id": "privacy-readiness-coverage",
+            "value": 60,
+            "weight": 16
+          },
+          {
+            "id": "privacy-readiness-evidence",
+            "value": 60,
+            "weight": 15
+          },
+          {
+            "id": "privacy-readiness-ownership",
+            "value": 60,
+            "weight": 14
+          },
+          {
+            "id": "privacy-readiness-accuracy",
+            "value": 60,
+            "weight": 13
+          },
+          {
+            "id": "privacy-readiness-recency",
+            "value": 60,
+            "weight": 12
+          },
+          {
+            "id": "privacy-readiness-dependencies",
+            "value": 60,
+            "weight": 11
+          },
+          {
+            "id": "privacy-readiness-risk-control",
+            "value": 60,
+            "weight": 10
+          },
+          {
+            "id": "privacy-readiness-approval",
+            "value": 60,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "privacy-readiness",
+      "id": "privacy-readiness-blocked",
+      "synthetic": true,
+      "values": {
+        "privacy-readiness-coverage": 30,
+        "privacy-readiness-evidence": 30,
+        "privacy-readiness-ownership": 30,
+        "privacy-readiness-accuracy": 30,
+        "privacy-readiness-recency": 30,
+        "privacy-readiness-dependencies": 30,
+        "privacy-readiness-risk-control": 30,
+        "privacy-readiness-approval": 30
+      },
+      "expected_score": 30,
+      "expected_decision": "HOLD",
+      "result": {
+        "ok": true,
+        "score": 30,
+        "decision": "HOLD",
+        "criteria": [
+          {
+            "id": "privacy-readiness-coverage",
+            "value": 30,
+            "weight": 16
+          },
+          {
+            "id": "privacy-readiness-evidence",
+            "value": 30,
+            "weight": 15
+          },
+          {
+            "id": "privacy-readiness-ownership",
+            "value": 30,
+            "weight": 14
+          },
+          {
+            "id": "privacy-readiness-accuracy",
+            "value": 30,
+            "weight": 13
+          },
+          {
+            "id": "privacy-readiness-recency",
+            "value": 30,
+            "weight": 12
+          },
+          {
+            "id": "privacy-readiness-dependencies",
+            "value": 30,
+            "weight": 11
+          },
+          {
+            "id": "privacy-readiness-risk-control",
+            "value": 30,
+            "weight": 10
+          },
+          {
+            "id": "privacy-readiness-approval",
+            "value": 30,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "supplier-readiness",
+      "id": "supplier-readiness-complete",
+      "synthetic": true,
+      "values": {
+        "supplier-readiness-coverage": 100,
+        "supplier-readiness-evidence": 100,
+        "supplier-readiness-ownership": 100,
+        "supplier-readiness-accuracy": 100,
+        "supplier-readiness-recency": 100,
+        "supplier-readiness-dependencies": 100,
+        "supplier-readiness-risk-control": 100,
+        "supplier-readiness-approval": 100
+      },
+      "expected_score": 100,
+      "expected_decision": "READY",
+      "result": {
+        "ok": true,
+        "score": 100,
+        "decision": "READY",
+        "criteria": [
+          {
+            "id": "supplier-readiness-coverage",
+            "value": 100,
+            "weight": 16
+          },
+          {
+            "id": "supplier-readiness-evidence",
+            "value": 100,
+            "weight": 15
+          },
+          {
+            "id": "supplier-readiness-ownership",
+            "value": 100,
+            "weight": 14
+          },
+          {
+            "id": "supplier-readiness-accuracy",
+            "value": 100,
+            "weight": 13
+          },
+          {
+            "id": "supplier-readiness-recency",
+            "value": 100,
+            "weight": 12
+          },
+          {
+            "id": "supplier-readiness-dependencies",
+            "value": 100,
+            "weight": 11
+          },
+          {
+            "id": "supplier-readiness-risk-control",
+            "value": 100,
+            "weight": 10
+          },
+          {
+            "id": "supplier-readiness-approval",
+            "value": 100,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "supplier-readiness",
+      "id": "supplier-readiness-strong",
+      "synthetic": true,
+      "values": {
+        "supplier-readiness-coverage": 80,
+        "supplier-readiness-evidence": 80,
+        "supplier-readiness-ownership": 80,
+        "supplier-readiness-accuracy": 80,
+        "supplier-readiness-recency": 80,
+        "supplier-readiness-dependencies": 80,
+        "supplier-readiness-risk-control": 80,
+        "supplier-readiness-approval": 80
+      },
+      "expected_score": 80,
+      "expected_decision": "READY",
+      "result": {
+        "ok": true,
+        "score": 80,
+        "decision": "READY",
+        "criteria": [
+          {
+            "id": "supplier-readiness-coverage",
+            "value": 80,
+            "weight": 16
+          },
+          {
+            "id": "supplier-readiness-evidence",
+            "value": 80,
+            "weight": 15
+          },
+          {
+            "id": "supplier-readiness-ownership",
+            "value": 80,
+            "weight": 14
+          },
+          {
+            "id": "supplier-readiness-accuracy",
+            "value": 80,
+            "weight": 13
+          },
+          {
+            "id": "supplier-readiness-recency",
+            "value": 80,
+            "weight": 12
+          },
+          {
+            "id": "supplier-readiness-dependencies",
+            "value": 80,
+            "weight": 11
+          },
+          {
+            "id": "supplier-readiness-risk-control",
+            "value": 80,
+            "weight": 10
+          },
+          {
+            "id": "supplier-readiness-approval",
+            "value": 80,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "supplier-readiness",
+      "id": "supplier-readiness-partial",
+      "synthetic": true,
+      "values": {
+        "supplier-readiness-coverage": 60,
+        "supplier-readiness-evidence": 60,
+        "supplier-readiness-ownership": 60,
+        "supplier-readiness-accuracy": 60,
+        "supplier-readiness-recency": 60,
+        "supplier-readiness-dependencies": 60,
+        "supplier-readiness-risk-control": 60,
+        "supplier-readiness-approval": 60
+      },
+      "expected_score": 60,
+      "expected_decision": "CONDITIONAL",
+      "result": {
+        "ok": true,
+        "score": 60,
+        "decision": "CONDITIONAL",
+        "criteria": [
+          {
+            "id": "supplier-readiness-coverage",
+            "value": 60,
+            "weight": 16
+          },
+          {
+            "id": "supplier-readiness-evidence",
+            "value": 60,
+            "weight": 15
+          },
+          {
+            "id": "supplier-readiness-ownership",
+            "value": 60,
+            "weight": 14
+          },
+          {
+            "id": "supplier-readiness-accuracy",
+            "value": 60,
+            "weight": 13
+          },
+          {
+            "id": "supplier-readiness-recency",
+            "value": 60,
+            "weight": 12
+          },
+          {
+            "id": "supplier-readiness-dependencies",
+            "value": 60,
+            "weight": 11
+          },
+          {
+            "id": "supplier-readiness-risk-control",
+            "value": 60,
+            "weight": 10
+          },
+          {
+            "id": "supplier-readiness-approval",
+            "value": 60,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "supplier-readiness",
+      "id": "supplier-readiness-blocked",
+      "synthetic": true,
+      "values": {
+        "supplier-readiness-coverage": 30,
+        "supplier-readiness-evidence": 30,
+        "supplier-readiness-ownership": 30,
+        "supplier-readiness-accuracy": 30,
+        "supplier-readiness-recency": 30,
+        "supplier-readiness-dependencies": 30,
+        "supplier-readiness-risk-control": 30,
+        "supplier-readiness-approval": 30
+      },
+      "expected_score": 30,
+      "expected_decision": "HOLD",
+      "result": {
+        "ok": true,
+        "score": 30,
+        "decision": "HOLD",
+        "criteria": [
+          {
+            "id": "supplier-readiness-coverage",
+            "value": 30,
+            "weight": 16
+          },
+          {
+            "id": "supplier-readiness-evidence",
+            "value": 30,
+            "weight": 15
+          },
+          {
+            "id": "supplier-readiness-ownership",
+            "value": 30,
+            "weight": 14
+          },
+          {
+            "id": "supplier-readiness-accuracy",
+            "value": 30,
+            "weight": 13
+          },
+          {
+            "id": "supplier-readiness-recency",
+            "value": 30,
+            "weight": 12
+          },
+          {
+            "id": "supplier-readiness-dependencies",
+            "value": 30,
+            "weight": 11
+          },
+          {
+            "id": "supplier-readiness-risk-control",
+            "value": 30,
+            "weight": 10
+          },
+          {
+            "id": "supplier-readiness-approval",
+            "value": 30,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "sustainability-readiness",
+      "id": "sustainability-readiness-complete",
+      "synthetic": true,
+      "values": {
+        "sustainability-readiness-coverage": 100,
+        "sustainability-readiness-evidence": 100,
+        "sustainability-readiness-ownership": 100,
+        "sustainability-readiness-accuracy": 100,
+        "sustainability-readiness-recency": 100,
+        "sustainability-readiness-dependencies": 100,
+        "sustainability-readiness-risk-control": 100,
+        "sustainability-readiness-approval": 100
+      },
+      "expected_score": 100,
+      "expected_decision": "READY",
+      "result": {
+        "ok": true,
+        "score": 100,
+        "decision": "READY",
+        "criteria": [
+          {
+            "id": "sustainability-readiness-coverage",
+            "value": 100,
+            "weight": 16
+          },
+          {
+            "id": "sustainability-readiness-evidence",
+            "value": 100,
+            "weight": 15
+          },
+          {
+            "id": "sustainability-readiness-ownership",
+            "value": 100,
+            "weight": 14
+          },
+          {
+            "id": "sustainability-readiness-accuracy",
+            "value": 100,
+            "weight": 13
+          },
+          {
+            "id": "sustainability-readiness-recency",
+            "value": 100,
+            "weight": 12
+          },
+          {
+            "id": "sustainability-readiness-dependencies",
+            "value": 100,
+            "weight": 11
+          },
+          {
+            "id": "sustainability-readiness-risk-control",
+            "value": 100,
+            "weight": 10
+          },
+          {
+            "id": "sustainability-readiness-approval",
+            "value": 100,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "sustainability-readiness",
+      "id": "sustainability-readiness-strong",
+      "synthetic": true,
+      "values": {
+        "sustainability-readiness-coverage": 80,
+        "sustainability-readiness-evidence": 80,
+        "sustainability-readiness-ownership": 80,
+        "sustainability-readiness-accuracy": 80,
+        "sustainability-readiness-recency": 80,
+        "sustainability-readiness-dependencies": 80,
+        "sustainability-readiness-risk-control": 80,
+        "sustainability-readiness-approval": 80
+      },
+      "expected_score": 80,
+      "expected_decision": "READY",
+      "result": {
+        "ok": true,
+        "score": 80,
+        "decision": "READY",
+        "criteria": [
+          {
+            "id": "sustainability-readiness-coverage",
+            "value": 80,
+            "weight": 16
+          },
+          {
+            "id": "sustainability-readiness-evidence",
+            "value": 80,
+            "weight": 15
+          },
+          {
+            "id": "sustainability-readiness-ownership",
+            "value": 80,
+            "weight": 14
+          },
+          {
+            "id": "sustainability-readiness-accuracy",
+            "value": 80,
+            "weight": 13
+          },
+          {
+            "id": "sustainability-readiness-recency",
+            "value": 80,
+            "weight": 12
+          },
+          {
+            "id": "sustainability-readiness-dependencies",
+            "value": 80,
+            "weight": 11
+          },
+          {
+            "id": "sustainability-readiness-risk-control",
+            "value": 80,
+            "weight": 10
+          },
+          {
+            "id": "sustainability-readiness-approval",
+            "value": 80,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "sustainability-readiness",
+      "id": "sustainability-readiness-partial",
+      "synthetic": true,
+      "values": {
+        "sustainability-readiness-coverage": 60,
+        "sustainability-readiness-evidence": 60,
+        "sustainability-readiness-ownership": 60,
+        "sustainability-readiness-accuracy": 60,
+        "sustainability-readiness-recency": 60,
+        "sustainability-readiness-dependencies": 60,
+        "sustainability-readiness-risk-control": 60,
+        "sustainability-readiness-approval": 60
+      },
+      "expected_score": 60,
+      "expected_decision": "CONDITIONAL",
+      "result": {
+        "ok": true,
+        "score": 60,
+        "decision": "CONDITIONAL",
+        "criteria": [
+          {
+            "id": "sustainability-readiness-coverage",
+            "value": 60,
+            "weight": 16
+          },
+          {
+            "id": "sustainability-readiness-evidence",
+            "value": 60,
+            "weight": 15
+          },
+          {
+            "id": "sustainability-readiness-ownership",
+            "value": 60,
+            "weight": 14
+          },
+          {
+            "id": "sustainability-readiness-accuracy",
+            "value": 60,
+            "weight": 13
+          },
+          {
+            "id": "sustainability-readiness-recency",
+            "value": 60,
+            "weight": 12
+          },
+          {
+            "id": "sustainability-readiness-dependencies",
+            "value": 60,
+            "weight": 11
+          },
+          {
+            "id": "sustainability-readiness-risk-control",
+            "value": 60,
+            "weight": 10
+          },
+          {
+            "id": "sustainability-readiness-approval",
+            "value": 60,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "sustainability-readiness",
+      "id": "sustainability-readiness-blocked",
+      "synthetic": true,
+      "values": {
+        "sustainability-readiness-coverage": 30,
+        "sustainability-readiness-evidence": 30,
+        "sustainability-readiness-ownership": 30,
+        "sustainability-readiness-accuracy": 30,
+        "sustainability-readiness-recency": 30,
+        "sustainability-readiness-dependencies": 30,
+        "sustainability-readiness-risk-control": 30,
+        "sustainability-readiness-approval": 30
+      },
+      "expected_score": 30,
+      "expected_decision": "HOLD",
+      "result": {
+        "ok": true,
+        "score": 30,
+        "decision": "HOLD",
+        "criteria": [
+          {
+            "id": "sustainability-readiness-coverage",
+            "value": 30,
+            "weight": 16
+          },
+          {
+            "id": "sustainability-readiness-evidence",
+            "value": 30,
+            "weight": 15
+          },
+          {
+            "id": "sustainability-readiness-ownership",
+            "value": 30,
+            "weight": 14
+          },
+          {
+            "id": "sustainability-readiness-accuracy",
+            "value": 30,
+            "weight": 13
+          },
+          {
+            "id": "sustainability-readiness-recency",
+            "value": 30,
+            "weight": 12
+          },
+          {
+            "id": "sustainability-readiness-dependencies",
+            "value": 30,
+            "weight": 11
+          },
+          {
+            "id": "sustainability-readiness-risk-control",
+            "value": 30,
+            "weight": 10
+          },
+          {
+            "id": "sustainability-readiness-approval",
+            "value": 30,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "release-readiness",
+      "id": "release-readiness-complete",
+      "synthetic": true,
+      "values": {
+        "release-readiness-coverage": 100,
+        "release-readiness-evidence": 100,
+        "release-readiness-ownership": 100,
+        "release-readiness-accuracy": 100,
+        "release-readiness-recency": 100,
+        "release-readiness-dependencies": 100,
+        "release-readiness-risk-control": 100,
+        "release-readiness-approval": 100
+      },
+      "expected_score": 100,
+      "expected_decision": "READY",
+      "result": {
+        "ok": true,
+        "score": 100,
+        "decision": "READY",
+        "criteria": [
+          {
+            "id": "release-readiness-coverage",
+            "value": 100,
+            "weight": 16
+          },
+          {
+            "id": "release-readiness-evidence",
+            "value": 100,
+            "weight": 15
+          },
+          {
+            "id": "release-readiness-ownership",
+            "value": 100,
+            "weight": 14
+          },
+          {
+            "id": "release-readiness-accuracy",
+            "value": 100,
+            "weight": 13
+          },
+          {
+            "id": "release-readiness-recency",
+            "value": 100,
+            "weight": 12
+          },
+          {
+            "id": "release-readiness-dependencies",
+            "value": 100,
+            "weight": 11
+          },
+          {
+            "id": "release-readiness-risk-control",
+            "value": 100,
+            "weight": 10
+          },
+          {
+            "id": "release-readiness-approval",
+            "value": 100,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "release-readiness",
+      "id": "release-readiness-strong",
+      "synthetic": true,
+      "values": {
+        "release-readiness-coverage": 80,
+        "release-readiness-evidence": 80,
+        "release-readiness-ownership": 80,
+        "release-readiness-accuracy": 80,
+        "release-readiness-recency": 80,
+        "release-readiness-dependencies": 80,
+        "release-readiness-risk-control": 80,
+        "release-readiness-approval": 80
+      },
+      "expected_score": 80,
+      "expected_decision": "READY",
+      "result": {
+        "ok": true,
+        "score": 80,
+        "decision": "READY",
+        "criteria": [
+          {
+            "id": "release-readiness-coverage",
+            "value": 80,
+            "weight": 16
+          },
+          {
+            "id": "release-readiness-evidence",
+            "value": 80,
+            "weight": 15
+          },
+          {
+            "id": "release-readiness-ownership",
+            "value": 80,
+            "weight": 14
+          },
+          {
+            "id": "release-readiness-accuracy",
+            "value": 80,
+            "weight": 13
+          },
+          {
+            "id": "release-readiness-recency",
+            "value": 80,
+            "weight": 12
+          },
+          {
+            "id": "release-readiness-dependencies",
+            "value": 80,
+            "weight": 11
+          },
+          {
+            "id": "release-readiness-risk-control",
+            "value": 80,
+            "weight": 10
+          },
+          {
+            "id": "release-readiness-approval",
+            "value": 80,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "release-readiness",
+      "id": "release-readiness-partial",
+      "synthetic": true,
+      "values": {
+        "release-readiness-coverage": 60,
+        "release-readiness-evidence": 60,
+        "release-readiness-ownership": 60,
+        "release-readiness-accuracy": 60,
+        "release-readiness-recency": 60,
+        "release-readiness-dependencies": 60,
+        "release-readiness-risk-control": 60,
+        "release-readiness-approval": 60
+      },
+      "expected_score": 60,
+      "expected_decision": "CONDITIONAL",
+      "result": {
+        "ok": true,
+        "score": 60,
+        "decision": "CONDITIONAL",
+        "criteria": [
+          {
+            "id": "release-readiness-coverage",
+            "value": 60,
+            "weight": 16
+          },
+          {
+            "id": "release-readiness-evidence",
+            "value": 60,
+            "weight": 15
+          },
+          {
+            "id": "release-readiness-ownership",
+            "value": 60,
+            "weight": 14
+          },
+          {
+            "id": "release-readiness-accuracy",
+            "value": 60,
+            "weight": 13
+          },
+          {
+            "id": "release-readiness-recency",
+            "value": 60,
+            "weight": 12
+          },
+          {
+            "id": "release-readiness-dependencies",
+            "value": 60,
+            "weight": 11
+          },
+          {
+            "id": "release-readiness-risk-control",
+            "value": 60,
+            "weight": 10
+          },
+          {
+            "id": "release-readiness-approval",
+            "value": 60,
+            "weight": 9
+          }
+        ]
+      }
+    },
+    {
+      "scorecard_id": "release-readiness",
+      "id": "release-readiness-blocked",
+      "synthetic": true,
+      "values": {
+        "release-readiness-coverage": 30,
+        "release-readiness-evidence": 30,
+        "release-readiness-ownership": 30,
+        "release-readiness-accuracy": 30,
+        "release-readiness-recency": 30,
+        "release-readiness-dependencies": 30,
+        "release-readiness-risk-control": 30,
+        "release-readiness-approval": 30
+      },
+      "expected_score": 30,
+      "expected_decision": "HOLD",
+      "result": {
+        "ok": true,
+        "score": 30,
+        "decision": "HOLD",
+        "criteria": [
+          {
+            "id": "release-readiness-coverage",
+            "value": 30,
+            "weight": 16
+          },
+          {
+            "id": "release-readiness-evidence",
+            "value": 30,
+            "weight": 15
+          },
+          {
+            "id": "release-readiness-ownership",
+            "value": 30,
+            "weight": 14
+          },
+          {
+            "id": "release-readiness-accuracy",
+            "value": 30,
+            "weight": 13
+          },
+          {
+            "id": "release-readiness-recency",
+            "value": 30,
+            "weight": 12
+          },
+          {
+            "id": "release-readiness-dependencies",
+            "value": 30,
+            "weight": 11
+          },
+          {
+            "id": "release-readiness-risk-control",
+            "value": 30,
+            "weight": 10
+          },
+          {
+            "id": "release-readiness-approval",
+            "value": 30,
+            "weight": 9
+          }
+        ]
+      }
+    }
+  ]
+}
