@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://shar-production-open-tools.pages.dev/evidence-records/schemas/camera-report.schema.json",
+  "title": "SHAR Production Camera report evidence record",
+  "description": "Records camera roll, clip range and acquisition format.",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "record_id",
+    "created_at",
+    "project_id",
+    "status",
+    "clip_range"
+  ],
+  "properties": {
+    "record_id": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "project_id": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "clip_range": {
+      "type": "string"
+    }
+  }
+}

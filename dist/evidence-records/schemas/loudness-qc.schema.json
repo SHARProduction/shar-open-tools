@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://shar-production-open-tools.pages.dev/evidence-records/schemas/loudness-qc.schema.json",
+  "title": "SHAR Production Loudness QC evidence record",
+  "description": "Records measured programme loudness and true peak.",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "record_id",
+    "created_at",
+    "project_id",
+    "status",
+    "programme_lufs"
+  ],
+  "properties": {
+    "record_id": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "project_id": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "programme_lufs": {
+      "type": "number"
+    }
+  }
+}

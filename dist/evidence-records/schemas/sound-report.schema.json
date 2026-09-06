@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://shar-production-open-tools.pages.dev/evidence-records/schemas/sound-report.schema.json",
+  "title": "SHAR Production Sound report evidence record",
+  "description": "Records sound roll, sample rate and channel notes.",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "record_id",
+    "created_at",
+    "project_id",
+    "status",
+    "sample_rate_hz"
+  ],
+  "properties": {
+    "record_id": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "project_id": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "sample_rate_hz": {
+      "type": "number"
+    }
+  }
+}

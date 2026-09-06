@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://shar-production-open-tools.pages.dev/evidence-records/schemas/talent-consent.schema.json",
+  "title": "SHAR Production Talent consent evidence record",
+  "description": "Records consent scope, territory and expiry without storing media.",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "record_id",
+    "created_at",
+    "project_id",
+    "status",
+    "territory"
+  ],
+  "properties": {
+    "record_id": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "project_id": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "territory": {
+      "type": "string"
+    }
+  }
+}

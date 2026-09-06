@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://shar-production-open-tools.pages.dev/evidence-records/schemas/final-release-gate.schema.json",
+  "title": "SHAR Production Final release gate evidence record",
+  "description": "Records required gate results and final release decision.",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "record_id",
+    "created_at",
+    "project_id",
+    "status",
+    "decision"
+  ],
+  "properties": {
+    "record_id": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "project_id": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "decision": {
+      "type": "string"
+    }
+  }
+}

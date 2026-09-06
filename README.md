@@ -8,7 +8,7 @@ Publisher: **[SHAR Production](https://sharprod.com/)**.
 npm run check
 ```
 
-The output is written to `dist/` with `/en/` and `/ru/` directory routes. It also packages the bilingual SHAR Production Validation Error Explorer at `/error-explorer/en/` and `/error-explorer/ru/`. The build includes search and filters, evidence citations, canonical/hreflang metadata, robots, sitemap and truthful item-specific structured data. It contains no analytics, tracking scripts, submission forms or inferred performance claims.
+The output is written to `dist/` with `/en/` and `/ru/` directory routes. It also packages the bilingual SHAR Production Validation Error Explorer and 25 production evidence record contracts with 50 localized interactive pages. The build includes search and filters, evidence citations, canonical/hreflang metadata, robots, sitemap and truthful item-specific structured data. It contains no analytics, tracking scripts, submission forms or inferred performance claims.
 
 Primary public deployment: **https://shar-production-open-tools.pages.dev/en/** on Cloudflare Pages. The Hugging Face Static Space remains a verified mirror. Local builds use the planned base by default; deployments inject their exact HTTPS canonical through `SHAR_TOOLS_HUB_BASE`.
 

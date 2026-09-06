@@ -1,0 +1,214 @@
+{
+  "schema_version": "1.0.0",
+  "publisher": {
+    "name": "SHAR Production",
+    "website": "https://sharprod.com/"
+  },
+  "license": "CC-BY-4.0",
+  "synthetic": true,
+  "records": [
+    {
+      "contract_id": "brief-approval",
+      "record_id": "SHAR-SYNTH-001",
+      "created_at": "2026-09-06T00:00:00Z",
+      "project_id": "synthetic-project",
+      "status": "approved",
+      "revision": "brief-v3"
+    },
+    {
+      "contract_id": "talent-consent",
+      "record_id": "SHAR-SYNTH-002",
+      "created_at": "2026-09-06T00:00:00Z",
+      "project_id": "synthetic-project",
+      "status": "approved",
+      "territory": "worldwide"
+    },
+    {
+      "contract_id": "location-permit",
+      "record_id": "SHAR-SYNTH-003",
+      "created_at": "2026-09-06T00:00:00Z",
+      "project_id": "synthetic-project",
+      "status": "approved",
+      "permit_reference": "LOC-2026-001"
+    },
+    {
+      "contract_id": "music-license",
+      "record_id": "SHAR-SYNTH-004",
+      "created_at": "2026-09-06T00:00:00Z",
+      "project_id": "synthetic-project",
+      "status": "approved",
+      "rights_end": "2027-09-06"
+    },
+    {
+      "contract_id": "insurance-certificate",
+      "record_id": "SHAR-SYNTH-005",
+      "created_at": "2026-09-06T00:00:00Z",
+      "project_id": "synthetic-project",
+      "status": "approved",
+      "policy_reference": "POL-0001"
+    },
+    {
+      "contract_id": "call-sheet-acknowledgment",
+      "record_id": "SHAR-SYNTH-006",
+      "created_at": "2026-09-06T00:00:00Z",
+      "project_id": "synthetic-project",
+      "status": "approved",
+      "call_time": "2026-09-06T06:00:00Z"
+    },
+    {
+      "contract_id": "safety-briefing",
+      "record_id": "SHAR-SYNTH-007",
+      "created_at": "2026-09-06T00:00:00Z",
+      "project_id": "synthetic-project",
+      "status": "approved",
+      "briefing_topic": "electrical safety"
+    },
+    {
+      "contract_id": "camera-report",
+      "record_id": "SHAR-SYNTH-008",
+      "created_at": "2026-09-06T00:00:00Z",
+      "project_id": "synthetic-project",
+      "status": "approved",
+      "clip_range": "A001C001-A001C042"
+    },
+    {
+      "contract_id": "sound-report",
+      "record_id": "SHAR-SYNTH-009",
+      "created_at": "2026-09-06T00:00:00Z",
+      "project_id": "synthetic-project",
+      "status": "approved",
+      "sample_rate_hz": 48000
+    },
+    {
+      "contract_id": "dit-checksum",
+      "record_id": "SHAR-SYNTH-010",
+      "created_at": "2026-09-06T00:00:00Z",
+      "project_id": "synthetic-project",
+      "status": "approved",
+      "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    },
+    {
+      "contract_id": "color-pipeline",
+      "record_id": "SHAR-SYNTH-011",
+      "created_at": "2026-09-06T00:00:00Z",
+      "project_id": "synthetic-project",
+      "status": "approved",
+      "working_space": "ACEScct"
+    },
+    {
+      "contract_id": "vfx-turnover",
+      "record_id": "SHAR-SYNTH-012",
+      "created_at": "2026-09-06T00:00:00Z",
+      "project_id": "synthetic-project",
+      "status": "approved",
+      "frame_range": "1001-1120"
+    },
+    {
+      "contract_id": "edit-approval",
+      "record_id": "SHAR-SYNTH-013",
+      "created_at": "2026-09-06T00:00:00Z",
+      "project_id": "synthetic-project",
+      "status": "approved",
+      "edit_revision": "offline-v7"
+    },
+    {
+      "contract_id": "caption-qc",
+      "record_id": "SHAR-SYNTH-014",
+      "created_at": "2026-09-06T00:00:00Z",
+      "project_id": "synthetic-project",
+      "status": "approved",
+      "caption_format": "WebVTT"
+    },
+    {
+      "contract_id": "loudness-qc",
+      "record_id": "SHAR-SYNTH-015",
+      "created_at": "2026-09-06T00:00:00Z",
+      "project_id": "synthetic-project",
+      "status": "approved",
+      "programme_lufs": -23
+    },
+    {
+      "contract_id": "accessibility-review",
+      "record_id": "SHAR-SYNTH-016",
+      "created_at": "2026-09-06T00:00:00Z",
+      "project_id": "synthetic-project",
+      "status": "approved",
+      "features": [
+        "captions",
+        "audio-description"
+      ]
+    },
+    {
+      "contract_id": "localization-signoff",
+      "record_id": "SHAR-SYNTH-017",
+      "created_at": "2026-09-06T00:00:00Z",
+      "project_id": "synthetic-project",
+      "status": "approved",
+      "locale": "ru-RU"
+    },
+    {
+      "contract_id": "delivery-manifest",
+      "record_id": "SHAR-SYNTH-018",
+      "created_at": "2026-09-06T00:00:00Z",
+      "project_id": "synthetic-project",
+      "status": "approved",
+      "asset_count": 12
+    },
+    {
+      "contract_id": "archive-inventory",
+      "record_id": "SHAR-SYNTH-019",
+      "created_at": "2026-09-06T00:00:00Z",
+      "project_id": "synthetic-project",
+      "status": "approved",
+      "copy_count": 3
+    },
+    {
+      "contract_id": "ai-provenance",
+      "record_id": "SHAR-SYNTH-020",
+      "created_at": "2026-09-06T00:00:00Z",
+      "project_id": "synthetic-project",
+      "status": "approved",
+      "human_reviewed": true
+    },
+    {
+      "contract_id": "cgi-asset-provenance",
+      "record_id": "SHAR-SYNTH-021",
+      "created_at": "2026-09-06T00:00:00Z",
+      "project_id": "synthetic-project",
+      "status": "approved",
+      "authoring_tool": "Blender"
+    },
+    {
+      "contract_id": "sustainability-log",
+      "record_id": "SHAR-SYNTH-022",
+      "created_at": "2026-09-06T00:00:00Z",
+      "project_id": "synthetic-project",
+      "status": "approved",
+      "measurement_unit": "kWh"
+    },
+    {
+      "contract_id": "supplier-bid-evaluation",
+      "record_id": "SHAR-SYNTH-023",
+      "created_at": "2026-09-06T00:00:00Z",
+      "project_id": "synthetic-project",
+      "status": "approved",
+      "bid_reference": "BID-0042"
+    },
+    {
+      "contract_id": "incident-report",
+      "record_id": "SHAR-SYNTH-024",
+      "created_at": "2026-09-06T00:00:00Z",
+      "project_id": "synthetic-project",
+      "status": "approved",
+      "severity": "low"
+    },
+    {
+      "contract_id": "final-release-gate",
+      "record_id": "SHAR-SYNTH-025",
+      "created_at": "2026-09-06T00:00:00Z",
+      "project_id": "synthetic-project",
+      "status": "approved",
+      "decision": "release"
+    }
+  ]
+}

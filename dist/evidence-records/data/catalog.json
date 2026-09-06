@@ -1,0 +1,1263 @@
+{
+  "schema_version": "1.0.0",
+  "publisher": {
+    "name": "SHAR Production",
+    "website": "https://sharprod.com/"
+  },
+  "license": "MIT",
+  "records": [
+    {
+      "id": "brief-approval",
+      "title": {
+        "en": "Brief approval",
+        "ru": "Согласование брифа"
+      },
+      "purpose": {
+        "en": "Records who approved a production brief and which revision was accepted.",
+        "ru": "Фиксирует, кто согласовал продакшен-бриф и какая редакция принята."
+      },
+      "fields": [
+        {
+          "name": "record_id",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "created_at",
+          "type": "datetime",
+          "required": true
+        },
+        {
+          "name": "project_id",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "status",
+          "type": "enum",
+          "required": true
+        },
+        {
+          "name": "revision",
+          "type": "string",
+          "required": true
+        }
+      ],
+      "example": {
+        "record_id": "SHAR-SYNTH-001",
+        "created_at": "2026-09-06T00:00:00Z",
+        "project_id": "synthetic-project",
+        "status": "approved",
+        "revision": "brief-v3"
+      },
+      "example_is_synthetic": true,
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      }
+    },
+    {
+      "id": "talent-consent",
+      "title": {
+        "en": "Talent consent",
+        "ru": "Согласие участника"
+      },
+      "purpose": {
+        "en": "Records consent scope, territory and expiry without storing media.",
+        "ru": "Фиксирует объём согласия, территорию и срок без хранения медиа."
+      },
+      "fields": [
+        {
+          "name": "record_id",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "created_at",
+          "type": "datetime",
+          "required": true
+        },
+        {
+          "name": "project_id",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "status",
+          "type": "enum",
+          "required": true
+        },
+        {
+          "name": "territory",
+          "type": "string",
+          "required": true
+        }
+      ],
+      "example": {
+        "record_id": "SHAR-SYNTH-002",
+        "created_at": "2026-09-06T00:00:00Z",
+        "project_id": "synthetic-project",
+        "status": "approved",
+        "territory": "worldwide"
+      },
+      "example_is_synthetic": true,
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      }
+    },
+    {
+      "id": "location-permit",
+      "title": {
+        "en": "Location permit",
+        "ru": "Разрешение на локацию"
+      },
+      "purpose": {
+        "en": "Records the permitted location, dates and issuing authority.",
+        "ru": "Фиксирует разрешённую локацию, даты и орган выдачи."
+      },
+      "fields": [
+        {
+          "name": "record_id",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "created_at",
+          "type": "datetime",
+          "required": true
+        },
+        {
+          "name": "project_id",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "status",
+          "type": "enum",
+          "required": true
+        },
+        {
+          "name": "permit_reference",
+          "type": "string",
+          "required": true
+        }
+      ],
+      "example": {
+        "record_id": "SHAR-SYNTH-003",
+        "created_at": "2026-09-06T00:00:00Z",
+        "project_id": "synthetic-project",
+        "status": "approved",
+        "permit_reference": "LOC-2026-001"
+      },
+      "example_is_synthetic": true,
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      }
+    },
+    {
+      "id": "music-license",
+      "title": {
+        "en": "Music license",
+        "ru": "Лицензия на музыку"
+      },
+      "purpose": {
+        "en": "Records track usage rights, channels, territory and term.",
+        "ru": "Фиксирует права на трек, каналы, территорию и срок."
+      },
+      "fields": [
+        {
+          "name": "record_id",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "created_at",
+          "type": "datetime",
+          "required": true
+        },
+        {
+          "name": "project_id",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "status",
+          "type": "enum",
+          "required": true
+        },
+        {
+          "name": "rights_end",
+          "type": "date",
+          "required": true
+        }
+      ],
+      "example": {
+        "record_id": "SHAR-SYNTH-004",
+        "created_at": "2026-09-06T00:00:00Z",
+        "project_id": "synthetic-project",
+        "status": "approved",
+        "rights_end": "2027-09-06"
+      },
+      "example_is_synthetic": true,
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      }
+    },
+    {
+      "id": "insurance-certificate",
+      "title": {
+        "en": "Insurance certificate",
+        "ru": "Страховой сертификат"
+      },
+      "purpose": {
+        "en": "Records coverage reference and validity for a production.",
+        "ru": "Фиксирует покрытие и срок действия страховки для продакшена."
+      },
+      "fields": [
+        {
+          "name": "record_id",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "created_at",
+          "type": "datetime",
+          "required": true
+        },
+        {
+          "name": "project_id",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "status",
+          "type": "enum",
+          "required": true
+        },
+        {
+          "name": "policy_reference",
+          "type": "string",
+          "required": true
+        }
+      ],
+      "example": {
+        "record_id": "SHAR-SYNTH-005",
+        "created_at": "2026-09-06T00:00:00Z",
+        "project_id": "synthetic-project",
+        "status": "approved",
+        "policy_reference": "POL-0001"
+      },
+      "example_is_synthetic": true,
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      }
+    },
+    {
+      "id": "call-sheet-acknowledgment",
+      "title": {
+        "en": "Call sheet acknowledgment",
+        "ru": "Подтверждение call sheet"
+      },
+      "purpose": {
+        "en": "Records receipt of a dated call sheet revision.",
+        "ru": "Фиксирует получение датированной редакции call sheet."
+      },
+      "fields": [
+        {
+          "name": "record_id",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "created_at",
+          "type": "datetime",
+          "required": true
+        },
+        {
+          "name": "project_id",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "status",
+          "type": "enum",
+          "required": true
+        },
+        {
+          "name": "call_time",
+          "type": "datetime",
+          "required": true
+        }
+      ],
+      "example": {
+        "record_id": "SHAR-SYNTH-006",
+        "created_at": "2026-09-06T00:00:00Z",
+        "project_id": "synthetic-project",
+        "status": "approved",
+        "call_time": "2026-09-06T06:00:00Z"
+      },
+      "example_is_synthetic": true,
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      }
+    },
+    {
+      "id": "safety-briefing",
+      "title": {
+        "en": "Safety briefing",
+        "ru": "Инструктаж по безопасности"
+      },
+      "purpose": {
+        "en": "Records briefing topic, responsible lead and attendance state.",
+        "ru": "Фиксирует тему инструктажа, ответственного и участие."
+      },
+      "fields": [
+        {
+          "name": "record_id",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "created_at",
+          "type": "datetime",
+          "required": true
+        },
+        {
+          "name": "project_id",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "status",
+          "type": "enum",
+          "required": true
+        },
+        {
+          "name": "briefing_topic",
+          "type": "string",
+          "required": true
+        }
+      ],
+      "example": {
+        "record_id": "SHAR-SYNTH-007",
+        "created_at": "2026-09-06T00:00:00Z",
+        "project_id": "synthetic-project",
+        "status": "approved",
+        "briefing_topic": "electrical safety"
+      },
+      "example_is_synthetic": true,
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      }
+    },
+    {
+      "id": "camera-report",
+      "title": {
+        "en": "Camera report",
+        "ru": "Камерный отчёт"
+      },
+      "purpose": {
+        "en": "Records camera roll, clip range and acquisition format.",
+        "ru": "Фиксирует camera roll, диапазон клипов и формат съёмки."
+      },
+      "fields": [
+        {
+          "name": "record_id",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "created_at",
+          "type": "datetime",
+          "required": true
+        },
+        {
+          "name": "project_id",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "status",
+          "type": "enum",
+          "required": true
+        },
+        {
+          "name": "clip_range",
+          "type": "string",
+          "required": true
+        }
+      ],
+      "example": {
+        "record_id": "SHAR-SYNTH-008",
+        "created_at": "2026-09-06T00:00:00Z",
+        "project_id": "synthetic-project",
+        "status": "approved",
+        "clip_range": "A001C001-A001C042"
+      },
+      "example_is_synthetic": true,
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      }
+    },
+    {
+      "id": "sound-report",
+      "title": {
+        "en": "Sound report",
+        "ru": "Звуковой отчёт"
+      },
+      "purpose": {
+        "en": "Records sound roll, sample rate and channel notes.",
+        "ru": "Фиксирует sound roll, sample rate и заметки каналов."
+      },
+      "fields": [
+        {
+          "name": "record_id",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "created_at",
+          "type": "datetime",
+          "required": true
+        },
+        {
+          "name": "project_id",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "status",
+          "type": "enum",
+          "required": true
+        },
+        {
+          "name": "sample_rate_hz",
+          "type": "number",
+          "required": true
+        }
+      ],
+      "example": {
+        "record_id": "SHAR-SYNTH-009",
+        "created_at": "2026-09-06T00:00:00Z",
+        "project_id": "synthetic-project",
+        "status": "approved",
+        "sample_rate_hz": 48000
+      },
+      "example_is_synthetic": true,
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      }
+    },
+    {
+      "id": "dit-checksum",
+      "title": {
+        "en": "DIT checksum",
+        "ru": "Контрольная сумма DIT"
+      },
+      "purpose": {
+        "en": "Records a verified SHA-256 transfer digest and source set.",
+        "ru": "Фиксирует проверенный SHA-256 переноса и исходный набор."
+      },
+      "fields": [
+        {
+          "name": "record_id",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "created_at",
+          "type": "datetime",
+          "required": true
+        },
+        {
+          "name": "project_id",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "status",
+          "type": "enum",
+          "required": true
+        },
+        {
+          "name": "sha256",
+          "type": "sha256",
+          "required": true
+        }
+      ],
+      "example": {
+        "record_id": "SHAR-SYNTH-010",
+        "created_at": "2026-09-06T00:00:00Z",
+        "project_id": "synthetic-project",
+        "status": "approved",
+        "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      },
+      "example_is_synthetic": true,
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      }
+    },
+    {
+      "id": "color-pipeline",
+      "title": {
+        "en": "Color pipeline",
+        "ru": "Цветовой pipeline"
+      },
+      "purpose": {
+        "en": "Records input color space, working space and viewing transform.",
+        "ru": "Фиксирует входное, рабочее цветовое пространство и transform просмотра."
+      },
+      "fields": [
+        {
+          "name": "record_id",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "created_at",
+          "type": "datetime",
+          "required": true
+        },
+        {
+          "name": "project_id",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "status",
+          "type": "enum",
+          "required": true
+        },
+        {
+          "name": "working_space",
+          "type": "string",
+          "required": true
+        }
+      ],
+      "example": {
+        "record_id": "SHAR-SYNTH-011",
+        "created_at": "2026-09-06T00:00:00Z",
+        "project_id": "synthetic-project",
+        "status": "approved",
+        "working_space": "ACEScct"
+      },
+      "example_is_synthetic": true,
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      }
+    },
+    {
+      "id": "vfx-turnover",
+      "title": {
+        "en": "VFX turnover",
+        "ru": "Передача VFX"
+      },
+      "purpose": {
+        "en": "Records turnover package, frame range and handles.",
+        "ru": "Фиксирует пакет VFX, диапазон кадров и handles."
+      },
+      "fields": [
+        {
+          "name": "record_id",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "created_at",
+          "type": "datetime",
+          "required": true
+        },
+        {
+          "name": "project_id",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "status",
+          "type": "enum",
+          "required": true
+        },
+        {
+          "name": "frame_range",
+          "type": "string",
+          "required": true
+        }
+      ],
+      "example": {
+        "record_id": "SHAR-SYNTH-012",
+        "created_at": "2026-09-06T00:00:00Z",
+        "project_id": "synthetic-project",
+        "status": "approved",
+        "frame_range": "1001-1120"
+      },
+      "example_is_synthetic": true,
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      }
+    },
+    {
+      "id": "edit-approval",
+      "title": {
+        "en": "Edit approval",
+        "ru": "Согласование монтажа"
+      },
+      "purpose": {
+        "en": "Records the approved edit revision and decision state.",
+        "ru": "Фиксирует согласованную редакцию монтажа и решение."
+      },
+      "fields": [
+        {
+          "name": "record_id",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "created_at",
+          "type": "datetime",
+          "required": true
+        },
+        {
+          "name": "project_id",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "status",
+          "type": "enum",
+          "required": true
+        },
+        {
+          "name": "edit_revision",
+          "type": "string",
+          "required": true
+        }
+      ],
+      "example": {
+        "record_id": "SHAR-SYNTH-013",
+        "created_at": "2026-09-06T00:00:00Z",
+        "project_id": "synthetic-project",
+        "status": "approved",
+        "edit_revision": "offline-v7"
+      },
+      "example_is_synthetic": true,
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      }
+    },
+    {
+      "id": "caption-qc",
+      "title": {
+        "en": "Caption QC",
+        "ru": "QC субтитров"
+      },
+      "purpose": {
+        "en": "Records caption format, language and validation result.",
+        "ru": "Фиксирует формат субтитров, язык и результат проверки."
+      },
+      "fields": [
+        {
+          "name": "record_id",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "created_at",
+          "type": "datetime",
+          "required": true
+        },
+        {
+          "name": "project_id",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "status",
+          "type": "enum",
+          "required": true
+        },
+        {
+          "name": "caption_format",
+          "type": "string",
+          "required": true
+        }
+      ],
+      "example": {
+        "record_id": "SHAR-SYNTH-014",
+        "created_at": "2026-09-06T00:00:00Z",
+        "project_id": "synthetic-project",
+        "status": "approved",
+        "caption_format": "WebVTT"
+      },
+      "example_is_synthetic": true,
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      }
+    },
+    {
+      "id": "loudness-qc",
+      "title": {
+        "en": "Loudness QC",
+        "ru": "QC громкости"
+      },
+      "purpose": {
+        "en": "Records measured programme loudness and true peak.",
+        "ru": "Фиксирует измеренную программную громкость и true peak."
+      },
+      "fields": [
+        {
+          "name": "record_id",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "created_at",
+          "type": "datetime",
+          "required": true
+        },
+        {
+          "name": "project_id",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "status",
+          "type": "enum",
+          "required": true
+        },
+        {
+          "name": "programme_lufs",
+          "type": "number",
+          "required": true
+        }
+      ],
+      "example": {
+        "record_id": "SHAR-SYNTH-015",
+        "created_at": "2026-09-06T00:00:00Z",
+        "project_id": "synthetic-project",
+        "status": "approved",
+        "programme_lufs": -23
+      },
+      "example_is_synthetic": true,
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      }
+    },
+    {
+      "id": "accessibility-review",
+      "title": {
+        "en": "Accessibility review",
+        "ru": "Проверка доступности"
+      },
+      "purpose": {
+        "en": "Records reviewed accessibility features and unresolved issues.",
+        "ru": "Фиксирует проверенные функции доступности и нерешённые вопросы."
+      },
+      "fields": [
+        {
+          "name": "record_id",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "created_at",
+          "type": "datetime",
+          "required": true
+        },
+        {
+          "name": "project_id",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "status",
+          "type": "enum",
+          "required": true
+        },
+        {
+          "name": "features",
+          "type": "array",
+          "required": true
+        }
+      ],
+      "example": {
+        "record_id": "SHAR-SYNTH-016",
+        "created_at": "2026-09-06T00:00:00Z",
+        "project_id": "synthetic-project",
+        "status": "approved",
+        "features": [
+          "captions",
+          "audio-description"
+        ]
+      },
+      "example_is_synthetic": true,
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      }
+    },
+    {
+      "id": "localization-signoff",
+      "title": {
+        "en": "Localization signoff",
+        "ru": "Приёмка локализации"
+      },
+      "purpose": {
+        "en": "Records locale, reviewer and approved localization revision.",
+        "ru": "Фиксирует локаль, проверяющего и принятую редакцию локализации."
+      },
+      "fields": [
+        {
+          "name": "record_id",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "created_at",
+          "type": "datetime",
+          "required": true
+        },
+        {
+          "name": "project_id",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "status",
+          "type": "enum",
+          "required": true
+        },
+        {
+          "name": "locale",
+          "type": "string",
+          "required": true
+        }
+      ],
+      "example": {
+        "record_id": "SHAR-SYNTH-017",
+        "created_at": "2026-09-06T00:00:00Z",
+        "project_id": "synthetic-project",
+        "status": "approved",
+        "locale": "ru-RU"
+      },
+      "example_is_synthetic": true,
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      }
+    },
+    {
+      "id": "delivery-manifest",
+      "title": {
+        "en": "Delivery manifest",
+        "ru": "Манифест поставки"
+      },
+      "purpose": {
+        "en": "Records manifest identifier, asset count and package checksum.",
+        "ru": "Фиксирует ID манифеста, число активов и checksum пакета."
+      },
+      "fields": [
+        {
+          "name": "record_id",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "created_at",
+          "type": "datetime",
+          "required": true
+        },
+        {
+          "name": "project_id",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "status",
+          "type": "enum",
+          "required": true
+        },
+        {
+          "name": "asset_count",
+          "type": "number",
+          "required": true
+        }
+      ],
+      "example": {
+        "record_id": "SHAR-SYNTH-018",
+        "created_at": "2026-09-06T00:00:00Z",
+        "project_id": "synthetic-project",
+        "status": "approved",
+        "asset_count": 12
+      },
+      "example_is_synthetic": true,
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      }
+    },
+    {
+      "id": "archive-inventory",
+      "title": {
+        "en": "Archive inventory",
+        "ru": "Инвентарь архива"
+      },
+      "purpose": {
+        "en": "Records archive roles, storage copies and integrity review.",
+        "ru": "Фиксирует роли архива, копии хранения и проверку целостности."
+      },
+      "fields": [
+        {
+          "name": "record_id",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "created_at",
+          "type": "datetime",
+          "required": true
+        },
+        {
+          "name": "project_id",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "status",
+          "type": "enum",
+          "required": true
+        },
+        {
+          "name": "copy_count",
+          "type": "number",
+          "required": true
+        }
+      ],
+      "example": {
+        "record_id": "SHAR-SYNTH-019",
+        "created_at": "2026-09-06T00:00:00Z",
+        "project_id": "synthetic-project",
+        "status": "approved",
+        "copy_count": 3
+      },
+      "example_is_synthetic": true,
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      }
+    },
+    {
+      "id": "ai-provenance",
+      "title": {
+        "en": "AI provenance",
+        "ru": "Происхождение AI"
+      },
+      "purpose": {
+        "en": "Records declared AI-assisted operation, model family and human review.",
+        "ru": "Фиксирует заявленную AI-операцию, семейство модели и человеческую проверку."
+      },
+      "fields": [
+        {
+          "name": "record_id",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "created_at",
+          "type": "datetime",
+          "required": true
+        },
+        {
+          "name": "project_id",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "status",
+          "type": "enum",
+          "required": true
+        },
+        {
+          "name": "human_reviewed",
+          "type": "boolean",
+          "required": true
+        }
+      ],
+      "example": {
+        "record_id": "SHAR-SYNTH-020",
+        "created_at": "2026-09-06T00:00:00Z",
+        "project_id": "synthetic-project",
+        "status": "approved",
+        "human_reviewed": true
+      },
+      "example_is_synthetic": true,
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      }
+    },
+    {
+      "id": "cgi-asset-provenance",
+      "title": {
+        "en": "CGI asset provenance",
+        "ru": "Происхождение CGI-актива"
+      },
+      "purpose": {
+        "en": "Records CGI source, authoring tool and licensing reference.",
+        "ru": "Фиксирует источник CGI, инструмент создания и ссылку на лицензию."
+      },
+      "fields": [
+        {
+          "name": "record_id",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "created_at",
+          "type": "datetime",
+          "required": true
+        },
+        {
+          "name": "project_id",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "status",
+          "type": "enum",
+          "required": true
+        },
+        {
+          "name": "authoring_tool",
+          "type": "string",
+          "required": true
+        }
+      ],
+      "example": {
+        "record_id": "SHAR-SYNTH-021",
+        "created_at": "2026-09-06T00:00:00Z",
+        "project_id": "synthetic-project",
+        "status": "approved",
+        "authoring_tool": "Blender"
+      },
+      "example_is_synthetic": true,
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      }
+    },
+    {
+      "id": "sustainability-log",
+      "title": {
+        "en": "Sustainability log",
+        "ru": "Журнал устойчивости"
+      },
+      "purpose": {
+        "en": "Records measured production activity and declared unit.",
+        "ru": "Фиксирует измеренную производственную активность и единицу."
+      },
+      "fields": [
+        {
+          "name": "record_id",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "created_at",
+          "type": "datetime",
+          "required": true
+        },
+        {
+          "name": "project_id",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "status",
+          "type": "enum",
+          "required": true
+        },
+        {
+          "name": "measurement_unit",
+          "type": "string",
+          "required": true
+        }
+      ],
+      "example": {
+        "record_id": "SHAR-SYNTH-022",
+        "created_at": "2026-09-06T00:00:00Z",
+        "project_id": "synthetic-project",
+        "status": "approved",
+        "measurement_unit": "kWh"
+      },
+      "example_is_synthetic": true,
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      }
+    },
+    {
+      "id": "supplier-bid-evaluation",
+      "title": {
+        "en": "Supplier bid evaluation",
+        "ru": "Оценка предложения поставщика"
+      },
+      "purpose": {
+        "en": "Records criteria, bid reference and review decision.",
+        "ru": "Фиксирует критерии, ссылку на предложение и решение."
+      },
+      "fields": [
+        {
+          "name": "record_id",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "created_at",
+          "type": "datetime",
+          "required": true
+        },
+        {
+          "name": "project_id",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "status",
+          "type": "enum",
+          "required": true
+        },
+        {
+          "name": "bid_reference",
+          "type": "string",
+          "required": true
+        }
+      ],
+      "example": {
+        "record_id": "SHAR-SYNTH-023",
+        "created_at": "2026-09-06T00:00:00Z",
+        "project_id": "synthetic-project",
+        "status": "approved",
+        "bid_reference": "BID-0042"
+      },
+      "example_is_synthetic": true,
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      }
+    },
+    {
+      "id": "incident-report",
+      "title": {
+        "en": "Incident report",
+        "ru": "Отчёт об инциденте"
+      },
+      "purpose": {
+        "en": "Records incident time, severity and follow-up state without medical detail.",
+        "ru": "Фиксирует время, уровень и follow-up инцидента без медицинских данных."
+      },
+      "fields": [
+        {
+          "name": "record_id",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "created_at",
+          "type": "datetime",
+          "required": true
+        },
+        {
+          "name": "project_id",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "status",
+          "type": "enum",
+          "required": true
+        },
+        {
+          "name": "severity",
+          "type": "enum",
+          "required": true
+        }
+      ],
+      "example": {
+        "record_id": "SHAR-SYNTH-024",
+        "created_at": "2026-09-06T00:00:00Z",
+        "project_id": "synthetic-project",
+        "status": "approved",
+        "severity": "low"
+      },
+      "example_is_synthetic": true,
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      }
+    },
+    {
+      "id": "final-release-gate",
+      "title": {
+        "en": "Final release gate",
+        "ru": "Финальный release gate"
+      },
+      "purpose": {
+        "en": "Records required gate results and final release decision.",
+        "ru": "Фиксирует результаты обязательных gates и итоговое решение о выпуске."
+      },
+      "fields": [
+        {
+          "name": "record_id",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "created_at",
+          "type": "datetime",
+          "required": true
+        },
+        {
+          "name": "project_id",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "status",
+          "type": "enum",
+          "required": true
+        },
+        {
+          "name": "decision",
+          "type": "enum",
+          "required": true
+        }
+      ],
+      "example": {
+        "record_id": "SHAR-SYNTH-025",
+        "created_at": "2026-09-06T00:00:00Z",
+        "project_id": "synthetic-project",
+        "status": "approved",
+        "decision": "release"
+      },
+      "example_is_synthetic": true,
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      }
+    }
+  ]
+}
