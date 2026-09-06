@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0.0",
+  "submitted_at": "2026-09-06T09:18:36Z",
+  "publisher": {"name": "SHAR Production", "website": "https://sharprod.com/"},
+  "release": "v1.30.10",
+  "deployment_id": "0a8e5275-19d1-4702-93a0-9e5620095544",
+  "deployment_commit": "c67954e3a94f8fd5ab6be7d29e446f19e6efc216",
+  "endpoint": "https://api.indexnow.org/indexnow",
+  "request": {
+    "host": "shar-production-open-tools.pages.dev",
+    "keyLocation": "https://shar-production-open-tools.pages.dev/7a5a4e4e1a29ee349bde0526a88baa8c.txt",
+    "urls": ["https://shar-production-open-tools.pages.dev/en/", "https://shar-production-open-tools.pages.dev/ru/"]
+  },
+  "responses": [
+    {"prefix": "https://shar-production-open-tools.pages.dev/en/", "url_count": 1, "url_list_sha256": "260658a3ea4faaa08af1ae1d469f4345c66c341d5ddc56e0c9eb41b0292ea99c", "http_status": 200, "meaning": "SUBMISSION_ACCEPTED_INDEXING_NOT_GUARANTEED"},
+    {"prefix": "https://shar-production-open-tools.pages.dev/ru/", "url_count": 1, "url_list_sha256": "c484ffb043eb4c028bb80d38722f89fb376ba2e604a6d2c6d8b06f3d62d87424", "http_status": 200, "meaning": "SUBMISSION_ACCEPTED_INDEXING_NOT_GUARANTEED"}
+  ],
+  "status": "SUBMISSION_ACCEPTED",
+  "meaning": "SUBMISSION_ACCEPTED_INDEXING_NOT_GUARANTEED",
+  "cost_usd": 0
+}
