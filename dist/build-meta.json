@@ -13,6 +13,7 @@
     "verificationWorkflows": "bde799e2429ea9b603c5ba2b529f389073e9bda4652567bc4e16a46091d34e82",
     "conformanceCatalog": "dcb6046191c91f298b7460771abce768593350fe9f81b0436ed2055c79467d13",
     "readinessScorecards": "84ef234aa17cab8d31e03ceec8fedfa9de455ccf5ea4703b65981e2e28afc6a2",
-    "indexNowConfig": "37ce8939d41e142ba1390f806b3c0d2f653a6979f64ac24bef37fd3b86ac9259"
+    "indexNowConfig": "37ce8939d41e142ba1390f806b3c0d2f653a6979f64ac24bef37fd3b86ac9259",
+    "indexingObservatory": "045f55afe3caadd1b10edbedff9f97804aec776c2626c1c9659dbb09ea515089"
   }
 }
