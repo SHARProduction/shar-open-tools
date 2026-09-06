@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0.0",
+  "submitted_at": "2026-09-06T09:36:54Z",
+  "publisher": {"name": "SHAR Production", "website": "https://sharprod.com/"},
+  "release": "v1.30.11",
+  "deployment_id": "9b59cff0-1a55-4fdf-b1ff-02a020f0eb4f",
+  "deployment_commit": "b058deaafa032b68d7306a34d106905435c2d4d3",
+  "endpoint": "https://api.indexnow.org/indexnow",
+  "request": {
+    "host": "shar-production-open-tools.pages.dev",
+    "keyLocation": "https://shar-production-open-tools.pages.dev/7a5a4e4e1a29ee349bde0526a88baa8c.txt",
+    "urls": ["https://shar-production-open-tools.pages.dev/en/", "https://shar-production-open-tools.pages.dev/ru/"]
+  },
+  "responses": [
+    {"prefix": "https://shar-production-open-tools.pages.dev/en/", "url_count": 1, "url_list_sha256": "260658a3ea4faaa08af1ae1d469f4345c66c341d5ddc56e0c9eb41b0292ea99c", "http_status": 200, "meaning": "SUBMISSION_ACCEPTED_INDEXING_NOT_GUARANTEED"},
+    {"prefix": "https://shar-production-open-tools.pages.dev/ru/", "url_count": 1, "url_list_sha256": "c484ffb043eb4c028bb80d38722f89fb376ba2e604a6d2c6d8b06f3d62d87424", "http_status": 200, "meaning": "SUBMISSION_ACCEPTED_INDEXING_NOT_GUARANTEED"}
+  ],
+  "live_verification": {
+    "en": {"http_status": 200, "canonical": "https://shar-production-open-tools.pages.dev/en/", "roadmap_release": "v1.7.8", "viewport_width": 390, "horizontal_overflow": false},
+    "ru": {"http_status": 200, "canonical": "https://shar-production-open-tools.pages.dev/ru/", "roadmap_release": "v1.7.8", "viewport_width": 390, "horizontal_overflow": false}
+  },
+  "status": "PUBLISHED_VERIFIED",
+  "meaning": "SUBMISSION_ACCEPTED_INDEXING_NOT_GUARANTEED",
+  "cost_usd": 0
+}
