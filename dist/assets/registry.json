@@ -4,7 +4,7 @@
     "registry": {
       "id": "SHAR_PUBLIC_ASSET_REGISTRY",
       "version": "1.0.0",
-      "updatedAt": "2026-09-05T23:43:28Z"
+      "updatedAt": "2026-09-06T04:44:26Z"
     },
     "toolFactory": {
       "name": "@shar-production/tool-factory",
@@ -3292,6 +3292,72 @@
         "All 68 EN/RU pages returned HTTP 200 with unique exact canonicals, indexable robots metadata and valid JSON-LD.",
         "Root and sitemap expose 22 tools in 11 families; robots.txt and sitemap.xml returned HTTP 200.",
         "Playwright at an exact 390px viewport measured innerWidth, document scrollWidth and body scrollWidth as 390; the live public release readiness gate returned valid=true with decision RELEASE and no missing gates."
+      ]
+    },
+    {
+      "assetId": "shar-public.asset.github.entity-knowledge-graph",
+      "type": "github_repository",
+      "title": {
+        "en": "SHAR Production Entity Knowledge Graph",
+        "ru": "Граф сущностей SHAR Production"
+      },
+      "category": "open-source",
+      "url": "https://github.com/SHARProduction/production-entity-knowledge-graph",
+      "status": "PUBLISHED_VERIFIED",
+      "license": "MIT",
+      "version": {
+        "kind": "release_tag",
+        "value": "v1.0.0"
+      },
+      "verifiedAt": "2026-09-06T04:44:26Z",
+      "evidence": [
+        "Public repository and v1.0.0 release returned HTTP 200.",
+        "README contains SHAR Production and https://sharprod.com/.",
+        "Validation passes for 14 nodes, 14 provenance-backed edges and zero sameAs relations."
+      ]
+    },
+    {
+      "assetId": "shar-public.asset.hf.entity-knowledge-graph",
+      "type": "huggingface_dataset",
+      "title": {
+        "en": "SHAR Production Entity Knowledge Graph Dataset",
+        "ru": "Датасет графа сущностей SHAR Production"
+      },
+      "category": "dataset",
+      "url": "https://huggingface.co/datasets/SHARProduction/production-entity-knowledge-graph",
+      "status": "PUBLISHED_VERIFIED",
+      "license": "CC-BY-4.0",
+      "version": {
+        "kind": "provider_commit",
+        "value": "42041eda6fc7767b2f77c3f56a3732f75c85b05d"
+      },
+      "verifiedAt": "2026-09-06T04:44:26Z",
+      "evidence": [
+        "Hugging Face API reports a public enabled dataset at the exact provider commit.",
+        "Dataset card contains SHAR Production, https://sharprod.com/ and CC-BY-4.0 metadata.",
+        "graph.json, nodes.jsonl and edges.jsonl returned HTTP 200."
+      ]
+    },
+    {
+      "assetId": "shar-public.asset.cloudflare.entity-knowledge-graph",
+      "type": "browser_tool",
+      "title": {
+        "en": "SHAR Production Entity Evidence Graph Explorer",
+        "ru": "Браузерный граф доказательств SHAR Production"
+      },
+      "category": "tool",
+      "url": "https://shar-production-open-tools.pages.dev/entity-graph/en/",
+      "status": "PUBLISHED_VERIFIED",
+      "license": "MIT",
+      "version": {
+        "kind": "content_sha256",
+        "value": "4e1393983d2b5e0b9a04dc6c4e29453cf8532ec14ce4a15039763c55a0a10bde"
+      },
+      "verifiedAt": "2026-09-06T04:44:26Z",
+      "evidence": [
+        "EN and RU routes, graph JSON and sitemap entries returned HTTP 200.",
+        "Exact canonicals, index,follow metadata, SHAR Production and https://sharprod.com/ were observed.",
+        "Browser evidence filter worked; 390px viewport had 390px document width with no horizontal overflow."
       ]
     }
   ]
