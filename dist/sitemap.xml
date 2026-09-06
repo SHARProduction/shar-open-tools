@@ -56,4 +56,56 @@
   <url><loc>https://shar-production-open-tools.pages.dev/evidence-records/ru/final-release-gate/</loc></url>
   <url><loc>https://shar-production-open-tools.pages.dev/evidence-records/en/</loc></url>
   <url><loc>https://shar-production-open-tools.pages.dev/evidence-records/ru/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/verification-workflows/en/brief-intake-triage/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/verification-workflows/en/stakeholder-approval-routing/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/verification-workflows/en/rights-window-preflight/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/verification-workflows/en/talent-consent-reconciliation/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/verification-workflows/en/location-permit-readiness/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/verification-workflows/en/supplier-onboarding/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/verification-workflows/en/purchase-order-reconciliation/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/verification-workflows/en/call-sheet-release/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/verification-workflows/en/crew-safety-acknowledgment/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/verification-workflows/en/camera-to-dit-handoff/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/verification-workflows/en/sound-roll-ingest/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/verification-workflows/en/checksum-transfer-verification/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/verification-workflows/en/proxy-generation-handoff/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/verification-workflows/en/edit-turnover/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/verification-workflows/en/vfx-pull-roundtrip/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/verification-workflows/en/color-turnover/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/verification-workflows/en/mix-turnover/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/verification-workflows/en/caption-localization-qc/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/verification-workflows/en/accessibility-acceptance/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/verification-workflows/en/multi-locale-delivery/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/verification-workflows/en/platform-export-acceptance/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/verification-workflows/en/client-release-approval/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/verification-workflows/en/archive-three-copy-verification/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/verification-workflows/en/incident-followup-closure/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/verification-workflows/en/campaign-release-evidence/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/verification-workflows/ru/brief-intake-triage/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/verification-workflows/ru/stakeholder-approval-routing/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/verification-workflows/ru/rights-window-preflight/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/verification-workflows/ru/talent-consent-reconciliation/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/verification-workflows/ru/location-permit-readiness/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/verification-workflows/ru/supplier-onboarding/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/verification-workflows/ru/purchase-order-reconciliation/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/verification-workflows/ru/call-sheet-release/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/verification-workflows/ru/crew-safety-acknowledgment/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/verification-workflows/ru/camera-to-dit-handoff/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/verification-workflows/ru/sound-roll-ingest/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/verification-workflows/ru/checksum-transfer-verification/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/verification-workflows/ru/proxy-generation-handoff/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/verification-workflows/ru/edit-turnover/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/verification-workflows/ru/vfx-pull-roundtrip/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/verification-workflows/ru/color-turnover/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/verification-workflows/ru/mix-turnover/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/verification-workflows/ru/caption-localization-qc/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/verification-workflows/ru/accessibility-acceptance/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/verification-workflows/ru/multi-locale-delivery/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/verification-workflows/ru/platform-export-acceptance/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/verification-workflows/ru/client-release-approval/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/verification-workflows/ru/archive-three-copy-verification/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/verification-workflows/ru/incident-followup-closure/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/verification-workflows/ru/campaign-release-evidence/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/verification-workflows/en/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/verification-workflows/ru/</loc></url>
 </urlset>

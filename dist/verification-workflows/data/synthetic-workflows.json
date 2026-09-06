@@ -1,0 +1,194 @@
+{
+  "schema_version": "1.0.0",
+  "publisher": {
+    "name": "SHAR Production",
+    "website": "https://sharprod.com/"
+  },
+  "license": "CC-BY-4.0",
+  "synthetic": true,
+  "workflows": [
+    {
+      "workflow_id": "brief-intake-triage",
+      "input": {
+        "project_id": "SHAR-SYNTH-001",
+        "brief_revision": "v3"
+      }
+    },
+    {
+      "workflow_id": "stakeholder-approval-routing",
+      "input": {
+        "project_id": "SHAR-SYNTH-002",
+        "approval_chain": [
+          "producer",
+          "client"
+        ]
+      }
+    },
+    {
+      "workflow_id": "rights-window-preflight",
+      "input": {
+        "project_id": "SHAR-SYNTH-003",
+        "rights_end": "2027-09-06"
+      }
+    },
+    {
+      "workflow_id": "talent-consent-reconciliation",
+      "input": {
+        "project_id": "SHAR-SYNTH-004",
+        "consent_scope": "digital worldwide"
+      }
+    },
+    {
+      "workflow_id": "location-permit-readiness",
+      "input": {
+        "project_id": "SHAR-SYNTH-005",
+        "permit_reference": "LOC-001"
+      }
+    },
+    {
+      "workflow_id": "supplier-onboarding",
+      "input": {
+        "project_id": "SHAR-SYNTH-006",
+        "supplier_reference": "SUP-001"
+      }
+    },
+    {
+      "workflow_id": "purchase-order-reconciliation",
+      "input": {
+        "project_id": "SHAR-SYNTH-007",
+        "purchase_order": "PO-001"
+      }
+    },
+    {
+      "workflow_id": "call-sheet-release",
+      "input": {
+        "project_id": "SHAR-SYNTH-008",
+        "call_sheet_revision": "cs-v4"
+      }
+    },
+    {
+      "workflow_id": "crew-safety-acknowledgment",
+      "input": {
+        "project_id": "SHAR-SYNTH-009",
+        "briefing_reference": "SAFE-001"
+      }
+    },
+    {
+      "workflow_id": "camera-to-dit-handoff",
+      "input": {
+        "project_id": "SHAR-SYNTH-010",
+        "camera_roll": "A001"
+      }
+    },
+    {
+      "workflow_id": "sound-roll-ingest",
+      "input": {
+        "project_id": "SHAR-SYNTH-011",
+        "sound_roll": "SR001"
+      }
+    },
+    {
+      "workflow_id": "checksum-transfer-verification",
+      "input": {
+        "project_id": "SHAR-SYNTH-012",
+        "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      }
+    },
+    {
+      "workflow_id": "proxy-generation-handoff",
+      "input": {
+        "project_id": "SHAR-SYNTH-013",
+        "proxy_set": "proxy-v1"
+      }
+    },
+    {
+      "workflow_id": "edit-turnover",
+      "input": {
+        "project_id": "SHAR-SYNTH-014",
+        "edit_revision": "offline-v8"
+      }
+    },
+    {
+      "workflow_id": "vfx-pull-roundtrip",
+      "input": {
+        "project_id": "SHAR-SYNTH-015",
+        "pull_list": "vfx-pull-03"
+      }
+    },
+    {
+      "workflow_id": "color-turnover",
+      "input": {
+        "project_id": "SHAR-SYNTH-016",
+        "color_space": "ACEScct"
+      }
+    },
+    {
+      "workflow_id": "mix-turnover",
+      "input": {
+        "project_id": "SHAR-SYNTH-017",
+        "loudness_target_lufs": -23
+      }
+    },
+    {
+      "workflow_id": "caption-localization-qc",
+      "input": {
+        "project_id": "SHAR-SYNTH-018",
+        "caption_locale": "ru-RU"
+      }
+    },
+    {
+      "workflow_id": "accessibility-acceptance",
+      "input": {
+        "project_id": "SHAR-SYNTH-019",
+        "accessibility_features": [
+          "captions"
+        ]
+      }
+    },
+    {
+      "workflow_id": "multi-locale-delivery",
+      "input": {
+        "project_id": "SHAR-SYNTH-020",
+        "required_locales": [
+          "en-US",
+          "ru-RU"
+        ]
+      }
+    },
+    {
+      "workflow_id": "platform-export-acceptance",
+      "input": {
+        "project_id": "SHAR-SYNTH-021",
+        "platform_preset": "web-1080p"
+      }
+    },
+    {
+      "workflow_id": "client-release-approval",
+      "input": {
+        "project_id": "SHAR-SYNTH-022",
+        "release_revision": "master-v2"
+      }
+    },
+    {
+      "workflow_id": "archive-three-copy-verification",
+      "input": {
+        "project_id": "SHAR-SYNTH-023",
+        "copy_count": 3
+      }
+    },
+    {
+      "workflow_id": "incident-followup-closure",
+      "input": {
+        "project_id": "SHAR-SYNTH-024",
+        "incident_reference": "INC-001"
+      }
+    },
+    {
+      "workflow_id": "campaign-release-evidence",
+      "input": {
+        "project_id": "SHAR-SYNTH-025",
+        "release_url": "https://example.invalid/synthetic-release"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1668 @@
+{
+  "schema_version": "1.0.0",
+  "publisher": {
+    "name": "SHAR Production",
+    "website": "https://sharprod.com/"
+  },
+  "license": "MIT",
+  "workflows": [
+    {
+      "id": "brief-intake-triage",
+      "title": {
+        "en": "Brief intake triage",
+        "ru": "Триаж входящего брифа"
+      },
+      "purpose": {
+        "en": "Checks brief identity, revision and required decision owners.",
+        "ru": "Проверяет ID брифа, редакцию и обязательных владельцев решений."
+      },
+      "required_inputs": [
+        "project_id",
+        "brief_revision"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "title": {
+            "en": "Normalize input",
+            "ru": "Нормализовать вход"
+          },
+          "operation": "normalize"
+        },
+        {
+          "order": 2,
+          "title": {
+            "en": "Check required evidence",
+            "ru": "Проверить обязательные доказательства"
+          },
+          "operation": "require"
+        },
+        {
+          "order": 3,
+          "title": {
+            "en": "Apply workflow rule",
+            "ru": "Применить правило workflow"
+          },
+          "operation": "verify_brief_intake_triage"
+        },
+        {
+          "order": 4,
+          "title": {
+            "en": "Build decision record",
+            "ru": "Сформировать запись решения"
+          },
+          "operation": "record"
+        },
+        {
+          "order": 5,
+          "title": {
+            "en": "Return auditable result",
+            "ru": "Вернуть проверяемый результат"
+          },
+          "operation": "return"
+        }
+      ],
+      "example": {
+        "project_id": "SHAR-SYNTH-001",
+        "brief_revision": "v3"
+      },
+      "example_is_synthetic": true,
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      }
+    },
+    {
+      "id": "stakeholder-approval-routing",
+      "title": {
+        "en": "Stakeholder approval routing",
+        "ru": "Маршрутизация согласований"
+      },
+      "purpose": {
+        "en": "Routes a revision through declared approval roles in order.",
+        "ru": "Проводит редакцию через заявленные роли согласования по порядку."
+      },
+      "required_inputs": [
+        "project_id",
+        "approval_chain"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "title": {
+            "en": "Normalize input",
+            "ru": "Нормализовать вход"
+          },
+          "operation": "normalize"
+        },
+        {
+          "order": 2,
+          "title": {
+            "en": "Check required evidence",
+            "ru": "Проверить обязательные доказательства"
+          },
+          "operation": "require"
+        },
+        {
+          "order": 3,
+          "title": {
+            "en": "Apply workflow rule",
+            "ru": "Применить правило workflow"
+          },
+          "operation": "verify_stakeholder_approval_routing"
+        },
+        {
+          "order": 4,
+          "title": {
+            "en": "Build decision record",
+            "ru": "Сформировать запись решения"
+          },
+          "operation": "record"
+        },
+        {
+          "order": 5,
+          "title": {
+            "en": "Return auditable result",
+            "ru": "Вернуть проверяемый результат"
+          },
+          "operation": "return"
+        }
+      ],
+      "example": {
+        "project_id": "SHAR-SYNTH-002",
+        "approval_chain": [
+          "producer",
+          "client"
+        ]
+      },
+      "example_is_synthetic": true,
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      }
+    },
+    {
+      "id": "rights-window-preflight",
+      "title": {
+        "en": "Rights window preflight",
+        "ru": "Проверка окна прав"
+      },
+      "purpose": {
+        "en": "Checks territory, channel and end date before distribution.",
+        "ru": "Проверяет территорию, канал и дату окончания до дистрибуции."
+      },
+      "required_inputs": [
+        "project_id",
+        "rights_end"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "title": {
+            "en": "Normalize input",
+            "ru": "Нормализовать вход"
+          },
+          "operation": "normalize"
+        },
+        {
+          "order": 2,
+          "title": {
+            "en": "Check required evidence",
+            "ru": "Проверить обязательные доказательства"
+          },
+          "operation": "require"
+        },
+        {
+          "order": 3,
+          "title": {
+            "en": "Apply workflow rule",
+            "ru": "Применить правило workflow"
+          },
+          "operation": "verify_rights_window_preflight"
+        },
+        {
+          "order": 4,
+          "title": {
+            "en": "Build decision record",
+            "ru": "Сформировать запись решения"
+          },
+          "operation": "record"
+        },
+        {
+          "order": 5,
+          "title": {
+            "en": "Return auditable result",
+            "ru": "Вернуть проверяемый результат"
+          },
+          "operation": "return"
+        }
+      ],
+      "example": {
+        "project_id": "SHAR-SYNTH-003",
+        "rights_end": "2027-09-06"
+      },
+      "example_is_synthetic": true,
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      }
+    },
+    {
+      "id": "talent-consent-reconciliation",
+      "title": {
+        "en": "Talent consent reconciliation",
+        "ru": "Сверка согласий участников"
+      },
+      "purpose": {
+        "en": "Compares required usage scope with declared talent consent.",
+        "ru": "Сравнивает требуемое использование с заявленным согласием участника."
+      },
+      "required_inputs": [
+        "project_id",
+        "consent_scope"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "title": {
+            "en": "Normalize input",
+            "ru": "Нормализовать вход"
+          },
+          "operation": "normalize"
+        },
+        {
+          "order": 2,
+          "title": {
+            "en": "Check required evidence",
+            "ru": "Проверить обязательные доказательства"
+          },
+          "operation": "require"
+        },
+        {
+          "order": 3,
+          "title": {
+            "en": "Apply workflow rule",
+            "ru": "Применить правило workflow"
+          },
+          "operation": "verify_talent_consent_reconciliation"
+        },
+        {
+          "order": 4,
+          "title": {
+            "en": "Build decision record",
+            "ru": "Сформировать запись решения"
+          },
+          "operation": "record"
+        },
+        {
+          "order": 5,
+          "title": {
+            "en": "Return auditable result",
+            "ru": "Вернуть проверяемый результат"
+          },
+          "operation": "return"
+        }
+      ],
+      "example": {
+        "project_id": "SHAR-SYNTH-004",
+        "consent_scope": "digital worldwide"
+      },
+      "example_is_synthetic": true,
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      }
+    },
+    {
+      "id": "location-permit-readiness",
+      "title": {
+        "en": "Location permit readiness",
+        "ru": "Готовность разрешения на локацию"
+      },
+      "purpose": {
+        "en": "Checks permit reference, location and valid shoot dates.",
+        "ru": "Проверяет ссылку на разрешение, локацию и даты съёмки."
+      },
+      "required_inputs": [
+        "project_id",
+        "permit_reference"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "title": {
+            "en": "Normalize input",
+            "ru": "Нормализовать вход"
+          },
+          "operation": "normalize"
+        },
+        {
+          "order": 2,
+          "title": {
+            "en": "Check required evidence",
+            "ru": "Проверить обязательные доказательства"
+          },
+          "operation": "require"
+        },
+        {
+          "order": 3,
+          "title": {
+            "en": "Apply workflow rule",
+            "ru": "Применить правило workflow"
+          },
+          "operation": "verify_location_permit_readiness"
+        },
+        {
+          "order": 4,
+          "title": {
+            "en": "Build decision record",
+            "ru": "Сформировать запись решения"
+          },
+          "operation": "record"
+        },
+        {
+          "order": 5,
+          "title": {
+            "en": "Return auditable result",
+            "ru": "Вернуть проверяемый результат"
+          },
+          "operation": "return"
+        }
+      ],
+      "example": {
+        "project_id": "SHAR-SYNTH-005",
+        "permit_reference": "LOC-001"
+      },
+      "example_is_synthetic": true,
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      }
+    },
+    {
+      "id": "supplier-onboarding",
+      "title": {
+        "en": "Supplier onboarding",
+        "ru": "Онбординг поставщика"
+      },
+      "purpose": {
+        "en": "Checks supplier identity, scope and accepted delivery channel.",
+        "ru": "Проверяет поставщика, объём работ и принятый канал передачи."
+      },
+      "required_inputs": [
+        "project_id",
+        "supplier_reference"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "title": {
+            "en": "Normalize input",
+            "ru": "Нормализовать вход"
+          },
+          "operation": "normalize"
+        },
+        {
+          "order": 2,
+          "title": {
+            "en": "Check required evidence",
+            "ru": "Проверить обязательные доказательства"
+          },
+          "operation": "require"
+        },
+        {
+          "order": 3,
+          "title": {
+            "en": "Apply workflow rule",
+            "ru": "Применить правило workflow"
+          },
+          "operation": "verify_supplier_onboarding"
+        },
+        {
+          "order": 4,
+          "title": {
+            "en": "Build decision record",
+            "ru": "Сформировать запись решения"
+          },
+          "operation": "record"
+        },
+        {
+          "order": 5,
+          "title": {
+            "en": "Return auditable result",
+            "ru": "Вернуть проверяемый результат"
+          },
+          "operation": "return"
+        }
+      ],
+      "example": {
+        "project_id": "SHAR-SYNTH-006",
+        "supplier_reference": "SUP-001"
+      },
+      "example_is_synthetic": true,
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      }
+    },
+    {
+      "id": "purchase-order-reconciliation",
+      "title": {
+        "en": "Purchase order reconciliation",
+        "ru": "Сверка purchase order"
+      },
+      "purpose": {
+        "en": "Compares approved scope and purchase order reference.",
+        "ru": "Сверяет согласованный объём и ссылку на purchase order."
+      },
+      "required_inputs": [
+        "project_id",
+        "purchase_order"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "title": {
+            "en": "Normalize input",
+            "ru": "Нормализовать вход"
+          },
+          "operation": "normalize"
+        },
+        {
+          "order": 2,
+          "title": {
+            "en": "Check required evidence",
+            "ru": "Проверить обязательные доказательства"
+          },
+          "operation": "require"
+        },
+        {
+          "order": 3,
+          "title": {
+            "en": "Apply workflow rule",
+            "ru": "Применить правило workflow"
+          },
+          "operation": "verify_purchase_order_reconciliation"
+        },
+        {
+          "order": 4,
+          "title": {
+            "en": "Build decision record",
+            "ru": "Сформировать запись решения"
+          },
+          "operation": "record"
+        },
+        {
+          "order": 5,
+          "title": {
+            "en": "Return auditable result",
+            "ru": "Вернуть проверяемый результат"
+          },
+          "operation": "return"
+        }
+      ],
+      "example": {
+        "project_id": "SHAR-SYNTH-007",
+        "purchase_order": "PO-001"
+      },
+      "example_is_synthetic": true,
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      }
+    },
+    {
+      "id": "call-sheet-release",
+      "title": {
+        "en": "Call sheet release",
+        "ru": "Выпуск call sheet"
+      },
+      "purpose": {
+        "en": "Checks dated call sheet revision and required acknowledgments.",
+        "ru": "Проверяет датированную редакцию call sheet и подтверждения."
+      },
+      "required_inputs": [
+        "project_id",
+        "call_sheet_revision"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "title": {
+            "en": "Normalize input",
+            "ru": "Нормализовать вход"
+          },
+          "operation": "normalize"
+        },
+        {
+          "order": 2,
+          "title": {
+            "en": "Check required evidence",
+            "ru": "Проверить обязательные доказательства"
+          },
+          "operation": "require"
+        },
+        {
+          "order": 3,
+          "title": {
+            "en": "Apply workflow rule",
+            "ru": "Применить правило workflow"
+          },
+          "operation": "verify_call_sheet_release"
+        },
+        {
+          "order": 4,
+          "title": {
+            "en": "Build decision record",
+            "ru": "Сформировать запись решения"
+          },
+          "operation": "record"
+        },
+        {
+          "order": 5,
+          "title": {
+            "en": "Return auditable result",
+            "ru": "Вернуть проверяемый результат"
+          },
+          "operation": "return"
+        }
+      ],
+      "example": {
+        "project_id": "SHAR-SYNTH-008",
+        "call_sheet_revision": "cs-v4"
+      },
+      "example_is_synthetic": true,
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      }
+    },
+    {
+      "id": "crew-safety-acknowledgment",
+      "title": {
+        "en": "Crew safety acknowledgment",
+        "ru": "Подтверждение безопасности команды"
+      },
+      "purpose": {
+        "en": "Checks briefing topic, responsible lead and attendance evidence.",
+        "ru": "Проверяет тему инструктажа, ответственного и подтверждение участия."
+      },
+      "required_inputs": [
+        "project_id",
+        "briefing_reference"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "title": {
+            "en": "Normalize input",
+            "ru": "Нормализовать вход"
+          },
+          "operation": "normalize"
+        },
+        {
+          "order": 2,
+          "title": {
+            "en": "Check required evidence",
+            "ru": "Проверить обязательные доказательства"
+          },
+          "operation": "require"
+        },
+        {
+          "order": 3,
+          "title": {
+            "en": "Apply workflow rule",
+            "ru": "Применить правило workflow"
+          },
+          "operation": "verify_crew_safety_acknowledgment"
+        },
+        {
+          "order": 4,
+          "title": {
+            "en": "Build decision record",
+            "ru": "Сформировать запись решения"
+          },
+          "operation": "record"
+        },
+        {
+          "order": 5,
+          "title": {
+            "en": "Return auditable result",
+            "ru": "Вернуть проверяемый результат"
+          },
+          "operation": "return"
+        }
+      ],
+      "example": {
+        "project_id": "SHAR-SYNTH-009",
+        "briefing_reference": "SAFE-001"
+      },
+      "example_is_synthetic": true,
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      }
+    },
+    {
+      "id": "camera-to-dit-handoff",
+      "title": {
+        "en": "Camera to DIT handoff",
+        "ru": "Передача camera to DIT"
+      },
+      "purpose": {
+        "en": "Checks camera roll, clip range and receiving storage set.",
+        "ru": "Проверяет camera roll, диапазон клипов и принимающий storage set."
+      },
+      "required_inputs": [
+        "project_id",
+        "camera_roll"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "title": {
+            "en": "Normalize input",
+            "ru": "Нормализовать вход"
+          },
+          "operation": "normalize"
+        },
+        {
+          "order": 2,
+          "title": {
+            "en": "Check required evidence",
+            "ru": "Проверить обязательные доказательства"
+          },
+          "operation": "require"
+        },
+        {
+          "order": 3,
+          "title": {
+            "en": "Apply workflow rule",
+            "ru": "Применить правило workflow"
+          },
+          "operation": "verify_camera_to_dit_handoff"
+        },
+        {
+          "order": 4,
+          "title": {
+            "en": "Build decision record",
+            "ru": "Сформировать запись решения"
+          },
+          "operation": "record"
+        },
+        {
+          "order": 5,
+          "title": {
+            "en": "Return auditable result",
+            "ru": "Вернуть проверяемый результат"
+          },
+          "operation": "return"
+        }
+      ],
+      "example": {
+        "project_id": "SHAR-SYNTH-010",
+        "camera_roll": "A001"
+      },
+      "example_is_synthetic": true,
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      }
+    },
+    {
+      "id": "sound-roll-ingest",
+      "title": {
+        "en": "Sound roll ingest",
+        "ru": "Импорт sound roll"
+      },
+      "purpose": {
+        "en": "Checks sound roll identity, sample rate and channel map.",
+        "ru": "Проверяет ID sound roll, sample rate и карту каналов."
+      },
+      "required_inputs": [
+        "project_id",
+        "sound_roll"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "title": {
+            "en": "Normalize input",
+            "ru": "Нормализовать вход"
+          },
+          "operation": "normalize"
+        },
+        {
+          "order": 2,
+          "title": {
+            "en": "Check required evidence",
+            "ru": "Проверить обязательные доказательства"
+          },
+          "operation": "require"
+        },
+        {
+          "order": 3,
+          "title": {
+            "en": "Apply workflow rule",
+            "ru": "Применить правило workflow"
+          },
+          "operation": "verify_sound_roll_ingest"
+        },
+        {
+          "order": 4,
+          "title": {
+            "en": "Build decision record",
+            "ru": "Сформировать запись решения"
+          },
+          "operation": "record"
+        },
+        {
+          "order": 5,
+          "title": {
+            "en": "Return auditable result",
+            "ru": "Вернуть проверяемый результат"
+          },
+          "operation": "return"
+        }
+      ],
+      "example": {
+        "project_id": "SHAR-SYNTH-011",
+        "sound_roll": "SR001"
+      },
+      "example_is_synthetic": true,
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      }
+    },
+    {
+      "id": "checksum-transfer-verification",
+      "title": {
+        "en": "Checksum transfer verification",
+        "ru": "Проверка checksum передачи"
+      },
+      "purpose": {
+        "en": "Reconciles declared and received SHA-256 transfer evidence.",
+        "ru": "Сверяет заявленное и полученное SHA-256 доказательство передачи."
+      },
+      "required_inputs": [
+        "project_id",
+        "sha256"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "title": {
+            "en": "Normalize input",
+            "ru": "Нормализовать вход"
+          },
+          "operation": "normalize"
+        },
+        {
+          "order": 2,
+          "title": {
+            "en": "Check required evidence",
+            "ru": "Проверить обязательные доказательства"
+          },
+          "operation": "require"
+        },
+        {
+          "order": 3,
+          "title": {
+            "en": "Apply workflow rule",
+            "ru": "Применить правило workflow"
+          },
+          "operation": "verify_checksum_transfer_verification"
+        },
+        {
+          "order": 4,
+          "title": {
+            "en": "Build decision record",
+            "ru": "Сформировать запись решения"
+          },
+          "operation": "record"
+        },
+        {
+          "order": 5,
+          "title": {
+            "en": "Return auditable result",
+            "ru": "Вернуть проверяемый результат"
+          },
+          "operation": "return"
+        }
+      ],
+      "example": {
+        "project_id": "SHAR-SYNTH-012",
+        "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      },
+      "example_is_synthetic": true,
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      }
+    },
+    {
+      "id": "proxy-generation-handoff",
+      "title": {
+        "en": "Proxy generation handoff",
+        "ru": "Передача proxy"
+      },
+      "purpose": {
+        "en": "Checks proxy naming, source linkage and timecode continuity.",
+        "ru": "Проверяет имена proxy, связь с исходниками и непрерывность timecode."
+      },
+      "required_inputs": [
+        "project_id",
+        "proxy_set"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "title": {
+            "en": "Normalize input",
+            "ru": "Нормализовать вход"
+          },
+          "operation": "normalize"
+        },
+        {
+          "order": 2,
+          "title": {
+            "en": "Check required evidence",
+            "ru": "Проверить обязательные доказательства"
+          },
+          "operation": "require"
+        },
+        {
+          "order": 3,
+          "title": {
+            "en": "Apply workflow rule",
+            "ru": "Применить правило workflow"
+          },
+          "operation": "verify_proxy_generation_handoff"
+        },
+        {
+          "order": 4,
+          "title": {
+            "en": "Build decision record",
+            "ru": "Сформировать запись решения"
+          },
+          "operation": "record"
+        },
+        {
+          "order": 5,
+          "title": {
+            "en": "Return auditable result",
+            "ru": "Вернуть проверяемый результат"
+          },
+          "operation": "return"
+        }
+      ],
+      "example": {
+        "project_id": "SHAR-SYNTH-013",
+        "proxy_set": "proxy-v1"
+      },
+      "example_is_synthetic": true,
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      }
+    },
+    {
+      "id": "edit-turnover",
+      "title": {
+        "en": "Edit turnover",
+        "ru": "Передача монтажа"
+      },
+      "purpose": {
+        "en": "Checks locked edit revision, references and turnover manifest.",
+        "ru": "Проверяет locked edit, референсы и turnover manifest."
+      },
+      "required_inputs": [
+        "project_id",
+        "edit_revision"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "title": {
+            "en": "Normalize input",
+            "ru": "Нормализовать вход"
+          },
+          "operation": "normalize"
+        },
+        {
+          "order": 2,
+          "title": {
+            "en": "Check required evidence",
+            "ru": "Проверить обязательные доказательства"
+          },
+          "operation": "require"
+        },
+        {
+          "order": 3,
+          "title": {
+            "en": "Apply workflow rule",
+            "ru": "Применить правило workflow"
+          },
+          "operation": "verify_edit_turnover"
+        },
+        {
+          "order": 4,
+          "title": {
+            "en": "Build decision record",
+            "ru": "Сформировать запись решения"
+          },
+          "operation": "record"
+        },
+        {
+          "order": 5,
+          "title": {
+            "en": "Return auditable result",
+            "ru": "Вернуть проверяемый результат"
+          },
+          "operation": "return"
+        }
+      ],
+      "example": {
+        "project_id": "SHAR-SYNTH-014",
+        "edit_revision": "offline-v8"
+      },
+      "example_is_synthetic": true,
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      }
+    },
+    {
+      "id": "vfx-pull-roundtrip",
+      "title": {
+        "en": "VFX pull roundtrip",
+        "ru": "Roundtrip VFX pull"
+      },
+      "purpose": {
+        "en": "Checks pull list, handles, returned shots and version links.",
+        "ru": "Проверяет pull list, handles, возвращённые шоты и связи версий."
+      },
+      "required_inputs": [
+        "project_id",
+        "pull_list"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "title": {
+            "en": "Normalize input",
+            "ru": "Нормализовать вход"
+          },
+          "operation": "normalize"
+        },
+        {
+          "order": 2,
+          "title": {
+            "en": "Check required evidence",
+            "ru": "Проверить обязательные доказательства"
+          },
+          "operation": "require"
+        },
+        {
+          "order": 3,
+          "title": {
+            "en": "Apply workflow rule",
+            "ru": "Применить правило workflow"
+          },
+          "operation": "verify_vfx_pull_roundtrip"
+        },
+        {
+          "order": 4,
+          "title": {
+            "en": "Build decision record",
+            "ru": "Сформировать запись решения"
+          },
+          "operation": "record"
+        },
+        {
+          "order": 5,
+          "title": {
+            "en": "Return auditable result",
+            "ru": "Вернуть проверяемый результат"
+          },
+          "operation": "return"
+        }
+      ],
+      "example": {
+        "project_id": "SHAR-SYNTH-015",
+        "pull_list": "vfx-pull-03"
+      },
+      "example_is_synthetic": true,
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      }
+    },
+    {
+      "id": "color-turnover",
+      "title": {
+        "en": "Color turnover",
+        "ru": "Передача в цвет"
+      },
+      "purpose": {
+        "en": "Checks picture lock, conform reference and color pipeline.",
+        "ru": "Проверяет picture lock, conform reference и цветовой pipeline."
+      },
+      "required_inputs": [
+        "project_id",
+        "color_space"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "title": {
+            "en": "Normalize input",
+            "ru": "Нормализовать вход"
+          },
+          "operation": "normalize"
+        },
+        {
+          "order": 2,
+          "title": {
+            "en": "Check required evidence",
+            "ru": "Проверить обязательные доказательства"
+          },
+          "operation": "require"
+        },
+        {
+          "order": 3,
+          "title": {
+            "en": "Apply workflow rule",
+            "ru": "Применить правило workflow"
+          },
+          "operation": "verify_color_turnover"
+        },
+        {
+          "order": 4,
+          "title": {
+            "en": "Build decision record",
+            "ru": "Сформировать запись решения"
+          },
+          "operation": "record"
+        },
+        {
+          "order": 5,
+          "title": {
+            "en": "Return auditable result",
+            "ru": "Вернуть проверяемый результат"
+          },
+          "operation": "return"
+        }
+      ],
+      "example": {
+        "project_id": "SHAR-SYNTH-016",
+        "color_space": "ACEScct"
+      },
+      "example_is_synthetic": true,
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      }
+    },
+    {
+      "id": "mix-turnover",
+      "title": {
+        "en": "Mix turnover",
+        "ru": "Передача в сведение"
+      },
+      "purpose": {
+        "en": "Checks audio references, channel layout and loudness target.",
+        "ru": "Проверяет аудиореференсы, раскладку каналов и цель громкости."
+      },
+      "required_inputs": [
+        "project_id",
+        "loudness_target_lufs"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "title": {
+            "en": "Normalize input",
+            "ru": "Нормализовать вход"
+          },
+          "operation": "normalize"
+        },
+        {
+          "order": 2,
+          "title": {
+            "en": "Check required evidence",
+            "ru": "Проверить обязательные доказательства"
+          },
+          "operation": "require"
+        },
+        {
+          "order": 3,
+          "title": {
+            "en": "Apply workflow rule",
+            "ru": "Применить правило workflow"
+          },
+          "operation": "verify_mix_turnover"
+        },
+        {
+          "order": 4,
+          "title": {
+            "en": "Build decision record",
+            "ru": "Сформировать запись решения"
+          },
+          "operation": "record"
+        },
+        {
+          "order": 5,
+          "title": {
+            "en": "Return auditable result",
+            "ru": "Вернуть проверяемый результат"
+          },
+          "operation": "return"
+        }
+      ],
+      "example": {
+        "project_id": "SHAR-SYNTH-017",
+        "loudness_target_lufs": -23
+      },
+      "example_is_synthetic": true,
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      }
+    },
+    {
+      "id": "caption-localization-qc",
+      "title": {
+        "en": "Caption localization QC",
+        "ru": "QC локализованных субтитров"
+      },
+      "purpose": {
+        "en": "Checks locale, caption format, timing and reviewer result.",
+        "ru": "Проверяет локаль, формат, тайминги и решение проверяющего."
+      },
+      "required_inputs": [
+        "project_id",
+        "caption_locale"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "title": {
+            "en": "Normalize input",
+            "ru": "Нормализовать вход"
+          },
+          "operation": "normalize"
+        },
+        {
+          "order": 2,
+          "title": {
+            "en": "Check required evidence",
+            "ru": "Проверить обязательные доказательства"
+          },
+          "operation": "require"
+        },
+        {
+          "order": 3,
+          "title": {
+            "en": "Apply workflow rule",
+            "ru": "Применить правило workflow"
+          },
+          "operation": "verify_caption_localization_qc"
+        },
+        {
+          "order": 4,
+          "title": {
+            "en": "Build decision record",
+            "ru": "Сформировать запись решения"
+          },
+          "operation": "record"
+        },
+        {
+          "order": 5,
+          "title": {
+            "en": "Return auditable result",
+            "ru": "Вернуть проверяемый результат"
+          },
+          "operation": "return"
+        }
+      ],
+      "example": {
+        "project_id": "SHAR-SYNTH-018",
+        "caption_locale": "ru-RU"
+      },
+      "example_is_synthetic": true,
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      }
+    },
+    {
+      "id": "accessibility-acceptance",
+      "title": {
+        "en": "Accessibility acceptance",
+        "ru": "Приёмка доступности"
+      },
+      "purpose": {
+        "en": "Checks required accessibility features and unresolved issues.",
+        "ru": "Проверяет обязательные функции доступности и нерешённые вопросы."
+      },
+      "required_inputs": [
+        "project_id",
+        "accessibility_features"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "title": {
+            "en": "Normalize input",
+            "ru": "Нормализовать вход"
+          },
+          "operation": "normalize"
+        },
+        {
+          "order": 2,
+          "title": {
+            "en": "Check required evidence",
+            "ru": "Проверить обязательные доказательства"
+          },
+          "operation": "require"
+        },
+        {
+          "order": 3,
+          "title": {
+            "en": "Apply workflow rule",
+            "ru": "Применить правило workflow"
+          },
+          "operation": "verify_accessibility_acceptance"
+        },
+        {
+          "order": 4,
+          "title": {
+            "en": "Build decision record",
+            "ru": "Сформировать запись решения"
+          },
+          "operation": "record"
+        },
+        {
+          "order": 5,
+          "title": {
+            "en": "Return auditable result",
+            "ru": "Вернуть проверяемый результат"
+          },
+          "operation": "return"
+        }
+      ],
+      "example": {
+        "project_id": "SHAR-SYNTH-019",
+        "accessibility_features": [
+          "captions"
+        ]
+      },
+      "example_is_synthetic": true,
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      }
+    },
+    {
+      "id": "multi-locale-delivery",
+      "title": {
+        "en": "Multi-locale delivery",
+        "ru": "Мультиязычная поставка"
+      },
+      "purpose": {
+        "en": "Compares required locales with delivered media and metadata.",
+        "ru": "Сверяет обязательные локали с переданными медиа и метаданными."
+      },
+      "required_inputs": [
+        "project_id",
+        "required_locales"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "title": {
+            "en": "Normalize input",
+            "ru": "Нормализовать вход"
+          },
+          "operation": "normalize"
+        },
+        {
+          "order": 2,
+          "title": {
+            "en": "Check required evidence",
+            "ru": "Проверить обязательные доказательства"
+          },
+          "operation": "require"
+        },
+        {
+          "order": 3,
+          "title": {
+            "en": "Apply workflow rule",
+            "ru": "Применить правило workflow"
+          },
+          "operation": "verify_multi_locale_delivery"
+        },
+        {
+          "order": 4,
+          "title": {
+            "en": "Build decision record",
+            "ru": "Сформировать запись решения"
+          },
+          "operation": "record"
+        },
+        {
+          "order": 5,
+          "title": {
+            "en": "Return auditable result",
+            "ru": "Вернуть проверяемый результат"
+          },
+          "operation": "return"
+        }
+      ],
+      "example": {
+        "project_id": "SHAR-SYNTH-020",
+        "required_locales": [
+          "en-US",
+          "ru-RU"
+        ]
+      },
+      "example_is_synthetic": true,
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      }
+    },
+    {
+      "id": "platform-export-acceptance",
+      "title": {
+        "en": "Platform export acceptance",
+        "ru": "Приёмка platform export"
+      },
+      "purpose": {
+        "en": "Checks platform preset, dimensions, codec and duration.",
+        "ru": "Проверяет preset платформы, размеры, кодек и длительность."
+      },
+      "required_inputs": [
+        "project_id",
+        "platform_preset"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "title": {
+            "en": "Normalize input",
+            "ru": "Нормализовать вход"
+          },
+          "operation": "normalize"
+        },
+        {
+          "order": 2,
+          "title": {
+            "en": "Check required evidence",
+            "ru": "Проверить обязательные доказательства"
+          },
+          "operation": "require"
+        },
+        {
+          "order": 3,
+          "title": {
+            "en": "Apply workflow rule",
+            "ru": "Применить правило workflow"
+          },
+          "operation": "verify_platform_export_acceptance"
+        },
+        {
+          "order": 4,
+          "title": {
+            "en": "Build decision record",
+            "ru": "Сформировать запись решения"
+          },
+          "operation": "record"
+        },
+        {
+          "order": 5,
+          "title": {
+            "en": "Return auditable result",
+            "ru": "Вернуть проверяемый результат"
+          },
+          "operation": "return"
+        }
+      ],
+      "example": {
+        "project_id": "SHAR-SYNTH-021",
+        "platform_preset": "web-1080p"
+      },
+      "example_is_synthetic": true,
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      }
+    },
+    {
+      "id": "client-release-approval",
+      "title": {
+        "en": "Client release approval",
+        "ru": "Клиентское согласование релиза"
+      },
+      "purpose": {
+        "en": "Checks final client decision against the exact release revision.",
+        "ru": "Сверяет финальное решение клиента с точной редакцией релиза."
+      },
+      "required_inputs": [
+        "project_id",
+        "release_revision"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "title": {
+            "en": "Normalize input",
+            "ru": "Нормализовать вход"
+          },
+          "operation": "normalize"
+        },
+        {
+          "order": 2,
+          "title": {
+            "en": "Check required evidence",
+            "ru": "Проверить обязательные доказательства"
+          },
+          "operation": "require"
+        },
+        {
+          "order": 3,
+          "title": {
+            "en": "Apply workflow rule",
+            "ru": "Применить правило workflow"
+          },
+          "operation": "verify_client_release_approval"
+        },
+        {
+          "order": 4,
+          "title": {
+            "en": "Build decision record",
+            "ru": "Сформировать запись решения"
+          },
+          "operation": "record"
+        },
+        {
+          "order": 5,
+          "title": {
+            "en": "Return auditable result",
+            "ru": "Вернуть проверяемый результат"
+          },
+          "operation": "return"
+        }
+      ],
+      "example": {
+        "project_id": "SHAR-SYNTH-022",
+        "release_revision": "master-v2"
+      },
+      "example_is_synthetic": true,
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      }
+    },
+    {
+      "id": "archive-three-copy-verification",
+      "title": {
+        "en": "Archive three-copy verification",
+        "ru": "Проверка трёх копий архива"
+      },
+      "purpose": {
+        "en": "Checks three copies, distinct media and an offsite copy.",
+        "ru": "Проверяет три копии, разные носители и внешнюю копию."
+      },
+      "required_inputs": [
+        "project_id",
+        "copy_count"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "title": {
+            "en": "Normalize input",
+            "ru": "Нормализовать вход"
+          },
+          "operation": "normalize"
+        },
+        {
+          "order": 2,
+          "title": {
+            "en": "Check required evidence",
+            "ru": "Проверить обязательные доказательства"
+          },
+          "operation": "require"
+        },
+        {
+          "order": 3,
+          "title": {
+            "en": "Apply workflow rule",
+            "ru": "Применить правило workflow"
+          },
+          "operation": "verify_archive_three_copy_verification"
+        },
+        {
+          "order": 4,
+          "title": {
+            "en": "Build decision record",
+            "ru": "Сформировать запись решения"
+          },
+          "operation": "record"
+        },
+        {
+          "order": 5,
+          "title": {
+            "en": "Return auditable result",
+            "ru": "Вернуть проверяемый результат"
+          },
+          "operation": "return"
+        }
+      ],
+      "example": {
+        "project_id": "SHAR-SYNTH-023",
+        "copy_count": 3
+      },
+      "example_is_synthetic": true,
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      }
+    },
+    {
+      "id": "incident-followup-closure",
+      "title": {
+        "en": "Incident follow-up closure",
+        "ru": "Закрытие follow-up инцидента"
+      },
+      "purpose": {
+        "en": "Checks incident reference, assigned actions and closure state.",
+        "ru": "Проверяет ссылку на инцидент, назначенные действия и закрытие."
+      },
+      "required_inputs": [
+        "project_id",
+        "incident_reference"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "title": {
+            "en": "Normalize input",
+            "ru": "Нормализовать вход"
+          },
+          "operation": "normalize"
+        },
+        {
+          "order": 2,
+          "title": {
+            "en": "Check required evidence",
+            "ru": "Проверить обязательные доказательства"
+          },
+          "operation": "require"
+        },
+        {
+          "order": 3,
+          "title": {
+            "en": "Apply workflow rule",
+            "ru": "Применить правило workflow"
+          },
+          "operation": "verify_incident_followup_closure"
+        },
+        {
+          "order": 4,
+          "title": {
+            "en": "Build decision record",
+            "ru": "Сформировать запись решения"
+          },
+          "operation": "record"
+        },
+        {
+          "order": 5,
+          "title": {
+            "en": "Return auditable result",
+            "ru": "Вернуть проверяемый результат"
+          },
+          "operation": "return"
+        }
+      ],
+      "example": {
+        "project_id": "SHAR-SYNTH-024",
+        "incident_reference": "INC-001"
+      },
+      "example_is_synthetic": true,
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      }
+    },
+    {
+      "id": "campaign-release-evidence",
+      "title": {
+        "en": "Campaign release evidence",
+        "ru": "Доказательства выпуска кампании"
+      },
+      "purpose": {
+        "en": "Collects approved master, manifest, rights and release URLs.",
+        "ru": "Собирает утверждённый мастер, манифест, права и URL выпуска."
+      },
+      "required_inputs": [
+        "project_id",
+        "release_url"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "title": {
+            "en": "Normalize input",
+            "ru": "Нормализовать вход"
+          },
+          "operation": "normalize"
+        },
+        {
+          "order": 2,
+          "title": {
+            "en": "Check required evidence",
+            "ru": "Проверить обязательные доказательства"
+          },
+          "operation": "require"
+        },
+        {
+          "order": 3,
+          "title": {
+            "en": "Apply workflow rule",
+            "ru": "Применить правило workflow"
+          },
+          "operation": "verify_campaign_release_evidence"
+        },
+        {
+          "order": 4,
+          "title": {
+            "en": "Build decision record",
+            "ru": "Сформировать запись решения"
+          },
+          "operation": "record"
+        },
+        {
+          "order": 5,
+          "title": {
+            "en": "Return auditable result",
+            "ru": "Вернуть проверяемый результат"
+          },
+          "operation": "return"
+        }
+      ],
+      "example": {
+        "project_id": "SHAR-SYNTH-025",
+        "release_url": "https://example.invalid/synthetic-release"
+      },
+      "example_is_synthetic": true,
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      }
+    }
+  ]
+}
