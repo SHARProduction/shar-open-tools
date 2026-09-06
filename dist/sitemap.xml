@@ -266,4 +266,56 @@
   <url><loc>https://shar-production-open-tools.pages.dev/option-matrices/ru/provenance-carriage/</loc></url>
   <url><loc>https://shar-production-open-tools.pages.dev/option-matrices/en/</loc></url>
   <url><loc>https://shar-production-open-tools.pages.dev/option-matrices/ru/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/risk-simulators/en/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/risk-simulators/ru/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/risk-simulators/en/brief-risk/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/risk-simulators/ru/brief-risk/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/risk-simulators/en/rights-risk/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/risk-simulators/ru/rights-risk/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/risk-simulators/en/budget-risk/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/risk-simulators/ru/budget-risk/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/risk-simulators/en/schedule-risk/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/risk-simulators/ru/schedule-risk/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/risk-simulators/en/location-risk/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/risk-simulators/ru/location-risk/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/risk-simulators/en/crew-risk/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/risk-simulators/ru/crew-risk/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/risk-simulators/en/talent-risk/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/risk-simulators/ru/talent-risk/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/risk-simulators/en/equipment-risk/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/risk-simulators/ru/equipment-risk/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/risk-simulators/en/camera-data-risk/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/risk-simulators/ru/camera-data-risk/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/risk-simulators/en/audio-risk/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/risk-simulators/ru/audio-risk/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/risk-simulators/en/lighting-risk/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/risk-simulators/ru/lighting-risk/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/risk-simulators/en/weather-risk/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/risk-simulators/ru/weather-risk/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/risk-simulators/en/media-backup-risk/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/risk-simulators/ru/media-backup-risk/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/risk-simulators/en/proxy-risk/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/risk-simulators/ru/proxy-risk/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/risk-simulators/en/edit-risk/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/risk-simulators/ru/edit-risk/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/risk-simulators/en/vfx-risk/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/risk-simulators/ru/vfx-risk/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/risk-simulators/en/color-risk/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/risk-simulators/ru/color-risk/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/risk-simulators/en/mix-risk/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/risk-simulators/ru/mix-risk/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/risk-simulators/en/caption-risk/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/risk-simulators/ru/caption-risk/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/risk-simulators/en/localization-risk/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/risk-simulators/ru/localization-risk/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/risk-simulators/en/qc-risk/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/risk-simulators/ru/qc-risk/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/risk-simulators/en/delivery-risk/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/risk-simulators/ru/delivery-risk/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/risk-simulators/en/archive-risk/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/risk-simulators/ru/archive-risk/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/risk-simulators/en/security-risk/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/risk-simulators/ru/security-risk/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/risk-simulators/en/release-risk/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/risk-simulators/ru/release-risk/</loc></url>
 </urlset>

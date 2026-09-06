@@ -1,0 +1,4010 @@
+{
+  "schema_version": "1.0.0",
+  "publisher": {
+    "name": "SHAR Production",
+    "website": "https://sharprod.com/"
+  },
+  "license": "MIT",
+  "simulators": [
+    {
+      "id": "brief-risk",
+      "title": {
+        "en": "Production brief risk",
+        "ru": "Риски производственного брифа"
+      },
+      "scope": {
+        "en": "Estimate production brief risk from explicit probability and impact inputs.",
+        "ru": "Оценка «риски производственного брифа» по явным значениям вероятности и влияния."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "risks": [
+        {
+          "id": "brief-risk-risk-1",
+          "label": {
+            "en": "Unclear success criteria",
+            "ru": "Неясные критерии успеха"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        },
+        {
+          "id": "brief-risk-risk-2",
+          "label": {
+            "en": "Missing approver",
+            "ru": "Нет ответственного за согласование"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        },
+        {
+          "id": "brief-risk-risk-3",
+          "label": {
+            "en": "Late scope change",
+            "ru": "Позднее изменение объёма"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        },
+        {
+          "id": "brief-risk-risk-4",
+          "label": {
+            "en": "Conflicting references",
+            "ru": "Противоречивые референсы"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        }
+      ],
+      "domain_index": 1,
+      "scenarios": [
+        {
+          "id": "brief-risk-baseline",
+          "synthetic": true,
+          "inputs": {
+            "brief-risk-risk-1": {
+              "probability": 2,
+              "impact": 3
+            },
+            "brief-risk-risk-2": {
+              "probability": 3,
+              "impact": 3
+            },
+            "brief-risk-risk-3": {
+              "probability": 2,
+              "impact": 4
+            },
+            "brief-risk-risk-4": {
+              "probability": 3,
+              "impact": 2
+            }
+          },
+          "expected_exposure": 29,
+          "expected_status": "LOW"
+        },
+        {
+          "id": "brief-risk-controlled",
+          "synthetic": true,
+          "inputs": {
+            "brief-risk-risk-1": {
+              "probability": 1,
+              "impact": 1
+            },
+            "brief-risk-risk-2": {
+              "probability": 1,
+              "impact": 1
+            },
+            "brief-risk-risk-3": {
+              "probability": 1,
+              "impact": 1
+            },
+            "brief-risk-risk-4": {
+              "probability": 1,
+              "impact": 1
+            }
+          },
+          "expected_exposure": 4,
+          "expected_status": "LOW"
+        },
+        {
+          "id": "brief-risk-first-risk-escalation",
+          "synthetic": true,
+          "inputs": {
+            "brief-risk-risk-1": {
+              "probability": 5,
+              "impact": 5
+            },
+            "brief-risk-risk-2": {
+              "probability": 3,
+              "impact": 3
+            },
+            "brief-risk-risk-3": {
+              "probability": 2,
+              "impact": 4
+            },
+            "brief-risk-risk-4": {
+              "probability": 3,
+              "impact": 2
+            }
+          },
+          "expected_exposure": 48,
+          "expected_status": "MEDIUM"
+        },
+        {
+          "id": "brief-risk-crisis",
+          "synthetic": true,
+          "inputs": {
+            "brief-risk-risk-1": {
+              "probability": 5,
+              "impact": 5
+            },
+            "brief-risk-risk-2": {
+              "probability": 5,
+              "impact": 5
+            },
+            "brief-risk-risk-3": {
+              "probability": 5,
+              "impact": 5
+            },
+            "brief-risk-risk-4": {
+              "probability": 5,
+              "impact": 5
+            }
+          },
+          "expected_exposure": 100,
+          "expected_status": "HIGH"
+        }
+      ]
+    },
+    {
+      "id": "rights-risk",
+      "title": {
+        "en": "Rights clearance risk",
+        "ru": "Риски очистки прав"
+      },
+      "scope": {
+        "en": "Estimate rights clearance risk from explicit probability and impact inputs.",
+        "ru": "Оценка «риски очистки прав» по явным значениям вероятности и влияния."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "risks": [
+        {
+          "id": "rights-risk-risk-1",
+          "label": {
+            "en": "Unverified media rights",
+            "ru": "Непроверенные права на медиа"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        },
+        {
+          "id": "rights-risk-risk-2",
+          "label": {
+            "en": "Territory mismatch",
+            "ru": "Несовпадение территорий"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        },
+        {
+          "id": "rights-risk-risk-3",
+          "label": {
+            "en": "Expired talent consent",
+            "ru": "Истёкшее согласие таланта"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        },
+        {
+          "id": "rights-risk-risk-4",
+          "label": {
+            "en": "Missing music clearance",
+            "ru": "Нет разрешения на музыку"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        }
+      ],
+      "domain_index": 2,
+      "scenarios": [
+        {
+          "id": "rights-risk-baseline",
+          "synthetic": true,
+          "inputs": {
+            "rights-risk-risk-1": {
+              "probability": 2,
+              "impact": 3
+            },
+            "rights-risk-risk-2": {
+              "probability": 3,
+              "impact": 3
+            },
+            "rights-risk-risk-3": {
+              "probability": 2,
+              "impact": 4
+            },
+            "rights-risk-risk-4": {
+              "probability": 3,
+              "impact": 2
+            }
+          },
+          "expected_exposure": 29,
+          "expected_status": "LOW"
+        },
+        {
+          "id": "rights-risk-controlled",
+          "synthetic": true,
+          "inputs": {
+            "rights-risk-risk-1": {
+              "probability": 1,
+              "impact": 1
+            },
+            "rights-risk-risk-2": {
+              "probability": 1,
+              "impact": 1
+            },
+            "rights-risk-risk-3": {
+              "probability": 1,
+              "impact": 1
+            },
+            "rights-risk-risk-4": {
+              "probability": 1,
+              "impact": 1
+            }
+          },
+          "expected_exposure": 4,
+          "expected_status": "LOW"
+        },
+        {
+          "id": "rights-risk-first-risk-escalation",
+          "synthetic": true,
+          "inputs": {
+            "rights-risk-risk-1": {
+              "probability": 5,
+              "impact": 5
+            },
+            "rights-risk-risk-2": {
+              "probability": 3,
+              "impact": 3
+            },
+            "rights-risk-risk-3": {
+              "probability": 2,
+              "impact": 4
+            },
+            "rights-risk-risk-4": {
+              "probability": 3,
+              "impact": 2
+            }
+          },
+          "expected_exposure": 48,
+          "expected_status": "MEDIUM"
+        },
+        {
+          "id": "rights-risk-crisis",
+          "synthetic": true,
+          "inputs": {
+            "rights-risk-risk-1": {
+              "probability": 5,
+              "impact": 5
+            },
+            "rights-risk-risk-2": {
+              "probability": 5,
+              "impact": 5
+            },
+            "rights-risk-risk-3": {
+              "probability": 5,
+              "impact": 5
+            },
+            "rights-risk-risk-4": {
+              "probability": 5,
+              "impact": 5
+            }
+          },
+          "expected_exposure": 100,
+          "expected_status": "HIGH"
+        }
+      ]
+    },
+    {
+      "id": "budget-risk",
+      "title": {
+        "en": "Production budget risk",
+        "ru": "Риски производственного бюджета"
+      },
+      "scope": {
+        "en": "Estimate production budget risk from explicit probability and impact inputs.",
+        "ru": "Оценка «риски производственного бюджета» по явным значениям вероятности и влияния."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "risks": [
+        {
+          "id": "budget-risk-risk-1",
+          "label": {
+            "en": "Supplier overrun",
+            "ru": "Перерасход поставщика"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        },
+        {
+          "id": "budget-risk-risk-2",
+          "label": {
+            "en": "Currency movement",
+            "ru": "Изменение курса валют"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        },
+        {
+          "id": "budget-risk-risk-3",
+          "label": {
+            "en": "Unplanned overtime",
+            "ru": "Незапланированные переработки"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        },
+        {
+          "id": "budget-risk-risk-4",
+          "label": {
+            "en": "Contingency depletion",
+            "ru": "Исчерпание резерва"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        }
+      ],
+      "domain_index": 3,
+      "scenarios": [
+        {
+          "id": "budget-risk-baseline",
+          "synthetic": true,
+          "inputs": {
+            "budget-risk-risk-1": {
+              "probability": 2,
+              "impact": 3
+            },
+            "budget-risk-risk-2": {
+              "probability": 3,
+              "impact": 3
+            },
+            "budget-risk-risk-3": {
+              "probability": 2,
+              "impact": 4
+            },
+            "budget-risk-risk-4": {
+              "probability": 3,
+              "impact": 2
+            }
+          },
+          "expected_exposure": 29,
+          "expected_status": "LOW"
+        },
+        {
+          "id": "budget-risk-controlled",
+          "synthetic": true,
+          "inputs": {
+            "budget-risk-risk-1": {
+              "probability": 1,
+              "impact": 1
+            },
+            "budget-risk-risk-2": {
+              "probability": 1,
+              "impact": 1
+            },
+            "budget-risk-risk-3": {
+              "probability": 1,
+              "impact": 1
+            },
+            "budget-risk-risk-4": {
+              "probability": 1,
+              "impact": 1
+            }
+          },
+          "expected_exposure": 4,
+          "expected_status": "LOW"
+        },
+        {
+          "id": "budget-risk-first-risk-escalation",
+          "synthetic": true,
+          "inputs": {
+            "budget-risk-risk-1": {
+              "probability": 5,
+              "impact": 5
+            },
+            "budget-risk-risk-2": {
+              "probability": 3,
+              "impact": 3
+            },
+            "budget-risk-risk-3": {
+              "probability": 2,
+              "impact": 4
+            },
+            "budget-risk-risk-4": {
+              "probability": 3,
+              "impact": 2
+            }
+          },
+          "expected_exposure": 48,
+          "expected_status": "MEDIUM"
+        },
+        {
+          "id": "budget-risk-crisis",
+          "synthetic": true,
+          "inputs": {
+            "budget-risk-risk-1": {
+              "probability": 5,
+              "impact": 5
+            },
+            "budget-risk-risk-2": {
+              "probability": 5,
+              "impact": 5
+            },
+            "budget-risk-risk-3": {
+              "probability": 5,
+              "impact": 5
+            },
+            "budget-risk-risk-4": {
+              "probability": 5,
+              "impact": 5
+            }
+          },
+          "expected_exposure": 100,
+          "expected_status": "HIGH"
+        }
+      ]
+    },
+    {
+      "id": "schedule-risk",
+      "title": {
+        "en": "Production schedule risk",
+        "ru": "Риски производственного графика"
+      },
+      "scope": {
+        "en": "Estimate production schedule risk from explicit probability and impact inputs.",
+        "ru": "Оценка «риски производственного графика» по явным значениям вероятности и влияния."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "risks": [
+        {
+          "id": "schedule-risk-risk-1",
+          "label": {
+            "en": "Dependency delay",
+            "ru": "Задержка зависимости"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        },
+        {
+          "id": "schedule-risk-risk-2",
+          "label": {
+            "en": "Approval bottleneck",
+            "ru": "Узкое место согласования"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        },
+        {
+          "id": "schedule-risk-risk-3",
+          "label": {
+            "en": "Weather disruption",
+            "ru": "Погодный срыв"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        },
+        {
+          "id": "schedule-risk-risk-4",
+          "label": {
+            "en": "Resource collision",
+            "ru": "Конфликт ресурсов"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        }
+      ],
+      "domain_index": 4,
+      "scenarios": [
+        {
+          "id": "schedule-risk-baseline",
+          "synthetic": true,
+          "inputs": {
+            "schedule-risk-risk-1": {
+              "probability": 2,
+              "impact": 3
+            },
+            "schedule-risk-risk-2": {
+              "probability": 3,
+              "impact": 3
+            },
+            "schedule-risk-risk-3": {
+              "probability": 2,
+              "impact": 4
+            },
+            "schedule-risk-risk-4": {
+              "probability": 3,
+              "impact": 2
+            }
+          },
+          "expected_exposure": 29,
+          "expected_status": "LOW"
+        },
+        {
+          "id": "schedule-risk-controlled",
+          "synthetic": true,
+          "inputs": {
+            "schedule-risk-risk-1": {
+              "probability": 1,
+              "impact": 1
+            },
+            "schedule-risk-risk-2": {
+              "probability": 1,
+              "impact": 1
+            },
+            "schedule-risk-risk-3": {
+              "probability": 1,
+              "impact": 1
+            },
+            "schedule-risk-risk-4": {
+              "probability": 1,
+              "impact": 1
+            }
+          },
+          "expected_exposure": 4,
+          "expected_status": "LOW"
+        },
+        {
+          "id": "schedule-risk-first-risk-escalation",
+          "synthetic": true,
+          "inputs": {
+            "schedule-risk-risk-1": {
+              "probability": 5,
+              "impact": 5
+            },
+            "schedule-risk-risk-2": {
+              "probability": 3,
+              "impact": 3
+            },
+            "schedule-risk-risk-3": {
+              "probability": 2,
+              "impact": 4
+            },
+            "schedule-risk-risk-4": {
+              "probability": 3,
+              "impact": 2
+            }
+          },
+          "expected_exposure": 48,
+          "expected_status": "MEDIUM"
+        },
+        {
+          "id": "schedule-risk-crisis",
+          "synthetic": true,
+          "inputs": {
+            "schedule-risk-risk-1": {
+              "probability": 5,
+              "impact": 5
+            },
+            "schedule-risk-risk-2": {
+              "probability": 5,
+              "impact": 5
+            },
+            "schedule-risk-risk-3": {
+              "probability": 5,
+              "impact": 5
+            },
+            "schedule-risk-risk-4": {
+              "probability": 5,
+              "impact": 5
+            }
+          },
+          "expected_exposure": 100,
+          "expected_status": "HIGH"
+        }
+      ]
+    },
+    {
+      "id": "location-risk",
+      "title": {
+        "en": "Location production risk",
+        "ru": "Риски съёмочной локации"
+      },
+      "scope": {
+        "en": "Estimate location production risk from explicit probability and impact inputs.",
+        "ru": "Оценка «риски съёмочной локации» по явным значениям вероятности и влияния."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "risks": [
+        {
+          "id": "location-risk-risk-1",
+          "label": {
+            "en": "Permit delay",
+            "ru": "Задержка разрешения"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        },
+        {
+          "id": "location-risk-risk-2",
+          "label": {
+            "en": "Access restriction",
+            "ru": "Ограничение доступа"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        },
+        {
+          "id": "location-risk-risk-3",
+          "label": {
+            "en": "Noise contamination",
+            "ru": "Шумовое загрязнение"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        },
+        {
+          "id": "location-risk-risk-4",
+          "label": {
+            "en": "Power limitation",
+            "ru": "Ограничение электропитания"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        }
+      ],
+      "domain_index": 5,
+      "scenarios": [
+        {
+          "id": "location-risk-baseline",
+          "synthetic": true,
+          "inputs": {
+            "location-risk-risk-1": {
+              "probability": 2,
+              "impact": 3
+            },
+            "location-risk-risk-2": {
+              "probability": 3,
+              "impact": 3
+            },
+            "location-risk-risk-3": {
+              "probability": 2,
+              "impact": 4
+            },
+            "location-risk-risk-4": {
+              "probability": 3,
+              "impact": 2
+            }
+          },
+          "expected_exposure": 29,
+          "expected_status": "LOW"
+        },
+        {
+          "id": "location-risk-controlled",
+          "synthetic": true,
+          "inputs": {
+            "location-risk-risk-1": {
+              "probability": 1,
+              "impact": 1
+            },
+            "location-risk-risk-2": {
+              "probability": 1,
+              "impact": 1
+            },
+            "location-risk-risk-3": {
+              "probability": 1,
+              "impact": 1
+            },
+            "location-risk-risk-4": {
+              "probability": 1,
+              "impact": 1
+            }
+          },
+          "expected_exposure": 4,
+          "expected_status": "LOW"
+        },
+        {
+          "id": "location-risk-first-risk-escalation",
+          "synthetic": true,
+          "inputs": {
+            "location-risk-risk-1": {
+              "probability": 5,
+              "impact": 5
+            },
+            "location-risk-risk-2": {
+              "probability": 3,
+              "impact": 3
+            },
+            "location-risk-risk-3": {
+              "probability": 2,
+              "impact": 4
+            },
+            "location-risk-risk-4": {
+              "probability": 3,
+              "impact": 2
+            }
+          },
+          "expected_exposure": 48,
+          "expected_status": "MEDIUM"
+        },
+        {
+          "id": "location-risk-crisis",
+          "synthetic": true,
+          "inputs": {
+            "location-risk-risk-1": {
+              "probability": 5,
+              "impact": 5
+            },
+            "location-risk-risk-2": {
+              "probability": 5,
+              "impact": 5
+            },
+            "location-risk-risk-3": {
+              "probability": 5,
+              "impact": 5
+            },
+            "location-risk-risk-4": {
+              "probability": 5,
+              "impact": 5
+            }
+          },
+          "expected_exposure": 100,
+          "expected_status": "HIGH"
+        }
+      ]
+    },
+    {
+      "id": "crew-risk",
+      "title": {
+        "en": "Crew operations risk",
+        "ru": "Риски работы съёмочной группы"
+      },
+      "scope": {
+        "en": "Estimate crew operations risk from explicit probability and impact inputs.",
+        "ru": "Оценка «риски работы съёмочной группы» по явным значениям вероятности и влияния."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "risks": [
+        {
+          "id": "crew-risk-risk-1",
+          "label": {
+            "en": "Critical role absence",
+            "ru": "Отсутствие ключевого специалиста"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        },
+        {
+          "id": "crew-risk-risk-2",
+          "label": {
+            "en": "Fatigue exposure",
+            "ru": "Риск усталости"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        },
+        {
+          "id": "crew-risk-risk-3",
+          "label": {
+            "en": "Handoff ambiguity",
+            "ru": "Неясная передача задач"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        },
+        {
+          "id": "crew-risk-risk-4",
+          "label": {
+            "en": "Safety briefing gap",
+            "ru": "Пробел в инструктаже безопасности"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        }
+      ],
+      "domain_index": 6,
+      "scenarios": [
+        {
+          "id": "crew-risk-baseline",
+          "synthetic": true,
+          "inputs": {
+            "crew-risk-risk-1": {
+              "probability": 2,
+              "impact": 3
+            },
+            "crew-risk-risk-2": {
+              "probability": 3,
+              "impact": 3
+            },
+            "crew-risk-risk-3": {
+              "probability": 2,
+              "impact": 4
+            },
+            "crew-risk-risk-4": {
+              "probability": 3,
+              "impact": 2
+            }
+          },
+          "expected_exposure": 29,
+          "expected_status": "LOW"
+        },
+        {
+          "id": "crew-risk-controlled",
+          "synthetic": true,
+          "inputs": {
+            "crew-risk-risk-1": {
+              "probability": 1,
+              "impact": 1
+            },
+            "crew-risk-risk-2": {
+              "probability": 1,
+              "impact": 1
+            },
+            "crew-risk-risk-3": {
+              "probability": 1,
+              "impact": 1
+            },
+            "crew-risk-risk-4": {
+              "probability": 1,
+              "impact": 1
+            }
+          },
+          "expected_exposure": 4,
+          "expected_status": "LOW"
+        },
+        {
+          "id": "crew-risk-first-risk-escalation",
+          "synthetic": true,
+          "inputs": {
+            "crew-risk-risk-1": {
+              "probability": 5,
+              "impact": 5
+            },
+            "crew-risk-risk-2": {
+              "probability": 3,
+              "impact": 3
+            },
+            "crew-risk-risk-3": {
+              "probability": 2,
+              "impact": 4
+            },
+            "crew-risk-risk-4": {
+              "probability": 3,
+              "impact": 2
+            }
+          },
+          "expected_exposure": 48,
+          "expected_status": "MEDIUM"
+        },
+        {
+          "id": "crew-risk-crisis",
+          "synthetic": true,
+          "inputs": {
+            "crew-risk-risk-1": {
+              "probability": 5,
+              "impact": 5
+            },
+            "crew-risk-risk-2": {
+              "probability": 5,
+              "impact": 5
+            },
+            "crew-risk-risk-3": {
+              "probability": 5,
+              "impact": 5
+            },
+            "crew-risk-risk-4": {
+              "probability": 5,
+              "impact": 5
+            }
+          },
+          "expected_exposure": 100,
+          "expected_status": "HIGH"
+        }
+      ]
+    },
+    {
+      "id": "talent-risk",
+      "title": {
+        "en": "Talent production risk",
+        "ru": "Риски работы с талантом"
+      },
+      "scope": {
+        "en": "Estimate talent production risk from explicit probability and impact inputs.",
+        "ru": "Оценка «риски работы с талантом» по явным значениям вероятности и влияния."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "risks": [
+        {
+          "id": "talent-risk-risk-1",
+          "label": {
+            "en": "Availability conflict",
+            "ru": "Конфликт доступности"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        },
+        {
+          "id": "talent-risk-risk-2",
+          "label": {
+            "en": "Usage restriction",
+            "ru": "Ограничение использования"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        },
+        {
+          "id": "talent-risk-risk-3",
+          "label": {
+            "en": "Performance mismatch",
+            "ru": "Несоответствие исполнения"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        },
+        {
+          "id": "talent-risk-risk-4",
+          "label": {
+            "en": "Travel disruption",
+            "ru": "Срыв поездки"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        }
+      ],
+      "domain_index": 7,
+      "scenarios": [
+        {
+          "id": "talent-risk-baseline",
+          "synthetic": true,
+          "inputs": {
+            "talent-risk-risk-1": {
+              "probability": 2,
+              "impact": 3
+            },
+            "talent-risk-risk-2": {
+              "probability": 3,
+              "impact": 3
+            },
+            "talent-risk-risk-3": {
+              "probability": 2,
+              "impact": 4
+            },
+            "talent-risk-risk-4": {
+              "probability": 3,
+              "impact": 2
+            }
+          },
+          "expected_exposure": 29,
+          "expected_status": "LOW"
+        },
+        {
+          "id": "talent-risk-controlled",
+          "synthetic": true,
+          "inputs": {
+            "talent-risk-risk-1": {
+              "probability": 1,
+              "impact": 1
+            },
+            "talent-risk-risk-2": {
+              "probability": 1,
+              "impact": 1
+            },
+            "talent-risk-risk-3": {
+              "probability": 1,
+              "impact": 1
+            },
+            "talent-risk-risk-4": {
+              "probability": 1,
+              "impact": 1
+            }
+          },
+          "expected_exposure": 4,
+          "expected_status": "LOW"
+        },
+        {
+          "id": "talent-risk-first-risk-escalation",
+          "synthetic": true,
+          "inputs": {
+            "talent-risk-risk-1": {
+              "probability": 5,
+              "impact": 5
+            },
+            "talent-risk-risk-2": {
+              "probability": 3,
+              "impact": 3
+            },
+            "talent-risk-risk-3": {
+              "probability": 2,
+              "impact": 4
+            },
+            "talent-risk-risk-4": {
+              "probability": 3,
+              "impact": 2
+            }
+          },
+          "expected_exposure": 48,
+          "expected_status": "MEDIUM"
+        },
+        {
+          "id": "talent-risk-crisis",
+          "synthetic": true,
+          "inputs": {
+            "talent-risk-risk-1": {
+              "probability": 5,
+              "impact": 5
+            },
+            "talent-risk-risk-2": {
+              "probability": 5,
+              "impact": 5
+            },
+            "talent-risk-risk-3": {
+              "probability": 5,
+              "impact": 5
+            },
+            "talent-risk-risk-4": {
+              "probability": 5,
+              "impact": 5
+            }
+          },
+          "expected_exposure": 100,
+          "expected_status": "HIGH"
+        }
+      ]
+    },
+    {
+      "id": "equipment-risk",
+      "title": {
+        "en": "Equipment risk",
+        "ru": "Риски оборудования"
+      },
+      "scope": {
+        "en": "Estimate equipment risk from explicit probability and impact inputs.",
+        "ru": "Оценка «риски оборудования» по явным значениям вероятности и влияния."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "risks": [
+        {
+          "id": "equipment-risk-risk-1",
+          "label": {
+            "en": "Primary camera failure",
+            "ru": "Отказ основной камеры"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        },
+        {
+          "id": "equipment-risk-risk-2",
+          "label": {
+            "en": "Lens availability gap",
+            "ru": "Нет нужной оптики"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        },
+        {
+          "id": "equipment-risk-risk-3",
+          "label": {
+            "en": "Power interruption",
+            "ru": "Перерыв электропитания"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        },
+        {
+          "id": "equipment-risk-risk-4",
+          "label": {
+            "en": "Unsupported firmware",
+            "ru": "Неподдерживаемая прошивка"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        }
+      ],
+      "domain_index": 8,
+      "scenarios": [
+        {
+          "id": "equipment-risk-baseline",
+          "synthetic": true,
+          "inputs": {
+            "equipment-risk-risk-1": {
+              "probability": 2,
+              "impact": 3
+            },
+            "equipment-risk-risk-2": {
+              "probability": 3,
+              "impact": 3
+            },
+            "equipment-risk-risk-3": {
+              "probability": 2,
+              "impact": 4
+            },
+            "equipment-risk-risk-4": {
+              "probability": 3,
+              "impact": 2
+            }
+          },
+          "expected_exposure": 29,
+          "expected_status": "LOW"
+        },
+        {
+          "id": "equipment-risk-controlled",
+          "synthetic": true,
+          "inputs": {
+            "equipment-risk-risk-1": {
+              "probability": 1,
+              "impact": 1
+            },
+            "equipment-risk-risk-2": {
+              "probability": 1,
+              "impact": 1
+            },
+            "equipment-risk-risk-3": {
+              "probability": 1,
+              "impact": 1
+            },
+            "equipment-risk-risk-4": {
+              "probability": 1,
+              "impact": 1
+            }
+          },
+          "expected_exposure": 4,
+          "expected_status": "LOW"
+        },
+        {
+          "id": "equipment-risk-first-risk-escalation",
+          "synthetic": true,
+          "inputs": {
+            "equipment-risk-risk-1": {
+              "probability": 5,
+              "impact": 5
+            },
+            "equipment-risk-risk-2": {
+              "probability": 3,
+              "impact": 3
+            },
+            "equipment-risk-risk-3": {
+              "probability": 2,
+              "impact": 4
+            },
+            "equipment-risk-risk-4": {
+              "probability": 3,
+              "impact": 2
+            }
+          },
+          "expected_exposure": 48,
+          "expected_status": "MEDIUM"
+        },
+        {
+          "id": "equipment-risk-crisis",
+          "synthetic": true,
+          "inputs": {
+            "equipment-risk-risk-1": {
+              "probability": 5,
+              "impact": 5
+            },
+            "equipment-risk-risk-2": {
+              "probability": 5,
+              "impact": 5
+            },
+            "equipment-risk-risk-3": {
+              "probability": 5,
+              "impact": 5
+            },
+            "equipment-risk-risk-4": {
+              "probability": 5,
+              "impact": 5
+            }
+          },
+          "expected_exposure": 100,
+          "expected_status": "HIGH"
+        }
+      ]
+    },
+    {
+      "id": "camera-data-risk",
+      "title": {
+        "en": "Camera data risk",
+        "ru": "Риски данных камеры"
+      },
+      "scope": {
+        "en": "Estimate camera data risk from explicit probability and impact inputs.",
+        "ru": "Оценка «риски данных камеры» по явным значениям вероятности и влияния."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "risks": [
+        {
+          "id": "camera-data-risk-risk-1",
+          "label": {
+            "en": "Card corruption",
+            "ru": "Повреждение карты"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        },
+        {
+          "id": "camera-data-risk-risk-2",
+          "label": {
+            "en": "Codec incompatibility",
+            "ru": "Несовместимость кодека"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        },
+        {
+          "id": "camera-data-risk-risk-3",
+          "label": {
+            "en": "Timecode drift",
+            "ru": "Дрейф таймкода"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        },
+        {
+          "id": "camera-data-risk-risk-4",
+          "label": {
+            "en": "Metadata loss",
+            "ru": "Потеря метаданных"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        }
+      ],
+      "domain_index": 9,
+      "scenarios": [
+        {
+          "id": "camera-data-risk-baseline",
+          "synthetic": true,
+          "inputs": {
+            "camera-data-risk-risk-1": {
+              "probability": 2,
+              "impact": 3
+            },
+            "camera-data-risk-risk-2": {
+              "probability": 3,
+              "impact": 3
+            },
+            "camera-data-risk-risk-3": {
+              "probability": 2,
+              "impact": 4
+            },
+            "camera-data-risk-risk-4": {
+              "probability": 3,
+              "impact": 2
+            }
+          },
+          "expected_exposure": 29,
+          "expected_status": "LOW"
+        },
+        {
+          "id": "camera-data-risk-controlled",
+          "synthetic": true,
+          "inputs": {
+            "camera-data-risk-risk-1": {
+              "probability": 1,
+              "impact": 1
+            },
+            "camera-data-risk-risk-2": {
+              "probability": 1,
+              "impact": 1
+            },
+            "camera-data-risk-risk-3": {
+              "probability": 1,
+              "impact": 1
+            },
+            "camera-data-risk-risk-4": {
+              "probability": 1,
+              "impact": 1
+            }
+          },
+          "expected_exposure": 4,
+          "expected_status": "LOW"
+        },
+        {
+          "id": "camera-data-risk-first-risk-escalation",
+          "synthetic": true,
+          "inputs": {
+            "camera-data-risk-risk-1": {
+              "probability": 5,
+              "impact": 5
+            },
+            "camera-data-risk-risk-2": {
+              "probability": 3,
+              "impact": 3
+            },
+            "camera-data-risk-risk-3": {
+              "probability": 2,
+              "impact": 4
+            },
+            "camera-data-risk-risk-4": {
+              "probability": 3,
+              "impact": 2
+            }
+          },
+          "expected_exposure": 48,
+          "expected_status": "MEDIUM"
+        },
+        {
+          "id": "camera-data-risk-crisis",
+          "synthetic": true,
+          "inputs": {
+            "camera-data-risk-risk-1": {
+              "probability": 5,
+              "impact": 5
+            },
+            "camera-data-risk-risk-2": {
+              "probability": 5,
+              "impact": 5
+            },
+            "camera-data-risk-risk-3": {
+              "probability": 5,
+              "impact": 5
+            },
+            "camera-data-risk-risk-4": {
+              "probability": 5,
+              "impact": 5
+            }
+          },
+          "expected_exposure": 100,
+          "expected_status": "HIGH"
+        }
+      ]
+    },
+    {
+      "id": "audio-risk",
+      "title": {
+        "en": "Production audio risk",
+        "ru": "Риски производственного звука"
+      },
+      "scope": {
+        "en": "Estimate production audio risk from explicit probability and impact inputs.",
+        "ru": "Оценка «риски производственного звука» по явным значениям вероятности и влияния."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "risks": [
+        {
+          "id": "audio-risk-risk-1",
+          "label": {
+            "en": "Radio interference",
+            "ru": "Радиопомехи"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        },
+        {
+          "id": "audio-risk-risk-2",
+          "label": {
+            "en": "Room noise",
+            "ru": "Шум помещения"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        },
+        {
+          "id": "audio-risk-risk-3",
+          "label": {
+            "en": "Recorder failure",
+            "ru": "Отказ рекордера"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        },
+        {
+          "id": "audio-risk-risk-4",
+          "label": {
+            "en": "Sync reference loss",
+            "ru": "Потеря синхронизации"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        }
+      ],
+      "domain_index": 10,
+      "scenarios": [
+        {
+          "id": "audio-risk-baseline",
+          "synthetic": true,
+          "inputs": {
+            "audio-risk-risk-1": {
+              "probability": 2,
+              "impact": 3
+            },
+            "audio-risk-risk-2": {
+              "probability": 3,
+              "impact": 3
+            },
+            "audio-risk-risk-3": {
+              "probability": 2,
+              "impact": 4
+            },
+            "audio-risk-risk-4": {
+              "probability": 3,
+              "impact": 2
+            }
+          },
+          "expected_exposure": 29,
+          "expected_status": "LOW"
+        },
+        {
+          "id": "audio-risk-controlled",
+          "synthetic": true,
+          "inputs": {
+            "audio-risk-risk-1": {
+              "probability": 1,
+              "impact": 1
+            },
+            "audio-risk-risk-2": {
+              "probability": 1,
+              "impact": 1
+            },
+            "audio-risk-risk-3": {
+              "probability": 1,
+              "impact": 1
+            },
+            "audio-risk-risk-4": {
+              "probability": 1,
+              "impact": 1
+            }
+          },
+          "expected_exposure": 4,
+          "expected_status": "LOW"
+        },
+        {
+          "id": "audio-risk-first-risk-escalation",
+          "synthetic": true,
+          "inputs": {
+            "audio-risk-risk-1": {
+              "probability": 5,
+              "impact": 5
+            },
+            "audio-risk-risk-2": {
+              "probability": 3,
+              "impact": 3
+            },
+            "audio-risk-risk-3": {
+              "probability": 2,
+              "impact": 4
+            },
+            "audio-risk-risk-4": {
+              "probability": 3,
+              "impact": 2
+            }
+          },
+          "expected_exposure": 48,
+          "expected_status": "MEDIUM"
+        },
+        {
+          "id": "audio-risk-crisis",
+          "synthetic": true,
+          "inputs": {
+            "audio-risk-risk-1": {
+              "probability": 5,
+              "impact": 5
+            },
+            "audio-risk-risk-2": {
+              "probability": 5,
+              "impact": 5
+            },
+            "audio-risk-risk-3": {
+              "probability": 5,
+              "impact": 5
+            },
+            "audio-risk-risk-4": {
+              "probability": 5,
+              "impact": 5
+            }
+          },
+          "expected_exposure": 100,
+          "expected_status": "HIGH"
+        }
+      ]
+    },
+    {
+      "id": "lighting-risk",
+      "title": {
+        "en": "Lighting and power risk",
+        "ru": "Риски света и питания"
+      },
+      "scope": {
+        "en": "Estimate lighting and power risk from explicit probability and impact inputs.",
+        "ru": "Оценка «риски света и питания» по явным значениям вероятности и влияния."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "risks": [
+        {
+          "id": "lighting-risk-risk-1",
+          "label": {
+            "en": "Circuit overload",
+            "ru": "Перегрузка цепи"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        },
+        {
+          "id": "lighting-risk-risk-2",
+          "label": {
+            "en": "Fixture failure",
+            "ru": "Отказ прибора"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        },
+        {
+          "id": "lighting-risk-risk-3",
+          "label": {
+            "en": "Color inconsistency",
+            "ru": "Несогласованный цвет"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        },
+        {
+          "id": "lighting-risk-risk-4",
+          "label": {
+            "en": "Rigging restriction",
+            "ru": "Ограничение риггинга"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        }
+      ],
+      "domain_index": 11,
+      "scenarios": [
+        {
+          "id": "lighting-risk-baseline",
+          "synthetic": true,
+          "inputs": {
+            "lighting-risk-risk-1": {
+              "probability": 2,
+              "impact": 3
+            },
+            "lighting-risk-risk-2": {
+              "probability": 3,
+              "impact": 3
+            },
+            "lighting-risk-risk-3": {
+              "probability": 2,
+              "impact": 4
+            },
+            "lighting-risk-risk-4": {
+              "probability": 3,
+              "impact": 2
+            }
+          },
+          "expected_exposure": 29,
+          "expected_status": "LOW"
+        },
+        {
+          "id": "lighting-risk-controlled",
+          "synthetic": true,
+          "inputs": {
+            "lighting-risk-risk-1": {
+              "probability": 1,
+              "impact": 1
+            },
+            "lighting-risk-risk-2": {
+              "probability": 1,
+              "impact": 1
+            },
+            "lighting-risk-risk-3": {
+              "probability": 1,
+              "impact": 1
+            },
+            "lighting-risk-risk-4": {
+              "probability": 1,
+              "impact": 1
+            }
+          },
+          "expected_exposure": 4,
+          "expected_status": "LOW"
+        },
+        {
+          "id": "lighting-risk-first-risk-escalation",
+          "synthetic": true,
+          "inputs": {
+            "lighting-risk-risk-1": {
+              "probability": 5,
+              "impact": 5
+            },
+            "lighting-risk-risk-2": {
+              "probability": 3,
+              "impact": 3
+            },
+            "lighting-risk-risk-3": {
+              "probability": 2,
+              "impact": 4
+            },
+            "lighting-risk-risk-4": {
+              "probability": 3,
+              "impact": 2
+            }
+          },
+          "expected_exposure": 48,
+          "expected_status": "MEDIUM"
+        },
+        {
+          "id": "lighting-risk-crisis",
+          "synthetic": true,
+          "inputs": {
+            "lighting-risk-risk-1": {
+              "probability": 5,
+              "impact": 5
+            },
+            "lighting-risk-risk-2": {
+              "probability": 5,
+              "impact": 5
+            },
+            "lighting-risk-risk-3": {
+              "probability": 5,
+              "impact": 5
+            },
+            "lighting-risk-risk-4": {
+              "probability": 5,
+              "impact": 5
+            }
+          },
+          "expected_exposure": 100,
+          "expected_status": "HIGH"
+        }
+      ]
+    },
+    {
+      "id": "weather-risk",
+      "title": {
+        "en": "Weather exposure risk",
+        "ru": "Погодные риски"
+      },
+      "scope": {
+        "en": "Estimate weather exposure risk from explicit probability and impact inputs.",
+        "ru": "Оценка «погодные риски» по явным значениям вероятности и влияния."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "risks": [
+        {
+          "id": "weather-risk-risk-1",
+          "label": {
+            "en": "Rain interruption",
+            "ru": "Перерыв из-за дождя"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        },
+        {
+          "id": "weather-risk-risk-2",
+          "label": {
+            "en": "Wind threshold breach",
+            "ru": "Превышение порога ветра"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        },
+        {
+          "id": "weather-risk-risk-3",
+          "label": {
+            "en": "Heat exposure",
+            "ru": "Воздействие жары"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        },
+        {
+          "id": "weather-risk-risk-4",
+          "label": {
+            "en": "Light continuity loss",
+            "ru": "Потеря световой непрерывности"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        }
+      ],
+      "domain_index": 12,
+      "scenarios": [
+        {
+          "id": "weather-risk-baseline",
+          "synthetic": true,
+          "inputs": {
+            "weather-risk-risk-1": {
+              "probability": 2,
+              "impact": 3
+            },
+            "weather-risk-risk-2": {
+              "probability": 3,
+              "impact": 3
+            },
+            "weather-risk-risk-3": {
+              "probability": 2,
+              "impact": 4
+            },
+            "weather-risk-risk-4": {
+              "probability": 3,
+              "impact": 2
+            }
+          },
+          "expected_exposure": 29,
+          "expected_status": "LOW"
+        },
+        {
+          "id": "weather-risk-controlled",
+          "synthetic": true,
+          "inputs": {
+            "weather-risk-risk-1": {
+              "probability": 1,
+              "impact": 1
+            },
+            "weather-risk-risk-2": {
+              "probability": 1,
+              "impact": 1
+            },
+            "weather-risk-risk-3": {
+              "probability": 1,
+              "impact": 1
+            },
+            "weather-risk-risk-4": {
+              "probability": 1,
+              "impact": 1
+            }
+          },
+          "expected_exposure": 4,
+          "expected_status": "LOW"
+        },
+        {
+          "id": "weather-risk-first-risk-escalation",
+          "synthetic": true,
+          "inputs": {
+            "weather-risk-risk-1": {
+              "probability": 5,
+              "impact": 5
+            },
+            "weather-risk-risk-2": {
+              "probability": 3,
+              "impact": 3
+            },
+            "weather-risk-risk-3": {
+              "probability": 2,
+              "impact": 4
+            },
+            "weather-risk-risk-4": {
+              "probability": 3,
+              "impact": 2
+            }
+          },
+          "expected_exposure": 48,
+          "expected_status": "MEDIUM"
+        },
+        {
+          "id": "weather-risk-crisis",
+          "synthetic": true,
+          "inputs": {
+            "weather-risk-risk-1": {
+              "probability": 5,
+              "impact": 5
+            },
+            "weather-risk-risk-2": {
+              "probability": 5,
+              "impact": 5
+            },
+            "weather-risk-risk-3": {
+              "probability": 5,
+              "impact": 5
+            },
+            "weather-risk-risk-4": {
+              "probability": 5,
+              "impact": 5
+            }
+          },
+          "expected_exposure": 100,
+          "expected_status": "HIGH"
+        }
+      ]
+    },
+    {
+      "id": "media-backup-risk",
+      "title": {
+        "en": "Media backup risk",
+        "ru": "Риски резервирования медиа"
+      },
+      "scope": {
+        "en": "Estimate media backup risk from explicit probability and impact inputs.",
+        "ru": "Оценка «риски резервирования медиа» по явным значениям вероятности и влияния."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "risks": [
+        {
+          "id": "media-backup-risk-risk-1",
+          "label": {
+            "en": "Single-copy window",
+            "ru": "Окно с одной копией"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        },
+        {
+          "id": "media-backup-risk-risk-2",
+          "label": {
+            "en": "Checksum mismatch",
+            "ru": "Несовпадение контрольной суммы"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        },
+        {
+          "id": "media-backup-risk-risk-3",
+          "label": {
+            "en": "Transfer interruption",
+            "ru": "Прерывание передачи"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        },
+        {
+          "id": "media-backup-risk-risk-4",
+          "label": {
+            "en": "Restore failure",
+            "ru": "Ошибка восстановления"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        }
+      ],
+      "domain_index": 13,
+      "scenarios": [
+        {
+          "id": "media-backup-risk-baseline",
+          "synthetic": true,
+          "inputs": {
+            "media-backup-risk-risk-1": {
+              "probability": 2,
+              "impact": 3
+            },
+            "media-backup-risk-risk-2": {
+              "probability": 3,
+              "impact": 3
+            },
+            "media-backup-risk-risk-3": {
+              "probability": 2,
+              "impact": 4
+            },
+            "media-backup-risk-risk-4": {
+              "probability": 3,
+              "impact": 2
+            }
+          },
+          "expected_exposure": 29,
+          "expected_status": "LOW"
+        },
+        {
+          "id": "media-backup-risk-controlled",
+          "synthetic": true,
+          "inputs": {
+            "media-backup-risk-risk-1": {
+              "probability": 1,
+              "impact": 1
+            },
+            "media-backup-risk-risk-2": {
+              "probability": 1,
+              "impact": 1
+            },
+            "media-backup-risk-risk-3": {
+              "probability": 1,
+              "impact": 1
+            },
+            "media-backup-risk-risk-4": {
+              "probability": 1,
+              "impact": 1
+            }
+          },
+          "expected_exposure": 4,
+          "expected_status": "LOW"
+        },
+        {
+          "id": "media-backup-risk-first-risk-escalation",
+          "synthetic": true,
+          "inputs": {
+            "media-backup-risk-risk-1": {
+              "probability": 5,
+              "impact": 5
+            },
+            "media-backup-risk-risk-2": {
+              "probability": 3,
+              "impact": 3
+            },
+            "media-backup-risk-risk-3": {
+              "probability": 2,
+              "impact": 4
+            },
+            "media-backup-risk-risk-4": {
+              "probability": 3,
+              "impact": 2
+            }
+          },
+          "expected_exposure": 48,
+          "expected_status": "MEDIUM"
+        },
+        {
+          "id": "media-backup-risk-crisis",
+          "synthetic": true,
+          "inputs": {
+            "media-backup-risk-risk-1": {
+              "probability": 5,
+              "impact": 5
+            },
+            "media-backup-risk-risk-2": {
+              "probability": 5,
+              "impact": 5
+            },
+            "media-backup-risk-risk-3": {
+              "probability": 5,
+              "impact": 5
+            },
+            "media-backup-risk-risk-4": {
+              "probability": 5,
+              "impact": 5
+            }
+          },
+          "expected_exposure": 100,
+          "expected_status": "HIGH"
+        }
+      ]
+    },
+    {
+      "id": "proxy-risk",
+      "title": {
+        "en": "Proxy workflow risk",
+        "ru": "Риски прокси-процесса"
+      },
+      "scope": {
+        "en": "Estimate proxy workflow risk from explicit probability and impact inputs.",
+        "ru": "Оценка «риски прокси-процесса» по явным значениям вероятности и влияния."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "risks": [
+        {
+          "id": "proxy-risk-risk-1",
+          "label": {
+            "en": "Naming mismatch",
+            "ru": "Ошибка именования"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        },
+        {
+          "id": "proxy-risk-risk-2",
+          "label": {
+            "en": "Audio mapping error",
+            "ru": "Ошибка назначения аудио"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        },
+        {
+          "id": "proxy-risk-risk-3",
+          "label": {
+            "en": "Color transform error",
+            "ru": "Ошибка цветового преобразования"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        },
+        {
+          "id": "proxy-risk-risk-4",
+          "label": {
+            "en": "Relink failure",
+            "ru": "Ошибка перелинковки"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        }
+      ],
+      "domain_index": 14,
+      "scenarios": [
+        {
+          "id": "proxy-risk-baseline",
+          "synthetic": true,
+          "inputs": {
+            "proxy-risk-risk-1": {
+              "probability": 2,
+              "impact": 3
+            },
+            "proxy-risk-risk-2": {
+              "probability": 3,
+              "impact": 3
+            },
+            "proxy-risk-risk-3": {
+              "probability": 2,
+              "impact": 4
+            },
+            "proxy-risk-risk-4": {
+              "probability": 3,
+              "impact": 2
+            }
+          },
+          "expected_exposure": 29,
+          "expected_status": "LOW"
+        },
+        {
+          "id": "proxy-risk-controlled",
+          "synthetic": true,
+          "inputs": {
+            "proxy-risk-risk-1": {
+              "probability": 1,
+              "impact": 1
+            },
+            "proxy-risk-risk-2": {
+              "probability": 1,
+              "impact": 1
+            },
+            "proxy-risk-risk-3": {
+              "probability": 1,
+              "impact": 1
+            },
+            "proxy-risk-risk-4": {
+              "probability": 1,
+              "impact": 1
+            }
+          },
+          "expected_exposure": 4,
+          "expected_status": "LOW"
+        },
+        {
+          "id": "proxy-risk-first-risk-escalation",
+          "synthetic": true,
+          "inputs": {
+            "proxy-risk-risk-1": {
+              "probability": 5,
+              "impact": 5
+            },
+            "proxy-risk-risk-2": {
+              "probability": 3,
+              "impact": 3
+            },
+            "proxy-risk-risk-3": {
+              "probability": 2,
+              "impact": 4
+            },
+            "proxy-risk-risk-4": {
+              "probability": 3,
+              "impact": 2
+            }
+          },
+          "expected_exposure": 48,
+          "expected_status": "MEDIUM"
+        },
+        {
+          "id": "proxy-risk-crisis",
+          "synthetic": true,
+          "inputs": {
+            "proxy-risk-risk-1": {
+              "probability": 5,
+              "impact": 5
+            },
+            "proxy-risk-risk-2": {
+              "probability": 5,
+              "impact": 5
+            },
+            "proxy-risk-risk-3": {
+              "probability": 5,
+              "impact": 5
+            },
+            "proxy-risk-risk-4": {
+              "probability": 5,
+              "impact": 5
+            }
+          },
+          "expected_exposure": 100,
+          "expected_status": "HIGH"
+        }
+      ]
+    },
+    {
+      "id": "edit-risk",
+      "title": {
+        "en": "Editorial workflow risk",
+        "ru": "Риски монтажа"
+      },
+      "scope": {
+        "en": "Estimate editorial workflow risk from explicit probability and impact inputs.",
+        "ru": "Оценка «риски монтажа» по явным значениям вероятности и влияния."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "risks": [
+        {
+          "id": "edit-risk-risk-1",
+          "label": {
+            "en": "Project corruption",
+            "ru": "Повреждение проекта"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        },
+        {
+          "id": "edit-risk-risk-2",
+          "label": {
+            "en": "Version collision",
+            "ru": "Конфликт версий"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        },
+        {
+          "id": "edit-risk-risk-3",
+          "label": {
+            "en": "Missing source media",
+            "ru": "Отсутствие исходных медиа"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        },
+        {
+          "id": "edit-risk-risk-4",
+          "label": {
+            "en": "Review context loss",
+            "ru": "Потеря контекста ревью"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        }
+      ],
+      "domain_index": 15,
+      "scenarios": [
+        {
+          "id": "edit-risk-baseline",
+          "synthetic": true,
+          "inputs": {
+            "edit-risk-risk-1": {
+              "probability": 2,
+              "impact": 3
+            },
+            "edit-risk-risk-2": {
+              "probability": 3,
+              "impact": 3
+            },
+            "edit-risk-risk-3": {
+              "probability": 2,
+              "impact": 4
+            },
+            "edit-risk-risk-4": {
+              "probability": 3,
+              "impact": 2
+            }
+          },
+          "expected_exposure": 29,
+          "expected_status": "LOW"
+        },
+        {
+          "id": "edit-risk-controlled",
+          "synthetic": true,
+          "inputs": {
+            "edit-risk-risk-1": {
+              "probability": 1,
+              "impact": 1
+            },
+            "edit-risk-risk-2": {
+              "probability": 1,
+              "impact": 1
+            },
+            "edit-risk-risk-3": {
+              "probability": 1,
+              "impact": 1
+            },
+            "edit-risk-risk-4": {
+              "probability": 1,
+              "impact": 1
+            }
+          },
+          "expected_exposure": 4,
+          "expected_status": "LOW"
+        },
+        {
+          "id": "edit-risk-first-risk-escalation",
+          "synthetic": true,
+          "inputs": {
+            "edit-risk-risk-1": {
+              "probability": 5,
+              "impact": 5
+            },
+            "edit-risk-risk-2": {
+              "probability": 3,
+              "impact": 3
+            },
+            "edit-risk-risk-3": {
+              "probability": 2,
+              "impact": 4
+            },
+            "edit-risk-risk-4": {
+              "probability": 3,
+              "impact": 2
+            }
+          },
+          "expected_exposure": 48,
+          "expected_status": "MEDIUM"
+        },
+        {
+          "id": "edit-risk-crisis",
+          "synthetic": true,
+          "inputs": {
+            "edit-risk-risk-1": {
+              "probability": 5,
+              "impact": 5
+            },
+            "edit-risk-risk-2": {
+              "probability": 5,
+              "impact": 5
+            },
+            "edit-risk-risk-3": {
+              "probability": 5,
+              "impact": 5
+            },
+            "edit-risk-risk-4": {
+              "probability": 5,
+              "impact": 5
+            }
+          },
+          "expected_exposure": 100,
+          "expected_status": "HIGH"
+        }
+      ]
+    },
+    {
+      "id": "vfx-risk",
+      "title": {
+        "en": "VFX turnover risk",
+        "ru": "Риски передачи VFX"
+      },
+      "scope": {
+        "en": "Estimate vfx turnover risk from explicit probability and impact inputs.",
+        "ru": "Оценка «риски передачи vfx» по явным значениям вероятности и влияния."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "risks": [
+        {
+          "id": "vfx-risk-risk-1",
+          "label": {
+            "en": "Frame range mismatch",
+            "ru": "Несовпадение диапазона кадров"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        },
+        {
+          "id": "vfx-risk-risk-2",
+          "label": {
+            "en": "Wrong color space",
+            "ru": "Неверное цветовое пространство"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        },
+        {
+          "id": "vfx-risk-risk-3",
+          "label": {
+            "en": "Missing handles",
+            "ru": "Нет запасных кадров"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        },
+        {
+          "id": "vfx-risk-risk-4",
+          "label": {
+            "en": "Plate version drift",
+            "ru": "Расхождение версии плейта"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        }
+      ],
+      "domain_index": 16,
+      "scenarios": [
+        {
+          "id": "vfx-risk-baseline",
+          "synthetic": true,
+          "inputs": {
+            "vfx-risk-risk-1": {
+              "probability": 2,
+              "impact": 3
+            },
+            "vfx-risk-risk-2": {
+              "probability": 3,
+              "impact": 3
+            },
+            "vfx-risk-risk-3": {
+              "probability": 2,
+              "impact": 4
+            },
+            "vfx-risk-risk-4": {
+              "probability": 3,
+              "impact": 2
+            }
+          },
+          "expected_exposure": 29,
+          "expected_status": "LOW"
+        },
+        {
+          "id": "vfx-risk-controlled",
+          "synthetic": true,
+          "inputs": {
+            "vfx-risk-risk-1": {
+              "probability": 1,
+              "impact": 1
+            },
+            "vfx-risk-risk-2": {
+              "probability": 1,
+              "impact": 1
+            },
+            "vfx-risk-risk-3": {
+              "probability": 1,
+              "impact": 1
+            },
+            "vfx-risk-risk-4": {
+              "probability": 1,
+              "impact": 1
+            }
+          },
+          "expected_exposure": 4,
+          "expected_status": "LOW"
+        },
+        {
+          "id": "vfx-risk-first-risk-escalation",
+          "synthetic": true,
+          "inputs": {
+            "vfx-risk-risk-1": {
+              "probability": 5,
+              "impact": 5
+            },
+            "vfx-risk-risk-2": {
+              "probability": 3,
+              "impact": 3
+            },
+            "vfx-risk-risk-3": {
+              "probability": 2,
+              "impact": 4
+            },
+            "vfx-risk-risk-4": {
+              "probability": 3,
+              "impact": 2
+            }
+          },
+          "expected_exposure": 48,
+          "expected_status": "MEDIUM"
+        },
+        {
+          "id": "vfx-risk-crisis",
+          "synthetic": true,
+          "inputs": {
+            "vfx-risk-risk-1": {
+              "probability": 5,
+              "impact": 5
+            },
+            "vfx-risk-risk-2": {
+              "probability": 5,
+              "impact": 5
+            },
+            "vfx-risk-risk-3": {
+              "probability": 5,
+              "impact": 5
+            },
+            "vfx-risk-risk-4": {
+              "probability": 5,
+              "impact": 5
+            }
+          },
+          "expected_exposure": 100,
+          "expected_status": "HIGH"
+        }
+      ]
+    },
+    {
+      "id": "color-risk",
+      "title": {
+        "en": "Color finishing risk",
+        "ru": "Риски цветокоррекции"
+      },
+      "scope": {
+        "en": "Estimate color finishing risk from explicit probability and impact inputs.",
+        "ru": "Оценка «риски цветокоррекции» по явным значениям вероятности и влияния."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "risks": [
+        {
+          "id": "color-risk-risk-1",
+          "label": {
+            "en": "Monitor calibration drift",
+            "ru": "Дрейф калибровки монитора"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        },
+        {
+          "id": "color-risk-risk-2",
+          "label": {
+            "en": "LUT mismatch",
+            "ru": "Несовпадение LUT"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        },
+        {
+          "id": "color-risk-risk-3",
+          "label": {
+            "en": "Legal range violation",
+            "ru": "Нарушение допустимого диапазона"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        },
+        {
+          "id": "color-risk-risk-4",
+          "label": {
+            "en": "Version substitution",
+            "ru": "Подмена версии"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        }
+      ],
+      "domain_index": 17,
+      "scenarios": [
+        {
+          "id": "color-risk-baseline",
+          "synthetic": true,
+          "inputs": {
+            "color-risk-risk-1": {
+              "probability": 2,
+              "impact": 3
+            },
+            "color-risk-risk-2": {
+              "probability": 3,
+              "impact": 3
+            },
+            "color-risk-risk-3": {
+              "probability": 2,
+              "impact": 4
+            },
+            "color-risk-risk-4": {
+              "probability": 3,
+              "impact": 2
+            }
+          },
+          "expected_exposure": 29,
+          "expected_status": "LOW"
+        },
+        {
+          "id": "color-risk-controlled",
+          "synthetic": true,
+          "inputs": {
+            "color-risk-risk-1": {
+              "probability": 1,
+              "impact": 1
+            },
+            "color-risk-risk-2": {
+              "probability": 1,
+              "impact": 1
+            },
+            "color-risk-risk-3": {
+              "probability": 1,
+              "impact": 1
+            },
+            "color-risk-risk-4": {
+              "probability": 1,
+              "impact": 1
+            }
+          },
+          "expected_exposure": 4,
+          "expected_status": "LOW"
+        },
+        {
+          "id": "color-risk-first-risk-escalation",
+          "synthetic": true,
+          "inputs": {
+            "color-risk-risk-1": {
+              "probability": 5,
+              "impact": 5
+            },
+            "color-risk-risk-2": {
+              "probability": 3,
+              "impact": 3
+            },
+            "color-risk-risk-3": {
+              "probability": 2,
+              "impact": 4
+            },
+            "color-risk-risk-4": {
+              "probability": 3,
+              "impact": 2
+            }
+          },
+          "expected_exposure": 48,
+          "expected_status": "MEDIUM"
+        },
+        {
+          "id": "color-risk-crisis",
+          "synthetic": true,
+          "inputs": {
+            "color-risk-risk-1": {
+              "probability": 5,
+              "impact": 5
+            },
+            "color-risk-risk-2": {
+              "probability": 5,
+              "impact": 5
+            },
+            "color-risk-risk-3": {
+              "probability": 5,
+              "impact": 5
+            },
+            "color-risk-risk-4": {
+              "probability": 5,
+              "impact": 5
+            }
+          },
+          "expected_exposure": 100,
+          "expected_status": "HIGH"
+        }
+      ]
+    },
+    {
+      "id": "mix-risk",
+      "title": {
+        "en": "Audio mix risk",
+        "ru": "Риски сведения звука"
+      },
+      "scope": {
+        "en": "Estimate audio mix risk from explicit probability and impact inputs.",
+        "ru": "Оценка «риски сведения звука» по явным значениям вероятности и влияния."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "risks": [
+        {
+          "id": "mix-risk-risk-1",
+          "label": {
+            "en": "Loudness failure",
+            "ru": "Ошибка громкости"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        },
+        {
+          "id": "mix-risk-risk-2",
+          "label": {
+            "en": "Channel mapping error",
+            "ru": "Ошибка каналов"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        },
+        {
+          "id": "mix-risk-risk-3",
+          "label": {
+            "en": "Missing stem",
+            "ru": "Отсутствующий stem"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        },
+        {
+          "id": "mix-risk-risk-4",
+          "label": {
+            "en": "Dialogue intelligibility",
+            "ru": "Неразборчивый диалог"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        }
+      ],
+      "domain_index": 18,
+      "scenarios": [
+        {
+          "id": "mix-risk-baseline",
+          "synthetic": true,
+          "inputs": {
+            "mix-risk-risk-1": {
+              "probability": 2,
+              "impact": 3
+            },
+            "mix-risk-risk-2": {
+              "probability": 3,
+              "impact": 3
+            },
+            "mix-risk-risk-3": {
+              "probability": 2,
+              "impact": 4
+            },
+            "mix-risk-risk-4": {
+              "probability": 3,
+              "impact": 2
+            }
+          },
+          "expected_exposure": 29,
+          "expected_status": "LOW"
+        },
+        {
+          "id": "mix-risk-controlled",
+          "synthetic": true,
+          "inputs": {
+            "mix-risk-risk-1": {
+              "probability": 1,
+              "impact": 1
+            },
+            "mix-risk-risk-2": {
+              "probability": 1,
+              "impact": 1
+            },
+            "mix-risk-risk-3": {
+              "probability": 1,
+              "impact": 1
+            },
+            "mix-risk-risk-4": {
+              "probability": 1,
+              "impact": 1
+            }
+          },
+          "expected_exposure": 4,
+          "expected_status": "LOW"
+        },
+        {
+          "id": "mix-risk-first-risk-escalation",
+          "synthetic": true,
+          "inputs": {
+            "mix-risk-risk-1": {
+              "probability": 5,
+              "impact": 5
+            },
+            "mix-risk-risk-2": {
+              "probability": 3,
+              "impact": 3
+            },
+            "mix-risk-risk-3": {
+              "probability": 2,
+              "impact": 4
+            },
+            "mix-risk-risk-4": {
+              "probability": 3,
+              "impact": 2
+            }
+          },
+          "expected_exposure": 48,
+          "expected_status": "MEDIUM"
+        },
+        {
+          "id": "mix-risk-crisis",
+          "synthetic": true,
+          "inputs": {
+            "mix-risk-risk-1": {
+              "probability": 5,
+              "impact": 5
+            },
+            "mix-risk-risk-2": {
+              "probability": 5,
+              "impact": 5
+            },
+            "mix-risk-risk-3": {
+              "probability": 5,
+              "impact": 5
+            },
+            "mix-risk-risk-4": {
+              "probability": 5,
+              "impact": 5
+            }
+          },
+          "expected_exposure": 100,
+          "expected_status": "HIGH"
+        }
+      ]
+    },
+    {
+      "id": "caption-risk",
+      "title": {
+        "en": "Caption delivery risk",
+        "ru": "Риски поставки субтитров"
+      },
+      "scope": {
+        "en": "Estimate caption delivery risk from explicit probability and impact inputs.",
+        "ru": "Оценка «риски поставки субтитров» по явным значениям вероятности и влияния."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "risks": [
+        {
+          "id": "caption-risk-risk-1",
+          "label": {
+            "en": "Timing overlap",
+            "ru": "Перекрытие таймингов"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        },
+        {
+          "id": "caption-risk-risk-2",
+          "label": {
+            "en": "Reading speed excess",
+            "ru": "Превышение скорости чтения"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        },
+        {
+          "id": "caption-risk-risk-3",
+          "label": {
+            "en": "Speaker ambiguity",
+            "ru": "Неясный спикер"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        },
+        {
+          "id": "caption-risk-risk-4",
+          "label": {
+            "en": "Encoding failure",
+            "ru": "Ошибка кодировки"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        }
+      ],
+      "domain_index": 19,
+      "scenarios": [
+        {
+          "id": "caption-risk-baseline",
+          "synthetic": true,
+          "inputs": {
+            "caption-risk-risk-1": {
+              "probability": 2,
+              "impact": 3
+            },
+            "caption-risk-risk-2": {
+              "probability": 3,
+              "impact": 3
+            },
+            "caption-risk-risk-3": {
+              "probability": 2,
+              "impact": 4
+            },
+            "caption-risk-risk-4": {
+              "probability": 3,
+              "impact": 2
+            }
+          },
+          "expected_exposure": 29,
+          "expected_status": "LOW"
+        },
+        {
+          "id": "caption-risk-controlled",
+          "synthetic": true,
+          "inputs": {
+            "caption-risk-risk-1": {
+              "probability": 1,
+              "impact": 1
+            },
+            "caption-risk-risk-2": {
+              "probability": 1,
+              "impact": 1
+            },
+            "caption-risk-risk-3": {
+              "probability": 1,
+              "impact": 1
+            },
+            "caption-risk-risk-4": {
+              "probability": 1,
+              "impact": 1
+            }
+          },
+          "expected_exposure": 4,
+          "expected_status": "LOW"
+        },
+        {
+          "id": "caption-risk-first-risk-escalation",
+          "synthetic": true,
+          "inputs": {
+            "caption-risk-risk-1": {
+              "probability": 5,
+              "impact": 5
+            },
+            "caption-risk-risk-2": {
+              "probability": 3,
+              "impact": 3
+            },
+            "caption-risk-risk-3": {
+              "probability": 2,
+              "impact": 4
+            },
+            "caption-risk-risk-4": {
+              "probability": 3,
+              "impact": 2
+            }
+          },
+          "expected_exposure": 48,
+          "expected_status": "MEDIUM"
+        },
+        {
+          "id": "caption-risk-crisis",
+          "synthetic": true,
+          "inputs": {
+            "caption-risk-risk-1": {
+              "probability": 5,
+              "impact": 5
+            },
+            "caption-risk-risk-2": {
+              "probability": 5,
+              "impact": 5
+            },
+            "caption-risk-risk-3": {
+              "probability": 5,
+              "impact": 5
+            },
+            "caption-risk-risk-4": {
+              "probability": 5,
+              "impact": 5
+            }
+          },
+          "expected_exposure": 100,
+          "expected_status": "HIGH"
+        }
+      ]
+    },
+    {
+      "id": "localization-risk",
+      "title": {
+        "en": "Localization risk",
+        "ru": "Риски локализации"
+      },
+      "scope": {
+        "en": "Estimate localization risk from explicit probability and impact inputs.",
+        "ru": "Оценка «риски локализации» по явным значениям вероятности и влияния."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "risks": [
+        {
+          "id": "localization-risk-risk-1",
+          "label": {
+            "en": "Terminology drift",
+            "ru": "Расхождение терминологии"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        },
+        {
+          "id": "localization-risk-risk-2",
+          "label": {
+            "en": "Truncated translation",
+            "ru": "Обрезанный перевод"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        },
+        {
+          "id": "localization-risk-risk-3",
+          "label": {
+            "en": "Locale mismatch",
+            "ru": "Несовпадение локали"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        },
+        {
+          "id": "localization-risk-risk-4",
+          "label": {
+            "en": "Unreviewed adaptation",
+            "ru": "Непроверенная адаптация"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        }
+      ],
+      "domain_index": 20,
+      "scenarios": [
+        {
+          "id": "localization-risk-baseline",
+          "synthetic": true,
+          "inputs": {
+            "localization-risk-risk-1": {
+              "probability": 2,
+              "impact": 3
+            },
+            "localization-risk-risk-2": {
+              "probability": 3,
+              "impact": 3
+            },
+            "localization-risk-risk-3": {
+              "probability": 2,
+              "impact": 4
+            },
+            "localization-risk-risk-4": {
+              "probability": 3,
+              "impact": 2
+            }
+          },
+          "expected_exposure": 29,
+          "expected_status": "LOW"
+        },
+        {
+          "id": "localization-risk-controlled",
+          "synthetic": true,
+          "inputs": {
+            "localization-risk-risk-1": {
+              "probability": 1,
+              "impact": 1
+            },
+            "localization-risk-risk-2": {
+              "probability": 1,
+              "impact": 1
+            },
+            "localization-risk-risk-3": {
+              "probability": 1,
+              "impact": 1
+            },
+            "localization-risk-risk-4": {
+              "probability": 1,
+              "impact": 1
+            }
+          },
+          "expected_exposure": 4,
+          "expected_status": "LOW"
+        },
+        {
+          "id": "localization-risk-first-risk-escalation",
+          "synthetic": true,
+          "inputs": {
+            "localization-risk-risk-1": {
+              "probability": 5,
+              "impact": 5
+            },
+            "localization-risk-risk-2": {
+              "probability": 3,
+              "impact": 3
+            },
+            "localization-risk-risk-3": {
+              "probability": 2,
+              "impact": 4
+            },
+            "localization-risk-risk-4": {
+              "probability": 3,
+              "impact": 2
+            }
+          },
+          "expected_exposure": 48,
+          "expected_status": "MEDIUM"
+        },
+        {
+          "id": "localization-risk-crisis",
+          "synthetic": true,
+          "inputs": {
+            "localization-risk-risk-1": {
+              "probability": 5,
+              "impact": 5
+            },
+            "localization-risk-risk-2": {
+              "probability": 5,
+              "impact": 5
+            },
+            "localization-risk-risk-3": {
+              "probability": 5,
+              "impact": 5
+            },
+            "localization-risk-risk-4": {
+              "probability": 5,
+              "impact": 5
+            }
+          },
+          "expected_exposure": 100,
+          "expected_status": "HIGH"
+        }
+      ]
+    },
+    {
+      "id": "qc-risk",
+      "title": {
+        "en": "Quality control risk",
+        "ru": "Риски контроля качества"
+      },
+      "scope": {
+        "en": "Estimate quality control risk from explicit probability and impact inputs.",
+        "ru": "Оценка «риски контроля качества» по явным значениям вероятности и влияния."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "risks": [
+        {
+          "id": "qc-risk-risk-1",
+          "label": {
+            "en": "Unchecked master",
+            "ru": "Непроверенный мастер"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        },
+        {
+          "id": "qc-risk-risk-2",
+          "label": {
+            "en": "False pass",
+            "ru": "Ложное прохождение"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        },
+        {
+          "id": "qc-risk-risk-3",
+          "label": {
+            "en": "Incomplete test scope",
+            "ru": "Неполный объём тестов"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        },
+        {
+          "id": "qc-risk-risk-4",
+          "label": {
+            "en": "Evidence loss",
+            "ru": "Потеря доказательств"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        }
+      ],
+      "domain_index": 21,
+      "scenarios": [
+        {
+          "id": "qc-risk-baseline",
+          "synthetic": true,
+          "inputs": {
+            "qc-risk-risk-1": {
+              "probability": 2,
+              "impact": 3
+            },
+            "qc-risk-risk-2": {
+              "probability": 3,
+              "impact": 3
+            },
+            "qc-risk-risk-3": {
+              "probability": 2,
+              "impact": 4
+            },
+            "qc-risk-risk-4": {
+              "probability": 3,
+              "impact": 2
+            }
+          },
+          "expected_exposure": 29,
+          "expected_status": "LOW"
+        },
+        {
+          "id": "qc-risk-controlled",
+          "synthetic": true,
+          "inputs": {
+            "qc-risk-risk-1": {
+              "probability": 1,
+              "impact": 1
+            },
+            "qc-risk-risk-2": {
+              "probability": 1,
+              "impact": 1
+            },
+            "qc-risk-risk-3": {
+              "probability": 1,
+              "impact": 1
+            },
+            "qc-risk-risk-4": {
+              "probability": 1,
+              "impact": 1
+            }
+          },
+          "expected_exposure": 4,
+          "expected_status": "LOW"
+        },
+        {
+          "id": "qc-risk-first-risk-escalation",
+          "synthetic": true,
+          "inputs": {
+            "qc-risk-risk-1": {
+              "probability": 5,
+              "impact": 5
+            },
+            "qc-risk-risk-2": {
+              "probability": 3,
+              "impact": 3
+            },
+            "qc-risk-risk-3": {
+              "probability": 2,
+              "impact": 4
+            },
+            "qc-risk-risk-4": {
+              "probability": 3,
+              "impact": 2
+            }
+          },
+          "expected_exposure": 48,
+          "expected_status": "MEDIUM"
+        },
+        {
+          "id": "qc-risk-crisis",
+          "synthetic": true,
+          "inputs": {
+            "qc-risk-risk-1": {
+              "probability": 5,
+              "impact": 5
+            },
+            "qc-risk-risk-2": {
+              "probability": 5,
+              "impact": 5
+            },
+            "qc-risk-risk-3": {
+              "probability": 5,
+              "impact": 5
+            },
+            "qc-risk-risk-4": {
+              "probability": 5,
+              "impact": 5
+            }
+          },
+          "expected_exposure": 100,
+          "expected_status": "HIGH"
+        }
+      ]
+    },
+    {
+      "id": "delivery-risk",
+      "title": {
+        "en": "Delivery package risk",
+        "ru": "Риски пакета поставки"
+      },
+      "scope": {
+        "en": "Estimate delivery package risk from explicit probability and impact inputs.",
+        "ru": "Оценка «риски пакета поставки» по явным значениям вероятности и влияния."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "risks": [
+        {
+          "id": "delivery-risk-risk-1",
+          "label": {
+            "en": "Wrong specification",
+            "ru": "Неверная спецификация"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        },
+        {
+          "id": "delivery-risk-risk-2",
+          "label": {
+            "en": "Missing component",
+            "ru": "Отсутствующий компонент"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        },
+        {
+          "id": "delivery-risk-risk-3",
+          "label": {
+            "en": "Checksum failure",
+            "ru": "Ошибка контрольной суммы"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        },
+        {
+          "id": "delivery-risk-risk-4",
+          "label": {
+            "en": "Deadline miss",
+            "ru": "Пропуск дедлайна"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        }
+      ],
+      "domain_index": 22,
+      "scenarios": [
+        {
+          "id": "delivery-risk-baseline",
+          "synthetic": true,
+          "inputs": {
+            "delivery-risk-risk-1": {
+              "probability": 2,
+              "impact": 3
+            },
+            "delivery-risk-risk-2": {
+              "probability": 3,
+              "impact": 3
+            },
+            "delivery-risk-risk-3": {
+              "probability": 2,
+              "impact": 4
+            },
+            "delivery-risk-risk-4": {
+              "probability": 3,
+              "impact": 2
+            }
+          },
+          "expected_exposure": 29,
+          "expected_status": "LOW"
+        },
+        {
+          "id": "delivery-risk-controlled",
+          "synthetic": true,
+          "inputs": {
+            "delivery-risk-risk-1": {
+              "probability": 1,
+              "impact": 1
+            },
+            "delivery-risk-risk-2": {
+              "probability": 1,
+              "impact": 1
+            },
+            "delivery-risk-risk-3": {
+              "probability": 1,
+              "impact": 1
+            },
+            "delivery-risk-risk-4": {
+              "probability": 1,
+              "impact": 1
+            }
+          },
+          "expected_exposure": 4,
+          "expected_status": "LOW"
+        },
+        {
+          "id": "delivery-risk-first-risk-escalation",
+          "synthetic": true,
+          "inputs": {
+            "delivery-risk-risk-1": {
+              "probability": 5,
+              "impact": 5
+            },
+            "delivery-risk-risk-2": {
+              "probability": 3,
+              "impact": 3
+            },
+            "delivery-risk-risk-3": {
+              "probability": 2,
+              "impact": 4
+            },
+            "delivery-risk-risk-4": {
+              "probability": 3,
+              "impact": 2
+            }
+          },
+          "expected_exposure": 48,
+          "expected_status": "MEDIUM"
+        },
+        {
+          "id": "delivery-risk-crisis",
+          "synthetic": true,
+          "inputs": {
+            "delivery-risk-risk-1": {
+              "probability": 5,
+              "impact": 5
+            },
+            "delivery-risk-risk-2": {
+              "probability": 5,
+              "impact": 5
+            },
+            "delivery-risk-risk-3": {
+              "probability": 5,
+              "impact": 5
+            },
+            "delivery-risk-risk-4": {
+              "probability": 5,
+              "impact": 5
+            }
+          },
+          "expected_exposure": 100,
+          "expected_status": "HIGH"
+        }
+      ]
+    },
+    {
+      "id": "archive-risk",
+      "title": {
+        "en": "Archive risk",
+        "ru": "Риски архива"
+      },
+      "scope": {
+        "en": "Estimate archive risk from explicit probability and impact inputs.",
+        "ru": "Оценка «риски архива» по явным значениям вероятности и влияния."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "risks": [
+        {
+          "id": "archive-risk-risk-1",
+          "label": {
+            "en": "Media degradation",
+            "ru": "Деградация носителя"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        },
+        {
+          "id": "archive-risk-risk-2",
+          "label": {
+            "en": "Catalog gap",
+            "ru": "Пробел каталога"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        },
+        {
+          "id": "archive-risk-risk-3",
+          "label": {
+            "en": "Format obsolescence",
+            "ru": "Устаревание формата"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        },
+        {
+          "id": "archive-risk-risk-4",
+          "label": {
+            "en": "Untested restore",
+            "ru": "Непроверенное восстановление"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        }
+      ],
+      "domain_index": 23,
+      "scenarios": [
+        {
+          "id": "archive-risk-baseline",
+          "synthetic": true,
+          "inputs": {
+            "archive-risk-risk-1": {
+              "probability": 2,
+              "impact": 3
+            },
+            "archive-risk-risk-2": {
+              "probability": 3,
+              "impact": 3
+            },
+            "archive-risk-risk-3": {
+              "probability": 2,
+              "impact": 4
+            },
+            "archive-risk-risk-4": {
+              "probability": 3,
+              "impact": 2
+            }
+          },
+          "expected_exposure": 29,
+          "expected_status": "LOW"
+        },
+        {
+          "id": "archive-risk-controlled",
+          "synthetic": true,
+          "inputs": {
+            "archive-risk-risk-1": {
+              "probability": 1,
+              "impact": 1
+            },
+            "archive-risk-risk-2": {
+              "probability": 1,
+              "impact": 1
+            },
+            "archive-risk-risk-3": {
+              "probability": 1,
+              "impact": 1
+            },
+            "archive-risk-risk-4": {
+              "probability": 1,
+              "impact": 1
+            }
+          },
+          "expected_exposure": 4,
+          "expected_status": "LOW"
+        },
+        {
+          "id": "archive-risk-first-risk-escalation",
+          "synthetic": true,
+          "inputs": {
+            "archive-risk-risk-1": {
+              "probability": 5,
+              "impact": 5
+            },
+            "archive-risk-risk-2": {
+              "probability": 3,
+              "impact": 3
+            },
+            "archive-risk-risk-3": {
+              "probability": 2,
+              "impact": 4
+            },
+            "archive-risk-risk-4": {
+              "probability": 3,
+              "impact": 2
+            }
+          },
+          "expected_exposure": 48,
+          "expected_status": "MEDIUM"
+        },
+        {
+          "id": "archive-risk-crisis",
+          "synthetic": true,
+          "inputs": {
+            "archive-risk-risk-1": {
+              "probability": 5,
+              "impact": 5
+            },
+            "archive-risk-risk-2": {
+              "probability": 5,
+              "impact": 5
+            },
+            "archive-risk-risk-3": {
+              "probability": 5,
+              "impact": 5
+            },
+            "archive-risk-risk-4": {
+              "probability": 5,
+              "impact": 5
+            }
+          },
+          "expected_exposure": 100,
+          "expected_status": "HIGH"
+        }
+      ]
+    },
+    {
+      "id": "security-risk",
+      "title": {
+        "en": "Production security risk",
+        "ru": "Риски безопасности производства"
+      },
+      "scope": {
+        "en": "Estimate production security risk from explicit probability and impact inputs.",
+        "ru": "Оценка «риски безопасности производства» по явным значениям вероятности и влияния."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "risks": [
+        {
+          "id": "security-risk-risk-1",
+          "label": {
+            "en": "Excessive access",
+            "ru": "Избыточный доступ"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        },
+        {
+          "id": "security-risk-risk-2",
+          "label": {
+            "en": "Public link exposure",
+            "ru": "Публичная ссылка"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        },
+        {
+          "id": "security-risk-risk-3",
+          "label": {
+            "en": "Credential reuse",
+            "ru": "Повторное использование учётных данных"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        },
+        {
+          "id": "security-risk-risk-4",
+          "label": {
+            "en": "Unlogged export",
+            "ru": "Незарегистрированный экспорт"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        }
+      ],
+      "domain_index": 24,
+      "scenarios": [
+        {
+          "id": "security-risk-baseline",
+          "synthetic": true,
+          "inputs": {
+            "security-risk-risk-1": {
+              "probability": 2,
+              "impact": 3
+            },
+            "security-risk-risk-2": {
+              "probability": 3,
+              "impact": 3
+            },
+            "security-risk-risk-3": {
+              "probability": 2,
+              "impact": 4
+            },
+            "security-risk-risk-4": {
+              "probability": 3,
+              "impact": 2
+            }
+          },
+          "expected_exposure": 29,
+          "expected_status": "LOW"
+        },
+        {
+          "id": "security-risk-controlled",
+          "synthetic": true,
+          "inputs": {
+            "security-risk-risk-1": {
+              "probability": 1,
+              "impact": 1
+            },
+            "security-risk-risk-2": {
+              "probability": 1,
+              "impact": 1
+            },
+            "security-risk-risk-3": {
+              "probability": 1,
+              "impact": 1
+            },
+            "security-risk-risk-4": {
+              "probability": 1,
+              "impact": 1
+            }
+          },
+          "expected_exposure": 4,
+          "expected_status": "LOW"
+        },
+        {
+          "id": "security-risk-first-risk-escalation",
+          "synthetic": true,
+          "inputs": {
+            "security-risk-risk-1": {
+              "probability": 5,
+              "impact": 5
+            },
+            "security-risk-risk-2": {
+              "probability": 3,
+              "impact": 3
+            },
+            "security-risk-risk-3": {
+              "probability": 2,
+              "impact": 4
+            },
+            "security-risk-risk-4": {
+              "probability": 3,
+              "impact": 2
+            }
+          },
+          "expected_exposure": 48,
+          "expected_status": "MEDIUM"
+        },
+        {
+          "id": "security-risk-crisis",
+          "synthetic": true,
+          "inputs": {
+            "security-risk-risk-1": {
+              "probability": 5,
+              "impact": 5
+            },
+            "security-risk-risk-2": {
+              "probability": 5,
+              "impact": 5
+            },
+            "security-risk-risk-3": {
+              "probability": 5,
+              "impact": 5
+            },
+            "security-risk-risk-4": {
+              "probability": 5,
+              "impact": 5
+            }
+          },
+          "expected_exposure": 100,
+          "expected_status": "HIGH"
+        }
+      ]
+    },
+    {
+      "id": "release-risk",
+      "title": {
+        "en": "Release governance risk",
+        "ru": "Риски управления выпуском"
+      },
+      "scope": {
+        "en": "Estimate release governance risk from explicit probability and impact inputs.",
+        "ru": "Оценка «риски управления выпуском» по явным значениям вероятности и влияния."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "risks": [
+        {
+          "id": "release-risk-risk-1",
+          "label": {
+            "en": "Missing sign-off",
+            "ru": "Нет финального согласования"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        },
+        {
+          "id": "release-risk-risk-2",
+          "label": {
+            "en": "Wrong market version",
+            "ru": "Неверная рыночная версия"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        },
+        {
+          "id": "release-risk-risk-3",
+          "label": {
+            "en": "Rollback gap",
+            "ru": "Нет отката"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        },
+        {
+          "id": "release-risk-risk-4",
+          "label": {
+            "en": "Unrecorded exception",
+            "ru": "Незафиксированное исключение"
+          },
+          "guidance": {
+            "en": "Set probability and impact from 1 (low) to 5 (high).",
+            "ru": "Укажите вероятность и влияние от 1 (низкие) до 5 (высокие)."
+          }
+        }
+      ],
+      "domain_index": 25,
+      "scenarios": [
+        {
+          "id": "release-risk-baseline",
+          "synthetic": true,
+          "inputs": {
+            "release-risk-risk-1": {
+              "probability": 2,
+              "impact": 3
+            },
+            "release-risk-risk-2": {
+              "probability": 3,
+              "impact": 3
+            },
+            "release-risk-risk-3": {
+              "probability": 2,
+              "impact": 4
+            },
+            "release-risk-risk-4": {
+              "probability": 3,
+              "impact": 2
+            }
+          },
+          "expected_exposure": 29,
+          "expected_status": "LOW"
+        },
+        {
+          "id": "release-risk-controlled",
+          "synthetic": true,
+          "inputs": {
+            "release-risk-risk-1": {
+              "probability": 1,
+              "impact": 1
+            },
+            "release-risk-risk-2": {
+              "probability": 1,
+              "impact": 1
+            },
+            "release-risk-risk-3": {
+              "probability": 1,
+              "impact": 1
+            },
+            "release-risk-risk-4": {
+              "probability": 1,
+              "impact": 1
+            }
+          },
+          "expected_exposure": 4,
+          "expected_status": "LOW"
+        },
+        {
+          "id": "release-risk-first-risk-escalation",
+          "synthetic": true,
+          "inputs": {
+            "release-risk-risk-1": {
+              "probability": 5,
+              "impact": 5
+            },
+            "release-risk-risk-2": {
+              "probability": 3,
+              "impact": 3
+            },
+            "release-risk-risk-3": {
+              "probability": 2,
+              "impact": 4
+            },
+            "release-risk-risk-4": {
+              "probability": 3,
+              "impact": 2
+            }
+          },
+          "expected_exposure": 48,
+          "expected_status": "MEDIUM"
+        },
+        {
+          "id": "release-risk-crisis",
+          "synthetic": true,
+          "inputs": {
+            "release-risk-risk-1": {
+              "probability": 5,
+              "impact": 5
+            },
+            "release-risk-risk-2": {
+              "probability": 5,
+              "impact": 5
+            },
+            "release-risk-risk-3": {
+              "probability": 5,
+              "impact": 5
+            },
+            "release-risk-risk-4": {
+              "probability": 5,
+              "impact": 5
+            }
+          },
+          "expected_exposure": 100,
+          "expected_status": "HIGH"
+        }
+      ]
+    }
+  ]
+}

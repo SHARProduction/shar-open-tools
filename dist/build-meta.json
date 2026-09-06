@@ -15,6 +15,7 @@
     "readinessScorecards": "84ef234aa17cab8d31e03ceec8fedfa9de455ccf5ea4703b65981e2e28afc6a2",
     "indexNowConfig": "37ce8939d41e142ba1390f806b3c0d2f653a6979f64ac24bef37fd3b86ac9259",
     "indexingObservatory": "045f55afe3caadd1b10edbedff9f97804aec776c2626c1c9659dbb09ea515089",
-    "optionMatrices": "80fb617283da4607aa379d204cd8c9c7120666c9160160a9b834865b4d3d60dc"
+    "optionMatrices": "80fb617283da4607aa379d204cd8c9c7120666c9160160a9b834865b4d3d60dc",
+    "riskSimulators": "156426e77b340c16f0414777f63ac9636b84bd5ddb7bfb33225da11c6e5c4bab"
   }
 }

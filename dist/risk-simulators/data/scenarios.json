@@ -1,0 +1,2911 @@
+{
+  "schema_version": "1.0.0",
+  "publisher": {
+    "name": "SHAR Production",
+    "website": "https://sharprod.com/"
+  },
+  "license": "CC-BY-4.0",
+  "synthetic": true,
+  "scenarios": [
+    {
+      "simulator_id": "brief-risk",
+      "id": "brief-risk-baseline",
+      "synthetic": true,
+      "inputs": {
+        "brief-risk-risk-1": {
+          "probability": 2,
+          "impact": 3
+        },
+        "brief-risk-risk-2": {
+          "probability": 3,
+          "impact": 3
+        },
+        "brief-risk-risk-3": {
+          "probability": 2,
+          "impact": 4
+        },
+        "brief-risk-risk-4": {
+          "probability": 3,
+          "impact": 2
+        }
+      },
+      "expected_exposure": 29,
+      "expected_status": "LOW",
+      "reproduced": {
+        "exposure": 29,
+        "status": "LOW"
+      }
+    },
+    {
+      "simulator_id": "brief-risk",
+      "id": "brief-risk-controlled",
+      "synthetic": true,
+      "inputs": {
+        "brief-risk-risk-1": {
+          "probability": 1,
+          "impact": 1
+        },
+        "brief-risk-risk-2": {
+          "probability": 1,
+          "impact": 1
+        },
+        "brief-risk-risk-3": {
+          "probability": 1,
+          "impact": 1
+        },
+        "brief-risk-risk-4": {
+          "probability": 1,
+          "impact": 1
+        }
+      },
+      "expected_exposure": 4,
+      "expected_status": "LOW",
+      "reproduced": {
+        "exposure": 4,
+        "status": "LOW"
+      }
+    },
+    {
+      "simulator_id": "brief-risk",
+      "id": "brief-risk-first-risk-escalation",
+      "synthetic": true,
+      "inputs": {
+        "brief-risk-risk-1": {
+          "probability": 5,
+          "impact": 5
+        },
+        "brief-risk-risk-2": {
+          "probability": 3,
+          "impact": 3
+        },
+        "brief-risk-risk-3": {
+          "probability": 2,
+          "impact": 4
+        },
+        "brief-risk-risk-4": {
+          "probability": 3,
+          "impact": 2
+        }
+      },
+      "expected_exposure": 48,
+      "expected_status": "MEDIUM",
+      "reproduced": {
+        "exposure": 48,
+        "status": "MEDIUM"
+      }
+    },
+    {
+      "simulator_id": "brief-risk",
+      "id": "brief-risk-crisis",
+      "synthetic": true,
+      "inputs": {
+        "brief-risk-risk-1": {
+          "probability": 5,
+          "impact": 5
+        },
+        "brief-risk-risk-2": {
+          "probability": 5,
+          "impact": 5
+        },
+        "brief-risk-risk-3": {
+          "probability": 5,
+          "impact": 5
+        },
+        "brief-risk-risk-4": {
+          "probability": 5,
+          "impact": 5
+        }
+      },
+      "expected_exposure": 100,
+      "expected_status": "HIGH",
+      "reproduced": {
+        "exposure": 100,
+        "status": "HIGH"
+      }
+    },
+    {
+      "simulator_id": "rights-risk",
+      "id": "rights-risk-baseline",
+      "synthetic": true,
+      "inputs": {
+        "rights-risk-risk-1": {
+          "probability": 2,
+          "impact": 3
+        },
+        "rights-risk-risk-2": {
+          "probability": 3,
+          "impact": 3
+        },
+        "rights-risk-risk-3": {
+          "probability": 2,
+          "impact": 4
+        },
+        "rights-risk-risk-4": {
+          "probability": 3,
+          "impact": 2
+        }
+      },
+      "expected_exposure": 29,
+      "expected_status": "LOW",
+      "reproduced": {
+        "exposure": 29,
+        "status": "LOW"
+      }
+    },
+    {
+      "simulator_id": "rights-risk",
+      "id": "rights-risk-controlled",
+      "synthetic": true,
+      "inputs": {
+        "rights-risk-risk-1": {
+          "probability": 1,
+          "impact": 1
+        },
+        "rights-risk-risk-2": {
+          "probability": 1,
+          "impact": 1
+        },
+        "rights-risk-risk-3": {
+          "probability": 1,
+          "impact": 1
+        },
+        "rights-risk-risk-4": {
+          "probability": 1,
+          "impact": 1
+        }
+      },
+      "expected_exposure": 4,
+      "expected_status": "LOW",
+      "reproduced": {
+        "exposure": 4,
+        "status": "LOW"
+      }
+    },
+    {
+      "simulator_id": "rights-risk",
+      "id": "rights-risk-first-risk-escalation",
+      "synthetic": true,
+      "inputs": {
+        "rights-risk-risk-1": {
+          "probability": 5,
+          "impact": 5
+        },
+        "rights-risk-risk-2": {
+          "probability": 3,
+          "impact": 3
+        },
+        "rights-risk-risk-3": {
+          "probability": 2,
+          "impact": 4
+        },
+        "rights-risk-risk-4": {
+          "probability": 3,
+          "impact": 2
+        }
+      },
+      "expected_exposure": 48,
+      "expected_status": "MEDIUM",
+      "reproduced": {
+        "exposure": 48,
+        "status": "MEDIUM"
+      }
+    },
+    {
+      "simulator_id": "rights-risk",
+      "id": "rights-risk-crisis",
+      "synthetic": true,
+      "inputs": {
+        "rights-risk-risk-1": {
+          "probability": 5,
+          "impact": 5
+        },
+        "rights-risk-risk-2": {
+          "probability": 5,
+          "impact": 5
+        },
+        "rights-risk-risk-3": {
+          "probability": 5,
+          "impact": 5
+        },
+        "rights-risk-risk-4": {
+          "probability": 5,
+          "impact": 5
+        }
+      },
+      "expected_exposure": 100,
+      "expected_status": "HIGH",
+      "reproduced": {
+        "exposure": 100,
+        "status": "HIGH"
+      }
+    },
+    {
+      "simulator_id": "budget-risk",
+      "id": "budget-risk-baseline",
+      "synthetic": true,
+      "inputs": {
+        "budget-risk-risk-1": {
+          "probability": 2,
+          "impact": 3
+        },
+        "budget-risk-risk-2": {
+          "probability": 3,
+          "impact": 3
+        },
+        "budget-risk-risk-3": {
+          "probability": 2,
+          "impact": 4
+        },
+        "budget-risk-risk-4": {
+          "probability": 3,
+          "impact": 2
+        }
+      },
+      "expected_exposure": 29,
+      "expected_status": "LOW",
+      "reproduced": {
+        "exposure": 29,
+        "status": "LOW"
+      }
+    },
+    {
+      "simulator_id": "budget-risk",
+      "id": "budget-risk-controlled",
+      "synthetic": true,
+      "inputs": {
+        "budget-risk-risk-1": {
+          "probability": 1,
+          "impact": 1
+        },
+        "budget-risk-risk-2": {
+          "probability": 1,
+          "impact": 1
+        },
+        "budget-risk-risk-3": {
+          "probability": 1,
+          "impact": 1
+        },
+        "budget-risk-risk-4": {
+          "probability": 1,
+          "impact": 1
+        }
+      },
+      "expected_exposure": 4,
+      "expected_status": "LOW",
+      "reproduced": {
+        "exposure": 4,
+        "status": "LOW"
+      }
+    },
+    {
+      "simulator_id": "budget-risk",
+      "id": "budget-risk-first-risk-escalation",
+      "synthetic": true,
+      "inputs": {
+        "budget-risk-risk-1": {
+          "probability": 5,
+          "impact": 5
+        },
+        "budget-risk-risk-2": {
+          "probability": 3,
+          "impact": 3
+        },
+        "budget-risk-risk-3": {
+          "probability": 2,
+          "impact": 4
+        },
+        "budget-risk-risk-4": {
+          "probability": 3,
+          "impact": 2
+        }
+      },
+      "expected_exposure": 48,
+      "expected_status": "MEDIUM",
+      "reproduced": {
+        "exposure": 48,
+        "status": "MEDIUM"
+      }
+    },
+    {
+      "simulator_id": "budget-risk",
+      "id": "budget-risk-crisis",
+      "synthetic": true,
+      "inputs": {
+        "budget-risk-risk-1": {
+          "probability": 5,
+          "impact": 5
+        },
+        "budget-risk-risk-2": {
+          "probability": 5,
+          "impact": 5
+        },
+        "budget-risk-risk-3": {
+          "probability": 5,
+          "impact": 5
+        },
+        "budget-risk-risk-4": {
+          "probability": 5,
+          "impact": 5
+        }
+      },
+      "expected_exposure": 100,
+      "expected_status": "HIGH",
+      "reproduced": {
+        "exposure": 100,
+        "status": "HIGH"
+      }
+    },
+    {
+      "simulator_id": "schedule-risk",
+      "id": "schedule-risk-baseline",
+      "synthetic": true,
+      "inputs": {
+        "schedule-risk-risk-1": {
+          "probability": 2,
+          "impact": 3
+        },
+        "schedule-risk-risk-2": {
+          "probability": 3,
+          "impact": 3
+        },
+        "schedule-risk-risk-3": {
+          "probability": 2,
+          "impact": 4
+        },
+        "schedule-risk-risk-4": {
+          "probability": 3,
+          "impact": 2
+        }
+      },
+      "expected_exposure": 29,
+      "expected_status": "LOW",
+      "reproduced": {
+        "exposure": 29,
+        "status": "LOW"
+      }
+    },
+    {
+      "simulator_id": "schedule-risk",
+      "id": "schedule-risk-controlled",
+      "synthetic": true,
+      "inputs": {
+        "schedule-risk-risk-1": {
+          "probability": 1,
+          "impact": 1
+        },
+        "schedule-risk-risk-2": {
+          "probability": 1,
+          "impact": 1
+        },
+        "schedule-risk-risk-3": {
+          "probability": 1,
+          "impact": 1
+        },
+        "schedule-risk-risk-4": {
+          "probability": 1,
+          "impact": 1
+        }
+      },
+      "expected_exposure": 4,
+      "expected_status": "LOW",
+      "reproduced": {
+        "exposure": 4,
+        "status": "LOW"
+      }
+    },
+    {
+      "simulator_id": "schedule-risk",
+      "id": "schedule-risk-first-risk-escalation",
+      "synthetic": true,
+      "inputs": {
+        "schedule-risk-risk-1": {
+          "probability": 5,
+          "impact": 5
+        },
+        "schedule-risk-risk-2": {
+          "probability": 3,
+          "impact": 3
+        },
+        "schedule-risk-risk-3": {
+          "probability": 2,
+          "impact": 4
+        },
+        "schedule-risk-risk-4": {
+          "probability": 3,
+          "impact": 2
+        }
+      },
+      "expected_exposure": 48,
+      "expected_status": "MEDIUM",
+      "reproduced": {
+        "exposure": 48,
+        "status": "MEDIUM"
+      }
+    },
+    {
+      "simulator_id": "schedule-risk",
+      "id": "schedule-risk-crisis",
+      "synthetic": true,
+      "inputs": {
+        "schedule-risk-risk-1": {
+          "probability": 5,
+          "impact": 5
+        },
+        "schedule-risk-risk-2": {
+          "probability": 5,
+          "impact": 5
+        },
+        "schedule-risk-risk-3": {
+          "probability": 5,
+          "impact": 5
+        },
+        "schedule-risk-risk-4": {
+          "probability": 5,
+          "impact": 5
+        }
+      },
+      "expected_exposure": 100,
+      "expected_status": "HIGH",
+      "reproduced": {
+        "exposure": 100,
+        "status": "HIGH"
+      }
+    },
+    {
+      "simulator_id": "location-risk",
+      "id": "location-risk-baseline",
+      "synthetic": true,
+      "inputs": {
+        "location-risk-risk-1": {
+          "probability": 2,
+          "impact": 3
+        },
+        "location-risk-risk-2": {
+          "probability": 3,
+          "impact": 3
+        },
+        "location-risk-risk-3": {
+          "probability": 2,
+          "impact": 4
+        },
+        "location-risk-risk-4": {
+          "probability": 3,
+          "impact": 2
+        }
+      },
+      "expected_exposure": 29,
+      "expected_status": "LOW",
+      "reproduced": {
+        "exposure": 29,
+        "status": "LOW"
+      }
+    },
+    {
+      "simulator_id": "location-risk",
+      "id": "location-risk-controlled",
+      "synthetic": true,
+      "inputs": {
+        "location-risk-risk-1": {
+          "probability": 1,
+          "impact": 1
+        },
+        "location-risk-risk-2": {
+          "probability": 1,
+          "impact": 1
+        },
+        "location-risk-risk-3": {
+          "probability": 1,
+          "impact": 1
+        },
+        "location-risk-risk-4": {
+          "probability": 1,
+          "impact": 1
+        }
+      },
+      "expected_exposure": 4,
+      "expected_status": "LOW",
+      "reproduced": {
+        "exposure": 4,
+        "status": "LOW"
+      }
+    },
+    {
+      "simulator_id": "location-risk",
+      "id": "location-risk-first-risk-escalation",
+      "synthetic": true,
+      "inputs": {
+        "location-risk-risk-1": {
+          "probability": 5,
+          "impact": 5
+        },
+        "location-risk-risk-2": {
+          "probability": 3,
+          "impact": 3
+        },
+        "location-risk-risk-3": {
+          "probability": 2,
+          "impact": 4
+        },
+        "location-risk-risk-4": {
+          "probability": 3,
+          "impact": 2
+        }
+      },
+      "expected_exposure": 48,
+      "expected_status": "MEDIUM",
+      "reproduced": {
+        "exposure": 48,
+        "status": "MEDIUM"
+      }
+    },
+    {
+      "simulator_id": "location-risk",
+      "id": "location-risk-crisis",
+      "synthetic": true,
+      "inputs": {
+        "location-risk-risk-1": {
+          "probability": 5,
+          "impact": 5
+        },
+        "location-risk-risk-2": {
+          "probability": 5,
+          "impact": 5
+        },
+        "location-risk-risk-3": {
+          "probability": 5,
+          "impact": 5
+        },
+        "location-risk-risk-4": {
+          "probability": 5,
+          "impact": 5
+        }
+      },
+      "expected_exposure": 100,
+      "expected_status": "HIGH",
+      "reproduced": {
+        "exposure": 100,
+        "status": "HIGH"
+      }
+    },
+    {
+      "simulator_id": "crew-risk",
+      "id": "crew-risk-baseline",
+      "synthetic": true,
+      "inputs": {
+        "crew-risk-risk-1": {
+          "probability": 2,
+          "impact": 3
+        },
+        "crew-risk-risk-2": {
+          "probability": 3,
+          "impact": 3
+        },
+        "crew-risk-risk-3": {
+          "probability": 2,
+          "impact": 4
+        },
+        "crew-risk-risk-4": {
+          "probability": 3,
+          "impact": 2
+        }
+      },
+      "expected_exposure": 29,
+      "expected_status": "LOW",
+      "reproduced": {
+        "exposure": 29,
+        "status": "LOW"
+      }
+    },
+    {
+      "simulator_id": "crew-risk",
+      "id": "crew-risk-controlled",
+      "synthetic": true,
+      "inputs": {
+        "crew-risk-risk-1": {
+          "probability": 1,
+          "impact": 1
+        },
+        "crew-risk-risk-2": {
+          "probability": 1,
+          "impact": 1
+        },
+        "crew-risk-risk-3": {
+          "probability": 1,
+          "impact": 1
+        },
+        "crew-risk-risk-4": {
+          "probability": 1,
+          "impact": 1
+        }
+      },
+      "expected_exposure": 4,
+      "expected_status": "LOW",
+      "reproduced": {
+        "exposure": 4,
+        "status": "LOW"
+      }
+    },
+    {
+      "simulator_id": "crew-risk",
+      "id": "crew-risk-first-risk-escalation",
+      "synthetic": true,
+      "inputs": {
+        "crew-risk-risk-1": {
+          "probability": 5,
+          "impact": 5
+        },
+        "crew-risk-risk-2": {
+          "probability": 3,
+          "impact": 3
+        },
+        "crew-risk-risk-3": {
+          "probability": 2,
+          "impact": 4
+        },
+        "crew-risk-risk-4": {
+          "probability": 3,
+          "impact": 2
+        }
+      },
+      "expected_exposure": 48,
+      "expected_status": "MEDIUM",
+      "reproduced": {
+        "exposure": 48,
+        "status": "MEDIUM"
+      }
+    },
+    {
+      "simulator_id": "crew-risk",
+      "id": "crew-risk-crisis",
+      "synthetic": true,
+      "inputs": {
+        "crew-risk-risk-1": {
+          "probability": 5,
+          "impact": 5
+        },
+        "crew-risk-risk-2": {
+          "probability": 5,
+          "impact": 5
+        },
+        "crew-risk-risk-3": {
+          "probability": 5,
+          "impact": 5
+        },
+        "crew-risk-risk-4": {
+          "probability": 5,
+          "impact": 5
+        }
+      },
+      "expected_exposure": 100,
+      "expected_status": "HIGH",
+      "reproduced": {
+        "exposure": 100,
+        "status": "HIGH"
+      }
+    },
+    {
+      "simulator_id": "talent-risk",
+      "id": "talent-risk-baseline",
+      "synthetic": true,
+      "inputs": {
+        "talent-risk-risk-1": {
+          "probability": 2,
+          "impact": 3
+        },
+        "talent-risk-risk-2": {
+          "probability": 3,
+          "impact": 3
+        },
+        "talent-risk-risk-3": {
+          "probability": 2,
+          "impact": 4
+        },
+        "talent-risk-risk-4": {
+          "probability": 3,
+          "impact": 2
+        }
+      },
+      "expected_exposure": 29,
+      "expected_status": "LOW",
+      "reproduced": {
+        "exposure": 29,
+        "status": "LOW"
+      }
+    },
+    {
+      "simulator_id": "talent-risk",
+      "id": "talent-risk-controlled",
+      "synthetic": true,
+      "inputs": {
+        "talent-risk-risk-1": {
+          "probability": 1,
+          "impact": 1
+        },
+        "talent-risk-risk-2": {
+          "probability": 1,
+          "impact": 1
+        },
+        "talent-risk-risk-3": {
+          "probability": 1,
+          "impact": 1
+        },
+        "talent-risk-risk-4": {
+          "probability": 1,
+          "impact": 1
+        }
+      },
+      "expected_exposure": 4,
+      "expected_status": "LOW",
+      "reproduced": {
+        "exposure": 4,
+        "status": "LOW"
+      }
+    },
+    {
+      "simulator_id": "talent-risk",
+      "id": "talent-risk-first-risk-escalation",
+      "synthetic": true,
+      "inputs": {
+        "talent-risk-risk-1": {
+          "probability": 5,
+          "impact": 5
+        },
+        "talent-risk-risk-2": {
+          "probability": 3,
+          "impact": 3
+        },
+        "talent-risk-risk-3": {
+          "probability": 2,
+          "impact": 4
+        },
+        "talent-risk-risk-4": {
+          "probability": 3,
+          "impact": 2
+        }
+      },
+      "expected_exposure": 48,
+      "expected_status": "MEDIUM",
+      "reproduced": {
+        "exposure": 48,
+        "status": "MEDIUM"
+      }
+    },
+    {
+      "simulator_id": "talent-risk",
+      "id": "talent-risk-crisis",
+      "synthetic": true,
+      "inputs": {
+        "talent-risk-risk-1": {
+          "probability": 5,
+          "impact": 5
+        },
+        "talent-risk-risk-2": {
+          "probability": 5,
+          "impact": 5
+        },
+        "talent-risk-risk-3": {
+          "probability": 5,
+          "impact": 5
+        },
+        "talent-risk-risk-4": {
+          "probability": 5,
+          "impact": 5
+        }
+      },
+      "expected_exposure": 100,
+      "expected_status": "HIGH",
+      "reproduced": {
+        "exposure": 100,
+        "status": "HIGH"
+      }
+    },
+    {
+      "simulator_id": "equipment-risk",
+      "id": "equipment-risk-baseline",
+      "synthetic": true,
+      "inputs": {
+        "equipment-risk-risk-1": {
+          "probability": 2,
+          "impact": 3
+        },
+        "equipment-risk-risk-2": {
+          "probability": 3,
+          "impact": 3
+        },
+        "equipment-risk-risk-3": {
+          "probability": 2,
+          "impact": 4
+        },
+        "equipment-risk-risk-4": {
+          "probability": 3,
+          "impact": 2
+        }
+      },
+      "expected_exposure": 29,
+      "expected_status": "LOW",
+      "reproduced": {
+        "exposure": 29,
+        "status": "LOW"
+      }
+    },
+    {
+      "simulator_id": "equipment-risk",
+      "id": "equipment-risk-controlled",
+      "synthetic": true,
+      "inputs": {
+        "equipment-risk-risk-1": {
+          "probability": 1,
+          "impact": 1
+        },
+        "equipment-risk-risk-2": {
+          "probability": 1,
+          "impact": 1
+        },
+        "equipment-risk-risk-3": {
+          "probability": 1,
+          "impact": 1
+        },
+        "equipment-risk-risk-4": {
+          "probability": 1,
+          "impact": 1
+        }
+      },
+      "expected_exposure": 4,
+      "expected_status": "LOW",
+      "reproduced": {
+        "exposure": 4,
+        "status": "LOW"
+      }
+    },
+    {
+      "simulator_id": "equipment-risk",
+      "id": "equipment-risk-first-risk-escalation",
+      "synthetic": true,
+      "inputs": {
+        "equipment-risk-risk-1": {
+          "probability": 5,
+          "impact": 5
+        },
+        "equipment-risk-risk-2": {
+          "probability": 3,
+          "impact": 3
+        },
+        "equipment-risk-risk-3": {
+          "probability": 2,
+          "impact": 4
+        },
+        "equipment-risk-risk-4": {
+          "probability": 3,
+          "impact": 2
+        }
+      },
+      "expected_exposure": 48,
+      "expected_status": "MEDIUM",
+      "reproduced": {
+        "exposure": 48,
+        "status": "MEDIUM"
+      }
+    },
+    {
+      "simulator_id": "equipment-risk",
+      "id": "equipment-risk-crisis",
+      "synthetic": true,
+      "inputs": {
+        "equipment-risk-risk-1": {
+          "probability": 5,
+          "impact": 5
+        },
+        "equipment-risk-risk-2": {
+          "probability": 5,
+          "impact": 5
+        },
+        "equipment-risk-risk-3": {
+          "probability": 5,
+          "impact": 5
+        },
+        "equipment-risk-risk-4": {
+          "probability": 5,
+          "impact": 5
+        }
+      },
+      "expected_exposure": 100,
+      "expected_status": "HIGH",
+      "reproduced": {
+        "exposure": 100,
+        "status": "HIGH"
+      }
+    },
+    {
+      "simulator_id": "camera-data-risk",
+      "id": "camera-data-risk-baseline",
+      "synthetic": true,
+      "inputs": {
+        "camera-data-risk-risk-1": {
+          "probability": 2,
+          "impact": 3
+        },
+        "camera-data-risk-risk-2": {
+          "probability": 3,
+          "impact": 3
+        },
+        "camera-data-risk-risk-3": {
+          "probability": 2,
+          "impact": 4
+        },
+        "camera-data-risk-risk-4": {
+          "probability": 3,
+          "impact": 2
+        }
+      },
+      "expected_exposure": 29,
+      "expected_status": "LOW",
+      "reproduced": {
+        "exposure": 29,
+        "status": "LOW"
+      }
+    },
+    {
+      "simulator_id": "camera-data-risk",
+      "id": "camera-data-risk-controlled",
+      "synthetic": true,
+      "inputs": {
+        "camera-data-risk-risk-1": {
+          "probability": 1,
+          "impact": 1
+        },
+        "camera-data-risk-risk-2": {
+          "probability": 1,
+          "impact": 1
+        },
+        "camera-data-risk-risk-3": {
+          "probability": 1,
+          "impact": 1
+        },
+        "camera-data-risk-risk-4": {
+          "probability": 1,
+          "impact": 1
+        }
+      },
+      "expected_exposure": 4,
+      "expected_status": "LOW",
+      "reproduced": {
+        "exposure": 4,
+        "status": "LOW"
+      }
+    },
+    {
+      "simulator_id": "camera-data-risk",
+      "id": "camera-data-risk-first-risk-escalation",
+      "synthetic": true,
+      "inputs": {
+        "camera-data-risk-risk-1": {
+          "probability": 5,
+          "impact": 5
+        },
+        "camera-data-risk-risk-2": {
+          "probability": 3,
+          "impact": 3
+        },
+        "camera-data-risk-risk-3": {
+          "probability": 2,
+          "impact": 4
+        },
+        "camera-data-risk-risk-4": {
+          "probability": 3,
+          "impact": 2
+        }
+      },
+      "expected_exposure": 48,
+      "expected_status": "MEDIUM",
+      "reproduced": {
+        "exposure": 48,
+        "status": "MEDIUM"
+      }
+    },
+    {
+      "simulator_id": "camera-data-risk",
+      "id": "camera-data-risk-crisis",
+      "synthetic": true,
+      "inputs": {
+        "camera-data-risk-risk-1": {
+          "probability": 5,
+          "impact": 5
+        },
+        "camera-data-risk-risk-2": {
+          "probability": 5,
+          "impact": 5
+        },
+        "camera-data-risk-risk-3": {
+          "probability": 5,
+          "impact": 5
+        },
+        "camera-data-risk-risk-4": {
+          "probability": 5,
+          "impact": 5
+        }
+      },
+      "expected_exposure": 100,
+      "expected_status": "HIGH",
+      "reproduced": {
+        "exposure": 100,
+        "status": "HIGH"
+      }
+    },
+    {
+      "simulator_id": "audio-risk",
+      "id": "audio-risk-baseline",
+      "synthetic": true,
+      "inputs": {
+        "audio-risk-risk-1": {
+          "probability": 2,
+          "impact": 3
+        },
+        "audio-risk-risk-2": {
+          "probability": 3,
+          "impact": 3
+        },
+        "audio-risk-risk-3": {
+          "probability": 2,
+          "impact": 4
+        },
+        "audio-risk-risk-4": {
+          "probability": 3,
+          "impact": 2
+        }
+      },
+      "expected_exposure": 29,
+      "expected_status": "LOW",
+      "reproduced": {
+        "exposure": 29,
+        "status": "LOW"
+      }
+    },
+    {
+      "simulator_id": "audio-risk",
+      "id": "audio-risk-controlled",
+      "synthetic": true,
+      "inputs": {
+        "audio-risk-risk-1": {
+          "probability": 1,
+          "impact": 1
+        },
+        "audio-risk-risk-2": {
+          "probability": 1,
+          "impact": 1
+        },
+        "audio-risk-risk-3": {
+          "probability": 1,
+          "impact": 1
+        },
+        "audio-risk-risk-4": {
+          "probability": 1,
+          "impact": 1
+        }
+      },
+      "expected_exposure": 4,
+      "expected_status": "LOW",
+      "reproduced": {
+        "exposure": 4,
+        "status": "LOW"
+      }
+    },
+    {
+      "simulator_id": "audio-risk",
+      "id": "audio-risk-first-risk-escalation",
+      "synthetic": true,
+      "inputs": {
+        "audio-risk-risk-1": {
+          "probability": 5,
+          "impact": 5
+        },
+        "audio-risk-risk-2": {
+          "probability": 3,
+          "impact": 3
+        },
+        "audio-risk-risk-3": {
+          "probability": 2,
+          "impact": 4
+        },
+        "audio-risk-risk-4": {
+          "probability": 3,
+          "impact": 2
+        }
+      },
+      "expected_exposure": 48,
+      "expected_status": "MEDIUM",
+      "reproduced": {
+        "exposure": 48,
+        "status": "MEDIUM"
+      }
+    },
+    {
+      "simulator_id": "audio-risk",
+      "id": "audio-risk-crisis",
+      "synthetic": true,
+      "inputs": {
+        "audio-risk-risk-1": {
+          "probability": 5,
+          "impact": 5
+        },
+        "audio-risk-risk-2": {
+          "probability": 5,
+          "impact": 5
+        },
+        "audio-risk-risk-3": {
+          "probability": 5,
+          "impact": 5
+        },
+        "audio-risk-risk-4": {
+          "probability": 5,
+          "impact": 5
+        }
+      },
+      "expected_exposure": 100,
+      "expected_status": "HIGH",
+      "reproduced": {
+        "exposure": 100,
+        "status": "HIGH"
+      }
+    },
+    {
+      "simulator_id": "lighting-risk",
+      "id": "lighting-risk-baseline",
+      "synthetic": true,
+      "inputs": {
+        "lighting-risk-risk-1": {
+          "probability": 2,
+          "impact": 3
+        },
+        "lighting-risk-risk-2": {
+          "probability": 3,
+          "impact": 3
+        },
+        "lighting-risk-risk-3": {
+          "probability": 2,
+          "impact": 4
+        },
+        "lighting-risk-risk-4": {
+          "probability": 3,
+          "impact": 2
+        }
+      },
+      "expected_exposure": 29,
+      "expected_status": "LOW",
+      "reproduced": {
+        "exposure": 29,
+        "status": "LOW"
+      }
+    },
+    {
+      "simulator_id": "lighting-risk",
+      "id": "lighting-risk-controlled",
+      "synthetic": true,
+      "inputs": {
+        "lighting-risk-risk-1": {
+          "probability": 1,
+          "impact": 1
+        },
+        "lighting-risk-risk-2": {
+          "probability": 1,
+          "impact": 1
+        },
+        "lighting-risk-risk-3": {
+          "probability": 1,
+          "impact": 1
+        },
+        "lighting-risk-risk-4": {
+          "probability": 1,
+          "impact": 1
+        }
+      },
+      "expected_exposure": 4,
+      "expected_status": "LOW",
+      "reproduced": {
+        "exposure": 4,
+        "status": "LOW"
+      }
+    },
+    {
+      "simulator_id": "lighting-risk",
+      "id": "lighting-risk-first-risk-escalation",
+      "synthetic": true,
+      "inputs": {
+        "lighting-risk-risk-1": {
+          "probability": 5,
+          "impact": 5
+        },
+        "lighting-risk-risk-2": {
+          "probability": 3,
+          "impact": 3
+        },
+        "lighting-risk-risk-3": {
+          "probability": 2,
+          "impact": 4
+        },
+        "lighting-risk-risk-4": {
+          "probability": 3,
+          "impact": 2
+        }
+      },
+      "expected_exposure": 48,
+      "expected_status": "MEDIUM",
+      "reproduced": {
+        "exposure": 48,
+        "status": "MEDIUM"
+      }
+    },
+    {
+      "simulator_id": "lighting-risk",
+      "id": "lighting-risk-crisis",
+      "synthetic": true,
+      "inputs": {
+        "lighting-risk-risk-1": {
+          "probability": 5,
+          "impact": 5
+        },
+        "lighting-risk-risk-2": {
+          "probability": 5,
+          "impact": 5
+        },
+        "lighting-risk-risk-3": {
+          "probability": 5,
+          "impact": 5
+        },
+        "lighting-risk-risk-4": {
+          "probability": 5,
+          "impact": 5
+        }
+      },
+      "expected_exposure": 100,
+      "expected_status": "HIGH",
+      "reproduced": {
+        "exposure": 100,
+        "status": "HIGH"
+      }
+    },
+    {
+      "simulator_id": "weather-risk",
+      "id": "weather-risk-baseline",
+      "synthetic": true,
+      "inputs": {
+        "weather-risk-risk-1": {
+          "probability": 2,
+          "impact": 3
+        },
+        "weather-risk-risk-2": {
+          "probability": 3,
+          "impact": 3
+        },
+        "weather-risk-risk-3": {
+          "probability": 2,
+          "impact": 4
+        },
+        "weather-risk-risk-4": {
+          "probability": 3,
+          "impact": 2
+        }
+      },
+      "expected_exposure": 29,
+      "expected_status": "LOW",
+      "reproduced": {
+        "exposure": 29,
+        "status": "LOW"
+      }
+    },
+    {
+      "simulator_id": "weather-risk",
+      "id": "weather-risk-controlled",
+      "synthetic": true,
+      "inputs": {
+        "weather-risk-risk-1": {
+          "probability": 1,
+          "impact": 1
+        },
+        "weather-risk-risk-2": {
+          "probability": 1,
+          "impact": 1
+        },
+        "weather-risk-risk-3": {
+          "probability": 1,
+          "impact": 1
+        },
+        "weather-risk-risk-4": {
+          "probability": 1,
+          "impact": 1
+        }
+      },
+      "expected_exposure": 4,
+      "expected_status": "LOW",
+      "reproduced": {
+        "exposure": 4,
+        "status": "LOW"
+      }
+    },
+    {
+      "simulator_id": "weather-risk",
+      "id": "weather-risk-first-risk-escalation",
+      "synthetic": true,
+      "inputs": {
+        "weather-risk-risk-1": {
+          "probability": 5,
+          "impact": 5
+        },
+        "weather-risk-risk-2": {
+          "probability": 3,
+          "impact": 3
+        },
+        "weather-risk-risk-3": {
+          "probability": 2,
+          "impact": 4
+        },
+        "weather-risk-risk-4": {
+          "probability": 3,
+          "impact": 2
+        }
+      },
+      "expected_exposure": 48,
+      "expected_status": "MEDIUM",
+      "reproduced": {
+        "exposure": 48,
+        "status": "MEDIUM"
+      }
+    },
+    {
+      "simulator_id": "weather-risk",
+      "id": "weather-risk-crisis",
+      "synthetic": true,
+      "inputs": {
+        "weather-risk-risk-1": {
+          "probability": 5,
+          "impact": 5
+        },
+        "weather-risk-risk-2": {
+          "probability": 5,
+          "impact": 5
+        },
+        "weather-risk-risk-3": {
+          "probability": 5,
+          "impact": 5
+        },
+        "weather-risk-risk-4": {
+          "probability": 5,
+          "impact": 5
+        }
+      },
+      "expected_exposure": 100,
+      "expected_status": "HIGH",
+      "reproduced": {
+        "exposure": 100,
+        "status": "HIGH"
+      }
+    },
+    {
+      "simulator_id": "media-backup-risk",
+      "id": "media-backup-risk-baseline",
+      "synthetic": true,
+      "inputs": {
+        "media-backup-risk-risk-1": {
+          "probability": 2,
+          "impact": 3
+        },
+        "media-backup-risk-risk-2": {
+          "probability": 3,
+          "impact": 3
+        },
+        "media-backup-risk-risk-3": {
+          "probability": 2,
+          "impact": 4
+        },
+        "media-backup-risk-risk-4": {
+          "probability": 3,
+          "impact": 2
+        }
+      },
+      "expected_exposure": 29,
+      "expected_status": "LOW",
+      "reproduced": {
+        "exposure": 29,
+        "status": "LOW"
+      }
+    },
+    {
+      "simulator_id": "media-backup-risk",
+      "id": "media-backup-risk-controlled",
+      "synthetic": true,
+      "inputs": {
+        "media-backup-risk-risk-1": {
+          "probability": 1,
+          "impact": 1
+        },
+        "media-backup-risk-risk-2": {
+          "probability": 1,
+          "impact": 1
+        },
+        "media-backup-risk-risk-3": {
+          "probability": 1,
+          "impact": 1
+        },
+        "media-backup-risk-risk-4": {
+          "probability": 1,
+          "impact": 1
+        }
+      },
+      "expected_exposure": 4,
+      "expected_status": "LOW",
+      "reproduced": {
+        "exposure": 4,
+        "status": "LOW"
+      }
+    },
+    {
+      "simulator_id": "media-backup-risk",
+      "id": "media-backup-risk-first-risk-escalation",
+      "synthetic": true,
+      "inputs": {
+        "media-backup-risk-risk-1": {
+          "probability": 5,
+          "impact": 5
+        },
+        "media-backup-risk-risk-2": {
+          "probability": 3,
+          "impact": 3
+        },
+        "media-backup-risk-risk-3": {
+          "probability": 2,
+          "impact": 4
+        },
+        "media-backup-risk-risk-4": {
+          "probability": 3,
+          "impact": 2
+        }
+      },
+      "expected_exposure": 48,
+      "expected_status": "MEDIUM",
+      "reproduced": {
+        "exposure": 48,
+        "status": "MEDIUM"
+      }
+    },
+    {
+      "simulator_id": "media-backup-risk",
+      "id": "media-backup-risk-crisis",
+      "synthetic": true,
+      "inputs": {
+        "media-backup-risk-risk-1": {
+          "probability": 5,
+          "impact": 5
+        },
+        "media-backup-risk-risk-2": {
+          "probability": 5,
+          "impact": 5
+        },
+        "media-backup-risk-risk-3": {
+          "probability": 5,
+          "impact": 5
+        },
+        "media-backup-risk-risk-4": {
+          "probability": 5,
+          "impact": 5
+        }
+      },
+      "expected_exposure": 100,
+      "expected_status": "HIGH",
+      "reproduced": {
+        "exposure": 100,
+        "status": "HIGH"
+      }
+    },
+    {
+      "simulator_id": "proxy-risk",
+      "id": "proxy-risk-baseline",
+      "synthetic": true,
+      "inputs": {
+        "proxy-risk-risk-1": {
+          "probability": 2,
+          "impact": 3
+        },
+        "proxy-risk-risk-2": {
+          "probability": 3,
+          "impact": 3
+        },
+        "proxy-risk-risk-3": {
+          "probability": 2,
+          "impact": 4
+        },
+        "proxy-risk-risk-4": {
+          "probability": 3,
+          "impact": 2
+        }
+      },
+      "expected_exposure": 29,
+      "expected_status": "LOW",
+      "reproduced": {
+        "exposure": 29,
+        "status": "LOW"
+      }
+    },
+    {
+      "simulator_id": "proxy-risk",
+      "id": "proxy-risk-controlled",
+      "synthetic": true,
+      "inputs": {
+        "proxy-risk-risk-1": {
+          "probability": 1,
+          "impact": 1
+        },
+        "proxy-risk-risk-2": {
+          "probability": 1,
+          "impact": 1
+        },
+        "proxy-risk-risk-3": {
+          "probability": 1,
+          "impact": 1
+        },
+        "proxy-risk-risk-4": {
+          "probability": 1,
+          "impact": 1
+        }
+      },
+      "expected_exposure": 4,
+      "expected_status": "LOW",
+      "reproduced": {
+        "exposure": 4,
+        "status": "LOW"
+      }
+    },
+    {
+      "simulator_id": "proxy-risk",
+      "id": "proxy-risk-first-risk-escalation",
+      "synthetic": true,
+      "inputs": {
+        "proxy-risk-risk-1": {
+          "probability": 5,
+          "impact": 5
+        },
+        "proxy-risk-risk-2": {
+          "probability": 3,
+          "impact": 3
+        },
+        "proxy-risk-risk-3": {
+          "probability": 2,
+          "impact": 4
+        },
+        "proxy-risk-risk-4": {
+          "probability": 3,
+          "impact": 2
+        }
+      },
+      "expected_exposure": 48,
+      "expected_status": "MEDIUM",
+      "reproduced": {
+        "exposure": 48,
+        "status": "MEDIUM"
+      }
+    },
+    {
+      "simulator_id": "proxy-risk",
+      "id": "proxy-risk-crisis",
+      "synthetic": true,
+      "inputs": {
+        "proxy-risk-risk-1": {
+          "probability": 5,
+          "impact": 5
+        },
+        "proxy-risk-risk-2": {
+          "probability": 5,
+          "impact": 5
+        },
+        "proxy-risk-risk-3": {
+          "probability": 5,
+          "impact": 5
+        },
+        "proxy-risk-risk-4": {
+          "probability": 5,
+          "impact": 5
+        }
+      },
+      "expected_exposure": 100,
+      "expected_status": "HIGH",
+      "reproduced": {
+        "exposure": 100,
+        "status": "HIGH"
+      }
+    },
+    {
+      "simulator_id": "edit-risk",
+      "id": "edit-risk-baseline",
+      "synthetic": true,
+      "inputs": {
+        "edit-risk-risk-1": {
+          "probability": 2,
+          "impact": 3
+        },
+        "edit-risk-risk-2": {
+          "probability": 3,
+          "impact": 3
+        },
+        "edit-risk-risk-3": {
+          "probability": 2,
+          "impact": 4
+        },
+        "edit-risk-risk-4": {
+          "probability": 3,
+          "impact": 2
+        }
+      },
+      "expected_exposure": 29,
+      "expected_status": "LOW",
+      "reproduced": {
+        "exposure": 29,
+        "status": "LOW"
+      }
+    },
+    {
+      "simulator_id": "edit-risk",
+      "id": "edit-risk-controlled",
+      "synthetic": true,
+      "inputs": {
+        "edit-risk-risk-1": {
+          "probability": 1,
+          "impact": 1
+        },
+        "edit-risk-risk-2": {
+          "probability": 1,
+          "impact": 1
+        },
+        "edit-risk-risk-3": {
+          "probability": 1,
+          "impact": 1
+        },
+        "edit-risk-risk-4": {
+          "probability": 1,
+          "impact": 1
+        }
+      },
+      "expected_exposure": 4,
+      "expected_status": "LOW",
+      "reproduced": {
+        "exposure": 4,
+        "status": "LOW"
+      }
+    },
+    {
+      "simulator_id": "edit-risk",
+      "id": "edit-risk-first-risk-escalation",
+      "synthetic": true,
+      "inputs": {
+        "edit-risk-risk-1": {
+          "probability": 5,
+          "impact": 5
+        },
+        "edit-risk-risk-2": {
+          "probability": 3,
+          "impact": 3
+        },
+        "edit-risk-risk-3": {
+          "probability": 2,
+          "impact": 4
+        },
+        "edit-risk-risk-4": {
+          "probability": 3,
+          "impact": 2
+        }
+      },
+      "expected_exposure": 48,
+      "expected_status": "MEDIUM",
+      "reproduced": {
+        "exposure": 48,
+        "status": "MEDIUM"
+      }
+    },
+    {
+      "simulator_id": "edit-risk",
+      "id": "edit-risk-crisis",
+      "synthetic": true,
+      "inputs": {
+        "edit-risk-risk-1": {
+          "probability": 5,
+          "impact": 5
+        },
+        "edit-risk-risk-2": {
+          "probability": 5,
+          "impact": 5
+        },
+        "edit-risk-risk-3": {
+          "probability": 5,
+          "impact": 5
+        },
+        "edit-risk-risk-4": {
+          "probability": 5,
+          "impact": 5
+        }
+      },
+      "expected_exposure": 100,
+      "expected_status": "HIGH",
+      "reproduced": {
+        "exposure": 100,
+        "status": "HIGH"
+      }
+    },
+    {
+      "simulator_id": "vfx-risk",
+      "id": "vfx-risk-baseline",
+      "synthetic": true,
+      "inputs": {
+        "vfx-risk-risk-1": {
+          "probability": 2,
+          "impact": 3
+        },
+        "vfx-risk-risk-2": {
+          "probability": 3,
+          "impact": 3
+        },
+        "vfx-risk-risk-3": {
+          "probability": 2,
+          "impact": 4
+        },
+        "vfx-risk-risk-4": {
+          "probability": 3,
+          "impact": 2
+        }
+      },
+      "expected_exposure": 29,
+      "expected_status": "LOW",
+      "reproduced": {
+        "exposure": 29,
+        "status": "LOW"
+      }
+    },
+    {
+      "simulator_id": "vfx-risk",
+      "id": "vfx-risk-controlled",
+      "synthetic": true,
+      "inputs": {
+        "vfx-risk-risk-1": {
+          "probability": 1,
+          "impact": 1
+        },
+        "vfx-risk-risk-2": {
+          "probability": 1,
+          "impact": 1
+        },
+        "vfx-risk-risk-3": {
+          "probability": 1,
+          "impact": 1
+        },
+        "vfx-risk-risk-4": {
+          "probability": 1,
+          "impact": 1
+        }
+      },
+      "expected_exposure": 4,
+      "expected_status": "LOW",
+      "reproduced": {
+        "exposure": 4,
+        "status": "LOW"
+      }
+    },
+    {
+      "simulator_id": "vfx-risk",
+      "id": "vfx-risk-first-risk-escalation",
+      "synthetic": true,
+      "inputs": {
+        "vfx-risk-risk-1": {
+          "probability": 5,
+          "impact": 5
+        },
+        "vfx-risk-risk-2": {
+          "probability": 3,
+          "impact": 3
+        },
+        "vfx-risk-risk-3": {
+          "probability": 2,
+          "impact": 4
+        },
+        "vfx-risk-risk-4": {
+          "probability": 3,
+          "impact": 2
+        }
+      },
+      "expected_exposure": 48,
+      "expected_status": "MEDIUM",
+      "reproduced": {
+        "exposure": 48,
+        "status": "MEDIUM"
+      }
+    },
+    {
+      "simulator_id": "vfx-risk",
+      "id": "vfx-risk-crisis",
+      "synthetic": true,
+      "inputs": {
+        "vfx-risk-risk-1": {
+          "probability": 5,
+          "impact": 5
+        },
+        "vfx-risk-risk-2": {
+          "probability": 5,
+          "impact": 5
+        },
+        "vfx-risk-risk-3": {
+          "probability": 5,
+          "impact": 5
+        },
+        "vfx-risk-risk-4": {
+          "probability": 5,
+          "impact": 5
+        }
+      },
+      "expected_exposure": 100,
+      "expected_status": "HIGH",
+      "reproduced": {
+        "exposure": 100,
+        "status": "HIGH"
+      }
+    },
+    {
+      "simulator_id": "color-risk",
+      "id": "color-risk-baseline",
+      "synthetic": true,
+      "inputs": {
+        "color-risk-risk-1": {
+          "probability": 2,
+          "impact": 3
+        },
+        "color-risk-risk-2": {
+          "probability": 3,
+          "impact": 3
+        },
+        "color-risk-risk-3": {
+          "probability": 2,
+          "impact": 4
+        },
+        "color-risk-risk-4": {
+          "probability": 3,
+          "impact": 2
+        }
+      },
+      "expected_exposure": 29,
+      "expected_status": "LOW",
+      "reproduced": {
+        "exposure": 29,
+        "status": "LOW"
+      }
+    },
+    {
+      "simulator_id": "color-risk",
+      "id": "color-risk-controlled",
+      "synthetic": true,
+      "inputs": {
+        "color-risk-risk-1": {
+          "probability": 1,
+          "impact": 1
+        },
+        "color-risk-risk-2": {
+          "probability": 1,
+          "impact": 1
+        },
+        "color-risk-risk-3": {
+          "probability": 1,
+          "impact": 1
+        },
+        "color-risk-risk-4": {
+          "probability": 1,
+          "impact": 1
+        }
+      },
+      "expected_exposure": 4,
+      "expected_status": "LOW",
+      "reproduced": {
+        "exposure": 4,
+        "status": "LOW"
+      }
+    },
+    {
+      "simulator_id": "color-risk",
+      "id": "color-risk-first-risk-escalation",
+      "synthetic": true,
+      "inputs": {
+        "color-risk-risk-1": {
+          "probability": 5,
+          "impact": 5
+        },
+        "color-risk-risk-2": {
+          "probability": 3,
+          "impact": 3
+        },
+        "color-risk-risk-3": {
+          "probability": 2,
+          "impact": 4
+        },
+        "color-risk-risk-4": {
+          "probability": 3,
+          "impact": 2
+        }
+      },
+      "expected_exposure": 48,
+      "expected_status": "MEDIUM",
+      "reproduced": {
+        "exposure": 48,
+        "status": "MEDIUM"
+      }
+    },
+    {
+      "simulator_id": "color-risk",
+      "id": "color-risk-crisis",
+      "synthetic": true,
+      "inputs": {
+        "color-risk-risk-1": {
+          "probability": 5,
+          "impact": 5
+        },
+        "color-risk-risk-2": {
+          "probability": 5,
+          "impact": 5
+        },
+        "color-risk-risk-3": {
+          "probability": 5,
+          "impact": 5
+        },
+        "color-risk-risk-4": {
+          "probability": 5,
+          "impact": 5
+        }
+      },
+      "expected_exposure": 100,
+      "expected_status": "HIGH",
+      "reproduced": {
+        "exposure": 100,
+        "status": "HIGH"
+      }
+    },
+    {
+      "simulator_id": "mix-risk",
+      "id": "mix-risk-baseline",
+      "synthetic": true,
+      "inputs": {
+        "mix-risk-risk-1": {
+          "probability": 2,
+          "impact": 3
+        },
+        "mix-risk-risk-2": {
+          "probability": 3,
+          "impact": 3
+        },
+        "mix-risk-risk-3": {
+          "probability": 2,
+          "impact": 4
+        },
+        "mix-risk-risk-4": {
+          "probability": 3,
+          "impact": 2
+        }
+      },
+      "expected_exposure": 29,
+      "expected_status": "LOW",
+      "reproduced": {
+        "exposure": 29,
+        "status": "LOW"
+      }
+    },
+    {
+      "simulator_id": "mix-risk",
+      "id": "mix-risk-controlled",
+      "synthetic": true,
+      "inputs": {
+        "mix-risk-risk-1": {
+          "probability": 1,
+          "impact": 1
+        },
+        "mix-risk-risk-2": {
+          "probability": 1,
+          "impact": 1
+        },
+        "mix-risk-risk-3": {
+          "probability": 1,
+          "impact": 1
+        },
+        "mix-risk-risk-4": {
+          "probability": 1,
+          "impact": 1
+        }
+      },
+      "expected_exposure": 4,
+      "expected_status": "LOW",
+      "reproduced": {
+        "exposure": 4,
+        "status": "LOW"
+      }
+    },
+    {
+      "simulator_id": "mix-risk",
+      "id": "mix-risk-first-risk-escalation",
+      "synthetic": true,
+      "inputs": {
+        "mix-risk-risk-1": {
+          "probability": 5,
+          "impact": 5
+        },
+        "mix-risk-risk-2": {
+          "probability": 3,
+          "impact": 3
+        },
+        "mix-risk-risk-3": {
+          "probability": 2,
+          "impact": 4
+        },
+        "mix-risk-risk-4": {
+          "probability": 3,
+          "impact": 2
+        }
+      },
+      "expected_exposure": 48,
+      "expected_status": "MEDIUM",
+      "reproduced": {
+        "exposure": 48,
+        "status": "MEDIUM"
+      }
+    },
+    {
+      "simulator_id": "mix-risk",
+      "id": "mix-risk-crisis",
+      "synthetic": true,
+      "inputs": {
+        "mix-risk-risk-1": {
+          "probability": 5,
+          "impact": 5
+        },
+        "mix-risk-risk-2": {
+          "probability": 5,
+          "impact": 5
+        },
+        "mix-risk-risk-3": {
+          "probability": 5,
+          "impact": 5
+        },
+        "mix-risk-risk-4": {
+          "probability": 5,
+          "impact": 5
+        }
+      },
+      "expected_exposure": 100,
+      "expected_status": "HIGH",
+      "reproduced": {
+        "exposure": 100,
+        "status": "HIGH"
+      }
+    },
+    {
+      "simulator_id": "caption-risk",
+      "id": "caption-risk-baseline",
+      "synthetic": true,
+      "inputs": {
+        "caption-risk-risk-1": {
+          "probability": 2,
+          "impact": 3
+        },
+        "caption-risk-risk-2": {
+          "probability": 3,
+          "impact": 3
+        },
+        "caption-risk-risk-3": {
+          "probability": 2,
+          "impact": 4
+        },
+        "caption-risk-risk-4": {
+          "probability": 3,
+          "impact": 2
+        }
+      },
+      "expected_exposure": 29,
+      "expected_status": "LOW",
+      "reproduced": {
+        "exposure": 29,
+        "status": "LOW"
+      }
+    },
+    {
+      "simulator_id": "caption-risk",
+      "id": "caption-risk-controlled",
+      "synthetic": true,
+      "inputs": {
+        "caption-risk-risk-1": {
+          "probability": 1,
+          "impact": 1
+        },
+        "caption-risk-risk-2": {
+          "probability": 1,
+          "impact": 1
+        },
+        "caption-risk-risk-3": {
+          "probability": 1,
+          "impact": 1
+        },
+        "caption-risk-risk-4": {
+          "probability": 1,
+          "impact": 1
+        }
+      },
+      "expected_exposure": 4,
+      "expected_status": "LOW",
+      "reproduced": {
+        "exposure": 4,
+        "status": "LOW"
+      }
+    },
+    {
+      "simulator_id": "caption-risk",
+      "id": "caption-risk-first-risk-escalation",
+      "synthetic": true,
+      "inputs": {
+        "caption-risk-risk-1": {
+          "probability": 5,
+          "impact": 5
+        },
+        "caption-risk-risk-2": {
+          "probability": 3,
+          "impact": 3
+        },
+        "caption-risk-risk-3": {
+          "probability": 2,
+          "impact": 4
+        },
+        "caption-risk-risk-4": {
+          "probability": 3,
+          "impact": 2
+        }
+      },
+      "expected_exposure": 48,
+      "expected_status": "MEDIUM",
+      "reproduced": {
+        "exposure": 48,
+        "status": "MEDIUM"
+      }
+    },
+    {
+      "simulator_id": "caption-risk",
+      "id": "caption-risk-crisis",
+      "synthetic": true,
+      "inputs": {
+        "caption-risk-risk-1": {
+          "probability": 5,
+          "impact": 5
+        },
+        "caption-risk-risk-2": {
+          "probability": 5,
+          "impact": 5
+        },
+        "caption-risk-risk-3": {
+          "probability": 5,
+          "impact": 5
+        },
+        "caption-risk-risk-4": {
+          "probability": 5,
+          "impact": 5
+        }
+      },
+      "expected_exposure": 100,
+      "expected_status": "HIGH",
+      "reproduced": {
+        "exposure": 100,
+        "status": "HIGH"
+      }
+    },
+    {
+      "simulator_id": "localization-risk",
+      "id": "localization-risk-baseline",
+      "synthetic": true,
+      "inputs": {
+        "localization-risk-risk-1": {
+          "probability": 2,
+          "impact": 3
+        },
+        "localization-risk-risk-2": {
+          "probability": 3,
+          "impact": 3
+        },
+        "localization-risk-risk-3": {
+          "probability": 2,
+          "impact": 4
+        },
+        "localization-risk-risk-4": {
+          "probability": 3,
+          "impact": 2
+        }
+      },
+      "expected_exposure": 29,
+      "expected_status": "LOW",
+      "reproduced": {
+        "exposure": 29,
+        "status": "LOW"
+      }
+    },
+    {
+      "simulator_id": "localization-risk",
+      "id": "localization-risk-controlled",
+      "synthetic": true,
+      "inputs": {
+        "localization-risk-risk-1": {
+          "probability": 1,
+          "impact": 1
+        },
+        "localization-risk-risk-2": {
+          "probability": 1,
+          "impact": 1
+        },
+        "localization-risk-risk-3": {
+          "probability": 1,
+          "impact": 1
+        },
+        "localization-risk-risk-4": {
+          "probability": 1,
+          "impact": 1
+        }
+      },
+      "expected_exposure": 4,
+      "expected_status": "LOW",
+      "reproduced": {
+        "exposure": 4,
+        "status": "LOW"
+      }
+    },
+    {
+      "simulator_id": "localization-risk",
+      "id": "localization-risk-first-risk-escalation",
+      "synthetic": true,
+      "inputs": {
+        "localization-risk-risk-1": {
+          "probability": 5,
+          "impact": 5
+        },
+        "localization-risk-risk-2": {
+          "probability": 3,
+          "impact": 3
+        },
+        "localization-risk-risk-3": {
+          "probability": 2,
+          "impact": 4
+        },
+        "localization-risk-risk-4": {
+          "probability": 3,
+          "impact": 2
+        }
+      },
+      "expected_exposure": 48,
+      "expected_status": "MEDIUM",
+      "reproduced": {
+        "exposure": 48,
+        "status": "MEDIUM"
+      }
+    },
+    {
+      "simulator_id": "localization-risk",
+      "id": "localization-risk-crisis",
+      "synthetic": true,
+      "inputs": {
+        "localization-risk-risk-1": {
+          "probability": 5,
+          "impact": 5
+        },
+        "localization-risk-risk-2": {
+          "probability": 5,
+          "impact": 5
+        },
+        "localization-risk-risk-3": {
+          "probability": 5,
+          "impact": 5
+        },
+        "localization-risk-risk-4": {
+          "probability": 5,
+          "impact": 5
+        }
+      },
+      "expected_exposure": 100,
+      "expected_status": "HIGH",
+      "reproduced": {
+        "exposure": 100,
+        "status": "HIGH"
+      }
+    },
+    {
+      "simulator_id": "qc-risk",
+      "id": "qc-risk-baseline",
+      "synthetic": true,
+      "inputs": {
+        "qc-risk-risk-1": {
+          "probability": 2,
+          "impact": 3
+        },
+        "qc-risk-risk-2": {
+          "probability": 3,
+          "impact": 3
+        },
+        "qc-risk-risk-3": {
+          "probability": 2,
+          "impact": 4
+        },
+        "qc-risk-risk-4": {
+          "probability": 3,
+          "impact": 2
+        }
+      },
+      "expected_exposure": 29,
+      "expected_status": "LOW",
+      "reproduced": {
+        "exposure": 29,
+        "status": "LOW"
+      }
+    },
+    {
+      "simulator_id": "qc-risk",
+      "id": "qc-risk-controlled",
+      "synthetic": true,
+      "inputs": {
+        "qc-risk-risk-1": {
+          "probability": 1,
+          "impact": 1
+        },
+        "qc-risk-risk-2": {
+          "probability": 1,
+          "impact": 1
+        },
+        "qc-risk-risk-3": {
+          "probability": 1,
+          "impact": 1
+        },
+        "qc-risk-risk-4": {
+          "probability": 1,
+          "impact": 1
+        }
+      },
+      "expected_exposure": 4,
+      "expected_status": "LOW",
+      "reproduced": {
+        "exposure": 4,
+        "status": "LOW"
+      }
+    },
+    {
+      "simulator_id": "qc-risk",
+      "id": "qc-risk-first-risk-escalation",
+      "synthetic": true,
+      "inputs": {
+        "qc-risk-risk-1": {
+          "probability": 5,
+          "impact": 5
+        },
+        "qc-risk-risk-2": {
+          "probability": 3,
+          "impact": 3
+        },
+        "qc-risk-risk-3": {
+          "probability": 2,
+          "impact": 4
+        },
+        "qc-risk-risk-4": {
+          "probability": 3,
+          "impact": 2
+        }
+      },
+      "expected_exposure": 48,
+      "expected_status": "MEDIUM",
+      "reproduced": {
+        "exposure": 48,
+        "status": "MEDIUM"
+      }
+    },
+    {
+      "simulator_id": "qc-risk",
+      "id": "qc-risk-crisis",
+      "synthetic": true,
+      "inputs": {
+        "qc-risk-risk-1": {
+          "probability": 5,
+          "impact": 5
+        },
+        "qc-risk-risk-2": {
+          "probability": 5,
+          "impact": 5
+        },
+        "qc-risk-risk-3": {
+          "probability": 5,
+          "impact": 5
+        },
+        "qc-risk-risk-4": {
+          "probability": 5,
+          "impact": 5
+        }
+      },
+      "expected_exposure": 100,
+      "expected_status": "HIGH",
+      "reproduced": {
+        "exposure": 100,
+        "status": "HIGH"
+      }
+    },
+    {
+      "simulator_id": "delivery-risk",
+      "id": "delivery-risk-baseline",
+      "synthetic": true,
+      "inputs": {
+        "delivery-risk-risk-1": {
+          "probability": 2,
+          "impact": 3
+        },
+        "delivery-risk-risk-2": {
+          "probability": 3,
+          "impact": 3
+        },
+        "delivery-risk-risk-3": {
+          "probability": 2,
+          "impact": 4
+        },
+        "delivery-risk-risk-4": {
+          "probability": 3,
+          "impact": 2
+        }
+      },
+      "expected_exposure": 29,
+      "expected_status": "LOW",
+      "reproduced": {
+        "exposure": 29,
+        "status": "LOW"
+      }
+    },
+    {
+      "simulator_id": "delivery-risk",
+      "id": "delivery-risk-controlled",
+      "synthetic": true,
+      "inputs": {
+        "delivery-risk-risk-1": {
+          "probability": 1,
+          "impact": 1
+        },
+        "delivery-risk-risk-2": {
+          "probability": 1,
+          "impact": 1
+        },
+        "delivery-risk-risk-3": {
+          "probability": 1,
+          "impact": 1
+        },
+        "delivery-risk-risk-4": {
+          "probability": 1,
+          "impact": 1
+        }
+      },
+      "expected_exposure": 4,
+      "expected_status": "LOW",
+      "reproduced": {
+        "exposure": 4,
+        "status": "LOW"
+      }
+    },
+    {
+      "simulator_id": "delivery-risk",
+      "id": "delivery-risk-first-risk-escalation",
+      "synthetic": true,
+      "inputs": {
+        "delivery-risk-risk-1": {
+          "probability": 5,
+          "impact": 5
+        },
+        "delivery-risk-risk-2": {
+          "probability": 3,
+          "impact": 3
+        },
+        "delivery-risk-risk-3": {
+          "probability": 2,
+          "impact": 4
+        },
+        "delivery-risk-risk-4": {
+          "probability": 3,
+          "impact": 2
+        }
+      },
+      "expected_exposure": 48,
+      "expected_status": "MEDIUM",
+      "reproduced": {
+        "exposure": 48,
+        "status": "MEDIUM"
+      }
+    },
+    {
+      "simulator_id": "delivery-risk",
+      "id": "delivery-risk-crisis",
+      "synthetic": true,
+      "inputs": {
+        "delivery-risk-risk-1": {
+          "probability": 5,
+          "impact": 5
+        },
+        "delivery-risk-risk-2": {
+          "probability": 5,
+          "impact": 5
+        },
+        "delivery-risk-risk-3": {
+          "probability": 5,
+          "impact": 5
+        },
+        "delivery-risk-risk-4": {
+          "probability": 5,
+          "impact": 5
+        }
+      },
+      "expected_exposure": 100,
+      "expected_status": "HIGH",
+      "reproduced": {
+        "exposure": 100,
+        "status": "HIGH"
+      }
+    },
+    {
+      "simulator_id": "archive-risk",
+      "id": "archive-risk-baseline",
+      "synthetic": true,
+      "inputs": {
+        "archive-risk-risk-1": {
+          "probability": 2,
+          "impact": 3
+        },
+        "archive-risk-risk-2": {
+          "probability": 3,
+          "impact": 3
+        },
+        "archive-risk-risk-3": {
+          "probability": 2,
+          "impact": 4
+        },
+        "archive-risk-risk-4": {
+          "probability": 3,
+          "impact": 2
+        }
+      },
+      "expected_exposure": 29,
+      "expected_status": "LOW",
+      "reproduced": {
+        "exposure": 29,
+        "status": "LOW"
+      }
+    },
+    {
+      "simulator_id": "archive-risk",
+      "id": "archive-risk-controlled",
+      "synthetic": true,
+      "inputs": {
+        "archive-risk-risk-1": {
+          "probability": 1,
+          "impact": 1
+        },
+        "archive-risk-risk-2": {
+          "probability": 1,
+          "impact": 1
+        },
+        "archive-risk-risk-3": {
+          "probability": 1,
+          "impact": 1
+        },
+        "archive-risk-risk-4": {
+          "probability": 1,
+          "impact": 1
+        }
+      },
+      "expected_exposure": 4,
+      "expected_status": "LOW",
+      "reproduced": {
+        "exposure": 4,
+        "status": "LOW"
+      }
+    },
+    {
+      "simulator_id": "archive-risk",
+      "id": "archive-risk-first-risk-escalation",
+      "synthetic": true,
+      "inputs": {
+        "archive-risk-risk-1": {
+          "probability": 5,
+          "impact": 5
+        },
+        "archive-risk-risk-2": {
+          "probability": 3,
+          "impact": 3
+        },
+        "archive-risk-risk-3": {
+          "probability": 2,
+          "impact": 4
+        },
+        "archive-risk-risk-4": {
+          "probability": 3,
+          "impact": 2
+        }
+      },
+      "expected_exposure": 48,
+      "expected_status": "MEDIUM",
+      "reproduced": {
+        "exposure": 48,
+        "status": "MEDIUM"
+      }
+    },
+    {
+      "simulator_id": "archive-risk",
+      "id": "archive-risk-crisis",
+      "synthetic": true,
+      "inputs": {
+        "archive-risk-risk-1": {
+          "probability": 5,
+          "impact": 5
+        },
+        "archive-risk-risk-2": {
+          "probability": 5,
+          "impact": 5
+        },
+        "archive-risk-risk-3": {
+          "probability": 5,
+          "impact": 5
+        },
+        "archive-risk-risk-4": {
+          "probability": 5,
+          "impact": 5
+        }
+      },
+      "expected_exposure": 100,
+      "expected_status": "HIGH",
+      "reproduced": {
+        "exposure": 100,
+        "status": "HIGH"
+      }
+    },
+    {
+      "simulator_id": "security-risk",
+      "id": "security-risk-baseline",
+      "synthetic": true,
+      "inputs": {
+        "security-risk-risk-1": {
+          "probability": 2,
+          "impact": 3
+        },
+        "security-risk-risk-2": {
+          "probability": 3,
+          "impact": 3
+        },
+        "security-risk-risk-3": {
+          "probability": 2,
+          "impact": 4
+        },
+        "security-risk-risk-4": {
+          "probability": 3,
+          "impact": 2
+        }
+      },
+      "expected_exposure": 29,
+      "expected_status": "LOW",
+      "reproduced": {
+        "exposure": 29,
+        "status": "LOW"
+      }
+    },
+    {
+      "simulator_id": "security-risk",
+      "id": "security-risk-controlled",
+      "synthetic": true,
+      "inputs": {
+        "security-risk-risk-1": {
+          "probability": 1,
+          "impact": 1
+        },
+        "security-risk-risk-2": {
+          "probability": 1,
+          "impact": 1
+        },
+        "security-risk-risk-3": {
+          "probability": 1,
+          "impact": 1
+        },
+        "security-risk-risk-4": {
+          "probability": 1,
+          "impact": 1
+        }
+      },
+      "expected_exposure": 4,
+      "expected_status": "LOW",
+      "reproduced": {
+        "exposure": 4,
+        "status": "LOW"
+      }
+    },
+    {
+      "simulator_id": "security-risk",
+      "id": "security-risk-first-risk-escalation",
+      "synthetic": true,
+      "inputs": {
+        "security-risk-risk-1": {
+          "probability": 5,
+          "impact": 5
+        },
+        "security-risk-risk-2": {
+          "probability": 3,
+          "impact": 3
+        },
+        "security-risk-risk-3": {
+          "probability": 2,
+          "impact": 4
+        },
+        "security-risk-risk-4": {
+          "probability": 3,
+          "impact": 2
+        }
+      },
+      "expected_exposure": 48,
+      "expected_status": "MEDIUM",
+      "reproduced": {
+        "exposure": 48,
+        "status": "MEDIUM"
+      }
+    },
+    {
+      "simulator_id": "security-risk",
+      "id": "security-risk-crisis",
+      "synthetic": true,
+      "inputs": {
+        "security-risk-risk-1": {
+          "probability": 5,
+          "impact": 5
+        },
+        "security-risk-risk-2": {
+          "probability": 5,
+          "impact": 5
+        },
+        "security-risk-risk-3": {
+          "probability": 5,
+          "impact": 5
+        },
+        "security-risk-risk-4": {
+          "probability": 5,
+          "impact": 5
+        }
+      },
+      "expected_exposure": 100,
+      "expected_status": "HIGH",
+      "reproduced": {
+        "exposure": 100,
+        "status": "HIGH"
+      }
+    },
+    {
+      "simulator_id": "release-risk",
+      "id": "release-risk-baseline",
+      "synthetic": true,
+      "inputs": {
+        "release-risk-risk-1": {
+          "probability": 2,
+          "impact": 3
+        },
+        "release-risk-risk-2": {
+          "probability": 3,
+          "impact": 3
+        },
+        "release-risk-risk-3": {
+          "probability": 2,
+          "impact": 4
+        },
+        "release-risk-risk-4": {
+          "probability": 3,
+          "impact": 2
+        }
+      },
+      "expected_exposure": 29,
+      "expected_status": "LOW",
+      "reproduced": {
+        "exposure": 29,
+        "status": "LOW"
+      }
+    },
+    {
+      "simulator_id": "release-risk",
+      "id": "release-risk-controlled",
+      "synthetic": true,
+      "inputs": {
+        "release-risk-risk-1": {
+          "probability": 1,
+          "impact": 1
+        },
+        "release-risk-risk-2": {
+          "probability": 1,
+          "impact": 1
+        },
+        "release-risk-risk-3": {
+          "probability": 1,
+          "impact": 1
+        },
+        "release-risk-risk-4": {
+          "probability": 1,
+          "impact": 1
+        }
+      },
+      "expected_exposure": 4,
+      "expected_status": "LOW",
+      "reproduced": {
+        "exposure": 4,
+        "status": "LOW"
+      }
+    },
+    {
+      "simulator_id": "release-risk",
+      "id": "release-risk-first-risk-escalation",
+      "synthetic": true,
+      "inputs": {
+        "release-risk-risk-1": {
+          "probability": 5,
+          "impact": 5
+        },
+        "release-risk-risk-2": {
+          "probability": 3,
+          "impact": 3
+        },
+        "release-risk-risk-3": {
+          "probability": 2,
+          "impact": 4
+        },
+        "release-risk-risk-4": {
+          "probability": 3,
+          "impact": 2
+        }
+      },
+      "expected_exposure": 48,
+      "expected_status": "MEDIUM",
+      "reproduced": {
+        "exposure": 48,
+        "status": "MEDIUM"
+      }
+    },
+    {
+      "simulator_id": "release-risk",
+      "id": "release-risk-crisis",
+      "synthetic": true,
+      "inputs": {
+        "release-risk-risk-1": {
+          "probability": 5,
+          "impact": 5
+        },
+        "release-risk-risk-2": {
+          "probability": 5,
+          "impact": 5
+        },
+        "release-risk-risk-3": {
+          "probability": 5,
+          "impact": 5
+        },
+        "release-risk-risk-4": {
+          "probability": 5,
+          "impact": 5
+        }
+      },
+      "expected_exposure": 100,
+      "expected_status": "HIGH",
+      "reproduced": {
+        "exposure": 100,
+        "status": "HIGH"
+      }
+    }
+  ]
+}

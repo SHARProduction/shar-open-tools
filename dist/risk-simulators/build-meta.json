@@ -1,0 +1,10 @@
+{
+  "publisher": {
+    "name": "SHAR Production",
+    "website": "https://sharprod.com/"
+  },
+  "simulatorCount": 25,
+  "scenarioCount": 100,
+  "localizedPageCount": 50,
+  "sourceSha256": "156426e77b340c16f0414777f63ac9636b84bd5ddb7bfb33225da11c6e5c4bab"
+}
