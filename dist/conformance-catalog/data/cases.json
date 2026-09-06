@@ -1,0 +1,1403 @@
+{
+  "schema_version": "1.0.0",
+  "publisher": {
+    "name": "SHAR Production",
+    "website": "https://sharprod.com/"
+  },
+  "license": "CC-BY-4.0",
+  "synthetic": true,
+  "cases": [
+    {
+      "suite_id": "brief-revision-suite",
+      "rule": "nonempty",
+      "case_id": "brief-revision-suite-1",
+      "input": "v1",
+      "expected": true,
+      "actual": true,
+      "matched": true
+    },
+    {
+      "suite_id": "brief-revision-suite",
+      "rule": "nonempty",
+      "case_id": "brief-revision-suite-2",
+      "input": "REF-001",
+      "expected": true,
+      "actual": true,
+      "matched": true
+    },
+    {
+      "suite_id": "brief-revision-suite",
+      "rule": "nonempty",
+      "case_id": "brief-revision-suite-3",
+      "input": "declared",
+      "expected": true,
+      "actual": true,
+      "matched": true
+    },
+    {
+      "suite_id": "brief-revision-suite",
+      "rule": "nonempty",
+      "case_id": "brief-revision-suite-4",
+      "input": "",
+      "expected": false,
+      "actual": false,
+      "matched": true
+    },
+    {
+      "suite_id": "brief-revision-suite",
+      "rule": "nonempty",
+      "case_id": "brief-revision-suite-5",
+      "input": null,
+      "expected": false,
+      "actual": false,
+      "matched": true
+    },
+    {
+      "suite_id": "brief-revision-suite",
+      "rule": "nonempty",
+      "case_id": "brief-revision-suite-6",
+      "input": 42,
+      "expected": false,
+      "actual": false,
+      "matched": true
+    },
+    {
+      "suite_id": "approval-chain-suite",
+      "rule": "array",
+      "case_id": "approval-chain-suite-1",
+      "input": [
+        "producer"
+      ],
+      "expected": true,
+      "actual": true,
+      "matched": true
+    },
+    {
+      "suite_id": "approval-chain-suite",
+      "rule": "array",
+      "case_id": "approval-chain-suite-2",
+      "input": [
+        "producer",
+        "client"
+      ],
+      "expected": true,
+      "actual": true,
+      "matched": true
+    },
+    {
+      "suite_id": "approval-chain-suite",
+      "rule": "array",
+      "case_id": "approval-chain-suite-3",
+      "input": [
+        "legal"
+      ],
+      "expected": true,
+      "actual": true,
+      "matched": true
+    },
+    {
+      "suite_id": "approval-chain-suite",
+      "rule": "array",
+      "case_id": "approval-chain-suite-4",
+      "input": [],
+      "expected": false,
+      "actual": false,
+      "matched": true
+    },
+    {
+      "suite_id": "approval-chain-suite",
+      "rule": "array",
+      "case_id": "approval-chain-suite-5",
+      "input": "producer",
+      "expected": false,
+      "actual": false,
+      "matched": true
+    },
+    {
+      "suite_id": "approval-chain-suite",
+      "rule": "array",
+      "case_id": "approval-chain-suite-6",
+      "input": null,
+      "expected": false,
+      "actual": false,
+      "matched": true
+    },
+    {
+      "suite_id": "rights-territory-suite",
+      "rule": "nonempty",
+      "case_id": "rights-territory-suite-1",
+      "input": "v1",
+      "expected": true,
+      "actual": true,
+      "matched": true
+    },
+    {
+      "suite_id": "rights-territory-suite",
+      "rule": "nonempty",
+      "case_id": "rights-territory-suite-2",
+      "input": "REF-001",
+      "expected": true,
+      "actual": true,
+      "matched": true
+    },
+    {
+      "suite_id": "rights-territory-suite",
+      "rule": "nonempty",
+      "case_id": "rights-territory-suite-3",
+      "input": "declared",
+      "expected": true,
+      "actual": true,
+      "matched": true
+    },
+    {
+      "suite_id": "rights-territory-suite",
+      "rule": "nonempty",
+      "case_id": "rights-territory-suite-4",
+      "input": "",
+      "expected": false,
+      "actual": false,
+      "matched": true
+    },
+    {
+      "suite_id": "rights-territory-suite",
+      "rule": "nonempty",
+      "case_id": "rights-territory-suite-5",
+      "input": null,
+      "expected": false,
+      "actual": false,
+      "matched": true
+    },
+    {
+      "suite_id": "rights-territory-suite",
+      "rule": "nonempty",
+      "case_id": "rights-territory-suite-6",
+      "input": 42,
+      "expected": false,
+      "actual": false,
+      "matched": true
+    },
+    {
+      "suite_id": "talent-consent-suite",
+      "rule": "array",
+      "case_id": "talent-consent-suite-1",
+      "input": [
+        "producer"
+      ],
+      "expected": true,
+      "actual": true,
+      "matched": true
+    },
+    {
+      "suite_id": "talent-consent-suite",
+      "rule": "array",
+      "case_id": "talent-consent-suite-2",
+      "input": [
+        "producer",
+        "client"
+      ],
+      "expected": true,
+      "actual": true,
+      "matched": true
+    },
+    {
+      "suite_id": "talent-consent-suite",
+      "rule": "array",
+      "case_id": "talent-consent-suite-3",
+      "input": [
+        "legal"
+      ],
+      "expected": true,
+      "actual": true,
+      "matched": true
+    },
+    {
+      "suite_id": "talent-consent-suite",
+      "rule": "array",
+      "case_id": "talent-consent-suite-4",
+      "input": [],
+      "expected": false,
+      "actual": false,
+      "matched": true
+    },
+    {
+      "suite_id": "talent-consent-suite",
+      "rule": "array",
+      "case_id": "talent-consent-suite-5",
+      "input": "producer",
+      "expected": false,
+      "actual": false,
+      "matched": true
+    },
+    {
+      "suite_id": "talent-consent-suite",
+      "rule": "array",
+      "case_id": "talent-consent-suite-6",
+      "input": null,
+      "expected": false,
+      "actual": false,
+      "matched": true
+    },
+    {
+      "suite_id": "location-permit-suite",
+      "rule": "date",
+      "case_id": "location-permit-suite-1",
+      "input": "2026-09-06",
+      "expected": true,
+      "actual": true,
+      "matched": true
+    },
+    {
+      "suite_id": "location-permit-suite",
+      "rule": "date",
+      "case_id": "location-permit-suite-2",
+      "input": "2027-01-01",
+      "expected": true,
+      "actual": true,
+      "matched": true
+    },
+    {
+      "suite_id": "location-permit-suite",
+      "rule": "date",
+      "case_id": "location-permit-suite-3",
+      "input": "2030-12-31",
+      "expected": true,
+      "actual": true,
+      "matched": true
+    },
+    {
+      "suite_id": "location-permit-suite",
+      "rule": "date",
+      "case_id": "location-permit-suite-4",
+      "input": "not-a-date",
+      "expected": false,
+      "actual": false,
+      "matched": true
+    },
+    {
+      "suite_id": "location-permit-suite",
+      "rule": "date",
+      "case_id": "location-permit-suite-5",
+      "input": "",
+      "expected": false,
+      "actual": false,
+      "matched": true
+    },
+    {
+      "suite_id": "location-permit-suite",
+      "rule": "date",
+      "case_id": "location-permit-suite-6",
+      "input": null,
+      "expected": false,
+      "actual": false,
+      "matched": true
+    },
+    {
+      "suite_id": "vendor-identity-suite",
+      "rule": "nonempty",
+      "case_id": "vendor-identity-suite-1",
+      "input": "v1",
+      "expected": true,
+      "actual": true,
+      "matched": true
+    },
+    {
+      "suite_id": "vendor-identity-suite",
+      "rule": "nonempty",
+      "case_id": "vendor-identity-suite-2",
+      "input": "REF-001",
+      "expected": true,
+      "actual": true,
+      "matched": true
+    },
+    {
+      "suite_id": "vendor-identity-suite",
+      "rule": "nonempty",
+      "case_id": "vendor-identity-suite-3",
+      "input": "declared",
+      "expected": true,
+      "actual": true,
+      "matched": true
+    },
+    {
+      "suite_id": "vendor-identity-suite",
+      "rule": "nonempty",
+      "case_id": "vendor-identity-suite-4",
+      "input": "",
+      "expected": false,
+      "actual": false,
+      "matched": true
+    },
+    {
+      "suite_id": "vendor-identity-suite",
+      "rule": "nonempty",
+      "case_id": "vendor-identity-suite-5",
+      "input": null,
+      "expected": false,
+      "actual": false,
+      "matched": true
+    },
+    {
+      "suite_id": "vendor-identity-suite",
+      "rule": "nonempty",
+      "case_id": "vendor-identity-suite-6",
+      "input": 42,
+      "expected": false,
+      "actual": false,
+      "matched": true
+    },
+    {
+      "suite_id": "purchase-order-suite",
+      "rule": "nonempty",
+      "case_id": "purchase-order-suite-1",
+      "input": "v1",
+      "expected": true,
+      "actual": true,
+      "matched": true
+    },
+    {
+      "suite_id": "purchase-order-suite",
+      "rule": "nonempty",
+      "case_id": "purchase-order-suite-2",
+      "input": "REF-001",
+      "expected": true,
+      "actual": true,
+      "matched": true
+    },
+    {
+      "suite_id": "purchase-order-suite",
+      "rule": "nonempty",
+      "case_id": "purchase-order-suite-3",
+      "input": "declared",
+      "expected": true,
+      "actual": true,
+      "matched": true
+    },
+    {
+      "suite_id": "purchase-order-suite",
+      "rule": "nonempty",
+      "case_id": "purchase-order-suite-4",
+      "input": "",
+      "expected": false,
+      "actual": false,
+      "matched": true
+    },
+    {
+      "suite_id": "purchase-order-suite",
+      "rule": "nonempty",
+      "case_id": "purchase-order-suite-5",
+      "input": null,
+      "expected": false,
+      "actual": false,
+      "matched": true
+    },
+    {
+      "suite_id": "purchase-order-suite",
+      "rule": "nonempty",
+      "case_id": "purchase-order-suite-6",
+      "input": 42,
+      "expected": false,
+      "actual": false,
+      "matched": true
+    },
+    {
+      "suite_id": "call-sheet-time-suite",
+      "rule": "time",
+      "case_id": "call-sheet-time-suite-1",
+      "input": "00:00",
+      "expected": true,
+      "actual": true,
+      "matched": true
+    },
+    {
+      "suite_id": "call-sheet-time-suite",
+      "rule": "time",
+      "case_id": "call-sheet-time-suite-2",
+      "input": "09:30",
+      "expected": true,
+      "actual": true,
+      "matched": true
+    },
+    {
+      "suite_id": "call-sheet-time-suite",
+      "rule": "time",
+      "case_id": "call-sheet-time-suite-3",
+      "input": "23:59",
+      "expected": true,
+      "actual": true,
+      "matched": true
+    },
+    {
+      "suite_id": "call-sheet-time-suite",
+      "rule": "time",
+      "case_id": "call-sheet-time-suite-4",
+      "input": "24:00",
+      "expected": false,
+      "actual": false,
+      "matched": true
+    },
+    {
+      "suite_id": "call-sheet-time-suite",
+      "rule": "time",
+      "case_id": "call-sheet-time-suite-5",
+      "input": "9:30",
+      "expected": false,
+      "actual": false,
+      "matched": true
+    },
+    {
+      "suite_id": "call-sheet-time-suite",
+      "rule": "time",
+      "case_id": "call-sheet-time-suite-6",
+      "input": "",
+      "expected": false,
+      "actual": false,
+      "matched": true
+    },
+    {
+      "suite_id": "crew-rest-suite",
+      "rule": "integer",
+      "case_id": "crew-rest-suite-1",
+      "input": 1,
+      "expected": true,
+      "actual": true,
+      "matched": true
+    },
+    {
+      "suite_id": "crew-rest-suite",
+      "rule": "integer",
+      "case_id": "crew-rest-suite-2",
+      "input": 8,
+      "expected": true,
+      "actual": true,
+      "matched": true
+    },
+    {
+      "suite_id": "crew-rest-suite",
+      "rule": "integer",
+      "case_id": "crew-rest-suite-3",
+      "input": 1920,
+      "expected": true,
+      "actual": true,
+      "matched": true
+    },
+    {
+      "suite_id": "crew-rest-suite",
+      "rule": "integer",
+      "case_id": "crew-rest-suite-4",
+      "input": 0,
+      "expected": false,
+      "actual": false,
+      "matched": true
+    },
+    {
+      "suite_id": "crew-rest-suite",
+      "rule": "integer",
+      "case_id": "crew-rest-suite-5",
+      "input": -1,
+      "expected": false,
+      "actual": false,
+      "matched": true
+    },
+    {
+      "suite_id": "crew-rest-suite",
+      "rule": "integer",
+      "case_id": "crew-rest-suite-6",
+      "input": 1.5,
+      "expected": false,
+      "actual": false,
+      "matched": true
+    },
+    {
+      "suite_id": "camera-roll-suite",
+      "rule": "nonempty",
+      "case_id": "camera-roll-suite-1",
+      "input": "v1",
+      "expected": true,
+      "actual": true,
+      "matched": true
+    },
+    {
+      "suite_id": "camera-roll-suite",
+      "rule": "nonempty",
+      "case_id": "camera-roll-suite-2",
+      "input": "REF-001",
+      "expected": true,
+      "actual": true,
+      "matched": true
+    },
+    {
+      "suite_id": "camera-roll-suite",
+      "rule": "nonempty",
+      "case_id": "camera-roll-suite-3",
+      "input": "declared",
+      "expected": true,
+      "actual": true,
+      "matched": true
+    },
+    {
+      "suite_id": "camera-roll-suite",
+      "rule": "nonempty",
+      "case_id": "camera-roll-suite-4",
+      "input": "",
+      "expected": false,
+      "actual": false,
+      "matched": true
+    },
+    {
+      "suite_id": "camera-roll-suite",
+      "rule": "nonempty",
+      "case_id": "camera-roll-suite-5",
+      "input": null,
+      "expected": false,
+      "actual": false,
+      "matched": true
+    },
+    {
+      "suite_id": "camera-roll-suite",
+      "rule": "nonempty",
+      "case_id": "camera-roll-suite-6",
+      "input": 42,
+      "expected": false,
+      "actual": false,
+      "matched": true
+    },
+    {
+      "suite_id": "sound-channel-suite",
+      "rule": "uniqueArray",
+      "case_id": "sound-channel-suite-1",
+      "input": [
+        "L",
+        "R"
+      ],
+      "expected": true,
+      "actual": true,
+      "matched": true
+    },
+    {
+      "suite_id": "sound-channel-suite",
+      "rule": "uniqueArray",
+      "case_id": "sound-channel-suite-2",
+      "input": [
+        "M"
+      ],
+      "expected": true,
+      "actual": true,
+      "matched": true
+    },
+    {
+      "suite_id": "sound-channel-suite",
+      "rule": "uniqueArray",
+      "case_id": "sound-channel-suite-3",
+      "input": [
+        "L",
+        "R",
+        "C"
+      ],
+      "expected": true,
+      "actual": true,
+      "matched": true
+    },
+    {
+      "suite_id": "sound-channel-suite",
+      "rule": "uniqueArray",
+      "case_id": "sound-channel-suite-4",
+      "input": [],
+      "expected": false,
+      "actual": false,
+      "matched": true
+    },
+    {
+      "suite_id": "sound-channel-suite",
+      "rule": "uniqueArray",
+      "case_id": "sound-channel-suite-5",
+      "input": [
+        "L",
+        "L"
+      ],
+      "expected": false,
+      "actual": false,
+      "matched": true
+    },
+    {
+      "suite_id": "sound-channel-suite",
+      "rule": "uniqueArray",
+      "case_id": "sound-channel-suite-6",
+      "input": "L",
+      "expected": false,
+      "actual": false,
+      "matched": true
+    },
+    {
+      "suite_id": "checksum-manifest-suite",
+      "rule": "sha256",
+      "case_id": "checksum-manifest-suite-1",
+      "input": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "expected": true,
+      "actual": true,
+      "matched": true
+    },
+    {
+      "suite_id": "checksum-manifest-suite",
+      "rule": "sha256",
+      "case_id": "checksum-manifest-suite-2",
+      "input": "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef",
+      "expected": true,
+      "actual": true,
+      "matched": true
+    },
+    {
+      "suite_id": "checksum-manifest-suite",
+      "rule": "sha256",
+      "case_id": "checksum-manifest-suite-3",
+      "input": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+      "expected": true,
+      "actual": true,
+      "matched": true
+    },
+    {
+      "suite_id": "checksum-manifest-suite",
+      "rule": "sha256",
+      "case_id": "checksum-manifest-suite-4",
+      "input": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "expected": false,
+      "actual": false,
+      "matched": true
+    },
+    {
+      "suite_id": "checksum-manifest-suite",
+      "rule": "sha256",
+      "case_id": "checksum-manifest-suite-5",
+      "input": "abc",
+      "expected": false,
+      "actual": false,
+      "matched": true
+    },
+    {
+      "suite_id": "checksum-manifest-suite",
+      "rule": "sha256",
+      "case_id": "checksum-manifest-suite-6",
+      "input": null,
+      "expected": false,
+      "actual": false,
+      "matched": true
+    },
+    {
+      "suite_id": "proxy-linkage-suite",
+      "rule": "nonempty",
+      "case_id": "proxy-linkage-suite-1",
+      "input": "v1",
+      "expected": true,
+      "actual": true,
+      "matched": true
+    },
+    {
+      "suite_id": "proxy-linkage-suite",
+      "rule": "nonempty",
+      "case_id": "proxy-linkage-suite-2",
+      "input": "REF-001",
+      "expected": true,
+      "actual": true,
+      "matched": true
+    },
+    {
+      "suite_id": "proxy-linkage-suite",
+      "rule": "nonempty",
+      "case_id": "proxy-linkage-suite-3",
+      "input": "declared",
+      "expected": true,
+      "actual": true,
+      "matched": true
+    },
+    {
+      "suite_id": "proxy-linkage-suite",
+      "rule": "nonempty",
+      "case_id": "proxy-linkage-suite-4",
+      "input": "",
+      "expected": false,
+      "actual": false,
+      "matched": true
+    },
+    {
+      "suite_id": "proxy-linkage-suite",
+      "rule": "nonempty",
+      "case_id": "proxy-linkage-suite-5",
+      "input": null,
+      "expected": false,
+      "actual": false,
+      "matched": true
+    },
+    {
+      "suite_id": "proxy-linkage-suite",
+      "rule": "nonempty",
+      "case_id": "proxy-linkage-suite-6",
+      "input": 42,
+      "expected": false,
+      "actual": false,
+      "matched": true
+    },
+    {
+      "suite_id": "edit-lock-suite",
+      "rule": "nonempty",
+      "case_id": "edit-lock-suite-1",
+      "input": "v1",
+      "expected": true,
+      "actual": true,
+      "matched": true
+    },
+    {
+      "suite_id": "edit-lock-suite",
+      "rule": "nonempty",
+      "case_id": "edit-lock-suite-2",
+      "input": "REF-001",
+      "expected": true,
+      "actual": true,
+      "matched": true
+    },
+    {
+      "suite_id": "edit-lock-suite",
+      "rule": "nonempty",
+      "case_id": "edit-lock-suite-3",
+      "input": "declared",
+      "expected": true,
+      "actual": true,
+      "matched": true
+    },
+    {
+      "suite_id": "edit-lock-suite",
+      "rule": "nonempty",
+      "case_id": "edit-lock-suite-4",
+      "input": "",
+      "expected": false,
+      "actual": false,
+      "matched": true
+    },
+    {
+      "suite_id": "edit-lock-suite",
+      "rule": "nonempty",
+      "case_id": "edit-lock-suite-5",
+      "input": null,
+      "expected": false,
+      "actual": false,
+      "matched": true
+    },
+    {
+      "suite_id": "edit-lock-suite",
+      "rule": "nonempty",
+      "case_id": "edit-lock-suite-6",
+      "input": 42,
+      "expected": false,
+      "actual": false,
+      "matched": true
+    },
+    {
+      "suite_id": "vfx-handle-suite",
+      "rule": "nonnegativeInteger",
+      "case_id": "vfx-handle-suite-1",
+      "input": 0,
+      "expected": true,
+      "actual": true,
+      "matched": true
+    },
+    {
+      "suite_id": "vfx-handle-suite",
+      "rule": "nonnegativeInteger",
+      "case_id": "vfx-handle-suite-2",
+      "input": 8,
+      "expected": true,
+      "actual": true,
+      "matched": true
+    },
+    {
+      "suite_id": "vfx-handle-suite",
+      "rule": "nonnegativeInteger",
+      "case_id": "vfx-handle-suite-3",
+      "input": 24,
+      "expected": true,
+      "actual": true,
+      "matched": true
+    },
+    {
+      "suite_id": "vfx-handle-suite",
+      "rule": "nonnegativeInteger",
+      "case_id": "vfx-handle-suite-4",
+      "input": -1,
+      "expected": false,
+      "actual": false,
+      "matched": true
+    },
+    {
+      "suite_id": "vfx-handle-suite",
+      "rule": "nonnegativeInteger",
+      "case_id": "vfx-handle-suite-5",
+      "input": 1.5,
+      "expected": false,
+      "actual": false,
+      "matched": true
+    },
+    {
+      "suite_id": "vfx-handle-suite",
+      "rule": "nonnegativeInteger",
+      "case_id": "vfx-handle-suite-6",
+      "input": "8",
+      "expected": false,
+      "actual": false,
+      "matched": true
+    },
+    {
+      "suite_id": "color-metadata-suite",
+      "rule": "nonempty",
+      "case_id": "color-metadata-suite-1",
+      "input": "v1",
+      "expected": true,
+      "actual": true,
+      "matched": true
+    },
+    {
+      "suite_id": "color-metadata-suite",
+      "rule": "nonempty",
+      "case_id": "color-metadata-suite-2",
+      "input": "REF-001",
+      "expected": true,
+      "actual": true,
+      "matched": true
+    },
+    {
+      "suite_id": "color-metadata-suite",
+      "rule": "nonempty",
+      "case_id": "color-metadata-suite-3",
+      "input": "declared",
+      "expected": true,
+      "actual": true,
+      "matched": true
+    },
+    {
+      "suite_id": "color-metadata-suite",
+      "rule": "nonempty",
+      "case_id": "color-metadata-suite-4",
+      "input": "",
+      "expected": false,
+      "actual": false,
+      "matched": true
+    },
+    {
+      "suite_id": "color-metadata-suite",
+      "rule": "nonempty",
+      "case_id": "color-metadata-suite-5",
+      "input": null,
+      "expected": false,
+      "actual": false,
+      "matched": true
+    },
+    {
+      "suite_id": "color-metadata-suite",
+      "rule": "nonempty",
+      "case_id": "color-metadata-suite-6",
+      "input": 42,
+      "expected": false,
+      "actual": false,
+      "matched": true
+    },
+    {
+      "suite_id": "loudness-metadata-suite",
+      "rule": "loudness",
+      "case_id": "loudness-metadata-suite-1",
+      "input": -23,
+      "expected": true,
+      "actual": true,
+      "matched": true
+    },
+    {
+      "suite_id": "loudness-metadata-suite",
+      "rule": "loudness",
+      "case_id": "loudness-metadata-suite-2",
+      "input": -14,
+      "expected": true,
+      "actual": true,
+      "matched": true
+    },
+    {
+      "suite_id": "loudness-metadata-suite",
+      "rule": "loudness",
+      "case_id": "loudness-metadata-suite-3",
+      "input": -70,
+      "expected": true,
+      "actual": true,
+      "matched": true
+    },
+    {
+      "suite_id": "loudness-metadata-suite",
+      "rule": "loudness",
+      "case_id": "loudness-metadata-suite-4",
+      "input": 1,
+      "expected": false,
+      "actual": false,
+      "matched": true
+    },
+    {
+      "suite_id": "loudness-metadata-suite",
+      "rule": "loudness",
+      "case_id": "loudness-metadata-suite-5",
+      "input": -71,
+      "expected": false,
+      "actual": false,
+      "matched": true
+    },
+    {
+      "suite_id": "loudness-metadata-suite",
+      "rule": "loudness",
+      "case_id": "loudness-metadata-suite-6",
+      "input": "-23",
+      "expected": false,
+      "actual": false,
+      "matched": true
+    },
+    {
+      "suite_id": "caption-timing-suite",
+      "rule": "captionTime",
+      "case_id": "caption-timing-suite-1",
+      "input": "00:00:00.000",
+      "expected": true,
+      "actual": true,
+      "matched": true
+    },
+    {
+      "suite_id": "caption-timing-suite",
+      "rule": "captionTime",
+      "case_id": "caption-timing-suite-2",
+      "input": "01:02:03.456",
+      "expected": true,
+      "actual": true,
+      "matched": true
+    },
+    {
+      "suite_id": "caption-timing-suite",
+      "rule": "captionTime",
+      "case_id": "caption-timing-suite-3",
+      "input": "23:59:59.999",
+      "expected": true,
+      "actual": true,
+      "matched": true
+    },
+    {
+      "suite_id": "caption-timing-suite",
+      "rule": "captionTime",
+      "case_id": "caption-timing-suite-4",
+      "input": "1:02:03.456",
+      "expected": false,
+      "actual": false,
+      "matched": true
+    },
+    {
+      "suite_id": "caption-timing-suite",
+      "rule": "captionTime",
+      "case_id": "caption-timing-suite-5",
+      "input": "00:60:00.000",
+      "expected": false,
+      "actual": false,
+      "matched": true
+    },
+    {
+      "suite_id": "caption-timing-suite",
+      "rule": "captionTime",
+      "case_id": "caption-timing-suite-6",
+      "input": "",
+      "expected": false,
+      "actual": false,
+      "matched": true
+    },
+    {
+      "suite_id": "accessibility-feature-suite",
+      "rule": "array",
+      "case_id": "accessibility-feature-suite-1",
+      "input": [
+        "producer"
+      ],
+      "expected": true,
+      "actual": true,
+      "matched": true
+    },
+    {
+      "suite_id": "accessibility-feature-suite",
+      "rule": "array",
+      "case_id": "accessibility-feature-suite-2",
+      "input": [
+        "producer",
+        "client"
+      ],
+      "expected": true,
+      "actual": true,
+      "matched": true
+    },
+    {
+      "suite_id": "accessibility-feature-suite",
+      "rule": "array",
+      "case_id": "accessibility-feature-suite-3",
+      "input": [
+        "legal"
+      ],
+      "expected": true,
+      "actual": true,
+      "matched": true
+    },
+    {
+      "suite_id": "accessibility-feature-suite",
+      "rule": "array",
+      "case_id": "accessibility-feature-suite-4",
+      "input": [],
+      "expected": false,
+      "actual": false,
+      "matched": true
+    },
+    {
+      "suite_id": "accessibility-feature-suite",
+      "rule": "array",
+      "case_id": "accessibility-feature-suite-5",
+      "input": "producer",
+      "expected": false,
+      "actual": false,
+      "matched": true
+    },
+    {
+      "suite_id": "accessibility-feature-suite",
+      "rule": "array",
+      "case_id": "accessibility-feature-suite-6",
+      "input": null,
+      "expected": false,
+      "actual": false,
+      "matched": true
+    },
+    {
+      "suite_id": "locale-matrix-suite",
+      "rule": "localeArray",
+      "case_id": "locale-matrix-suite-1",
+      "input": [
+        "en"
+      ],
+      "expected": true,
+      "actual": true,
+      "matched": true
+    },
+    {
+      "suite_id": "locale-matrix-suite",
+      "rule": "localeArray",
+      "case_id": "locale-matrix-suite-2",
+      "input": [
+        "ru-RU"
+      ],
+      "expected": true,
+      "actual": true,
+      "matched": true
+    },
+    {
+      "suite_id": "locale-matrix-suite",
+      "rule": "localeArray",
+      "case_id": "locale-matrix-suite-3",
+      "input": [
+        "en-US",
+        "ru-RU"
+      ],
+      "expected": true,
+      "actual": true,
+      "matched": true
+    },
+    {
+      "suite_id": "locale-matrix-suite",
+      "rule": "localeArray",
+      "case_id": "locale-matrix-suite-4",
+      "input": [],
+      "expected": false,
+      "actual": false,
+      "matched": true
+    },
+    {
+      "suite_id": "locale-matrix-suite",
+      "rule": "localeArray",
+      "case_id": "locale-matrix-suite-5",
+      "input": [
+        "bad_tag"
+      ],
+      "expected": false,
+      "actual": false,
+      "matched": true
+    },
+    {
+      "suite_id": "locale-matrix-suite",
+      "rule": "localeArray",
+      "case_id": "locale-matrix-suite-6",
+      "input": "ru-RU",
+      "expected": false,
+      "actual": false,
+      "matched": true
+    },
+    {
+      "suite_id": "platform-export-suite",
+      "rule": "integer",
+      "case_id": "platform-export-suite-1",
+      "input": 1,
+      "expected": true,
+      "actual": true,
+      "matched": true
+    },
+    {
+      "suite_id": "platform-export-suite",
+      "rule": "integer",
+      "case_id": "platform-export-suite-2",
+      "input": 8,
+      "expected": true,
+      "actual": true,
+      "matched": true
+    },
+    {
+      "suite_id": "platform-export-suite",
+      "rule": "integer",
+      "case_id": "platform-export-suite-3",
+      "input": 1920,
+      "expected": true,
+      "actual": true,
+      "matched": true
+    },
+    {
+      "suite_id": "platform-export-suite",
+      "rule": "integer",
+      "case_id": "platform-export-suite-4",
+      "input": 0,
+      "expected": false,
+      "actual": false,
+      "matched": true
+    },
+    {
+      "suite_id": "platform-export-suite",
+      "rule": "integer",
+      "case_id": "platform-export-suite-5",
+      "input": -1,
+      "expected": false,
+      "actual": false,
+      "matched": true
+    },
+    {
+      "suite_id": "platform-export-suite",
+      "rule": "integer",
+      "case_id": "platform-export-suite-6",
+      "input": 1.5,
+      "expected": false,
+      "actual": false,
+      "matched": true
+    },
+    {
+      "suite_id": "release-approval-suite",
+      "rule": "decision",
+      "case_id": "release-approval-suite-1",
+      "input": "release",
+      "expected": true,
+      "actual": true,
+      "matched": true
+    },
+    {
+      "suite_id": "release-approval-suite",
+      "rule": "decision",
+      "case_id": "release-approval-suite-2",
+      "input": "hold",
+      "expected": true,
+      "actual": true,
+      "matched": true
+    },
+    {
+      "suite_id": "release-approval-suite",
+      "rule": "decision",
+      "case_id": "release-approval-suite-3",
+      "input": "RELEASE",
+      "expected": true,
+      "actual": true,
+      "matched": true
+    },
+    {
+      "suite_id": "release-approval-suite",
+      "rule": "decision",
+      "case_id": "release-approval-suite-4",
+      "input": "publish",
+      "expected": false,
+      "actual": false,
+      "matched": true
+    },
+    {
+      "suite_id": "release-approval-suite",
+      "rule": "decision",
+      "case_id": "release-approval-suite-5",
+      "input": "",
+      "expected": false,
+      "actual": false,
+      "matched": true
+    },
+    {
+      "suite_id": "release-approval-suite",
+      "rule": "decision",
+      "case_id": "release-approval-suite-6",
+      "input": null,
+      "expected": false,
+      "actual": false,
+      "matched": true
+    },
+    {
+      "suite_id": "archive-inventory-suite",
+      "rule": "copies",
+      "case_id": "archive-inventory-suite-1",
+      "input": 3,
+      "expected": true,
+      "actual": true,
+      "matched": true
+    },
+    {
+      "suite_id": "archive-inventory-suite",
+      "rule": "copies",
+      "case_id": "archive-inventory-suite-2",
+      "input": 4,
+      "expected": true,
+      "actual": true,
+      "matched": true
+    },
+    {
+      "suite_id": "archive-inventory-suite",
+      "rule": "copies",
+      "case_id": "archive-inventory-suite-3",
+      "input": 10,
+      "expected": true,
+      "actual": true,
+      "matched": true
+    },
+    {
+      "suite_id": "archive-inventory-suite",
+      "rule": "copies",
+      "case_id": "archive-inventory-suite-4",
+      "input": 2,
+      "expected": false,
+      "actual": false,
+      "matched": true
+    },
+    {
+      "suite_id": "archive-inventory-suite",
+      "rule": "copies",
+      "case_id": "archive-inventory-suite-5",
+      "input": 0,
+      "expected": false,
+      "actual": false,
+      "matched": true
+    },
+    {
+      "suite_id": "archive-inventory-suite",
+      "rule": "copies",
+      "case_id": "archive-inventory-suite-6",
+      "input": 3.5,
+      "expected": false,
+      "actual": false,
+      "matched": true
+    },
+    {
+      "suite_id": "provenance-disclosure-suite",
+      "rule": "boolean",
+      "case_id": "provenance-disclosure-suite-1",
+      "input": true,
+      "expected": true,
+      "actual": true,
+      "matched": true
+    },
+    {
+      "suite_id": "provenance-disclosure-suite",
+      "rule": "boolean",
+      "case_id": "provenance-disclosure-suite-2",
+      "input": false,
+      "expected": true,
+      "actual": true,
+      "matched": true
+    },
+    {
+      "suite_id": "provenance-disclosure-suite",
+      "rule": "boolean",
+      "case_id": "provenance-disclosure-suite-3",
+      "input": true,
+      "expected": true,
+      "actual": true,
+      "matched": true
+    },
+    {
+      "suite_id": "provenance-disclosure-suite",
+      "rule": "boolean",
+      "case_id": "provenance-disclosure-suite-4",
+      "input": "true",
+      "expected": false,
+      "actual": false,
+      "matched": true
+    },
+    {
+      "suite_id": "provenance-disclosure-suite",
+      "rule": "boolean",
+      "case_id": "provenance-disclosure-suite-5",
+      "input": 1,
+      "expected": false,
+      "actual": false,
+      "matched": true
+    },
+    {
+      "suite_id": "provenance-disclosure-suite",
+      "rule": "boolean",
+      "case_id": "provenance-disclosure-suite-6",
+      "input": null,
+      "expected": false,
+      "actual": false,
+      "matched": true
+    },
+    {
+      "suite_id": "release-evidence-suite",
+      "rule": "url",
+      "case_id": "release-evidence-suite-1",
+      "input": "https://example.com/evidence",
+      "expected": true,
+      "actual": true,
+      "matched": true
+    },
+    {
+      "suite_id": "release-evidence-suite",
+      "rule": "url",
+      "case_id": "release-evidence-suite-2",
+      "input": "https://sharprod.com/",
+      "expected": true,
+      "actual": true,
+      "matched": true
+    },
+    {
+      "suite_id": "release-evidence-suite",
+      "rule": "url",
+      "case_id": "release-evidence-suite-3",
+      "input": "https://github.com/SHARProduction",
+      "expected": true,
+      "actual": true,
+      "matched": true
+    },
+    {
+      "suite_id": "release-evidence-suite",
+      "rule": "url",
+      "case_id": "release-evidence-suite-4",
+      "input": "http://example.com",
+      "expected": false,
+      "actual": false,
+      "matched": true
+    },
+    {
+      "suite_id": "release-evidence-suite",
+      "rule": "url",
+      "case_id": "release-evidence-suite-5",
+      "input": "not-url",
+      "expected": false,
+      "actual": false,
+      "matched": true
+    },
+    {
+      "suite_id": "release-evidence-suite",
+      "rule": "url",
+      "case_id": "release-evidence-suite-6",
+      "input": "",
+      "expected": false,
+      "actual": false,
+      "matched": true
+    }
+  ]
+}
