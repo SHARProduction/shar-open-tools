@@ -1,0 +1,1610 @@
+{
+  "schema_version": "1.0.0",
+  "publisher": {
+    "name": "SHAR Production",
+    "website": "https://sharprod.com/"
+  },
+  "license": "CC-BY-4.0",
+  "checklists": [
+    {
+      "id": "brief-gap-checklist",
+      "title": {
+        "en": "Incomplete production brief QC checklist",
+        "ru": "Чек-лист QC: Неполный производственный бриф"
+      },
+      "area": {
+        "en": "planning",
+        "ru": "планирование"
+      },
+      "steps": {
+        "en": [
+          "Confirm the reported incomplete production brief condition and identify every affected asset or task.",
+          "Compare objectives, audience, formats, rights, budget and approvers against the signed brief.",
+          "Pause or quarantine affected outputs so the problem cannot propagate to another production stage.",
+          "Freeze the missing decisions in a dated brief revision before estimating or scheduling.",
+          "Record the owner, evidence, decision, version and completion time in the production log."
+        ],
+        "ru": [
+          "Подтвердите проблему «неполный производственный бриф» и определите все затронутые материалы или задачи.",
+          "Сверьте цели, аудиторию, форматы, права, бюджет и согласующих с подписанным брифом.",
+          "Приостановите или изолируйте затронутые результаты, чтобы проблема не перешла на следующий этап.",
+          "Зафиксируйте недостающие решения в датированной версии брифа до оценки и планирования.",
+          "Запишите владельца, доказательство, решение, версию и время завершения в производственный журнал."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "scope-drift-checklist",
+      "title": {
+        "en": "Uncontrolled scope drift QC checklist",
+        "ru": "Чек-лист QC: Неконтролируемое изменение объёма"
+      },
+      "area": {
+        "en": "planning",
+        "ru": "планирование"
+      },
+      "steps": {
+        "en": [
+          "Confirm the reported uncontrolled scope drift condition and identify every affected asset or task.",
+          "Diff every new request against the approved deliverable list and assumptions.",
+          "Pause or quarantine affected outputs so the problem cannot propagate to another production stage.",
+          "Log the delta, owner, cost and schedule effect; approve or remove it explicitly.",
+          "Record the owner, evidence, decision, version and completion time in the production log."
+        ],
+        "ru": [
+          "Подтвердите проблему «неконтролируемое изменение объёма» и определите все затронутые материалы или задачи.",
+          "Сравните каждый новый запрос с утверждённым списком материалов и допущениями.",
+          "Приостановите или изолируйте затронутые результаты, чтобы проблема не перешла на следующий этап.",
+          "Запишите изменение, владельца, влияние на стоимость и срок; явно утвердите или исключите его.",
+          "Запишите владельца, доказательство, решение, версию и время завершения в производственный журнал."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "approval-owner-missing-checklist",
+      "title": {
+        "en": "Missing approval owner QC checklist",
+        "ru": "Чек-лист QC: Не назначен согласующий"
+      },
+      "area": {
+        "en": "governance",
+        "ru": "управление"
+      },
+      "steps": {
+        "en": [
+          "Confirm the reported missing approval owner condition and identify every affected asset or task.",
+          "Inspect the RACI for every gate and locate decisions with no accountable person.",
+          "Pause or quarantine affected outputs so the problem cannot propagate to another production stage.",
+          "Assign one accountable approver and a timed escalation route for each gate.",
+          "Record the owner, evidence, decision, version and completion time in the production log."
+        ],
+        "ru": [
+          "Подтвердите проблему «не назначен согласующий» и определите все затронутые материалы или задачи.",
+          "Проверьте RACI каждого этапа и найдите решения без ответственного лица.",
+          "Приостановите или изолируйте затронутые результаты, чтобы проблема не перешла на следующий этап.",
+          "Назначьте одного ответственного согласующего и срок эскалации для каждого этапа.",
+          "Запишите владельца, доказательство, решение, версию и время завершения в производственный журнал."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "rights-expiry-checklist",
+      "title": {
+        "en": "Usage rights expire before campaign end QC checklist",
+        "ru": "Чек-лист QC: Права истекают до конца кампании"
+      },
+      "area": {
+        "en": "rights",
+        "ru": "права"
+      },
+      "steps": {
+        "en": [
+          "Confirm the reported usage rights expire before campaign end condition and identify every affected asset or task.",
+          "Compare territory, media and end dates in releases with the media plan.",
+          "Pause or quarantine affected outputs so the problem cannot propagate to another production stage.",
+          "Restrict the plan or obtain a documented extension before distribution.",
+          "Record the owner, evidence, decision, version and completion time in the production log."
+        ],
+        "ru": [
+          "Подтвердите проблему «права истекают до конца кампании» и определите все затронутые материалы или задачи.",
+          "Сверьте территорию, каналы и даты в разрешениях с медиапланом.",
+          "Приостановите или изолируйте затронутые результаты, чтобы проблема не перешла на следующий этап.",
+          "Ограничьте размещение либо получите документированное продление до публикации.",
+          "Запишите владельца, доказательство, решение, версию и время завершения в производственный журнал."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "location-permit-gap-checklist",
+      "title": {
+        "en": "Location permit gap QC checklist",
+        "ru": "Чек-лист QC: Нет разрешения на локацию"
+      },
+      "area": {
+        "en": "rights",
+        "ru": "права"
+      },
+      "steps": {
+        "en": [
+          "Confirm the reported location permit gap condition and identify every affected asset or task.",
+          "Match each scheduled location and activity to a valid permit and property release.",
+          "Pause or quarantine affected outputs so the problem cannot propagate to another production stage.",
+          "Move the scene, narrow the activity or secure written permission before call time.",
+          "Record the owner, evidence, decision, version and completion time in the production log."
+        ],
+        "ru": [
+          "Подтвердите проблему «нет разрешения на локацию» и определите все затронутые материалы или задачи.",
+          "Сопоставьте каждую локацию и действие с действующим разрешением владельца.",
+          "Приостановите или изолируйте затронутые результаты, чтобы проблема не перешла на следующий этап.",
+          "Перенесите сцену, сократите действие либо получите письменное разрешение до вызова.",
+          "Запишите владельца, доказательство, решение, версию и время завершения в производственный журнал."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "talent-release-gap-checklist",
+      "title": {
+        "en": "Talent release gap QC checklist",
+        "ru": "Чек-лист QC: Нет согласия участника"
+      },
+      "area": {
+        "en": "rights",
+        "ru": "права"
+      },
+      "steps": {
+        "en": [
+          "Confirm the reported talent release gap condition and identify every affected asset or task.",
+          "Reconcile the cast list and visible contributors with signed release identifiers.",
+          "Pause or quarantine affected outputs so the problem cannot propagate to another production stage.",
+          "Hold affected shots from distribution until the release or an approved replacement exists.",
+          "Record the owner, evidence, decision, version and completion time in the production log."
+        ],
+        "ru": [
+          "Подтвердите проблему «нет согласия участника» и определите все затронутые материалы или задачи.",
+          "Сверьте список участников в кадре с идентификаторами подписанных согласий.",
+          "Приостановите или изолируйте затронутые результаты, чтобы проблема не перешла на следующий этап.",
+          "Не распространяйте затронутые кадры до получения согласия или утверждённой замены.",
+          "Запишите владельца, доказательство, решение, версию и время завершения в производственный журнал."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "schedule-collision-checklist",
+      "title": {
+        "en": "Schedule dependency collision QC checklist",
+        "ru": "Чек-лист QC: Конфликт зависимостей графика"
+      },
+      "area": {
+        "en": "scheduling",
+        "ru": "график"
+      },
+      "steps": {
+        "en": [
+          "Confirm the reported schedule dependency collision condition and identify every affected asset or task.",
+          "Trace prerequisites for every task sharing crew, stage, equipment or source media.",
+          "Pause or quarantine affected outputs so the problem cannot propagate to another production stage.",
+          "Resequence the critical path and publish one authoritative schedule revision.",
+          "Record the owner, evidence, decision, version and completion time in the production log."
+        ],
+        "ru": [
+          "Подтвердите проблему «конфликт зависимостей графика» и определите все затронутые материалы или задачи.",
+          "Проверьте предпосылки задач с общей командой, площадкой, техникой или исходниками.",
+          "Приостановите или изолируйте затронутые результаты, чтобы проблема не перешла на следующий этап.",
+          "Перестройте критический путь и выпустите одну актуальную версию графика.",
+          "Запишите владельца, доказательство, решение, версию и время завершения в производственный журнал."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "call-sheet-timezone-checklist",
+      "title": {
+        "en": "Call sheet timezone mismatch QC checklist",
+        "ru": "Чек-лист QC: Ошибка часового пояса в вызывном листе"
+      },
+      "area": {
+        "en": "scheduling",
+        "ru": "график"
+      },
+      "steps": {
+        "en": [
+          "Confirm the reported call sheet timezone mismatch condition and identify every affected asset or task.",
+          "Compare call times, transport and sunrise data in the location timezone.",
+          "Pause or quarantine affected outputs so the problem cannot propagate to another production stage.",
+          "Regenerate the sheet with explicit timezone labels and acknowledge the correction.",
+          "Record the owner, evidence, decision, version and completion time in the production log."
+        ],
+        "ru": [
+          "Подтвердите проблему «ошибка часового пояса в вызывном листе» и определите все затронутые материалы или задачи.",
+          "Сверьте вызовы, транспорт и восход в часовом поясе локации.",
+          "Приостановите или изолируйте затронутые результаты, чтобы проблема не перешла на следующий этап.",
+          "Пересоберите лист с явным часовым поясом и получите подтверждение исправления.",
+          "Запишите владельца, доказательство, решение, версию и время завершения в производственный журнал."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "weather-contingency-checklist",
+      "title": {
+        "en": "Missing weather contingency QC checklist",
+        "ru": "Чек-лист QC: Нет погодного резерва"
+      },
+      "area": {
+        "en": "scheduling",
+        "ru": "график"
+      },
+      "steps": {
+        "en": [
+          "Confirm the reported missing weather contingency condition and identify every affected asset or task.",
+          "Check thresholds for rain, wind, heat and daylight against forecast and equipment limits.",
+          "Pause or quarantine affected outputs so the problem cannot propagate to another production stage.",
+          "Activate a pre-approved cover set, indoor scene or reschedule trigger.",
+          "Record the owner, evidence, decision, version and completion time in the production log."
+        ],
+        "ru": [
+          "Подтвердите проблему «нет погодного резерва» и определите все затронутые материалы или задачи.",
+          "Сверьте пороги дождя, ветра, жары и света с прогнозом и пределами техники.",
+          "Приостановите или изолируйте затронутые результаты, чтобы проблема не перешла на следующий этап.",
+          "Активируйте заранее утверждённую крытую площадку, интерьер или перенос.",
+          "Запишите владельца, доказательство, решение, версию и время завершения в производственный журнал."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "backup-gap-checklist",
+      "title": {
+        "en": "No verified set backup QC checklist",
+        "ru": "Чек-лист QC: Нет проверенной резервной копии"
+      },
+      "area": {
+        "en": "media",
+        "ru": "медиа"
+      },
+      "steps": {
+        "en": [
+          "Confirm the reported no verified set backup condition and identify every affected asset or task.",
+          "Count independent copies and verify hashes before formatting any capture media.",
+          "Pause or quarantine affected outputs so the problem cannot propagate to another production stage.",
+          "Create and verify the missing copy, then record custody and checksum evidence.",
+          "Record the owner, evidence, decision, version and completion time in the production log."
+        ],
+        "ru": [
+          "Подтвердите проблему «нет проверенной резервной копии» и определите все затронутые материалы или задачи.",
+          "Посчитайте независимые копии и проверьте хеши до форматирования носителей.",
+          "Приостановите или изолируйте затронутые результаты, чтобы проблема не перешла на следующий этап.",
+          "Создайте и проверьте недостающую копию, запишите хранение и контрольные суммы.",
+          "Запишите владельца, доказательство, решение, версию и время завершения в производственный журнал."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "checksum-mismatch-checklist",
+      "title": {
+        "en": "Checksum mismatch QC checklist",
+        "ru": "Чек-лист QC: Несовпадение контрольной суммы"
+      },
+      "area": {
+        "en": "media",
+        "ru": "медиа"
+      },
+      "steps": {
+        "en": [
+          "Confirm the reported checksum mismatch condition and identify every affected asset or task.",
+          "Recalculate the source and destination hashes with the same algorithm and byte range.",
+          "Pause or quarantine affected outputs so the problem cannot propagate to another production stage.",
+          "Quarantine the copy and transfer again from the last verified source.",
+          "Record the owner, evidence, decision, version and completion time in the production log."
+        ],
+        "ru": [
+          "Подтвердите проблему «несовпадение контрольной суммы» и определите все затронутые материалы или задачи.",
+          "Пересчитайте хеши источника и копии одним алгоритмом по одинаковому диапазону байтов.",
+          "Приостановите или изолируйте затронутые результаты, чтобы проблема не перешла на следующий этап.",
+          "Изолируйте копию и повторите перенос из последнего проверенного источника.",
+          "Запишите владельца, доказательство, решение, версию и время завершения в производственный журнал."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "proxy-relink-checklist",
+      "title": {
+        "en": "Proxy media will not relink QC checklist",
+        "ru": "Чек-лист QC: Прокси не перелинковываются"
+      },
+      "area": {
+        "en": "editing",
+        "ru": "монтаж"
+      },
+      "steps": {
+        "en": [
+          "Confirm the reported proxy media will not relink condition and identify every affected asset or task.",
+          "Compare reel names, timecode, frame rate, path mapping and source identifiers.",
+          "Pause or quarantine affected outputs so the problem cannot propagate to another production stage.",
+          "Normalize metadata in a reversible map and test relink on a duplicate project.",
+          "Record the owner, evidence, decision, version and completion time in the production log."
+        ],
+        "ru": [
+          "Подтвердите проблему «прокси не перелинковываются» и определите все затронутые материалы или задачи.",
+          "Сверьте имена рулонов, таймкод, частоту кадров, пути и идентификаторы исходников.",
+          "Приостановите или изолируйте затронутые результаты, чтобы проблема не перешла на следующий этап.",
+          "Нормализуйте метаданные обратимой картой и проверьте перелинковку на копии проекта.",
+          "Запишите владельца, доказательство, решение, версию и время завершения в производственный журнал."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "timecode-drift-checklist",
+      "title": {
+        "en": "Audio and picture timecode drift QC checklist",
+        "ru": "Чек-лист QC: Дрейф таймкода звука и изображения"
+      },
+      "area": {
+        "en": "capture",
+        "ru": "съёмка"
+      },
+      "steps": {
+        "en": [
+          "Confirm the reported audio and picture timecode drift condition and identify every affected asset or task.",
+          "Measure offset at the head and tail to distinguish fixed offset from clock drift.",
+          "Pause or quarantine affected outputs so the problem cannot propagate to another production stage.",
+          "Correct with the verified sync reference and document any time stretch.",
+          "Record the owner, evidence, decision, version and completion time in the production log."
+        ],
+        "ru": [
+          "Подтвердите проблему «дрейф таймкода звука и изображения» и определите все затронутые материалы или задачи.",
+          "Измерьте смещение в начале и конце, чтобы отличить постоянный сдвиг от дрейфа часов.",
+          "Приостановите или изолируйте затронутые результаты, чтобы проблема не перешла на следующий этап.",
+          "Исправьте по проверенной синхрометке и задокументируйте растяжение времени.",
+          "Запишите владельца, доказательство, решение, версию и время завершения в производственный журнал."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "frame-rate-mismatch-checklist",
+      "title": {
+        "en": "Frame-rate mismatch QC checklist",
+        "ru": "Чек-лист QC: Несовпадение частоты кадров"
+      },
+      "area": {
+        "en": "post",
+        "ru": "постпродакшн"
+      },
+      "steps": {
+        "en": [
+          "Confirm the reported frame-rate mismatch condition and identify every affected asset or task.",
+          "Inspect capture, timeline and delivery rates including fractional values and scan mode.",
+          "Pause or quarantine affected outputs so the problem cannot propagate to another production stage.",
+          "Choose the approved cadence conversion and test motion before conform.",
+          "Record the owner, evidence, decision, version and completion time in the production log."
+        ],
+        "ru": [
+          "Подтвердите проблему «несовпадение частоты кадров» и определите все затронутые материалы или задачи.",
+          "Проверьте частоты съёмки, таймлайна и поставки, включая дробные значения и развёртку.",
+          "Приостановите или изолируйте затронутые результаты, чтобы проблема не перешла на следующий этап.",
+          "Выберите утверждённое преобразование кадров и проверьте движение до конформа.",
+          "Запишите владельца, доказательство, решение, версию и время завершения в производственный журнал."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "color-space-tag-checklist",
+      "title": {
+        "en": "Incorrect color-space tag QC checklist",
+        "ru": "Чек-лист QC: Неверный тег цветового пространства"
+      },
+      "area": {
+        "en": "color",
+        "ru": "цвет"
+      },
+      "steps": {
+        "en": [
+          "Confirm the reported incorrect color-space tag condition and identify every affected asset or task.",
+          "Compare file tags with the documented camera transform and measured appearance.",
+          "Pause or quarantine affected outputs so the problem cannot propagate to another production stage.",
+          "Correct metadata or transform pixels once; verify on a managed reference display.",
+          "Record the owner, evidence, decision, version and completion time in the production log."
+        ],
+        "ru": [
+          "Подтвердите проблему «неверный тег цветового пространства» и определите все затронутые материалы или задачи.",
+          "Сверьте теги файла с документированным преобразованием камеры и изображением.",
+          "Приостановите или изолируйте затронутые результаты, чтобы проблема не перешла на следующий этап.",
+          "Исправьте метаданные либо преобразуйте пиксели один раз и проверьте на эталонном дисплее.",
+          "Запишите владельца, доказательство, решение, версию и время завершения в производственный журнал."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "lut-baked-in-checklist",
+      "title": {
+        "en": "Look LUT baked into source QC checklist",
+        "ru": "Чек-лист QC: LUT запечён в исходник"
+      },
+      "area": {
+        "en": "color",
+        "ru": "цвет"
+      },
+      "steps": {
+        "en": [
+          "Confirm the reported look lut baked into source condition and identify every affected asset or task.",
+          "Compare neutral chart values and camera originals to detect irreversible look processing.",
+          "Pause or quarantine affected outputs so the problem cannot propagate to another production stage.",
+          "Return to the unprocessed source or document the baked look as a creative constraint.",
+          "Record the owner, evidence, decision, version and completion time in the production log."
+        ],
+        "ru": [
+          "Подтвердите проблему «lut запечён в исходник» и определите все затронутые материалы или задачи.",
+          "Сравните нейтральную таблицу и оригиналы камеры, чтобы выявить необратимую обработку.",
+          "Приостановите или изолируйте затронутые результаты, чтобы проблема не перешла на следующий этап.",
+          "Вернитесь к необработанному источнику либо зафиксируйте LUT как творческое ограничение.",
+          "Запишите владельца, доказательство, решение, версию и время завершения в производственный журнал."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "audio-sample-rate-checklist",
+      "title": {
+        "en": "Audio sample-rate mismatch QC checklist",
+        "ru": "Чек-лист QC: Несовпадение частоты дискретизации"
+      },
+      "area": {
+        "en": "audio",
+        "ru": "звук"
+      },
+      "steps": {
+        "en": [
+          "Confirm the reported audio sample-rate mismatch condition and identify every affected asset or task.",
+          "Inspect actual sample rates and duration against the timeline clock.",
+          "Pause or quarantine affected outputs so the problem cannot propagate to another production stage.",
+          "Resample once with an approved high-quality process and verify sync end to end.",
+          "Record the owner, evidence, decision, version and completion time in the production log."
+        ],
+        "ru": [
+          "Подтвердите проблему «несовпадение частоты дискретизации» и определите все затронутые материалы или задачи.",
+          "Проверьте фактическую частоту дискретизации и длительность относительно таймлайна.",
+          "Приостановите или изолируйте затронутые результаты, чтобы проблема не перешла на следующий этап.",
+          "Один раз передискретизируйте утверждённым методом и проверьте синхронность целиком.",
+          "Запишите владельца, доказательство, решение, версию и время завершения в производственный журнал."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "loudness-fail-checklist",
+      "title": {
+        "en": "Programme loudness outside target QC checklist",
+        "ru": "Чек-лист QC: Громкость программы вне нормы"
+      },
+      "area": {
+        "en": "audio",
+        "ru": "звук"
+      },
+      "steps": {
+        "en": [
+          "Confirm the reported programme loudness outside target condition and identify every affected asset or task.",
+          "Measure integrated loudness, range and gating using the delivery standard.",
+          "Pause or quarantine affected outputs so the problem cannot propagate to another production stage.",
+          "Adjust the mix, remeasure the complete programme and retain the meter report.",
+          "Record the owner, evidence, decision, version and completion time in the production log."
+        ],
+        "ru": [
+          "Подтвердите проблему «громкость программы вне нормы» и определите все затронутые материалы или задачи.",
+          "Измерьте интегральную громкость, диапазон и гейтинг по стандарту поставки.",
+          "Приостановите или изолируйте затронутые результаты, чтобы проблема не перешла на следующий этап.",
+          "Скорректируйте микс, перемерьте всю программу и сохраните отчёт измерителя.",
+          "Запишите владельца, доказательство, решение, версию и время завершения в производственный журнал."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "true-peak-clipping-checklist",
+      "title": {
+        "en": "True-peak clipping QC checklist",
+        "ru": "Чек-лист QC: Клиппинг истинного пика"
+      },
+      "area": {
+        "en": "audio",
+        "ru": "звук"
+      },
+      "steps": {
+        "en": [
+          "Confirm the reported true-peak clipping condition and identify every affected asset or task.",
+          "Measure oversampled true peak after every lossy encode and sample-rate conversion.",
+          "Pause or quarantine affected outputs so the problem cannot propagate to another production stage.",
+          "Lower or limit the offending peaks, encode again and repeat the measurement.",
+          "Record the owner, evidence, decision, version and completion time in the production log."
+        ],
+        "ru": [
+          "Подтвердите проблему «клиппинг истинного пика» и определите все затронутые материалы или задачи.",
+          "Измерьте истинный пик с передискретизацией после кодирования и изменения частоты.",
+          "Приостановите или изолируйте затронутые результаты, чтобы проблема не перешла на следующий этап.",
+          "Ослабьте или ограничьте пики, перекодируйте и повторите измерение.",
+          "Запишите владельца, доказательство, решение, версию и время завершения в производственный журнал."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "caption-overlap-checklist",
+      "title": {
+        "en": "Overlapping caption cues QC checklist",
+        "ru": "Чек-лист QC: Перекрывающиеся субтитры"
+      },
+      "area": {
+        "en": "localization",
+        "ru": "локализация"
+      },
+      "steps": {
+        "en": [
+          "Confirm the reported overlapping caption cues condition and identify every affected asset or task.",
+          "Sort cue intervals and find any next start earlier than the current end.",
+          "Pause or quarantine affected outputs so the problem cannot propagate to another production stage.",
+          "Retiming cues while preserving minimum gaps, shot changes and spoken meaning.",
+          "Record the owner, evidence, decision, version and completion time in the production log."
+        ],
+        "ru": [
+          "Подтвердите проблему «перекрывающиеся субтитры» и определите все затронутые материалы или задачи.",
+          "Отсортируйте интервалы и найдите начало следующей реплики раньше конца текущей.",
+          "Приостановите или изолируйте затронутые результаты, чтобы проблема не перешла на следующий этап.",
+          "Переставьте тайминги с сохранением пауз, монтажных склеек и смысла речи.",
+          "Запишите владельца, доказательство, решение, версию и время завершения в производственный журнал."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "caption-speed-checklist",
+      "title": {
+        "en": "Caption reading speed too high QC checklist",
+        "ru": "Чек-лист QC: Слишком высокая скорость субтитров"
+      },
+      "area": {
+        "en": "localization",
+        "ru": "локализация"
+      },
+      "steps": {
+        "en": [
+          "Confirm the reported caption reading speed too high condition and identify every affected asset or task.",
+          "Calculate characters per second for each cue using the platform limit.",
+          "Pause or quarantine affected outputs so the problem cannot propagate to another production stage.",
+          "Condense wording or extend exposure without hiding essential dialogue.",
+          "Record the owner, evidence, decision, version and completion time in the production log."
+        ],
+        "ru": [
+          "Подтвердите проблему «слишком высокая скорость субтитров» и определите все затронутые материалы или задачи.",
+          "Рассчитайте знаки в секунду для каждой реплики по лимиту площадки.",
+          "Приостановите или изолируйте затронутые результаты, чтобы проблема не перешла на следующий этап.",
+          "Сократите формулировку или увеличьте показ без потери важного диалога.",
+          "Запишите владельца, доказательство, решение, версию и время завершения в производственный журнал."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "forced-narrative-checklist",
+      "title": {
+        "en": "Forced-narrative subtitle missing QC checklist",
+        "ru": "Чек-лист QC: Нет форсированного субтитра"
+      },
+      "area": {
+        "en": "localization",
+        "ru": "локализация"
+      },
+      "steps": {
+        "en": [
+          "Confirm the reported forced-narrative subtitle missing condition and identify every affected asset or task.",
+          "Review foreign dialogue and story-critical on-screen text against the spotting list.",
+          "Pause or quarantine affected outputs so the problem cannot propagate to another production stage.",
+          "Author the missing forced cue and test it in every required language stream.",
+          "Record the owner, evidence, decision, version and completion time in the production log."
+        ],
+        "ru": [
+          "Подтвердите проблему «нет форсированного субтитра» и определите все затронутые материалы или задачи.",
+          "Сверьте иностранную речь и важный экранный текст со списком субтитров.",
+          "Приостановите или изолируйте затронутые результаты, чтобы проблема не перешла на следующий этап.",
+          "Создайте форсированную реплику и проверьте её во всех нужных языковых потоках.",
+          "Запишите владельца, доказательство, решение, версию и время завершения в производственный журнал."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "font-license-checklist",
+      "title": {
+        "en": "Unverified font license QC checklist",
+        "ru": "Чек-лист QC: Не подтверждена лицензия шрифта"
+      },
+      "area": {
+        "en": "rights",
+        "ru": "права"
+      },
+      "steps": {
+        "en": [
+          "Confirm the reported unverified font license condition and identify every affected asset or task.",
+          "Trace every embedded or rendered font to a license covering the intended media.",
+          "Pause or quarantine affected outputs so the problem cannot propagate to another production stage.",
+          "Replace it with an approved font or obtain written rights before mastering.",
+          "Record the owner, evidence, decision, version and completion time in the production log."
+        ],
+        "ru": [
+          "Подтвердите проблему «не подтверждена лицензия шрифта» и определите все затронутые материалы или задачи.",
+          "Проследите каждый встроенный или отрисованный шрифт до лицензии на нужные каналы.",
+          "Приостановите или изолируйте затронутые результаты, чтобы проблема не перешла на следующий этап.",
+          "Замените его утверждённым шрифтом либо получите письменные права до мастеринга.",
+          "Запишите владельца, доказательство, решение, версию и время завершения в производственный журнал."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "alpha-loss-checklist",
+      "title": {
+        "en": "Alpha channel lost QC checklist",
+        "ru": "Чек-лист QC: Потерян альфа-канал"
+      },
+      "area": {
+        "en": "graphics",
+        "ru": "графика"
+      },
+      "steps": {
+        "en": [
+          "Confirm the reported alpha channel lost condition and identify every affected asset or task.",
+          "Inspect channel count, codec support, premultiplication and export interpretation.",
+          "Pause or quarantine affected outputs so the problem cannot propagate to another production stage.",
+          "Export a supported alpha codec with documented straight or premultiplied handling.",
+          "Record the owner, evidence, decision, version and completion time in the production log."
+        ],
+        "ru": [
+          "Подтвердите проблему «потерян альфа-канал» и определите все затронутые материалы или задачи.",
+          "Проверьте число каналов, поддержку кодека, premultiply и трактовку экспорта.",
+          "Приостановите или изолируйте затронутые результаты, чтобы проблема не перешла на следующий этап.",
+          "Экспортируйте поддерживаемый кодек с документированным straight или premultiplied alpha.",
+          "Запишите владельца, доказательство, решение, версию и время завершения в производственный журнал."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "codec-incompatible-checklist",
+      "title": {
+        "en": "Codec rejected by destination QC checklist",
+        "ru": "Чек-лист QC: Кодек отклонён площадкой"
+      },
+      "area": {
+        "en": "delivery",
+        "ru": "поставка"
+      },
+      "steps": {
+        "en": [
+          "Confirm the reported codec rejected by destination condition and identify every affected asset or task.",
+          "Compare codec profile, level, chroma, bit depth and bitrate with the current specification.",
+          "Pause or quarantine affected outputs so the problem cannot propagate to another production stage.",
+          "Transcode from the verified master to an exact compliant preset and run QC again.",
+          "Record the owner, evidence, decision, version and completion time in the production log."
+        ],
+        "ru": [
+          "Подтвердите проблему «кодек отклонён площадкой» и определите все затронутые материалы или задачи.",
+          "Сверьте профиль, уровень, цветность, глубину и битрейт с актуальной спецификацией.",
+          "Приостановите или изолируйте затронутые результаты, чтобы проблема не перешла на следующий этап.",
+          "Перекодируйте проверенный мастер точным пресетом и повторите контроль качества.",
+          "Запишите владельца, доказательство, решение, версию и время завершения в производственный журнал."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "metadata-gap-checklist",
+      "title": {
+        "en": "Container metadata incomplete QC checklist",
+        "ru": "Чек-лист QC: Неполные метаданные контейнера"
+      },
+      "area": {
+        "en": "delivery",
+        "ru": "поставка"
+      },
+      "steps": {
+        "en": [
+          "Confirm the reported container metadata incomplete condition and identify every affected asset or task.",
+          "Validate language, track order, timebase, field dominance and descriptive tags.",
+          "Pause or quarantine affected outputs so the problem cannot propagate to another production stage.",
+          "Rewrite metadata without altering essence where possible, then revalidate the container.",
+          "Record the owner, evidence, decision, version and completion time in the production log."
+        ],
+        "ru": [
+          "Подтвердите проблему «неполные метаданные контейнера» и определите все затронутые материалы или задачи.",
+          "Проверьте язык, порядок дорожек, таймбейс, развёртку и описательные теги.",
+          "Приостановите или изолируйте затронутые результаты, чтобы проблема не перешла на следующий этап.",
+          "Перезапишите метаданные без изменения потоков, затем повторно проверьте контейнер.",
+          "Запишите владельца, доказательство, решение, версию и время завершения в производственный журнал."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "aspect-ratio-checklist",
+      "title": {
+        "en": "Incorrect aspect ratio QC checklist",
+        "ru": "Чек-лист QC: Неверное соотношение сторон"
+      },
+      "area": {
+        "en": "picture",
+        "ru": "изображение"
+      },
+      "steps": {
+        "en": [
+          "Confirm the reported incorrect aspect ratio condition and identify every affected asset or task.",
+          "Compare raster dimensions, pixel aspect, display aspect and approved framing.",
+          "Pause or quarantine affected outputs so the problem cannot propagate to another production stage.",
+          "Apply the documented crop, pad or pixel-aspect correction and review key shots.",
+          "Record the owner, evidence, decision, version and completion time in the production log."
+        ],
+        "ru": [
+          "Подтвердите проблему «неверное соотношение сторон» и определите все затронутые материалы или задачи.",
+          "Сверьте размер растра, аспект пикселя, экранный аспект и утверждённое кадрирование.",
+          "Приостановите или изолируйте затронутые результаты, чтобы проблема не перешла на следующий этап.",
+          "Примените документированный crop, pad или коррекцию аспекта и проверьте ключевые кадры.",
+          "Запишите владельца, доказательство, решение, версию и время завершения в производственный журнал."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "safe-area-checklist",
+      "title": {
+        "en": "Graphics outside safe area QC checklist",
+        "ru": "Чек-лист QC: Графика вне безопасной зоны"
+      },
+      "area": {
+        "en": "graphics",
+        "ru": "графика"
+      },
+      "steps": {
+        "en": [
+          "Confirm the reported graphics outside safe area condition and identify every affected asset or task.",
+          "Overlay the destination action and title-safe guides on every required aspect.",
+          "Pause or quarantine affected outputs so the problem cannot propagate to another production stage.",
+          "Reposition or reflow graphics and verify long localized strings.",
+          "Record the owner, evidence, decision, version and completion time in the production log."
+        ],
+        "ru": [
+          "Подтвердите проблему «графика вне безопасной зоны» и определите все затронутые материалы или задачи.",
+          "Наложите зоны action/title safe площадки на каждое требуемое соотношение сторон.",
+          "Приостановите или изолируйте затронутые результаты, чтобы проблема не перешла на следующий этап.",
+          "Переместите или переверстайте графику и проверьте длинные локализованные строки.",
+          "Запишите владельца, доказательство, решение, версию и время завершения в производственный журнал."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "field-order-checklist",
+      "title": {
+        "en": "Field-order artefacts QC checklist",
+        "ru": "Чек-лист QC: Артефакты порядка полей"
+      },
+      "area": {
+        "en": "picture",
+        "ru": "изображение"
+      },
+      "steps": {
+        "en": [
+          "Confirm the reported field-order artefacts condition and identify every affected asset or task.",
+          "Step through motion and inspect declared versus actual field dominance.",
+          "Pause or quarantine affected outputs so the problem cannot propagate to another production stage.",
+          "Correct field interpretation before one controlled deinterlace or re-encode.",
+          "Record the owner, evidence, decision, version and completion time in the production log."
+        ],
+        "ru": [
+          "Подтвердите проблему «артефакты порядка полей» и определите все затронутые материалы или задачи.",
+          "Просмотрите движение покадрово и сравните заявленный и фактический порядок полей.",
+          "Приостановите или изолируйте затронутые результаты, чтобы проблема не перешла на следующий этап.",
+          "Исправьте трактовку полей до одного контролируемого деинтерлейса или перекодирования.",
+          "Запишите владельца, доказательство, решение, версию и время завершения в производственный журнал."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "gamma-shift-checklist",
+      "title": {
+        "en": "Gamma shift after export QC checklist",
+        "ru": "Чек-лист QC: Сдвиг гаммы после экспорта"
+      },
+      "area": {
+        "en": "color",
+        "ru": "цвет"
+      },
+      "steps": {
+        "en": [
+          "Confirm the reported gamma shift after export condition and identify every affected asset or task.",
+          "Compare managed reference frames through the exact export and playback chain.",
+          "Pause or quarantine affected outputs so the problem cannot propagate to another production stage.",
+          "Align transfer metadata and transforms, then verify pixels and display behavior separately.",
+          "Record the owner, evidence, decision, version and completion time in the production log."
+        ],
+        "ru": [
+          "Подтвердите проблему «сдвиг гаммы после экспорта» и определите все затронутые материалы или задачи.",
+          "Сравните эталонные кадры через точную цепочку экспорта и воспроизведения.",
+          "Приостановите или изолируйте затронутые результаты, чтобы проблема не перешла на следующий этап.",
+          "Согласуйте метаданные и преобразования, затем отдельно проверьте пиксели и отображение.",
+          "Запишите владельца, доказательство, решение, версию и время завершения в производственный журнал."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "vfx-handles-checklist",
+      "title": {
+        "en": "VFX handles too short QC checklist",
+        "ru": "Чек-лист QC: Недостаточные монтажные запасы VFX"
+      },
+      "area": {
+        "en": "vfx",
+        "ru": "VFX"
+      },
+      "steps": {
+        "en": [
+          "Confirm the reported vfx handles too short condition and identify every affected asset or task.",
+          "Compare requested handles with transitions, retimes, stabilization and editorial alternatives.",
+          "Pause or quarantine affected outputs so the problem cannot propagate to another production stage.",
+          "Repull from source with sufficient verified handles and updated frame ranges.",
+          "Record the owner, evidence, decision, version and completion time in the production log."
+        ],
+        "ru": [
+          "Подтвердите проблему «недостаточные монтажные запасы vfx» и определите все затронутые материалы или задачи.",
+          "Сверьте запасы с переходами, ретаймами, стабилизацией и монтажными вариантами.",
+          "Приостановите или изолируйте затронутые результаты, чтобы проблема не перешла на следующий этап.",
+          "Повторно выгрузите исходник с достаточными запасами и новыми диапазонами кадров.",
+          "Запишите владельца, доказательство, решение, версию и время завершения в производственный журнал."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "clean-plate-checklist",
+      "title": {
+        "en": "Clean plate missing QC checklist",
+        "ru": "Чек-лист QC: Нет чистого плейта"
+      },
+      "area": {
+        "en": "vfx",
+        "ru": "VFX"
+      },
+      "steps": {
+        "en": [
+          "Confirm the reported clean plate missing condition and identify every affected asset or task.",
+          "Check camera reports and takes for a matching lens, move, exposure and lighting state.",
+          "Pause or quarantine affected outputs so the problem cannot propagate to another production stage.",
+          "Use an approved alternate plate or schedule a controlled reconstruction with provenance.",
+          "Record the owner, evidence, decision, version and completion time in the production log."
+        ],
+        "ru": [
+          "Подтвердите проблему «нет чистого плейта» и определите все затронутые материалы или задачи.",
+          "Проверьте отчёты и дубли на совпадение объектива, движения, экспозиции и света.",
+          "Приостановите или изолируйте затронутые результаты, чтобы проблема не перешла на следующий этап.",
+          "Используйте утверждённый альтернативный плейт либо контролируемую реконструкцию с происхождением.",
+          "Запишите владельца, доказательство, решение, версию и время завершения в производственный журнал."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "edl-reel-checklist",
+      "title": {
+        "en": "EDL reel-name mismatch QC checklist",
+        "ru": "Чек-лист QC: Несовпадение имён рулонов EDL"
+      },
+      "area": {
+        "en": "conform",
+        "ru": "конформ"
+      },
+      "steps": {
+        "en": [
+          "Confirm the reported edl reel-name mismatch condition and identify every affected asset or task.",
+          "Compare EDL reel identifiers with source metadata and the ingest naming map.",
+          "Pause or quarantine affected outputs so the problem cannot propagate to another production stage.",
+          "Apply a reviewed translation map and test every ambiguous event manually.",
+          "Record the owner, evidence, decision, version and completion time in the production log."
+        ],
+        "ru": [
+          "Подтвердите проблему «несовпадение имён рулонов edl» и определите все затронутые материалы или задачи.",
+          "Сверьте рулоны EDL с метаданными исходников и картой именования при загрузке.",
+          "Приостановите или изолируйте затронутые результаты, чтобы проблема не перешла на следующий этап.",
+          "Примените проверенную карту соответствий и вручную проверьте неоднозначные события.",
+          "Запишите владельца, доказательство, решение, версию и время завершения в производственный журнал."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "aaf-offline-checklist",
+      "title": {
+        "en": "AAF opens with offline media QC checklist",
+        "ru": "Чек-лист QC: AAF открывается без медиа"
+      },
+      "area": {
+        "en": "conform",
+        "ru": "конформ"
+      },
+      "steps": {
+        "en": [
+          "Confirm the reported aaf opens with offline media condition and identify every affected asset or task.",
+          "Inspect embedded media, linked paths, consolidation range and plugin-dependent effects.",
+          "Pause or quarantine affected outputs so the problem cannot propagate to another production stage.",
+          "Re-export a consolidated turnover with handles and a reference picture.",
+          "Record the owner, evidence, decision, version and completion time in the production log."
+        ],
+        "ru": [
+          "Подтвердите проблему «aaf открывается без медиа» и определите все затронутые материалы или задачи.",
+          "Проверьте встроенные медиа, пути, диапазон консолидации и зависимые эффекты.",
+          "Приостановите или изолируйте затронутые результаты, чтобы проблема не перешла на следующий этап.",
+          "Повторно экспортируйте консолидированный пакет с запасами и референсным видео.",
+          "Запишите владельца, доказательство, решение, версию и время завершения в производственный журнал."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "xml-retime-checklist",
+      "title": {
+        "en": "XML retime interpreted incorrectly QC checklist",
+        "ru": "Чек-лист QC: Неверная трактовка ретайма XML"
+      },
+      "area": {
+        "en": "conform",
+        "ru": "конформ"
+      },
+      "steps": {
+        "en": [
+          "Confirm the reported xml retime interpreted incorrectly condition and identify every affected asset or task.",
+          "Compare speed curves, frame blending and optical-flow settings against reference video.",
+          "Pause or quarantine affected outputs so the problem cannot propagate to another production stage.",
+          "Bake unsupported retimes or rebuild them explicitly and record affected shots.",
+          "Record the owner, evidence, decision, version and completion time in the production log."
+        ],
+        "ru": [
+          "Подтвердите проблему «неверная трактовка ретайма xml» и определите все затронутые материалы или задачи.",
+          "Сверьте кривые скорости, смешивание кадров и optical flow с референсным видео.",
+          "Приостановите или изолируйте затронутые результаты, чтобы проблема не перешла на следующий этап.",
+          "Запеките неподдерживаемые ретаймы либо пересоберите их и запишите затронутые кадры.",
+          "Запишите владельца, доказательство, решение, версию и время завершения в производственный журнал."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "conform-version-checklist",
+      "title": {
+        "en": "Wrong cut conformed QC checklist",
+        "ru": "Чек-лист QC: Сконформирована неверная версия"
+      },
+      "area": {
+        "en": "conform",
+        "ru": "конформ"
+      },
+      "steps": {
+        "en": [
+          "Confirm the reported wrong cut conformed condition and identify every affected asset or task.",
+          "Match edit hash, duration, event count and reference burn-in to the approved lock.",
+          "Pause or quarantine affected outputs so the problem cannot propagate to another production stage.",
+          "Stop downstream work, restore the approved turnover and document superseded versions.",
+          "Record the owner, evidence, decision, version and completion time in the production log."
+        ],
+        "ru": [
+          "Подтвердите проблему «сконформирована неверная версия» и определите все затронутые материалы или задачи.",
+          "Сверьте хеш монтажа, длительность, число событий и burn-in с утверждённым lock.",
+          "Приостановите или изолируйте затронутые результаты, чтобы проблема не перешла на следующий этап.",
+          "Остановите дальнейшие работы, восстановите утверждённую передачу и пометьте старые версии.",
+          "Запишите владельца, доказательство, решение, версию и время завершения в производственный журнал."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "slate-mismatch-checklist",
+      "title": {
+        "en": "Slate metadata mismatch QC checklist",
+        "ru": "Чек-лист QC: Несовпадение данных хлопушки"
+      },
+      "area": {
+        "en": "capture",
+        "ru": "съёмка"
+      },
+      "steps": {
+        "en": [
+          "Confirm the reported slate metadata mismatch condition and identify every affected asset or task.",
+          "Compare visible slate, camera report, sound report and file metadata for the take.",
+          "Pause or quarantine affected outputs so the problem cannot propagate to another production stage.",
+          "Resolve with timecode and waveform evidence, then update the ingest log without erasing history.",
+          "Record the owner, evidence, decision, version and completion time in the production log."
+        ],
+        "ru": [
+          "Подтвердите проблему «несовпадение данных хлопушки» и определите все затронутые материалы или задачи.",
+          "Сверьте хлопушку в кадре, камерный и звуковой отчёты и метаданные дубля.",
+          "Приостановите или изолируйте затронутые результаты, чтобы проблема не перешла на следующий этап.",
+          "Разрешите расхождение по таймкоду и волне, обновив журнал без удаления истории.",
+          "Запишите владельца, доказательство, решение, версию и время завершения в производственный журнал."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "camera-report-checklist",
+      "title": {
+        "en": "Camera report incomplete QC checklist",
+        "ru": "Чек-лист QC: Неполный камерный отчёт"
+      },
+      "area": {
+        "en": "capture",
+        "ru": "съёмка"
+      },
+      "steps": {
+        "en": [
+          "Confirm the reported camera report incomplete condition and identify every affected asset or task.",
+          "Check each card and take for lens, filter, rate, color and notes required downstream.",
+          "Pause or quarantine affected outputs so the problem cannot propagate to another production stage.",
+          "Reconstruct only from source metadata and crew confirmation, marking inferred fields.",
+          "Record the owner, evidence, decision, version and completion time in the production log."
+        ],
+        "ru": [
+          "Подтвердите проблему «неполный камерный отчёт» и определите все затронутые материалы или задачи.",
+          "Проверьте для карт и дублей объектив, фильтр, частоту, цвет и необходимые заметки.",
+          "Приостановите или изолируйте затронутые результаты, чтобы проблема не перешла на следующий этап.",
+          "Восстановите данные только из метаданных и подтверждения группы, пометив выводы.",
+          "Запишите владельца, доказательство, решение, версию и время завершения в производственный журнал."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "sound-report-checklist",
+      "title": {
+        "en": "Sound report incomplete QC checklist",
+        "ru": "Чек-лист QC: Неполный звуковой отчёт"
+      },
+      "area": {
+        "en": "capture",
+        "ru": "съёмка"
+      },
+      "steps": {
+        "en": [
+          "Confirm the reported sound report incomplete condition and identify every affected asset or task.",
+          "Reconcile recorder files, track names, microphones, timecode and scene-take labels.",
+          "Pause or quarantine affected outputs so the problem cannot propagate to another production stage.",
+          "Create a corrected non-destructive report linked to original filenames.",
+          "Record the owner, evidence, decision, version and completion time in the production log."
+        ],
+        "ru": [
+          "Подтвердите проблему «неполный звуковой отчёт» и определите все затронутые материалы или задачи.",
+          "Сверьте файлы рекордера, дорожки, микрофоны, таймкод и номера сцен и дублей.",
+          "Приостановите или изолируйте затронутые результаты, чтобы проблема не перешла на следующий этап.",
+          "Создайте исправленный неизменяющий отчёт со ссылками на исходные имена файлов.",
+          "Запишите владельца, доказательство, решение, версию и время завершения в производственный журнал."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "qc-severity-checklist",
+      "title": {
+        "en": "QC severity classified incorrectly QC checklist",
+        "ru": "Чек-лист QC: Неверно определена серьёзность QC"
+      },
+      "area": {
+        "en": "quality",
+        "ru": "качество"
+      },
+      "steps": {
+        "en": [
+          "Confirm the reported qc severity classified incorrectly condition and identify every affected asset or task.",
+          "Apply the same documented impact, visibility and deliverability criteria to the finding.",
+          "Pause or quarantine affected outputs so the problem cannot propagate to another production stage.",
+          "Reclassify with evidence, owner and disposition while preserving the original observation.",
+          "Record the owner, evidence, decision, version and completion time in the production log."
+        ],
+        "ru": [
+          "Подтвердите проблему «неверно определена серьёзность qc» и определите все затронутые материалы или задачи.",
+          "Примените к замечанию единые критерии влияния, заметности и пригодности к поставке.",
+          "Приостановите или изолируйте затронутые результаты, чтобы проблема не перешла на следующий этап.",
+          "Переклассифицируйте с доказательством, владельцем и решением, сохранив исходное замечание.",
+          "Запишите владельца, доказательство, решение, версию и время завершения в производственный журнал."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "filename-collision-checklist",
+      "title": {
+        "en": "Delivery filename collision QC checklist",
+        "ru": "Чек-лист QC: Конфликт имён файлов поставки"
+      },
+      "area": {
+        "en": "delivery",
+        "ru": "поставка"
+      },
+      "steps": {
+        "en": [
+          "Confirm the reported delivery filename collision condition and identify every affected asset or task.",
+          "Expand filenames to normalized project, market, language, version and checksum identity.",
+          "Pause or quarantine affected outputs so the problem cannot propagate to another production stage.",
+          "Rename through the manifest, never in isolation, and regenerate dependent checksums.",
+          "Record the owner, evidence, decision, version and completion time in the production log."
+        ],
+        "ru": [
+          "Подтвердите проблему «конфликт имён файлов поставки» и определите все затронутые материалы или задачи.",
+          "Разберите имена по проекту, рынку, языку, версии и контрольной сумме.",
+          "Приостановите или изолируйте затронутые результаты, чтобы проблема не перешла на следующий этап.",
+          "Переименуйте через манифест и пересоздайте связанные контрольные суммы.",
+          "Запишите владельца, доказательство, решение, версию и время завершения в производственный журнал."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "version-label-checklist",
+      "title": {
+        "en": "Ambiguous version label QC checklist",
+        "ru": "Чек-лист QC: Неоднозначная маркировка версии"
+      },
+      "area": {
+        "en": "delivery",
+        "ru": "поставка"
+      },
+      "steps": {
+        "en": [
+          "Confirm the reported ambiguous version label condition and identify every affected asset or task.",
+          "Map every file label to an immutable approval, date, language and deliverable role.",
+          "Pause or quarantine affected outputs so the problem cannot propagate to another production stage.",
+          "Issue a deterministic version identifier and retire ambiguous aliases in the manifest.",
+          "Record the owner, evidence, decision, version and completion time in the production log."
+        ],
+        "ru": [
+          "Подтвердите проблему «неоднозначная маркировка версии» и определите все затронутые материалы или задачи.",
+          "Сопоставьте метку файла с неизменяемым согласованием, датой, языком и ролью.",
+          "Приостановите или изолируйте затронутые результаты, чтобы проблема не перешла на следующий этап.",
+          "Выпустите однозначный идентификатор и уберите неоднозначные псевдонимы из манифеста.",
+          "Запишите владельца, доказательство, решение, версию и время завершения в производственный журнал."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "manifest-gap-checklist",
+      "title": {
+        "en": "Delivery manifest incomplete QC checklist",
+        "ru": "Чек-лист QC: Неполный манифест поставки"
+      },
+      "area": {
+        "en": "delivery",
+        "ru": "поставка"
+      },
+      "steps": {
+        "en": [
+          "Confirm the reported delivery manifest incomplete condition and identify every affected asset or task.",
+          "Compare expected deliverables with file inventory, sizes, hashes, languages and dependencies.",
+          "Pause or quarantine affected outputs so the problem cannot propagate to another production stage.",
+          "Regenerate the manifest from verified files and resolve every missing or extra item.",
+          "Record the owner, evidence, decision, version and completion time in the production log."
+        ],
+        "ru": [
+          "Подтвердите проблему «неполный манифест поставки» и определите все затронутые материалы или задачи.",
+          "Сверьте ожидаемые материалы с файлами, размерами, хешами, языками и зависимостями.",
+          "Приостановите или изолируйте затронутые результаты, чтобы проблема не перешла на следующий этап.",
+          "Пересоздайте манифест из проверенных файлов и разберите каждый пропуск или лишний элемент.",
+          "Запишите владельца, доказательство, решение, версию и время завершения в производственный журнал."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "upload-incomplete-checklist",
+      "title": {
+        "en": "Upload completed incompletely QC checklist",
+        "ru": "Чек-лист QC: Загрузка завершилась не полностью"
+      },
+      "area": {
+        "en": "delivery",
+        "ru": "поставка"
+      },
+      "steps": {
+        "en": [
+          "Confirm the reported upload completed incompletely condition and identify every affected asset or task.",
+          "Compare remote byte counts and hashes with the signed local manifest.",
+          "Pause or quarantine affected outputs so the problem cannot propagate to another production stage.",
+          "Resume or repeat only failed objects, then verify the entire remote set.",
+          "Record the owner, evidence, decision, version and completion time in the production log."
+        ],
+        "ru": [
+          "Подтвердите проблему «загрузка завершилась не полностью» и определите все затронутые материалы или задачи.",
+          "Сверьте удалённые размеры и хеши с подписанным локальным манифестом.",
+          "Приостановите или изолируйте затронутые результаты, чтобы проблема не перешла на следующий этап.",
+          "Возобновите либо повторите только сбойные объекты, затем проверьте весь удалённый набор.",
+          "Запишите владельца, доказательство, решение, версию и время завершения в производственный журнал."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "restore-fail-checklist",
+      "title": {
+        "en": "Archive restore test fails QC checklist",
+        "ru": "Чек-лист QC: Не проходит тест восстановления архива"
+      },
+      "area": {
+        "en": "archive",
+        "ru": "архив"
+      },
+      "steps": {
+        "en": [
+          "Confirm the reported archive restore test fails condition and identify every affected asset or task.",
+          "Test catalog lookup, media retrieval, checksum and application readability from a clean environment.",
+          "Pause or quarantine affected outputs so the problem cannot propagate to another production stage.",
+          "Repair from another verified copy and repeat a documented end-to-end restore.",
+          "Record the owner, evidence, decision, version and completion time in the production log."
+        ],
+        "ru": [
+          "Подтвердите проблему «не проходит тест восстановления архива» и определите все затронутые материалы или задачи.",
+          "Проверьте каталог, извлечение, контрольную сумму и читаемость в чистой среде.",
+          "Приостановите или изолируйте затронутые результаты, чтобы проблема не перешла на следующий этап.",
+          "Восстановите из другой проверенной копии и повторите документированный полный тест.",
+          "Запишите владельца, доказательство, решение, версию и время завершения в производственный журнал."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "duplicate-assets-checklist",
+      "title": {
+        "en": "Duplicate assets diverge QC checklist",
+        "ru": "Чек-лист QC: Дубликаты материалов расходятся"
+      },
+      "area": {
+        "en": "media",
+        "ru": "медиа"
+      },
+      "steps": {
+        "en": [
+          "Confirm the reported duplicate assets diverge condition and identify every affected asset or task.",
+          "Group files by content hash and compare metadata, approval state and storage role.",
+          "Pause or quarantine affected outputs so the problem cannot propagate to another production stage.",
+          "Choose one governed master, preserve required replicas and quarantine conflicting derivatives.",
+          "Record the owner, evidence, decision, version and completion time in the production log."
+        ],
+        "ru": [
+          "Подтвердите проблему «дубликаты материалов расходятся» и определите все затронутые материалы или задачи.",
+          "Сгруппируйте файлы по хешу и сравните метаданные, согласование и роль хранения.",
+          "Приостановите или изолируйте затронутые результаты, чтобы проблема не перешла на следующий этап.",
+          "Выберите один управляемый мастер, сохраните нужные копии и изолируйте конфликтующие производные.",
+          "Запишите владельца, доказательство, решение, версию и время завершения в производственный журнал."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "approval-stale-checklist",
+      "title": {
+        "en": "Approval refers to stale version QC checklist",
+        "ru": "Чек-лист QC: Согласование относится к старой версии"
+      },
+      "area": {
+        "en": "governance",
+        "ru": "управление"
+      },
+      "steps": {
+        "en": [
+          "Confirm the reported approval refers to stale version condition and identify every affected asset or task.",
+          "Bind the approval event to an immutable file hash and compare it with the delivered asset.",
+          "Pause or quarantine affected outputs so the problem cannot propagate to another production stage.",
+          "Return the current version for approval and invalidate only the superseded decision.",
+          "Record the owner, evidence, decision, version and completion time in the production log."
+        ],
+        "ru": [
+          "Подтвердите проблему «согласование относится к старой версии» и определите все затронутые материалы или задачи.",
+          "Свяжите согласование с неизменяемым хешем и сравните его с поставляемым файлом.",
+          "Приостановите или изолируйте затронутые результаты, чтобы проблема не перешла на следующий этап.",
+          "Отправьте текущую версию на согласование и аннулируйте только устаревшее решение.",
+          "Запишите владельца, доказательство, решение, версию и время завершения в производственный журнал."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "localization-source-change-checklist",
+      "title": {
+        "en": "Source changes after localization QC checklist",
+        "ru": "Чек-лист QC: Исходник изменён после локализации"
+      },
+      "area": {
+        "en": "localization",
+        "ru": "локализация"
+      },
+      "steps": {
+        "en": [
+          "Confirm the reported source changes after localization condition and identify every affected asset or task.",
+          "Diff dialogue, graphics, timings and glossary terms between localized and current source.",
+          "Pause or quarantine affected outputs so the problem cannot propagate to another production stage.",
+          "Create a delta package and update only affected cues, graphics and approvals.",
+          "Record the owner, evidence, decision, version and completion time in the production log."
+        ],
+        "ru": [
+          "Подтвердите проблему «исходник изменён после локализации» и определите все затронутые материалы или задачи.",
+          "Сравните диалоги, графику, тайминги и термины локализованной и текущей версии.",
+          "Приостановите или изолируйте затронутые результаты, чтобы проблема не перешла на следующий этап.",
+          "Создайте пакет изменений и обновите только затронутые реплики, графику и согласования.",
+          "Запишите владельца, доказательство, решение, версию и время завершения в производственный журнал."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "accessibility-track-checklist",
+      "title": {
+        "en": "Accessibility track missing QC checklist",
+        "ru": "Чек-лист QC: Нет дорожки доступности"
+      },
+      "area": {
+        "en": "accessibility",
+        "ru": "доступность"
+      },
+      "steps": {
+        "en": [
+          "Confirm the reported accessibility track missing condition and identify every affected asset or task.",
+          "Compare required captions, SDH, audio description and transcripts with the delivery matrix.",
+          "Pause or quarantine affected outputs so the problem cannot propagate to another production stage.",
+          "Produce or explicitly waive the missing track through the accountable approval path.",
+          "Record the owner, evidence, decision, version and completion time in the production log."
+        ],
+        "ru": [
+          "Подтвердите проблему «нет дорожки доступности» и определите все затронутые материалы или задачи.",
+          "Сверьте требуемые субтитры, SDH, тифлокомментарий и транскрипты с матрицей поставки.",
+          "Приостановите или изолируйте затронутые результаты, чтобы проблема не перешла на следующий этап.",
+          "Создайте недостающую дорожку либо оформите явное исключение через ответственного.",
+          "Запишите владельца, доказательство, решение, версию и время завершения в производственный журнал."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "master-corruption-checklist",
+      "title": {
+        "en": "Master file corruption QC checklist",
+        "ru": "Чек-лист QC: Повреждение мастер-файла"
+      },
+      "area": {
+        "en": "archive",
+        "ru": "архив"
+      },
+      "steps": {
+        "en": [
+          "Confirm the reported master file corruption condition and identify every affected asset or task.",
+          "Verify container structure, decode every frame and sample, and compare the stored checksum.",
+          "Pause or quarantine affected outputs so the problem cannot propagate to another production stage.",
+          "Quarantine the file and restore the last verified master before generating new derivatives.",
+          "Record the owner, evidence, decision, version and completion time in the production log."
+        ],
+        "ru": [
+          "Подтвердите проблему «повреждение мастер-файла» и определите все затронутые материалы или задачи.",
+          "Проверьте структуру контейнера, декодируйте каждый кадр и сэмпл, сравните хеш.",
+          "Приостановите или изолируйте затронутые результаты, чтобы проблема не перешла на следующий этап.",
+          "Изолируйте файл и восстановите последний проверенный мастер до создания производных.",
+          "Запишите владельца, доказательство, решение, версию и время завершения в производственный журнал."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    }
+  ]
+}
