@@ -1,0 +1,17 @@
+{
+  "schemaVersion": "1.0.0",
+  "publisher": {
+    "name": "SHAR Production",
+    "website": "https://sharprod.com/"
+  },
+  "submittedAt": "2026-09-06T04:58:13.91Z",
+  "endpoint": "https://api.indexnow.org/indexnow",
+  "host": "shar-production-open-tools.pages.dev",
+  "keyLocation": "https://shar-production-open-tools.pages.dev/7a5a4e4e1a29ee349bde0526a88baa8c.txt",
+  "prefix": "https://shar-production-open-tools.pages.dev/entity-graph/",
+  "urlCount": 2,
+  "urlListSha256": "e72040b0f5a6c7df391e38dce1997dd6528e6e9d11c484251cd1bbe851546bb8",
+  "httpStatus": 200,
+  "responseBody": "",
+  "protocolMeaning": "SUBMISSION_ACCEPTED_INDEXING_NOT_GUARANTEED"
+}
