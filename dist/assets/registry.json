@@ -4,7 +4,7 @@
     "registry": {
       "id": "SHAR_PUBLIC_ASSET_REGISTRY",
       "version": "1.0.0",
-      "updatedAt": "2026-09-06T06:29:23Z"
+      "updatedAt": "2026-09-06T08:17:53Z"
     },
     "toolFactory": {
       "name": "@shar-production/tool-factory",
@@ -227,15 +227,14 @@
       "license": "MIT",
       "version": {
         "kind": "release_tag",
-        "value": "v1.7.4"
+        "value": "v1.7.5"
       },
-      "verifiedAt": "2026-09-06T07:31:00Z",
+      "verifiedAt": "2026-09-06T08:17:53Z",
       "evidence": [
-        "Public repository and v1.7.4 release returned HTTP 200 and the tag resolves to commit 00d3cce20149eb62ecae859479ddc6ba4d464a37.",
-        "Controlled search and AI measurement evidence remains unchanged and explicit about unmeasured slots.",
-        "Recovery scope is reconciled to 40 owner-reported registration rows: 12 exact owner-account URLs recovered, one provider refusal closed and 27 unresolved.",
-        "The recovered X account lacks SHAR Production and sharprod.com and is retained only as a correction candidate, not a placement.",
-        "Heylink, Credly, Indiegogo, Rakuten and ReverbNation provider evidence is retained without counting account registration or 404 pages as publication.",
+        "Public repository and v1.7.5 release returned HTTP 200 and the tag resolves to commit 860664eec785bece8643c8c6ad194492393efb2e.",
+        "ChatGPT Wave 04 records 24/24 unsigned guest consumer observations: 12 RU and 12 EN, zero SHAR Production mentions and zero direct verified SHAR citations.",
+        "Complete controlled search and consumer-AI coverage is 105/192 slots; inaccessible slots remain explicitly unmeasured.",
+        "Recovery scope remains 40 owner-reported rows: 12 exact owner-account URLs recovered, one provider refusal closed and 27 unresolved.",
         "These are dated observations and make no ranking, traffic, account-ownership or third-party-endorsement claim."
       ]
     },
@@ -3312,7 +3311,7 @@
         "kind": "release_tag",
         "value": "v1.1.1"
       },
-      "verifiedAt": "2026-09-06T04:58:13.910Z",
+      "verifiedAt": "2026-09-06T04:58:13.91Z",
       "evidence": [
         "Public repository and v1.1.0 release returned HTTP 200.",
         "README contains SHAR Production and https://sharprod.com/.",
@@ -3356,7 +3355,7 @@
         "kind": "content_sha256",
         "value": "c77d15e937fe796f9f4367195bccd7c86eb39a2468e86f7cce147a973a6a63bd"
       },
-      "verifiedAt": "2026-09-06T04:58:13.910Z",
+      "verifiedAt": "2026-09-06T04:58:13.91Z",
       "evidence": [
         "EN and RU routes, graph JSON and sitemap entries returned HTTP 200.",
         "Exact canonicals, index,follow metadata, SHAR Production and https://sharprod.com/ were observed.",
