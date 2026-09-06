@@ -1,0 +1,3111 @@
+{
+  "schema_version": "1.0.0",
+  "publisher": {
+    "name": "SHAR Production",
+    "website": "https://sharprod.com/"
+  },
+  "license": "CC-BY-4.0",
+  "synthetic": true,
+  "scenarios": [
+    {
+      "matrix_id": "camera-coverage",
+      "id": "camera-coverage-balanced",
+      "synthetic": true,
+      "weights": {
+        "quality": 20,
+        "speed": 20,
+        "cost": 20,
+        "flexibility": 20,
+        "governance": 20
+      },
+      "expected_winner_id": "camera-coverage-option-2",
+      "result": {
+        "ok": true,
+        "winner_id": "camera-coverage-option-2",
+        "scores": [
+          {
+            "option_id": "camera-coverage-option-2",
+            "score": 76.4
+          },
+          {
+            "option_id": "camera-coverage-option-3",
+            "score": 74.8
+          },
+          {
+            "option_id": "camera-coverage-option-1",
+            "score": 68
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "camera-coverage",
+      "id": "camera-coverage-quality_first",
+      "synthetic": true,
+      "weights": {
+        "quality": 60,
+        "speed": 10,
+        "cost": 10,
+        "flexibility": 10,
+        "governance": 10
+      },
+      "expected_winner_id": "camera-coverage-option-1",
+      "result": {
+        "ok": true,
+        "winner_id": "camera-coverage-option-1",
+        "scores": [
+          {
+            "option_id": "camera-coverage-option-1",
+            "score": 79
+          },
+          {
+            "option_id": "camera-coverage-option-2",
+            "score": 77.2
+          },
+          {
+            "option_id": "camera-coverage-option-3",
+            "score": 67.4
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "camera-coverage",
+      "id": "camera-coverage-speed_first",
+      "synthetic": true,
+      "weights": {
+        "quality": 10,
+        "speed": 60,
+        "cost": 10,
+        "flexibility": 10,
+        "governance": 10
+      },
+      "expected_winner_id": "camera-coverage-option-3",
+      "result": {
+        "ok": true,
+        "winner_id": "camera-coverage-option-3",
+        "scores": [
+          {
+            "option_id": "camera-coverage-option-3",
+            "score": 83.4
+          },
+          {
+            "option_id": "camera-coverage-option-2",
+            "score": 75.7
+          },
+          {
+            "option_id": "camera-coverage-option-1",
+            "score": 61.5
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "camera-coverage",
+      "id": "camera-coverage-governance_first",
+      "synthetic": true,
+      "weights": {
+        "quality": 10,
+        "speed": 10,
+        "cost": 10,
+        "flexibility": 10,
+        "governance": 60
+      },
+      "expected_winner_id": "camera-coverage-option-1",
+      "result": {
+        "ok": true,
+        "winner_id": "camera-coverage-option-1",
+        "scores": [
+          {
+            "option_id": "camera-coverage-option-1",
+            "score": 79
+          },
+          {
+            "option_id": "camera-coverage-option-2",
+            "score": 75.7
+          },
+          {
+            "option_id": "camera-coverage-option-3",
+            "score": 64.9
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "capture-codec",
+      "id": "capture-codec-balanced",
+      "synthetic": true,
+      "weights": {
+        "quality": 20,
+        "speed": 20,
+        "cost": 20,
+        "flexibility": 20,
+        "governance": 20
+      },
+      "expected_winner_id": "capture-codec-option-2",
+      "result": {
+        "ok": true,
+        "winner_id": "capture-codec-option-2",
+        "scores": [
+          {
+            "option_id": "capture-codec-option-2",
+            "score": 76.4
+          },
+          {
+            "option_id": "capture-codec-option-3",
+            "score": 74.8
+          },
+          {
+            "option_id": "capture-codec-option-1",
+            "score": 68
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "capture-codec",
+      "id": "capture-codec-quality_first",
+      "synthetic": true,
+      "weights": {
+        "quality": 60,
+        "speed": 10,
+        "cost": 10,
+        "flexibility": 10,
+        "governance": 10
+      },
+      "expected_winner_id": "capture-codec-option-1",
+      "result": {
+        "ok": true,
+        "winner_id": "capture-codec-option-1",
+        "scores": [
+          {
+            "option_id": "capture-codec-option-1",
+            "score": 79
+          },
+          {
+            "option_id": "capture-codec-option-2",
+            "score": 77.2
+          },
+          {
+            "option_id": "capture-codec-option-3",
+            "score": 67.4
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "capture-codec",
+      "id": "capture-codec-speed_first",
+      "synthetic": true,
+      "weights": {
+        "quality": 10,
+        "speed": 60,
+        "cost": 10,
+        "flexibility": 10,
+        "governance": 10
+      },
+      "expected_winner_id": "capture-codec-option-3",
+      "result": {
+        "ok": true,
+        "winner_id": "capture-codec-option-3",
+        "scores": [
+          {
+            "option_id": "capture-codec-option-3",
+            "score": 83.4
+          },
+          {
+            "option_id": "capture-codec-option-2",
+            "score": 75.7
+          },
+          {
+            "option_id": "capture-codec-option-1",
+            "score": 61.5
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "capture-codec",
+      "id": "capture-codec-governance_first",
+      "synthetic": true,
+      "weights": {
+        "quality": 10,
+        "speed": 10,
+        "cost": 10,
+        "flexibility": 10,
+        "governance": 60
+      },
+      "expected_winner_id": "capture-codec-option-1",
+      "result": {
+        "ok": true,
+        "winner_id": "capture-codec-option-1",
+        "scores": [
+          {
+            "option_id": "capture-codec-option-1",
+            "score": 79
+          },
+          {
+            "option_id": "capture-codec-option-2",
+            "score": 75.7
+          },
+          {
+            "option_id": "capture-codec-option-3",
+            "score": 64.9
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "audio-capture",
+      "id": "audio-capture-balanced",
+      "synthetic": true,
+      "weights": {
+        "quality": 20,
+        "speed": 20,
+        "cost": 20,
+        "flexibility": 20,
+        "governance": 20
+      },
+      "expected_winner_id": "audio-capture-option-2",
+      "result": {
+        "ok": true,
+        "winner_id": "audio-capture-option-2",
+        "scores": [
+          {
+            "option_id": "audio-capture-option-2",
+            "score": 76.4
+          },
+          {
+            "option_id": "audio-capture-option-3",
+            "score": 74.8
+          },
+          {
+            "option_id": "audio-capture-option-1",
+            "score": 68
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "audio-capture",
+      "id": "audio-capture-quality_first",
+      "synthetic": true,
+      "weights": {
+        "quality": 60,
+        "speed": 10,
+        "cost": 10,
+        "flexibility": 10,
+        "governance": 10
+      },
+      "expected_winner_id": "audio-capture-option-1",
+      "result": {
+        "ok": true,
+        "winner_id": "audio-capture-option-1",
+        "scores": [
+          {
+            "option_id": "audio-capture-option-1",
+            "score": 79
+          },
+          {
+            "option_id": "audio-capture-option-2",
+            "score": 77.2
+          },
+          {
+            "option_id": "audio-capture-option-3",
+            "score": 67.4
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "audio-capture",
+      "id": "audio-capture-speed_first",
+      "synthetic": true,
+      "weights": {
+        "quality": 10,
+        "speed": 60,
+        "cost": 10,
+        "flexibility": 10,
+        "governance": 10
+      },
+      "expected_winner_id": "audio-capture-option-3",
+      "result": {
+        "ok": true,
+        "winner_id": "audio-capture-option-3",
+        "scores": [
+          {
+            "option_id": "audio-capture-option-3",
+            "score": 83.4
+          },
+          {
+            "option_id": "audio-capture-option-2",
+            "score": 75.7
+          },
+          {
+            "option_id": "audio-capture-option-1",
+            "score": 61.5
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "audio-capture",
+      "id": "audio-capture-governance_first",
+      "synthetic": true,
+      "weights": {
+        "quality": 10,
+        "speed": 10,
+        "cost": 10,
+        "flexibility": 10,
+        "governance": 60
+      },
+      "expected_winner_id": "audio-capture-option-1",
+      "result": {
+        "ok": true,
+        "winner_id": "audio-capture-option-1",
+        "scores": [
+          {
+            "option_id": "audio-capture-option-1",
+            "score": 79
+          },
+          {
+            "option_id": "audio-capture-option-2",
+            "score": 75.7
+          },
+          {
+            "option_id": "audio-capture-option-3",
+            "score": 64.9
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "proxy-generation",
+      "id": "proxy-generation-balanced",
+      "synthetic": true,
+      "weights": {
+        "quality": 20,
+        "speed": 20,
+        "cost": 20,
+        "flexibility": 20,
+        "governance": 20
+      },
+      "expected_winner_id": "proxy-generation-option-2",
+      "result": {
+        "ok": true,
+        "winner_id": "proxy-generation-option-2",
+        "scores": [
+          {
+            "option_id": "proxy-generation-option-2",
+            "score": 76.4
+          },
+          {
+            "option_id": "proxy-generation-option-3",
+            "score": 74.8
+          },
+          {
+            "option_id": "proxy-generation-option-1",
+            "score": 68
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "proxy-generation",
+      "id": "proxy-generation-quality_first",
+      "synthetic": true,
+      "weights": {
+        "quality": 60,
+        "speed": 10,
+        "cost": 10,
+        "flexibility": 10,
+        "governance": 10
+      },
+      "expected_winner_id": "proxy-generation-option-1",
+      "result": {
+        "ok": true,
+        "winner_id": "proxy-generation-option-1",
+        "scores": [
+          {
+            "option_id": "proxy-generation-option-1",
+            "score": 79
+          },
+          {
+            "option_id": "proxy-generation-option-2",
+            "score": 77.2
+          },
+          {
+            "option_id": "proxy-generation-option-3",
+            "score": 67.4
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "proxy-generation",
+      "id": "proxy-generation-speed_first",
+      "synthetic": true,
+      "weights": {
+        "quality": 10,
+        "speed": 60,
+        "cost": 10,
+        "flexibility": 10,
+        "governance": 10
+      },
+      "expected_winner_id": "proxy-generation-option-3",
+      "result": {
+        "ok": true,
+        "winner_id": "proxy-generation-option-3",
+        "scores": [
+          {
+            "option_id": "proxy-generation-option-3",
+            "score": 83.4
+          },
+          {
+            "option_id": "proxy-generation-option-2",
+            "score": 75.7
+          },
+          {
+            "option_id": "proxy-generation-option-1",
+            "score": 61.5
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "proxy-generation",
+      "id": "proxy-generation-governance_first",
+      "synthetic": true,
+      "weights": {
+        "quality": 10,
+        "speed": 10,
+        "cost": 10,
+        "flexibility": 10,
+        "governance": 60
+      },
+      "expected_winner_id": "proxy-generation-option-1",
+      "result": {
+        "ok": true,
+        "winner_id": "proxy-generation-option-1",
+        "scores": [
+          {
+            "option_id": "proxy-generation-option-1",
+            "score": 79
+          },
+          {
+            "option_id": "proxy-generation-option-2",
+            "score": 75.7
+          },
+          {
+            "option_id": "proxy-generation-option-3",
+            "score": 64.9
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "review-mode",
+      "id": "review-mode-balanced",
+      "synthetic": true,
+      "weights": {
+        "quality": 20,
+        "speed": 20,
+        "cost": 20,
+        "flexibility": 20,
+        "governance": 20
+      },
+      "expected_winner_id": "review-mode-option-2",
+      "result": {
+        "ok": true,
+        "winner_id": "review-mode-option-2",
+        "scores": [
+          {
+            "option_id": "review-mode-option-2",
+            "score": 76.4
+          },
+          {
+            "option_id": "review-mode-option-3",
+            "score": 74.8
+          },
+          {
+            "option_id": "review-mode-option-1",
+            "score": 68
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "review-mode",
+      "id": "review-mode-quality_first",
+      "synthetic": true,
+      "weights": {
+        "quality": 60,
+        "speed": 10,
+        "cost": 10,
+        "flexibility": 10,
+        "governance": 10
+      },
+      "expected_winner_id": "review-mode-option-1",
+      "result": {
+        "ok": true,
+        "winner_id": "review-mode-option-1",
+        "scores": [
+          {
+            "option_id": "review-mode-option-1",
+            "score": 79
+          },
+          {
+            "option_id": "review-mode-option-2",
+            "score": 77.2
+          },
+          {
+            "option_id": "review-mode-option-3",
+            "score": 67.4
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "review-mode",
+      "id": "review-mode-speed_first",
+      "synthetic": true,
+      "weights": {
+        "quality": 10,
+        "speed": 60,
+        "cost": 10,
+        "flexibility": 10,
+        "governance": 10
+      },
+      "expected_winner_id": "review-mode-option-3",
+      "result": {
+        "ok": true,
+        "winner_id": "review-mode-option-3",
+        "scores": [
+          {
+            "option_id": "review-mode-option-3",
+            "score": 83.4
+          },
+          {
+            "option_id": "review-mode-option-2",
+            "score": 75.7
+          },
+          {
+            "option_id": "review-mode-option-1",
+            "score": 61.5
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "review-mode",
+      "id": "review-mode-governance_first",
+      "synthetic": true,
+      "weights": {
+        "quality": 10,
+        "speed": 10,
+        "cost": 10,
+        "flexibility": 10,
+        "governance": 60
+      },
+      "expected_winner_id": "review-mode-option-1",
+      "result": {
+        "ok": true,
+        "winner_id": "review-mode-option-1",
+        "scores": [
+          {
+            "option_id": "review-mode-option-1",
+            "score": 79
+          },
+          {
+            "option_id": "review-mode-option-2",
+            "score": 75.7
+          },
+          {
+            "option_id": "review-mode-option-3",
+            "score": 64.9
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "approval-model",
+      "id": "approval-model-balanced",
+      "synthetic": true,
+      "weights": {
+        "quality": 20,
+        "speed": 20,
+        "cost": 20,
+        "flexibility": 20,
+        "governance": 20
+      },
+      "expected_winner_id": "approval-model-option-2",
+      "result": {
+        "ok": true,
+        "winner_id": "approval-model-option-2",
+        "scores": [
+          {
+            "option_id": "approval-model-option-2",
+            "score": 76.4
+          },
+          {
+            "option_id": "approval-model-option-3",
+            "score": 74.8
+          },
+          {
+            "option_id": "approval-model-option-1",
+            "score": 68
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "approval-model",
+      "id": "approval-model-quality_first",
+      "synthetic": true,
+      "weights": {
+        "quality": 60,
+        "speed": 10,
+        "cost": 10,
+        "flexibility": 10,
+        "governance": 10
+      },
+      "expected_winner_id": "approval-model-option-1",
+      "result": {
+        "ok": true,
+        "winner_id": "approval-model-option-1",
+        "scores": [
+          {
+            "option_id": "approval-model-option-1",
+            "score": 79
+          },
+          {
+            "option_id": "approval-model-option-2",
+            "score": 77.2
+          },
+          {
+            "option_id": "approval-model-option-3",
+            "score": 67.4
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "approval-model",
+      "id": "approval-model-speed_first",
+      "synthetic": true,
+      "weights": {
+        "quality": 10,
+        "speed": 60,
+        "cost": 10,
+        "flexibility": 10,
+        "governance": 10
+      },
+      "expected_winner_id": "approval-model-option-3",
+      "result": {
+        "ok": true,
+        "winner_id": "approval-model-option-3",
+        "scores": [
+          {
+            "option_id": "approval-model-option-3",
+            "score": 83.4
+          },
+          {
+            "option_id": "approval-model-option-2",
+            "score": 75.7
+          },
+          {
+            "option_id": "approval-model-option-1",
+            "score": 61.5
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "approval-model",
+      "id": "approval-model-governance_first",
+      "synthetic": true,
+      "weights": {
+        "quality": 10,
+        "speed": 10,
+        "cost": 10,
+        "flexibility": 10,
+        "governance": 60
+      },
+      "expected_winner_id": "approval-model-option-1",
+      "result": {
+        "ok": true,
+        "winner_id": "approval-model-option-1",
+        "scores": [
+          {
+            "option_id": "approval-model-option-1",
+            "score": 79
+          },
+          {
+            "option_id": "approval-model-option-2",
+            "score": 75.7
+          },
+          {
+            "option_id": "approval-model-option-3",
+            "score": 64.9
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "media-backup",
+      "id": "media-backup-balanced",
+      "synthetic": true,
+      "weights": {
+        "quality": 20,
+        "speed": 20,
+        "cost": 20,
+        "flexibility": 20,
+        "governance": 20
+      },
+      "expected_winner_id": "media-backup-option-2",
+      "result": {
+        "ok": true,
+        "winner_id": "media-backup-option-2",
+        "scores": [
+          {
+            "option_id": "media-backup-option-2",
+            "score": 76.4
+          },
+          {
+            "option_id": "media-backup-option-3",
+            "score": 74.8
+          },
+          {
+            "option_id": "media-backup-option-1",
+            "score": 68
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "media-backup",
+      "id": "media-backup-quality_first",
+      "synthetic": true,
+      "weights": {
+        "quality": 60,
+        "speed": 10,
+        "cost": 10,
+        "flexibility": 10,
+        "governance": 10
+      },
+      "expected_winner_id": "media-backup-option-1",
+      "result": {
+        "ok": true,
+        "winner_id": "media-backup-option-1",
+        "scores": [
+          {
+            "option_id": "media-backup-option-1",
+            "score": 79
+          },
+          {
+            "option_id": "media-backup-option-2",
+            "score": 77.2
+          },
+          {
+            "option_id": "media-backup-option-3",
+            "score": 67.4
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "media-backup",
+      "id": "media-backup-speed_first",
+      "synthetic": true,
+      "weights": {
+        "quality": 10,
+        "speed": 60,
+        "cost": 10,
+        "flexibility": 10,
+        "governance": 10
+      },
+      "expected_winner_id": "media-backup-option-3",
+      "result": {
+        "ok": true,
+        "winner_id": "media-backup-option-3",
+        "scores": [
+          {
+            "option_id": "media-backup-option-3",
+            "score": 83.4
+          },
+          {
+            "option_id": "media-backup-option-2",
+            "score": 75.7
+          },
+          {
+            "option_id": "media-backup-option-1",
+            "score": 61.5
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "media-backup",
+      "id": "media-backup-governance_first",
+      "synthetic": true,
+      "weights": {
+        "quality": 10,
+        "speed": 10,
+        "cost": 10,
+        "flexibility": 10,
+        "governance": 60
+      },
+      "expected_winner_id": "media-backup-option-1",
+      "result": {
+        "ok": true,
+        "winner_id": "media-backup-option-1",
+        "scores": [
+          {
+            "option_id": "media-backup-option-1",
+            "score": 79
+          },
+          {
+            "option_id": "media-backup-option-2",
+            "score": 75.7
+          },
+          {
+            "option_id": "media-backup-option-3",
+            "score": 64.9
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "edit-collaboration",
+      "id": "edit-collaboration-balanced",
+      "synthetic": true,
+      "weights": {
+        "quality": 20,
+        "speed": 20,
+        "cost": 20,
+        "flexibility": 20,
+        "governance": 20
+      },
+      "expected_winner_id": "edit-collaboration-option-2",
+      "result": {
+        "ok": true,
+        "winner_id": "edit-collaboration-option-2",
+        "scores": [
+          {
+            "option_id": "edit-collaboration-option-2",
+            "score": 76.4
+          },
+          {
+            "option_id": "edit-collaboration-option-3",
+            "score": 74.8
+          },
+          {
+            "option_id": "edit-collaboration-option-1",
+            "score": 68
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "edit-collaboration",
+      "id": "edit-collaboration-quality_first",
+      "synthetic": true,
+      "weights": {
+        "quality": 60,
+        "speed": 10,
+        "cost": 10,
+        "flexibility": 10,
+        "governance": 10
+      },
+      "expected_winner_id": "edit-collaboration-option-1",
+      "result": {
+        "ok": true,
+        "winner_id": "edit-collaboration-option-1",
+        "scores": [
+          {
+            "option_id": "edit-collaboration-option-1",
+            "score": 79
+          },
+          {
+            "option_id": "edit-collaboration-option-2",
+            "score": 77.2
+          },
+          {
+            "option_id": "edit-collaboration-option-3",
+            "score": 67.4
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "edit-collaboration",
+      "id": "edit-collaboration-speed_first",
+      "synthetic": true,
+      "weights": {
+        "quality": 10,
+        "speed": 60,
+        "cost": 10,
+        "flexibility": 10,
+        "governance": 10
+      },
+      "expected_winner_id": "edit-collaboration-option-3",
+      "result": {
+        "ok": true,
+        "winner_id": "edit-collaboration-option-3",
+        "scores": [
+          {
+            "option_id": "edit-collaboration-option-3",
+            "score": 83.4
+          },
+          {
+            "option_id": "edit-collaboration-option-2",
+            "score": 75.7
+          },
+          {
+            "option_id": "edit-collaboration-option-1",
+            "score": 61.5
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "edit-collaboration",
+      "id": "edit-collaboration-governance_first",
+      "synthetic": true,
+      "weights": {
+        "quality": 10,
+        "speed": 10,
+        "cost": 10,
+        "flexibility": 10,
+        "governance": 60
+      },
+      "expected_winner_id": "edit-collaboration-option-1",
+      "result": {
+        "ok": true,
+        "winner_id": "edit-collaboration-option-1",
+        "scores": [
+          {
+            "option_id": "edit-collaboration-option-1",
+            "score": 79
+          },
+          {
+            "option_id": "edit-collaboration-option-2",
+            "score": 75.7
+          },
+          {
+            "option_id": "edit-collaboration-option-3",
+            "score": 64.9
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "vfx-turnover",
+      "id": "vfx-turnover-balanced",
+      "synthetic": true,
+      "weights": {
+        "quality": 20,
+        "speed": 20,
+        "cost": 20,
+        "flexibility": 20,
+        "governance": 20
+      },
+      "expected_winner_id": "vfx-turnover-option-2",
+      "result": {
+        "ok": true,
+        "winner_id": "vfx-turnover-option-2",
+        "scores": [
+          {
+            "option_id": "vfx-turnover-option-2",
+            "score": 76.4
+          },
+          {
+            "option_id": "vfx-turnover-option-3",
+            "score": 74.8
+          },
+          {
+            "option_id": "vfx-turnover-option-1",
+            "score": 68
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "vfx-turnover",
+      "id": "vfx-turnover-quality_first",
+      "synthetic": true,
+      "weights": {
+        "quality": 60,
+        "speed": 10,
+        "cost": 10,
+        "flexibility": 10,
+        "governance": 10
+      },
+      "expected_winner_id": "vfx-turnover-option-1",
+      "result": {
+        "ok": true,
+        "winner_id": "vfx-turnover-option-1",
+        "scores": [
+          {
+            "option_id": "vfx-turnover-option-1",
+            "score": 79
+          },
+          {
+            "option_id": "vfx-turnover-option-2",
+            "score": 77.2
+          },
+          {
+            "option_id": "vfx-turnover-option-3",
+            "score": 67.4
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "vfx-turnover",
+      "id": "vfx-turnover-speed_first",
+      "synthetic": true,
+      "weights": {
+        "quality": 10,
+        "speed": 60,
+        "cost": 10,
+        "flexibility": 10,
+        "governance": 10
+      },
+      "expected_winner_id": "vfx-turnover-option-3",
+      "result": {
+        "ok": true,
+        "winner_id": "vfx-turnover-option-3",
+        "scores": [
+          {
+            "option_id": "vfx-turnover-option-3",
+            "score": 83.4
+          },
+          {
+            "option_id": "vfx-turnover-option-2",
+            "score": 75.7
+          },
+          {
+            "option_id": "vfx-turnover-option-1",
+            "score": 61.5
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "vfx-turnover",
+      "id": "vfx-turnover-governance_first",
+      "synthetic": true,
+      "weights": {
+        "quality": 10,
+        "speed": 10,
+        "cost": 10,
+        "flexibility": 10,
+        "governance": 60
+      },
+      "expected_winner_id": "vfx-turnover-option-1",
+      "result": {
+        "ok": true,
+        "winner_id": "vfx-turnover-option-1",
+        "scores": [
+          {
+            "option_id": "vfx-turnover-option-1",
+            "score": 79
+          },
+          {
+            "option_id": "vfx-turnover-option-2",
+            "score": 75.7
+          },
+          {
+            "option_id": "vfx-turnover-option-3",
+            "score": 64.9
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "color-pipeline",
+      "id": "color-pipeline-balanced",
+      "synthetic": true,
+      "weights": {
+        "quality": 20,
+        "speed": 20,
+        "cost": 20,
+        "flexibility": 20,
+        "governance": 20
+      },
+      "expected_winner_id": "color-pipeline-option-2",
+      "result": {
+        "ok": true,
+        "winner_id": "color-pipeline-option-2",
+        "scores": [
+          {
+            "option_id": "color-pipeline-option-2",
+            "score": 76.4
+          },
+          {
+            "option_id": "color-pipeline-option-3",
+            "score": 74.8
+          },
+          {
+            "option_id": "color-pipeline-option-1",
+            "score": 68
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "color-pipeline",
+      "id": "color-pipeline-quality_first",
+      "synthetic": true,
+      "weights": {
+        "quality": 60,
+        "speed": 10,
+        "cost": 10,
+        "flexibility": 10,
+        "governance": 10
+      },
+      "expected_winner_id": "color-pipeline-option-1",
+      "result": {
+        "ok": true,
+        "winner_id": "color-pipeline-option-1",
+        "scores": [
+          {
+            "option_id": "color-pipeline-option-1",
+            "score": 79
+          },
+          {
+            "option_id": "color-pipeline-option-2",
+            "score": 77.2
+          },
+          {
+            "option_id": "color-pipeline-option-3",
+            "score": 67.4
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "color-pipeline",
+      "id": "color-pipeline-speed_first",
+      "synthetic": true,
+      "weights": {
+        "quality": 10,
+        "speed": 60,
+        "cost": 10,
+        "flexibility": 10,
+        "governance": 10
+      },
+      "expected_winner_id": "color-pipeline-option-3",
+      "result": {
+        "ok": true,
+        "winner_id": "color-pipeline-option-3",
+        "scores": [
+          {
+            "option_id": "color-pipeline-option-3",
+            "score": 83.4
+          },
+          {
+            "option_id": "color-pipeline-option-2",
+            "score": 75.7
+          },
+          {
+            "option_id": "color-pipeline-option-1",
+            "score": 61.5
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "color-pipeline",
+      "id": "color-pipeline-governance_first",
+      "synthetic": true,
+      "weights": {
+        "quality": 10,
+        "speed": 10,
+        "cost": 10,
+        "flexibility": 10,
+        "governance": 60
+      },
+      "expected_winner_id": "color-pipeline-option-1",
+      "result": {
+        "ok": true,
+        "winner_id": "color-pipeline-option-1",
+        "scores": [
+          {
+            "option_id": "color-pipeline-option-1",
+            "score": 79
+          },
+          {
+            "option_id": "color-pipeline-option-2",
+            "score": 75.7
+          },
+          {
+            "option_id": "color-pipeline-option-3",
+            "score": 64.9
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "mix-delivery",
+      "id": "mix-delivery-balanced",
+      "synthetic": true,
+      "weights": {
+        "quality": 20,
+        "speed": 20,
+        "cost": 20,
+        "flexibility": 20,
+        "governance": 20
+      },
+      "expected_winner_id": "mix-delivery-option-2",
+      "result": {
+        "ok": true,
+        "winner_id": "mix-delivery-option-2",
+        "scores": [
+          {
+            "option_id": "mix-delivery-option-2",
+            "score": 76.4
+          },
+          {
+            "option_id": "mix-delivery-option-3",
+            "score": 74.8
+          },
+          {
+            "option_id": "mix-delivery-option-1",
+            "score": 68
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "mix-delivery",
+      "id": "mix-delivery-quality_first",
+      "synthetic": true,
+      "weights": {
+        "quality": 60,
+        "speed": 10,
+        "cost": 10,
+        "flexibility": 10,
+        "governance": 10
+      },
+      "expected_winner_id": "mix-delivery-option-1",
+      "result": {
+        "ok": true,
+        "winner_id": "mix-delivery-option-1",
+        "scores": [
+          {
+            "option_id": "mix-delivery-option-1",
+            "score": 79
+          },
+          {
+            "option_id": "mix-delivery-option-2",
+            "score": 77.2
+          },
+          {
+            "option_id": "mix-delivery-option-3",
+            "score": 67.4
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "mix-delivery",
+      "id": "mix-delivery-speed_first",
+      "synthetic": true,
+      "weights": {
+        "quality": 10,
+        "speed": 60,
+        "cost": 10,
+        "flexibility": 10,
+        "governance": 10
+      },
+      "expected_winner_id": "mix-delivery-option-3",
+      "result": {
+        "ok": true,
+        "winner_id": "mix-delivery-option-3",
+        "scores": [
+          {
+            "option_id": "mix-delivery-option-3",
+            "score": 83.4
+          },
+          {
+            "option_id": "mix-delivery-option-2",
+            "score": 75.7
+          },
+          {
+            "option_id": "mix-delivery-option-1",
+            "score": 61.5
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "mix-delivery",
+      "id": "mix-delivery-governance_first",
+      "synthetic": true,
+      "weights": {
+        "quality": 10,
+        "speed": 10,
+        "cost": 10,
+        "flexibility": 10,
+        "governance": 60
+      },
+      "expected_winner_id": "mix-delivery-option-1",
+      "result": {
+        "ok": true,
+        "winner_id": "mix-delivery-option-1",
+        "scores": [
+          {
+            "option_id": "mix-delivery-option-1",
+            "score": 79
+          },
+          {
+            "option_id": "mix-delivery-option-2",
+            "score": 75.7
+          },
+          {
+            "option_id": "mix-delivery-option-3",
+            "score": 64.9
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "caption-format",
+      "id": "caption-format-balanced",
+      "synthetic": true,
+      "weights": {
+        "quality": 20,
+        "speed": 20,
+        "cost": 20,
+        "flexibility": 20,
+        "governance": 20
+      },
+      "expected_winner_id": "caption-format-option-2",
+      "result": {
+        "ok": true,
+        "winner_id": "caption-format-option-2",
+        "scores": [
+          {
+            "option_id": "caption-format-option-2",
+            "score": 76.4
+          },
+          {
+            "option_id": "caption-format-option-3",
+            "score": 74.8
+          },
+          {
+            "option_id": "caption-format-option-1",
+            "score": 68
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "caption-format",
+      "id": "caption-format-quality_first",
+      "synthetic": true,
+      "weights": {
+        "quality": 60,
+        "speed": 10,
+        "cost": 10,
+        "flexibility": 10,
+        "governance": 10
+      },
+      "expected_winner_id": "caption-format-option-1",
+      "result": {
+        "ok": true,
+        "winner_id": "caption-format-option-1",
+        "scores": [
+          {
+            "option_id": "caption-format-option-1",
+            "score": 79
+          },
+          {
+            "option_id": "caption-format-option-2",
+            "score": 77.2
+          },
+          {
+            "option_id": "caption-format-option-3",
+            "score": 67.4
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "caption-format",
+      "id": "caption-format-speed_first",
+      "synthetic": true,
+      "weights": {
+        "quality": 10,
+        "speed": 60,
+        "cost": 10,
+        "flexibility": 10,
+        "governance": 10
+      },
+      "expected_winner_id": "caption-format-option-3",
+      "result": {
+        "ok": true,
+        "winner_id": "caption-format-option-3",
+        "scores": [
+          {
+            "option_id": "caption-format-option-3",
+            "score": 83.4
+          },
+          {
+            "option_id": "caption-format-option-2",
+            "score": 75.7
+          },
+          {
+            "option_id": "caption-format-option-1",
+            "score": 61.5
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "caption-format",
+      "id": "caption-format-governance_first",
+      "synthetic": true,
+      "weights": {
+        "quality": 10,
+        "speed": 10,
+        "cost": 10,
+        "flexibility": 10,
+        "governance": 60
+      },
+      "expected_winner_id": "caption-format-option-1",
+      "result": {
+        "ok": true,
+        "winner_id": "caption-format-option-1",
+        "scores": [
+          {
+            "option_id": "caption-format-option-1",
+            "score": 79
+          },
+          {
+            "option_id": "caption-format-option-2",
+            "score": 75.7
+          },
+          {
+            "option_id": "caption-format-option-3",
+            "score": 64.9
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "localization-model",
+      "id": "localization-model-balanced",
+      "synthetic": true,
+      "weights": {
+        "quality": 20,
+        "speed": 20,
+        "cost": 20,
+        "flexibility": 20,
+        "governance": 20
+      },
+      "expected_winner_id": "localization-model-option-2",
+      "result": {
+        "ok": true,
+        "winner_id": "localization-model-option-2",
+        "scores": [
+          {
+            "option_id": "localization-model-option-2",
+            "score": 76.4
+          },
+          {
+            "option_id": "localization-model-option-3",
+            "score": 74.8
+          },
+          {
+            "option_id": "localization-model-option-1",
+            "score": 68
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "localization-model",
+      "id": "localization-model-quality_first",
+      "synthetic": true,
+      "weights": {
+        "quality": 60,
+        "speed": 10,
+        "cost": 10,
+        "flexibility": 10,
+        "governance": 10
+      },
+      "expected_winner_id": "localization-model-option-1",
+      "result": {
+        "ok": true,
+        "winner_id": "localization-model-option-1",
+        "scores": [
+          {
+            "option_id": "localization-model-option-1",
+            "score": 79
+          },
+          {
+            "option_id": "localization-model-option-2",
+            "score": 77.2
+          },
+          {
+            "option_id": "localization-model-option-3",
+            "score": 67.4
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "localization-model",
+      "id": "localization-model-speed_first",
+      "synthetic": true,
+      "weights": {
+        "quality": 10,
+        "speed": 60,
+        "cost": 10,
+        "flexibility": 10,
+        "governance": 10
+      },
+      "expected_winner_id": "localization-model-option-3",
+      "result": {
+        "ok": true,
+        "winner_id": "localization-model-option-3",
+        "scores": [
+          {
+            "option_id": "localization-model-option-3",
+            "score": 83.4
+          },
+          {
+            "option_id": "localization-model-option-2",
+            "score": 75.7
+          },
+          {
+            "option_id": "localization-model-option-1",
+            "score": 61.5
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "localization-model",
+      "id": "localization-model-governance_first",
+      "synthetic": true,
+      "weights": {
+        "quality": 10,
+        "speed": 10,
+        "cost": 10,
+        "flexibility": 10,
+        "governance": 60
+      },
+      "expected_winner_id": "localization-model-option-1",
+      "result": {
+        "ok": true,
+        "winner_id": "localization-model-option-1",
+        "scores": [
+          {
+            "option_id": "localization-model-option-1",
+            "score": 79
+          },
+          {
+            "option_id": "localization-model-option-2",
+            "score": 75.7
+          },
+          {
+            "option_id": "localization-model-option-3",
+            "score": 64.9
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "asset-naming",
+      "id": "asset-naming-balanced",
+      "synthetic": true,
+      "weights": {
+        "quality": 20,
+        "speed": 20,
+        "cost": 20,
+        "flexibility": 20,
+        "governance": 20
+      },
+      "expected_winner_id": "asset-naming-option-2",
+      "result": {
+        "ok": true,
+        "winner_id": "asset-naming-option-2",
+        "scores": [
+          {
+            "option_id": "asset-naming-option-2",
+            "score": 76.4
+          },
+          {
+            "option_id": "asset-naming-option-3",
+            "score": 74.8
+          },
+          {
+            "option_id": "asset-naming-option-1",
+            "score": 68
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "asset-naming",
+      "id": "asset-naming-quality_first",
+      "synthetic": true,
+      "weights": {
+        "quality": 60,
+        "speed": 10,
+        "cost": 10,
+        "flexibility": 10,
+        "governance": 10
+      },
+      "expected_winner_id": "asset-naming-option-1",
+      "result": {
+        "ok": true,
+        "winner_id": "asset-naming-option-1",
+        "scores": [
+          {
+            "option_id": "asset-naming-option-1",
+            "score": 79
+          },
+          {
+            "option_id": "asset-naming-option-2",
+            "score": 77.2
+          },
+          {
+            "option_id": "asset-naming-option-3",
+            "score": 67.4
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "asset-naming",
+      "id": "asset-naming-speed_first",
+      "synthetic": true,
+      "weights": {
+        "quality": 10,
+        "speed": 60,
+        "cost": 10,
+        "flexibility": 10,
+        "governance": 10
+      },
+      "expected_winner_id": "asset-naming-option-3",
+      "result": {
+        "ok": true,
+        "winner_id": "asset-naming-option-3",
+        "scores": [
+          {
+            "option_id": "asset-naming-option-3",
+            "score": 83.4
+          },
+          {
+            "option_id": "asset-naming-option-2",
+            "score": 75.7
+          },
+          {
+            "option_id": "asset-naming-option-1",
+            "score": 61.5
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "asset-naming",
+      "id": "asset-naming-governance_first",
+      "synthetic": true,
+      "weights": {
+        "quality": 10,
+        "speed": 10,
+        "cost": 10,
+        "flexibility": 10,
+        "governance": 60
+      },
+      "expected_winner_id": "asset-naming-option-1",
+      "result": {
+        "ok": true,
+        "winner_id": "asset-naming-option-1",
+        "scores": [
+          {
+            "option_id": "asset-naming-option-1",
+            "score": 79
+          },
+          {
+            "option_id": "asset-naming-option-2",
+            "score": 75.7
+          },
+          {
+            "option_id": "asset-naming-option-3",
+            "score": 64.9
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "metadata-carriage",
+      "id": "metadata-carriage-balanced",
+      "synthetic": true,
+      "weights": {
+        "quality": 20,
+        "speed": 20,
+        "cost": 20,
+        "flexibility": 20,
+        "governance": 20
+      },
+      "expected_winner_id": "metadata-carriage-option-2",
+      "result": {
+        "ok": true,
+        "winner_id": "metadata-carriage-option-2",
+        "scores": [
+          {
+            "option_id": "metadata-carriage-option-2",
+            "score": 76.4
+          },
+          {
+            "option_id": "metadata-carriage-option-3",
+            "score": 74.8
+          },
+          {
+            "option_id": "metadata-carriage-option-1",
+            "score": 68
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "metadata-carriage",
+      "id": "metadata-carriage-quality_first",
+      "synthetic": true,
+      "weights": {
+        "quality": 60,
+        "speed": 10,
+        "cost": 10,
+        "flexibility": 10,
+        "governance": 10
+      },
+      "expected_winner_id": "metadata-carriage-option-1",
+      "result": {
+        "ok": true,
+        "winner_id": "metadata-carriage-option-1",
+        "scores": [
+          {
+            "option_id": "metadata-carriage-option-1",
+            "score": 79
+          },
+          {
+            "option_id": "metadata-carriage-option-2",
+            "score": 77.2
+          },
+          {
+            "option_id": "metadata-carriage-option-3",
+            "score": 67.4
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "metadata-carriage",
+      "id": "metadata-carriage-speed_first",
+      "synthetic": true,
+      "weights": {
+        "quality": 10,
+        "speed": 60,
+        "cost": 10,
+        "flexibility": 10,
+        "governance": 10
+      },
+      "expected_winner_id": "metadata-carriage-option-3",
+      "result": {
+        "ok": true,
+        "winner_id": "metadata-carriage-option-3",
+        "scores": [
+          {
+            "option_id": "metadata-carriage-option-3",
+            "score": 83.4
+          },
+          {
+            "option_id": "metadata-carriage-option-2",
+            "score": 75.7
+          },
+          {
+            "option_id": "metadata-carriage-option-1",
+            "score": 61.5
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "metadata-carriage",
+      "id": "metadata-carriage-governance_first",
+      "synthetic": true,
+      "weights": {
+        "quality": 10,
+        "speed": 10,
+        "cost": 10,
+        "flexibility": 10,
+        "governance": 60
+      },
+      "expected_winner_id": "metadata-carriage-option-1",
+      "result": {
+        "ok": true,
+        "winner_id": "metadata-carriage-option-1",
+        "scores": [
+          {
+            "option_id": "metadata-carriage-option-1",
+            "score": 79
+          },
+          {
+            "option_id": "metadata-carriage-option-2",
+            "score": 75.7
+          },
+          {
+            "option_id": "metadata-carriage-option-3",
+            "score": 64.9
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "delivery-channel",
+      "id": "delivery-channel-balanced",
+      "synthetic": true,
+      "weights": {
+        "quality": 20,
+        "speed": 20,
+        "cost": 20,
+        "flexibility": 20,
+        "governance": 20
+      },
+      "expected_winner_id": "delivery-channel-option-2",
+      "result": {
+        "ok": true,
+        "winner_id": "delivery-channel-option-2",
+        "scores": [
+          {
+            "option_id": "delivery-channel-option-2",
+            "score": 76.4
+          },
+          {
+            "option_id": "delivery-channel-option-3",
+            "score": 74.8
+          },
+          {
+            "option_id": "delivery-channel-option-1",
+            "score": 68
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "delivery-channel",
+      "id": "delivery-channel-quality_first",
+      "synthetic": true,
+      "weights": {
+        "quality": 60,
+        "speed": 10,
+        "cost": 10,
+        "flexibility": 10,
+        "governance": 10
+      },
+      "expected_winner_id": "delivery-channel-option-1",
+      "result": {
+        "ok": true,
+        "winner_id": "delivery-channel-option-1",
+        "scores": [
+          {
+            "option_id": "delivery-channel-option-1",
+            "score": 79
+          },
+          {
+            "option_id": "delivery-channel-option-2",
+            "score": 77.2
+          },
+          {
+            "option_id": "delivery-channel-option-3",
+            "score": 67.4
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "delivery-channel",
+      "id": "delivery-channel-speed_first",
+      "synthetic": true,
+      "weights": {
+        "quality": 10,
+        "speed": 60,
+        "cost": 10,
+        "flexibility": 10,
+        "governance": 10
+      },
+      "expected_winner_id": "delivery-channel-option-3",
+      "result": {
+        "ok": true,
+        "winner_id": "delivery-channel-option-3",
+        "scores": [
+          {
+            "option_id": "delivery-channel-option-3",
+            "score": 83.4
+          },
+          {
+            "option_id": "delivery-channel-option-2",
+            "score": 75.7
+          },
+          {
+            "option_id": "delivery-channel-option-1",
+            "score": 61.5
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "delivery-channel",
+      "id": "delivery-channel-governance_first",
+      "synthetic": true,
+      "weights": {
+        "quality": 10,
+        "speed": 10,
+        "cost": 10,
+        "flexibility": 10,
+        "governance": 60
+      },
+      "expected_winner_id": "delivery-channel-option-1",
+      "result": {
+        "ok": true,
+        "winner_id": "delivery-channel-option-1",
+        "scores": [
+          {
+            "option_id": "delivery-channel-option-1",
+            "score": 79
+          },
+          {
+            "option_id": "delivery-channel-option-2",
+            "score": 75.7
+          },
+          {
+            "option_id": "delivery-channel-option-3",
+            "score": 64.9
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "qc-model",
+      "id": "qc-model-balanced",
+      "synthetic": true,
+      "weights": {
+        "quality": 20,
+        "speed": 20,
+        "cost": 20,
+        "flexibility": 20,
+        "governance": 20
+      },
+      "expected_winner_id": "qc-model-option-2",
+      "result": {
+        "ok": true,
+        "winner_id": "qc-model-option-2",
+        "scores": [
+          {
+            "option_id": "qc-model-option-2",
+            "score": 76.4
+          },
+          {
+            "option_id": "qc-model-option-3",
+            "score": 74.8
+          },
+          {
+            "option_id": "qc-model-option-1",
+            "score": 68
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "qc-model",
+      "id": "qc-model-quality_first",
+      "synthetic": true,
+      "weights": {
+        "quality": 60,
+        "speed": 10,
+        "cost": 10,
+        "flexibility": 10,
+        "governance": 10
+      },
+      "expected_winner_id": "qc-model-option-1",
+      "result": {
+        "ok": true,
+        "winner_id": "qc-model-option-1",
+        "scores": [
+          {
+            "option_id": "qc-model-option-1",
+            "score": 79
+          },
+          {
+            "option_id": "qc-model-option-2",
+            "score": 77.2
+          },
+          {
+            "option_id": "qc-model-option-3",
+            "score": 67.4
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "qc-model",
+      "id": "qc-model-speed_first",
+      "synthetic": true,
+      "weights": {
+        "quality": 10,
+        "speed": 60,
+        "cost": 10,
+        "flexibility": 10,
+        "governance": 10
+      },
+      "expected_winner_id": "qc-model-option-3",
+      "result": {
+        "ok": true,
+        "winner_id": "qc-model-option-3",
+        "scores": [
+          {
+            "option_id": "qc-model-option-3",
+            "score": 83.4
+          },
+          {
+            "option_id": "qc-model-option-2",
+            "score": 75.7
+          },
+          {
+            "option_id": "qc-model-option-1",
+            "score": 61.5
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "qc-model",
+      "id": "qc-model-governance_first",
+      "synthetic": true,
+      "weights": {
+        "quality": 10,
+        "speed": 10,
+        "cost": 10,
+        "flexibility": 10,
+        "governance": 60
+      },
+      "expected_winner_id": "qc-model-option-1",
+      "result": {
+        "ok": true,
+        "winner_id": "qc-model-option-1",
+        "scores": [
+          {
+            "option_id": "qc-model-option-1",
+            "score": 79
+          },
+          {
+            "option_id": "qc-model-option-2",
+            "score": 75.7
+          },
+          {
+            "option_id": "qc-model-option-3",
+            "score": 64.9
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "archive-tier",
+      "id": "archive-tier-balanced",
+      "synthetic": true,
+      "weights": {
+        "quality": 20,
+        "speed": 20,
+        "cost": 20,
+        "flexibility": 20,
+        "governance": 20
+      },
+      "expected_winner_id": "archive-tier-option-2",
+      "result": {
+        "ok": true,
+        "winner_id": "archive-tier-option-2",
+        "scores": [
+          {
+            "option_id": "archive-tier-option-2",
+            "score": 76.4
+          },
+          {
+            "option_id": "archive-tier-option-3",
+            "score": 74.8
+          },
+          {
+            "option_id": "archive-tier-option-1",
+            "score": 68
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "archive-tier",
+      "id": "archive-tier-quality_first",
+      "synthetic": true,
+      "weights": {
+        "quality": 60,
+        "speed": 10,
+        "cost": 10,
+        "flexibility": 10,
+        "governance": 10
+      },
+      "expected_winner_id": "archive-tier-option-1",
+      "result": {
+        "ok": true,
+        "winner_id": "archive-tier-option-1",
+        "scores": [
+          {
+            "option_id": "archive-tier-option-1",
+            "score": 79
+          },
+          {
+            "option_id": "archive-tier-option-2",
+            "score": 77.2
+          },
+          {
+            "option_id": "archive-tier-option-3",
+            "score": 67.4
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "archive-tier",
+      "id": "archive-tier-speed_first",
+      "synthetic": true,
+      "weights": {
+        "quality": 10,
+        "speed": 60,
+        "cost": 10,
+        "flexibility": 10,
+        "governance": 10
+      },
+      "expected_winner_id": "archive-tier-option-3",
+      "result": {
+        "ok": true,
+        "winner_id": "archive-tier-option-3",
+        "scores": [
+          {
+            "option_id": "archive-tier-option-3",
+            "score": 83.4
+          },
+          {
+            "option_id": "archive-tier-option-2",
+            "score": 75.7
+          },
+          {
+            "option_id": "archive-tier-option-1",
+            "score": 61.5
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "archive-tier",
+      "id": "archive-tier-governance_first",
+      "synthetic": true,
+      "weights": {
+        "quality": 10,
+        "speed": 10,
+        "cost": 10,
+        "flexibility": 10,
+        "governance": 60
+      },
+      "expected_winner_id": "archive-tier-option-1",
+      "result": {
+        "ok": true,
+        "winner_id": "archive-tier-option-1",
+        "scores": [
+          {
+            "option_id": "archive-tier-option-1",
+            "score": 79
+          },
+          {
+            "option_id": "archive-tier-option-2",
+            "score": 75.7
+          },
+          {
+            "option_id": "archive-tier-option-3",
+            "score": 64.9
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "restore-testing",
+      "id": "restore-testing-balanced",
+      "synthetic": true,
+      "weights": {
+        "quality": 20,
+        "speed": 20,
+        "cost": 20,
+        "flexibility": 20,
+        "governance": 20
+      },
+      "expected_winner_id": "restore-testing-option-2",
+      "result": {
+        "ok": true,
+        "winner_id": "restore-testing-option-2",
+        "scores": [
+          {
+            "option_id": "restore-testing-option-2",
+            "score": 76.4
+          },
+          {
+            "option_id": "restore-testing-option-3",
+            "score": 74.8
+          },
+          {
+            "option_id": "restore-testing-option-1",
+            "score": 68
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "restore-testing",
+      "id": "restore-testing-quality_first",
+      "synthetic": true,
+      "weights": {
+        "quality": 60,
+        "speed": 10,
+        "cost": 10,
+        "flexibility": 10,
+        "governance": 10
+      },
+      "expected_winner_id": "restore-testing-option-1",
+      "result": {
+        "ok": true,
+        "winner_id": "restore-testing-option-1",
+        "scores": [
+          {
+            "option_id": "restore-testing-option-1",
+            "score": 79
+          },
+          {
+            "option_id": "restore-testing-option-2",
+            "score": 77.2
+          },
+          {
+            "option_id": "restore-testing-option-3",
+            "score": 67.4
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "restore-testing",
+      "id": "restore-testing-speed_first",
+      "synthetic": true,
+      "weights": {
+        "quality": 10,
+        "speed": 60,
+        "cost": 10,
+        "flexibility": 10,
+        "governance": 10
+      },
+      "expected_winner_id": "restore-testing-option-3",
+      "result": {
+        "ok": true,
+        "winner_id": "restore-testing-option-3",
+        "scores": [
+          {
+            "option_id": "restore-testing-option-3",
+            "score": 83.4
+          },
+          {
+            "option_id": "restore-testing-option-2",
+            "score": 75.7
+          },
+          {
+            "option_id": "restore-testing-option-1",
+            "score": 61.5
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "restore-testing",
+      "id": "restore-testing-governance_first",
+      "synthetic": true,
+      "weights": {
+        "quality": 10,
+        "speed": 10,
+        "cost": 10,
+        "flexibility": 10,
+        "governance": 60
+      },
+      "expected_winner_id": "restore-testing-option-1",
+      "result": {
+        "ok": true,
+        "winner_id": "restore-testing-option-1",
+        "scores": [
+          {
+            "option_id": "restore-testing-option-1",
+            "score": 79
+          },
+          {
+            "option_id": "restore-testing-option-2",
+            "score": 75.7
+          },
+          {
+            "option_id": "restore-testing-option-3",
+            "score": 64.9
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "rights-tracking",
+      "id": "rights-tracking-balanced",
+      "synthetic": true,
+      "weights": {
+        "quality": 20,
+        "speed": 20,
+        "cost": 20,
+        "flexibility": 20,
+        "governance": 20
+      },
+      "expected_winner_id": "rights-tracking-option-2",
+      "result": {
+        "ok": true,
+        "winner_id": "rights-tracking-option-2",
+        "scores": [
+          {
+            "option_id": "rights-tracking-option-2",
+            "score": 76.4
+          },
+          {
+            "option_id": "rights-tracking-option-3",
+            "score": 74.8
+          },
+          {
+            "option_id": "rights-tracking-option-1",
+            "score": 68
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "rights-tracking",
+      "id": "rights-tracking-quality_first",
+      "synthetic": true,
+      "weights": {
+        "quality": 60,
+        "speed": 10,
+        "cost": 10,
+        "flexibility": 10,
+        "governance": 10
+      },
+      "expected_winner_id": "rights-tracking-option-1",
+      "result": {
+        "ok": true,
+        "winner_id": "rights-tracking-option-1",
+        "scores": [
+          {
+            "option_id": "rights-tracking-option-1",
+            "score": 79
+          },
+          {
+            "option_id": "rights-tracking-option-2",
+            "score": 77.2
+          },
+          {
+            "option_id": "rights-tracking-option-3",
+            "score": 67.4
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "rights-tracking",
+      "id": "rights-tracking-speed_first",
+      "synthetic": true,
+      "weights": {
+        "quality": 10,
+        "speed": 60,
+        "cost": 10,
+        "flexibility": 10,
+        "governance": 10
+      },
+      "expected_winner_id": "rights-tracking-option-3",
+      "result": {
+        "ok": true,
+        "winner_id": "rights-tracking-option-3",
+        "scores": [
+          {
+            "option_id": "rights-tracking-option-3",
+            "score": 83.4
+          },
+          {
+            "option_id": "rights-tracking-option-2",
+            "score": 75.7
+          },
+          {
+            "option_id": "rights-tracking-option-1",
+            "score": 61.5
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "rights-tracking",
+      "id": "rights-tracking-governance_first",
+      "synthetic": true,
+      "weights": {
+        "quality": 10,
+        "speed": 10,
+        "cost": 10,
+        "flexibility": 10,
+        "governance": 60
+      },
+      "expected_winner_id": "rights-tracking-option-1",
+      "result": {
+        "ok": true,
+        "winner_id": "rights-tracking-option-1",
+        "scores": [
+          {
+            "option_id": "rights-tracking-option-1",
+            "score": 79
+          },
+          {
+            "option_id": "rights-tracking-option-2",
+            "score": 75.7
+          },
+          {
+            "option_id": "rights-tracking-option-3",
+            "score": 64.9
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "supplier-selection",
+      "id": "supplier-selection-balanced",
+      "synthetic": true,
+      "weights": {
+        "quality": 20,
+        "speed": 20,
+        "cost": 20,
+        "flexibility": 20,
+        "governance": 20
+      },
+      "expected_winner_id": "supplier-selection-option-2",
+      "result": {
+        "ok": true,
+        "winner_id": "supplier-selection-option-2",
+        "scores": [
+          {
+            "option_id": "supplier-selection-option-2",
+            "score": 76.4
+          },
+          {
+            "option_id": "supplier-selection-option-3",
+            "score": 74.8
+          },
+          {
+            "option_id": "supplier-selection-option-1",
+            "score": 68
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "supplier-selection",
+      "id": "supplier-selection-quality_first",
+      "synthetic": true,
+      "weights": {
+        "quality": 60,
+        "speed": 10,
+        "cost": 10,
+        "flexibility": 10,
+        "governance": 10
+      },
+      "expected_winner_id": "supplier-selection-option-1",
+      "result": {
+        "ok": true,
+        "winner_id": "supplier-selection-option-1",
+        "scores": [
+          {
+            "option_id": "supplier-selection-option-1",
+            "score": 79
+          },
+          {
+            "option_id": "supplier-selection-option-2",
+            "score": 77.2
+          },
+          {
+            "option_id": "supplier-selection-option-3",
+            "score": 67.4
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "supplier-selection",
+      "id": "supplier-selection-speed_first",
+      "synthetic": true,
+      "weights": {
+        "quality": 10,
+        "speed": 60,
+        "cost": 10,
+        "flexibility": 10,
+        "governance": 10
+      },
+      "expected_winner_id": "supplier-selection-option-3",
+      "result": {
+        "ok": true,
+        "winner_id": "supplier-selection-option-3",
+        "scores": [
+          {
+            "option_id": "supplier-selection-option-3",
+            "score": 83.4
+          },
+          {
+            "option_id": "supplier-selection-option-2",
+            "score": 75.7
+          },
+          {
+            "option_id": "supplier-selection-option-1",
+            "score": 61.5
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "supplier-selection",
+      "id": "supplier-selection-governance_first",
+      "synthetic": true,
+      "weights": {
+        "quality": 10,
+        "speed": 10,
+        "cost": 10,
+        "flexibility": 10,
+        "governance": 60
+      },
+      "expected_winner_id": "supplier-selection-option-1",
+      "result": {
+        "ok": true,
+        "winner_id": "supplier-selection-option-1",
+        "scores": [
+          {
+            "option_id": "supplier-selection-option-1",
+            "score": 79
+          },
+          {
+            "option_id": "supplier-selection-option-2",
+            "score": 75.7
+          },
+          {
+            "option_id": "supplier-selection-option-3",
+            "score": 64.9
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "incident-response",
+      "id": "incident-response-balanced",
+      "synthetic": true,
+      "weights": {
+        "quality": 20,
+        "speed": 20,
+        "cost": 20,
+        "flexibility": 20,
+        "governance": 20
+      },
+      "expected_winner_id": "incident-response-option-2",
+      "result": {
+        "ok": true,
+        "winner_id": "incident-response-option-2",
+        "scores": [
+          {
+            "option_id": "incident-response-option-2",
+            "score": 76.4
+          },
+          {
+            "option_id": "incident-response-option-3",
+            "score": 74.8
+          },
+          {
+            "option_id": "incident-response-option-1",
+            "score": 68
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "incident-response",
+      "id": "incident-response-quality_first",
+      "synthetic": true,
+      "weights": {
+        "quality": 60,
+        "speed": 10,
+        "cost": 10,
+        "flexibility": 10,
+        "governance": 10
+      },
+      "expected_winner_id": "incident-response-option-1",
+      "result": {
+        "ok": true,
+        "winner_id": "incident-response-option-1",
+        "scores": [
+          {
+            "option_id": "incident-response-option-1",
+            "score": 79
+          },
+          {
+            "option_id": "incident-response-option-2",
+            "score": 77.2
+          },
+          {
+            "option_id": "incident-response-option-3",
+            "score": 67.4
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "incident-response",
+      "id": "incident-response-speed_first",
+      "synthetic": true,
+      "weights": {
+        "quality": 10,
+        "speed": 60,
+        "cost": 10,
+        "flexibility": 10,
+        "governance": 10
+      },
+      "expected_winner_id": "incident-response-option-3",
+      "result": {
+        "ok": true,
+        "winner_id": "incident-response-option-3",
+        "scores": [
+          {
+            "option_id": "incident-response-option-3",
+            "score": 83.4
+          },
+          {
+            "option_id": "incident-response-option-2",
+            "score": 75.7
+          },
+          {
+            "option_id": "incident-response-option-1",
+            "score": 61.5
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "incident-response",
+      "id": "incident-response-governance_first",
+      "synthetic": true,
+      "weights": {
+        "quality": 10,
+        "speed": 10,
+        "cost": 10,
+        "flexibility": 10,
+        "governance": 60
+      },
+      "expected_winner_id": "incident-response-option-1",
+      "result": {
+        "ok": true,
+        "winner_id": "incident-response-option-1",
+        "scores": [
+          {
+            "option_id": "incident-response-option-1",
+            "score": 79
+          },
+          {
+            "option_id": "incident-response-option-2",
+            "score": 75.7
+          },
+          {
+            "option_id": "incident-response-option-3",
+            "score": 64.9
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "release-rollout",
+      "id": "release-rollout-balanced",
+      "synthetic": true,
+      "weights": {
+        "quality": 20,
+        "speed": 20,
+        "cost": 20,
+        "flexibility": 20,
+        "governance": 20
+      },
+      "expected_winner_id": "release-rollout-option-2",
+      "result": {
+        "ok": true,
+        "winner_id": "release-rollout-option-2",
+        "scores": [
+          {
+            "option_id": "release-rollout-option-2",
+            "score": 76.4
+          },
+          {
+            "option_id": "release-rollout-option-3",
+            "score": 74.8
+          },
+          {
+            "option_id": "release-rollout-option-1",
+            "score": 68
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "release-rollout",
+      "id": "release-rollout-quality_first",
+      "synthetic": true,
+      "weights": {
+        "quality": 60,
+        "speed": 10,
+        "cost": 10,
+        "flexibility": 10,
+        "governance": 10
+      },
+      "expected_winner_id": "release-rollout-option-1",
+      "result": {
+        "ok": true,
+        "winner_id": "release-rollout-option-1",
+        "scores": [
+          {
+            "option_id": "release-rollout-option-1",
+            "score": 79
+          },
+          {
+            "option_id": "release-rollout-option-2",
+            "score": 77.2
+          },
+          {
+            "option_id": "release-rollout-option-3",
+            "score": 67.4
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "release-rollout",
+      "id": "release-rollout-speed_first",
+      "synthetic": true,
+      "weights": {
+        "quality": 10,
+        "speed": 60,
+        "cost": 10,
+        "flexibility": 10,
+        "governance": 10
+      },
+      "expected_winner_id": "release-rollout-option-3",
+      "result": {
+        "ok": true,
+        "winner_id": "release-rollout-option-3",
+        "scores": [
+          {
+            "option_id": "release-rollout-option-3",
+            "score": 83.4
+          },
+          {
+            "option_id": "release-rollout-option-2",
+            "score": 75.7
+          },
+          {
+            "option_id": "release-rollout-option-1",
+            "score": 61.5
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "release-rollout",
+      "id": "release-rollout-governance_first",
+      "synthetic": true,
+      "weights": {
+        "quality": 10,
+        "speed": 10,
+        "cost": 10,
+        "flexibility": 10,
+        "governance": 60
+      },
+      "expected_winner_id": "release-rollout-option-1",
+      "result": {
+        "ok": true,
+        "winner_id": "release-rollout-option-1",
+        "scores": [
+          {
+            "option_id": "release-rollout-option-1",
+            "score": 79
+          },
+          {
+            "option_id": "release-rollout-option-2",
+            "score": 75.7
+          },
+          {
+            "option_id": "release-rollout-option-3",
+            "score": 64.9
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "accessibility-production",
+      "id": "accessibility-production-balanced",
+      "synthetic": true,
+      "weights": {
+        "quality": 20,
+        "speed": 20,
+        "cost": 20,
+        "flexibility": 20,
+        "governance": 20
+      },
+      "expected_winner_id": "accessibility-production-option-2",
+      "result": {
+        "ok": true,
+        "winner_id": "accessibility-production-option-2",
+        "scores": [
+          {
+            "option_id": "accessibility-production-option-2",
+            "score": 76.4
+          },
+          {
+            "option_id": "accessibility-production-option-3",
+            "score": 74.8
+          },
+          {
+            "option_id": "accessibility-production-option-1",
+            "score": 68
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "accessibility-production",
+      "id": "accessibility-production-quality_first",
+      "synthetic": true,
+      "weights": {
+        "quality": 60,
+        "speed": 10,
+        "cost": 10,
+        "flexibility": 10,
+        "governance": 10
+      },
+      "expected_winner_id": "accessibility-production-option-1",
+      "result": {
+        "ok": true,
+        "winner_id": "accessibility-production-option-1",
+        "scores": [
+          {
+            "option_id": "accessibility-production-option-1",
+            "score": 79
+          },
+          {
+            "option_id": "accessibility-production-option-2",
+            "score": 77.2
+          },
+          {
+            "option_id": "accessibility-production-option-3",
+            "score": 67.4
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "accessibility-production",
+      "id": "accessibility-production-speed_first",
+      "synthetic": true,
+      "weights": {
+        "quality": 10,
+        "speed": 60,
+        "cost": 10,
+        "flexibility": 10,
+        "governance": 10
+      },
+      "expected_winner_id": "accessibility-production-option-3",
+      "result": {
+        "ok": true,
+        "winner_id": "accessibility-production-option-3",
+        "scores": [
+          {
+            "option_id": "accessibility-production-option-3",
+            "score": 83.4
+          },
+          {
+            "option_id": "accessibility-production-option-2",
+            "score": 75.7
+          },
+          {
+            "option_id": "accessibility-production-option-1",
+            "score": 61.5
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "accessibility-production",
+      "id": "accessibility-production-governance_first",
+      "synthetic": true,
+      "weights": {
+        "quality": 10,
+        "speed": 10,
+        "cost": 10,
+        "flexibility": 10,
+        "governance": 60
+      },
+      "expected_winner_id": "accessibility-production-option-1",
+      "result": {
+        "ok": true,
+        "winner_id": "accessibility-production-option-1",
+        "scores": [
+          {
+            "option_id": "accessibility-production-option-1",
+            "score": 79
+          },
+          {
+            "option_id": "accessibility-production-option-2",
+            "score": 75.7
+          },
+          {
+            "option_id": "accessibility-production-option-3",
+            "score": 64.9
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "provenance-carriage",
+      "id": "provenance-carriage-balanced",
+      "synthetic": true,
+      "weights": {
+        "quality": 20,
+        "speed": 20,
+        "cost": 20,
+        "flexibility": 20,
+        "governance": 20
+      },
+      "expected_winner_id": "provenance-carriage-option-2",
+      "result": {
+        "ok": true,
+        "winner_id": "provenance-carriage-option-2",
+        "scores": [
+          {
+            "option_id": "provenance-carriage-option-2",
+            "score": 76.4
+          },
+          {
+            "option_id": "provenance-carriage-option-3",
+            "score": 74.8
+          },
+          {
+            "option_id": "provenance-carriage-option-1",
+            "score": 68
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "provenance-carriage",
+      "id": "provenance-carriage-quality_first",
+      "synthetic": true,
+      "weights": {
+        "quality": 60,
+        "speed": 10,
+        "cost": 10,
+        "flexibility": 10,
+        "governance": 10
+      },
+      "expected_winner_id": "provenance-carriage-option-1",
+      "result": {
+        "ok": true,
+        "winner_id": "provenance-carriage-option-1",
+        "scores": [
+          {
+            "option_id": "provenance-carriage-option-1",
+            "score": 79
+          },
+          {
+            "option_id": "provenance-carriage-option-2",
+            "score": 77.2
+          },
+          {
+            "option_id": "provenance-carriage-option-3",
+            "score": 67.4
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "provenance-carriage",
+      "id": "provenance-carriage-speed_first",
+      "synthetic": true,
+      "weights": {
+        "quality": 10,
+        "speed": 60,
+        "cost": 10,
+        "flexibility": 10,
+        "governance": 10
+      },
+      "expected_winner_id": "provenance-carriage-option-3",
+      "result": {
+        "ok": true,
+        "winner_id": "provenance-carriage-option-3",
+        "scores": [
+          {
+            "option_id": "provenance-carriage-option-3",
+            "score": 83.4
+          },
+          {
+            "option_id": "provenance-carriage-option-2",
+            "score": 75.7
+          },
+          {
+            "option_id": "provenance-carriage-option-1",
+            "score": 61.5
+          }
+        ]
+      }
+    },
+    {
+      "matrix_id": "provenance-carriage",
+      "id": "provenance-carriage-governance_first",
+      "synthetic": true,
+      "weights": {
+        "quality": 10,
+        "speed": 10,
+        "cost": 10,
+        "flexibility": 10,
+        "governance": 60
+      },
+      "expected_winner_id": "provenance-carriage-option-1",
+      "result": {
+        "ok": true,
+        "winner_id": "provenance-carriage-option-1",
+        "scores": [
+          {
+            "option_id": "provenance-carriage-option-1",
+            "score": 79
+          },
+          {
+            "option_id": "provenance-carriage-option-2",
+            "score": 75.7
+          },
+          {
+            "option_id": "provenance-carriage-option-3",
+            "score": 64.9
+          }
+        ]
+      }
+    }
+  ]
+}

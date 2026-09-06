@@ -214,4 +214,56 @@
   <url><loc>https://shar-production-open-tools.pages.dev/readiness-scorecards/ru/</loc></url>
   <url><loc>https://shar-production-open-tools.pages.dev/indexing-observatory/en/</loc></url>
   <url><loc>https://shar-production-open-tools.pages.dev/indexing-observatory/ru/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/option-matrices/en/camera-coverage/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/option-matrices/en/capture-codec/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/option-matrices/en/audio-capture/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/option-matrices/en/proxy-generation/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/option-matrices/en/review-mode/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/option-matrices/en/approval-model/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/option-matrices/en/media-backup/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/option-matrices/en/edit-collaboration/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/option-matrices/en/vfx-turnover/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/option-matrices/en/color-pipeline/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/option-matrices/en/mix-delivery/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/option-matrices/en/caption-format/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/option-matrices/en/localization-model/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/option-matrices/en/asset-naming/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/option-matrices/en/metadata-carriage/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/option-matrices/en/delivery-channel/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/option-matrices/en/qc-model/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/option-matrices/en/archive-tier/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/option-matrices/en/restore-testing/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/option-matrices/en/rights-tracking/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/option-matrices/en/supplier-selection/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/option-matrices/en/incident-response/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/option-matrices/en/release-rollout/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/option-matrices/en/accessibility-production/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/option-matrices/en/provenance-carriage/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/option-matrices/ru/camera-coverage/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/option-matrices/ru/capture-codec/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/option-matrices/ru/audio-capture/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/option-matrices/ru/proxy-generation/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/option-matrices/ru/review-mode/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/option-matrices/ru/approval-model/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/option-matrices/ru/media-backup/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/option-matrices/ru/edit-collaboration/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/option-matrices/ru/vfx-turnover/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/option-matrices/ru/color-pipeline/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/option-matrices/ru/mix-delivery/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/option-matrices/ru/caption-format/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/option-matrices/ru/localization-model/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/option-matrices/ru/asset-naming/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/option-matrices/ru/metadata-carriage/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/option-matrices/ru/delivery-channel/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/option-matrices/ru/qc-model/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/option-matrices/ru/archive-tier/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/option-matrices/ru/restore-testing/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/option-matrices/ru/rights-tracking/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/option-matrices/ru/supplier-selection/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/option-matrices/ru/incident-response/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/option-matrices/ru/release-rollout/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/option-matrices/ru/accessibility-production/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/option-matrices/ru/provenance-carriage/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/option-matrices/en/</loc></url>
+  <url><loc>https://shar-production-open-tools.pages.dev/option-matrices/ru/</loc></url>
 </urlset>

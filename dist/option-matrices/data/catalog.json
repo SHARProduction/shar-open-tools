@@ -1,0 +1,3660 @@
+{
+  "schema_version": "1.0.0",
+  "publisher": {
+    "name": "SHAR Production",
+    "website": "https://sharprod.com/"
+  },
+  "license": "MIT",
+  "matrices": [
+    {
+      "id": "camera-coverage",
+      "title": {
+        "en": "Camera coverage strategy",
+        "ru": "Стратегия камерного покрытия"
+      },
+      "scope": {
+        "en": "Compare three camera coverage strategy options using adjustable production priorities.",
+        "ru": "Сравнение трёх вариантов «стратегия камерного покрытия» по настраиваемым приоритетам."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "criteria": [
+        {
+          "id": "quality",
+          "label": {
+            "en": "Quality assurance",
+            "ru": "Контроль качества"
+          }
+        },
+        {
+          "id": "speed",
+          "label": {
+            "en": "Delivery speed",
+            "ru": "Скорость поставки"
+          }
+        },
+        {
+          "id": "cost",
+          "label": {
+            "en": "Cost efficiency",
+            "ru": "Эффективность затрат"
+          }
+        },
+        {
+          "id": "flexibility",
+          "label": {
+            "en": "Change flexibility",
+            "ru": "Гибкость изменений"
+          }
+        },
+        {
+          "id": "governance",
+          "label": {
+            "en": "Evidence and governance",
+            "ru": "Доказательства и управление"
+          }
+        }
+      ],
+      "options": [
+        {
+          "id": "camera-coverage-option-1",
+          "label": {
+            "en": "Single-camera controlled coverage",
+            "ru": "Однокамерное контролируемое покрытие"
+          },
+          "ratings": {
+            "quality": 90,
+            "speed": 55,
+            "cost": 45,
+            "flexibility": 60,
+            "governance": 90
+          }
+        },
+        {
+          "id": "camera-coverage-option-2",
+          "label": {
+            "en": "Dual-camera coordinated coverage",
+            "ru": "Согласованное покрытие двумя камерами"
+          },
+          "ratings": {
+            "quality": 78,
+            "speed": 75,
+            "cost": 72,
+            "flexibility": 82,
+            "governance": 75
+          }
+        },
+        {
+          "id": "camera-coverage-option-3",
+          "label": {
+            "en": "Multi-camera continuous coverage",
+            "ru": "Непрерывное многокамерное покрытие"
+          },
+          "ratings": {
+            "quality": 60,
+            "speed": 92,
+            "cost": 92,
+            "flexibility": 75,
+            "governance": 55
+          }
+        }
+      ],
+      "scenarios": [
+        {
+          "id": "camera-coverage-balanced",
+          "synthetic": true,
+          "weights": {
+            "quality": 20,
+            "speed": 20,
+            "cost": 20,
+            "flexibility": 20,
+            "governance": 20
+          },
+          "expected_winner_id": "camera-coverage-option-2"
+        },
+        {
+          "id": "camera-coverage-quality_first",
+          "synthetic": true,
+          "weights": {
+            "quality": 60,
+            "speed": 10,
+            "cost": 10,
+            "flexibility": 10,
+            "governance": 10
+          },
+          "expected_winner_id": "camera-coverage-option-1"
+        },
+        {
+          "id": "camera-coverage-speed_first",
+          "synthetic": true,
+          "weights": {
+            "quality": 10,
+            "speed": 60,
+            "cost": 10,
+            "flexibility": 10,
+            "governance": 10
+          },
+          "expected_winner_id": "camera-coverage-option-3"
+        },
+        {
+          "id": "camera-coverage-governance_first",
+          "synthetic": true,
+          "weights": {
+            "quality": 10,
+            "speed": 10,
+            "cost": 10,
+            "flexibility": 10,
+            "governance": 60
+          },
+          "expected_winner_id": "camera-coverage-option-1"
+        }
+      ]
+    },
+    {
+      "id": "capture-codec",
+      "title": {
+        "en": "Capture codec strategy",
+        "ru": "Стратегия кодека съёмки"
+      },
+      "scope": {
+        "en": "Compare three capture codec strategy options using adjustable production priorities.",
+        "ru": "Сравнение трёх вариантов «стратегия кодека съёмки» по настраиваемым приоритетам."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "criteria": [
+        {
+          "id": "quality",
+          "label": {
+            "en": "Quality assurance",
+            "ru": "Контроль качества"
+          }
+        },
+        {
+          "id": "speed",
+          "label": {
+            "en": "Delivery speed",
+            "ru": "Скорость поставки"
+          }
+        },
+        {
+          "id": "cost",
+          "label": {
+            "en": "Cost efficiency",
+            "ru": "Эффективность затрат"
+          }
+        },
+        {
+          "id": "flexibility",
+          "label": {
+            "en": "Change flexibility",
+            "ru": "Гибкость изменений"
+          }
+        },
+        {
+          "id": "governance",
+          "label": {
+            "en": "Evidence and governance",
+            "ru": "Доказательства и управление"
+          }
+        }
+      ],
+      "options": [
+        {
+          "id": "capture-codec-option-1",
+          "label": {
+            "en": "RAW acquisition",
+            "ru": "Съёмка в RAW"
+          },
+          "ratings": {
+            "quality": 90,
+            "speed": 55,
+            "cost": 45,
+            "flexibility": 60,
+            "governance": 90
+          }
+        },
+        {
+          "id": "capture-codec-option-2",
+          "label": {
+            "en": "Mezzanine acquisition",
+            "ru": "Съёмка в mezzanine"
+          },
+          "ratings": {
+            "quality": 78,
+            "speed": 75,
+            "cost": 72,
+            "flexibility": 82,
+            "governance": 75
+          }
+        },
+        {
+          "id": "capture-codec-option-3",
+          "label": {
+            "en": "Compressed acquisition",
+            "ru": "Сжатая съёмка"
+          },
+          "ratings": {
+            "quality": 60,
+            "speed": 92,
+            "cost": 92,
+            "flexibility": 75,
+            "governance": 55
+          }
+        }
+      ],
+      "scenarios": [
+        {
+          "id": "capture-codec-balanced",
+          "synthetic": true,
+          "weights": {
+            "quality": 20,
+            "speed": 20,
+            "cost": 20,
+            "flexibility": 20,
+            "governance": 20
+          },
+          "expected_winner_id": "capture-codec-option-2"
+        },
+        {
+          "id": "capture-codec-quality_first",
+          "synthetic": true,
+          "weights": {
+            "quality": 60,
+            "speed": 10,
+            "cost": 10,
+            "flexibility": 10,
+            "governance": 10
+          },
+          "expected_winner_id": "capture-codec-option-1"
+        },
+        {
+          "id": "capture-codec-speed_first",
+          "synthetic": true,
+          "weights": {
+            "quality": 10,
+            "speed": 60,
+            "cost": 10,
+            "flexibility": 10,
+            "governance": 10
+          },
+          "expected_winner_id": "capture-codec-option-3"
+        },
+        {
+          "id": "capture-codec-governance_first",
+          "synthetic": true,
+          "weights": {
+            "quality": 10,
+            "speed": 10,
+            "cost": 10,
+            "flexibility": 10,
+            "governance": 60
+          },
+          "expected_winner_id": "capture-codec-option-1"
+        }
+      ]
+    },
+    {
+      "id": "audio-capture",
+      "title": {
+        "en": "Audio capture strategy",
+        "ru": "Стратегия записи звука"
+      },
+      "scope": {
+        "en": "Compare three audio capture strategy options using adjustable production priorities.",
+        "ru": "Сравнение трёх вариантов «стратегия записи звука» по настраиваемым приоритетам."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "criteria": [
+        {
+          "id": "quality",
+          "label": {
+            "en": "Quality assurance",
+            "ru": "Контроль качества"
+          }
+        },
+        {
+          "id": "speed",
+          "label": {
+            "en": "Delivery speed",
+            "ru": "Скорость поставки"
+          }
+        },
+        {
+          "id": "cost",
+          "label": {
+            "en": "Cost efficiency",
+            "ru": "Эффективность затрат"
+          }
+        },
+        {
+          "id": "flexibility",
+          "label": {
+            "en": "Change flexibility",
+            "ru": "Гибкость изменений"
+          }
+        },
+        {
+          "id": "governance",
+          "label": {
+            "en": "Evidence and governance",
+            "ru": "Доказательства и управление"
+          }
+        }
+      ],
+      "options": [
+        {
+          "id": "audio-capture-option-1",
+          "label": {
+            "en": "Dedicated dual-system sound",
+            "ru": "Отдельная двухсистемная запись"
+          },
+          "ratings": {
+            "quality": 90,
+            "speed": 55,
+            "cost": 45,
+            "flexibility": 60,
+            "governance": 90
+          }
+        },
+        {
+          "id": "audio-capture-option-2",
+          "label": {
+            "en": "Hybrid dual and embedded sound",
+            "ru": "Гибридная отдельная и встроенная запись"
+          },
+          "ratings": {
+            "quality": 78,
+            "speed": 75,
+            "cost": 72,
+            "flexibility": 82,
+            "governance": 75
+          }
+        },
+        {
+          "id": "audio-capture-option-3",
+          "label": {
+            "en": "Embedded camera sound",
+            "ru": "Встроенный камерный звук"
+          },
+          "ratings": {
+            "quality": 60,
+            "speed": 92,
+            "cost": 92,
+            "flexibility": 75,
+            "governance": 55
+          }
+        }
+      ],
+      "scenarios": [
+        {
+          "id": "audio-capture-balanced",
+          "synthetic": true,
+          "weights": {
+            "quality": 20,
+            "speed": 20,
+            "cost": 20,
+            "flexibility": 20,
+            "governance": 20
+          },
+          "expected_winner_id": "audio-capture-option-2"
+        },
+        {
+          "id": "audio-capture-quality_first",
+          "synthetic": true,
+          "weights": {
+            "quality": 60,
+            "speed": 10,
+            "cost": 10,
+            "flexibility": 10,
+            "governance": 10
+          },
+          "expected_winner_id": "audio-capture-option-1"
+        },
+        {
+          "id": "audio-capture-speed_first",
+          "synthetic": true,
+          "weights": {
+            "quality": 10,
+            "speed": 60,
+            "cost": 10,
+            "flexibility": 10,
+            "governance": 10
+          },
+          "expected_winner_id": "audio-capture-option-3"
+        },
+        {
+          "id": "audio-capture-governance_first",
+          "synthetic": true,
+          "weights": {
+            "quality": 10,
+            "speed": 10,
+            "cost": 10,
+            "flexibility": 10,
+            "governance": 60
+          },
+          "expected_winner_id": "audio-capture-option-1"
+        }
+      ]
+    },
+    {
+      "id": "proxy-generation",
+      "title": {
+        "en": "Proxy generation strategy",
+        "ru": "Стратегия создания прокси"
+      },
+      "scope": {
+        "en": "Compare three proxy generation strategy options using adjustable production priorities.",
+        "ru": "Сравнение трёх вариантов «стратегия создания прокси» по настраиваемым приоритетам."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "criteria": [
+        {
+          "id": "quality",
+          "label": {
+            "en": "Quality assurance",
+            "ru": "Контроль качества"
+          }
+        },
+        {
+          "id": "speed",
+          "label": {
+            "en": "Delivery speed",
+            "ru": "Скорость поставки"
+          }
+        },
+        {
+          "id": "cost",
+          "label": {
+            "en": "Cost efficiency",
+            "ru": "Эффективность затрат"
+          }
+        },
+        {
+          "id": "flexibility",
+          "label": {
+            "en": "Change flexibility",
+            "ru": "Гибкость изменений"
+          }
+        },
+        {
+          "id": "governance",
+          "label": {
+            "en": "Evidence and governance",
+            "ru": "Доказательства и управление"
+          }
+        }
+      ],
+      "options": [
+        {
+          "id": "proxy-generation-option-1",
+          "label": {
+            "en": "On-set verified proxies",
+            "ru": "Проверенные прокси на площадке"
+          },
+          "ratings": {
+            "quality": 90,
+            "speed": 55,
+            "cost": 45,
+            "flexibility": 60,
+            "governance": 90
+          }
+        },
+        {
+          "id": "proxy-generation-option-2",
+          "label": {
+            "en": "Near-set automated proxies",
+            "ru": "Автоматические прокси рядом с площадкой"
+          },
+          "ratings": {
+            "quality": 78,
+            "speed": 75,
+            "cost": 72,
+            "flexibility": 82,
+            "governance": 75
+          }
+        },
+        {
+          "id": "proxy-generation-option-3",
+          "label": {
+            "en": "Post-ingest proxies",
+            "ru": "Прокси после ingest"
+          },
+          "ratings": {
+            "quality": 60,
+            "speed": 92,
+            "cost": 92,
+            "flexibility": 75,
+            "governance": 55
+          }
+        }
+      ],
+      "scenarios": [
+        {
+          "id": "proxy-generation-balanced",
+          "synthetic": true,
+          "weights": {
+            "quality": 20,
+            "speed": 20,
+            "cost": 20,
+            "flexibility": 20,
+            "governance": 20
+          },
+          "expected_winner_id": "proxy-generation-option-2"
+        },
+        {
+          "id": "proxy-generation-quality_first",
+          "synthetic": true,
+          "weights": {
+            "quality": 60,
+            "speed": 10,
+            "cost": 10,
+            "flexibility": 10,
+            "governance": 10
+          },
+          "expected_winner_id": "proxy-generation-option-1"
+        },
+        {
+          "id": "proxy-generation-speed_first",
+          "synthetic": true,
+          "weights": {
+            "quality": 10,
+            "speed": 60,
+            "cost": 10,
+            "flexibility": 10,
+            "governance": 10
+          },
+          "expected_winner_id": "proxy-generation-option-3"
+        },
+        {
+          "id": "proxy-generation-governance_first",
+          "synthetic": true,
+          "weights": {
+            "quality": 10,
+            "speed": 10,
+            "cost": 10,
+            "flexibility": 10,
+            "governance": 60
+          },
+          "expected_winner_id": "proxy-generation-option-1"
+        }
+      ]
+    },
+    {
+      "id": "review-mode",
+      "title": {
+        "en": "Review mode strategy",
+        "ru": "Стратегия просмотра"
+      },
+      "scope": {
+        "en": "Compare three review mode strategy options using adjustable production priorities.",
+        "ru": "Сравнение трёх вариантов «стратегия просмотра» по настраиваемым приоритетам."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "criteria": [
+        {
+          "id": "quality",
+          "label": {
+            "en": "Quality assurance",
+            "ru": "Контроль качества"
+          }
+        },
+        {
+          "id": "speed",
+          "label": {
+            "en": "Delivery speed",
+            "ru": "Скорость поставки"
+          }
+        },
+        {
+          "id": "cost",
+          "label": {
+            "en": "Cost efficiency",
+            "ru": "Эффективность затрат"
+          }
+        },
+        {
+          "id": "flexibility",
+          "label": {
+            "en": "Change flexibility",
+            "ru": "Гибкость изменений"
+          }
+        },
+        {
+          "id": "governance",
+          "label": {
+            "en": "Evidence and governance",
+            "ru": "Доказательства и управление"
+          }
+        }
+      ],
+      "options": [
+        {
+          "id": "review-mode-option-1",
+          "label": {
+            "en": "Supervised live review",
+            "ru": "Контролируемый живой просмотр"
+          },
+          "ratings": {
+            "quality": 90,
+            "speed": 55,
+            "cost": 45,
+            "flexibility": 60,
+            "governance": 90
+          }
+        },
+        {
+          "id": "review-mode-option-2",
+          "label": {
+            "en": "Scheduled cloud review",
+            "ru": "Плановый облачный просмотр"
+          },
+          "ratings": {
+            "quality": 78,
+            "speed": 75,
+            "cost": 72,
+            "flexibility": 82,
+            "governance": 75
+          }
+        },
+        {
+          "id": "review-mode-option-3",
+          "label": {
+            "en": "Asynchronous frame review",
+            "ru": "Асинхронный покадровый просмотр"
+          },
+          "ratings": {
+            "quality": 60,
+            "speed": 92,
+            "cost": 92,
+            "flexibility": 75,
+            "governance": 55
+          }
+        }
+      ],
+      "scenarios": [
+        {
+          "id": "review-mode-balanced",
+          "synthetic": true,
+          "weights": {
+            "quality": 20,
+            "speed": 20,
+            "cost": 20,
+            "flexibility": 20,
+            "governance": 20
+          },
+          "expected_winner_id": "review-mode-option-2"
+        },
+        {
+          "id": "review-mode-quality_first",
+          "synthetic": true,
+          "weights": {
+            "quality": 60,
+            "speed": 10,
+            "cost": 10,
+            "flexibility": 10,
+            "governance": 10
+          },
+          "expected_winner_id": "review-mode-option-1"
+        },
+        {
+          "id": "review-mode-speed_first",
+          "synthetic": true,
+          "weights": {
+            "quality": 10,
+            "speed": 60,
+            "cost": 10,
+            "flexibility": 10,
+            "governance": 10
+          },
+          "expected_winner_id": "review-mode-option-3"
+        },
+        {
+          "id": "review-mode-governance_first",
+          "synthetic": true,
+          "weights": {
+            "quality": 10,
+            "speed": 10,
+            "cost": 10,
+            "flexibility": 10,
+            "governance": 60
+          },
+          "expected_winner_id": "review-mode-option-1"
+        }
+      ]
+    },
+    {
+      "id": "approval-model",
+      "title": {
+        "en": "Approval model",
+        "ru": "Модель согласования"
+      },
+      "scope": {
+        "en": "Compare three approval model options using adjustable production priorities.",
+        "ru": "Сравнение трёх вариантов «модель согласования» по настраиваемым приоритетам."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "criteria": [
+        {
+          "id": "quality",
+          "label": {
+            "en": "Quality assurance",
+            "ru": "Контроль качества"
+          }
+        },
+        {
+          "id": "speed",
+          "label": {
+            "en": "Delivery speed",
+            "ru": "Скорость поставки"
+          }
+        },
+        {
+          "id": "cost",
+          "label": {
+            "en": "Cost efficiency",
+            "ru": "Эффективность затрат"
+          }
+        },
+        {
+          "id": "flexibility",
+          "label": {
+            "en": "Change flexibility",
+            "ru": "Гибкость изменений"
+          }
+        },
+        {
+          "id": "governance",
+          "label": {
+            "en": "Evidence and governance",
+            "ru": "Доказательства и управление"
+          }
+        }
+      ],
+      "options": [
+        {
+          "id": "approval-model-option-1",
+          "label": {
+            "en": "Single accountable owner",
+            "ru": "Один ответственный владелец"
+          },
+          "ratings": {
+            "quality": 90,
+            "speed": 55,
+            "cost": 45,
+            "flexibility": 60,
+            "governance": 90
+          }
+        },
+        {
+          "id": "approval-model-option-2",
+          "label": {
+            "en": "Staged approval chain",
+            "ru": "Поэтапная цепочка согласования"
+          },
+          "ratings": {
+            "quality": 78,
+            "speed": 75,
+            "cost": 72,
+            "flexibility": 82,
+            "governance": 75
+          }
+        },
+        {
+          "id": "approval-model-option-3",
+          "label": {
+            "en": "Distributed quorum",
+            "ru": "Распределённый кворум"
+          },
+          "ratings": {
+            "quality": 60,
+            "speed": 92,
+            "cost": 92,
+            "flexibility": 75,
+            "governance": 55
+          }
+        }
+      ],
+      "scenarios": [
+        {
+          "id": "approval-model-balanced",
+          "synthetic": true,
+          "weights": {
+            "quality": 20,
+            "speed": 20,
+            "cost": 20,
+            "flexibility": 20,
+            "governance": 20
+          },
+          "expected_winner_id": "approval-model-option-2"
+        },
+        {
+          "id": "approval-model-quality_first",
+          "synthetic": true,
+          "weights": {
+            "quality": 60,
+            "speed": 10,
+            "cost": 10,
+            "flexibility": 10,
+            "governance": 10
+          },
+          "expected_winner_id": "approval-model-option-1"
+        },
+        {
+          "id": "approval-model-speed_first",
+          "synthetic": true,
+          "weights": {
+            "quality": 10,
+            "speed": 60,
+            "cost": 10,
+            "flexibility": 10,
+            "governance": 10
+          },
+          "expected_winner_id": "approval-model-option-3"
+        },
+        {
+          "id": "approval-model-governance_first",
+          "synthetic": true,
+          "weights": {
+            "quality": 10,
+            "speed": 10,
+            "cost": 10,
+            "flexibility": 10,
+            "governance": 60
+          },
+          "expected_winner_id": "approval-model-option-1"
+        }
+      ]
+    },
+    {
+      "id": "media-backup",
+      "title": {
+        "en": "Media backup strategy",
+        "ru": "Стратегия резервных копий"
+      },
+      "scope": {
+        "en": "Compare three media backup strategy options using adjustable production priorities.",
+        "ru": "Сравнение трёх вариантов «стратегия резервных копий» по настраиваемым приоритетам."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "criteria": [
+        {
+          "id": "quality",
+          "label": {
+            "en": "Quality assurance",
+            "ru": "Контроль качества"
+          }
+        },
+        {
+          "id": "speed",
+          "label": {
+            "en": "Delivery speed",
+            "ru": "Скорость поставки"
+          }
+        },
+        {
+          "id": "cost",
+          "label": {
+            "en": "Cost efficiency",
+            "ru": "Эффективность затрат"
+          }
+        },
+        {
+          "id": "flexibility",
+          "label": {
+            "en": "Change flexibility",
+            "ru": "Гибкость изменений"
+          }
+        },
+        {
+          "id": "governance",
+          "label": {
+            "en": "Evidence and governance",
+            "ru": "Доказательства и управление"
+          }
+        }
+      ],
+      "options": [
+        {
+          "id": "media-backup-option-1",
+          "label": {
+            "en": "Three-copy diverse storage",
+            "ru": "Три копии на разных носителях"
+          },
+          "ratings": {
+            "quality": 90,
+            "speed": 55,
+            "cost": 45,
+            "flexibility": 60,
+            "governance": 90
+          }
+        },
+        {
+          "id": "media-backup-option-2",
+          "label": {
+            "en": "Two verified copies",
+            "ru": "Две проверенные копии"
+          },
+          "ratings": {
+            "quality": 78,
+            "speed": 75,
+            "cost": 72,
+            "flexibility": 82,
+            "governance": 75
+          }
+        },
+        {
+          "id": "media-backup-option-3",
+          "label": {
+            "en": "Single verified working copy",
+            "ru": "Одна проверенная рабочая копия"
+          },
+          "ratings": {
+            "quality": 60,
+            "speed": 92,
+            "cost": 92,
+            "flexibility": 75,
+            "governance": 55
+          }
+        }
+      ],
+      "scenarios": [
+        {
+          "id": "media-backup-balanced",
+          "synthetic": true,
+          "weights": {
+            "quality": 20,
+            "speed": 20,
+            "cost": 20,
+            "flexibility": 20,
+            "governance": 20
+          },
+          "expected_winner_id": "media-backup-option-2"
+        },
+        {
+          "id": "media-backup-quality_first",
+          "synthetic": true,
+          "weights": {
+            "quality": 60,
+            "speed": 10,
+            "cost": 10,
+            "flexibility": 10,
+            "governance": 10
+          },
+          "expected_winner_id": "media-backup-option-1"
+        },
+        {
+          "id": "media-backup-speed_first",
+          "synthetic": true,
+          "weights": {
+            "quality": 10,
+            "speed": 60,
+            "cost": 10,
+            "flexibility": 10,
+            "governance": 10
+          },
+          "expected_winner_id": "media-backup-option-3"
+        },
+        {
+          "id": "media-backup-governance_first",
+          "synthetic": true,
+          "weights": {
+            "quality": 10,
+            "speed": 10,
+            "cost": 10,
+            "flexibility": 10,
+            "governance": 60
+          },
+          "expected_winner_id": "media-backup-option-1"
+        }
+      ]
+    },
+    {
+      "id": "edit-collaboration",
+      "title": {
+        "en": "Editorial collaboration",
+        "ru": "Совместная работа в монтаже"
+      },
+      "scope": {
+        "en": "Compare three editorial collaboration options using adjustable production priorities.",
+        "ru": "Сравнение трёх вариантов «совместная работа в монтаже» по настраиваемым приоритетам."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "criteria": [
+        {
+          "id": "quality",
+          "label": {
+            "en": "Quality assurance",
+            "ru": "Контроль качества"
+          }
+        },
+        {
+          "id": "speed",
+          "label": {
+            "en": "Delivery speed",
+            "ru": "Скорость поставки"
+          }
+        },
+        {
+          "id": "cost",
+          "label": {
+            "en": "Cost efficiency",
+            "ru": "Эффективность затрат"
+          }
+        },
+        {
+          "id": "flexibility",
+          "label": {
+            "en": "Change flexibility",
+            "ru": "Гибкость изменений"
+          }
+        },
+        {
+          "id": "governance",
+          "label": {
+            "en": "Evidence and governance",
+            "ru": "Доказательства и управление"
+          }
+        }
+      ],
+      "options": [
+        {
+          "id": "edit-collaboration-option-1",
+          "label": {
+            "en": "Central project and shared storage",
+            "ru": "Центральный проект и общее хранилище"
+          },
+          "ratings": {
+            "quality": 90,
+            "speed": 55,
+            "cost": 45,
+            "flexibility": 60,
+            "governance": 90
+          }
+        },
+        {
+          "id": "edit-collaboration-option-2",
+          "label": {
+            "en": "Managed project exchange",
+            "ru": "Управляемый обмен проектами"
+          },
+          "ratings": {
+            "quality": 78,
+            "speed": 75,
+            "cost": 72,
+            "flexibility": 82,
+            "governance": 75
+          }
+        },
+        {
+          "id": "edit-collaboration-option-3",
+          "label": {
+            "en": "Independent edits with merge",
+            "ru": "Независимый монтаж с объединением"
+          },
+          "ratings": {
+            "quality": 60,
+            "speed": 92,
+            "cost": 92,
+            "flexibility": 75,
+            "governance": 55
+          }
+        }
+      ],
+      "scenarios": [
+        {
+          "id": "edit-collaboration-balanced",
+          "synthetic": true,
+          "weights": {
+            "quality": 20,
+            "speed": 20,
+            "cost": 20,
+            "flexibility": 20,
+            "governance": 20
+          },
+          "expected_winner_id": "edit-collaboration-option-2"
+        },
+        {
+          "id": "edit-collaboration-quality_first",
+          "synthetic": true,
+          "weights": {
+            "quality": 60,
+            "speed": 10,
+            "cost": 10,
+            "flexibility": 10,
+            "governance": 10
+          },
+          "expected_winner_id": "edit-collaboration-option-1"
+        },
+        {
+          "id": "edit-collaboration-speed_first",
+          "synthetic": true,
+          "weights": {
+            "quality": 10,
+            "speed": 60,
+            "cost": 10,
+            "flexibility": 10,
+            "governance": 10
+          },
+          "expected_winner_id": "edit-collaboration-option-3"
+        },
+        {
+          "id": "edit-collaboration-governance_first",
+          "synthetic": true,
+          "weights": {
+            "quality": 10,
+            "speed": 10,
+            "cost": 10,
+            "flexibility": 10,
+            "governance": 60
+          },
+          "expected_winner_id": "edit-collaboration-option-1"
+        }
+      ]
+    },
+    {
+      "id": "vfx-turnover",
+      "title": {
+        "en": "VFX turnover strategy",
+        "ru": "Стратегия передачи VFX"
+      },
+      "scope": {
+        "en": "Compare three vfx turnover strategy options using adjustable production priorities.",
+        "ru": "Сравнение трёх вариантов «стратегия передачи vfx» по настраиваемым приоритетам."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "criteria": [
+        {
+          "id": "quality",
+          "label": {
+            "en": "Quality assurance",
+            "ru": "Контроль качества"
+          }
+        },
+        {
+          "id": "speed",
+          "label": {
+            "en": "Delivery speed",
+            "ru": "Скорость поставки"
+          }
+        },
+        {
+          "id": "cost",
+          "label": {
+            "en": "Cost efficiency",
+            "ru": "Эффективность затрат"
+          }
+        },
+        {
+          "id": "flexibility",
+          "label": {
+            "en": "Change flexibility",
+            "ru": "Гибкость изменений"
+          }
+        },
+        {
+          "id": "governance",
+          "label": {
+            "en": "Evidence and governance",
+            "ru": "Доказательства и управление"
+          }
+        }
+      ],
+      "options": [
+        {
+          "id": "vfx-turnover-option-1",
+          "label": {
+            "en": "Versioned pulls with handles",
+            "ru": "Версионные pulls с handles"
+          },
+          "ratings": {
+            "quality": 90,
+            "speed": 55,
+            "cost": 45,
+            "flexibility": 60,
+            "governance": 90
+          }
+        },
+        {
+          "id": "vfx-turnover-option-2",
+          "label": {
+            "en": "Managed plates and references",
+            "ru": "Управляемые plates и референсы"
+          },
+          "ratings": {
+            "quality": 78,
+            "speed": 75,
+            "cost": 72,
+            "flexibility": 82,
+            "governance": 75
+          }
+        },
+        {
+          "id": "vfx-turnover-option-3",
+          "label": {
+            "en": "Direct rendered-shot exchange",
+            "ru": "Прямой обмен отрендеренными шотами"
+          },
+          "ratings": {
+            "quality": 60,
+            "speed": 92,
+            "cost": 92,
+            "flexibility": 75,
+            "governance": 55
+          }
+        }
+      ],
+      "scenarios": [
+        {
+          "id": "vfx-turnover-balanced",
+          "synthetic": true,
+          "weights": {
+            "quality": 20,
+            "speed": 20,
+            "cost": 20,
+            "flexibility": 20,
+            "governance": 20
+          },
+          "expected_winner_id": "vfx-turnover-option-2"
+        },
+        {
+          "id": "vfx-turnover-quality_first",
+          "synthetic": true,
+          "weights": {
+            "quality": 60,
+            "speed": 10,
+            "cost": 10,
+            "flexibility": 10,
+            "governance": 10
+          },
+          "expected_winner_id": "vfx-turnover-option-1"
+        },
+        {
+          "id": "vfx-turnover-speed_first",
+          "synthetic": true,
+          "weights": {
+            "quality": 10,
+            "speed": 60,
+            "cost": 10,
+            "flexibility": 10,
+            "governance": 10
+          },
+          "expected_winner_id": "vfx-turnover-option-3"
+        },
+        {
+          "id": "vfx-turnover-governance_first",
+          "synthetic": true,
+          "weights": {
+            "quality": 10,
+            "speed": 10,
+            "cost": 10,
+            "flexibility": 10,
+            "governance": 60
+          },
+          "expected_winner_id": "vfx-turnover-option-1"
+        }
+      ]
+    },
+    {
+      "id": "color-pipeline",
+      "title": {
+        "en": "Color pipeline strategy",
+        "ru": "Стратегия цветового pipeline"
+      },
+      "scope": {
+        "en": "Compare three color pipeline strategy options using adjustable production priorities.",
+        "ru": "Сравнение трёх вариантов «стратегия цветового pipeline» по настраиваемым приоритетам."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "criteria": [
+        {
+          "id": "quality",
+          "label": {
+            "en": "Quality assurance",
+            "ru": "Контроль качества"
+          }
+        },
+        {
+          "id": "speed",
+          "label": {
+            "en": "Delivery speed",
+            "ru": "Скорость поставки"
+          }
+        },
+        {
+          "id": "cost",
+          "label": {
+            "en": "Cost efficiency",
+            "ru": "Эффективность затрат"
+          }
+        },
+        {
+          "id": "flexibility",
+          "label": {
+            "en": "Change flexibility",
+            "ru": "Гибкость изменений"
+          }
+        },
+        {
+          "id": "governance",
+          "label": {
+            "en": "Evidence and governance",
+            "ru": "Доказательства и управление"
+          }
+        }
+      ],
+      "options": [
+        {
+          "id": "color-pipeline-option-1",
+          "label": {
+            "en": "Scene-referred managed pipeline",
+            "ru": "Управляемый scene-referred pipeline"
+          },
+          "ratings": {
+            "quality": 90,
+            "speed": 55,
+            "cost": 45,
+            "flexibility": 60,
+            "governance": 90
+          }
+        },
+        {
+          "id": "color-pipeline-option-2",
+          "label": {
+            "en": "Display-referred managed pipeline",
+            "ru": "Управляемый display-referred pipeline"
+          },
+          "ratings": {
+            "quality": 78,
+            "speed": 75,
+            "cost": 72,
+            "flexibility": 82,
+            "governance": 75
+          }
+        },
+        {
+          "id": "color-pipeline-option-3",
+          "label": {
+            "en": "Baked-look pipeline",
+            "ru": "Pipeline с запечённым look"
+          },
+          "ratings": {
+            "quality": 60,
+            "speed": 92,
+            "cost": 92,
+            "flexibility": 75,
+            "governance": 55
+          }
+        }
+      ],
+      "scenarios": [
+        {
+          "id": "color-pipeline-balanced",
+          "synthetic": true,
+          "weights": {
+            "quality": 20,
+            "speed": 20,
+            "cost": 20,
+            "flexibility": 20,
+            "governance": 20
+          },
+          "expected_winner_id": "color-pipeline-option-2"
+        },
+        {
+          "id": "color-pipeline-quality_first",
+          "synthetic": true,
+          "weights": {
+            "quality": 60,
+            "speed": 10,
+            "cost": 10,
+            "flexibility": 10,
+            "governance": 10
+          },
+          "expected_winner_id": "color-pipeline-option-1"
+        },
+        {
+          "id": "color-pipeline-speed_first",
+          "synthetic": true,
+          "weights": {
+            "quality": 10,
+            "speed": 60,
+            "cost": 10,
+            "flexibility": 10,
+            "governance": 10
+          },
+          "expected_winner_id": "color-pipeline-option-3"
+        },
+        {
+          "id": "color-pipeline-governance_first",
+          "synthetic": true,
+          "weights": {
+            "quality": 10,
+            "speed": 10,
+            "cost": 10,
+            "flexibility": 10,
+            "governance": 60
+          },
+          "expected_winner_id": "color-pipeline-option-1"
+        }
+      ]
+    },
+    {
+      "id": "mix-delivery",
+      "title": {
+        "en": "Mix delivery strategy",
+        "ru": "Стратегия выдачи звука"
+      },
+      "scope": {
+        "en": "Compare three mix delivery strategy options using adjustable production priorities.",
+        "ru": "Сравнение трёх вариантов «стратегия выдачи звука» по настраиваемым приоритетам."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "criteria": [
+        {
+          "id": "quality",
+          "label": {
+            "en": "Quality assurance",
+            "ru": "Контроль качества"
+          }
+        },
+        {
+          "id": "speed",
+          "label": {
+            "en": "Delivery speed",
+            "ru": "Скорость поставки"
+          }
+        },
+        {
+          "id": "cost",
+          "label": {
+            "en": "Cost efficiency",
+            "ru": "Эффективность затрат"
+          }
+        },
+        {
+          "id": "flexibility",
+          "label": {
+            "en": "Change flexibility",
+            "ru": "Гибкость изменений"
+          }
+        },
+        {
+          "id": "governance",
+          "label": {
+            "en": "Evidence and governance",
+            "ru": "Доказательства и управление"
+          }
+        }
+      ],
+      "options": [
+        {
+          "id": "mix-delivery-option-1",
+          "label": {
+            "en": "Full stems and printmaster",
+            "ru": "Полные stems и printmaster"
+          },
+          "ratings": {
+            "quality": 90,
+            "speed": 55,
+            "cost": 45,
+            "flexibility": 60,
+            "governance": 90
+          }
+        },
+        {
+          "id": "mix-delivery-option-2",
+          "label": {
+            "en": "Core stems and printmaster",
+            "ru": "Основные stems и printmaster"
+          },
+          "ratings": {
+            "quality": 78,
+            "speed": 75,
+            "cost": 72,
+            "flexibility": 82,
+            "governance": 75
+          }
+        },
+        {
+          "id": "mix-delivery-option-3",
+          "label": {
+            "en": "Printmaster only",
+            "ru": "Только printmaster"
+          },
+          "ratings": {
+            "quality": 60,
+            "speed": 92,
+            "cost": 92,
+            "flexibility": 75,
+            "governance": 55
+          }
+        }
+      ],
+      "scenarios": [
+        {
+          "id": "mix-delivery-balanced",
+          "synthetic": true,
+          "weights": {
+            "quality": 20,
+            "speed": 20,
+            "cost": 20,
+            "flexibility": 20,
+            "governance": 20
+          },
+          "expected_winner_id": "mix-delivery-option-2"
+        },
+        {
+          "id": "mix-delivery-quality_first",
+          "synthetic": true,
+          "weights": {
+            "quality": 60,
+            "speed": 10,
+            "cost": 10,
+            "flexibility": 10,
+            "governance": 10
+          },
+          "expected_winner_id": "mix-delivery-option-1"
+        },
+        {
+          "id": "mix-delivery-speed_first",
+          "synthetic": true,
+          "weights": {
+            "quality": 10,
+            "speed": 60,
+            "cost": 10,
+            "flexibility": 10,
+            "governance": 10
+          },
+          "expected_winner_id": "mix-delivery-option-3"
+        },
+        {
+          "id": "mix-delivery-governance_first",
+          "synthetic": true,
+          "weights": {
+            "quality": 10,
+            "speed": 10,
+            "cost": 10,
+            "flexibility": 10,
+            "governance": 60
+          },
+          "expected_winner_id": "mix-delivery-option-1"
+        }
+      ]
+    },
+    {
+      "id": "caption-format",
+      "title": {
+        "en": "Caption packaging",
+        "ru": "Упаковка субтитров"
+      },
+      "scope": {
+        "en": "Compare three caption packaging options using adjustable production priorities.",
+        "ru": "Сравнение трёх вариантов «упаковка субтитров» по настраиваемым приоритетам."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "criteria": [
+        {
+          "id": "quality",
+          "label": {
+            "en": "Quality assurance",
+            "ru": "Контроль качества"
+          }
+        },
+        {
+          "id": "speed",
+          "label": {
+            "en": "Delivery speed",
+            "ru": "Скорость поставки"
+          }
+        },
+        {
+          "id": "cost",
+          "label": {
+            "en": "Cost efficiency",
+            "ru": "Эффективность затрат"
+          }
+        },
+        {
+          "id": "flexibility",
+          "label": {
+            "en": "Change flexibility",
+            "ru": "Гибкость изменений"
+          }
+        },
+        {
+          "id": "governance",
+          "label": {
+            "en": "Evidence and governance",
+            "ru": "Доказательства и управление"
+          }
+        }
+      ],
+      "options": [
+        {
+          "id": "caption-format-option-1",
+          "label": {
+            "en": "Sidecar master formats",
+            "ru": "Мастер-форматы sidecar"
+          },
+          "ratings": {
+            "quality": 90,
+            "speed": 55,
+            "cost": 45,
+            "flexibility": 60,
+            "governance": 90
+          }
+        },
+        {
+          "id": "caption-format-option-2",
+          "label": {
+            "en": "Platform-specific sidecars",
+            "ru": "Платформенные sidecar-файлы"
+          },
+          "ratings": {
+            "quality": 78,
+            "speed": 75,
+            "cost": 72,
+            "flexibility": 82,
+            "governance": 75
+          }
+        },
+        {
+          "id": "caption-format-option-3",
+          "label": {
+            "en": "Burned-in captions",
+            "ru": "Вшитые субтитры"
+          },
+          "ratings": {
+            "quality": 60,
+            "speed": 92,
+            "cost": 92,
+            "flexibility": 75,
+            "governance": 55
+          }
+        }
+      ],
+      "scenarios": [
+        {
+          "id": "caption-format-balanced",
+          "synthetic": true,
+          "weights": {
+            "quality": 20,
+            "speed": 20,
+            "cost": 20,
+            "flexibility": 20,
+            "governance": 20
+          },
+          "expected_winner_id": "caption-format-option-2"
+        },
+        {
+          "id": "caption-format-quality_first",
+          "synthetic": true,
+          "weights": {
+            "quality": 60,
+            "speed": 10,
+            "cost": 10,
+            "flexibility": 10,
+            "governance": 10
+          },
+          "expected_winner_id": "caption-format-option-1"
+        },
+        {
+          "id": "caption-format-speed_first",
+          "synthetic": true,
+          "weights": {
+            "quality": 10,
+            "speed": 60,
+            "cost": 10,
+            "flexibility": 10,
+            "governance": 10
+          },
+          "expected_winner_id": "caption-format-option-3"
+        },
+        {
+          "id": "caption-format-governance_first",
+          "synthetic": true,
+          "weights": {
+            "quality": 10,
+            "speed": 10,
+            "cost": 10,
+            "flexibility": 10,
+            "governance": 60
+          },
+          "expected_winner_id": "caption-format-option-1"
+        }
+      ]
+    },
+    {
+      "id": "localization-model",
+      "title": {
+        "en": "Localization production model",
+        "ru": "Модель локализации"
+      },
+      "scope": {
+        "en": "Compare three localization production model options using adjustable production priorities.",
+        "ru": "Сравнение трёх вариантов «модель локализации» по настраиваемым приоритетам."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "criteria": [
+        {
+          "id": "quality",
+          "label": {
+            "en": "Quality assurance",
+            "ru": "Контроль качества"
+          }
+        },
+        {
+          "id": "speed",
+          "label": {
+            "en": "Delivery speed",
+            "ru": "Скорость поставки"
+          }
+        },
+        {
+          "id": "cost",
+          "label": {
+            "en": "Cost efficiency",
+            "ru": "Эффективность затрат"
+          }
+        },
+        {
+          "id": "flexibility",
+          "label": {
+            "en": "Change flexibility",
+            "ru": "Гибкость изменений"
+          }
+        },
+        {
+          "id": "governance",
+          "label": {
+            "en": "Evidence and governance",
+            "ru": "Доказательства и управление"
+          }
+        }
+      ],
+      "options": [
+        {
+          "id": "localization-model-option-1",
+          "label": {
+            "en": "Central terminology-led localization",
+            "ru": "Централизованная локализация с терминологией"
+          },
+          "ratings": {
+            "quality": 90,
+            "speed": 55,
+            "cost": 45,
+            "flexibility": 60,
+            "governance": 90
+          }
+        },
+        {
+          "id": "localization-model-option-2",
+          "label": {
+            "en": "Regional managed localization",
+            "ru": "Региональная управляемая локализация"
+          },
+          "ratings": {
+            "quality": 78,
+            "speed": 75,
+            "cost": 72,
+            "flexibility": 82,
+            "governance": 75
+          }
+        },
+        {
+          "id": "localization-model-option-3",
+          "label": {
+            "en": "Direct vendor localization",
+            "ru": "Прямая локализация подрядчиком"
+          },
+          "ratings": {
+            "quality": 60,
+            "speed": 92,
+            "cost": 92,
+            "flexibility": 75,
+            "governance": 55
+          }
+        }
+      ],
+      "scenarios": [
+        {
+          "id": "localization-model-balanced",
+          "synthetic": true,
+          "weights": {
+            "quality": 20,
+            "speed": 20,
+            "cost": 20,
+            "flexibility": 20,
+            "governance": 20
+          },
+          "expected_winner_id": "localization-model-option-2"
+        },
+        {
+          "id": "localization-model-quality_first",
+          "synthetic": true,
+          "weights": {
+            "quality": 60,
+            "speed": 10,
+            "cost": 10,
+            "flexibility": 10,
+            "governance": 10
+          },
+          "expected_winner_id": "localization-model-option-1"
+        },
+        {
+          "id": "localization-model-speed_first",
+          "synthetic": true,
+          "weights": {
+            "quality": 10,
+            "speed": 60,
+            "cost": 10,
+            "flexibility": 10,
+            "governance": 10
+          },
+          "expected_winner_id": "localization-model-option-3"
+        },
+        {
+          "id": "localization-model-governance_first",
+          "synthetic": true,
+          "weights": {
+            "quality": 10,
+            "speed": 10,
+            "cost": 10,
+            "flexibility": 10,
+            "governance": 60
+          },
+          "expected_winner_id": "localization-model-option-1"
+        }
+      ]
+    },
+    {
+      "id": "asset-naming",
+      "title": {
+        "en": "Asset naming governance",
+        "ru": "Управление именованием"
+      },
+      "scope": {
+        "en": "Compare three asset naming governance options using adjustable production priorities.",
+        "ru": "Сравнение трёх вариантов «управление именованием» по настраиваемым приоритетам."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "criteria": [
+        {
+          "id": "quality",
+          "label": {
+            "en": "Quality assurance",
+            "ru": "Контроль качества"
+          }
+        },
+        {
+          "id": "speed",
+          "label": {
+            "en": "Delivery speed",
+            "ru": "Скорость поставки"
+          }
+        },
+        {
+          "id": "cost",
+          "label": {
+            "en": "Cost efficiency",
+            "ru": "Эффективность затрат"
+          }
+        },
+        {
+          "id": "flexibility",
+          "label": {
+            "en": "Change flexibility",
+            "ru": "Гибкость изменений"
+          }
+        },
+        {
+          "id": "governance",
+          "label": {
+            "en": "Evidence and governance",
+            "ru": "Доказательства и управление"
+          }
+        }
+      ],
+      "options": [
+        {
+          "id": "asset-naming-option-1",
+          "label": {
+            "en": "Schema-enforced identifiers",
+            "ru": "Идентификаторы по схеме"
+          },
+          "ratings": {
+            "quality": 90,
+            "speed": 55,
+            "cost": 45,
+            "flexibility": 60,
+            "governance": 90
+          }
+        },
+        {
+          "id": "asset-naming-option-2",
+          "label": {
+            "en": "Template-based names",
+            "ru": "Имена по шаблону"
+          },
+          "ratings": {
+            "quality": 78,
+            "speed": 75,
+            "cost": 72,
+            "flexibility": 82,
+            "governance": 75
+          }
+        },
+        {
+          "id": "asset-naming-option-3",
+          "label": {
+            "en": "Human-readable free names",
+            "ru": "Свободные читаемые имена"
+          },
+          "ratings": {
+            "quality": 60,
+            "speed": 92,
+            "cost": 92,
+            "flexibility": 75,
+            "governance": 55
+          }
+        }
+      ],
+      "scenarios": [
+        {
+          "id": "asset-naming-balanced",
+          "synthetic": true,
+          "weights": {
+            "quality": 20,
+            "speed": 20,
+            "cost": 20,
+            "flexibility": 20,
+            "governance": 20
+          },
+          "expected_winner_id": "asset-naming-option-2"
+        },
+        {
+          "id": "asset-naming-quality_first",
+          "synthetic": true,
+          "weights": {
+            "quality": 60,
+            "speed": 10,
+            "cost": 10,
+            "flexibility": 10,
+            "governance": 10
+          },
+          "expected_winner_id": "asset-naming-option-1"
+        },
+        {
+          "id": "asset-naming-speed_first",
+          "synthetic": true,
+          "weights": {
+            "quality": 10,
+            "speed": 60,
+            "cost": 10,
+            "flexibility": 10,
+            "governance": 10
+          },
+          "expected_winner_id": "asset-naming-option-3"
+        },
+        {
+          "id": "asset-naming-governance_first",
+          "synthetic": true,
+          "weights": {
+            "quality": 10,
+            "speed": 10,
+            "cost": 10,
+            "flexibility": 10,
+            "governance": 60
+          },
+          "expected_winner_id": "asset-naming-option-1"
+        }
+      ]
+    },
+    {
+      "id": "metadata-carriage",
+      "title": {
+        "en": "Metadata carriage",
+        "ru": "Передача метаданных"
+      },
+      "scope": {
+        "en": "Compare three metadata carriage options using adjustable production priorities.",
+        "ru": "Сравнение трёх вариантов «передача метаданных» по настраиваемым приоритетам."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "criteria": [
+        {
+          "id": "quality",
+          "label": {
+            "en": "Quality assurance",
+            "ru": "Контроль качества"
+          }
+        },
+        {
+          "id": "speed",
+          "label": {
+            "en": "Delivery speed",
+            "ru": "Скорость поставки"
+          }
+        },
+        {
+          "id": "cost",
+          "label": {
+            "en": "Cost efficiency",
+            "ru": "Эффективность затрат"
+          }
+        },
+        {
+          "id": "flexibility",
+          "label": {
+            "en": "Change flexibility",
+            "ru": "Гибкость изменений"
+          }
+        },
+        {
+          "id": "governance",
+          "label": {
+            "en": "Evidence and governance",
+            "ru": "Доказательства и управление"
+          }
+        }
+      ],
+      "options": [
+        {
+          "id": "metadata-carriage-option-1",
+          "label": {
+            "en": "Manifest plus embedded metadata",
+            "ru": "Manifest и встроенные метаданные"
+          },
+          "ratings": {
+            "quality": 90,
+            "speed": 55,
+            "cost": 45,
+            "flexibility": 60,
+            "governance": 90
+          }
+        },
+        {
+          "id": "metadata-carriage-option-2",
+          "label": {
+            "en": "Manifest-led metadata",
+            "ru": "Метаданные через manifest"
+          },
+          "ratings": {
+            "quality": 78,
+            "speed": 75,
+            "cost": 72,
+            "flexibility": 82,
+            "governance": 75
+          }
+        },
+        {
+          "id": "metadata-carriage-option-3",
+          "label": {
+            "en": "Embedded metadata only",
+            "ru": "Только встроенные метаданные"
+          },
+          "ratings": {
+            "quality": 60,
+            "speed": 92,
+            "cost": 92,
+            "flexibility": 75,
+            "governance": 55
+          }
+        }
+      ],
+      "scenarios": [
+        {
+          "id": "metadata-carriage-balanced",
+          "synthetic": true,
+          "weights": {
+            "quality": 20,
+            "speed": 20,
+            "cost": 20,
+            "flexibility": 20,
+            "governance": 20
+          },
+          "expected_winner_id": "metadata-carriage-option-2"
+        },
+        {
+          "id": "metadata-carriage-quality_first",
+          "synthetic": true,
+          "weights": {
+            "quality": 60,
+            "speed": 10,
+            "cost": 10,
+            "flexibility": 10,
+            "governance": 10
+          },
+          "expected_winner_id": "metadata-carriage-option-1"
+        },
+        {
+          "id": "metadata-carriage-speed_first",
+          "synthetic": true,
+          "weights": {
+            "quality": 10,
+            "speed": 60,
+            "cost": 10,
+            "flexibility": 10,
+            "governance": 10
+          },
+          "expected_winner_id": "metadata-carriage-option-3"
+        },
+        {
+          "id": "metadata-carriage-governance_first",
+          "synthetic": true,
+          "weights": {
+            "quality": 10,
+            "speed": 10,
+            "cost": 10,
+            "flexibility": 10,
+            "governance": 60
+          },
+          "expected_winner_id": "metadata-carriage-option-1"
+        }
+      ]
+    },
+    {
+      "id": "delivery-channel",
+      "title": {
+        "en": "Delivery channel",
+        "ru": "Канал доставки"
+      },
+      "scope": {
+        "en": "Compare three delivery channel options using adjustable production priorities.",
+        "ru": "Сравнение трёх вариантов «канал доставки» по настраиваемым приоритетам."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "criteria": [
+        {
+          "id": "quality",
+          "label": {
+            "en": "Quality assurance",
+            "ru": "Контроль качества"
+          }
+        },
+        {
+          "id": "speed",
+          "label": {
+            "en": "Delivery speed",
+            "ru": "Скорость поставки"
+          }
+        },
+        {
+          "id": "cost",
+          "label": {
+            "en": "Cost efficiency",
+            "ru": "Эффективность затрат"
+          }
+        },
+        {
+          "id": "flexibility",
+          "label": {
+            "en": "Change flexibility",
+            "ru": "Гибкость изменений"
+          }
+        },
+        {
+          "id": "governance",
+          "label": {
+            "en": "Evidence and governance",
+            "ru": "Доказательства и управление"
+          }
+        }
+      ],
+      "options": [
+        {
+          "id": "delivery-channel-option-1",
+          "label": {
+            "en": "Managed accelerated transfer",
+            "ru": "Управляемая ускоренная передача"
+          },
+          "ratings": {
+            "quality": 90,
+            "speed": 55,
+            "cost": 45,
+            "flexibility": 60,
+            "governance": 90
+          }
+        },
+        {
+          "id": "delivery-channel-option-2",
+          "label": {
+            "en": "Controlled cloud delivery",
+            "ru": "Контролируемая облачная доставка"
+          },
+          "ratings": {
+            "quality": 78,
+            "speed": 75,
+            "cost": 72,
+            "flexibility": 82,
+            "governance": 75
+          }
+        },
+        {
+          "id": "delivery-channel-option-3",
+          "label": {
+            "en": "Standard file transfer",
+            "ru": "Стандартная передача файлов"
+          },
+          "ratings": {
+            "quality": 60,
+            "speed": 92,
+            "cost": 92,
+            "flexibility": 75,
+            "governance": 55
+          }
+        }
+      ],
+      "scenarios": [
+        {
+          "id": "delivery-channel-balanced",
+          "synthetic": true,
+          "weights": {
+            "quality": 20,
+            "speed": 20,
+            "cost": 20,
+            "flexibility": 20,
+            "governance": 20
+          },
+          "expected_winner_id": "delivery-channel-option-2"
+        },
+        {
+          "id": "delivery-channel-quality_first",
+          "synthetic": true,
+          "weights": {
+            "quality": 60,
+            "speed": 10,
+            "cost": 10,
+            "flexibility": 10,
+            "governance": 10
+          },
+          "expected_winner_id": "delivery-channel-option-1"
+        },
+        {
+          "id": "delivery-channel-speed_first",
+          "synthetic": true,
+          "weights": {
+            "quality": 10,
+            "speed": 60,
+            "cost": 10,
+            "flexibility": 10,
+            "governance": 10
+          },
+          "expected_winner_id": "delivery-channel-option-3"
+        },
+        {
+          "id": "delivery-channel-governance_first",
+          "synthetic": true,
+          "weights": {
+            "quality": 10,
+            "speed": 10,
+            "cost": 10,
+            "flexibility": 10,
+            "governance": 60
+          },
+          "expected_winner_id": "delivery-channel-option-1"
+        }
+      ]
+    },
+    {
+      "id": "qc-model",
+      "title": {
+        "en": "Quality control model",
+        "ru": "Модель контроля качества"
+      },
+      "scope": {
+        "en": "Compare three quality control model options using adjustable production priorities.",
+        "ru": "Сравнение трёх вариантов «модель контроля качества» по настраиваемым приоритетам."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "criteria": [
+        {
+          "id": "quality",
+          "label": {
+            "en": "Quality assurance",
+            "ru": "Контроль качества"
+          }
+        },
+        {
+          "id": "speed",
+          "label": {
+            "en": "Delivery speed",
+            "ru": "Скорость поставки"
+          }
+        },
+        {
+          "id": "cost",
+          "label": {
+            "en": "Cost efficiency",
+            "ru": "Эффективность затрат"
+          }
+        },
+        {
+          "id": "flexibility",
+          "label": {
+            "en": "Change flexibility",
+            "ru": "Гибкость изменений"
+          }
+        },
+        {
+          "id": "governance",
+          "label": {
+            "en": "Evidence and governance",
+            "ru": "Доказательства и управление"
+          }
+        }
+      ],
+      "options": [
+        {
+          "id": "qc-model-option-1",
+          "label": {
+            "en": "Independent technical and editorial QC",
+            "ru": "Независимый технический и редакторский QC"
+          },
+          "ratings": {
+            "quality": 90,
+            "speed": 55,
+            "cost": 45,
+            "flexibility": 60,
+            "governance": 90
+          }
+        },
+        {
+          "id": "qc-model-option-2",
+          "label": {
+            "en": "Integrated multi-discipline QC",
+            "ru": "Совмещённый комплексный QC"
+          },
+          "ratings": {
+            "quality": 78,
+            "speed": 75,
+            "cost": 72,
+            "flexibility": 82,
+            "governance": 75
+          }
+        },
+        {
+          "id": "qc-model-option-3",
+          "label": {
+            "en": "Owner spot-check",
+            "ru": "Выборочная проверка владельцем"
+          },
+          "ratings": {
+            "quality": 60,
+            "speed": 92,
+            "cost": 92,
+            "flexibility": 75,
+            "governance": 55
+          }
+        }
+      ],
+      "scenarios": [
+        {
+          "id": "qc-model-balanced",
+          "synthetic": true,
+          "weights": {
+            "quality": 20,
+            "speed": 20,
+            "cost": 20,
+            "flexibility": 20,
+            "governance": 20
+          },
+          "expected_winner_id": "qc-model-option-2"
+        },
+        {
+          "id": "qc-model-quality_first",
+          "synthetic": true,
+          "weights": {
+            "quality": 60,
+            "speed": 10,
+            "cost": 10,
+            "flexibility": 10,
+            "governance": 10
+          },
+          "expected_winner_id": "qc-model-option-1"
+        },
+        {
+          "id": "qc-model-speed_first",
+          "synthetic": true,
+          "weights": {
+            "quality": 10,
+            "speed": 60,
+            "cost": 10,
+            "flexibility": 10,
+            "governance": 10
+          },
+          "expected_winner_id": "qc-model-option-3"
+        },
+        {
+          "id": "qc-model-governance_first",
+          "synthetic": true,
+          "weights": {
+            "quality": 10,
+            "speed": 10,
+            "cost": 10,
+            "flexibility": 10,
+            "governance": 60
+          },
+          "expected_winner_id": "qc-model-option-1"
+        }
+      ]
+    },
+    {
+      "id": "archive-tier",
+      "title": {
+        "en": "Archive storage tier",
+        "ru": "Уровень архивного хранения"
+      },
+      "scope": {
+        "en": "Compare three archive storage tier options using adjustable production priorities.",
+        "ru": "Сравнение трёх вариантов «уровень архивного хранения» по настраиваемым приоритетам."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "criteria": [
+        {
+          "id": "quality",
+          "label": {
+            "en": "Quality assurance",
+            "ru": "Контроль качества"
+          }
+        },
+        {
+          "id": "speed",
+          "label": {
+            "en": "Delivery speed",
+            "ru": "Скорость поставки"
+          }
+        },
+        {
+          "id": "cost",
+          "label": {
+            "en": "Cost efficiency",
+            "ru": "Эффективность затрат"
+          }
+        },
+        {
+          "id": "flexibility",
+          "label": {
+            "en": "Change flexibility",
+            "ru": "Гибкость изменений"
+          }
+        },
+        {
+          "id": "governance",
+          "label": {
+            "en": "Evidence and governance",
+            "ru": "Доказательства и управление"
+          }
+        }
+      ],
+      "options": [
+        {
+          "id": "archive-tier-option-1",
+          "label": {
+            "en": "Geodiverse preservation archive",
+            "ru": "Географически распределённый архив"
+          },
+          "ratings": {
+            "quality": 90,
+            "speed": 55,
+            "cost": 45,
+            "flexibility": 60,
+            "governance": 90
+          }
+        },
+        {
+          "id": "archive-tier-option-2",
+          "label": {
+            "en": "Managed nearline archive",
+            "ru": "Управляемый nearline-архив"
+          },
+          "ratings": {
+            "quality": 78,
+            "speed": 75,
+            "cost": 72,
+            "flexibility": 82,
+            "governance": 75
+          }
+        },
+        {
+          "id": "archive-tier-option-3",
+          "label": {
+            "en": "Online working archive",
+            "ru": "Онлайн-рабочий архив"
+          },
+          "ratings": {
+            "quality": 60,
+            "speed": 92,
+            "cost": 92,
+            "flexibility": 75,
+            "governance": 55
+          }
+        }
+      ],
+      "scenarios": [
+        {
+          "id": "archive-tier-balanced",
+          "synthetic": true,
+          "weights": {
+            "quality": 20,
+            "speed": 20,
+            "cost": 20,
+            "flexibility": 20,
+            "governance": 20
+          },
+          "expected_winner_id": "archive-tier-option-2"
+        },
+        {
+          "id": "archive-tier-quality_first",
+          "synthetic": true,
+          "weights": {
+            "quality": 60,
+            "speed": 10,
+            "cost": 10,
+            "flexibility": 10,
+            "governance": 10
+          },
+          "expected_winner_id": "archive-tier-option-1"
+        },
+        {
+          "id": "archive-tier-speed_first",
+          "synthetic": true,
+          "weights": {
+            "quality": 10,
+            "speed": 60,
+            "cost": 10,
+            "flexibility": 10,
+            "governance": 10
+          },
+          "expected_winner_id": "archive-tier-option-3"
+        },
+        {
+          "id": "archive-tier-governance_first",
+          "synthetic": true,
+          "weights": {
+            "quality": 10,
+            "speed": 10,
+            "cost": 10,
+            "flexibility": 10,
+            "governance": 60
+          },
+          "expected_winner_id": "archive-tier-option-1"
+        }
+      ]
+    },
+    {
+      "id": "restore-testing",
+      "title": {
+        "en": "Restore testing strategy",
+        "ru": "Стратегия тестирования восстановления"
+      },
+      "scope": {
+        "en": "Compare three restore testing strategy options using adjustable production priorities.",
+        "ru": "Сравнение трёх вариантов «стратегия тестирования восстановления» по настраиваемым приоритетам."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "criteria": [
+        {
+          "id": "quality",
+          "label": {
+            "en": "Quality assurance",
+            "ru": "Контроль качества"
+          }
+        },
+        {
+          "id": "speed",
+          "label": {
+            "en": "Delivery speed",
+            "ru": "Скорость поставки"
+          }
+        },
+        {
+          "id": "cost",
+          "label": {
+            "en": "Cost efficiency",
+            "ru": "Эффективность затрат"
+          }
+        },
+        {
+          "id": "flexibility",
+          "label": {
+            "en": "Change flexibility",
+            "ru": "Гибкость изменений"
+          }
+        },
+        {
+          "id": "governance",
+          "label": {
+            "en": "Evidence and governance",
+            "ru": "Доказательства и управление"
+          }
+        }
+      ],
+      "options": [
+        {
+          "id": "restore-testing-option-1",
+          "label": {
+            "en": "Scheduled full restore tests",
+            "ru": "Плановые полные восстановления"
+          },
+          "ratings": {
+            "quality": 90,
+            "speed": 55,
+            "cost": 45,
+            "flexibility": 60,
+            "governance": 90
+          }
+        },
+        {
+          "id": "restore-testing-option-2",
+          "label": {
+            "en": "Rotating sampled restores",
+            "ru": "Ротационные выборочные восстановления"
+          },
+          "ratings": {
+            "quality": 78,
+            "speed": 75,
+            "cost": 72,
+            "flexibility": 82,
+            "governance": 75
+          }
+        },
+        {
+          "id": "restore-testing-option-3",
+          "label": {
+            "en": "Checksum-only verification",
+            "ru": "Только проверка контрольных сумм"
+          },
+          "ratings": {
+            "quality": 60,
+            "speed": 92,
+            "cost": 92,
+            "flexibility": 75,
+            "governance": 55
+          }
+        }
+      ],
+      "scenarios": [
+        {
+          "id": "restore-testing-balanced",
+          "synthetic": true,
+          "weights": {
+            "quality": 20,
+            "speed": 20,
+            "cost": 20,
+            "flexibility": 20,
+            "governance": 20
+          },
+          "expected_winner_id": "restore-testing-option-2"
+        },
+        {
+          "id": "restore-testing-quality_first",
+          "synthetic": true,
+          "weights": {
+            "quality": 60,
+            "speed": 10,
+            "cost": 10,
+            "flexibility": 10,
+            "governance": 10
+          },
+          "expected_winner_id": "restore-testing-option-1"
+        },
+        {
+          "id": "restore-testing-speed_first",
+          "synthetic": true,
+          "weights": {
+            "quality": 10,
+            "speed": 60,
+            "cost": 10,
+            "flexibility": 10,
+            "governance": 10
+          },
+          "expected_winner_id": "restore-testing-option-3"
+        },
+        {
+          "id": "restore-testing-governance_first",
+          "synthetic": true,
+          "weights": {
+            "quality": 10,
+            "speed": 10,
+            "cost": 10,
+            "flexibility": 10,
+            "governance": 60
+          },
+          "expected_winner_id": "restore-testing-option-1"
+        }
+      ]
+    },
+    {
+      "id": "rights-tracking",
+      "title": {
+        "en": "Rights tracking model",
+        "ru": "Модель учёта прав"
+      },
+      "scope": {
+        "en": "Compare three rights tracking model options using adjustable production priorities.",
+        "ru": "Сравнение трёх вариантов «модель учёта прав» по настраиваемым приоритетам."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "criteria": [
+        {
+          "id": "quality",
+          "label": {
+            "en": "Quality assurance",
+            "ru": "Контроль качества"
+          }
+        },
+        {
+          "id": "speed",
+          "label": {
+            "en": "Delivery speed",
+            "ru": "Скорость поставки"
+          }
+        },
+        {
+          "id": "cost",
+          "label": {
+            "en": "Cost efficiency",
+            "ru": "Эффективность затрат"
+          }
+        },
+        {
+          "id": "flexibility",
+          "label": {
+            "en": "Change flexibility",
+            "ru": "Гибкость изменений"
+          }
+        },
+        {
+          "id": "governance",
+          "label": {
+            "en": "Evidence and governance",
+            "ru": "Доказательства и управление"
+          }
+        }
+      ],
+      "options": [
+        {
+          "id": "rights-tracking-option-1",
+          "label": {
+            "en": "Asset-level rights ledger",
+            "ru": "Реестр прав на уровне активов"
+          },
+          "ratings": {
+            "quality": 90,
+            "speed": 55,
+            "cost": 45,
+            "flexibility": 60,
+            "governance": 90
+          }
+        },
+        {
+          "id": "rights-tracking-option-2",
+          "label": {
+            "en": "Project-level rights matrix",
+            "ru": "Матрица прав проекта"
+          },
+          "ratings": {
+            "quality": 78,
+            "speed": 75,
+            "cost": 72,
+            "flexibility": 82,
+            "governance": 75
+          }
+        },
+        {
+          "id": "rights-tracking-option-3",
+          "label": {
+            "en": "Document folder tracking",
+            "ru": "Учёт папкой документов"
+          },
+          "ratings": {
+            "quality": 60,
+            "speed": 92,
+            "cost": 92,
+            "flexibility": 75,
+            "governance": 55
+          }
+        }
+      ],
+      "scenarios": [
+        {
+          "id": "rights-tracking-balanced",
+          "synthetic": true,
+          "weights": {
+            "quality": 20,
+            "speed": 20,
+            "cost": 20,
+            "flexibility": 20,
+            "governance": 20
+          },
+          "expected_winner_id": "rights-tracking-option-2"
+        },
+        {
+          "id": "rights-tracking-quality_first",
+          "synthetic": true,
+          "weights": {
+            "quality": 60,
+            "speed": 10,
+            "cost": 10,
+            "flexibility": 10,
+            "governance": 10
+          },
+          "expected_winner_id": "rights-tracking-option-1"
+        },
+        {
+          "id": "rights-tracking-speed_first",
+          "synthetic": true,
+          "weights": {
+            "quality": 10,
+            "speed": 60,
+            "cost": 10,
+            "flexibility": 10,
+            "governance": 10
+          },
+          "expected_winner_id": "rights-tracking-option-3"
+        },
+        {
+          "id": "rights-tracking-governance_first",
+          "synthetic": true,
+          "weights": {
+            "quality": 10,
+            "speed": 10,
+            "cost": 10,
+            "flexibility": 10,
+            "governance": 60
+          },
+          "expected_winner_id": "rights-tracking-option-1"
+        }
+      ]
+    },
+    {
+      "id": "supplier-selection",
+      "title": {
+        "en": "Supplier selection model",
+        "ru": "Модель выбора поставщика"
+      },
+      "scope": {
+        "en": "Compare three supplier selection model options using adjustable production priorities.",
+        "ru": "Сравнение трёх вариантов «модель выбора поставщика» по настраиваемым приоритетам."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "criteria": [
+        {
+          "id": "quality",
+          "label": {
+            "en": "Quality assurance",
+            "ru": "Контроль качества"
+          }
+        },
+        {
+          "id": "speed",
+          "label": {
+            "en": "Delivery speed",
+            "ru": "Скорость поставки"
+          }
+        },
+        {
+          "id": "cost",
+          "label": {
+            "en": "Cost efficiency",
+            "ru": "Эффективность затрат"
+          }
+        },
+        {
+          "id": "flexibility",
+          "label": {
+            "en": "Change flexibility",
+            "ru": "Гибкость изменений"
+          }
+        },
+        {
+          "id": "governance",
+          "label": {
+            "en": "Evidence and governance",
+            "ru": "Доказательства и управление"
+          }
+        }
+      ],
+      "options": [
+        {
+          "id": "supplier-selection-option-1",
+          "label": {
+            "en": "Evidence-weighted evaluation",
+            "ru": "Оценка по доказательствам"
+          },
+          "ratings": {
+            "quality": 90,
+            "speed": 55,
+            "cost": 45,
+            "flexibility": 60,
+            "governance": 90
+          }
+        },
+        {
+          "id": "supplier-selection-option-2",
+          "label": {
+            "en": "Structured bid comparison",
+            "ru": "Структурное сравнение предложений"
+          },
+          "ratings": {
+            "quality": 78,
+            "speed": 75,
+            "cost": 72,
+            "flexibility": 82,
+            "governance": 75
+          }
+        },
+        {
+          "id": "supplier-selection-option-3",
+          "label": {
+            "en": "Lowest compliant bid",
+            "ru": "Минимальная соответствующая цена"
+          },
+          "ratings": {
+            "quality": 60,
+            "speed": 92,
+            "cost": 92,
+            "flexibility": 75,
+            "governance": 55
+          }
+        }
+      ],
+      "scenarios": [
+        {
+          "id": "supplier-selection-balanced",
+          "synthetic": true,
+          "weights": {
+            "quality": 20,
+            "speed": 20,
+            "cost": 20,
+            "flexibility": 20,
+            "governance": 20
+          },
+          "expected_winner_id": "supplier-selection-option-2"
+        },
+        {
+          "id": "supplier-selection-quality_first",
+          "synthetic": true,
+          "weights": {
+            "quality": 60,
+            "speed": 10,
+            "cost": 10,
+            "flexibility": 10,
+            "governance": 10
+          },
+          "expected_winner_id": "supplier-selection-option-1"
+        },
+        {
+          "id": "supplier-selection-speed_first",
+          "synthetic": true,
+          "weights": {
+            "quality": 10,
+            "speed": 60,
+            "cost": 10,
+            "flexibility": 10,
+            "governance": 10
+          },
+          "expected_winner_id": "supplier-selection-option-3"
+        },
+        {
+          "id": "supplier-selection-governance_first",
+          "synthetic": true,
+          "weights": {
+            "quality": 10,
+            "speed": 10,
+            "cost": 10,
+            "flexibility": 10,
+            "governance": 60
+          },
+          "expected_winner_id": "supplier-selection-option-1"
+        }
+      ]
+    },
+    {
+      "id": "incident-response",
+      "title": {
+        "en": "Incident response model",
+        "ru": "Модель реакции на инциденты"
+      },
+      "scope": {
+        "en": "Compare three incident response model options using adjustable production priorities.",
+        "ru": "Сравнение трёх вариантов «модель реакции на инциденты» по настраиваемым приоритетам."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "criteria": [
+        {
+          "id": "quality",
+          "label": {
+            "en": "Quality assurance",
+            "ru": "Контроль качества"
+          }
+        },
+        {
+          "id": "speed",
+          "label": {
+            "en": "Delivery speed",
+            "ru": "Скорость поставки"
+          }
+        },
+        {
+          "id": "cost",
+          "label": {
+            "en": "Cost efficiency",
+            "ru": "Эффективность затрат"
+          }
+        },
+        {
+          "id": "flexibility",
+          "label": {
+            "en": "Change flexibility",
+            "ru": "Гибкость изменений"
+          }
+        },
+        {
+          "id": "governance",
+          "label": {
+            "en": "Evidence and governance",
+            "ru": "Доказательства и управление"
+          }
+        }
+      ],
+      "options": [
+        {
+          "id": "incident-response-option-1",
+          "label": {
+            "en": "Defined commander and evidence log",
+            "ru": "Назначенный руководитель и журнал"
+          },
+          "ratings": {
+            "quality": 90,
+            "speed": 55,
+            "cost": 45,
+            "flexibility": 60,
+            "governance": 90
+          }
+        },
+        {
+          "id": "incident-response-option-2",
+          "label": {
+            "en": "Team escalation playbook",
+            "ru": "Командный сценарий эскалации"
+          },
+          "ratings": {
+            "quality": 78,
+            "speed": 75,
+            "cost": 72,
+            "flexibility": 82,
+            "governance": 75
+          }
+        },
+        {
+          "id": "incident-response-option-3",
+          "label": {
+            "en": "Direct owner intervention",
+            "ru": "Прямое вмешательство владельца"
+          },
+          "ratings": {
+            "quality": 60,
+            "speed": 92,
+            "cost": 92,
+            "flexibility": 75,
+            "governance": 55
+          }
+        }
+      ],
+      "scenarios": [
+        {
+          "id": "incident-response-balanced",
+          "synthetic": true,
+          "weights": {
+            "quality": 20,
+            "speed": 20,
+            "cost": 20,
+            "flexibility": 20,
+            "governance": 20
+          },
+          "expected_winner_id": "incident-response-option-2"
+        },
+        {
+          "id": "incident-response-quality_first",
+          "synthetic": true,
+          "weights": {
+            "quality": 60,
+            "speed": 10,
+            "cost": 10,
+            "flexibility": 10,
+            "governance": 10
+          },
+          "expected_winner_id": "incident-response-option-1"
+        },
+        {
+          "id": "incident-response-speed_first",
+          "synthetic": true,
+          "weights": {
+            "quality": 10,
+            "speed": 60,
+            "cost": 10,
+            "flexibility": 10,
+            "governance": 10
+          },
+          "expected_winner_id": "incident-response-option-3"
+        },
+        {
+          "id": "incident-response-governance_first",
+          "synthetic": true,
+          "weights": {
+            "quality": 10,
+            "speed": 10,
+            "cost": 10,
+            "flexibility": 10,
+            "governance": 60
+          },
+          "expected_winner_id": "incident-response-option-1"
+        }
+      ]
+    },
+    {
+      "id": "release-rollout",
+      "title": {
+        "en": "Release rollout strategy",
+        "ru": "Стратегия выпуска"
+      },
+      "scope": {
+        "en": "Compare three release rollout strategy options using adjustable production priorities.",
+        "ru": "Сравнение трёх вариантов «стратегия выпуска» по настраиваемым приоритетам."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "criteria": [
+        {
+          "id": "quality",
+          "label": {
+            "en": "Quality assurance",
+            "ru": "Контроль качества"
+          }
+        },
+        {
+          "id": "speed",
+          "label": {
+            "en": "Delivery speed",
+            "ru": "Скорость поставки"
+          }
+        },
+        {
+          "id": "cost",
+          "label": {
+            "en": "Cost efficiency",
+            "ru": "Эффективность затрат"
+          }
+        },
+        {
+          "id": "flexibility",
+          "label": {
+            "en": "Change flexibility",
+            "ru": "Гибкость изменений"
+          }
+        },
+        {
+          "id": "governance",
+          "label": {
+            "en": "Evidence and governance",
+            "ru": "Доказательства и управление"
+          }
+        }
+      ],
+      "options": [
+        {
+          "id": "release-rollout-option-1",
+          "label": {
+            "en": "Staged rollout with rollback",
+            "ru": "Поэтапный выпуск с откатом"
+          },
+          "ratings": {
+            "quality": 90,
+            "speed": 55,
+            "cost": 45,
+            "flexibility": 60,
+            "governance": 90
+          }
+        },
+        {
+          "id": "release-rollout-option-2",
+          "label": {
+            "en": "Phased channel rollout",
+            "ru": "Фазовый выпуск по каналам"
+          },
+          "ratings": {
+            "quality": 78,
+            "speed": 75,
+            "cost": 72,
+            "flexibility": 82,
+            "governance": 75
+          }
+        },
+        {
+          "id": "release-rollout-option-3",
+          "label": {
+            "en": "Single coordinated release",
+            "ru": "Единый согласованный выпуск"
+          },
+          "ratings": {
+            "quality": 60,
+            "speed": 92,
+            "cost": 92,
+            "flexibility": 75,
+            "governance": 55
+          }
+        }
+      ],
+      "scenarios": [
+        {
+          "id": "release-rollout-balanced",
+          "synthetic": true,
+          "weights": {
+            "quality": 20,
+            "speed": 20,
+            "cost": 20,
+            "flexibility": 20,
+            "governance": 20
+          },
+          "expected_winner_id": "release-rollout-option-2"
+        },
+        {
+          "id": "release-rollout-quality_first",
+          "synthetic": true,
+          "weights": {
+            "quality": 60,
+            "speed": 10,
+            "cost": 10,
+            "flexibility": 10,
+            "governance": 10
+          },
+          "expected_winner_id": "release-rollout-option-1"
+        },
+        {
+          "id": "release-rollout-speed_first",
+          "synthetic": true,
+          "weights": {
+            "quality": 10,
+            "speed": 60,
+            "cost": 10,
+            "flexibility": 10,
+            "governance": 10
+          },
+          "expected_winner_id": "release-rollout-option-3"
+        },
+        {
+          "id": "release-rollout-governance_first",
+          "synthetic": true,
+          "weights": {
+            "quality": 10,
+            "speed": 10,
+            "cost": 10,
+            "flexibility": 10,
+            "governance": 60
+          },
+          "expected_winner_id": "release-rollout-option-1"
+        }
+      ]
+    },
+    {
+      "id": "accessibility-production",
+      "title": {
+        "en": "Accessibility production model",
+        "ru": "Модель производства доступности"
+      },
+      "scope": {
+        "en": "Compare three accessibility production model options using adjustable production priorities.",
+        "ru": "Сравнение трёх вариантов «модель производства доступности» по настраиваемым приоритетам."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "criteria": [
+        {
+          "id": "quality",
+          "label": {
+            "en": "Quality assurance",
+            "ru": "Контроль качества"
+          }
+        },
+        {
+          "id": "speed",
+          "label": {
+            "en": "Delivery speed",
+            "ru": "Скорость поставки"
+          }
+        },
+        {
+          "id": "cost",
+          "label": {
+            "en": "Cost efficiency",
+            "ru": "Эффективность затрат"
+          }
+        },
+        {
+          "id": "flexibility",
+          "label": {
+            "en": "Change flexibility",
+            "ru": "Гибкость изменений"
+          }
+        },
+        {
+          "id": "governance",
+          "label": {
+            "en": "Evidence and governance",
+            "ru": "Доказательства и управление"
+          }
+        }
+      ],
+      "options": [
+        {
+          "id": "accessibility-production-option-1",
+          "label": {
+            "en": "Accessibility from brief stage",
+            "ru": "Доступность с этапа брифа"
+          },
+          "ratings": {
+            "quality": 90,
+            "speed": 55,
+            "cost": 45,
+            "flexibility": 60,
+            "governance": 90
+          }
+        },
+        {
+          "id": "accessibility-production-option-2",
+          "label": {
+            "en": "Accessibility during post-production",
+            "ru": "Доступность в постпродакшене"
+          },
+          "ratings": {
+            "quality": 78,
+            "speed": 75,
+            "cost": 72,
+            "flexibility": 82,
+            "governance": 75
+          }
+        },
+        {
+          "id": "accessibility-production-option-3",
+          "label": {
+            "en": "Accessibility remediation at delivery",
+            "ru": "Исправление доступности при доставке"
+          },
+          "ratings": {
+            "quality": 60,
+            "speed": 92,
+            "cost": 92,
+            "flexibility": 75,
+            "governance": 55
+          }
+        }
+      ],
+      "scenarios": [
+        {
+          "id": "accessibility-production-balanced",
+          "synthetic": true,
+          "weights": {
+            "quality": 20,
+            "speed": 20,
+            "cost": 20,
+            "flexibility": 20,
+            "governance": 20
+          },
+          "expected_winner_id": "accessibility-production-option-2"
+        },
+        {
+          "id": "accessibility-production-quality_first",
+          "synthetic": true,
+          "weights": {
+            "quality": 60,
+            "speed": 10,
+            "cost": 10,
+            "flexibility": 10,
+            "governance": 10
+          },
+          "expected_winner_id": "accessibility-production-option-1"
+        },
+        {
+          "id": "accessibility-production-speed_first",
+          "synthetic": true,
+          "weights": {
+            "quality": 10,
+            "speed": 60,
+            "cost": 10,
+            "flexibility": 10,
+            "governance": 10
+          },
+          "expected_winner_id": "accessibility-production-option-3"
+        },
+        {
+          "id": "accessibility-production-governance_first",
+          "synthetic": true,
+          "weights": {
+            "quality": 10,
+            "speed": 10,
+            "cost": 10,
+            "flexibility": 10,
+            "governance": 60
+          },
+          "expected_winner_id": "accessibility-production-option-1"
+        }
+      ]
+    },
+    {
+      "id": "provenance-carriage",
+      "title": {
+        "en": "Provenance carriage model",
+        "ru": "Модель передачи происхождения"
+      },
+      "scope": {
+        "en": "Compare three provenance carriage model options using adjustable production priorities.",
+        "ru": "Сравнение трёх вариантов «модель передачи происхождения» по настраиваемым приоритетам."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "criteria": [
+        {
+          "id": "quality",
+          "label": {
+            "en": "Quality assurance",
+            "ru": "Контроль качества"
+          }
+        },
+        {
+          "id": "speed",
+          "label": {
+            "en": "Delivery speed",
+            "ru": "Скорость поставки"
+          }
+        },
+        {
+          "id": "cost",
+          "label": {
+            "en": "Cost efficiency",
+            "ru": "Эффективность затрат"
+          }
+        },
+        {
+          "id": "flexibility",
+          "label": {
+            "en": "Change flexibility",
+            "ru": "Гибкость изменений"
+          }
+        },
+        {
+          "id": "governance",
+          "label": {
+            "en": "Evidence and governance",
+            "ru": "Доказательства и управление"
+          }
+        }
+      ],
+      "options": [
+        {
+          "id": "provenance-carriage-option-1",
+          "label": {
+            "en": "Signed structured provenance",
+            "ru": "Подписанное структурированное происхождение"
+          },
+          "ratings": {
+            "quality": 90,
+            "speed": 55,
+            "cost": 45,
+            "flexibility": 60,
+            "governance": 90
+          }
+        },
+        {
+          "id": "provenance-carriage-option-2",
+          "label": {
+            "en": "Manifest-linked provenance",
+            "ru": "Происхождение через manifest"
+          },
+          "ratings": {
+            "quality": 78,
+            "speed": 75,
+            "cost": 72,
+            "flexibility": 82,
+            "governance": 75
+          }
+        },
+        {
+          "id": "provenance-carriage-option-3",
+          "label": {
+            "en": "Human-readable disclosure",
+            "ru": "Читаемое раскрытие происхождения"
+          },
+          "ratings": {
+            "quality": 60,
+            "speed": 92,
+            "cost": 92,
+            "flexibility": 75,
+            "governance": 55
+          }
+        }
+      ],
+      "scenarios": [
+        {
+          "id": "provenance-carriage-balanced",
+          "synthetic": true,
+          "weights": {
+            "quality": 20,
+            "speed": 20,
+            "cost": 20,
+            "flexibility": 20,
+            "governance": 20
+          },
+          "expected_winner_id": "provenance-carriage-option-2"
+        },
+        {
+          "id": "provenance-carriage-quality_first",
+          "synthetic": true,
+          "weights": {
+            "quality": 60,
+            "speed": 10,
+            "cost": 10,
+            "flexibility": 10,
+            "governance": 10
+          },
+          "expected_winner_id": "provenance-carriage-option-1"
+        },
+        {
+          "id": "provenance-carriage-speed_first",
+          "synthetic": true,
+          "weights": {
+            "quality": 10,
+            "speed": 60,
+            "cost": 10,
+            "flexibility": 10,
+            "governance": 10
+          },
+          "expected_winner_id": "provenance-carriage-option-3"
+        },
+        {
+          "id": "provenance-carriage-governance_first",
+          "synthetic": true,
+          "weights": {
+            "quality": 10,
+            "speed": 10,
+            "cost": 10,
+            "flexibility": 10,
+            "governance": 60
+          },
+          "expected_winner_id": "provenance-carriage-option-1"
+        }
+      ]
+    }
+  ]
+}
