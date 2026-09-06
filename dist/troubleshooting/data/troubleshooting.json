@@ -1,0 +1,1210 @@
+{
+  "schema_version": "1.0.0",
+  "publisher": {
+    "name": "SHAR Production",
+    "website": "https://sharprod.com/"
+  },
+  "license": "CC-BY-4.0",
+  "issues": [
+    {
+      "id": "brief-gap",
+      "title": {
+        "en": "Incomplete production brief",
+        "ru": "Неполный производственный бриф"
+      },
+      "area": {
+        "en": "planning",
+        "ru": "планирование"
+      },
+      "check": {
+        "en": "Compare objectives, audience, formats, rights, budget and approvers against the signed brief.",
+        "ru": "Сверьте цели, аудиторию, форматы, права, бюджет и согласующих с подписанным брифом."
+      },
+      "fix": {
+        "en": "Freeze the missing decisions in a dated brief revision before estimating or scheduling.",
+        "ru": "Зафиксируйте недостающие решения в датированной версии брифа до оценки и планирования."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "scope-drift",
+      "title": {
+        "en": "Uncontrolled scope drift",
+        "ru": "Неконтролируемое изменение объёма"
+      },
+      "area": {
+        "en": "planning",
+        "ru": "планирование"
+      },
+      "check": {
+        "en": "Diff every new request against the approved deliverable list and assumptions.",
+        "ru": "Сравните каждый новый запрос с утверждённым списком материалов и допущениями."
+      },
+      "fix": {
+        "en": "Log the delta, owner, cost and schedule effect; approve or remove it explicitly.",
+        "ru": "Запишите изменение, владельца, влияние на стоимость и срок; явно утвердите или исключите его."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "approval-owner-missing",
+      "title": {
+        "en": "Missing approval owner",
+        "ru": "Не назначен согласующий"
+      },
+      "area": {
+        "en": "governance",
+        "ru": "управление"
+      },
+      "check": {
+        "en": "Inspect the RACI for every gate and locate decisions with no accountable person.",
+        "ru": "Проверьте RACI каждого этапа и найдите решения без ответственного лица."
+      },
+      "fix": {
+        "en": "Assign one accountable approver and a timed escalation route for each gate.",
+        "ru": "Назначьте одного ответственного согласующего и срок эскалации для каждого этапа."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "rights-expiry",
+      "title": {
+        "en": "Usage rights expire before campaign end",
+        "ru": "Права истекают до конца кампании"
+      },
+      "area": {
+        "en": "rights",
+        "ru": "права"
+      },
+      "check": {
+        "en": "Compare territory, media and end dates in releases with the media plan.",
+        "ru": "Сверьте территорию, каналы и даты в разрешениях с медиапланом."
+      },
+      "fix": {
+        "en": "Restrict the plan or obtain a documented extension before distribution.",
+        "ru": "Ограничьте размещение либо получите документированное продление до публикации."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "location-permit-gap",
+      "title": {
+        "en": "Location permit gap",
+        "ru": "Нет разрешения на локацию"
+      },
+      "area": {
+        "en": "rights",
+        "ru": "права"
+      },
+      "check": {
+        "en": "Match each scheduled location and activity to a valid permit and property release.",
+        "ru": "Сопоставьте каждую локацию и действие с действующим разрешением владельца."
+      },
+      "fix": {
+        "en": "Move the scene, narrow the activity or secure written permission before call time.",
+        "ru": "Перенесите сцену, сократите действие либо получите письменное разрешение до вызова."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "talent-release-gap",
+      "title": {
+        "en": "Talent release gap",
+        "ru": "Нет согласия участника"
+      },
+      "area": {
+        "en": "rights",
+        "ru": "права"
+      },
+      "check": {
+        "en": "Reconcile the cast list and visible contributors with signed release identifiers.",
+        "ru": "Сверьте список участников в кадре с идентификаторами подписанных согласий."
+      },
+      "fix": {
+        "en": "Hold affected shots from distribution until the release or an approved replacement exists.",
+        "ru": "Не распространяйте затронутые кадры до получения согласия или утверждённой замены."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "schedule-collision",
+      "title": {
+        "en": "Schedule dependency collision",
+        "ru": "Конфликт зависимостей графика"
+      },
+      "area": {
+        "en": "scheduling",
+        "ru": "график"
+      },
+      "check": {
+        "en": "Trace prerequisites for every task sharing crew, stage, equipment or source media.",
+        "ru": "Проверьте предпосылки задач с общей командой, площадкой, техникой или исходниками."
+      },
+      "fix": {
+        "en": "Resequence the critical path and publish one authoritative schedule revision.",
+        "ru": "Перестройте критический путь и выпустите одну актуальную версию графика."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "call-sheet-timezone",
+      "title": {
+        "en": "Call sheet timezone mismatch",
+        "ru": "Ошибка часового пояса в вызывном листе"
+      },
+      "area": {
+        "en": "scheduling",
+        "ru": "график"
+      },
+      "check": {
+        "en": "Compare call times, transport and sunrise data in the location timezone.",
+        "ru": "Сверьте вызовы, транспорт и восход в часовом поясе локации."
+      },
+      "fix": {
+        "en": "Regenerate the sheet with explicit timezone labels and acknowledge the correction.",
+        "ru": "Пересоберите лист с явным часовым поясом и получите подтверждение исправления."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "weather-contingency",
+      "title": {
+        "en": "Missing weather contingency",
+        "ru": "Нет погодного резерва"
+      },
+      "area": {
+        "en": "scheduling",
+        "ru": "график"
+      },
+      "check": {
+        "en": "Check thresholds for rain, wind, heat and daylight against forecast and equipment limits.",
+        "ru": "Сверьте пороги дождя, ветра, жары и света с прогнозом и пределами техники."
+      },
+      "fix": {
+        "en": "Activate a pre-approved cover set, indoor scene or reschedule trigger.",
+        "ru": "Активируйте заранее утверждённую крытую площадку, интерьер или перенос."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "backup-gap",
+      "title": {
+        "en": "No verified set backup",
+        "ru": "Нет проверенной резервной копии"
+      },
+      "area": {
+        "en": "media",
+        "ru": "медиа"
+      },
+      "check": {
+        "en": "Count independent copies and verify hashes before formatting any capture media.",
+        "ru": "Посчитайте независимые копии и проверьте хеши до форматирования носителей."
+      },
+      "fix": {
+        "en": "Create and verify the missing copy, then record custody and checksum evidence.",
+        "ru": "Создайте и проверьте недостающую копию, запишите хранение и контрольные суммы."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "checksum-mismatch",
+      "title": {
+        "en": "Checksum mismatch",
+        "ru": "Несовпадение контрольной суммы"
+      },
+      "area": {
+        "en": "media",
+        "ru": "медиа"
+      },
+      "check": {
+        "en": "Recalculate the source and destination hashes with the same algorithm and byte range.",
+        "ru": "Пересчитайте хеши источника и копии одним алгоритмом по одинаковому диапазону байтов."
+      },
+      "fix": {
+        "en": "Quarantine the copy and transfer again from the last verified source.",
+        "ru": "Изолируйте копию и повторите перенос из последнего проверенного источника."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "proxy-relink",
+      "title": {
+        "en": "Proxy media will not relink",
+        "ru": "Прокси не перелинковываются"
+      },
+      "area": {
+        "en": "editing",
+        "ru": "монтаж"
+      },
+      "check": {
+        "en": "Compare reel names, timecode, frame rate, path mapping and source identifiers.",
+        "ru": "Сверьте имена рулонов, таймкод, частоту кадров, пути и идентификаторы исходников."
+      },
+      "fix": {
+        "en": "Normalize metadata in a reversible map and test relink on a duplicate project.",
+        "ru": "Нормализуйте метаданные обратимой картой и проверьте перелинковку на копии проекта."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "timecode-drift",
+      "title": {
+        "en": "Audio and picture timecode drift",
+        "ru": "Дрейф таймкода звука и изображения"
+      },
+      "area": {
+        "en": "capture",
+        "ru": "съёмка"
+      },
+      "check": {
+        "en": "Measure offset at the head and tail to distinguish fixed offset from clock drift.",
+        "ru": "Измерьте смещение в начале и конце, чтобы отличить постоянный сдвиг от дрейфа часов."
+      },
+      "fix": {
+        "en": "Correct with the verified sync reference and document any time stretch.",
+        "ru": "Исправьте по проверенной синхрометке и задокументируйте растяжение времени."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "frame-rate-mismatch",
+      "title": {
+        "en": "Frame-rate mismatch",
+        "ru": "Несовпадение частоты кадров"
+      },
+      "area": {
+        "en": "post",
+        "ru": "постпродакшн"
+      },
+      "check": {
+        "en": "Inspect capture, timeline and delivery rates including fractional values and scan mode.",
+        "ru": "Проверьте частоты съёмки, таймлайна и поставки, включая дробные значения и развёртку."
+      },
+      "fix": {
+        "en": "Choose the approved cadence conversion and test motion before conform.",
+        "ru": "Выберите утверждённое преобразование кадров и проверьте движение до конформа."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "color-space-tag",
+      "title": {
+        "en": "Incorrect color-space tag",
+        "ru": "Неверный тег цветового пространства"
+      },
+      "area": {
+        "en": "color",
+        "ru": "цвет"
+      },
+      "check": {
+        "en": "Compare file tags with the documented camera transform and measured appearance.",
+        "ru": "Сверьте теги файла с документированным преобразованием камеры и изображением."
+      },
+      "fix": {
+        "en": "Correct metadata or transform pixels once; verify on a managed reference display.",
+        "ru": "Исправьте метаданные либо преобразуйте пиксели один раз и проверьте на эталонном дисплее."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "lut-baked-in",
+      "title": {
+        "en": "Look LUT baked into source",
+        "ru": "LUT запечён в исходник"
+      },
+      "area": {
+        "en": "color",
+        "ru": "цвет"
+      },
+      "check": {
+        "en": "Compare neutral chart values and camera originals to detect irreversible look processing.",
+        "ru": "Сравните нейтральную таблицу и оригиналы камеры, чтобы выявить необратимую обработку."
+      },
+      "fix": {
+        "en": "Return to the unprocessed source or document the baked look as a creative constraint.",
+        "ru": "Вернитесь к необработанному источнику либо зафиксируйте LUT как творческое ограничение."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "audio-sample-rate",
+      "title": {
+        "en": "Audio sample-rate mismatch",
+        "ru": "Несовпадение частоты дискретизации"
+      },
+      "area": {
+        "en": "audio",
+        "ru": "звук"
+      },
+      "check": {
+        "en": "Inspect actual sample rates and duration against the timeline clock.",
+        "ru": "Проверьте фактическую частоту дискретизации и длительность относительно таймлайна."
+      },
+      "fix": {
+        "en": "Resample once with an approved high-quality process and verify sync end to end.",
+        "ru": "Один раз передискретизируйте утверждённым методом и проверьте синхронность целиком."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "loudness-fail",
+      "title": {
+        "en": "Programme loudness outside target",
+        "ru": "Громкость программы вне нормы"
+      },
+      "area": {
+        "en": "audio",
+        "ru": "звук"
+      },
+      "check": {
+        "en": "Measure integrated loudness, range and gating using the delivery standard.",
+        "ru": "Измерьте интегральную громкость, диапазон и гейтинг по стандарту поставки."
+      },
+      "fix": {
+        "en": "Adjust the mix, remeasure the complete programme and retain the meter report.",
+        "ru": "Скорректируйте микс, перемерьте всю программу и сохраните отчёт измерителя."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "true-peak-clipping",
+      "title": {
+        "en": "True-peak clipping",
+        "ru": "Клиппинг истинного пика"
+      },
+      "area": {
+        "en": "audio",
+        "ru": "звук"
+      },
+      "check": {
+        "en": "Measure oversampled true peak after every lossy encode and sample-rate conversion.",
+        "ru": "Измерьте истинный пик с передискретизацией после кодирования и изменения частоты."
+      },
+      "fix": {
+        "en": "Lower or limit the offending peaks, encode again and repeat the measurement.",
+        "ru": "Ослабьте или ограничьте пики, перекодируйте и повторите измерение."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "caption-overlap",
+      "title": {
+        "en": "Overlapping caption cues",
+        "ru": "Перекрывающиеся субтитры"
+      },
+      "area": {
+        "en": "localization",
+        "ru": "локализация"
+      },
+      "check": {
+        "en": "Sort cue intervals and find any next start earlier than the current end.",
+        "ru": "Отсортируйте интервалы и найдите начало следующей реплики раньше конца текущей."
+      },
+      "fix": {
+        "en": "Retiming cues while preserving minimum gaps, shot changes and spoken meaning.",
+        "ru": "Переставьте тайминги с сохранением пауз, монтажных склеек и смысла речи."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "caption-speed",
+      "title": {
+        "en": "Caption reading speed too high",
+        "ru": "Слишком высокая скорость субтитров"
+      },
+      "area": {
+        "en": "localization",
+        "ru": "локализация"
+      },
+      "check": {
+        "en": "Calculate characters per second for each cue using the platform limit.",
+        "ru": "Рассчитайте знаки в секунду для каждой реплики по лимиту площадки."
+      },
+      "fix": {
+        "en": "Condense wording or extend exposure without hiding essential dialogue.",
+        "ru": "Сократите формулировку или увеличьте показ без потери важного диалога."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "forced-narrative",
+      "title": {
+        "en": "Forced-narrative subtitle missing",
+        "ru": "Нет форсированного субтитра"
+      },
+      "area": {
+        "en": "localization",
+        "ru": "локализация"
+      },
+      "check": {
+        "en": "Review foreign dialogue and story-critical on-screen text against the spotting list.",
+        "ru": "Сверьте иностранную речь и важный экранный текст со списком субтитров."
+      },
+      "fix": {
+        "en": "Author the missing forced cue and test it in every required language stream.",
+        "ru": "Создайте форсированную реплику и проверьте её во всех нужных языковых потоках."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "font-license",
+      "title": {
+        "en": "Unverified font license",
+        "ru": "Не подтверждена лицензия шрифта"
+      },
+      "area": {
+        "en": "rights",
+        "ru": "права"
+      },
+      "check": {
+        "en": "Trace every embedded or rendered font to a license covering the intended media.",
+        "ru": "Проследите каждый встроенный или отрисованный шрифт до лицензии на нужные каналы."
+      },
+      "fix": {
+        "en": "Replace it with an approved font or obtain written rights before mastering.",
+        "ru": "Замените его утверждённым шрифтом либо получите письменные права до мастеринга."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "alpha-loss",
+      "title": {
+        "en": "Alpha channel lost",
+        "ru": "Потерян альфа-канал"
+      },
+      "area": {
+        "en": "graphics",
+        "ru": "графика"
+      },
+      "check": {
+        "en": "Inspect channel count, codec support, premultiplication and export interpretation.",
+        "ru": "Проверьте число каналов, поддержку кодека, premultiply и трактовку экспорта."
+      },
+      "fix": {
+        "en": "Export a supported alpha codec with documented straight or premultiplied handling.",
+        "ru": "Экспортируйте поддерживаемый кодек с документированным straight или premultiplied alpha."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "codec-incompatible",
+      "title": {
+        "en": "Codec rejected by destination",
+        "ru": "Кодек отклонён площадкой"
+      },
+      "area": {
+        "en": "delivery",
+        "ru": "поставка"
+      },
+      "check": {
+        "en": "Compare codec profile, level, chroma, bit depth and bitrate with the current specification.",
+        "ru": "Сверьте профиль, уровень, цветность, глубину и битрейт с актуальной спецификацией."
+      },
+      "fix": {
+        "en": "Transcode from the verified master to an exact compliant preset and run QC again.",
+        "ru": "Перекодируйте проверенный мастер точным пресетом и повторите контроль качества."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "metadata-gap",
+      "title": {
+        "en": "Container metadata incomplete",
+        "ru": "Неполные метаданные контейнера"
+      },
+      "area": {
+        "en": "delivery",
+        "ru": "поставка"
+      },
+      "check": {
+        "en": "Validate language, track order, timebase, field dominance and descriptive tags.",
+        "ru": "Проверьте язык, порядок дорожек, таймбейс, развёртку и описательные теги."
+      },
+      "fix": {
+        "en": "Rewrite metadata without altering essence where possible, then revalidate the container.",
+        "ru": "Перезапишите метаданные без изменения потоков, затем повторно проверьте контейнер."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "aspect-ratio",
+      "title": {
+        "en": "Incorrect aspect ratio",
+        "ru": "Неверное соотношение сторон"
+      },
+      "area": {
+        "en": "picture",
+        "ru": "изображение"
+      },
+      "check": {
+        "en": "Compare raster dimensions, pixel aspect, display aspect and approved framing.",
+        "ru": "Сверьте размер растра, аспект пикселя, экранный аспект и утверждённое кадрирование."
+      },
+      "fix": {
+        "en": "Apply the documented crop, pad or pixel-aspect correction and review key shots.",
+        "ru": "Примените документированный crop, pad или коррекцию аспекта и проверьте ключевые кадры."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "safe-area",
+      "title": {
+        "en": "Graphics outside safe area",
+        "ru": "Графика вне безопасной зоны"
+      },
+      "area": {
+        "en": "graphics",
+        "ru": "графика"
+      },
+      "check": {
+        "en": "Overlay the destination action and title-safe guides on every required aspect.",
+        "ru": "Наложите зоны action/title safe площадки на каждое требуемое соотношение сторон."
+      },
+      "fix": {
+        "en": "Reposition or reflow graphics and verify long localized strings.",
+        "ru": "Переместите или переверстайте графику и проверьте длинные локализованные строки."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "field-order",
+      "title": {
+        "en": "Field-order artefacts",
+        "ru": "Артефакты порядка полей"
+      },
+      "area": {
+        "en": "picture",
+        "ru": "изображение"
+      },
+      "check": {
+        "en": "Step through motion and inspect declared versus actual field dominance.",
+        "ru": "Просмотрите движение покадрово и сравните заявленный и фактический порядок полей."
+      },
+      "fix": {
+        "en": "Correct field interpretation before one controlled deinterlace or re-encode.",
+        "ru": "Исправьте трактовку полей до одного контролируемого деинтерлейса или перекодирования."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "gamma-shift",
+      "title": {
+        "en": "Gamma shift after export",
+        "ru": "Сдвиг гаммы после экспорта"
+      },
+      "area": {
+        "en": "color",
+        "ru": "цвет"
+      },
+      "check": {
+        "en": "Compare managed reference frames through the exact export and playback chain.",
+        "ru": "Сравните эталонные кадры через точную цепочку экспорта и воспроизведения."
+      },
+      "fix": {
+        "en": "Align transfer metadata and transforms, then verify pixels and display behavior separately.",
+        "ru": "Согласуйте метаданные и преобразования, затем отдельно проверьте пиксели и отображение."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "vfx-handles",
+      "title": {
+        "en": "VFX handles too short",
+        "ru": "Недостаточные монтажные запасы VFX"
+      },
+      "area": {
+        "en": "vfx",
+        "ru": "VFX"
+      },
+      "check": {
+        "en": "Compare requested handles with transitions, retimes, stabilization and editorial alternatives.",
+        "ru": "Сверьте запасы с переходами, ретаймами, стабилизацией и монтажными вариантами."
+      },
+      "fix": {
+        "en": "Repull from source with sufficient verified handles and updated frame ranges.",
+        "ru": "Повторно выгрузите исходник с достаточными запасами и новыми диапазонами кадров."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "clean-plate",
+      "title": {
+        "en": "Clean plate missing",
+        "ru": "Нет чистого плейта"
+      },
+      "area": {
+        "en": "vfx",
+        "ru": "VFX"
+      },
+      "check": {
+        "en": "Check camera reports and takes for a matching lens, move, exposure and lighting state.",
+        "ru": "Проверьте отчёты и дубли на совпадение объектива, движения, экспозиции и света."
+      },
+      "fix": {
+        "en": "Use an approved alternate plate or schedule a controlled reconstruction with provenance.",
+        "ru": "Используйте утверждённый альтернативный плейт либо контролируемую реконструкцию с происхождением."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "edl-reel",
+      "title": {
+        "en": "EDL reel-name mismatch",
+        "ru": "Несовпадение имён рулонов EDL"
+      },
+      "area": {
+        "en": "conform",
+        "ru": "конформ"
+      },
+      "check": {
+        "en": "Compare EDL reel identifiers with source metadata and the ingest naming map.",
+        "ru": "Сверьте рулоны EDL с метаданными исходников и картой именования при загрузке."
+      },
+      "fix": {
+        "en": "Apply a reviewed translation map and test every ambiguous event manually.",
+        "ru": "Примените проверенную карту соответствий и вручную проверьте неоднозначные события."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "aaf-offline",
+      "title": {
+        "en": "AAF opens with offline media",
+        "ru": "AAF открывается без медиа"
+      },
+      "area": {
+        "en": "conform",
+        "ru": "конформ"
+      },
+      "check": {
+        "en": "Inspect embedded media, linked paths, consolidation range and plugin-dependent effects.",
+        "ru": "Проверьте встроенные медиа, пути, диапазон консолидации и зависимые эффекты."
+      },
+      "fix": {
+        "en": "Re-export a consolidated turnover with handles and a reference picture.",
+        "ru": "Повторно экспортируйте консолидированный пакет с запасами и референсным видео."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "xml-retime",
+      "title": {
+        "en": "XML retime interpreted incorrectly",
+        "ru": "Неверная трактовка ретайма XML"
+      },
+      "area": {
+        "en": "conform",
+        "ru": "конформ"
+      },
+      "check": {
+        "en": "Compare speed curves, frame blending and optical-flow settings against reference video.",
+        "ru": "Сверьте кривые скорости, смешивание кадров и optical flow с референсным видео."
+      },
+      "fix": {
+        "en": "Bake unsupported retimes or rebuild them explicitly and record affected shots.",
+        "ru": "Запеките неподдерживаемые ретаймы либо пересоберите их и запишите затронутые кадры."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "conform-version",
+      "title": {
+        "en": "Wrong cut conformed",
+        "ru": "Сконформирована неверная версия"
+      },
+      "area": {
+        "en": "conform",
+        "ru": "конформ"
+      },
+      "check": {
+        "en": "Match edit hash, duration, event count and reference burn-in to the approved lock.",
+        "ru": "Сверьте хеш монтажа, длительность, число событий и burn-in с утверждённым lock."
+      },
+      "fix": {
+        "en": "Stop downstream work, restore the approved turnover and document superseded versions.",
+        "ru": "Остановите дальнейшие работы, восстановите утверждённую передачу и пометьте старые версии."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "slate-mismatch",
+      "title": {
+        "en": "Slate metadata mismatch",
+        "ru": "Несовпадение данных хлопушки"
+      },
+      "area": {
+        "en": "capture",
+        "ru": "съёмка"
+      },
+      "check": {
+        "en": "Compare visible slate, camera report, sound report and file metadata for the take.",
+        "ru": "Сверьте хлопушку в кадре, камерный и звуковой отчёты и метаданные дубля."
+      },
+      "fix": {
+        "en": "Resolve with timecode and waveform evidence, then update the ingest log without erasing history.",
+        "ru": "Разрешите расхождение по таймкоду и волне, обновив журнал без удаления истории."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "camera-report",
+      "title": {
+        "en": "Camera report incomplete",
+        "ru": "Неполный камерный отчёт"
+      },
+      "area": {
+        "en": "capture",
+        "ru": "съёмка"
+      },
+      "check": {
+        "en": "Check each card and take for lens, filter, rate, color and notes required downstream.",
+        "ru": "Проверьте для карт и дублей объектив, фильтр, частоту, цвет и необходимые заметки."
+      },
+      "fix": {
+        "en": "Reconstruct only from source metadata and crew confirmation, marking inferred fields.",
+        "ru": "Восстановите данные только из метаданных и подтверждения группы, пометив выводы."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "sound-report",
+      "title": {
+        "en": "Sound report incomplete",
+        "ru": "Неполный звуковой отчёт"
+      },
+      "area": {
+        "en": "capture",
+        "ru": "съёмка"
+      },
+      "check": {
+        "en": "Reconcile recorder files, track names, microphones, timecode and scene-take labels.",
+        "ru": "Сверьте файлы рекордера, дорожки, микрофоны, таймкод и номера сцен и дублей."
+      },
+      "fix": {
+        "en": "Create a corrected non-destructive report linked to original filenames.",
+        "ru": "Создайте исправленный неизменяющий отчёт со ссылками на исходные имена файлов."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "qc-severity",
+      "title": {
+        "en": "QC severity classified incorrectly",
+        "ru": "Неверно определена серьёзность QC"
+      },
+      "area": {
+        "en": "quality",
+        "ru": "качество"
+      },
+      "check": {
+        "en": "Apply the same documented impact, visibility and deliverability criteria to the finding.",
+        "ru": "Примените к замечанию единые критерии влияния, заметности и пригодности к поставке."
+      },
+      "fix": {
+        "en": "Reclassify with evidence, owner and disposition while preserving the original observation.",
+        "ru": "Переклассифицируйте с доказательством, владельцем и решением, сохранив исходное замечание."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "filename-collision",
+      "title": {
+        "en": "Delivery filename collision",
+        "ru": "Конфликт имён файлов поставки"
+      },
+      "area": {
+        "en": "delivery",
+        "ru": "поставка"
+      },
+      "check": {
+        "en": "Expand filenames to normalized project, market, language, version and checksum identity.",
+        "ru": "Разберите имена по проекту, рынку, языку, версии и контрольной сумме."
+      },
+      "fix": {
+        "en": "Rename through the manifest, never in isolation, and regenerate dependent checksums.",
+        "ru": "Переименуйте через манифест и пересоздайте связанные контрольные суммы."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "version-label",
+      "title": {
+        "en": "Ambiguous version label",
+        "ru": "Неоднозначная маркировка версии"
+      },
+      "area": {
+        "en": "delivery",
+        "ru": "поставка"
+      },
+      "check": {
+        "en": "Map every file label to an immutable approval, date, language and deliverable role.",
+        "ru": "Сопоставьте метку файла с неизменяемым согласованием, датой, языком и ролью."
+      },
+      "fix": {
+        "en": "Issue a deterministic version identifier and retire ambiguous aliases in the manifest.",
+        "ru": "Выпустите однозначный идентификатор и уберите неоднозначные псевдонимы из манифеста."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "manifest-gap",
+      "title": {
+        "en": "Delivery manifest incomplete",
+        "ru": "Неполный манифест поставки"
+      },
+      "area": {
+        "en": "delivery",
+        "ru": "поставка"
+      },
+      "check": {
+        "en": "Compare expected deliverables with file inventory, sizes, hashes, languages and dependencies.",
+        "ru": "Сверьте ожидаемые материалы с файлами, размерами, хешами, языками и зависимостями."
+      },
+      "fix": {
+        "en": "Regenerate the manifest from verified files and resolve every missing or extra item.",
+        "ru": "Пересоздайте манифест из проверенных файлов и разберите каждый пропуск или лишний элемент."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "upload-incomplete",
+      "title": {
+        "en": "Upload completed incompletely",
+        "ru": "Загрузка завершилась не полностью"
+      },
+      "area": {
+        "en": "delivery",
+        "ru": "поставка"
+      },
+      "check": {
+        "en": "Compare remote byte counts and hashes with the signed local manifest.",
+        "ru": "Сверьте удалённые размеры и хеши с подписанным локальным манифестом."
+      },
+      "fix": {
+        "en": "Resume or repeat only failed objects, then verify the entire remote set.",
+        "ru": "Возобновите либо повторите только сбойные объекты, затем проверьте весь удалённый набор."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "restore-fail",
+      "title": {
+        "en": "Archive restore test fails",
+        "ru": "Не проходит тест восстановления архива"
+      },
+      "area": {
+        "en": "archive",
+        "ru": "архив"
+      },
+      "check": {
+        "en": "Test catalog lookup, media retrieval, checksum and application readability from a clean environment.",
+        "ru": "Проверьте каталог, извлечение, контрольную сумму и читаемость в чистой среде."
+      },
+      "fix": {
+        "en": "Repair from another verified copy and repeat a documented end-to-end restore.",
+        "ru": "Восстановите из другой проверенной копии и повторите документированный полный тест."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "duplicate-assets",
+      "title": {
+        "en": "Duplicate assets diverge",
+        "ru": "Дубликаты материалов расходятся"
+      },
+      "area": {
+        "en": "media",
+        "ru": "медиа"
+      },
+      "check": {
+        "en": "Group files by content hash and compare metadata, approval state and storage role.",
+        "ru": "Сгруппируйте файлы по хешу и сравните метаданные, согласование и роль хранения."
+      },
+      "fix": {
+        "en": "Choose one governed master, preserve required replicas and quarantine conflicting derivatives.",
+        "ru": "Выберите один управляемый мастер, сохраните нужные копии и изолируйте конфликтующие производные."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "approval-stale",
+      "title": {
+        "en": "Approval refers to stale version",
+        "ru": "Согласование относится к старой версии"
+      },
+      "area": {
+        "en": "governance",
+        "ru": "управление"
+      },
+      "check": {
+        "en": "Bind the approval event to an immutable file hash and compare it with the delivered asset.",
+        "ru": "Свяжите согласование с неизменяемым хешем и сравните его с поставляемым файлом."
+      },
+      "fix": {
+        "en": "Return the current version for approval and invalidate only the superseded decision.",
+        "ru": "Отправьте текущую версию на согласование и аннулируйте только устаревшее решение."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "localization-source-change",
+      "title": {
+        "en": "Source changes after localization",
+        "ru": "Исходник изменён после локализации"
+      },
+      "area": {
+        "en": "localization",
+        "ru": "локализация"
+      },
+      "check": {
+        "en": "Diff dialogue, graphics, timings and glossary terms between localized and current source.",
+        "ru": "Сравните диалоги, графику, тайминги и термины локализованной и текущей версии."
+      },
+      "fix": {
+        "en": "Create a delta package and update only affected cues, graphics and approvals.",
+        "ru": "Создайте пакет изменений и обновите только затронутые реплики, графику и согласования."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "accessibility-track",
+      "title": {
+        "en": "Accessibility track missing",
+        "ru": "Нет дорожки доступности"
+      },
+      "area": {
+        "en": "accessibility",
+        "ru": "доступность"
+      },
+      "check": {
+        "en": "Compare required captions, SDH, audio description and transcripts with the delivery matrix.",
+        "ru": "Сверьте требуемые субтитры, SDH, тифлокомментарий и транскрипты с матрицей поставки."
+      },
+      "fix": {
+        "en": "Produce or explicitly waive the missing track through the accountable approval path.",
+        "ru": "Создайте недостающую дорожку либо оформите явное исключение через ответственного."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "master-corruption",
+      "title": {
+        "en": "Master file corruption",
+        "ru": "Повреждение мастер-файла"
+      },
+      "area": {
+        "en": "archive",
+        "ru": "архив"
+      },
+      "check": {
+        "en": "Verify container structure, decode every frame and sample, and compare the stored checksum.",
+        "ru": "Проверьте структуру контейнера, декодируйте каждый кадр и сэмпл, сравните хеш."
+      },
+      "fix": {
+        "en": "Quarantine the file and restore the last verified master before generating new derivatives.",
+        "ru": "Изолируйте файл и восстановите последний проверенный мастер до создания производных."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    }
+  ]
+}
