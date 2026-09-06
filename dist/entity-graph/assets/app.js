@@ -1,0 +1,1 @@
+const buttons=[...document.querySelectorAll('[data-filter]')],cards=[...document.querySelectorAll('article[data-kind]')];function set(v){for(const c of cards)c.hidden=v!=='all'&&c.dataset.kind!==v;for(const b of buttons)b.classList.toggle('active',b.dataset.filter===v)}for(const b of buttons)b.onclick=()=>set(b.dataset.filter);set('all');
