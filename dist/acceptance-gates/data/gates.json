@@ -1,0 +1,1420 @@
+{
+  "schema_version": "1.0.0",
+  "publisher": {
+    "name": "SHAR Production",
+    "website": "https://sharprod.com/"
+  },
+  "license": "CC-BY-4.0",
+  "gates": [
+    {
+      "id": "brief-gap-acceptance-gate",
+      "title": {
+        "en": "Incomplete production brief acceptance gate",
+        "ru": "Приёмочный контроль: Неполный производственный бриф"
+      },
+      "area": {
+        "en": "planning",
+        "ru": "планирование"
+      },
+      "criteria": {
+        "en": [
+          "Verification evidence is attached: Compare objectives, audience, formats, rights, budget and approvers against the signed brief.",
+          "Corrective state is confirmed: Freeze the missing decisions in a dated brief revision before estimating or scheduling.",
+          "One accountable owner and the immutable asset or workflow version are recorded.",
+          "Downstream impact, exceptions and the final release decision are documented."
+        ],
+        "ru": [
+          "Приложено доказательство проверки: Сверьте цели, аудиторию, форматы, права, бюджет и согласующих с подписанным брифом.",
+          "Подтверждено исправленное состояние: Зафиксируйте недостающие решения в датированной версии брифа до оценки и планирования.",
+          "Записаны один ответственный владелец и неизменяемая версия материала или процесса.",
+          "Задокументированы влияние на следующие этапы, исключения и итоговое решение о выпуске."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "scope-drift-acceptance-gate",
+      "title": {
+        "en": "Uncontrolled scope drift acceptance gate",
+        "ru": "Приёмочный контроль: Неконтролируемое изменение объёма"
+      },
+      "area": {
+        "en": "planning",
+        "ru": "планирование"
+      },
+      "criteria": {
+        "en": [
+          "Verification evidence is attached: Diff every new request against the approved deliverable list and assumptions.",
+          "Corrective state is confirmed: Log the delta, owner, cost and schedule effect; approve or remove it explicitly.",
+          "One accountable owner and the immutable asset or workflow version are recorded.",
+          "Downstream impact, exceptions and the final release decision are documented."
+        ],
+        "ru": [
+          "Приложено доказательство проверки: Сравните каждый новый запрос с утверждённым списком материалов и допущениями.",
+          "Подтверждено исправленное состояние: Запишите изменение, владельца, влияние на стоимость и срок; явно утвердите или исключите его.",
+          "Записаны один ответственный владелец и неизменяемая версия материала или процесса.",
+          "Задокументированы влияние на следующие этапы, исключения и итоговое решение о выпуске."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "approval-owner-missing-acceptance-gate",
+      "title": {
+        "en": "Missing approval owner acceptance gate",
+        "ru": "Приёмочный контроль: Не назначен согласующий"
+      },
+      "area": {
+        "en": "governance",
+        "ru": "управление"
+      },
+      "criteria": {
+        "en": [
+          "Verification evidence is attached: Inspect the RACI for every gate and locate decisions with no accountable person.",
+          "Corrective state is confirmed: Assign one accountable approver and a timed escalation route for each gate.",
+          "One accountable owner and the immutable asset or workflow version are recorded.",
+          "Downstream impact, exceptions and the final release decision are documented."
+        ],
+        "ru": [
+          "Приложено доказательство проверки: Проверьте RACI каждого этапа и найдите решения без ответственного лица.",
+          "Подтверждено исправленное состояние: Назначьте одного ответственного согласующего и срок эскалации для каждого этапа.",
+          "Записаны один ответственный владелец и неизменяемая версия материала или процесса.",
+          "Задокументированы влияние на следующие этапы, исключения и итоговое решение о выпуске."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "rights-expiry-acceptance-gate",
+      "title": {
+        "en": "Usage rights expire before campaign end acceptance gate",
+        "ru": "Приёмочный контроль: Права истекают до конца кампании"
+      },
+      "area": {
+        "en": "rights",
+        "ru": "права"
+      },
+      "criteria": {
+        "en": [
+          "Verification evidence is attached: Compare territory, media and end dates in releases with the media plan.",
+          "Corrective state is confirmed: Restrict the plan or obtain a documented extension before distribution.",
+          "One accountable owner and the immutable asset or workflow version are recorded.",
+          "Downstream impact, exceptions and the final release decision are documented."
+        ],
+        "ru": [
+          "Приложено доказательство проверки: Сверьте территорию, каналы и даты в разрешениях с медиапланом.",
+          "Подтверждено исправленное состояние: Ограничьте размещение либо получите документированное продление до публикации.",
+          "Записаны один ответственный владелец и неизменяемая версия материала или процесса.",
+          "Задокументированы влияние на следующие этапы, исключения и итоговое решение о выпуске."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "location-permit-gap-acceptance-gate",
+      "title": {
+        "en": "Location permit gap acceptance gate",
+        "ru": "Приёмочный контроль: Нет разрешения на локацию"
+      },
+      "area": {
+        "en": "rights",
+        "ru": "права"
+      },
+      "criteria": {
+        "en": [
+          "Verification evidence is attached: Match each scheduled location and activity to a valid permit and property release.",
+          "Corrective state is confirmed: Move the scene, narrow the activity or secure written permission before call time.",
+          "One accountable owner and the immutable asset or workflow version are recorded.",
+          "Downstream impact, exceptions and the final release decision are documented."
+        ],
+        "ru": [
+          "Приложено доказательство проверки: Сопоставьте каждую локацию и действие с действующим разрешением владельца.",
+          "Подтверждено исправленное состояние: Перенесите сцену, сократите действие либо получите письменное разрешение до вызова.",
+          "Записаны один ответственный владелец и неизменяемая версия материала или процесса.",
+          "Задокументированы влияние на следующие этапы, исключения и итоговое решение о выпуске."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "talent-release-gap-acceptance-gate",
+      "title": {
+        "en": "Talent release gap acceptance gate",
+        "ru": "Приёмочный контроль: Нет согласия участника"
+      },
+      "area": {
+        "en": "rights",
+        "ru": "права"
+      },
+      "criteria": {
+        "en": [
+          "Verification evidence is attached: Reconcile the cast list and visible contributors with signed release identifiers.",
+          "Corrective state is confirmed: Hold affected shots from distribution until the release or an approved replacement exists.",
+          "One accountable owner and the immutable asset or workflow version are recorded.",
+          "Downstream impact, exceptions and the final release decision are documented."
+        ],
+        "ru": [
+          "Приложено доказательство проверки: Сверьте список участников в кадре с идентификаторами подписанных согласий.",
+          "Подтверждено исправленное состояние: Не распространяйте затронутые кадры до получения согласия или утверждённой замены.",
+          "Записаны один ответственный владелец и неизменяемая версия материала или процесса.",
+          "Задокументированы влияние на следующие этапы, исключения и итоговое решение о выпуске."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "schedule-collision-acceptance-gate",
+      "title": {
+        "en": "Schedule dependency collision acceptance gate",
+        "ru": "Приёмочный контроль: Конфликт зависимостей графика"
+      },
+      "area": {
+        "en": "scheduling",
+        "ru": "график"
+      },
+      "criteria": {
+        "en": [
+          "Verification evidence is attached: Trace prerequisites for every task sharing crew, stage, equipment or source media.",
+          "Corrective state is confirmed: Resequence the critical path and publish one authoritative schedule revision.",
+          "One accountable owner and the immutable asset or workflow version are recorded.",
+          "Downstream impact, exceptions and the final release decision are documented."
+        ],
+        "ru": [
+          "Приложено доказательство проверки: Проверьте предпосылки задач с общей командой, площадкой, техникой или исходниками.",
+          "Подтверждено исправленное состояние: Перестройте критический путь и выпустите одну актуальную версию графика.",
+          "Записаны один ответственный владелец и неизменяемая версия материала или процесса.",
+          "Задокументированы влияние на следующие этапы, исключения и итоговое решение о выпуске."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "call-sheet-timezone-acceptance-gate",
+      "title": {
+        "en": "Call sheet timezone mismatch acceptance gate",
+        "ru": "Приёмочный контроль: Ошибка часового пояса в вызывном листе"
+      },
+      "area": {
+        "en": "scheduling",
+        "ru": "график"
+      },
+      "criteria": {
+        "en": [
+          "Verification evidence is attached: Compare call times, transport and sunrise data in the location timezone.",
+          "Corrective state is confirmed: Regenerate the sheet with explicit timezone labels and acknowledge the correction.",
+          "One accountable owner and the immutable asset or workflow version are recorded.",
+          "Downstream impact, exceptions and the final release decision are documented."
+        ],
+        "ru": [
+          "Приложено доказательство проверки: Сверьте вызовы, транспорт и восход в часовом поясе локации.",
+          "Подтверждено исправленное состояние: Пересоберите лист с явным часовым поясом и получите подтверждение исправления.",
+          "Записаны один ответственный владелец и неизменяемая версия материала или процесса.",
+          "Задокументированы влияние на следующие этапы, исключения и итоговое решение о выпуске."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "weather-contingency-acceptance-gate",
+      "title": {
+        "en": "Missing weather contingency acceptance gate",
+        "ru": "Приёмочный контроль: Нет погодного резерва"
+      },
+      "area": {
+        "en": "scheduling",
+        "ru": "график"
+      },
+      "criteria": {
+        "en": [
+          "Verification evidence is attached: Check thresholds for rain, wind, heat and daylight against forecast and equipment limits.",
+          "Corrective state is confirmed: Activate a pre-approved cover set, indoor scene or reschedule trigger.",
+          "One accountable owner and the immutable asset or workflow version are recorded.",
+          "Downstream impact, exceptions and the final release decision are documented."
+        ],
+        "ru": [
+          "Приложено доказательство проверки: Сверьте пороги дождя, ветра, жары и света с прогнозом и пределами техники.",
+          "Подтверждено исправленное состояние: Активируйте заранее утверждённую крытую площадку, интерьер или перенос.",
+          "Записаны один ответственный владелец и неизменяемая версия материала или процесса.",
+          "Задокументированы влияние на следующие этапы, исключения и итоговое решение о выпуске."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "backup-gap-acceptance-gate",
+      "title": {
+        "en": "No verified set backup acceptance gate",
+        "ru": "Приёмочный контроль: Нет проверенной резервной копии"
+      },
+      "area": {
+        "en": "media",
+        "ru": "медиа"
+      },
+      "criteria": {
+        "en": [
+          "Verification evidence is attached: Count independent copies and verify hashes before formatting any capture media.",
+          "Corrective state is confirmed: Create and verify the missing copy, then record custody and checksum evidence.",
+          "One accountable owner and the immutable asset or workflow version are recorded.",
+          "Downstream impact, exceptions and the final release decision are documented."
+        ],
+        "ru": [
+          "Приложено доказательство проверки: Посчитайте независимые копии и проверьте хеши до форматирования носителей.",
+          "Подтверждено исправленное состояние: Создайте и проверьте недостающую копию, запишите хранение и контрольные суммы.",
+          "Записаны один ответственный владелец и неизменяемая версия материала или процесса.",
+          "Задокументированы влияние на следующие этапы, исключения и итоговое решение о выпуске."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "checksum-mismatch-acceptance-gate",
+      "title": {
+        "en": "Checksum mismatch acceptance gate",
+        "ru": "Приёмочный контроль: Несовпадение контрольной суммы"
+      },
+      "area": {
+        "en": "media",
+        "ru": "медиа"
+      },
+      "criteria": {
+        "en": [
+          "Verification evidence is attached: Recalculate the source and destination hashes with the same algorithm and byte range.",
+          "Corrective state is confirmed: Quarantine the copy and transfer again from the last verified source.",
+          "One accountable owner and the immutable asset or workflow version are recorded.",
+          "Downstream impact, exceptions and the final release decision are documented."
+        ],
+        "ru": [
+          "Приложено доказательство проверки: Пересчитайте хеши источника и копии одним алгоритмом по одинаковому диапазону байтов.",
+          "Подтверждено исправленное состояние: Изолируйте копию и повторите перенос из последнего проверенного источника.",
+          "Записаны один ответственный владелец и неизменяемая версия материала или процесса.",
+          "Задокументированы влияние на следующие этапы, исключения и итоговое решение о выпуске."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "proxy-relink-acceptance-gate",
+      "title": {
+        "en": "Proxy media will not relink acceptance gate",
+        "ru": "Приёмочный контроль: Прокси не перелинковываются"
+      },
+      "area": {
+        "en": "editing",
+        "ru": "монтаж"
+      },
+      "criteria": {
+        "en": [
+          "Verification evidence is attached: Compare reel names, timecode, frame rate, path mapping and source identifiers.",
+          "Corrective state is confirmed: Normalize metadata in a reversible map and test relink on a duplicate project.",
+          "One accountable owner and the immutable asset or workflow version are recorded.",
+          "Downstream impact, exceptions and the final release decision are documented."
+        ],
+        "ru": [
+          "Приложено доказательство проверки: Сверьте имена рулонов, таймкод, частоту кадров, пути и идентификаторы исходников.",
+          "Подтверждено исправленное состояние: Нормализуйте метаданные обратимой картой и проверьте перелинковку на копии проекта.",
+          "Записаны один ответственный владелец и неизменяемая версия материала или процесса.",
+          "Задокументированы влияние на следующие этапы, исключения и итоговое решение о выпуске."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "timecode-drift-acceptance-gate",
+      "title": {
+        "en": "Audio and picture timecode drift acceptance gate",
+        "ru": "Приёмочный контроль: Дрейф таймкода звука и изображения"
+      },
+      "area": {
+        "en": "capture",
+        "ru": "съёмка"
+      },
+      "criteria": {
+        "en": [
+          "Verification evidence is attached: Measure offset at the head and tail to distinguish fixed offset from clock drift.",
+          "Corrective state is confirmed: Correct with the verified sync reference and document any time stretch.",
+          "One accountable owner and the immutable asset or workflow version are recorded.",
+          "Downstream impact, exceptions and the final release decision are documented."
+        ],
+        "ru": [
+          "Приложено доказательство проверки: Измерьте смещение в начале и конце, чтобы отличить постоянный сдвиг от дрейфа часов.",
+          "Подтверждено исправленное состояние: Исправьте по проверенной синхрометке и задокументируйте растяжение времени.",
+          "Записаны один ответственный владелец и неизменяемая версия материала или процесса.",
+          "Задокументированы влияние на следующие этапы, исключения и итоговое решение о выпуске."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "frame-rate-mismatch-acceptance-gate",
+      "title": {
+        "en": "Frame-rate mismatch acceptance gate",
+        "ru": "Приёмочный контроль: Несовпадение частоты кадров"
+      },
+      "area": {
+        "en": "post",
+        "ru": "постпродакшн"
+      },
+      "criteria": {
+        "en": [
+          "Verification evidence is attached: Inspect capture, timeline and delivery rates including fractional values and scan mode.",
+          "Corrective state is confirmed: Choose the approved cadence conversion and test motion before conform.",
+          "One accountable owner and the immutable asset or workflow version are recorded.",
+          "Downstream impact, exceptions and the final release decision are documented."
+        ],
+        "ru": [
+          "Приложено доказательство проверки: Проверьте частоты съёмки, таймлайна и поставки, включая дробные значения и развёртку.",
+          "Подтверждено исправленное состояние: Выберите утверждённое преобразование кадров и проверьте движение до конформа.",
+          "Записаны один ответственный владелец и неизменяемая версия материала или процесса.",
+          "Задокументированы влияние на следующие этапы, исключения и итоговое решение о выпуске."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "color-space-tag-acceptance-gate",
+      "title": {
+        "en": "Incorrect color-space tag acceptance gate",
+        "ru": "Приёмочный контроль: Неверный тег цветового пространства"
+      },
+      "area": {
+        "en": "color",
+        "ru": "цвет"
+      },
+      "criteria": {
+        "en": [
+          "Verification evidence is attached: Compare file tags with the documented camera transform and measured appearance.",
+          "Corrective state is confirmed: Correct metadata or transform pixels once; verify on a managed reference display.",
+          "One accountable owner and the immutable asset or workflow version are recorded.",
+          "Downstream impact, exceptions and the final release decision are documented."
+        ],
+        "ru": [
+          "Приложено доказательство проверки: Сверьте теги файла с документированным преобразованием камеры и изображением.",
+          "Подтверждено исправленное состояние: Исправьте метаданные либо преобразуйте пиксели один раз и проверьте на эталонном дисплее.",
+          "Записаны один ответственный владелец и неизменяемая версия материала или процесса.",
+          "Задокументированы влияние на следующие этапы, исключения и итоговое решение о выпуске."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "lut-baked-in-acceptance-gate",
+      "title": {
+        "en": "Look LUT baked into source acceptance gate",
+        "ru": "Приёмочный контроль: LUT запечён в исходник"
+      },
+      "area": {
+        "en": "color",
+        "ru": "цвет"
+      },
+      "criteria": {
+        "en": [
+          "Verification evidence is attached: Compare neutral chart values and camera originals to detect irreversible look processing.",
+          "Corrective state is confirmed: Return to the unprocessed source or document the baked look as a creative constraint.",
+          "One accountable owner and the immutable asset or workflow version are recorded.",
+          "Downstream impact, exceptions and the final release decision are documented."
+        ],
+        "ru": [
+          "Приложено доказательство проверки: Сравните нейтральную таблицу и оригиналы камеры, чтобы выявить необратимую обработку.",
+          "Подтверждено исправленное состояние: Вернитесь к необработанному источнику либо зафиксируйте LUT как творческое ограничение.",
+          "Записаны один ответственный владелец и неизменяемая версия материала или процесса.",
+          "Задокументированы влияние на следующие этапы, исключения и итоговое решение о выпуске."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "audio-sample-rate-acceptance-gate",
+      "title": {
+        "en": "Audio sample-rate mismatch acceptance gate",
+        "ru": "Приёмочный контроль: Несовпадение частоты дискретизации"
+      },
+      "area": {
+        "en": "audio",
+        "ru": "звук"
+      },
+      "criteria": {
+        "en": [
+          "Verification evidence is attached: Inspect actual sample rates and duration against the timeline clock.",
+          "Corrective state is confirmed: Resample once with an approved high-quality process and verify sync end to end.",
+          "One accountable owner and the immutable asset or workflow version are recorded.",
+          "Downstream impact, exceptions and the final release decision are documented."
+        ],
+        "ru": [
+          "Приложено доказательство проверки: Проверьте фактическую частоту дискретизации и длительность относительно таймлайна.",
+          "Подтверждено исправленное состояние: Один раз передискретизируйте утверждённым методом и проверьте синхронность целиком.",
+          "Записаны один ответственный владелец и неизменяемая версия материала или процесса.",
+          "Задокументированы влияние на следующие этапы, исключения и итоговое решение о выпуске."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "loudness-fail-acceptance-gate",
+      "title": {
+        "en": "Programme loudness outside target acceptance gate",
+        "ru": "Приёмочный контроль: Громкость программы вне нормы"
+      },
+      "area": {
+        "en": "audio",
+        "ru": "звук"
+      },
+      "criteria": {
+        "en": [
+          "Verification evidence is attached: Measure integrated loudness, range and gating using the delivery standard.",
+          "Corrective state is confirmed: Adjust the mix, remeasure the complete programme and retain the meter report.",
+          "One accountable owner and the immutable asset or workflow version are recorded.",
+          "Downstream impact, exceptions and the final release decision are documented."
+        ],
+        "ru": [
+          "Приложено доказательство проверки: Измерьте интегральную громкость, диапазон и гейтинг по стандарту поставки.",
+          "Подтверждено исправленное состояние: Скорректируйте микс, перемерьте всю программу и сохраните отчёт измерителя.",
+          "Записаны один ответственный владелец и неизменяемая версия материала или процесса.",
+          "Задокументированы влияние на следующие этапы, исключения и итоговое решение о выпуске."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "true-peak-clipping-acceptance-gate",
+      "title": {
+        "en": "True-peak clipping acceptance gate",
+        "ru": "Приёмочный контроль: Клиппинг истинного пика"
+      },
+      "area": {
+        "en": "audio",
+        "ru": "звук"
+      },
+      "criteria": {
+        "en": [
+          "Verification evidence is attached: Measure oversampled true peak after every lossy encode and sample-rate conversion.",
+          "Corrective state is confirmed: Lower or limit the offending peaks, encode again and repeat the measurement.",
+          "One accountable owner and the immutable asset or workflow version are recorded.",
+          "Downstream impact, exceptions and the final release decision are documented."
+        ],
+        "ru": [
+          "Приложено доказательство проверки: Измерьте истинный пик с передискретизацией после кодирования и изменения частоты.",
+          "Подтверждено исправленное состояние: Ослабьте или ограничьте пики, перекодируйте и повторите измерение.",
+          "Записаны один ответственный владелец и неизменяемая версия материала или процесса.",
+          "Задокументированы влияние на следующие этапы, исключения и итоговое решение о выпуске."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "caption-overlap-acceptance-gate",
+      "title": {
+        "en": "Overlapping caption cues acceptance gate",
+        "ru": "Приёмочный контроль: Перекрывающиеся субтитры"
+      },
+      "area": {
+        "en": "localization",
+        "ru": "локализация"
+      },
+      "criteria": {
+        "en": [
+          "Verification evidence is attached: Sort cue intervals and find any next start earlier than the current end.",
+          "Corrective state is confirmed: Retiming cues while preserving minimum gaps, shot changes and spoken meaning.",
+          "One accountable owner and the immutable asset or workflow version are recorded.",
+          "Downstream impact, exceptions and the final release decision are documented."
+        ],
+        "ru": [
+          "Приложено доказательство проверки: Отсортируйте интервалы и найдите начало следующей реплики раньше конца текущей.",
+          "Подтверждено исправленное состояние: Переставьте тайминги с сохранением пауз, монтажных склеек и смысла речи.",
+          "Записаны один ответственный владелец и неизменяемая версия материала или процесса.",
+          "Задокументированы влияние на следующие этапы, исключения и итоговое решение о выпуске."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "caption-speed-acceptance-gate",
+      "title": {
+        "en": "Caption reading speed too high acceptance gate",
+        "ru": "Приёмочный контроль: Слишком высокая скорость субтитров"
+      },
+      "area": {
+        "en": "localization",
+        "ru": "локализация"
+      },
+      "criteria": {
+        "en": [
+          "Verification evidence is attached: Calculate characters per second for each cue using the platform limit.",
+          "Corrective state is confirmed: Condense wording or extend exposure without hiding essential dialogue.",
+          "One accountable owner and the immutable asset or workflow version are recorded.",
+          "Downstream impact, exceptions and the final release decision are documented."
+        ],
+        "ru": [
+          "Приложено доказательство проверки: Рассчитайте знаки в секунду для каждой реплики по лимиту площадки.",
+          "Подтверждено исправленное состояние: Сократите формулировку или увеличьте показ без потери важного диалога.",
+          "Записаны один ответственный владелец и неизменяемая версия материала или процесса.",
+          "Задокументированы влияние на следующие этапы, исключения и итоговое решение о выпуске."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "forced-narrative-acceptance-gate",
+      "title": {
+        "en": "Forced-narrative subtitle missing acceptance gate",
+        "ru": "Приёмочный контроль: Нет форсированного субтитра"
+      },
+      "area": {
+        "en": "localization",
+        "ru": "локализация"
+      },
+      "criteria": {
+        "en": [
+          "Verification evidence is attached: Review foreign dialogue and story-critical on-screen text against the spotting list.",
+          "Corrective state is confirmed: Author the missing forced cue and test it in every required language stream.",
+          "One accountable owner and the immutable asset or workflow version are recorded.",
+          "Downstream impact, exceptions and the final release decision are documented."
+        ],
+        "ru": [
+          "Приложено доказательство проверки: Сверьте иностранную речь и важный экранный текст со списком субтитров.",
+          "Подтверждено исправленное состояние: Создайте форсированную реплику и проверьте её во всех нужных языковых потоках.",
+          "Записаны один ответственный владелец и неизменяемая версия материала или процесса.",
+          "Задокументированы влияние на следующие этапы, исключения и итоговое решение о выпуске."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "font-license-acceptance-gate",
+      "title": {
+        "en": "Unverified font license acceptance gate",
+        "ru": "Приёмочный контроль: Не подтверждена лицензия шрифта"
+      },
+      "area": {
+        "en": "rights",
+        "ru": "права"
+      },
+      "criteria": {
+        "en": [
+          "Verification evidence is attached: Trace every embedded or rendered font to a license covering the intended media.",
+          "Corrective state is confirmed: Replace it with an approved font or obtain written rights before mastering.",
+          "One accountable owner and the immutable asset or workflow version are recorded.",
+          "Downstream impact, exceptions and the final release decision are documented."
+        ],
+        "ru": [
+          "Приложено доказательство проверки: Проследите каждый встроенный или отрисованный шрифт до лицензии на нужные каналы.",
+          "Подтверждено исправленное состояние: Замените его утверждённым шрифтом либо получите письменные права до мастеринга.",
+          "Записаны один ответственный владелец и неизменяемая версия материала или процесса.",
+          "Задокументированы влияние на следующие этапы, исключения и итоговое решение о выпуске."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "alpha-loss-acceptance-gate",
+      "title": {
+        "en": "Alpha channel lost acceptance gate",
+        "ru": "Приёмочный контроль: Потерян альфа-канал"
+      },
+      "area": {
+        "en": "graphics",
+        "ru": "графика"
+      },
+      "criteria": {
+        "en": [
+          "Verification evidence is attached: Inspect channel count, codec support, premultiplication and export interpretation.",
+          "Corrective state is confirmed: Export a supported alpha codec with documented straight or premultiplied handling.",
+          "One accountable owner and the immutable asset or workflow version are recorded.",
+          "Downstream impact, exceptions and the final release decision are documented."
+        ],
+        "ru": [
+          "Приложено доказательство проверки: Проверьте число каналов, поддержку кодека, premultiply и трактовку экспорта.",
+          "Подтверждено исправленное состояние: Экспортируйте поддерживаемый кодек с документированным straight или premultiplied alpha.",
+          "Записаны один ответственный владелец и неизменяемая версия материала или процесса.",
+          "Задокументированы влияние на следующие этапы, исключения и итоговое решение о выпуске."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "codec-incompatible-acceptance-gate",
+      "title": {
+        "en": "Codec rejected by destination acceptance gate",
+        "ru": "Приёмочный контроль: Кодек отклонён площадкой"
+      },
+      "area": {
+        "en": "delivery",
+        "ru": "поставка"
+      },
+      "criteria": {
+        "en": [
+          "Verification evidence is attached: Compare codec profile, level, chroma, bit depth and bitrate with the current specification.",
+          "Corrective state is confirmed: Transcode from the verified master to an exact compliant preset and run QC again.",
+          "One accountable owner and the immutable asset or workflow version are recorded.",
+          "Downstream impact, exceptions and the final release decision are documented."
+        ],
+        "ru": [
+          "Приложено доказательство проверки: Сверьте профиль, уровень, цветность, глубину и битрейт с актуальной спецификацией.",
+          "Подтверждено исправленное состояние: Перекодируйте проверенный мастер точным пресетом и повторите контроль качества.",
+          "Записаны один ответственный владелец и неизменяемая версия материала или процесса.",
+          "Задокументированы влияние на следующие этапы, исключения и итоговое решение о выпуске."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "metadata-gap-acceptance-gate",
+      "title": {
+        "en": "Container metadata incomplete acceptance gate",
+        "ru": "Приёмочный контроль: Неполные метаданные контейнера"
+      },
+      "area": {
+        "en": "delivery",
+        "ru": "поставка"
+      },
+      "criteria": {
+        "en": [
+          "Verification evidence is attached: Validate language, track order, timebase, field dominance and descriptive tags.",
+          "Corrective state is confirmed: Rewrite metadata without altering essence where possible, then revalidate the container.",
+          "One accountable owner and the immutable asset or workflow version are recorded.",
+          "Downstream impact, exceptions and the final release decision are documented."
+        ],
+        "ru": [
+          "Приложено доказательство проверки: Проверьте язык, порядок дорожек, таймбейс, развёртку и описательные теги.",
+          "Подтверждено исправленное состояние: Перезапишите метаданные без изменения потоков, затем повторно проверьте контейнер.",
+          "Записаны один ответственный владелец и неизменяемая версия материала или процесса.",
+          "Задокументированы влияние на следующие этапы, исключения и итоговое решение о выпуске."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "aspect-ratio-acceptance-gate",
+      "title": {
+        "en": "Incorrect aspect ratio acceptance gate",
+        "ru": "Приёмочный контроль: Неверное соотношение сторон"
+      },
+      "area": {
+        "en": "picture",
+        "ru": "изображение"
+      },
+      "criteria": {
+        "en": [
+          "Verification evidence is attached: Compare raster dimensions, pixel aspect, display aspect and approved framing.",
+          "Corrective state is confirmed: Apply the documented crop, pad or pixel-aspect correction and review key shots.",
+          "One accountable owner and the immutable asset or workflow version are recorded.",
+          "Downstream impact, exceptions and the final release decision are documented."
+        ],
+        "ru": [
+          "Приложено доказательство проверки: Сверьте размер растра, аспект пикселя, экранный аспект и утверждённое кадрирование.",
+          "Подтверждено исправленное состояние: Примените документированный crop, pad или коррекцию аспекта и проверьте ключевые кадры.",
+          "Записаны один ответственный владелец и неизменяемая версия материала или процесса.",
+          "Задокументированы влияние на следующие этапы, исключения и итоговое решение о выпуске."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "safe-area-acceptance-gate",
+      "title": {
+        "en": "Graphics outside safe area acceptance gate",
+        "ru": "Приёмочный контроль: Графика вне безопасной зоны"
+      },
+      "area": {
+        "en": "graphics",
+        "ru": "графика"
+      },
+      "criteria": {
+        "en": [
+          "Verification evidence is attached: Overlay the destination action and title-safe guides on every required aspect.",
+          "Corrective state is confirmed: Reposition or reflow graphics and verify long localized strings.",
+          "One accountable owner and the immutable asset or workflow version are recorded.",
+          "Downstream impact, exceptions and the final release decision are documented."
+        ],
+        "ru": [
+          "Приложено доказательство проверки: Наложите зоны action/title safe площадки на каждое требуемое соотношение сторон.",
+          "Подтверждено исправленное состояние: Переместите или переверстайте графику и проверьте длинные локализованные строки.",
+          "Записаны один ответственный владелец и неизменяемая версия материала или процесса.",
+          "Задокументированы влияние на следующие этапы, исключения и итоговое решение о выпуске."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "field-order-acceptance-gate",
+      "title": {
+        "en": "Field-order artefacts acceptance gate",
+        "ru": "Приёмочный контроль: Артефакты порядка полей"
+      },
+      "area": {
+        "en": "picture",
+        "ru": "изображение"
+      },
+      "criteria": {
+        "en": [
+          "Verification evidence is attached: Step through motion and inspect declared versus actual field dominance.",
+          "Corrective state is confirmed: Correct field interpretation before one controlled deinterlace or re-encode.",
+          "One accountable owner and the immutable asset or workflow version are recorded.",
+          "Downstream impact, exceptions and the final release decision are documented."
+        ],
+        "ru": [
+          "Приложено доказательство проверки: Просмотрите движение покадрово и сравните заявленный и фактический порядок полей.",
+          "Подтверждено исправленное состояние: Исправьте трактовку полей до одного контролируемого деинтерлейса или перекодирования.",
+          "Записаны один ответственный владелец и неизменяемая версия материала или процесса.",
+          "Задокументированы влияние на следующие этапы, исключения и итоговое решение о выпуске."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "gamma-shift-acceptance-gate",
+      "title": {
+        "en": "Gamma shift after export acceptance gate",
+        "ru": "Приёмочный контроль: Сдвиг гаммы после экспорта"
+      },
+      "area": {
+        "en": "color",
+        "ru": "цвет"
+      },
+      "criteria": {
+        "en": [
+          "Verification evidence is attached: Compare managed reference frames through the exact export and playback chain.",
+          "Corrective state is confirmed: Align transfer metadata and transforms, then verify pixels and display behavior separately.",
+          "One accountable owner and the immutable asset or workflow version are recorded.",
+          "Downstream impact, exceptions and the final release decision are documented."
+        ],
+        "ru": [
+          "Приложено доказательство проверки: Сравните эталонные кадры через точную цепочку экспорта и воспроизведения.",
+          "Подтверждено исправленное состояние: Согласуйте метаданные и преобразования, затем отдельно проверьте пиксели и отображение.",
+          "Записаны один ответственный владелец и неизменяемая версия материала или процесса.",
+          "Задокументированы влияние на следующие этапы, исключения и итоговое решение о выпуске."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "vfx-handles-acceptance-gate",
+      "title": {
+        "en": "VFX handles too short acceptance gate",
+        "ru": "Приёмочный контроль: Недостаточные монтажные запасы VFX"
+      },
+      "area": {
+        "en": "vfx",
+        "ru": "VFX"
+      },
+      "criteria": {
+        "en": [
+          "Verification evidence is attached: Compare requested handles with transitions, retimes, stabilization and editorial alternatives.",
+          "Corrective state is confirmed: Repull from source with sufficient verified handles and updated frame ranges.",
+          "One accountable owner and the immutable asset or workflow version are recorded.",
+          "Downstream impact, exceptions and the final release decision are documented."
+        ],
+        "ru": [
+          "Приложено доказательство проверки: Сверьте запасы с переходами, ретаймами, стабилизацией и монтажными вариантами.",
+          "Подтверждено исправленное состояние: Повторно выгрузите исходник с достаточными запасами и новыми диапазонами кадров.",
+          "Записаны один ответственный владелец и неизменяемая версия материала или процесса.",
+          "Задокументированы влияние на следующие этапы, исключения и итоговое решение о выпуске."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "clean-plate-acceptance-gate",
+      "title": {
+        "en": "Clean plate missing acceptance gate",
+        "ru": "Приёмочный контроль: Нет чистого плейта"
+      },
+      "area": {
+        "en": "vfx",
+        "ru": "VFX"
+      },
+      "criteria": {
+        "en": [
+          "Verification evidence is attached: Check camera reports and takes for a matching lens, move, exposure and lighting state.",
+          "Corrective state is confirmed: Use an approved alternate plate or schedule a controlled reconstruction with provenance.",
+          "One accountable owner and the immutable asset or workflow version are recorded.",
+          "Downstream impact, exceptions and the final release decision are documented."
+        ],
+        "ru": [
+          "Приложено доказательство проверки: Проверьте отчёты и дубли на совпадение объектива, движения, экспозиции и света.",
+          "Подтверждено исправленное состояние: Используйте утверждённый альтернативный плейт либо контролируемую реконструкцию с происхождением.",
+          "Записаны один ответственный владелец и неизменяемая версия материала или процесса.",
+          "Задокументированы влияние на следующие этапы, исключения и итоговое решение о выпуске."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "edl-reel-acceptance-gate",
+      "title": {
+        "en": "EDL reel-name mismatch acceptance gate",
+        "ru": "Приёмочный контроль: Несовпадение имён рулонов EDL"
+      },
+      "area": {
+        "en": "conform",
+        "ru": "конформ"
+      },
+      "criteria": {
+        "en": [
+          "Verification evidence is attached: Compare EDL reel identifiers with source metadata and the ingest naming map.",
+          "Corrective state is confirmed: Apply a reviewed translation map and test every ambiguous event manually.",
+          "One accountable owner and the immutable asset or workflow version are recorded.",
+          "Downstream impact, exceptions and the final release decision are documented."
+        ],
+        "ru": [
+          "Приложено доказательство проверки: Сверьте рулоны EDL с метаданными исходников и картой именования при загрузке.",
+          "Подтверждено исправленное состояние: Примените проверенную карту соответствий и вручную проверьте неоднозначные события.",
+          "Записаны один ответственный владелец и неизменяемая версия материала или процесса.",
+          "Задокументированы влияние на следующие этапы, исключения и итоговое решение о выпуске."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "aaf-offline-acceptance-gate",
+      "title": {
+        "en": "AAF opens with offline media acceptance gate",
+        "ru": "Приёмочный контроль: AAF открывается без медиа"
+      },
+      "area": {
+        "en": "conform",
+        "ru": "конформ"
+      },
+      "criteria": {
+        "en": [
+          "Verification evidence is attached: Inspect embedded media, linked paths, consolidation range and plugin-dependent effects.",
+          "Corrective state is confirmed: Re-export a consolidated turnover with handles and a reference picture.",
+          "One accountable owner and the immutable asset or workflow version are recorded.",
+          "Downstream impact, exceptions and the final release decision are documented."
+        ],
+        "ru": [
+          "Приложено доказательство проверки: Проверьте встроенные медиа, пути, диапазон консолидации и зависимые эффекты.",
+          "Подтверждено исправленное состояние: Повторно экспортируйте консолидированный пакет с запасами и референсным видео.",
+          "Записаны один ответственный владелец и неизменяемая версия материала или процесса.",
+          "Задокументированы влияние на следующие этапы, исключения и итоговое решение о выпуске."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "xml-retime-acceptance-gate",
+      "title": {
+        "en": "XML retime interpreted incorrectly acceptance gate",
+        "ru": "Приёмочный контроль: Неверная трактовка ретайма XML"
+      },
+      "area": {
+        "en": "conform",
+        "ru": "конформ"
+      },
+      "criteria": {
+        "en": [
+          "Verification evidence is attached: Compare speed curves, frame blending and optical-flow settings against reference video.",
+          "Corrective state is confirmed: Bake unsupported retimes or rebuild them explicitly and record affected shots.",
+          "One accountable owner and the immutable asset or workflow version are recorded.",
+          "Downstream impact, exceptions and the final release decision are documented."
+        ],
+        "ru": [
+          "Приложено доказательство проверки: Сверьте кривые скорости, смешивание кадров и optical flow с референсным видео.",
+          "Подтверждено исправленное состояние: Запеките неподдерживаемые ретаймы либо пересоберите их и запишите затронутые кадры.",
+          "Записаны один ответственный владелец и неизменяемая версия материала или процесса.",
+          "Задокументированы влияние на следующие этапы, исключения и итоговое решение о выпуске."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "conform-version-acceptance-gate",
+      "title": {
+        "en": "Wrong cut conformed acceptance gate",
+        "ru": "Приёмочный контроль: Сконформирована неверная версия"
+      },
+      "area": {
+        "en": "conform",
+        "ru": "конформ"
+      },
+      "criteria": {
+        "en": [
+          "Verification evidence is attached: Match edit hash, duration, event count and reference burn-in to the approved lock.",
+          "Corrective state is confirmed: Stop downstream work, restore the approved turnover and document superseded versions.",
+          "One accountable owner and the immutable asset or workflow version are recorded.",
+          "Downstream impact, exceptions and the final release decision are documented."
+        ],
+        "ru": [
+          "Приложено доказательство проверки: Сверьте хеш монтажа, длительность, число событий и burn-in с утверждённым lock.",
+          "Подтверждено исправленное состояние: Остановите дальнейшие работы, восстановите утверждённую передачу и пометьте старые версии.",
+          "Записаны один ответственный владелец и неизменяемая версия материала или процесса.",
+          "Задокументированы влияние на следующие этапы, исключения и итоговое решение о выпуске."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "slate-mismatch-acceptance-gate",
+      "title": {
+        "en": "Slate metadata mismatch acceptance gate",
+        "ru": "Приёмочный контроль: Несовпадение данных хлопушки"
+      },
+      "area": {
+        "en": "capture",
+        "ru": "съёмка"
+      },
+      "criteria": {
+        "en": [
+          "Verification evidence is attached: Compare visible slate, camera report, sound report and file metadata for the take.",
+          "Corrective state is confirmed: Resolve with timecode and waveform evidence, then update the ingest log without erasing history.",
+          "One accountable owner and the immutable asset or workflow version are recorded.",
+          "Downstream impact, exceptions and the final release decision are documented."
+        ],
+        "ru": [
+          "Приложено доказательство проверки: Сверьте хлопушку в кадре, камерный и звуковой отчёты и метаданные дубля.",
+          "Подтверждено исправленное состояние: Разрешите расхождение по таймкоду и волне, обновив журнал без удаления истории.",
+          "Записаны один ответственный владелец и неизменяемая версия материала или процесса.",
+          "Задокументированы влияние на следующие этапы, исключения и итоговое решение о выпуске."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "camera-report-acceptance-gate",
+      "title": {
+        "en": "Camera report incomplete acceptance gate",
+        "ru": "Приёмочный контроль: Неполный камерный отчёт"
+      },
+      "area": {
+        "en": "capture",
+        "ru": "съёмка"
+      },
+      "criteria": {
+        "en": [
+          "Verification evidence is attached: Check each card and take for lens, filter, rate, color and notes required downstream.",
+          "Corrective state is confirmed: Reconstruct only from source metadata and crew confirmation, marking inferred fields.",
+          "One accountable owner and the immutable asset or workflow version are recorded.",
+          "Downstream impact, exceptions and the final release decision are documented."
+        ],
+        "ru": [
+          "Приложено доказательство проверки: Проверьте для карт и дублей объектив, фильтр, частоту, цвет и необходимые заметки.",
+          "Подтверждено исправленное состояние: Восстановите данные только из метаданных и подтверждения группы, пометив выводы.",
+          "Записаны один ответственный владелец и неизменяемая версия материала или процесса.",
+          "Задокументированы влияние на следующие этапы, исключения и итоговое решение о выпуске."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "sound-report-acceptance-gate",
+      "title": {
+        "en": "Sound report incomplete acceptance gate",
+        "ru": "Приёмочный контроль: Неполный звуковой отчёт"
+      },
+      "area": {
+        "en": "capture",
+        "ru": "съёмка"
+      },
+      "criteria": {
+        "en": [
+          "Verification evidence is attached: Reconcile recorder files, track names, microphones, timecode and scene-take labels.",
+          "Corrective state is confirmed: Create a corrected non-destructive report linked to original filenames.",
+          "One accountable owner and the immutable asset or workflow version are recorded.",
+          "Downstream impact, exceptions and the final release decision are documented."
+        ],
+        "ru": [
+          "Приложено доказательство проверки: Сверьте файлы рекордера, дорожки, микрофоны, таймкод и номера сцен и дублей.",
+          "Подтверждено исправленное состояние: Создайте исправленный неизменяющий отчёт со ссылками на исходные имена файлов.",
+          "Записаны один ответственный владелец и неизменяемая версия материала или процесса.",
+          "Задокументированы влияние на следующие этапы, исключения и итоговое решение о выпуске."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "qc-severity-acceptance-gate",
+      "title": {
+        "en": "QC severity classified incorrectly acceptance gate",
+        "ru": "Приёмочный контроль: Неверно определена серьёзность QC"
+      },
+      "area": {
+        "en": "quality",
+        "ru": "качество"
+      },
+      "criteria": {
+        "en": [
+          "Verification evidence is attached: Apply the same documented impact, visibility and deliverability criteria to the finding.",
+          "Corrective state is confirmed: Reclassify with evidence, owner and disposition while preserving the original observation.",
+          "One accountable owner and the immutable asset or workflow version are recorded.",
+          "Downstream impact, exceptions and the final release decision are documented."
+        ],
+        "ru": [
+          "Приложено доказательство проверки: Примените к замечанию единые критерии влияния, заметности и пригодности к поставке.",
+          "Подтверждено исправленное состояние: Переклассифицируйте с доказательством, владельцем и решением, сохранив исходное замечание.",
+          "Записаны один ответственный владелец и неизменяемая версия материала или процесса.",
+          "Задокументированы влияние на следующие этапы, исключения и итоговое решение о выпуске."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "filename-collision-acceptance-gate",
+      "title": {
+        "en": "Delivery filename collision acceptance gate",
+        "ru": "Приёмочный контроль: Конфликт имён файлов поставки"
+      },
+      "area": {
+        "en": "delivery",
+        "ru": "поставка"
+      },
+      "criteria": {
+        "en": [
+          "Verification evidence is attached: Expand filenames to normalized project, market, language, version and checksum identity.",
+          "Corrective state is confirmed: Rename through the manifest, never in isolation, and regenerate dependent checksums.",
+          "One accountable owner and the immutable asset or workflow version are recorded.",
+          "Downstream impact, exceptions and the final release decision are documented."
+        ],
+        "ru": [
+          "Приложено доказательство проверки: Разберите имена по проекту, рынку, языку, версии и контрольной сумме.",
+          "Подтверждено исправленное состояние: Переименуйте через манифест и пересоздайте связанные контрольные суммы.",
+          "Записаны один ответственный владелец и неизменяемая версия материала или процесса.",
+          "Задокументированы влияние на следующие этапы, исключения и итоговое решение о выпуске."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "version-label-acceptance-gate",
+      "title": {
+        "en": "Ambiguous version label acceptance gate",
+        "ru": "Приёмочный контроль: Неоднозначная маркировка версии"
+      },
+      "area": {
+        "en": "delivery",
+        "ru": "поставка"
+      },
+      "criteria": {
+        "en": [
+          "Verification evidence is attached: Map every file label to an immutable approval, date, language and deliverable role.",
+          "Corrective state is confirmed: Issue a deterministic version identifier and retire ambiguous aliases in the manifest.",
+          "One accountable owner and the immutable asset or workflow version are recorded.",
+          "Downstream impact, exceptions and the final release decision are documented."
+        ],
+        "ru": [
+          "Приложено доказательство проверки: Сопоставьте метку файла с неизменяемым согласованием, датой, языком и ролью.",
+          "Подтверждено исправленное состояние: Выпустите однозначный идентификатор и уберите неоднозначные псевдонимы из манифеста.",
+          "Записаны один ответственный владелец и неизменяемая версия материала или процесса.",
+          "Задокументированы влияние на следующие этапы, исключения и итоговое решение о выпуске."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "manifest-gap-acceptance-gate",
+      "title": {
+        "en": "Delivery manifest incomplete acceptance gate",
+        "ru": "Приёмочный контроль: Неполный манифест поставки"
+      },
+      "area": {
+        "en": "delivery",
+        "ru": "поставка"
+      },
+      "criteria": {
+        "en": [
+          "Verification evidence is attached: Compare expected deliverables with file inventory, sizes, hashes, languages and dependencies.",
+          "Corrective state is confirmed: Regenerate the manifest from verified files and resolve every missing or extra item.",
+          "One accountable owner and the immutable asset or workflow version are recorded.",
+          "Downstream impact, exceptions and the final release decision are documented."
+        ],
+        "ru": [
+          "Приложено доказательство проверки: Сверьте ожидаемые материалы с файлами, размерами, хешами, языками и зависимостями.",
+          "Подтверждено исправленное состояние: Пересоздайте манифест из проверенных файлов и разберите каждый пропуск или лишний элемент.",
+          "Записаны один ответственный владелец и неизменяемая версия материала или процесса.",
+          "Задокументированы влияние на следующие этапы, исключения и итоговое решение о выпуске."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "upload-incomplete-acceptance-gate",
+      "title": {
+        "en": "Upload completed incompletely acceptance gate",
+        "ru": "Приёмочный контроль: Загрузка завершилась не полностью"
+      },
+      "area": {
+        "en": "delivery",
+        "ru": "поставка"
+      },
+      "criteria": {
+        "en": [
+          "Verification evidence is attached: Compare remote byte counts and hashes with the signed local manifest.",
+          "Corrective state is confirmed: Resume or repeat only failed objects, then verify the entire remote set.",
+          "One accountable owner and the immutable asset or workflow version are recorded.",
+          "Downstream impact, exceptions and the final release decision are documented."
+        ],
+        "ru": [
+          "Приложено доказательство проверки: Сверьте удалённые размеры и хеши с подписанным локальным манифестом.",
+          "Подтверждено исправленное состояние: Возобновите либо повторите только сбойные объекты, затем проверьте весь удалённый набор.",
+          "Записаны один ответственный владелец и неизменяемая версия материала или процесса.",
+          "Задокументированы влияние на следующие этапы, исключения и итоговое решение о выпуске."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "restore-fail-acceptance-gate",
+      "title": {
+        "en": "Archive restore test fails acceptance gate",
+        "ru": "Приёмочный контроль: Не проходит тест восстановления архива"
+      },
+      "area": {
+        "en": "archive",
+        "ru": "архив"
+      },
+      "criteria": {
+        "en": [
+          "Verification evidence is attached: Test catalog lookup, media retrieval, checksum and application readability from a clean environment.",
+          "Corrective state is confirmed: Repair from another verified copy and repeat a documented end-to-end restore.",
+          "One accountable owner and the immutable asset or workflow version are recorded.",
+          "Downstream impact, exceptions and the final release decision are documented."
+        ],
+        "ru": [
+          "Приложено доказательство проверки: Проверьте каталог, извлечение, контрольную сумму и читаемость в чистой среде.",
+          "Подтверждено исправленное состояние: Восстановите из другой проверенной копии и повторите документированный полный тест.",
+          "Записаны один ответственный владелец и неизменяемая версия материала или процесса.",
+          "Задокументированы влияние на следующие этапы, исключения и итоговое решение о выпуске."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "duplicate-assets-acceptance-gate",
+      "title": {
+        "en": "Duplicate assets diverge acceptance gate",
+        "ru": "Приёмочный контроль: Дубликаты материалов расходятся"
+      },
+      "area": {
+        "en": "media",
+        "ru": "медиа"
+      },
+      "criteria": {
+        "en": [
+          "Verification evidence is attached: Group files by content hash and compare metadata, approval state and storage role.",
+          "Corrective state is confirmed: Choose one governed master, preserve required replicas and quarantine conflicting derivatives.",
+          "One accountable owner and the immutable asset or workflow version are recorded.",
+          "Downstream impact, exceptions and the final release decision are documented."
+        ],
+        "ru": [
+          "Приложено доказательство проверки: Сгруппируйте файлы по хешу и сравните метаданные, согласование и роль хранения.",
+          "Подтверждено исправленное состояние: Выберите один управляемый мастер, сохраните нужные копии и изолируйте конфликтующие производные.",
+          "Записаны один ответственный владелец и неизменяемая версия материала или процесса.",
+          "Задокументированы влияние на следующие этапы, исключения и итоговое решение о выпуске."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "approval-stale-acceptance-gate",
+      "title": {
+        "en": "Approval refers to stale version acceptance gate",
+        "ru": "Приёмочный контроль: Согласование относится к старой версии"
+      },
+      "area": {
+        "en": "governance",
+        "ru": "управление"
+      },
+      "criteria": {
+        "en": [
+          "Verification evidence is attached: Bind the approval event to an immutable file hash and compare it with the delivered asset.",
+          "Corrective state is confirmed: Return the current version for approval and invalidate only the superseded decision.",
+          "One accountable owner and the immutable asset or workflow version are recorded.",
+          "Downstream impact, exceptions and the final release decision are documented."
+        ],
+        "ru": [
+          "Приложено доказательство проверки: Свяжите согласование с неизменяемым хешем и сравните его с поставляемым файлом.",
+          "Подтверждено исправленное состояние: Отправьте текущую версию на согласование и аннулируйте только устаревшее решение.",
+          "Записаны один ответственный владелец и неизменяемая версия материала или процесса.",
+          "Задокументированы влияние на следующие этапы, исключения и итоговое решение о выпуске."
+        ]
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "license": "CC-BY-4.0"
+    }
+  ]
+}
