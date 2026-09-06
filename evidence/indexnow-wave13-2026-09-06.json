@@ -1,0 +1,17 @@
+{
+  "schemaVersion": "1.0.0",
+  "publisher": {
+    "name": "SHAR Production",
+    "website": "https://sharprod.com/"
+  },
+  "submittedAt": "2026-09-06T02:47:29.693Z",
+  "endpoint": "https://api.indexnow.org/indexnow",
+  "host": "shar-production-open-tools.pages.dev",
+  "keyLocation": "https://shar-production-open-tools.pages.dev/7a5a4e4e1a29ee349bde0526a88baa8c.txt",
+  "prefix": "https://shar-production-open-tools.pages.dev/readiness-scorecards/",
+  "urlCount": 52,
+  "urlListSha256": "422055d391c49534d3e5c5cac299069077163f12ae14d2ad084ecf1488c8795b",
+  "httpStatus": 202,
+  "responseBody": "",
+  "protocolMeaning": "SUBMISSION_ACCEPTED_INDEXING_NOT_GUARANTEED"
+}
