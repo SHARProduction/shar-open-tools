@@ -175,6 +175,42 @@
       "evidence_class": "external_observation",
       "source_url": "https://www.sostav.ru/blogs/290917",
       "observed_at": "2026-09-06"
+    },
+    {
+      "id": "facebook-page",
+      "type": "ProfilePage",
+      "label": {
+        "en": "Facebook profile",
+        "ru": "Профиль Facebook"
+      },
+      "url": "https://www.facebook.com/people/SHAR-Production/61591180456716",
+      "evidence_class": "external_observation",
+      "source_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06"
+    },
+    {
+      "id": "pinterest-page",
+      "type": "ProfilePage",
+      "label": {
+        "en": "Pinterest profile",
+        "ru": "Профиль Pinterest"
+      },
+      "url": "https://www.pinterest.com/sharproduction1",
+      "evidence_class": "external_observation",
+      "source_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06"
+    },
+    {
+      "id": "threads-page",
+      "type": "ProfilePage",
+      "label": {
+        "en": "Threads profile",
+        "ru": "Профиль Threads"
+      },
+      "url": "https://www.threads.com/@shar.production",
+      "evidence_class": "external_observation",
+      "source_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06"
     }
   ],
   "edges": [
@@ -302,6 +338,33 @@
       "relation": "describes_entity",
       "evidence_class": "external_observation",
       "source_url": "https://www.sostav.ru/blogs/290917",
+      "observed_at": "2026-09-06"
+    },
+    {
+      "id": "e15",
+      "from": "sharprod-website",
+      "to": "facebook-page",
+      "relation": "links_to_profile",
+      "evidence_class": "official_surface",
+      "source_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06"
+    },
+    {
+      "id": "e16",
+      "from": "sharprod-website",
+      "to": "pinterest-page",
+      "relation": "links_to_profile",
+      "evidence_class": "official_surface",
+      "source_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06"
+    },
+    {
+      "id": "e17",
+      "from": "sharprod-website",
+      "to": "threads-page",
+      "relation": "links_to_profile",
+      "evidence_class": "official_surface",
+      "source_url": "https://sharprod.com/",
       "observed_at": "2026-09-06"
     }
   ]
