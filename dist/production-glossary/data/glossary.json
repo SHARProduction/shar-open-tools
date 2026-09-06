@@ -1,0 +1,1210 @@
+{
+  "schema_version": "1.0.0",
+  "publisher": {
+    "name": "SHAR Production",
+    "website": "https://sharprod.com/"
+  },
+  "license": "CC-BY-4.0",
+  "terms": [
+    {
+      "id": "production-brief",
+      "category": "planning",
+      "name": {
+        "en": "Production brief",
+        "ru": "Производственный бриф"
+      },
+      "definition": {
+        "en": "Production brief is the agreed document that connects objectives, audience, scope, constraints, deliverables and approvals. In a controlled workflow, its owner, version and acceptance evidence should be recorded.",
+        "ru": "Производственный бриф — это согласованный документ, связывающий цели, аудиторию, объём, ограничения, материалы и согласования. В контролируемом процессе следует фиксировать владельца, версию и доказательства приёмки."
+      },
+      "relevance": {
+        "en": "This concept helps production teams align planning decisions, handoffs and verification without relying on unstated assumptions.",
+        "ru": "Это понятие помогает командам согласовать решения категории «planning», передачу работ и проверку без неявных допущений."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "related": [
+        "delivery-specification",
+        "deliverable-manifest"
+      ]
+    },
+    {
+      "id": "deliverable-manifest",
+      "category": "delivery",
+      "name": {
+        "en": "Deliverable manifest",
+        "ru": "Манифест поставки"
+      },
+      "definition": {
+        "en": "Deliverable manifest is a structured inventory of every file, version, language, technical property and checksum in a delivery. In a controlled workflow, its owner, version and acceptance evidence should be recorded.",
+        "ru": "Манифест поставки — это структурированный перечень каждого файла, версии, языка, технического свойства и контрольной суммы в поставке. В контролируемом процессе следует фиксировать владельца, версию и доказательства приёмки."
+      },
+      "relevance": {
+        "en": "This concept helps production teams align delivery decisions, handoffs and verification without relying on unstated assumptions.",
+        "ru": "Это понятие помогает командам согласовать решения категории «delivery», передачу работ и проверку без неявных допущений."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "related": [
+        "production-brief",
+        "shot-list"
+      ]
+    },
+    {
+      "id": "shot-list",
+      "category": "planning",
+      "name": {
+        "en": "Shot list",
+        "ru": "Съёмочный план"
+      },
+      "definition": {
+        "en": "Shot list is an ordered description of required shots with framing, action, location and production dependencies. In a controlled workflow, its owner, version and acceptance evidence should be recorded.",
+        "ru": "Съёмочный план — это упорядоченное описание нужных кадров с крупностью, действием, локацией и производственными зависимостями. В контролируемом процессе следует фиксировать владельца, версию и доказательства приёмки."
+      },
+      "relevance": {
+        "en": "This concept helps production teams align planning decisions, handoffs and verification without relying on unstated assumptions.",
+        "ru": "Это понятие помогает командам согласовать решения категории «planning», передачу работ и проверку без неявных допущений."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "related": [
+        "deliverable-manifest",
+        "call-sheet"
+      ]
+    },
+    {
+      "id": "call-sheet",
+      "category": "production",
+      "name": {
+        "en": "Call sheet",
+        "ru": "Вызывной лист"
+      },
+      "definition": {
+        "en": "Call sheet is the dated operational plan that tells cast and crew where to be, when to arrive and what is scheduled. In a controlled workflow, its owner, version and acceptance evidence should be recorded.",
+        "ru": "Вызывной лист — это датированный оперативный план, сообщающий группе место, время прибытия и запланированные работы. В контролируемом процессе следует фиксировать владельца, версию и доказательства приёмки."
+      },
+      "relevance": {
+        "en": "This concept helps production teams align production decisions, handoffs and verification without relying on unstated assumptions.",
+        "ru": "Это понятие помогает командам согласовать решения категории «production», передачу работ и проверку без неявных допущений."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "related": [
+        "shot-list",
+        "creative-treatment"
+      ]
+    },
+    {
+      "id": "creative-treatment",
+      "category": "planning",
+      "name": {
+        "en": "Creative treatment",
+        "ru": "Креативный тритмент"
+      },
+      "definition": {
+        "en": "Creative treatment is a narrative and visual proposal that translates a brief into a coherent creative direction before production. In a controlled workflow, its owner, version and acceptance evidence should be recorded.",
+        "ru": "Креативный тритмент — это текстовое и визуальное предложение, переводящее бриф в целостное творческое направление до производства. В контролируемом процессе следует фиксировать владельца, версию и доказательства приёмки."
+      },
+      "relevance": {
+        "en": "This concept helps production teams align planning decisions, handoffs and verification without relying on unstated assumptions.",
+        "ru": "Это понятие помогает командам согласовать решения категории «planning», передачу работ и проверку без неявных допущений."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "related": [
+        "call-sheet",
+        "storyboard"
+      ]
+    },
+    {
+      "id": "storyboard",
+      "category": "planning",
+      "name": {
+        "en": "Storyboard",
+        "ru": "Раскадровка"
+      },
+      "definition": {
+        "en": "Storyboard is a sequence of illustrated frames used to previsualize composition, action, transitions and camera intent. In a controlled workflow, its owner, version and acceptance evidence should be recorded.",
+        "ru": "Раскадровка — это последовательность иллюстрированных кадров для предварительной визуализации композиции, действия, переходов и камеры. В контролируемом процессе следует фиксировать владельца, версию и доказательства приёмки."
+      },
+      "relevance": {
+        "en": "This concept helps production teams align planning decisions, handoffs and verification without relying on unstated assumptions.",
+        "ru": "Это понятие помогает командам согласовать решения категории «planning», передачу работ и проверку без неявных допущений."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "related": [
+        "creative-treatment",
+        "animatic"
+      ]
+    },
+    {
+      "id": "animatic",
+      "category": "planning",
+      "name": {
+        "en": "Animatic",
+        "ru": "Аниматик"
+      },
+      "definition": {
+        "en": "Animatic is a timed edit of storyboard material that tests pacing, duration, transitions and basic audiovisual structure. In a controlled workflow, its owner, version and acceptance evidence should be recorded.",
+        "ru": "Аниматик — это смонтированная по времени раскадровка для проверки темпа, длительности, переходов и базовой аудиовизуальной структуры. В контролируемом процессе следует фиксировать владельца, версию и доказательства приёмки."
+      },
+      "relevance": {
+        "en": "This concept helps production teams align planning decisions, handoffs and verification without relying on unstated assumptions.",
+        "ru": "Это понятие помогает командам согласовать решения категории «planning», передачу работ и проверку без неявных допущений."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "related": [
+        "storyboard",
+        "technical-recce"
+      ]
+    },
+    {
+      "id": "technical-recce",
+      "category": "production",
+      "name": {
+        "en": "Technical recce",
+        "ru": "Технический рекогносцировочный выезд"
+      },
+      "definition": {
+        "en": "Technical recce is a cross-department location inspection focused on access, power, sound, light, safety and logistics. In a controlled workflow, its owner, version and acceptance evidence should be recorded.",
+        "ru": "Технический рекогносцировочный выезд — это межцеховой осмотр локации с проверкой доступа, питания, звука, света, безопасности и логистики. В контролируемом процессе следует фиксировать владельца, версию и доказательства приёмки."
+      },
+      "relevance": {
+        "en": "This concept helps production teams align production decisions, handoffs and verification without relying on unstated assumptions.",
+        "ru": "Это понятие помогает командам согласовать решения категории «production», передачу работ и проверку без неявных допущений."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "related": [
+        "animatic",
+        "location-release"
+      ]
+    },
+    {
+      "id": "location-release",
+      "category": "rights",
+      "name": {
+        "en": "Location release",
+        "ru": "Разрешение на использование локации"
+      },
+      "definition": {
+        "en": "Location release is written permission defining how a recognizable property may be recorded and used in specified media and territories. In a controlled workflow, its owner, version and acceptance evidence should be recorded.",
+        "ru": "Разрешение на использование локации — это письменное разрешение, определяющее съёмку и использование узнаваемого объекта в заданных медиа и территориях. В контролируемом процессе следует фиксировать владельца, версию и доказательства приёмки."
+      },
+      "relevance": {
+        "en": "This concept helps production teams align rights decisions, handoffs and verification without relying on unstated assumptions.",
+        "ru": "Это понятие помогает командам согласовать решения категории «rights», передачу работ и проверку без неявных допущений."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "related": [
+        "technical-recce",
+        "talent-release"
+      ]
+    },
+    {
+      "id": "talent-release",
+      "category": "rights",
+      "name": {
+        "en": "Talent release",
+        "ru": "Согласие участника съёмки"
+      },
+      "definition": {
+        "en": "Talent release is documented consent describing the permitted recording and use of a person’s image, voice or performance. In a controlled workflow, its owner, version and acceptance evidence should be recorded.",
+        "ru": "Согласие участника съёмки — это зафиксированное согласие на съёмку и использование изображения, голоса или исполнения человека. В контролируемом процессе следует фиксировать владельца, версию и доказательства приёмки."
+      },
+      "relevance": {
+        "en": "This concept helps production teams align rights decisions, handoffs and verification without relying on unstated assumptions.",
+        "ru": "Это понятие помогает командам согласовать решения категории «rights», передачу работ и проверку без неявных допущений."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "related": [
+        "location-release",
+        "usage-rights"
+      ]
+    },
+    {
+      "id": "usage-rights",
+      "category": "rights",
+      "name": {
+        "en": "Usage rights",
+        "ru": "Права использования"
+      },
+      "definition": {
+        "en": "Usage rights is the defined media, territories, duration and contexts in which licensed material may be used. In a controlled workflow, its owner, version and acceptance evidence should be recorded.",
+        "ru": "Права использования — это определённые медиа, территории, срок и контексты, в которых разрешено использовать лицензированный материал. В контролируемом процессе следует фиксировать владельца, версию и доказательства приёмки."
+      },
+      "relevance": {
+        "en": "This concept helps production teams align rights decisions, handoffs and verification without relying on unstated assumptions.",
+        "ru": "Это понятие помогает командам согласовать решения категории «rights», передачу работ и проверку без неявных допущений."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "related": [
+        "talent-release",
+        "buyout"
+      ]
+    },
+    {
+      "id": "buyout",
+      "category": "rights",
+      "name": {
+        "en": "Buyout",
+        "ru": "Выкуп прав"
+      },
+      "definition": {
+        "en": "Buyout is a negotiated rights arrangement granting a broad specified scope of use for an agreed payment and term. In a controlled workflow, its owner, version and acceptance evidence should be recorded.",
+        "ru": "Выкуп прав — это согласованная модель прав, предоставляющая широкий оговорённый объём использования за установленную оплату и срок. В контролируемом процессе следует фиксировать владельца, версию и доказательства приёмки."
+      },
+      "relevance": {
+        "en": "This concept helps production teams align rights decisions, handoffs and verification without relying on unstated assumptions.",
+        "ru": "Это понятие помогает командам согласовать решения категории «rights», передачу работ и проверку без неявных допущений."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "related": [
+        "usage-rights",
+        "production-hold"
+      ]
+    },
+    {
+      "id": "production-hold",
+      "category": "planning",
+      "name": {
+        "en": "Production hold",
+        "ru": "Предварительное удержание"
+      },
+      "definition": {
+        "en": "Production hold is a temporary reservation of people, equipment or location pending a binding confirmation or release. In a controlled workflow, its owner, version and acceptance evidence should be recorded.",
+        "ru": "Предварительное удержание — это временное резервирование людей, оборудования или локации до обязательного подтверждения либо снятия резерва. В контролируемом процессе следует фиксировать владельца, версию и доказательства приёмки."
+      },
+      "relevance": {
+        "en": "This concept helps production teams align planning decisions, handoffs and verification without relying on unstated assumptions.",
+        "ru": "Это понятие помогает командам согласовать решения категории «planning», передачу работ и проверку без неявных допущений."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "related": [
+        "buyout",
+        "prelight"
+      ]
+    },
+    {
+      "id": "prelight",
+      "category": "production",
+      "name": {
+        "en": "Prelight",
+        "ru": "Предварительная установка света"
+      },
+      "definition": {
+        "en": "Prelight is scheduled lighting preparation completed before principal shooting to protect creative and operational time. In a controlled workflow, its owner, version and acceptance evidence should be recorded.",
+        "ru": "Предварительная установка света — это запланированная подготовка освещения до основной съёмки для сохранения творческого и производственного времени. В контролируемом процессе следует фиксировать владельца, версию и доказательства приёмки."
+      },
+      "relevance": {
+        "en": "This concept helps production teams align production decisions, handoffs and verification without relying on unstated assumptions.",
+        "ru": "Это понятие помогает командам согласовать решения категории «production», передачу работ и проверку без неявных допущений."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "related": [
+        "production-hold",
+        "camera-report"
+      ]
+    },
+    {
+      "id": "camera-report",
+      "category": "production",
+      "name": {
+        "en": "Camera report",
+        "ru": "Камерный отчёт"
+      },
+      "definition": {
+        "en": "Camera report is a per-roll or per-card record of clips, takes, technical settings, notes and media identifiers from camera. In a controlled workflow, its owner, version and acceptance evidence should be recorded.",
+        "ru": "Камерный отчёт — это запись по роллу или карте о клипах, дублях, настройках, примечаниях и идентификаторах камерных медиа. В контролируемом процессе следует фиксировать владельца, версию и доказательства приёмки."
+      },
+      "relevance": {
+        "en": "This concept helps production teams align production decisions, handoffs and verification without relying on unstated assumptions.",
+        "ru": "Это понятие помогает командам согласовать решения категории «production», передачу работ и проверку без неявных допущений."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "related": [
+        "prelight",
+        "sound-report"
+      ]
+    },
+    {
+      "id": "sound-report",
+      "category": "production",
+      "name": {
+        "en": "Sound report",
+        "ru": "Звуковой отчёт"
+      },
+      "definition": {
+        "en": "Sound report is a record linking audio files, scenes, takes, tracks, microphones, timecode and production notes. In a controlled workflow, its owner, version and acceptance evidence should be recorded.",
+        "ru": "Звуковой отчёт — это запись, связывающая аудиофайлы, сцены, дубли, дорожки, микрофоны, таймкод и производственные заметки. В контролируемом процессе следует фиксировать владельца, версию и доказательства приёмки."
+      },
+      "relevance": {
+        "en": "This concept helps production teams align production decisions, handoffs and verification without relying on unstated assumptions.",
+        "ru": "Это понятие помогает командам согласовать решения категории «production», передачу работ и проверку без неявных допущений."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "related": [
+        "camera-report",
+        "slate"
+      ]
+    },
+    {
+      "id": "slate",
+      "category": "production",
+      "name": {
+        "en": "Slate",
+        "ru": "Хлопушка"
+      },
+      "definition": {
+        "en": "Slate is the visual and audible identifier used to connect scene, shot, take, camera and synchronized sound records. In a controlled workflow, its owner, version and acceptance evidence should be recorded.",
+        "ru": "Хлопушка — это визуальный и звуковой идентификатор, связывающий сцену, кадр, дубль, камеру и синхронный звук. В контролируемом процессе следует фиксировать владельца, версию и доказательства приёмки."
+      },
+      "relevance": {
+        "en": "This concept helps production teams align production decisions, handoffs and verification without relying on unstated assumptions.",
+        "ru": "Это понятие помогает командам согласовать решения категории «production», передачу работ и проверку без неявных допущений."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "related": [
+        "sound-report",
+        "timecode"
+      ]
+    },
+    {
+      "id": "timecode",
+      "category": "media",
+      "name": {
+        "en": "Timecode",
+        "ru": "Таймкод"
+      },
+      "definition": {
+        "en": "Timecode is a sequence of coded time values used to identify frames and synchronize picture, sound and metadata. In a controlled workflow, its owner, version and acceptance evidence should be recorded.",
+        "ru": "Таймкод — это последовательность временных кодов для идентификации кадров и синхронизации изображения, звука и метаданных. В контролируемом процессе следует фиксировать владельца, версию и доказательства приёмки."
+      },
+      "relevance": {
+        "en": "This concept helps production teams align media decisions, handoffs and verification without relying on unstated assumptions.",
+        "ru": "Это понятие помогает командам согласовать решения категории «media», передачу работ и проверку без неявных допущений."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "related": [
+        "slate",
+        "codec"
+      ]
+    },
+    {
+      "id": "codec",
+      "category": "media",
+      "name": {
+        "en": "Codec",
+        "ru": "Кодек"
+      },
+      "definition": {
+        "en": "Codec is the method used to encode and decode audiovisual data, including compression behavior and supported precision. In a controlled workflow, its owner, version and acceptance evidence should be recorded.",
+        "ru": "Кодек — это метод кодирования и декодирования аудиовизуальных данных с определённым сжатием и поддерживаемой точностью. В контролируемом процессе следует фиксировать владельца, версию и доказательства приёмки."
+      },
+      "relevance": {
+        "en": "This concept helps production teams align media decisions, handoffs and verification without relying on unstated assumptions.",
+        "ru": "Это понятие помогает командам согласовать решения категории «media», передачу работ и проверку без неявных допущений."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "related": [
+        "timecode",
+        "media-container"
+      ]
+    },
+    {
+      "id": "media-container",
+      "category": "media",
+      "name": {
+        "en": "Media container",
+        "ru": "Медиаконтейнер"
+      },
+      "definition": {
+        "en": "Media container is a file structure that carries encoded picture, audio, subtitles, metadata and timing in named tracks. In a controlled workflow, its owner, version and acceptance evidence should be recorded.",
+        "ru": "Медиаконтейнер — это файловая структура, содержащая кодированное видео, звук, субтитры, метаданные и тайминг в отдельных дорожках. В контролируемом процессе следует фиксировать владельца, версию и доказательства приёмки."
+      },
+      "relevance": {
+        "en": "This concept helps production teams align media decisions, handoffs and verification without relying on unstated assumptions.",
+        "ru": "Это понятие помогает командам согласовать решения категории «media», передачу работ и проверку без неявных допущений."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "related": [
+        "codec",
+        "chroma-subsampling"
+      ]
+    },
+    {
+      "id": "chroma-subsampling",
+      "category": "media",
+      "name": {
+        "en": "Chroma subsampling",
+        "ru": "Цветовая субдискретизация"
+      },
+      "definition": {
+        "en": "Chroma subsampling is the ratio describing how color-detail samples are stored relative to luminance samples in digital video. In a controlled workflow, its owner, version and acceptance evidence should be recorded.",
+        "ru": "Цветовая субдискретизация — это соотношение частоты хранения цветовых отсчётов относительно яркостных отсчётов в цифровом видео. В контролируемом процессе следует фиксировать владельца, версию и доказательства приёмки."
+      },
+      "relevance": {
+        "en": "This concept helps production teams align media decisions, handoffs and verification without relying on unstated assumptions.",
+        "ru": "Это понятие помогает командам согласовать решения категории «media», передачу работ и проверку без неявных допущений."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "related": [
+        "media-container",
+        "bit-depth"
+      ]
+    },
+    {
+      "id": "bit-depth",
+      "category": "media",
+      "name": {
+        "en": "Bit depth",
+        "ru": "Битовая глубина"
+      },
+      "definition": {
+        "en": "Bit depth is the number of bits used for each sample, which affects available tonal or amplitude precision. In a controlled workflow, its owner, version and acceptance evidence should be recorded.",
+        "ru": "Битовая глубина — это количество битов на отсчёт, влияющее на доступную точность тональных либо амплитудных значений. В контролируемом процессе следует фиксировать владельца, версию и доказательства приёмки."
+      },
+      "relevance": {
+        "en": "This concept helps production teams align media decisions, handoffs and verification without relying on unstated assumptions.",
+        "ru": "Это понятие помогает командам согласовать решения категории «media», передачу работ и проверку без неявных допущений."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "related": [
+        "chroma-subsampling",
+        "proxy-media"
+      ]
+    },
+    {
+      "id": "proxy-media",
+      "category": "post",
+      "name": {
+        "en": "Proxy media",
+        "ru": "Прокси-медиа"
+      },
+      "definition": {
+        "en": "Proxy media is lower-bandwidth synchronized copies used for editorial work while preserving links to camera originals. In a controlled workflow, its owner, version and acceptance evidence should be recorded.",
+        "ru": "Прокси-медиа — это синхронизированные облегчённые копии для монтажа с сохранением связи с оригиналами камеры. В контролируемом процессе следует фиксировать владельца, версию и доказательства приёмки."
+      },
+      "relevance": {
+        "en": "This concept helps production teams align post decisions, handoffs and verification without relying on unstated assumptions.",
+        "ru": "Это понятие помогает командам согласовать решения категории «post», передачу работ и проверку без неявных допущений."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "related": [
+        "bit-depth",
+        "offline-edit"
+      ]
+    },
+    {
+      "id": "offline-edit",
+      "category": "post",
+      "name": {
+        "en": "Offline edit",
+        "ru": "Черновой монтаж"
+      },
+      "definition": {
+        "en": "Offline edit is the creative editing stage performed with working media before final-resolution conform and finishing. In a controlled workflow, its owner, version and acceptance evidence should be recorded.",
+        "ru": "Черновой монтаж — это творческий этап монтажа на рабочих медиа до конформа в полном разрешении и финальной обработки. В контролируемом процессе следует фиксировать владельца, версию и доказательства приёмки."
+      },
+      "relevance": {
+        "en": "This concept helps production teams align post decisions, handoffs and verification without relying on unstated assumptions.",
+        "ru": "Это понятие помогает командам согласовать решения категории «post», передачу работ и проверку без неявных допущений."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "related": [
+        "proxy-media",
+        "online-edit"
+      ]
+    },
+    {
+      "id": "online-edit",
+      "category": "post",
+      "name": {
+        "en": "Online edit",
+        "ru": "Чистовой монтаж"
+      },
+      "definition": {
+        "en": "Online edit is the high-resolution finishing stage that conforms approved editorial decisions and prepares final masters. In a controlled workflow, its owner, version and acceptance evidence should be recorded.",
+        "ru": "Чистовой монтаж — это этап финализации в полном разрешении, собирающий утверждённый монтаж и подготавливающий итоговые мастера. В контролируемом процессе следует фиксировать владельца, версию и доказательства приёмки."
+      },
+      "relevance": {
+        "en": "This concept helps production teams align post decisions, handoffs and verification without relying on unstated assumptions.",
+        "ru": "Это понятие помогает командам согласовать решения категории «post», передачу работ и проверку без неявных допущений."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "related": [
+        "offline-edit",
+        "picture-lock"
+      ]
+    },
+    {
+      "id": "picture-lock",
+      "category": "post",
+      "name": {
+        "en": "Picture lock",
+        "ru": "Блокировка изображения"
+      },
+      "definition": {
+        "en": "Picture lock is the approved editorial state in which shot order and duration are frozen for downstream finishing. In a controlled workflow, its owner, version and acceptance evidence should be recorded.",
+        "ru": "Блокировка изображения — это утверждённое состояние монтажа, где порядок и длительность кадров зафиксированы для последующих работ. В контролируемом процессе следует фиксировать владельца, версию и доказательства приёмки."
+      },
+      "relevance": {
+        "en": "This concept helps production teams align post decisions, handoffs and verification without relying on unstated assumptions.",
+        "ru": "Это понятие помогает командам согласовать решения категории «post», передачу работ и проверку без неявных допущений."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "related": [
+        "online-edit",
+        "edit-handles"
+      ]
+    },
+    {
+      "id": "edit-handles",
+      "category": "post",
+      "name": {
+        "en": "Edit handles",
+        "ru": "Монтажные запасы"
+      },
+      "definition": {
+        "en": "Edit handles is extra source frames supplied before and after a used range so finishing work can adjust transitions safely. In a controlled workflow, its owner, version and acceptance evidence should be recorded.",
+        "ru": "Монтажные запасы — это дополнительные исходные кадры до и после используемого диапазона для безопасной корректировки переходов. В контролируемом процессе следует фиксировать владельца, версию и доказательства приёмки."
+      },
+      "relevance": {
+        "en": "This concept helps production teams align post decisions, handoffs and verification without relying on unstated assumptions.",
+        "ru": "Это понятие помогает командам согласовать решения категории «post», передачу работ и проверку без неявных допущений."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "related": [
+        "picture-lock",
+        "edl"
+      ]
+    },
+    {
+      "id": "edl",
+      "category": "post",
+      "name": {
+        "en": "Edit decision list",
+        "ru": "Монтажный лист EDL"
+      },
+      "definition": {
+        "en": "Edit decision list is a structured list of source and record timecodes describing a sequence of editorial events. In a controlled workflow, its owner, version and acceptance evidence should be recorded.",
+        "ru": "Монтажный лист EDL — это структурированный список исходных и монтажных таймкодов, описывающий последовательность монтажных событий. В контролируемом процессе следует фиксировать владельца, версию и доказательства приёмки."
+      },
+      "relevance": {
+        "en": "This concept helps production teams align post decisions, handoffs and verification without relying on unstated assumptions.",
+        "ru": "Это понятие помогает командам согласовать решения категории «post», передачу работ и проверку без неявных допущений."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "related": [
+        "edit-handles",
+        "aaf"
+      ]
+    },
+    {
+      "id": "aaf",
+      "category": "post",
+      "name": {
+        "en": "AAF interchange",
+        "ru": "Обмен AAF"
+      },
+      "definition": {
+        "en": "AAF interchange is a structured interchange package carrying timeline edits, references and selected media metadata between systems. In a controlled workflow, its owner, version and acceptance evidence should be recorded.",
+        "ru": "Обмен AAF — это структурированный пакет обмена с монтажными решениями, ссылками и выбранными метаданными медиа между системами. В контролируемом процессе следует фиксировать владельца, версию и доказательства приёмки."
+      },
+      "relevance": {
+        "en": "This concept helps production teams align post decisions, handoffs and verification without relying on unstated assumptions.",
+        "ru": "Это понятие помогает командам согласовать решения категории «post», передачу работ и проверку без неявных допущений."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "related": [
+        "edl",
+        "xml-turnover"
+      ]
+    },
+    {
+      "id": "xml-turnover",
+      "category": "post",
+      "name": {
+        "en": "XML turnover",
+        "ru": "Передача XML"
+      },
+      "definition": {
+        "en": "XML turnover is an exported structured timeline description used to transfer edits and metadata between compatible applications. In a controlled workflow, its owner, version and acceptance evidence should be recorded.",
+        "ru": "Передача XML — это экспортированное структурированное описание таймлайна для переноса монтажа и метаданных между совместимыми приложениями. В контролируемом процессе следует фиксировать владельца, версию и доказательства приёмки."
+      },
+      "relevance": {
+        "en": "This concept helps production teams align post decisions, handoffs and verification without relying on unstated assumptions.",
+        "ru": "Это понятие помогает командам согласовать решения категории «post», передачу работ и проверку без неявных допущений."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "related": [
+        "aaf",
+        "lut"
+      ]
+    },
+    {
+      "id": "lut",
+      "category": "color",
+      "name": {
+        "en": "Lookup table",
+        "ru": "Таблица преобразования LUT"
+      },
+      "definition": {
+        "en": "Lookup table is a defined mapping that transforms input color values into output values for viewing or image processing. In a controlled workflow, its owner, version and acceptance evidence should be recorded.",
+        "ru": "Таблица преобразования LUT — это заданное соответствие, преобразующее входные цветовые значения в выходные для просмотра или обработки изображения. В контролируемом процессе следует фиксировать владельца, версию и доказательства приёмки."
+      },
+      "relevance": {
+        "en": "This concept helps production teams align color decisions, handoffs and verification without relying on unstated assumptions.",
+        "ru": "Это понятие помогает командам согласовать решения категории «color», передачу работ и проверку без неявных допущений."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "related": [
+        "xml-turnover",
+        "color-space"
+      ]
+    },
+    {
+      "id": "color-space",
+      "category": "color",
+      "name": {
+        "en": "Color space",
+        "ru": "Цветовое пространство"
+      },
+      "definition": {
+        "en": "Color space is a defined model of color primaries, white point and transfer behavior used to interpret image values. In a controlled workflow, its owner, version and acceptance evidence should be recorded.",
+        "ru": "Цветовое пространство — это определённая модель цветовых первичных, точки белого и передаточной функции для интерпретации значений изображения. В контролируемом процессе следует фиксировать владельца, версию и доказательства приёмки."
+      },
+      "relevance": {
+        "en": "This concept helps production teams align color decisions, handoffs and verification without relying on unstated assumptions.",
+        "ru": "Это понятие помогает командам согласовать решения категории «color», передачу работ и проверку без неявных допущений."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "related": [
+        "lut",
+        "working-color-space"
+      ]
+    },
+    {
+      "id": "working-color-space",
+      "category": "color",
+      "name": {
+        "en": "Working color space",
+        "ru": "Рабочее цветовое пространство"
+      },
+      "definition": {
+        "en": "Working color space is the chosen color representation in which grading, compositing or image calculations are performed. In a controlled workflow, its owner, version and acceptance evidence should be recorded.",
+        "ru": "Рабочее цветовое пространство — это выбранное цветовое представление, в котором выполняются грейдинг, композитинг или расчёты изображения. В контролируемом процессе следует фиксировать владельца, версию и доказательства приёмки."
+      },
+      "relevance": {
+        "en": "This concept helps production teams align color decisions, handoffs and verification without relying on unstated assumptions.",
+        "ru": "Это понятие помогает командам согласовать решения категории «color», передачу работ и проверку без неявных допущений."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "related": [
+        "color-space",
+        "display-transform"
+      ]
+    },
+    {
+      "id": "display-transform",
+      "category": "color",
+      "name": {
+        "en": "Display transform",
+        "ru": "Преобразование отображения"
+      },
+      "definition": {
+        "en": "Display transform is the controlled conversion from scene or working values into values suitable for a target display. In a controlled workflow, its owner, version and acceptance evidence should be recorded.",
+        "ru": "Преобразование отображения — это контролируемое преобразование сценических или рабочих значений в значения для целевого устройства отображения. В контролируемом процессе следует фиксировать владельца, версию и доказательства приёмки."
+      },
+      "relevance": {
+        "en": "This concept helps production teams align color decisions, handoffs and verification without relying on unstated assumptions.",
+        "ru": "Это понятие помогает командам согласовать решения категории «color», передачу работ и проверку без неявных допущений."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "related": [
+        "working-color-space",
+        "conform"
+      ]
+    },
+    {
+      "id": "conform",
+      "category": "post",
+      "name": {
+        "en": "Conform",
+        "ru": "Конформ"
+      },
+      "definition": {
+        "en": "Conform is the process of rebuilding an approved edit from authoritative source media and verified editorial metadata. In a controlled workflow, its owner, version and acceptance evidence should be recorded.",
+        "ru": "Конформ — это процесс восстановления утверждённого монтажа из авторитетных исходных медиа и проверенных монтажных метаданных. В контролируемом процессе следует фиксировать владельца, версию и доказательства приёмки."
+      },
+      "relevance": {
+        "en": "This concept helps production teams align post decisions, handoffs and verification without relying on unstated assumptions.",
+        "ru": "Это понятие помогает командам согласовать решения категории «post», передачу работ и проверку без неявных допущений."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "related": [
+        "display-transform",
+        "vfx-pull"
+      ]
+    },
+    {
+      "id": "vfx-pull",
+      "category": "vfx",
+      "name": {
+        "en": "VFX pull",
+        "ru": "Выгрузка для VFX"
+      },
+      "definition": {
+        "en": "VFX pull is the selected source ranges, handles and metadata prepared for a visual-effects task or vendor. In a controlled workflow, its owner, version and acceptance evidence should be recorded.",
+        "ru": "Выгрузка для VFX — это выбранные исходные диапазоны, запасы и метаданные, подготовленные для задачи или подрядчика VFX. В контролируемом процессе следует фиксировать владельца, версию и доказательства приёмки."
+      },
+      "relevance": {
+        "en": "This concept helps production teams align vfx decisions, handoffs and verification without relying on unstated assumptions.",
+        "ru": "Это понятие помогает командам согласовать решения категории «vfx», передачу работ и проверку без неявных допущений."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "related": [
+        "conform",
+        "clean-plate"
+      ]
+    },
+    {
+      "id": "clean-plate",
+      "category": "vfx",
+      "name": {
+        "en": "Clean plate",
+        "ru": "Чистый плейт"
+      },
+      "definition": {
+        "en": "Clean plate is an image or shot of the scene without selected foreground elements, supplied for compositing and removal work. In a controlled workflow, its owner, version and acceptance evidence should be recorded.",
+        "ru": "Чистый плейт — это изображение или кадр сцены без выбранных объектов переднего плана для композитинга и удаления. В контролируемом процессе следует фиксировать владельца, версию и доказательства приёмки."
+      },
+      "relevance": {
+        "en": "This concept helps production teams align vfx decisions, handoffs and verification without relying on unstated assumptions.",
+        "ru": "Это понятие помогает командам согласовать решения категории «vfx», передачу работ и проверку без неявных допущений."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "related": [
+        "vfx-pull",
+        "audio-stem"
+      ]
+    },
+    {
+      "id": "audio-stem",
+      "category": "audio",
+      "name": {
+        "en": "Audio stem",
+        "ru": "Звуковой stem"
+      },
+      "definition": {
+        "en": "Audio stem is a grouped mix component such as dialogue, music or effects delivered separately for versioning and control. In a controlled workflow, its owner, version and acceptance evidence should be recorded.",
+        "ru": "Звуковой stem — это сгруппированный компонент микса, например диалоги, музыка или эффекты, передаваемый отдельно для версий и контроля. В контролируемом процессе следует фиксировать владельца, версию и доказательства приёмки."
+      },
+      "relevance": {
+        "en": "This concept helps production teams align audio decisions, handoffs and verification without relying on unstated assumptions.",
+        "ru": "Это понятие помогает командам согласовать решения категории «audio», передачу работ и проверку без неявных допущений."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "related": [
+        "clean-plate",
+        "loudness-target"
+      ]
+    },
+    {
+      "id": "loudness-target",
+      "category": "audio",
+      "name": {
+        "en": "Loudness target",
+        "ru": "Целевая громкость"
+      },
+      "definition": {
+        "en": "Loudness target is the specified integrated loudness and measurement conditions a finished audio program should meet. In a controlled workflow, its owner, version and acceptance evidence should be recorded.",
+        "ru": "Целевая громкость — это заданная интегральная громкость и условия измерения, которым должна соответствовать готовая звуковая программа. В контролируемом процессе следует фиксировать владельца, версию и доказательства приёмки."
+      },
+      "relevance": {
+        "en": "This concept helps production teams align audio decisions, handoffs and verification without relying on unstated assumptions.",
+        "ru": "Это понятие помогает командам согласовать решения категории «audio», передачу работ и проверку без неявных допущений."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "related": [
+        "audio-stem",
+        "true-peak"
+      ]
+    },
+    {
+      "id": "true-peak",
+      "category": "audio",
+      "name": {
+        "en": "True peak",
+        "ru": "Истинный пик"
+      },
+      "definition": {
+        "en": "True peak is an estimate of maximum signal level between digital samples used to control inter-sample overload. In a controlled workflow, its owner, version and acceptance evidence should be recorded.",
+        "ru": "Истинный пик — это оценка максимального уровня сигнала между цифровыми отсчётами для контроля межотсчётной перегрузки. В контролируемом процессе следует фиксировать владельца, версию и доказательства приёмки."
+      },
+      "relevance": {
+        "en": "This concept helps production teams align audio decisions, handoffs and verification without relying on unstated assumptions.",
+        "ru": "Это понятие помогает командам согласовать решения категории «audio», передачу работ и проверку без неявных допущений."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "related": [
+        "loudness-target",
+        "caption-cue"
+      ]
+    },
+    {
+      "id": "caption-cue",
+      "category": "localization",
+      "name": {
+        "en": "Caption cue",
+        "ru": "Реплика субтитров"
+      },
+      "definition": {
+        "en": "Caption cue is a timed subtitle or caption unit containing text and optional speaker or positioning information. In a controlled workflow, its owner, version and acceptance evidence should be recorded.",
+        "ru": "Реплика субтитров — это временная единица субтитров с текстом и при необходимости указанием говорящего либо позиции. В контролируемом процессе следует фиксировать владельца, версию и доказательства приёмки."
+      },
+      "relevance": {
+        "en": "This concept helps production teams align localization decisions, handoffs and verification without relying on unstated assumptions.",
+        "ru": "Это понятие помогает командам согласовать решения категории «localization», передачу работ и проверку без неявных допущений."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "related": [
+        "true-peak",
+        "caption-reading-speed"
+      ]
+    },
+    {
+      "id": "caption-reading-speed",
+      "category": "localization",
+      "name": {
+        "en": "Caption reading speed",
+        "ru": "Скорость чтения субтитров"
+      },
+      "definition": {
+        "en": "Caption reading speed is the relationship between displayed text length and on-screen duration used to assess readability. In a controlled workflow, its owner, version and acceptance evidence should be recorded.",
+        "ru": "Скорость чтения субтитров — это соотношение длины показанного текста и времени на экране, используемое для оценки читаемости. В контролируемом процессе следует фиксировать владельца, версию и доказательства приёмки."
+      },
+      "relevance": {
+        "en": "This concept helps production teams align localization decisions, handoffs and verification without relying on unstated assumptions.",
+        "ru": "Это понятие помогает командам согласовать решения категории «localization», передачу работ и проверку без неявных допущений."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "related": [
+        "caption-cue",
+        "forced-narrative"
+      ]
+    },
+    {
+      "id": "forced-narrative",
+      "category": "localization",
+      "name": {
+        "en": "Forced narrative subtitle",
+        "ru": "Форсированный субтитр"
+      },
+      "definition": {
+        "en": "Forced narrative subtitle is a subtitle shown only when essential foreign dialogue or on-screen text requires translation. In a controlled workflow, its owner, version and acceptance evidence should be recorded.",
+        "ru": "Форсированный субтитр — это субтитр, показываемый только когда важная иностранная речь или экранный текст требуют перевода. В контролируемом процессе следует фиксировать владельца, версию и доказательства приёмки."
+      },
+      "relevance": {
+        "en": "This concept helps production teams align localization decisions, handoffs and verification without relying on unstated assumptions.",
+        "ru": "Это понятие помогает командам согласовать решения категории «localization», передачу работ и проверку без неявных допущений."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "related": [
+        "caption-reading-speed",
+        "localization-kit"
+      ]
+    },
+    {
+      "id": "localization-kit",
+      "category": "localization",
+      "name": {
+        "en": "Localization kit",
+        "ru": "Пакет локализации"
+      },
+      "definition": {
+        "en": "Localization kit is the approved source media, scripts, references, terminology and specifications supplied for language adaptation. In a controlled workflow, its owner, version and acceptance evidence should be recorded.",
+        "ru": "Пакет локализации — это утверждённые исходные медиа, сценарии, референсы, терминология и спецификации для языковой адаптации. В контролируемом процессе следует фиксировать владельца, версию и доказательства приёмки."
+      },
+      "relevance": {
+        "en": "This concept helps production teams align localization decisions, handoffs and verification without relying on unstated assumptions.",
+        "ru": "Это понятие помогает командам согласовать решения категории «localization», передачу работ и проверку без неявных допущений."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "related": [
+        "forced-narrative",
+        "qc-report"
+      ]
+    },
+    {
+      "id": "qc-report",
+      "category": "quality",
+      "name": {
+        "en": "QC report",
+        "ru": "Отчёт контроля качества"
+      },
+      "definition": {
+        "en": "QC report is a traceable record of tested files, methods, findings, severity, disposition and reviewer identity. In a controlled workflow, its owner, version and acceptance evidence should be recorded.",
+        "ru": "Отчёт контроля качества — это прослеживаемая запись о проверенных файлах, методах, замечаниях, критичности, решениях и проверяющем. В контролируемом процессе следует фиксировать владельца, версию и доказательства приёмки."
+      },
+      "relevance": {
+        "en": "This concept helps production teams align quality decisions, handoffs and verification without relying on unstated assumptions.",
+        "ru": "Это понятие помогает командам согласовать решения категории «quality», передачу работ и проверку без неявных допущений."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "related": [
+        "localization-kit",
+        "checksum"
+      ]
+    },
+    {
+      "id": "checksum",
+      "category": "delivery",
+      "name": {
+        "en": "Checksum",
+        "ru": "Контрольная сумма"
+      },
+      "definition": {
+        "en": "Checksum is a value calculated from file contents and compared later to detect accidental data change or corruption. In a controlled workflow, its owner, version and acceptance evidence should be recorded.",
+        "ru": "Контрольная сумма — это значение, вычисленное из содержимого файла и сравниваемое позже для выявления случайного изменения или повреждения. В контролируемом процессе следует фиксировать владельца, версию и доказательства приёмки."
+      },
+      "relevance": {
+        "en": "This concept helps production teams align delivery decisions, handoffs and verification without relying on unstated assumptions.",
+        "ru": "Это понятие помогает командам согласовать решения категории «delivery», передачу работ и проверку без неявных допущений."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "related": [
+        "qc-report",
+        "three-two-one-backup"
+      ]
+    },
+    {
+      "id": "three-two-one-backup",
+      "category": "archive",
+      "name": {
+        "en": "3-2-1 backup",
+        "ru": "Резервирование 3-2-1"
+      },
+      "definition": {
+        "en": "3-2-1 backup is a resilience pattern using three copies, two storage types and one copy in a separate location. In a controlled workflow, its owner, version and acceptance evidence should be recorded.",
+        "ru": "Резервирование 3-2-1 — это схема устойчивости с тремя копиями, двумя типами хранения и одной копией в отдельном месте. В контролируемом процессе следует фиксировать владельца, версию и доказательства приёмки."
+      },
+      "relevance": {
+        "en": "This concept helps production teams align archive decisions, handoffs and verification without relying on unstated assumptions.",
+        "ru": "Это понятие помогает командам согласовать решения категории «archive», передачу работ и проверку без неявных допущений."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "related": [
+        "checksum",
+        "archive-master"
+      ]
+    },
+    {
+      "id": "archive-master",
+      "category": "archive",
+      "name": {
+        "en": "Archive master",
+        "ru": "Архивный мастер"
+      },
+      "definition": {
+        "en": "Archive master is the authoritative preservation file retained with provenance, checksums, metadata and restore procedures. In a controlled workflow, its owner, version and acceptance evidence should be recorded.",
+        "ru": "Архивный мастер — это авторитетный файл долговременного хранения с происхождением, контрольными суммами, метаданными и процедурой восстановления. В контролируемом процессе следует фиксировать владельца, версию и доказательства приёмки."
+      },
+      "relevance": {
+        "en": "This concept helps production teams align archive decisions, handoffs and verification without relying on unstated assumptions.",
+        "ru": "Это понятие помогает командам согласовать решения категории «archive», передачу работ и проверку без неявных допущений."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "related": [
+        "three-two-one-backup",
+        "mezzanine-master"
+      ]
+    },
+    {
+      "id": "mezzanine-master",
+      "category": "delivery",
+      "name": {
+        "en": "Mezzanine master",
+        "ru": "Мезонинный мастер"
+      },
+      "definition": {
+        "en": "Mezzanine master is a high-quality intermediate master designed for reliable creation of multiple distribution encodes. In a controlled workflow, its owner, version and acceptance evidence should be recorded.",
+        "ru": "Мезонинный мастер — это высококачественный промежуточный мастер для надёжного создания нескольких дистрибуционных кодировок. В контролируемом процессе следует фиксировать владельца, версию и доказательства приёмки."
+      },
+      "relevance": {
+        "en": "This concept helps production teams align delivery decisions, handoffs and verification without relying on unstated assumptions.",
+        "ru": "Это понятие помогает командам согласовать решения категории «delivery», передачу работ и проверку без неявных допущений."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "related": [
+        "archive-master",
+        "delivery-specification"
+      ]
+    },
+    {
+      "id": "delivery-specification",
+      "category": "delivery",
+      "name": {
+        "en": "Delivery specification",
+        "ru": "Спецификация поставки"
+      },
+      "definition": {
+        "en": "Delivery specification is the authoritative requirements for files, codecs, naming, metadata, languages, QC and transfer method. In a controlled workflow, its owner, version and acceptance evidence should be recorded.",
+        "ru": "Спецификация поставки — это авторитетные требования к файлам, кодекам, именованию, метаданным, языкам, контролю качества и способу передачи. В контролируемом процессе следует фиксировать владельца, версию и доказательства приёмки."
+      },
+      "relevance": {
+        "en": "This concept helps production teams align delivery decisions, handoffs and verification without relying on unstated assumptions.",
+        "ru": "Это понятие помогает командам согласовать решения категории «delivery», передачу работ и проверку без неявных допущений."
+      },
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "related": [
+        "mezzanine-master",
+        "production-brief"
+      ]
+    }
+  ]
+}
